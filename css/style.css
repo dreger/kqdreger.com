@@ -14,16 +14,16 @@ h2,
 h3,
 p { padding: 8px 0px;}
 h1{ 
-    font-size: 3em; 
+    font-size: 2.2em; 
     font-weight: bold;
-    letter-spacing: -2px;
+    letter-spacing: 1px;
 }
 h2{ 
     font-size: 1.9em; 
     letter-spacing: -1px;
     line-height: 1.5em;
 }
-h3{ font-size: 1.2em; font-weight: bold;}
+h3{ font-size: 1.2em; font-weight: bold; }
 
 a {
     color: #111;
@@ -44,8 +44,8 @@ a:hover {
 
 .wrapper {
     background: #000;
-    width: 500px;
-    margin: 50px auto ;
+    width: 600px;
+    margin: 50px auto;
     background:#fff;
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset; 
@@ -57,7 +57,6 @@ a:hover {
 .wrapper .header {
     background: url('../images/mountain-lion.jpg') bottom center no-repeat#111;
     color: #fff;
-    margin: 50px auto ;
     -webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
        -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset; 
             box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
@@ -73,13 +72,17 @@ a:hover {
 .header {
     padding: 45px;
     overflow: auto;
+    text-transform: uppercase;
+}
+.header .navigation{
+    font-size: .45em;
 }
 .header h3 {
     padding: 0;
     margin: 15px 0px 0px 0px;
-}
-.header h3 a{
-    font-weight: normal;
+    font-weight: 200;
+    letter-spacing: 0px;
+    text-transform: none;
 }
 .header .left{
     float: left;
@@ -89,6 +92,8 @@ a:hover {
 }
 .header a {
     color: #fff;
+    font-weight: 200;
+
 }
 .header a:hover {
     color: #ddd;
@@ -162,12 +167,25 @@ ul {
     Thanks @beep
 */
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 615px) {
   .wrapper {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
     margin: 0 auto;
     width: 100%;
   }
-  .header h1 {
-    font-size: 1.9em; 
+  .header{
+      text-align: left;
+      -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+    background: none;
+  }
+  .header h1{
+    font-size: 1.7em; 
   }
 }
