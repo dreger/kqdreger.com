@@ -72,6 +72,20 @@ a:hover {
 
 .header {
     padding: 45px;
+    overflow: auto;
+}
+.header h3 {
+    padding: 0;
+    margin: 15px 0px 0px 0px;
+}
+.header h3 a{
+    font-weight: normal;
+}
+.header .left{
+    float: left;
+}
+.header .right{
+    float: right;
 }
 .header a {
     color: #fff;
