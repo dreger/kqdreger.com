@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kyle Dreger | Notes / {{ page.title }}</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="en-us" http-equiv="Content-Language" />
+        <meta name="author" content="Kyle Dreger" />
+        <meta name="description" content="Kyle Dreger makes beautiful software, crafts webpages from pixels and writes. He also likes tea." />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        
+        {% include analytics.html %}
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <h1><a href="/" title="Home">notes | kyle dreger</a></h1>
+
+               <h3><a href="/about.html">about me</a> &middot; <a href="/archive.html">archive</a> &middot; <a href="/subscribe.html">subscribe</a></h3>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>

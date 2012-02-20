@@ -1,0 +1,159 @@
+@import url("reset.css");
+
+body {
+    color: #444;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.6em;   
+    background: #fff;
+    font-size: 13px;
+    padding: 0;
+    font-weight: normal;
+}
+h1,
+h2,
+h3,
+p { padding: 8px 0px;}
+h1{ 
+    font-size: 3em; 
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+h2{ 
+    font-size: 1.9em; 
+    letter-spacing: -1px;
+    line-height: 1.5em;
+}
+h3{ font-size: 1.2em; font-weight: bold;}
+
+a {
+    color: #111;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all  0.1s ease;
+    font-weight: bold;
+}
+a:hover { 
+    color: #999;
+}
+
+/* 
+    Wrapper 
+*/
+
+.wrapper {
+    background: #000;
+    width: 500px;
+    margin: 50px auto ;
+    background:#fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
+       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset; 
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+.wrapper .header {
+    background: url('../images/mountain-lion.jpg') bottom center no-repeat#111;
+    color: #fff;
+    margin: 50px auto ;
+    -webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
+       -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset; 
+            box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+/*  
+    Header
+*/
+
+.header {
+    padding: 45px;
+}
+.header a {
+    color: #fff;
+}
+.header a:hover {
+    color: #ddd;
+}
+
+/* 
+    Content 
+*/
+
+.content {
+    padding: 45px;
+}
+.post-info {
+    white-space: nowrap;
+}
+.article {
+    margin-bottom: 40px;
+}
+.article:last-child{
+    margin-bottom: 0px;
+}
+.footer{
+    border-top: 3px solid #eee;
+    font-style: italic;
+    padding: 10px 25px;
+}
+
+/*
+    Post
+    Styles
+*/
+
+em {
+    font-weight: bolder;
+}
+.post{ 
+    display: block; 
+}
+span.jesus {
+    color: #b31902;
+}
+.date-archive{
+    font-family: monospace;
+}
+blockquote {
+    margin: 10px 20px;
+    padding-left: 15px;
+    border-left: solid 6px #111;
+    line-height: 1.5em;
+}
+pre {
+    font: normal normal 87.5%/1.71428571em monospace,sans-serif;
+    margin: 1.71428571em;
+}
+code {
+    font-family: 'DejaVu Sans Mono', 'Courier New', monospace;
+}
+ol,
+ul {
+    list-style-position: outside;
+    padding: 10px 0px;
+}
+.post-list { width: 100% }
+.post-list-date { float: right }
+
+/*
+    Media queries to 
+    make content responsive
+    to different screen sizes.
+
+    Thanks @beep
+*/
+
+@media screen and (max-width: 520px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .header h1 {
+    font-size: 1.9em; 
+  }
+}
