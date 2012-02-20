@@ -4,7 +4,7 @@ body {
     color: #444;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.6em;   
-    background: #fff;
+    background: url('../images/fabric_plaid.png') top left repeat #fff;
     font-size: 13px;
     padding: 0;
     font-weight: normal;
@@ -182,12 +182,16 @@ ul {
        -moz-border-radius: 0px;
             border-radius: 0px;
     text-align: left;
-    padding: 25px 10px;
+    padding: 25px;
+  }
+  .header .right{
+      float: none;
+      padding-top: 10px;
   }
   .header h1{
     font-size: 1.7em; 
   }
   .content{
-    padding: 10px;
+    padding: 25px;
   }
 }
