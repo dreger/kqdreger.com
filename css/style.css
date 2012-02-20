@@ -177,14 +177,17 @@ ul {
     margin: 0 auto;
     width: 100%;
   }
-  .header{
-      text-align: left;
-      -webkit-border-radius: 0px;
+  .wrapper .header{
+    -webkit-border-radius: 0px;
        -moz-border-radius: 0px;
             border-radius: 0px;
-    background: none;
+    text-align: left;
+    padding: 25px 10px;
   }
   .header h1{
     font-size: 1.7em; 
+  }
+  .content{
+    padding: 10px;
   }
 }
