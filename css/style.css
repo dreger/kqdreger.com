@@ -43,25 +43,11 @@ a:hover {
 */
 
 .box {
-    width: 550px;
+    width: 500px;
     margin: 50px auto;
     background:#fff;
-        padding: 20px 30px;
-
-    border: 3px solid #ddd;
-    /*-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) ;
-       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) ; 
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) ;*/
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
-}
-.header {
-    background: url('../imagess/mountain-lion.jpg') bottom center no-repeat #fff;
-    color: #111;
-    /*-webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) ;
-       -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) ; 
-            box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) ;*/
+    padding: 20px 30px;
+    border: 2px solid #ddd;
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
             border-radius: 10px;
@@ -72,9 +58,14 @@ a:hover {
 */
 
 .header {
-    padding: 45px;
+    padding: 20px 0px;
     overflow: auto;
     text-transform: uppercase;
+    background: url('../imagess/mountain-lion.jpg') bottom center no-repeat #fff;
+    color: #111;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
 }
 .header .navigation{
     font-size: .45em;
@@ -107,12 +98,7 @@ a:hover {
 .post-info {
     white-space: nowrap;
 }
-.article {
-    margin-bottom: 40px;
-}
-.article:last-child{
-    margin-bottom: 0px;
-}
+
 .footer{
     border-top: 3px solid #eee;
     font-style: italic;
