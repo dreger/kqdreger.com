@@ -50,9 +50,9 @@ a:hover {
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset; 
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
 }
 .wrapper .header {
     background: url('../images/mountain-lion.jpg') bottom center no-repeat#111;
@@ -60,9 +60,9 @@ a:hover {
     -webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
        -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset; 
             box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
 }
 
 /*  
