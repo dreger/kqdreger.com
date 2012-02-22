@@ -5,7 +5,23 @@ title: About
 
 ## Hello, There
 
-[Twitter](http://twitter.com/kyledreger) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger) &middot; [Say hello](mailto:hi@kyledreger.com?subject=hello!)
+[Twitter](http://twitter.com/kyledreger) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger) &middot; <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=49){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")701,\\\"100\\\\010\\\\r\\\\530\\\\020\\\\610\\\\O300\\\\"+
+"620\\\\GJHGH>e{K(6N1gd*qgw \\\\\\\\@630\\\\520\\\\300\\\\430\\\\700\\\\QM1J" +
+"000\\\\710\\\\X720\\\\200\\\\:79,$j>>,c9,  1%ZQBRw\\\\\\\\[310\\\\@YG@FH100" +
+"\\\\}\\\"\\\\{~k771\\\\5r--%eebqjst\\\\R610\\\\620\\\\320\\\\130\\\\700\\\\" +
+"320\\\\100\\\\010\\\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf." +
+"gnirtS=+o;721=%y;++y)701<i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{" +
+")y,x(f noitcnuf\")"                                                          ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
 
 Hi, I'm Kyle. Welcome to my blog, grab a cup of coffee and stay a while. 
 
@@ -28,4 +44,23 @@ My life goal is to help people. I hope what I write here helps you, in at least 
 
 ## Contact
 
-If you wish to comment on a post, or contact me, [shoot me an email](mailto:hi@kyledreger.com?subject=hello!) and I'll get back to you within a day or two. I'm also available on Twitter [@kyledreger](http://twitter.com/kyledreger). For the cool nerds, go ahead and open up an issue at [kyledreger/feedback](https://github.com/kyledreger/feedback/issues/new) on GitHub.
+I'm available, and often prefer, for contact on Twitter [@kyledreger](http://twitter.com/kyledreger). For the cool nerds, go ahead and open up an issue at [kyledreger/feedback](https://github.com/kyledreger/feedback/issues/new) on GitHub.If you wish to comment on a post, or contact me, <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!84{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(0),3\\\"\\\\20\\\\02\\\\03\\\\\\\\22\\\\01\\\\00\\\\\\\\05\\\\00\\\\03\\" +
+"\\\\\\3D01\\\\\\\\37\\\\0N\\\\AH{rr=:zu|b7{za{2//Sdds+{hZ%a8voth_^Z 23\\\\0" +
+"1\\\\02\\\\\\\\3E00\\\\\\\\25\\\\00\\\\02\\\\\\\\36\\\\01\\\\02\\\\\\\\07\\" +
+"\\02\\\\00\\\\\\\\2O00\\\\\\\\01\\\\06\\\\01\\\\\\\\1B03\\\\\\\\17\\\\06\\\\"+
+"01\\\\\\\\\\\\r5\\\\02\\\\\\\\02\\\\00\\\\00\\\\\\\\10\\\\02\\\\03\\\\\\\\\\"+
+"\\t!\\\\\\\\t7\\\\2d7(Z33W03\\\\\\\\nd\\\\\\\\PP[F22\\\\0P\\\\14\\\\0r\\\\\\"+
+"\\\\\\06\\\\0C\\\\N@@^PZ10\\\\0Q\\\\FJTOpC\\\\z(\\\"}fo;n uret}r);+)y+^(i)t" +
+"(eAodrCha.c(xdeCoarChomfrg.intr=So+7;12%=;y=iy+0)=3i=f({i+)i+l;i<0;i=r(foh;" +
+"gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x fontincfu)\\\"\")"                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
