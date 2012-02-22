@@ -3,7 +3,7 @@ layout: default
 title: Kyle Dreger | Notes
 ---
 {% for post in site.posts limit:5 %}
-    <div class="article">
+    <div class="box">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="post-info">By Kyle Dreger &middot; <a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a></p>
         <span class="post">
@@ -12,6 +12,6 @@ title: Kyle Dreger | Notes
     </div>
 {% endfor %}
 
-<div class="footer">
+<div class="box footer">
     <p>You've just read the five most recently published articles. If you'd like to read some of my older posts, check out the <a href="/archive.html">archive</a>.</p>
 </div>
