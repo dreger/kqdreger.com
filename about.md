@@ -44,7 +44,7 @@ My life goal is to help people. I hope what I write here helps you, in at least 
 
 ## Contact
 
-I'm available, and often prefer, for contact on Twitter [@kyledreger](http://twitter.com/kyledreger). For the cool nerds, go ahead and open up an issue at [kyledreger/feedback](https://github.com/kyledreger/feedback/issues/new) on GitHub.If you wish to comment on a post, or contact me, <script type="text/javascript">
+If you wish to comment on something I've written, I am available on Twitter [@kyledreger](http://twitter.com/kyledreger) for most comments. For the cool nerds, go ahead and open up an issue at [kyledreger/feedback](https://github.com/kyledreger/feedback/issues/new) on GitHub. Of course, you are always welcome to <script type="text/javascript">
 //<![CDATA[
 <!--
 var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
