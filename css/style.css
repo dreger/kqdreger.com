@@ -42,24 +42,27 @@ a:hover {
     Wrapper 
 */
 
-.box {
+.wrapper {
     background: #000;
-    width: 500px;
-    margin: 0 auto;
-    padding: 45px;
+    width: 600px;
+    margin: 50px auto;
     background:#fff;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
-       -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset; 
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
+       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset; 
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
 }
-.box:last-child{
-    margin-bottom: 50px;
-    -webkit-border-radius: 0px 0px 10px 10px;
-       -moz-border-radius: 0px 0px 10px 10px;
-            border-radius: 0px 0px 10px 10px;
+.wrapper .header {
+    background: url('../images/mountain-lion.jpg') bottom center no-repeat#111;
+    color: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
+       -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset; 
+            box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
 }
 
 /*  
@@ -67,10 +70,9 @@ a:hover {
 */
 
 .header {
+    padding: 45px;
     overflow: auto;
     text-transform: uppercase;
-    background: url('../images/mountain-lion.jpg') bottom center no-repeat #eee;
-    margin: 50px auto;
 }
 .header .navigation{
     font-size: .45em;
@@ -100,11 +102,22 @@ a:hover {
     Content 
 */
 
+.content {
+    padding: 45px;
+}
 .post-info {
     white-space: nowrap;
 }
+.article {
+    margin-bottom: 40px;
+}
+.article:last-child{
+    margin-bottom: 0px;
+}
 .footer{
+    border-top: 3px solid #eee;
     font-style: italic;
+    padding: 10px 25px;
 }
 
 /*
