@@ -44,9 +44,9 @@ a:hover {
 
 .box {
     width: 500px;
-    margin: 50px auto;
+    margin: 40px auto;
     background:#fff;
-    padding: 20px 30px;
+    padding: 25px 30px;
     border: 2px solid #ddd;
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
@@ -58,7 +58,7 @@ a:hover {
 */
 
 .header {
-    padding: 20px 0px;
+    padding: 25px 0px;
     overflow: auto;
     text-transform: uppercase;
     background: url('../imagess/mountain-lion.jpg') bottom center no-repeat #fff;
@@ -97,6 +97,7 @@ a:hover {
 
 .post-info {
     white-space: nowrap;
+    font-size: 1em;
 }
 
 .footer{
