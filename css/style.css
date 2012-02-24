@@ -4,6 +4,7 @@ body {
     color: #444;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.6em;   
+    /*background: url('../images/fabric_plaid.png') top left repeat #fff;*/
     font-size: 13px;
     padding: 0;
     font-weight: normal;
@@ -34,30 +35,19 @@ a {
     font-weight: bold;
 }
 a:hover { 
-    color: #999;
+    color: #ddd;
 }
 
 /* 
     Wrapper 
 */
 
-.wrapper {
-    width: 600px;
+.box {
+    width: 500px;
     margin: 50px auto;
-    background:#fdfdfd;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
-       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset; 
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
-}
-.header {
-    background: url('../images/mountain-lion.jpg') bottom center no-repeat#111;
-    color: #fff;
-    -webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
-       -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset; 
-            box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
+    background:#fff;
+    padding: 20px 30px;
+    border: 2px solid #ddd;
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
             border-radius: 10px;
@@ -68,9 +58,14 @@ a:hover {
 */
 
 .header {
-    padding: 45px;
+    padding: 20px 0px;
     overflow: auto;
     text-transform: uppercase;
+    background: url('../imagess/mountain-lion.jpg') bottom center no-repeat #fff;
+    color: #111;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
 }
 .header .navigation{
     font-size: .45em;
@@ -89,7 +84,7 @@ a:hover {
     float: right;
 }
 .header a {
-    color: #fff;
+    color: #111;
     font-weight: 200;
 }
 .header a:hover {
@@ -100,18 +95,10 @@ a:hover {
     Content 
 */
 
-.content {
-    padding: 30px 45px;
-}
 .post-info {
     white-space: nowrap;
 }
-.article {
-    margin-bottom: 40px;
-}
-.article:last-child{
-    margin-bottom: 0px;
-}
+
 .footer{
     border-top: 3px solid #eee;
     font-style: italic;
@@ -165,22 +152,19 @@ ul {
 */
 
 @media screen and (max-width: 615px) {
-  .wrapper {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    -webkit-border-radius: 0px;
-       -moz-border-radius: 0px;
-            border-radius: 0px;
+  .box {
     margin: 0 auto;
-    width: 100%;
-  }
-  .wrapper .header{
+    padding: 20px;
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid #ddd;
     -webkit-border-radius: 0px;
        -moz-border-radius: 0px;
             border-radius: 0px;
+  }
+  .box .header{
     text-align: left;
-    padding: 25px;
+    padding: 0;
   }
   .header .right{
       float: none;
@@ -189,8 +173,5 @@ ul {
   }
   .header h1{
     font-size: 2.5em; 
-  }
-  .content{
-    padding: 25px;
   }
 }
