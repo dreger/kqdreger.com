@@ -5,7 +5,7 @@ title: About
 
 ## Hello, There
 
-[Twitter](http://twitter.com/kyledreger) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger) &middot; [Say hello](mailto:hi@kyledreger.com?subject=hello!)
+[Tumblr: 21&deg;](http://kyledreger.tumblr.com) &middot; [Twitter](http://twitter.com/kyledreger) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger) &middot; [Say hello](mailto:hi@kyledreger.com?subject=hello!)
 
 Hi, I'm Kyle. Welcome to my blog, grab a cup of coffee and stay a while. 
 
