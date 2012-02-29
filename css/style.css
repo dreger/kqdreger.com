@@ -43,7 +43,7 @@ a:hover {
 */
 
 .box {
-    width: 500px;
+    width: 600px;
     margin: 0px auto;
     background:#fff;
     padding: 20px 30px;
@@ -160,7 +160,7 @@ ul {
     Thanks @beep
 */
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 715px) {
   .box {
     margin: 0 auto;
     padding: 20px;
