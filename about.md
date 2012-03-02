@@ -5,9 +5,7 @@ title: About
 
 ## Hello, there
 
-[Tumblr](http://kyledreger.tumblr.com) &middot; [Twitter](http://twitter.com/kyledreger) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger)
-
-[Say hello](mailto:me@kyledreger.com?subject=hello!)
+[Tumblr](http://kyledreger.tumblr.com) &middot; [Twitter](http://twitter.com/kyledreger) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger) &middot; [Say hello!](mailto:me@kyledreger.com?subject=hello!)
 
 Every website needs a good "about" page. He's my shot at it: 
 
