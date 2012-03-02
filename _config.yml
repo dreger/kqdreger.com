@@ -1,2 +1,2 @@
-permalink: wrote/:title.html
+permalink: /:title.html
 auto: true
