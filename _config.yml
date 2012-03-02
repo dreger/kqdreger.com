@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 permalink: /:title.html
+=======
+permalink: wrote/:title.html
+>>>>>>> version 2!
 auto: true

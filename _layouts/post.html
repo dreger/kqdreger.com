@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="box">
-	<h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
-	<p class="post-info">By Kyle Dreger &middot; <a href="{{ page.url }}">{{ page.date | date: "%b %d, %Y" }}</a></p>
+	<h2><span class="post-info">{{ page.date | date: "%b %d, %Y" }}</span> <a href="{{ page.url }}">{{ page.title }}</a></h2>
+	
 	<span class="post">
 		{{ content }}
 	</span>

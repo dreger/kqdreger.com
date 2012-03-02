@@ -52,6 +52,9 @@ a:hover {
     -webkit-border-radius: 0px;
        -moz-border-radius: 0px;
             border-radius: 0px;
+
+    border: 0;
+    padding: 10px 30px;
 }
 .box:first-child{
     margin: 50px auto;
@@ -67,14 +70,17 @@ a:hover {
 */
 
 .header {
-    padding: 20px 0px;
+    padding: 30px 0px;
     overflow: auto;
-    text-transform: uppercase;
-    background: url('../imagess/mountain-lion.jpg') bottom center no-repeat #fff;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+    text-transform: lowercase;
+    background: url('../imagess/mountain-lion.jpg') bottom center no-repeat #eee;
     color: #111;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
+}
+.header-text{
+    width: 600px;
+    margin: 0 auto;
 }
 .header .navigation{
     font-size: .45em;
@@ -106,6 +112,9 @@ a:hover {
 
 .post-info {
     white-space: nowrap;
+    font-size: .6em;
+    text-transform: lowercase;
+    padding-right: 20px;
 }
 
 .footer{
