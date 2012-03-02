@@ -1,10 +1,9 @@
 @import url("reset.css");
 
 body {
-    color: #444;
+    color: #222;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.6em;   
-    /*background: url('../images/fabric_plaid.png') top left repeat #fff;*/
     font-size: 13px;
     padding: 0;
     font-weight: normal;
@@ -74,7 +73,7 @@ a:hover {
     width: 100%;
     margin: 0px 0px 30px 0px;
     text-transform: lowercase;
-    background: #eee;
+    background: url('../images/noise-bg.png') top left #eee;
     color: #111;
     border-bottom: 1px solid #ccc;
 }
@@ -170,7 +169,7 @@ ul {
     Thanks @beep
 */
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .box {
     margin: 0 auto;
     padding: 20px;
@@ -181,7 +180,7 @@ ul {
        -moz-border-radius: 0px;
             border-radius: 0px;
   }
-  .box .header{
+   .header{
     text-align: left;
     padding: 0;
   }
@@ -197,4 +196,4 @@ ul {
   .header h1{
     font-size: 2.5em; 
   }
-}
+}*/
