@@ -1,2 +1,3 @@
 permalink: /:title.html
 auto: true
+paginate: 5
