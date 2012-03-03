@@ -2,7 +2,7 @@
 layout: default
 title: Kyle Dreger | Notes
 ---
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
 <div class="box">
 
 
@@ -12,3 +12,9 @@ title: Kyle Dreger | Notes
     	</span> --> 
 </div>
 {% endfor %}
+
+<div class="footer">
+	<a href="https://twitter.com/kyledreger" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @kyledreger</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
