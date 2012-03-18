@@ -57,7 +57,17 @@ a:hover {
 {
   text-align: justify;
 }
+.content a
+{
+  color: #1ba5d3;
+}
 
+.post-list
+{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
 .post-list li
 {
   padding: 8px;
@@ -87,7 +97,10 @@ img
 {
   width: 100%;
 }
-
+ul
+{
+  list-style: square;
+}
 /*
     Media queries to 
     make content responsive

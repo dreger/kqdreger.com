@@ -30,7 +30,7 @@ body {
     line-height: 1;
 }
 ol, ul {
-    list-style: none;
+    padding-left: 30px;
 }
 blockquote, q {
     quotes: none;
@@ -43,4 +43,10 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+em {
+    font-style: italic;
+}
+strong {
+    font-style: bold;
 }
