@@ -1,53 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Kyle Dreger</title>
-<meta name="description" content="Maker of fine software. Loves tea and good company.">
-<meta name="author" content="Kyle Dreger">
-<link rel="stylesheet" href="css/style.css">
-<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<!-- google analytics -->
-<script type="text/javascript">
-
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-17208416-14']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-
-</script>
-<!-- / google analytics -->
-
-</head>
-<body>
-
-<div class="wrapper">
-<div class="header">
-<!-- <h1><a href="#">kyle dreger</a></h1> -->
-</div>
-</div>
-
-<div class="wrapper">
-<div class="content">
-
-<h2>University of Mount Union &middot; 2014</h2>
-
-
-<h2>Say hello to &middot; <a href="m&#97;&#x69;&#x6C;&#116;&#111;:&#109;&#x65;&#64;&#107;&#121;&#108;&#x65;&#x64;&#x72;&#x65;&#x67;&#x65;&#x72;&#46;&#99;&#111;&#109;">&#109;&#x65;&#64;&#107;&#121;&#108;&#x65;&#x64;&#x72;&#x65;&#x67;&#x65;&#x72;&#46;&#99;&#111;&#109;</a></h2>
-
-
-<h2><em class="twitter"><a href="http://twitter.com/kyledreger">Twitter</a> &middot; <em class="blog"><a href="http://kyledreger.tumblr.com">Blog</a> &middot; <a href="http://dl.dropbox.com/u/418570/kyledreger/kyle-dreger-resume.pdf">Resume.pfd</a></h2>
-</div>
-</div>
-</body>
-</html>
+---
+layout: default
+title: Kyle Dreger
+---
+<ul class="post-list">
+{% for post in site.posts %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%d %b %Y" }}</span>
+	</li>
+{% endfor %}
+</ul>

@@ -1,3 +1,3 @@
-# Kyle loves you
+# Kyle's notes
 
-I hope you enjoy this tiny site. 
+A small weblog edited by Kyle Dreger. Hosted on [Github](http://github.com/kyledreger)

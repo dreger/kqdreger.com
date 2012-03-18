@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diary of a Facebook quitter
+title: Eight days without Facebook
 ---
 
 It’s been eight days since [I deactivated my Facebook account](http://dregerkq.org/2012/02/byebye-facebook/). After being truly logged out for more than a week, here are a few of the interesting things I’ve noticed:

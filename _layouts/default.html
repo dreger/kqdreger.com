@@ -17,12 +17,19 @@
     </head>
 
     <body>
+        <div class="wrapper">
             <div class="header">
-               
-                <div class="header-text">
-                <h1><a href="/" title="Home">Kyle Dreger</a><span class="right navigation"><a href="/about.html">About</a> <a href="/archive.html">Archive</a>  <a href="/subscribe.html">Subscribe</a></span></h1>
+                <a href="/"><img src="../images/header.png"></a>
+                <!--  -->
             </div>
-        </div>
-        {{ content }}
+            
+            <div class="navigation">
+                <a href="/about.html">About</a> | <a href="/contact.html">Contact</a> | <a href="/subscribe.html">Subscribe</a>
+            </div>
+
+            <div class="content">
+                {{ content }}
+            </div>
+        </div> <!-- / wrapper -->
     </body>
 </html>

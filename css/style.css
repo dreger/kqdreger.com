@@ -1,27 +1,29 @@
 @import url("reset.css");
 
 body {
-    color: #555;
+    color: #222;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 1.5em;   
-    background: url('../images/fabric_plaid.png') top left repeat #111;
-    font-size: 16px;
+    line-height: 1.6em;   
+    font-size: 13px;
     padding: 0;
-    font-weight: 200;
+    font-weight: normal;
 }
 h1,
 h2,
 h3,
 p { padding: 8px 0px;}
 h1{ 
-    font-size: 3em; 
+    font-size: 1.5em; 
     font-weight: bold;
-}
-h2:first-child{
-	margin-top: 0em;
+    letter-spacing: 1px;
 }
 h2{ 
+    font-size: 1.3em; 
+    letter-spacing: -1px;
+    line-height: 1.5em;
 }
+h3{ font-size: 1.1em; font-weight: bold; }
+
 a {
     color: #111;
     text-decoration: none;
@@ -35,65 +37,80 @@ a:hover {
     color: #999;
 }
 
-/* 
-    Wrapper 
-*/
-
-.wrapper {
-    background: #000;
-    width: 350px;
+.wrapper
+{
+    width: 400px;
     margin: 50px auto;
-    background:#fff;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
-       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset; 
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 100px rgba(0, 0, 0, 0.06) inset;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
 }
-.wrapper .header {
-    background: url('../images/kdbg.png') bottom center no-repeat #fff;
-    height: 280px;
-    margin: 0px;
-    color: #fff;
-    -webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
-       -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset; 
-            box-shadow: 0 1px 4px rgba(200, 200, 200, 0.27), 0 0 100px rgba(200, 200, 200, 0.06) inset;
-    -webkit-border-radius: 10px;
-       -moz-border-radius: 10px;
-            border-radius: 10px;
+.header
+{
+  height: 70px;
+  width: 400px;
+}
+.navigation
+{
+  text-align: center;
+  margin: 25px 0px 60px;
+}
+.content
+{
+  text-align: justify;
 }
 
-/* 
-    Content 
-*/
-
-.content {
-    padding: 15px 25px;
-    text-align: left;
+.post-list li
+{
+  padding: 3px 5px;
+}
+.post-list li
+{
+  border-bottom: 1px solid #eee;
+}
+.post-list li:last-child
+{
+  border-bottom: none;
+}
+.post-list li .date
+{
+    float: right;
+    font-family: monospace;
+    font-size: .9em;
 }
 
-/*
-    Post
-    Styles
-*/
-
-em {
-    font-weight: bolder;
-}
 /*
     Media queries to 
     make content responsive
     to different screen sizes.
 
     Thanks @beep
+*/
 
-
-@media screen and (max-width: 520px) {
-  .wrapper {
-    width: 95%;
+/*@media screen and (max-width: 700px) {
+  .box, .header{
+    margin: 0;
+    padding: 20px;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #ddd;
   }
-  .header h1 {
-    font-size: 1.9em; 
+   .header{
+    font-size: 11px;
+    width: 400px;
+    text-align: left;
+    padding: 20px;
+  }
+  .navigation a{
+    font-size: .7em;
+  }
+  .header .right{
+      float: none;
+      padding: 30px 0px;
+      display: block;
+  }
+  .box:last-child{
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ddd;
+}
+  .header h1{
+    font-size: 2.5em; 
   }
 }*/
