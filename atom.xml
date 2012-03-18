@@ -4,10 +4,10 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Kyle Dreger</title>
-<link href="http://http://notes.kyledreger.com/atom.xml" rel="self"/>
-<link href="http://notes.kyledreger.com/"/>
+<link href="http://kyledreger.com/atom.xml" rel="self"/>
+<link href="http://kyledreger.com/"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>http://notes.kyledreger.com/</id>
+<id>http://kyledreger.com/</id>
 <author>
     <name>Kyle Dreger</name>
     <email>hi@kyledreger.com</email>
@@ -16,13 +16,13 @@ layout: nil
 {% for post in site.posts limit:10 %}
     <entry>
         <title>{{ post.title }}</title>
-        <link href="http://notes.kyledreger.com{{ post.url }}"/>
+        <link href="http://kyledreger.com{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://notes.kyledreger.com{{ post.id }}</id>
+        <id>http://kyledreger.com{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
         <author>
         <name>Kyle Dreger</name>
-            <uri>http://notes.kyledreger.com/about.html</uri>
+            <uri>http://kyledreger.com/about.html</uri>
         </author>
     </entry>
 {% endfor %}
