@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I lost (and found) my iPhone
+title: I lost my iPhone
 ---
 
 Fun little thing that happened to me today:
