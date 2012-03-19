@@ -101,6 +101,12 @@ ul
 {
   list-style: square;
 }
+pre
+{
+  font-family: monospace;
+  padding: 10px 0px 10px 30px;
+  font-size: .9em;
+}
 /*
     Media queries to 
     make content responsive
