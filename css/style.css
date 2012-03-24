@@ -7,7 +7,11 @@ body {
     font-size: 13px;
     padding: 0;
     font-weight: normal;
+<<<<<<< HEAD
     border-top: 12px solid #B41636;
+=======
+    border-top: 12px solid #00BAFF;
+>>>>>>> slight tweaks
 }
 h1,
 h2,
@@ -20,8 +24,9 @@ h1{
 }
 h2{ 
     font-size: 1.3em; 
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     line-height: 1.5em;
+    font-weight: lighter;
 }
 h3{ font-size: 1.1em; font-weight: bold; }
 
@@ -32,7 +37,6 @@ a {
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all  0.1s ease;
-    font-weight: bold;
 }
 a:hover { 
     color: #999;
@@ -59,7 +63,11 @@ a:hover {
 }
 .content a
 {
+<<<<<<< HEAD
   color: #B41636;
+=======
+  color: #00BAFF;
+>>>>>>> slight tweaks
 }
 
 .post-list
@@ -68,12 +76,19 @@ a:hover {
   margin: 0px;
   list-style: none;
 }
-.post-list li
+.post-list a
 {
-  padding: 8px;
+  color: #222;
+}
+.post-list li:hover
+{
+  border-left: 3px solid #00BAFF;
 }
 .post-list li
 {
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  padding: 6px;
   border-bottom: 1px solid #eee;
 }
 .post-list li:last-child
