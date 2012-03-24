@@ -7,11 +7,8 @@ body {
     font-size: 13px;
     padding: 0;
     font-weight: normal;
-<<<<<<< HEAD
-    border-top: 12px solid #B41636;
-=======
     border-top: 12px solid #00BAFF;
->>>>>>> slight tweaks
+
 }
 h1,
 h2,
@@ -63,11 +60,7 @@ a:hover {
 }
 .content a
 {
-<<<<<<< HEAD
-  color: #B41636;
-=======
   color: #00BAFF;
->>>>>>> slight tweaks
 }
 
 .post-list
