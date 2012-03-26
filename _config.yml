@@ -1,2 +1,5 @@
+source: ./src
+destination: ./site
+
 auto: true
 permalink: /blog/:title/
