@@ -1,0 +1,259 @@
+/* 
+    THE FOLLOWING IS THE EXCELLENT CSS RESET
+    DESIGNED BY MEYERWEB. 
+
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*   
+    ALL FOLLOWING CODE WAS (IS)
+    WRITTEN BY KYLE DREGER. A 
+    GRASSHOPPER OF WEB DESIGN AND 
+    USER EXPERIENCE. HE CALLS THIS 
+    THEME *NEUE BLANK* 
+
+    PLEASE CONTACT HIM WITH QUESTIONS
+
+    YOU ROCK. 
+
+    @orange: #e56e12;
+    @green:  #9fc640;
+*/
+
+body {
+    color: #111;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.6em;   
+    background: #fff;
+    font-size: .9em;
+    padding: 0;
+    font-weight: normal;
+}
+h1,
+h2,
+h3,
+p { padding: 8px 0px;}
+h1{ font-size: 1.8em; font-weight: bold; }
+h2{ font-size: 1.5em; font-weight: bold; }
+h3{ font-size: 1.2em; }
+
+a {
+    color: #e56e12;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all  0.1s ease;
+}
+a:hover { 
+    color: #242424;
+}
+
+/* 
+    WRAPPER 
+*/
+
+#wrapper {
+    background: #fff;
+    width: 850px;
+    margin: 0px;
+}
+
+/*  
+    HEADER
+*/
+
+#header {
+    top: 0;
+    left: 0;
+    color: #ccc;
+    padding: 45px 25px;
+    position: fixed;
+    width: 200px;
+}
+#header a {
+    color: #242424;
+}
+#header a:hover {
+    color: #e56e12;
+}
+
+#header .left { float: left; }
+#header .right { float: right; }
+
+/* 
+    CONTENT 
+*/
+
+#content {
+    border-left: 1px solid #eee;
+    float: left;
+    margin: 0px 0px 0px 250px;
+    padding: 45px;
+    padding-right: 0px;
+}
+#content h2 {
+    text-align: left;
+}
+#content h2 a {
+    color: #242424;
+}
+#content h2 a:hover {
+    color: #e56e12;
+}
+.meta {
+    text-align: left;
+    font-size: .8em;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+         border-radius: 3px;
+    text-shadow: none;
+}
+.meta a {
+    border-bottom: none;
+    color: #e56e12;
+}
+.meta a:hover {
+    color: #242424;
+}
+#article {
+    margin-bottom: 3em;
+}
+#footer{
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    padding: 25px;
+    border-top: 3px solid #eee;
+    font-style: italic;
+}
+
+/*
+    POST 
+    STYLES
+*/
+
+em {
+    font-weight: bolder;
+}
+span.post{ 
+    display: block; 
+}
+span.jesus {
+    color: #b31902;
+}
+.date-archive{
+    font-family: monospace;
+}
+blockquote {
+    margin: 10px 20px;
+    padding-left: 15px;
+    border-left: solid 6px #e56e12;
+    line-height: 1.5em;
+}
+img {
+    display: block;
+    margin: 1.5em auto;
+}
+pre {
+    font: normal normal 87.5%/1.71428571em monospace,sans-serif;
+    margin: 1.71428571em;
+}
+code {
+    font-family: 'DejaVu Sans Mono', 'Courier New', monospace;
+}
+ol,
+ul {
+    list-style-position: outside;
+    padding: 10px 0px;
+}
+.post-list { width: 100% }
+.post-list-date { float: right }
+
+
+
+/*
+    MEDIA QUERY TIME!
+
+    OR, DON'T LOOK LIKE 
+    CRAP ON A SMALLER 
+    SCREEN. 
+
+    RESPONSIVE WEB DESIGN
+    FOR THE WIN. 
+*/
+
+@media screen and (max-width: 885px) {
+  #wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+  #content {
+    padding-right: 45px;
+  }
+}
+@media screen and (max-width: 610px) {
+  #wrapper {
+    margin: 0 auto;
+    width: 95%;
+  }
+  #header{
+      float: left;
+      position: relative;
+      width: 80%;
+      padding: 20px;
+  }
+  #content{
+      border-top: solid 5px #eee;
+      border-left: none;
+      float: left;
+      border: none;
+      margin: 0;
+      padding: 20px;
+  }
+}

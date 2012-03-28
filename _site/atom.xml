@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Kyle Dreger</title>
+<link href="http://kyledreger.com/atom.xml" rel="self"/>
+<link href="http://kyledreger.com/"/>
+<updated>2012-03-28T16:16:55-04:00</updated>
+<id>http://kyledreger.com/</id>
+<author>
+    <name>Kyle Dreger</name>
+    <email>hi@kyledreger.com</email>
+</author>
+
+
+    <entry>
+        <title>One year</title>
+        <link href="http://kyledreger.com/blog/one-year/"/>
+        <updated>2012-03-23T00:00:00-04:00</updated>
+        <id>http://kyledreger.com/blog/one-year</id>
+        <content type="html">&lt;p&gt;It&amp;#8217;s been one year since I started dating my girlfriend. She is my best friend, someone I confide in all the time and my spiritual support. I&amp;#8217;ll never forget the day she invited me to coffee, our first date, and how I made sure to ask her back &amp;#8220;same time, same place&amp;#8221; the next day.&lt;/p&gt;
+
+&lt;p&gt;I could not have asked God for a better partner and I thank Him for her every day. I ask that He look over us as we embark on another year together and that we remember that nothing is too big for Him to handle. I cannot wait to keep growing with her.&lt;/p&gt;
+
+&lt;p&gt;Love you, sweetheart.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='http://dl.dropbox.com/u/418570/kyledreger/one-year.jpg' alt='my best friend' /&gt;&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Cold Writing</title>
+        <link href="http://kyledreger.com/blog/cold-writing/"/>
+        <updated>2012-03-06T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/cold-writing</id>
+        <content type="html">&lt;p&gt;I&amp;#8217;ve found that as I write papers for class, sometimes I hit a wall. This isn&amp;#8217;t a full case of writers block, rather I feel the enthusiasm start to fade. What was just a feverish output of thoughts to typed characters is starting to die. Eventually, I&amp;#8217;ve stopped writing and am looking at my cursor blink. Blink. Blink. Blink.&lt;/p&gt;
+
+&lt;p&gt;This is when I hit Command + &amp;#8220;N&amp;#8221; and open up a new document. Without thinking more than a few seconds, I start &amp;#8220;cold&amp;#8221; writing about anything I want. Stacking wood, running in the snow, listening to instrumental music - anything that comes to mind. The block is gone, my writing flame has recaptured it&amp;#8217;s intensity and I&amp;#8217;m having fun. I&amp;#8217;ll pound out 500 words on this new topic in the time it took me to get 200 for the first one.&lt;/p&gt;
+
+&lt;p&gt;When I&amp;#8217;m done, I return to my original document. Every single time I do, the writers block is gone and I get back to typing. This sort of &amp;#8220;cold writing&amp;#8221; to jumpstart my spirit is a great exercise. I don&amp;#8217;t do it every time I write a paper, however once or twice throughout the course of a longer essay is normal. I&amp;#8217;m not worried about the time I lose when doing these short side-articles; the small amount of time I invest to reset my thoughts and come back focused is well worth it.&lt;/p&gt;
+
+&lt;p&gt;Some of my ideas for blog posts have come from cold writing. In fact, this post you&amp;#8217;re reading was being written as I worked on a paper assigned for when I get back from spring break. Writing to get rid of writer&amp;#8217;s block, go figure.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Writing Like A Hacker</title>
+        <link href="http://kyledreger.com/blog/writing-like-a-hacker/"/>
+        <updated>2012-03-05T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/writing-like-a-hacker</id>
+        <content type="html">&lt;p&gt;&lt;em&gt;Abstract: From history to English, I write all my school papers like a hacker. Using text editors without support for spell checking or formatting, I create a frictionless creative flow which allows me get my ideas out faster.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve been writing for a long time, even though I&amp;#8217;m not the best at it. Nevertheless, ever since I was a little kid, I would sit down and write stories and journal away my life. Today, however, instead of crayons and pens on paper, I type.&lt;/p&gt;
+
+&lt;p&gt;When most people I see sit down to write, they fire up Microsoft Word and begin typing. However, they rarely get more than a few lines before they stop. They move the cursor back a couple steps and then right-click on a bright, red underlined misspelled word. After clicking the correctly spelled version, they continue on, only to stop a couple of lines later. Without even have a paragraph&amp;#8217;s worth of content and they are editing.&lt;/p&gt;
+
+&lt;p&gt;This completely kills the creative flow a writing process allows them to enter. Stopping every couple lines to fix something that has no impact on what they meant only wastes their time. It also can violently kick them out of a creative state of mind.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s not their fault, it&amp;#8217;s the tool they are using. Microsoft Word is a word processor, meaning that it&amp;#8217;s job is to alert you to every misspelling, grammatical error and let you format your final document. This is all great for when you need to format your document, but when you&amp;#8217;re starting out with ideas, it can crush them because you get caught up in all those other things.&lt;/p&gt;
+
+&lt;h3 id='hackers_do_it_differently'&gt;Hackers do it differently&lt;/h3&gt;
+
+&lt;p&gt;Computer &amp;#8220;hackers&amp;#8221; aren&amp;#8217;t all malicious individuals trying to grab your VISA digits off the local Starbucks wifi. Most of them are just like me: enthusiastic about computers and the tools we use to interact with them. Most of our tools are simple. They do one or two things, but they do them phenomenally well. While the toolsets can vary greatly between individuals, the one tool every hacker has is a text editor.&lt;/p&gt;
+
+&lt;p&gt;The beauty of text editors is that they are practically ubiquitous with computers themselves. Pre-installed on almost every operating system, a text editor&amp;#8217;s default file format is the .txt (text) file extension, one of the most compatible format in the world. Working with text files, I&amp;#8217;ve never run into the problem of &lt;strong&gt;not&lt;/strong&gt; being able to open my documents on a computer other than my own.&lt;/p&gt;
+
+&lt;p&gt;A text editor is exactly what it sounds like and rarely anything more. It &lt;strong&gt;edits&lt;/strong&gt; text and lets you do it quickly. The list of what it doesn&amp;#8217;t do is strict:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No spell checking&lt;/li&gt;
+
+&lt;li&gt;No bulleted lists&lt;/li&gt;
+
+&lt;li&gt;No images&lt;/li&gt;
+
+&lt;li&gt;No links&lt;/li&gt;
+
+&lt;li&gt;No bolding&lt;/li&gt;
+
+&lt;li&gt;No italics&lt;/li&gt;
+
+&lt;li&gt;No underlining&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just text. The reason hackers love this is that it removes distraction. When I&amp;#8217;m sitting down to write code, I want to focus on code. The color and font are irrelevant. This makes writing code incredibly straightforward - just write code. Why can&amp;#8217;t english writers have the same benefit?&lt;/p&gt;
+
+&lt;h3 id='my_writing_process'&gt;My writing process&lt;/h3&gt;
+
+&lt;p&gt;Taking this bare-bones approach to writing code, I decided that I wanted to apply the same principle to English writing. Almost 90% of my time spent writing looks something like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open up &lt;a href='http://iawriter.com'&gt;iA Writer&lt;/a&gt; - a super-simple text editor. One font, one size, no options.&lt;/li&gt;
+
+&lt;li&gt;Start dumping my thoughts into the page. My goal isn&amp;#8217;t to have a nicely formatted paper, it&amp;#8217;s to get all my ideas out and into words. My application doesn&amp;#8217;t point out misspellings, so often I don&amp;#8217;t even notice any of them until much later when I review.&lt;/li&gt;
+
+&lt;li&gt;Once I&amp;#8217;ve gotten all my ideas out, and expanded the new ones that came while I was writing, I do basic editing. Paragraph breaks, content flow and overall structure.&lt;/li&gt;
+
+&lt;li&gt;I read the entire document a couple times, refining it each time and adding, or moving, thoughts and sentences.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When I&amp;#8217;m done, the paper is almost done. I haven&amp;#8217;t wasted a second being pulled backwards into my text to fix glowing red errors, or changing the font. For the entirety of my time, I&amp;#8217;ve been writing. Once I&amp;#8217;m done, I copy and paste the text into something like Microsoft Word to do the final touchup and spell checking. I print out the final product and I&amp;#8217;m done.&lt;/p&gt;
+
+&lt;p&gt;Writing in a bare-bones text editor is like writing on pen and paper again. When I was little and, in my opinion, at my most creative, little red lines didn&amp;#8217;t show up under misspellings in my journal. I was free to write and get out my ideas. Bringing the new digital medium back to that level allows a writer to do what they&amp;#8217;ve been trying to do: write.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Assembly language love affair</title>
+        <link href="http://kyledreger.com/blog/assembly/"/>
+        <updated>2012-03-01T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/assembly</id>
+        <content type="html">&lt;p&gt;I have a love / hate relationship with assembly language.&lt;/p&gt;
+
+&lt;h3 id='things_i_hate'&gt;Things I hate:&lt;/h3&gt;
+
+&lt;p&gt;It&amp;#8217;s an archaic language. Unless you are working on microchip design, you are probably never going to work with it. Assembly language programmers have to worry and keep track of every single byte of memory - you&amp;#8217;re minipulating it by hand. Basically, the training wheels of high-level languages like Java and C++ are off and you have to manage everything.&lt;/p&gt;
+
+&lt;p&gt;A simple statement in Java that outputs a string of text looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;System.out.println(&amp;quot;Hello, World.&amp;quot;);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Not bad. You can almost read along with the code. You are calling on the System to Print Out a Line with the contents of the quotation marks. Easy enough to understand.&lt;/p&gt;
+
+&lt;p&gt;This is the same statement, written in assembly:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.data
+msg:	.asciiz	&amp;quot;Hello, World.&amp;quot;
+.text
+main:
+li	$v0, 4
+la	$a0, msg
+syscall&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Yup. Practically unreadable code, more machine than human, and more than four times as many lines to accomplish what we did above. Imagine coding logic into this.&lt;/p&gt;
+
+&lt;h3 id='things_i_love'&gt;Things I love&lt;/h3&gt;
+
+&lt;p&gt;You may know how to drive a car, but actually understanding how the motor and pistons drive it forward is a unique insight. Although I will never, ever, program anything substantial in assembly language, I feel I am a more conscientious coder because I understand the basics.&lt;/p&gt;
+
+&lt;p&gt;That being said, assembly and I probably won&amp;#8217;t end up together.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Swiss Army</title>
+        <link href="http://kyledreger.com/blog/swiss/"/>
+        <updated>2012-02-29T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/swiss</id>
+        <content type="html">&lt;p&gt;I love Swiss Army knives. When I was a kid, I had a red-handled one that had all the essential things a boy on a small farm needed. I used to spend hours whittling away at sticks, or tightening up the screws on my toys and bike. More than once, the tweezers were brought out to get a microscopic splinter out of my palm. I used the heck out of that thing and it always found a place in my pocket.&lt;/p&gt;
+
+&lt;p&gt;Then one day, when I was 14, I misplaced it. To this day I haven&amp;#8217;t been able to find it. I later received a small, camo-clad hunting knife for Christmas from our family friends. It served my purposes for the time, but I still missed the versatility of my old knife.&lt;/p&gt;
+
+&lt;p&gt;Yesterday as I was browsing Amazon, I saw that they had a sale going on - Take $10 off your Swiss Army knife purchase! - and I took that as a sign. After searching the models, I decided on the &lt;a href='http://amzn.com/B0007QCOB0'&gt;&amp;#8220;Tinker&amp;#8221;&lt;/a&gt;. I like the small number of tools and that it comes in a black paint. I&amp;#8217;m expecting it to arrive sometime today, it will be great to have an old friend back in my bag.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Hoodies</title>
+        <link href="http://kyledreger.com/blog/hoodies/"/>
+        <updated>2012-02-19T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/hoodies</id>
+        <content type="html">&lt;p&gt;I love them. Hooded sweatshirts, or &amp;#8220;hoodies&amp;#8221;, are one of my favorite pieces of clothing. Whenever I get a hoodie, I&amp;#8217;ll wear it until the fabric is begging to be thrown away. I love the simple colors and pulling the sleeves up when you sit down to type. I enjoy trying to make the drawstring perfectly symmetrical. Eventually, however, I almost always end up pulling that string out.&lt;/p&gt;
+
+&lt;p&gt;They&amp;#8217;re versatile, able to be worn through the winter and on cool summer nights. They work well at bedtime, I often sleep in one when it&amp;#8217;s colder. In the morning, putting on a hoodie to drink your tea outside in the sunshine is a great feeling.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m almost certain hoodies were made for runners. Especially during the fall, lacing up a trusty pair of tennis shoes, pulling a hoodie over your head and taking to the road is blissful.&lt;/p&gt;
+
+&lt;p&gt;Zip-up, pull-over, it doesn&amp;#8217;t matter. I&amp;#8217;ve always found a sense of comfort when I pull a freshly cleaned hooded sweatshirt out of the dryer. They&amp;#8217;ll be something I&amp;#8217;ll always own.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Eight days without Facebook</title>
+        <link href="http://kyledreger.com/blog/eight-days-without-facebook/"/>
+        <updated>2012-02-10T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/eight-days-without-facebook</id>
+        <content type="html">&lt;p&gt;It’s been eight days since &lt;a href='http://kyledreger.com/byebye-facebook/'&gt;I deactivated my Facebook account&lt;/a&gt;. After being truly logged out for more than a week, here are a few of the interesting things I’ve noticed:&lt;/p&gt;
+
+&lt;h3 id='facebook_the_40_minute_hour'&gt;Facebook: the 40 minute hour&lt;/h3&gt;
+
+&lt;p&gt;This week without Facebook may have been one of the most productive, non-exam weeks of my life. It’s not that I was spending an inordinate amount of time on the site to begin with, but taking away the 10-20 minute visits every couple hours has been great. I’m getting a whole lot more done.&lt;/p&gt;
+
+&lt;h3 id='their_design_kinda_sucks'&gt;Their design kinda sucks&lt;/h3&gt;
+
+&lt;p&gt;I think while I was actively using the site, I put up with the quirky, inefficient layout because I needed it. Now that I don’t, I feel the overall design is flawed. When concepts like &lt;a href='http://www.informationarchitects.jp/en/ias-2006-facebook-designs-redesigned/'&gt;Information Architect’s idea from 2006&lt;/a&gt; exist, it’s sad to see Facebook has gotten worse at displaying less information. Every time I look at the screen of someone logged into Facebook, it’s like looking at the vomit of a robot who overdosed on blurry pictures and a copy of the Fake AP Stylebook.&lt;/p&gt;
+
+&lt;h3 id='can_i_get_yo_number'&gt;Can I get yo number?&lt;/h3&gt;
+
+&lt;p&gt;My phone address book, sans any Facebook sync, is woefully out of date and incomplete. If I were going to return to Facebook for anything, it would be so I could use the directory of up-to-date contact information on people I actually care to communicate with. This is ignoring the, maybe larger, issue that I can no longer search for people I’ve just met. I didn’t realize how much I relied on Facebook to keep tabs on my friends’ emails and phone numbers.&lt;/p&gt;
+
+&lt;h3 id='im_more_happy'&gt;I’m more happy&lt;/h3&gt;
+
+&lt;p&gt;This is completely subjective, but I feel more happy. I’ve started this habit where, when I get bored, I practice coding and work on small side-projects. My old habit would have been opening a browser to check Facebook, but now I have time to do something I actually enjoy and will make me a better programmer. It’s about reallocating my time into things that will give me long-term yield.&lt;/p&gt;
+
+&lt;p&gt;I’m still adjusting to being outside the Facebook bubble. Like I mentioned, it’s rough not having all your friends’ contact information readily available. However, most of the people I talk to these days go to school with me and are searchable in Mount’s online directory. I’m curious what another week logged out will show me, especially since it will be over a major holiday.&lt;/p&gt;
+
+&lt;p&gt;Short synopsis: I’m out and don’t have any rationale for going back.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Prepare today</title>
+        <link href="http://kyledreger.com/blog/prepare-today/"/>
+        <updated>2012-02-06T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/prepare-today</id>
+        <content type="html">&lt;p&gt;Walking back to the dorm in the cool air tonight, I came up with a neat way of thinking about work ethic and effort:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Prepare today so you can do tomorrow what you couldn&amp;#8217;t do yesterday.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds like a quote straight out of a self-help book, but there&amp;#8217;s some real inspiration in there. Work hard to become a better, more healthy and loving person every day. Look in the mirror each night and ask yourself if you&amp;#8217;ve made the world a little better. If you haven&amp;#8217;t, there&amp;#8217;s always oportunity to change that tomorrow.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>Goodbye, Facebook</title>
+        <link href="http://kyledreger.com/blog/byebye-facebook/"/>
+        <updated>2012-02-02T19:30:00-05:00</updated>
+        <id>http://kyledreger.com/blog/byebye-facebook</id>
+        <content type="html">&lt;p&gt;It started with one text from my girlfriend. The message read:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;byebye facebook&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Strong words coming from her, but I got excited. Leaving Facebook was an idea I have been toying with for quite a while now, but never had the motivation to actually do. Here now was my opportunity, and I decided to take it it.&lt;/p&gt;
+
+&lt;p&gt;There were some real reasons for keeping my profile active, namely that I am the sole admin/developer for several pages and applications. However, after taking some time to transfer ownerships to other individuals (namely our office&amp;#8217;s &amp;#8220;social&amp;#8221; account so I can still do my job), I&amp;#8217;m free and clear.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m looking forward to seeing what the effects of not owning a Facebook identity are. Facebook, having become a part of my generation&amp;#8217;s DNA and about to file for a &lt;a href='http://www.nytimes.com/2012/02/02/technology/for-founders-to-decorators-facebook-riches.html'&gt;record-breaking IPO&lt;/a&gt;, it will be weird to watch everything happen from the outside. However, it&amp;#8217;s about time I started removing some of the things that distract me from real life. Emily and I have a bet that the first one to log back in owes the other dinner, but after only &lt;em&gt;an hour&lt;/em&gt; into this hiatus, I don&amp;#8217;t know whether we&amp;#8217;ll ever see a winner.&lt;/p&gt;
+
+&lt;p&gt;Sometime&amp;#8217;s it&amp;#8217;s nice to be outside.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+    <entry>
+        <title>My new favorite form of research</title>
+        <link href="http://kyledreger.com/blog/my-new-favorite-form-of-research/"/>
+        <updated>2012-02-01T00:00:00-05:00</updated>
+        <id>http://kyledreger.com/blog/my-new-favorite-form-of-research</id>
+        <content type="html">&lt;p&gt;For my English 247 class, we are working on writing a profile based on an interview we have conducted with an individual. This is a new form of investigation for me, I&amp;#8217;m use to doing my own static research on a subject, curating the good from the bad and then polishing the result into something someone would maybe want to read. It&amp;#8217;s been the same process since high school.&lt;/p&gt;
+
+&lt;p&gt;With writing a profile, it&amp;#8217;s different. The person you&amp;#8217;re interviewing is a living, dynamic individual. Even if you go into an interview with thirty of the best, most relevant questions to ask your subject, you are almost guaranteed to never get to all of them and to be sidetracked down a different avenue of their life before you&amp;#8217;re through. This is one of the most addicting parts of doing this form of research; the type of the information you find depends entirely on where you, and the subject, steer the conversation.&lt;/p&gt;
+
+&lt;p&gt;As I sit in my chair with my iPhone&amp;#8217;s microphone recording the interview, I&amp;#8217;m quickly switching gears between asking questions and scratching down notes next to the time of the interview they&amp;#8217;re relevant to. Later, when I go through the arduous task of transcribing a 30 minute audio file, it&amp;#8217;s like going back into a time machine. I get to fly back through the timeline of our conversation and pick out that one specific thing they said about their home life, or that experience they had in college; all perfectly recounted in their own words.&lt;/p&gt;
+
+&lt;p&gt;Other than the fact that the whole process takes a substantial amount of time, researching by means of interviewing individuals has to be my new favorite way to gather information.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s addicting.&lt;/p&gt;</content>
+        <author>
+        <name>Kyle Dreger</name>
+            <uri>http://kyledreger.com/about.html</uri>
+        </author>
+    </entry>
+
+</feed>
