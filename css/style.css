@@ -134,4 +134,8 @@ pre
   {
     display: none;
   }
+  .content
+  {
+    text-align: left;
+  }
 }
