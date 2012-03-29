@@ -89,7 +89,7 @@ a:hover {
   border-left: 5px dashed #fff;
   border-right: 5px dashed #fff;
   padding: 8px 10px 4px 10px;
-  border-bottom: 1px dashed #eee;
+  border-bottom: 1px dashed #ddd;
 }
 .post-list li:last-child
 {
