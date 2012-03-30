@@ -20,10 +20,10 @@ layout: nil
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>http://kyledreger.com{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
-        <author>
+        <!-- <author>
         <name>Kyle Dreger</name>
             <uri>http://kyledreger.com/about.html</uri>
-        </author>
+        </author> -->
     </entry>
 {% endfor %}
 </feed>
