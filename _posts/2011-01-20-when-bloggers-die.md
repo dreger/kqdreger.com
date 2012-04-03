@@ -1,6 +1,7 @@
 ---
 layout: post
 title: When bloggers die
+published: false
 ---
 
 The question *"what happens when bloggers die?"*  has been bugging me a lot lately. It seems that in a day in age where content creation is so immediate, so instantaneous, the last thing anyone seems to be thinking about is when all that creation eventually stops. Now, this isn't suppose to be cynical, or depressing, simply inquisitive. What is going to happen if, when, bloggers start to die, taking their archives of content with them?
