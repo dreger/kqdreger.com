@@ -1,6 +1,7 @@
 ---
 Title: Writing like a hacker
 layout: post
+comments: true
 ---
 
 *Abstract: From history to English, I write all my school papers like a hacker. Using text editors without support for spell checking or formatting, I create a frictionless creative flow which allows me get my ideas out faster.*

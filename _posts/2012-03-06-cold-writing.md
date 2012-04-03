@@ -1,6 +1,7 @@
 ---
 Title: Cold writing
 layout: post
+comments: true
 ---
 
 I've found that as I write papers for class, sometimes I hit a wall. This isn't a full case of writers block, rather I feel the enthusiasm start to fade. What was just a feverish output of thoughts to typed characters is starting to die. Eventually, I've stopped writing and am looking at my cursor blink. Blink. Blink. Blink.
