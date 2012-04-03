@@ -1,5 +1,5 @@
 ---
-title: Kyle Dreger Laboratory
+title: Lab
 layout: page
 ---
 
