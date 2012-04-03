@@ -1,8 +1,8 @@
 ---
-title: Lab
+title: The lab of Kyle Dreger
 layout: page
 ---
 
-### The lab of Kyle Dreger
+## Lab
 
 - [Svbtle UI Experiment](svbtle-experiment.html)
