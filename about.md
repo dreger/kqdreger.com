@@ -7,11 +7,7 @@ title: About
 
 Every website needs a good "about" page. He's my shot at it: 
 
-Kyle Dreger is a 19 years old human who resides in Alliance, Ohio, where he currently attends the very purple [University of Mount Union](http://mountunion.edu). His current majors are computer science and English writing. Interesting combination? He thinks so. 
-
-It is assumed that deep in Kyle's veins, along with a lot of red blood cells, are thousands of digital bits and bytes. He loves to code. There's something about the syntax, rules and grammar that give him a sense of peace and order. When he finishes writing the logic, it's time to design. He passionately spends hours creating, tweaking and aligning every single pixel to be perfect. 
-
-Back in the real world, he plays soccer and has the most beautiful girlfriend in the world.
+Kyle Dreger is 19 years old and is currently in Alliance, Ohio, attending the [University of Mount Union](http://mountunion.edu) for computer science and English writing. Interesting combination? He thinks so. He loves to code and design. He passionately spends hours creating, tweaking and aligning every single pixel to be perfect. Back in the real world, he plays soccer and has the most beautiful girlfriend in the world.
 
 ## This site
 
