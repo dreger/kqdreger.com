@@ -5,7 +5,7 @@ body {
     color: #222;
     font-family: "adelle", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 2em;   
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 0;
     margin-left: 20px;
     font-weight: 300;
@@ -40,11 +40,16 @@ a:hover {
 .wrapper
 {
     width: 90%;
-    max-width: 780px;
+    max-width: 680px;
     margin: 50px auto;
 }
-.header
+.header h1
 {
+  display: inline;
+}
+.header ul
+{
+  float: right;
 }
 .navigation
 {
@@ -78,16 +83,17 @@ a:hover {
 {
   color: #222;
 }
+.post-list li
+{
+  padding: 8px 10px 4px 10px;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  /*border-bottom: 1px solid #fff;*/
+}
 .post-list li:hover
 {
   border-left: 5px solid #2D5C7E;
-}
-.post-list li
-{
-  border-left: 5px dashed #fff;
-  border-right: 5px dashed #fff;
-  padding: 8px 10px 4px 10px;
-  border-bottom: 1px dashed #ddd;
+  border-right: 5px solid #2D5C7E;
 }
 .post-list li:last-child
 {
