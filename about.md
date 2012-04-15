@@ -15,7 +15,7 @@ This site is a place for Kyle to document his journey through the computer scien
 
 ## Setup
 
-This site is hosted on [GitHub](http://github.com) using [Jekyll](https://github.com/mojombo/jekyll/) for static page generation. The domain was originally purchased through GoDaddy, but later moved to the much more ethical registrar, [Hover](http://hover.com). The lovely Adelle Web font is served by [Typekit](http://typekit.com). 
+This site is hosted on [GitHub](http://github.com) using [Jekyll](https://github.com/mojombo/jekyll/) for static page generation. The domain was originally purchased through GoDaddy, but later moved to the much more ethical registrar, [Hover](http://hover.com). The lovely PT Sans font is served by [Typekit](http://typekit.com). 
 
 Drafts and edits are done in [iA Writer for Mac](http://www.iawriter.com/) with some background music from iTunes. Kyle owns a lovely 13′ Macbook Pro and Verizon iPhone 4.
 
