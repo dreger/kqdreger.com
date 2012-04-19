@@ -1,13 +1,12 @@
 @import url("reset.css"); 
 
 body {
-    background: url('/img/bg-side.png') repeat-y top left;
+    background: url('/img/bg-top.png') repeat-x top left;
     color: #222;
     font-family: "pt-sans","Helvetica Neue", Helvetica, Arial,  sans-serif;
     line-height: 1.8em;   
     font-size: 1em;
     padding: 0;
-    margin-left: 20px;
     font-weight: 300;
 }
 h1,
@@ -29,10 +28,10 @@ h3{ font-size: 1.1em; font-weight: bold; }
 a {
     color: #00BAFF;;
     text-decoration: none;
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    transition: all  0.1s ease;
+    -webkit-transition: all 0.05s ease;
+    -moz-transition: all 0.05s ease;
+    -o-transition: all 0.05s ease;
+    transition: all  0.05s ease;
 }
 a:hover { 
     color: #222;
@@ -105,21 +104,29 @@ a:hover {
   padding: 0px;
   margin: 0px;
   list-style: none;
+  text-align: right;
+  text-transform: lowercase;
 }
 .post-list a
 {
+  color: #aaa;
+  padding: 8px 5px;
+  border-left: 4px solid #fff;
+}
+.post-list a:hover {
   color: #222;
+  border-left: 4px solid #00BAFF;
 }
 .post-list li
 {
-  padding: 4px;
-  border-left: 5px solid #fff;
+  padding: 3px 0px;
+  
   /*border-right: 5px solid #fff;*/
   /*border-bottom: 1px solid #fff;*/
 }
 .post-list li:hover
 {
-  border-left: 5px solid #00BAFF;
+  /*border-left: 3px solid #00BAFF;*/
 }
 .post-list li:hover .date
 {
