@@ -1,2 +1,2 @@
 auto: true
-permalink: /blog/:title/
+permalink: /:year/:month/:title
