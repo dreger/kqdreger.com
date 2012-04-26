@@ -34,7 +34,7 @@ a {
     transition: all  0.05s ease;
 }
 a:hover { 
-    color: #222;
+    color: #424242;
 }
 
 .back-to-blog
@@ -59,6 +59,10 @@ a:hover {
     width: 90%;
     max-width: 500px;
     margin: 100px auto;
+}
+.header {
+  padding: 25px 0px;
+  background: url('/img/logo.png') top center no-repeat;
 }
 .header h1
 {
