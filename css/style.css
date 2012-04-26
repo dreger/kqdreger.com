@@ -5,7 +5,7 @@ body {
     color: #424242;
     font-family: "pt-sans","Helvetica Neue", Helvetica, Arial,  sans-serif;
     line-height: 1.4em;   
-    font-size: .9em;
+    font-size: .92em;
     padding: 0;
     font-weight: 300;
 }
@@ -18,7 +18,7 @@ h1{
     letter-spacing: 1px;
 }
 h2{ 
-    font-size: 1.5em; 
+    font-size: 1.4em; 
     letter-spacing: 0px;
     line-height: 1.5em;
     text-align: left;
@@ -192,6 +192,11 @@ pre
   .post-list li .date
   {
     display: none;
+  }
+  .header ul {
+    display: block;
+    float: none;
+    padding-top: 15px;
   }
   .content
   {
