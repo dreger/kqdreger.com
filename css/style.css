@@ -1,11 +1,11 @@
 @import url("reset.css"); 
 
 body {
-    background: url('/img/bg-top.png') repeat-x top left;
+    background: url('/img/bg-red.png') repeat-x top left;
     color: #424242;
     font-family: "pt-sans","Helvetica Neue", Helvetica, Arial,  sans-serif;
     line-height: 1.4em;   
-    font-size: .92em;
+    font-size: .9em;
     padding: 0;
     font-weight: 300;
 }
@@ -26,7 +26,7 @@ h2{
 h3{ font-size: 1.1em; font-weight: bold; }
 
 a {
-    color: #00BAFF;;
+    color: #940000;
     text-decoration: none;
     -webkit-transition: all 0.05s ease;
     -moz-transition: all 0.05s ease;
@@ -44,13 +44,13 @@ a:hover {
 }
 .back-to-blog a
 {
-  border: 3px solid #00baff;
+  border: 3px solid #940000;
   border-radius: 50px;
   padding: 8px 12px;
 }
 .back-to-blog a:hover
 {
-  background: #00BAFF;
+  background: #940000;
   color: #fff;
 }
 
@@ -61,8 +61,8 @@ a:hover {
     margin: 100px auto;
 }
 .header {
-  padding: 25px 0px;
-  background: url('/img/logo.png') top center no-repeat;
+  padding-top: 180px;
+  background: url('/img/logo-head.png') top center no-repeat;
 }
 .header h1
 {
@@ -118,7 +118,7 @@ a:hover {
 .post-list a:hover {
   background: #eee;
   color: #222;
-  border-left: 4px solid #00BAFF;
+  border-left: 4px solid #940000;
 }
 .post-list li
 {
@@ -129,7 +129,7 @@ a:hover {
 }
 .post-list li:hover
 {
-  /*border-left: 3px solid #00BAFF;*/
+  /*border-left: 3px solid #940000;*/
 }
 .post-list li:hover .date
 {
@@ -159,7 +159,7 @@ a:hover {
 
 blockquote
 {
-  border-left: 10px solid #00BAFF;
+  border-left: 10px solid #940000;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px;
