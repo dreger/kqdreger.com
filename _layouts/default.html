@@ -23,21 +23,29 @@
     <body>
         <div class="wrapper">
             <div class="header">
-                <h1><a href="/">dreger</a> blog</h1>
-                
-                <span class="navigation">
-                    <ul>
-                        <!-- <li><a href="http://twitter.com/kyledreger">@kyledreger</a></li> -->
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/subscribe">Subscribe</a></li>
-                    </ul>
-            </span>
+                <a href="/"><span></span></a>
+            </div>
+
+            <div class="sidebar">
+                <h3>I'm Kyle Dreger</h3>
+                <ul>
+                    <li><a href="http://twitter.com/kyledreger">@kyledreger</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/subscribe">Subscribe</a></li>
+                </ul>
+
+                <h3>Archive</h3>
+                <ul class="archive-list">
+                {% for post in site.posts %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+                </ul>
             </div>
 
             <div class="content">
                 {{ content }}
-            </div>
+            </div> <!-- / content -->
         </div> <!-- / wrapper -->
     </body>
 </html>
