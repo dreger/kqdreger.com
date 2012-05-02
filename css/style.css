@@ -1,11 +1,11 @@
 @import url("reset.css"); 
 
 body {
-    background: url('/img/bg-red.png') repeat-x top left;
+    background: url('/img/bg-blue.png') repeat-x top left;
     color: #424242;
     font-family: "pt-sans","Helvetica Neue", Helvetica, Arial,  sans-serif;
-    line-height: 1.4em;   
-    font-size: .9em;
+    line-height: 1.3em;   
+    font-size: .85em;
     padding: 0;
     font-weight: 300;
 }
@@ -13,20 +13,25 @@ h1,
 h2,
 h3,
 p { padding: 8px 0px; }
-h1{ 
-    font-size: 1.8em; 
+h1 { 
+    font-size: 2em; 
     letter-spacing: 1px;
+    font-weight: bold;
 }
-h2{ 
-    font-size: 1.4em; 
+h2 { 
+    font-size: 1.6em; 
     letter-spacing: 0px;
     line-height: 1.5em;
     text-align: left;
+    font-weight: bold;
 }
-h3{ font-size: 1.1em; font-weight: bold; }
+h3 { 
+  font-size: 1.2em; 
+  font-weight: bold;
+}
 
 a {
-    color: #940000;
+    color: #71B3C7;
     text-decoration: none;
     -webkit-transition: all 0.05s ease;
     -moz-transition: all 0.05s ease;
@@ -37,113 +42,68 @@ a:hover {
     color: #424242;
 }
 
-.back-to-blog
-{
-  text-align: center;
-  padding-top: 30px;
-}
-.back-to-blog a
-{
-  border: 3px solid #940000;
-  border-radius: 50px;
-  padding: 8px 12px;
-}
-.back-to-blog a:hover
-{
-  background: #940000;
-  color: #fff;
-}
-
 .wrapper
 {
-    width: 90%;
-    max-width: 500px;
+    width: 800px;
     margin: 100px auto;
 }
+
 .header {
-  padding-top: 180px;
+  padding-bottom: 100px;
+  height: 130px;
   background: url('/img/logo-head.png') top center no-repeat;
+  position: relative
 }
-.header h1
-{
-  display: inline;
-  font-weight: bold;
-  letter-spacing: -1px;
+.header span {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  /* edit: added z-index */
+  z-index: 1 
 }
-.header ul
-{
+
+.sidebar {
+  font-size: .8em;
   float: right;
+  max-width: 200px;
+  border-left: 1px solid #ddd;
+  padding-left: 35px;
 }
-.navigation
-{
-  margin: 25px 0px 60px;
-  text-transform: lowercase;
-}
-.navigation ul, .navigation li
-{
-  list-style: none;
-  padding: 0;
+.sidebar ul {
+  padding-left: 15px;
   margin: 0;
-  display: inline;
+  color: #ccc;
 }
-.navigation li
-{
-  padding: 0px 5px;
+.sidebar a {
+  color: #424242;
 }
+.sidebar a:hover {
+  color: #71B3C7;
+}
+
 .content
 {
   text-align: justify;
   font-weight: 300;
-  margin-top: 40px;
-}
-.meta
-{
-  text-align: right;
-  font-size: .9em;
-  text-decoration: italic;
+  width: 550px;
 }
 
-.post-list
-{
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
+.article {
+  border-bottom: 1px solid #ddd;
+  padding: 30px 0px;
 }
-.post-list a
-{
-  color: #424242;
-  padding: 3px 5px;
-  border-left: 4px solid #fff;
+.article:first-child {
+  padding-top: 0px;
 }
-.post-list a:hover {
-  background: #eee;
-  color: #222;
-  border-left: 4px solid #940000;
+.article h2 a {
+  color: #242424;
 }
-.post-list li
-{
-  padding: 3px 0px;
-  
-  /*border-right: 5px solid #fff;*/
-  /*border-bottom: 1px solid #fff;*/
+.article h2 a:hover {
+  color: #71B3C7;
 }
-.post-list li:hover
-{
-  /*border-left: 3px solid #940000;*/
-}
-.post-list li:hover .date
-{
-  display: none;
-}
-.post-list li:last-child
-{
-  border-bottom: none;
-}
-.post-list li .date
-{
-    float: right;
-    display: none;
-}
+
 .footnotes
 {
   font-size: .8em;
@@ -157,9 +117,26 @@ a:hover {
   display: none;
 }
 
+.back-to-blog
+{
+  text-align: center;
+  padding-top: 30px;
+}
+.back-to-blog a
+{
+  border: 3px solid #71B3C7;
+  border-radius: 50px;
+  padding: 8px 12px;
+}
+.back-to-blog a:hover
+{
+  background: #71B3C7;
+  color: #fff;
+}
+
 blockquote
 {
-  border-left: 10px solid #940000;
+  border-left: 10px solid #71B3C7;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px;
@@ -170,7 +147,7 @@ img
 }
 ul
 {
-  list-style: square;
+  list-style: disc;
 }
 pre
 {
@@ -186,20 +163,16 @@ pre
     to different screen sizes.
 
     Thanks @beep
-*/
 
-@media screen and (max-width: 480px) {
-  .post-list li .date
-  {
+@media screen and (max-width: 600px) {
+  .header {
+    width: 90%;
+  }
+  .sidebar {
+    float: none;
+    width: 90%;
+  }  
+  .content {
     display: none;
   }
-  .header ul {
-    display: block;
-    float: none;
-    padding-top: 15px;
-  }
-  .content
-  {
-    text-align: left;
-  }
-}
+}*/
