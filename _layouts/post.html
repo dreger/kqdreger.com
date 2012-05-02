@@ -2,12 +2,14 @@
 layout: default
 ---
 
-<p class="meta">{{ page.content | number_of_words }} words on {{ page.date | date: "%B %d, %Y" }}</p>
+<!-- <p class="meta">{{ page.content | number_of_words }} words on {{ page.date | date: "%B %d, %Y" }}</p> -->
 
-<h2>{{ page.title }}</h2> 
+<div class="article">
+	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2> 
 	
-<span class="post">
-{{ content }}
-</span>
+	<div class="article-content">
+		{{ content }}
+	</div>
+</div>
 
 <p class="back-to-blog"><a href="/">&larr; Back to blog</a></p>
