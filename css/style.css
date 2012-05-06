@@ -190,6 +190,9 @@ pre
   .wrapper {
     width: 90%;
   }
+  .header img {
+    width: 120px;
+  }
   .archive-list .date {
   float: none;
   display: block;
