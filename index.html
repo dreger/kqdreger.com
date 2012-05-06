@@ -7,8 +7,12 @@ title: Kyle Dreger
 <div class="article">
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
 	
+	<p class="meta">{{ post.date | date: "%d %B %Y" }}</p>
+
 	<div class="article-content">
 		{{ post.content }}
 	</div>
 </div>
 {% endfor %}
+
+<h2>You've read the three most recent posts, now go check out the <a href="/archive">archive</a>.</h2>

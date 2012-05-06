@@ -6,10 +6,12 @@ layout: default
 
 <div class="article">
 	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2> 
+
+	<p class="meta">{{ page.date | date: "%d %B %Y" }}</p>
 	
 	<div class="article-content">
 		{{ content }}
 	</div>
 </div>
 
-<p class="back-to-blog"><a href="/">&larr; Back to blog</a></p>
+<p class="back-to-blog"><a href="/archive">&larr; Back to blog</a></p>
