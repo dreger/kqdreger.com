@@ -1,37 +1,37 @@
 @import url("reset.css"); 
 
 body {
-    border-top: 10px solid #B41636;
+    font-family: "pt-sans", "Helvetica Neue", Helvetica, Arial,  sans-serif;
+    border-top: 10px solid #33CCFF;
     color: #424242;
-    font-family: "pt-sans","Helvetica Neue", Helvetica, Arial,  sans-serif;
-    line-height: 1.4em;   
+    line-height: 1.5em;   
     font-size: 1.15em;
     padding: 0;
-    font-weight: 300;
+    font-weight: 300; 
 }
 h1,
 h2,
 h3,
 p { padding: 10px 0px; }
 h1 { 
-    font-size: 2em; 
+    font-size: 2.4em; 
     letter-spacing: 1px;
     font-weight: bold;
 }
 h2 { 
-    font-size: 1.7em; 
+    font-size: 2em; 
     letter-spacing: 0px;
     line-height: 1.5em;
     text-align: center;
     font-weight: bold;
 }
 h3 { 
-  font-size: 1.2em; 
+  font-size: 1.4em; 
   font-weight: bold;
 }
 
 a {
-    color: #B41636;
+    color: #33CCFF;
     text-decoration: none;
     -webkit-transition: all 0.05s ease;
     -moz-transition: all 0.05s ease;
@@ -89,7 +89,7 @@ a:hover {
   color: #424242;
 }
 .footer a:hover {
-  color: #B41636;
+  color: #33CCFF;
 }
 
 .article {
@@ -104,7 +104,7 @@ a:hover {
   color: #242424;
 }
 .article h2 a:hover {
-  color: #B41636;
+  color: #33CCFF;
 }
 .meta {
   text-align: center;
@@ -145,19 +145,19 @@ a:hover {
 }
 .back-to-blog a
 {
-  border: 3px solid #B41636;
+  border: 3px solid #33CCFF;
   border-radius: 0px;
   padding: 8px 12px;
 }
 .back-to-blog a:hover
 {
-  background: #B41636;
+  background: #33CCFF;
   color: #fff;
 }
 
 blockquote
 {
-  border-left: 10px solid #B41636;
+  border-left: 10px solid #33CCFF;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px;
