@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Archive
 ---
 
 <div class="archive-list">
