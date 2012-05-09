@@ -2,8 +2,8 @@
 layout: default
 title: Kyle Dreger
 ---
-<!-- 
-{% for post in site.posts limit:3 %}
+
+{% for post in site.posts limit:1 %}
 <div class="article">
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
 	
@@ -15,12 +15,4 @@ title: Kyle Dreger
 </div>
 {% endfor %}
 
-<h2>You've read the three most recent posts, now go check out the <a href="/archive">archive</a>.</h2> -->
-
-<div class="archive-list">
-	<ul>
-		{% for post in site.posts %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></li>
-		{% endfor %}
-	</ul>
-</div>
+<h2>You've read my most recent article, now go check out the <a href="/archive">archive</a>.</h2>
