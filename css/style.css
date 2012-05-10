@@ -5,7 +5,7 @@ body {
   border-top: 10px solid #33CCFF;
   color: #424242;
   line-height: 1.5em;   
-  font-size: 1.1em;
+  font-size: .95em;
   padding: 0;
   font-weight: 300; 
 }
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .header {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   text-align: center;
 }
 .header :hover {
@@ -71,24 +71,24 @@ a:hover {
   font-weight: 300;
 }
 
-.footer {
-  margin-top: 50px;
+.map {
+  margin-bottom: 40px;
   text-align: center;
-  border-top: 1px solid #ddd;
-  padding-top: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
 }
-.footer ul {
+.map ul {
   padding: 0;
   margin: 0;
 }
-.footer li {
+.map li {
   display: inline;
   padding: 0px 6px;
 }
-.footer a {
+.map a {
   color: #424242;
 }
-.footer a:hover {
+.map a:hover {
   color: #33CCFF;
 }
 
