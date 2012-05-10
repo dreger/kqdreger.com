@@ -7,12 +7,12 @@ title: Kyle Dreger
 <div class="article">
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
 	
-	<p class="meta">{{ post.date | date: "%d %B %Y" }}</p>
-
 	<div class="article-content">
 		{{ post.content }}
 	</div>
+
+	<p class="meta">&middot; {{ post.date | date: "%d %B %Y" }} &middot;</p>
 </div>
 {% endfor %}
 
-<h2>psst! there's more good stuff in the <a href="/archive">archive &rarr;</a></h2>
+<h2>more good stuff in the <a href="/archive">archive &rarr;</a></h2>
