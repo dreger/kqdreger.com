@@ -7,11 +7,11 @@ layout: default
 <div class="article">
 	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2> 
 	
+	<p class="meta">{{ page.date | date: "%d %B %Y" }}</p>
+
 	<div class="article-content">
 		{{ content }}
 	</div>
-
-	<p class="meta">&middot; {{ page.date | date: "%d %B %Y" }} &middot;</p>
 </div>
 
 <p class="back-to-blog"><a href="/archive">&larr; Back to archive</a></p>
