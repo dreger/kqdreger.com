@@ -2,6 +2,7 @@
 layout: page
 title: Archive
 ---
+<h2>Archive</h2>
 
 <div class="archive-list">
 	<ul>
