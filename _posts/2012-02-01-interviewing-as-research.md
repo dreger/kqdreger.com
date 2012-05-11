@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My new favorite form of research
+title: Interviewing as research
 category: School
 tags: learning, writing, english
 ---
