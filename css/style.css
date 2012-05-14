@@ -1,11 +1,11 @@
 @import url("reset.css"); 
 
 body {
-  font-family: "pt-sans", "Helvetica Neue", Helvetica, Arial,  sans-serif;
-  border-top: 10px solid #33CCFF;
-  color: #424242;
+  font-family: "calluna", Georgia, serif;
+  border-top: 10px solid #fa8e6b;
+  color: #242424;
   line-height: 1.5em;   
-  font-size: .95em;
+  font-size: 1.7em;
   padding: 0;
   font-weight: 300; 
 }
@@ -13,16 +13,14 @@ h1,
 h2,
 h3,
 p { 
-  padding: 10px 0px; }
+  padding: 15px 0px; }
 h1 { 
   font-size: 2.4em; 
-  letter-spacing: 1px;
   font-weight: bold;
 }
 h2 { 
-  font-size: 2em; 
+  font-size: 1.8em; 
   letter-spacing: 0px;
-  line-height: 1.5em;
   font-weight: bold;
 }
 h3 { 
@@ -31,7 +29,7 @@ h3 {
 }
 
 a {
-  color: #33CCFF;
+  color: #fa8e6b;
   text-decoration: none;
   -webkit-transition: all 0.05s ease;
   -moz-transition: all 0.05s ease;
@@ -39,17 +37,18 @@ a {
   transition: all  0.05s ease;
 }
 a:hover { 
-  color: #424242;
+  color: #242424;
 }
 
 .wrapper
 {
-  width: 550px;
-  margin: 50px auto;
+  width: 650px;
+  margin: 50px;
 }
 
 .header {
-  text-align: center;
+  letter-spacing: -3px;
+  font-family: 900;
 }
 .header :hover {
   opacity:0.9;
@@ -65,13 +64,11 @@ a:hover {
   z-index: 1 
 }
 .content {
-  text-align: justify;
   font-weight: 300;
 }
 
 .about {
   padding: 10px 0px 30px 0px;
-  text-align: center;
   font-size: .9em;
 }
 .about ul {
@@ -80,21 +77,12 @@ a:hover {
 }
 .about li {
   display: inline;
-}
-.about a {
-  padding: 3px 5px;
-  border: solid 2px #fff;
-  border-radius: 50px;
-  color: #888;
-}
-.about a:hover {
-  border: solid 2px #424242;
-  color: #424242;
+  padding-right: 15px;
 }
 
 .article {
   border-top: 1px solid #ddd;
-  padding: 40px 10px;
+  padding: 40px 0px;
 }
 .article:first-child {
   border-top: none;
@@ -104,13 +92,10 @@ a:hover {
   color: #242424;
 }
 .article h2 a:hover {
-  color: #33CCFF;
+  color: #fa8e6b;
 }
 .meta {
-  font-size: .45em;
   color: #888;
-  text-transform: uppercase;
-  padding-left: 10px;
 }
 
 .archive-list ul {
@@ -118,15 +103,16 @@ a:hover {
   padding: 0;
 }
 .archive-list li {
-  padding: 3px 5px;
+  padding: 10px 5px;
   list-style: none;
 }
 .archive-list li:nth-child(odd) {
-  background: #f8f8f8;
+  background: #fff;
 }
 .archive-list .date {
-  float: right;
-  font-size: .9em;
+  display: block;
+  font-size: .8em;
+  color: #888;
 }
 
 .footnotes {
@@ -141,21 +127,20 @@ a:hover {
 }
 
 .back-to-blog {
-  text-align: center;
   padding-top: 30px;
 }
 .back-to-blog a {
-  border: 3px solid #33CCFF;
+  border: 3px solid #fa8e6b;
   border-radius: 0px;
   padding: 8px 12px;
 }
 .back-to-blog a:hover {
-  background: #33CCFF;
+  background: #fa8e6b;
   color: #fff;
 }
 
 blockquote {
-  border-left: 10px solid #33CCFF;
+  border-left: 10px solid #fa8e6b;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px;
@@ -182,15 +167,9 @@ pre {
     Thanks @beep
 */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .wrapper {
     width: 90%;
-  }
-  .header img {
-    width: 120px;
-  }
-  .archive-list .date {
-    float: none;
-    display: block;
+    margin: 50px auto;
   }
 }
