@@ -101,9 +101,10 @@ a:hover {
 .archive-list ul {
   margin: 0;
   padding: 0;
+  font-size: 1.3em;
 }
 .archive-list li {
-  padding: 10px 5px;
+  padding: 15px 0px;
   list-style: none;
 }
 .archive-list li:nth-child(odd) {
@@ -111,7 +112,7 @@ a:hover {
 }
 .archive-list .date {
   display: block;
-  font-size: .8em;
+  font-size: .7em;
   color: #888;
 }
 
