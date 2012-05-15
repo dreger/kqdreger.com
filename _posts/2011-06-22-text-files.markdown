@@ -9,7 +9,7 @@ Text files are one of those things that will never go away. They are organic to 
 
 One the Mac? Use TextEdit in plain text mode. On the PC? Use Notepad or similar. It really doesn't matter which text editor you end up using (note: Microsoft Word is *not* a viable option for what we're trying to accomplish), what matters is that the application is as minimal as possible so you can focus on the content, not the window chrome.
 
-*2. Put the date in the file name*
+### Put the date in the file name
 
 Use the scheme YYYY/MM/DD at the beginning or somewhere in your text file name. That way, you're only a quick name-sort or query away from finding the file you want.
 
