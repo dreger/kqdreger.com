@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-## Hello, there
+## Est. 2010
 
 What? You're looking for the info about this here site? Well, let's try and break it down for you:  
 

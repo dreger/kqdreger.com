@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-## Contact
+## Howdy, stranger
 
 [Twitter](http://twitter.com/kyledreger) &middot; [Tumblr](http://kyledreger.tumblr.com) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger)
 
