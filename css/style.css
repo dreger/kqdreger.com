@@ -2,7 +2,7 @@
 
 body {
   font-family: "calluna", Georgia, serif;
-  border-top: 10px solid #fa8e6b;
+  border-top: 10px solid #34ade4;
   color: #242424;
   line-height: 1.5em;   
   font-size: 1.7em;
@@ -36,7 +36,7 @@ h3 {
 }
 
 a {
-  color: #fa8e6b;
+  color: #34ade4;
   text-decoration: none;
   -webkit-transition: all 0.05s ease;
   -moz-transition: all 0.05s ease;
@@ -99,7 +99,7 @@ a:hover {
   color: #242424;
 }
 .article h2 a:hover {
-  color: #fa8e6b;
+  color: #34ade4;
 }
 .meta {
   color: #888;
@@ -138,17 +138,17 @@ a:hover {
   padding-top: 30px;
 }
 .back-to-blog a {
-  border: 3px solid #fa8e6b;
+  border: 3px solid #34ade4;
   border-radius: 0px;
   padding: 8px 12px;
 }
 .back-to-blog a:hover {
-  background: #fa8e6b;
+  background: #34ade4;
   color: #fff;
 }
 
 blockquote {
-  border-left: 10px solid #fa8e6b;
+  border-left: 10px solid #34ade4;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px;
