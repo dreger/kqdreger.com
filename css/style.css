@@ -37,14 +37,18 @@ h3 {
   font-size: 1.3em; 
   text-align: center;
 }
+h1 a,
+h2 a, 
+h3 a {
+  text-decoration: none;
+}
 
 a {
   color: #222;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover { 
   color: #34ade4;
-  text-decoration: underline;
 }
 
 .wrapper
@@ -98,12 +102,7 @@ a:hover {
   border-top: none;
   padding-top: 0px;
 }
-.article h2 a {
-  color: #242424;
-}
-.article h2 a:hover {
-  color: #34ade4;
-}
+
 .meta {
   text-align: center;
   font-size: .65em;
