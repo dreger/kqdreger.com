@@ -5,8 +5,6 @@ title: Orientation, questions and the CEO
 tags: questions, timken, orientation, ceo
 ---
 
-*Alternative title: Timken: Day One*
-
 Today marks the end of Orientation Day at [The Timken Company](http://timken.com). Hats off to the University relations team for putting together a great program for us; I've been to much shorter programs which felt twice as long. Informative, fun and a great way to get our feet wet the first day. 
 
 I took plenty of things away from today, including one of the amazing spare lunches (boxed [Honey Baked Ham sandwiches](http://www.honeybakedham.com/catering.asp)), but what I'm most impressed with is how well they treat their interns. It's a foundation of respect that you feel, even though you're the lowest ones on the totem pole. 

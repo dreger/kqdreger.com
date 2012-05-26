@@ -3,24 +3,17 @@ layout: default
 title: Kyle Dreger
 ---
 
-<div class="archive-list">
-	<ul>
-		{% for post in site.posts %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%B %d, %Y" }}</span></li>
-		{% endfor %}
-	</ul>
-</div>
-
-<!-- {% for post in site.posts limit:3 %}
+{% for post in site.posts limit:1 %}
 <div class="article">
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+	<!-- <p class="meta">{{ page.date | date: "%d %B %Y" }}</p> -->
 	
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+	<p class="meta">by Kyle Dreger</p>
+
 	<div class="article-content">
 		{{ post.content }}
 	</div>
-
-	<p class="meta">&middot; {{ post.date | date: "%d %B %Y" }} &middot;</p>
 </div>
 {% endfor %}
 
-<h2>more good stuff in the <a href="/archive">archive &rarr;</a></h2> -->
+<h3><a href="/about.html">About</a> &middot; <a href="/blog.html">Blog index</a> &middot; <a href="/contact.html">Contact</a></h3>
