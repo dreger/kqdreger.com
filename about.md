@@ -3,9 +3,13 @@ layout: page
 title: About
 ---
 
-## Est. 2010
+## Say hello
 
-What? You're looking for the info about this here site? Well, let's try and break it down for you:  
+[Twitter](http://twitter.com/kyledreger) &middot; [Tumblr](http://kyledreger.tumblr.com) &middot; [Github](http://github.com/kyledreger) &middot; [Pinboard](http://pinboard.in/u:kyledreger)
+
+If you wish to comment on a post, or contact Kyle, shoot  an email to <hi@kyledreger.com> and he'll get back to you within a day or two. He's also available on Twitter [@kyledreger](http://twitter.com/kyledreger). For the cool nerds, go ahead and open up an issue at [kyledreger/feedback](https://github.com/kyledreger/feedback/issues/new) on GitHub.
+
+## Est. 2010
 
 Kyle Dreger is a guy attending the [University of Mount Union](http://mountunion.edu) for computer science and English writing. Interesting combination? He thinks so. He loves to code and design. He passionately spends hours creating, tweaking and aligning every single pixel to be perfect. Back in the real world, he plays soccer and has the most beautiful girlfriend in the world.
 
