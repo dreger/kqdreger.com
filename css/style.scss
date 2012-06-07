@@ -7,12 +7,11 @@ $serif: Georgia,  "calluna", serif;
 $sans: Helvetica, Arial, sans-serif;
 
 body {
-  font-family: sans;
-  border-top: 25px solid $blue;
+  font-family: $sans;
+  border-top: 20px solid $blue;
   color: #111;
   line-height: 1.5em;   
   font-size: 1em;
-  padding: 0;
   font-weight: 300; 
 }  
 h1,
@@ -66,7 +65,7 @@ a {
 
 .header { 
   margin: 0 auto;
-  font-family: Helvetica;
+  font-family: $sans;
   margin: 120px 0px 50px; 
   &:hover {
     text-decoration: none;
