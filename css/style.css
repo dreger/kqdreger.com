@@ -766,11 +766,10 @@ ul.icons li .icon-large:before {
   content: "\f200"; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  border-top: 20px solid #00aced;
-  color: #111;
+  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  color: #444;
   line-height: 1.5em;
-  font-size: 1em;
+  font-size: 17px;
   font-weight: 300; }
 
 h1,
@@ -783,40 +782,42 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-weight: 100; }
+  font-weight: 100;
+  font-family: "adelle", Georgia, serif;
+  text-align: center; }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: bold; }
   h1 a {
     text-decoration: none; }
 
 h2 {
-  font-size: 1.5em;
-  letter-spacing: 0px;
-  font-weight: bold; }
+  font-size: 1.6em;
+  letter-spacing: 0px; }
   h2 a {
     text-decoration: none; }
 
 h3 {
-  font-size: 1.3em; }
+  font-size: 1.4em; }
   h3 a {
     text-decoration: none; }
 
 a {
-  color: #00aced;
+  color: #87bed7;
   text-decoration: none; }
   a:hover {
-    color: #0087ba; }
+    color: #61a9ca; }
 
 .wrapper {
-  width: 600px;
+  width: 550px;
   margin: 50px auto; }
 
 .header {
+  text-align: center;
   margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 120px 0px 50px; }
+  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  margin: 70px 0px 80px; }
   .header:hover {
     text-decoration: none; }
   .header i {
@@ -829,6 +830,7 @@ a {
   font-weight: 300; }
   .content img {
     max-width: 100%;
+    height: auto;
     margin: 0 auto;
     display: block; }
 
@@ -853,7 +855,8 @@ a {
   text-transform: uppercase;
   font-size: .9em;
   font-weight: bold;
-  color: #aaa; }
+  color: #aaa;
+  text-align: center; }
 
 .archive-list ul {
   margin: 0;
@@ -883,7 +886,7 @@ a {
   text-align: center; }
 
 blockquote {
-  border-left: 10px solid #34ade4;
+  border-left: 7px solid #87bed7;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px; }

@@ -2,8 +2,6 @@
 layout: page
 title: Archive
 ---
-<h2>Blog index</h2>
-
 <div class="archive-list">
 	<ul>
 		{% for post in site.posts %}

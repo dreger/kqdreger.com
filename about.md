@@ -19,8 +19,8 @@ This site is a place for Kyle to document his journey through the computer scien
 
 ## Setup
 
-This site is hosted on [GitHub](http://github.com) using [Jekyll](https://github.com/mojombo/jekyll/) for static page generation. The domain was originally purchased through GoDaddy, but later moved to the much more ethical registrar, [Hover](http://hover.com). The lovely Calluna typeface is served by [Typekit](http://typekit.com). 
+This site is hosted on [GitHub](http://github.com) using [Jekyll](https://github.com/mojombo/jekyll/) for static page generation. The domain was originally purchased through GoDaddy, but later moved to the much more ethical registrar, [Hover](http://hover.com). The lovely typefaces are served by [Typekit](http://typekit.com). 
 
-Drafts and edits are done in [iA Writer for Mac](http://www.iawriter.com/) with some background music from iTunes. Kyle owns a lovely 13′ Macbook Pro and Verizon iPhone 4.
+Writing done in [iA Writer](http://www.iawriter.com/) with some background music from iTunes. Kyle owns a 13' Macbook Pro and Verizon iPhone 4.
 
 If you had to describe Kyle in one sentence, it might look like this: a passionate individual who's life goal is to help people. He hopes what is written here helps you, in at least so far as giving you something interesting to read.
