@@ -15,7 +15,7 @@ Kyle Dreger is attending the [University of Mount Union](http://mountunion.edu) 
 
 ## This site
 
-This site is a place for Kyle to document his journey through the computer science major and college. Main topics include faith, technology, gadgets and living with less. He also writes for his university's blog, of which all his posts can be found [here](http://blog.mountunion.edu/blog/author/dregerkq/). 
+This site is a place for Kyle to document his journey through the computer science major and college. Main topics include faith, technology, gadgets and living with less. He also writes for his university's blog, of which all his posts can be found [here](http://blog.mountunion.edu/blog/author/dregerkq/). Recently, he started writing once a day over on [logicalstate.net](http://logicalstate.net) - a small side project for the summer. 
 
 ## Setup
 
