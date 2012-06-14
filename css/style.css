@@ -770,7 +770,9 @@ body {
   color: #444;
   line-height: 1.5em;
   font-size: 17px;
-  font-weight: 300; }
+  font-weight: 300; 
+  -webkit-font-smoothing: antialiased;
+  }
 
 h1,
 h2,
