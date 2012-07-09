@@ -1,7 +1,9 @@
 @import "reset"; 
 @import "font-awesome";
 
-$color: #87BED7;
+
+$text: #444;
+$color: #FF7D7B;
 $dark_color: darken($color, 10%);
 $serif: 'adelle', Georgia, serif;
 $headline: Helvetica, Arial, sans-serif;
@@ -24,7 +26,7 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-weight: 100;
+  font-weight: 300;
   font-family: $serif;
   text-align: center;
 }
@@ -73,11 +75,14 @@ a {
     text-decoration: none;
   }  
   i {
-    color: #fff;
-    vertical-align:middle;
+    padding-left: 10px;
   }
   a {
-    text-decoration: none; 
+    color: $text;
+    text-decoration: none;
+    &:hover {
+      color: $color;
+    } 
   }
 }
 
@@ -175,7 +180,6 @@ pre {
   overflow: auto;
   background: #f8f8f8;
 }
-
 /*
     Media queries to 
     make content responsive
