@@ -1,9 +1,7 @@
 @import "reset"; 
-@import "font-awesome";
-
 
 $text: #444;
-$color: #FF7D7B;
+$color: #00ACED; 
 $dark_color: darken($color, 10%);
 $serif: 'adelle', Georgia, serif;
 $headline: Helvetica, Arial, sans-serif;
@@ -13,7 +11,7 @@ body {
   font-family: $sans;
   color: #444;
   line-height: 1.5em;   
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300; 
 }  
 h1,
@@ -28,7 +26,7 @@ h3 {
   line-height: 1.2em;
   font-weight: 300;
   font-family: $serif;
-  text-align: center;
+  text-align: left;
 }
 
 h1 { 
@@ -63,26 +61,24 @@ a {
 .wrapper
 {
   width: 550px;
-  margin: 50px auto;
+  margin: 50px;
 }
 
 .header { 
-  text-align: center;
-  margin: 0 auto;
+  width: 200px;
+  height: 90px;
+  position: relative;
+  border-radius: 10px;
+  background: url('../img/shield.png') left no-repeat $color;
   font-family: $sans;
-  margin: 70px 0px 80px; 
-  &:hover {
-    text-decoration: none;
-  }  
-  i {
-    padding-left: 10px;
-  }
-  a {
-    color: $text;
-    text-decoration: none;
-    &:hover {
-      color: $color;
-    } 
+  margin-bottom: 40px;
+  padding: 0;
+  h1 {
+    color: #fff;
+    float: right;
+    line-height: 75px;
+    font-family: $sans;
+    padding-right: 20px;
   }
 }
 
@@ -123,7 +119,6 @@ a {
   font-size: .9em;
   font-weight: bold;
   color: #aaa;
-  text-align: center;
 }
 
 .archive-list {
@@ -135,8 +130,8 @@ a {
   li {
     padding: 10px 0px;
     list-style: none;
-    &:nth-child(odd) {
-      background: #fff;
+    &:nth-child(1) {
+
     }
   }
   .date {
