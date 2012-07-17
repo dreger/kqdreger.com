@@ -9,8 +9,8 @@ $sans: "museo-sans", Helvetica, Arial, sans-serif;
 
 body {
   font-family: $sans;
-  color: #444;
-  line-height: 1.5em;   
+  color: #333;
+  line-height: 1.4em;   
   font-size: 16px;
   font-weight: 300; 
 }  
@@ -26,7 +26,7 @@ h3 {
   line-height: 1.2em;
   font-weight: 300;
   font-family: $serif;
-  text-align: left;
+  text-align: center;
 }
 
 h1 { 
@@ -60,16 +60,18 @@ a {
 
 .wrapper
 {
-  width: 550px;
-  margin: 50px;
+  width: 525px;
+  margin: 50px auto;
 }
 
 .header { 
-  width: 200px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
   position: relative;
-  border-radius: 10px;
-  background: url('../img/shield.png') left no-repeat $color;
+  text-indent: -9999px;
+  background: url('../img/logo.png') center no-repeat;
+  background-size: 100px 100px;
   font-family: $sans;
   margin-bottom: 40px;
   padding: 0;
@@ -90,6 +92,13 @@ a {
     margin: 0 auto;
     display: block;
   }
+}
+
+.footer {
+  text-align: center;
+  border: #aaa solid 1px;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .about {
@@ -119,13 +128,14 @@ a {
   font-size: .9em;
   font-weight: bold;
   color: #aaa;
+  text-align: center;
 }
 
 .archive-list {
   ul {
     margin: 0;
     padding: 0;
-    font-size: 1.3em;
+    text-align: center;
   }
   li {
     padding: 10px 0px;
@@ -136,7 +146,7 @@ a {
   }
   .date {
     display: block;
-    font-size: .7em;
+    font-size: .8em;
     color: #888;
   }
 } 

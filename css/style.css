@@ -52,8 +52,8 @@ strong {
 
 body {
   font-family: "museo-sans", Helvetica, Arial, sans-serif;
-  color: #444;
-  line-height: 1.5em;
+  color: #333;
+  line-height: 1.4em;
   font-size: 16px;
   font-weight: 300; }
 
@@ -69,7 +69,7 @@ h3 {
   line-height: 1.2em;
   font-weight: 300;
   font-family: "adelle", Georgia, serif;
-  text-align: left; }
+  text-align: center; }
 
 h1 {
   font-size: 1.9em;
@@ -95,15 +95,17 @@ a {
     color: #0087ba; }
 
 .wrapper {
-  width: 550px;
-  margin: 50px; }
+  width: 525px;
+  margin: 50px auto; }
 
 .header {
-  width: 200px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
   position: relative;
-  border-radius: 10px;
-  background: url("../img/shield.png") left no-repeat #00aced;
+  text-indent: -9999px;
+  background: url("../img/logo.png") center no-repeat;
+  background-size: 100px 100px;
   font-family: "museo-sans", Helvetica, Arial, sans-serif;
   margin-bottom: 40px;
   padding: 0; }
@@ -121,6 +123,12 @@ a {
     height: auto;
     margin: 0 auto;
     display: block; }
+
+.footer {
+  text-align: center;
+  border: #aaa solid 1px;
+  width: 80%;
+  margin: 20px auto; }
 
 .about {
   padding: 10px 0px 30px 0px;
@@ -143,18 +151,19 @@ a {
   text-transform: uppercase;
   font-size: .9em;
   font-weight: bold;
-  color: #aaa; }
+  color: #aaa;
+  text-align: center; }
 
 .archive-list ul {
   margin: 0;
   padding: 0;
-  font-size: 1.3em; }
+  text-align: center; }
 .archive-list li {
   padding: 10px 0px;
   list-style: none; }
 .archive-list .date {
   display: block;
-  font-size: .7em;
+  font-size: .8em;
   color: #888; }
 
 .footnotes {
