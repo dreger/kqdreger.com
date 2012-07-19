@@ -3,15 +3,17 @@
 $text: #444;
 $color: #00ACED; 
 $dark_color: darken($color, 10%);
-$serif: 'adelle', Georgia, serif;
+$serif: Georgia, sans-serif;
+$serif2: 'adelle', Georgia, serif;
 $headline: Helvetica, Arial, sans-serif;
-$sans: "museo-sans", Helvetica, Arial, sans-serif;
+$sans: Verdana, sans-serif;
+$sans2: "museo-sans", Helvetica, Arial, sans-serif;
 
 body {
   font-family: $sans;
   color: #333;
   line-height: 1.4em;   
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300; 
 }  
 h1,
@@ -26,7 +28,6 @@ h3 {
   line-height: 1.2em;
   font-weight: 300;
   font-family: $serif;
-  text-align: center;
 }
 
 h1 { 
@@ -60,27 +61,18 @@ a {
 
 .wrapper
 {
-  width: 525px;
+  width: 450px;
   margin: 50px auto;
+  margin-top: 100px;
 }
 
 .header { 
-  width: 80px;
-  height: 80px;
-  margin: 0 auto;
-  position: relative;
-  text-indent: -9999px;
-  background: url('../img/logo.png') center no-repeat;
-  background-size: 100px 100px;
   font-family: $sans;
   margin-bottom: 40px;
   padding: 0;
+  text-transform: lowercase;
   h1 {
-    color: #fff;
-    float: right;
-    line-height: 75px;
     font-family: $sans;
-    padding-right: 25px;
   }
 }
 
@@ -128,26 +120,24 @@ a {
   font-size: .9em;
   font-weight: bold;
   color: #aaa;
-  text-align: center;
 }
 
 .archive-list {
   ul {
     margin: 0;
     padding: 0;
-    text-align: center;
   }
   li {
-    padding: 10px 0px;
+    padding: 3px 0px;
     list-style: none;
     &:nth-child(1) {
 
     }
   }
   .date {
-    display: block;
-    font-size: .8em;
+    font-size: .9em;
     color: #888;
+    font-family: monospace;
   }
 } 
 
@@ -196,6 +186,6 @@ pre {
 @media screen and (max-width: 750px) {
   .wrapper {
     width: 90%;
-    margin: 50px auto;
+    margin: 20px auto;
   }
 }

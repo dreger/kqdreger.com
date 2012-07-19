@@ -51,10 +51,10 @@ strong {
   font-style: bold; }
 
 body {
-  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   color: #333;
   line-height: 1.4em;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300; }
 
 h1,
@@ -68,8 +68,7 @@ h2,
 h3 {
   line-height: 1.2em;
   font-weight: 300;
-  font-family: "adelle", Georgia, serif;
-  text-align: center; }
+  font-family: Georgia, sans-serif; }
 
 h1 {
   font-size: 1.9em;
@@ -95,26 +94,17 @@ a {
     color: #0087ba; }
 
 .wrapper {
-  width: 525px;
-  margin: 50px auto; }
+  width: 450px;
+  margin: 50px auto;
+  margin-top: 100px; }
 
 .header {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto;
-  position: relative;
-  text-indent: -9999px;
-  background: url("../img/logo.png") center no-repeat;
-  background-size: 100px 100px;
-  font-family: "museo-sans", Helvetica, Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   margin-bottom: 40px;
-  padding: 0; }
+  padding: 0;
+  text-transform: lowercase; }
   .header h1 {
-    color: #fff;
-    float: right;
-    line-height: 75px;
-    font-family: "museo-sans", Helvetica, Arial, sans-serif;
-    padding-right: 25px; }
+    font-family: Verdana, sans-serif; }
 
 .content {
   font-weight: 300; }
@@ -151,20 +141,18 @@ a {
   text-transform: uppercase;
   font-size: .9em;
   font-weight: bold;
-  color: #aaa;
-  text-align: center; }
+  color: #aaa; }
 
 .archive-list ul {
   margin: 0;
-  padding: 0;
-  text-align: center; }
+  padding: 0; }
 .archive-list li {
-  padding: 10px 0px;
+  padding: 3px 0px;
   list-style: none; }
 .archive-list .date {
-  display: block;
-  font-size: .8em;
-  color: #888; }
+  font-size: .9em;
+  color: #888;
+  font-family: monospace; }
 
 .footnotes {
   font-size: .8em;
@@ -207,4 +195,4 @@ pre {
 @media screen and (max-width: 750px) {
   .wrapper {
     width: 90%;
-    margin: 50px auto; } }
+    margin: 20px auto; } }
