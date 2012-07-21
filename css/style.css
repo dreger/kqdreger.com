@@ -53,9 +53,8 @@ strong {
 body {
   font-family: Verdana, sans-serif;
   color: #333;
-  line-height: 1.4em;
-  font-size: 13px;
-  font-weight: 300; }
+  line-height: 1.6em;
+  font-size: 12px; }
 
 h1,
 h2,
@@ -67,12 +66,10 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-weight: 300;
-  font-family: Georgia, sans-serif; }
+  font-family: Verdana, sans-serif; }
 
 h1 {
-  font-size: 1.9em;
-  font-weight: bold; }
+  font-size: 1.9em; }
   h1 a {
     text-decoration: none; }
 
@@ -94,25 +91,21 @@ a {
     color: #0087ba; }
 
 .wrapper {
-  width: 450px;
+  width: 400px;
   margin: 50px auto;
-  margin-top: 100px; }
+  margin-top: 150px; }
 
 .header {
   font-family: Verdana, sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   padding: 0;
   text-transform: lowercase; }
-  .header h1 {
-    font-family: Verdana, sans-serif; }
 
-.content {
-  font-weight: 300; }
-  .content img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block; }
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block; }
 
 .footer {
   text-align: center;
@@ -163,9 +156,15 @@ a {
   .footnotes hr {
     display: none; }
 
-.back-to-blog {
-  padding-top: 30px;
+.back {
+  margin-top: 30px;
   text-align: center; }
+  .back a {
+    background: #00aced;
+    color: #fff;
+    padding: 5px 10px; }
+    .back a:hover {
+      background: #0087ba; }
 
 blockquote {
   border-left: 7px solid #00aced;
@@ -192,7 +191,7 @@ pre {
 
     Thanks @beep
 */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   .wrapper {
     width: 90%;
     margin: 20px auto; } }

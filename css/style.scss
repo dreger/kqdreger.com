@@ -3,18 +3,13 @@
 $text: #444;
 $color: #00ACED; 
 $dark_color: darken($color, 10%);
-$serif: Georgia, sans-serif;
-$serif2: 'adelle', Georgia, serif;
-$headline: Helvetica, Arial, sans-serif;
 $sans: Verdana, sans-serif;
-$sans2: "museo-sans", Helvetica, Arial, sans-serif;
 
 body {
   font-family: $sans;
   color: #333;
-  line-height: 1.4em;   
-  font-size: 13px;
-  font-weight: 300; 
+  line-height: 1.6em;   
+  font-size: 12px;
 }  
 h1,
 h2, 
@@ -26,13 +21,11 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-weight: 300;
-  font-family: $serif;
+  font-family: $sans;
 }
 
 h1 { 
   font-size: 1.9em; 
-  font-weight: bold;
   a {
     text-decoration: none;
   }
@@ -61,23 +54,19 @@ a {
 
 .wrapper
 {
-  width: 450px;
+  width: 400px;
   margin: 50px auto;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .header { 
   font-family: $sans;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   padding: 0;
   text-transform: lowercase;
-  h1 {
-    font-family: $sans;
-  }
 }
 
 .content {
-  font-weight: 300;
   img {
     max-width: 100%;
     height: auto;
@@ -152,9 +141,17 @@ a {
   }
 }
 
-.back-to-blog {
-  padding-top: 30px;
+.back {
+  margin-top: 30px;
   text-align: center;
+  a {
+    background: $color;
+    color: #fff;
+    padding: 5px 10px;
+    &:hover {
+      background: $dark_color;
+    }
+  }
 }
 
 blockquote {
@@ -183,7 +180,7 @@ pre {
     Thanks @beep
 */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   .wrapper {
     width: 90%;
     margin: 20px auto;
