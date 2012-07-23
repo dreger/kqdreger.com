@@ -2,17 +2,16 @@
 layout: default
 ---
 
+<!-- here's the article you wanted -->
 <section class="article">
-	<!-- <p class="meta">{{ page.date | date: "%d %B %Y" }}</p> -->
-	
-	<h2>{{ page.title }}</h2> 
-
-
-	<p class="meta">{{ page.date | date: "%B %d, %Y" }} &middot; <a href="{{ page.url }}">Permalink</a></p>
-
-	<section class="article-content">
-		{{ content }}
-	</section>
-
-	<section class="back"><a href="/">Return to blog</a></section>
+<h2>{{ page.title }}</h2> 
+<p class="meta">{{ page.date | date: "%B %d, %Y" }} &middot; <a href="{{ page.url }}">Permalink</a></p>
+<section class="article-content">
+{{ content }}
 </section>
+<!-- end article-content -->
+
+<!-- go read more! -->
+<section class="back"><a href="/">Return to blog</a></section>
+</section>
+<!-- end article -->

@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<!--
-    Hi :)
--->
+
+<!-- Welcome to my weblog, source code viewers. -->
+
 <html>
-    <head>
-        <title>{{ page.title }}</title>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-        <meta content="en-us" http-equiv="Content-Language" />
-        <meta name="author" content="Kyle Dreger" />
-        <meta name="description" content="Kyle Dreger makes beautiful software, crafts webpages from pixels and writes. He also likes tea." />
-        <link rel="icon" href="/favicon.ico">
-        <link href="/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
-        <meta name = "viewport" content = "width=device-width">
+<head>
+<title>{{ page.title }}</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="en-us" http-equiv="Content-Language" />
+<meta name="author" content="Kyle Dreger" />
+<meta name="description" content="Kyle Dreger makes beautiful software, crafts webpages from pixels and writes. He also likes tea." />
+<link rel="icon" href="/favicon.ico">
+<link href="/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<meta name = "viewport" content = "width=device-width">
 
-        {% include analytics.html %}
-    </head>
+{% include analytics.html %}
+</head>
 
-    <body>
-        <section class="wrapper">
-            <section class="header">
-                <h1><a href="/">happy notes</a> by kyle</h1>
-                <p><a href="/archive">Archive</a> &middot; <a href="/about">About</a> &middot; <a href="/contact">Contact</a></p>
-            </section>
+<body>
+<section class="wrapper">
 
-            <section class="content">
-                {{ content }}
-            </section> <!-- / content -->
-        </section> <!-- / wrapper -->
-    </body>
+<section class="header">
+<h1><a href="/">happy notes</a> by kyle</h1>
+<p><a href="/archive">Archive</a> &middot; <a href="/about">About</a> &middot; <a href="/contact">Contact</a></p>
+</section>
+<!-- end header -->
+
+<section class="content">
+
+{{ content }}
+
+</section> <!-- end content -->
+</section> <!-- end wrapper -->
+</body>
 </html>
