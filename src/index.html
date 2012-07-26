@@ -1,0 +1,21 @@
+---
+layout: default
+title: Kyle Dreger
+---
+
+{% for post in site.posts limit:5 %}
+<!-- Here's an article for you --> 
+<section class="article">	
+<h2>{{ post.title }}</h2> 
+<p class="meta">{{ post.date | date: "%B %d, %Y" }} &middot; <a href="{{ post.url }}">Permalink</a></p>
+<section class="article-content">
+{{ post.content }}
+</section> 
+</section> 
+<!-- end article -->
+
+
+{% endfor %}
+
+<section class="button"><a href="/archive.html">More good stuff here</a></section>
+</section>
