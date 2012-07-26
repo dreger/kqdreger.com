@@ -1,2 +1,4 @@
+source: ./src
+destination: ./site
 auto: true
-permalink: /:title/
+permalink: /:title

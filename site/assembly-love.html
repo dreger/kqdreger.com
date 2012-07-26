@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!-- Welcome to my weblog, source code viewers. -->
+
+<html>
+<head>
+<title>Assembly language love affair</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="en-us" http-equiv="Content-Language" />
+<meta name="author" content="Kyle Dreger" />
+<meta name="description" content="Kyle Dreger makes beautiful software, crafts webpages from pixels and writes. He also likes tea." />
+<link rel="icon" href="/favicon.ico">
+<link href="/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<meta name = "viewport" content = "width=device-width">
+
+<!-- get those stats w/google analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-17208416-14']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- end google analytics -->
+
+</head>
+
+<body>
+<section class="wrapper">
+
+<section class="header">
+<h1><a href="/">notes</a> by kyle</h1>
+<p><a href="/about.html">About</a> <span class="amp">&amp;</span> <a href="/archive.html">Archive</a></p>
+</section>
+<!-- end header -->
+
+<section class="content">
+
+<!-- here's the article you wanted -->
+<section class="article">
+<h2>Assembly language love affair</h2> 
+<p class="meta">March 01, 2012 &middot; <a href="/assembly-love.html">Permalink</a></p>
+<section class="article-content">
+<p>I have a love / hate relationship with assembly language.</p>
+
+<h3 id='things_i_hate'>Things I hate:</h3>
+
+<p>It&#8217;s an archaic language. Unless you are working on microchip design, you are probably never going to work with it. Assembly language programmers have to worry and keep track of every single byte of memory - you&#8217;re minipulating it by hand. Basically, the training wheels of high-level languages like Java and C++ are off and you have to manage everything.</p>
+
+<p>A simple statement in Java that outputs a string of text looks like this:</p>
+
+<pre><code>System.out.println(&quot;Hello, World.&quot;);</code></pre>
+
+<p>Not bad. You can almost read along with the code. You are calling on the System to Print Out a Line with the contents of the quotation marks. Easy enough to understand.</p>
+
+<p>This is the same statement, written in assembly:</p>
+
+<pre><code>.data
+msg:	.asciiz	&quot;Hello, World.&quot;
+.text
+main:
+li	$v0, 4
+la	$a0, msg
+syscall</code></pre>
+
+<p>Yup. Practically unreadable code, more machine than human, and more than four times as many lines to accomplish what we did above. Imagine coding logic into this.</p>
+
+<h3 id='things_i_love'>Things I love</h3>
+
+<p>You may know how to drive a car, but actually understanding how the motor and pistons drive it forward is a unique insight. Although I will never, ever, program anything substantial in assembly language, I feel I am a more conscientious coder because I understand the basics.</p>
+
+<p>That being said, assembly and I probably won&#8217;t end up together.</p>
+</section>
+<!-- end article-content -->
+
+<!-- go read more! -->
+<section class="button"><a href="/">Return to blog</a></section>
+</section>
+<!-- end article -->
+
+
+</section> <!-- end content -->
+</section> <!-- end wrapper -->
+</body>
+</html>

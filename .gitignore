@@ -1,5 +1,1 @@
-_site/
-drafts/
-.DS_Store
-.sass-cache/
-css/*.scss
+src/
