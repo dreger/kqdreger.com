@@ -1,2 +1,3 @@
 site/
-site/css/*.scss
+.sass-cache
+.DS_Store
