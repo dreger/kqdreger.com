@@ -5,9 +5,9 @@ title: About
 
 ## Hello
 
-This is the humble weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/kyledreger), [code](http://github.com/kyledreger) and [links](http://pinboard.in/u:kyledreger) elsewhere on the web. 
+This is the humble weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:kyledreger) elsewhere on the web. 
 
-If you fancy to comment on a post, or contact Kyle, email <hi@kyledreger.com> and he'll get back to you within a day or two. The cool nerds can also open up an issue at [kyledreger/feedback](https://github.com/kyledreger/feedback/issues/new) on GitHub.
+If you fancy to comment on a post, or contact Kyle, email <hi@kyledreger.com> and he'll get back to you within a day or two. The cool nerds can also open up an issue at [dreger/feedback](https://github.com/kyledreger/feedback/issues/new) on GitHub.
 
 ## Est. 2010
 
