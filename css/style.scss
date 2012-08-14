@@ -14,7 +14,8 @@
 }
 
 $text: #222;
-$color: #00ACED; 
+$color: #D21B33;
+$blue: #00aced; 
 $dark_color: darken($color, 10%);
 $type_body: 'Lucida Grande', Verdana, sans-serif;
 $type_header: 'museo-sans', 'Source Sans Pro', 'Lucida Grande', Verdana, sans-serif;
@@ -24,7 +25,7 @@ body {
   color: #444;
   line-height: 1.6em;   
   font-size: 13px;
-  font-weight: 100;
+  font-weight: 400;
 }  
 h1,
 h2, 
@@ -78,11 +79,15 @@ a {
 }
 
 .header { 
-  font-family: $type_header;
+  font-family: $type_body;
   margin-bottom: 90px;
   padding: 0;
-  font-weight: 200;
-  text-transform: lowercase;
+  font-weight: 300;
+  h2 {
+    font-family: $type_header;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
   .amp {
     font-family: Palatino, Constantia, Georgia;
     font-size: 15px;
@@ -107,7 +112,6 @@ a {
 
 .about {
   padding: 10px 0px 30px 0px;
-  font-size: .9em;
   ul {
     padding: 0;
     margin: 0;

@@ -56,7 +56,7 @@ body {
   color: #444;
   line-height: 1.6em;
   font-size: 13px;
-  font-weight: 100; }
+  font-weight: 400; }
 
 h1,
 h2,
@@ -90,10 +90,10 @@ h3 {
     text-decoration: none; }
 
 a {
-  color: #00aced;
+  color: #d21b33;
   text-decoration: none; }
   a:hover {
-    color: #0087ba; }
+    color: #a51528; }
 
 .wrapper {
   width: 420px;
@@ -101,11 +101,14 @@ a {
   margin-top: 100px; }
 
 .header {
-  font-family: "museo-sans", "Source Sans Pro", "Lucida Grande", Verdana, sans-serif;
+  font-family: "Lucida Grande", Verdana, sans-serif;
   margin-bottom: 90px;
   padding: 0;
-  font-weight: 200;
-  text-transform: lowercase; }
+  font-weight: 300; }
+  .header h2 {
+    font-family: "museo-sans", "Source Sans Pro", "Lucida Grande", Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold; }
   .header .amp {
     font-family: Palatino, Constantia, Georgia;
     font-size: 15px; }
@@ -123,8 +126,7 @@ a {
   margin: 20px auto; }
 
 .about {
-  padding: 10px 0px 30px 0px;
-  font-size: .9em; }
+  padding: 10px 0px 30px 0px; }
   .about ul {
     padding: 0;
     margin: 0; }
@@ -187,14 +189,14 @@ a {
   text-align: center; }
   .button a {
     border-radius: 5px;
-    background: #00aced;
+    background: #d21b33;
     color: #fff;
     padding: 10px 15px; }
     .button a:hover {
-      background: #0087ba; }
+      background: #a51528; }
 
 blockquote {
-  border-left: 7px solid #00aced;
+  border-left: 7px solid #d21b33;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px; }
