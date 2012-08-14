@@ -211,6 +211,12 @@ pre {
   overflow: auto;
   background: #f8f8f8; }
 
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
 /*
     Media queries to 
     make content responsive
