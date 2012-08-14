@@ -2,10 +2,13 @@
 layout: page
 title: Archive
 ---
-<div class="archive-list">
+<div class="index-list">
 	<ul>
 		{% for post in site.posts %}
-		<li><span class="date">{{ post.date | date: "%b %d, %Y" }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+		<li>
+			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<span class="date">{{ post.date | date: "%B %Y" }}</span>
+		</li>
 		{% endfor %}
 	</ul>
 </div>
