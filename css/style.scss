@@ -1,24 +1,21 @@
 @import "reset"; 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
 
 @mixin boxy { 
   border: 1px solid #ddd;
-  box-shadow: 0px 0px 5px #ddd;
-  border-radius: 5px;
-  padding: 30px 40px;
-  margin: 25px 0px;
-  text-align: justify;
-  &:first-child {
-    margin-top: 0px;
-  }
+  border-bottom: none;
+  padding: 10px 20px;
+}
+
+@mixin boxy_page {
+  border-radius: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
 $text: #222;
-$color: #D21B33;
-$blue: #00aced; 
+$color: #00aced;
 $dark_color: darken($color, 10%);
 $type_body: 'Lucida Grande', Verdana, sans-serif;
-$type_header: 'museo-sans', 'Source Sans Pro', 'Lucida Grande', Verdana, sans-serif;
+$type_header: 'Helvetica Neue', Helvetica, sans-serif;
 
 body {
   font-family: $type_body;
@@ -39,10 +36,14 @@ h3 {
   line-height: 1.2em;
   font-family: $type_header;
   text-align: left;
+  font-weight: bold;
+  a {
+    color: #000;
+  }
 }
 
 h1 { 
-  font-size: 1.9em; 
+  font-size: 200%; 
   text-align: left; 
   a {
     text-decoration: none;
@@ -50,14 +51,14 @@ h1 {
   }
 }
 h2 { 
-  font-size: 1.6em; 
+  font-size: 160%; 
   letter-spacing: 0px;
   a{
     text-decoration: none;
   }
 }
 h3 { 
-  font-size: 1.4em; 
+  font-size: 140%; 
   a {
     text-decoration: none;
   }
@@ -75,12 +76,11 @@ a {
 {
   width: 420px;
   margin: 50px auto;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .header { 
-  font-family: $type_body;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
   padding: 0;
   font-weight: 300;
   h2 {
@@ -88,9 +88,8 @@ a {
     text-transform: uppercase;
     font-weight: bold;
   }
-  .amp {
-    font-family: Palatino, Constantia, Georgia;
-    font-size: 15px;
+  a {
+    color: $color;
   }
 }
 
@@ -122,12 +121,32 @@ a {
   } 
 }
 
+.article-list {
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none; 
+      @include boxy;
+      &:first-child {
+        border-radius: 10px 10px 0px 0px;
+      }
+      &:last-child {
+        border-radius: 0px 0px 10px 10px;
+        border-bottom: 1px solid #ddd;
+      }
+    }
+  }
+}
+
 .article {
   @include boxy;
+  @include boxy_page;
 }
 
 .page {
   @include boxy;
+  @include boxy_page;
 }
 
 .meta {
@@ -196,7 +215,7 @@ pre {
   font-family: monospace;
   padding: 10px 0px 10px 30px;
   margin: 15px 0px;
-  font-size: .8em;
+  font-size: 1em;
   max-width: 100%;
   overflow: auto;
   background: #f8f8f8;
@@ -219,5 +238,8 @@ em {
   .wrapper {
     width: 90%;
     margin: 20px auto;
+  }
+  .header {
+    margin-bottom: 25px;
   }
 }
