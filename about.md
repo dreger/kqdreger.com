@@ -3,19 +3,19 @@ layout: page
 title: About
 ---
 
-## Hola
+### Hi
 
 This is the humble weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:kyledreger) elsewhere on the web. He's also designed several [Tumblr themes](http://tumblr.com/themes/by/kyledreger) as well. 
 
 No built-in comments here, but feel free to email <hi@kyledreger.com> and he'll get back to you within a day or two. Cool nerds can also open up an issue at [dreger/feedback](https://github.com/dreger/feedback/issues/new) on GitHub.
 
-## A long, long time ago
+### Est. 2010
 
 This blog was born in the fall of 2010, when Kyle began attending the [University of Mount Union](http://mountunion.edu). 
 
 He loves clean, honest design, Apple things, writing out ideas and playing soccer. He also has the most beautiful girlfriend in the world. 
 
-## Under the hood, a V8 beast
+### Setup
 
 [GitHub](http://github.com) and [Jekyll](https://github.com/mojombo/jekyll/) generate this site - keeping it lightweight, and static. The domain lives on [Hover](http://hover.com) (seriously, love them). You may occasionally see custom typefaces here, and those are served by the lovely [Typekit](http://typekit.com). 
 

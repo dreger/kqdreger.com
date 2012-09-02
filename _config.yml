@@ -1,2 +1,10 @@
 auto: true
 permalink: /:title
+server_port: 5000
+pygments: true
+
+author: Kyle Dreger, @dreger
+twitter: dreger
+analytics: UA-17208416-14
+description: "Kyle is a programmer, writer and designer. A triple threat. Maybe."
+title: Less of me

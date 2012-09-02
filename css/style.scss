@@ -12,7 +12,8 @@
 }
 
 $text: #222;
-$color: #00aced;
+$gray: #ccc;
+$color: #91C640;
 $dark_color: darken($color, 10%);
 $type_body: 'Lucida Grande', Verdana, sans-serif;
 $type_header: 'Helvetica Neue', Helvetica, sans-serif;
@@ -35,7 +36,6 @@ h2,
 h3 {
   line-height: 1.2em;
   font-family: $type_header;
-  text-align: left;
   font-weight: bold;
   a {
     color: #000;
@@ -44,7 +44,6 @@ h3 {
 
 h1 { 
   font-size: 200%; 
-  text-align: left; 
   a {
     text-decoration: none;
     font-weight: bold;
@@ -68,7 +67,7 @@ a {
   color: $color;
   text-decoration: none;
   &:hover { 
-    color: $dark_color;
+    color: $color;
   }
 }
 
@@ -76,20 +75,32 @@ a {
 {
   width: 420px;
   margin: 50px auto;
-  margin-top: 120px;
 }
 
 .header { 
   margin-bottom: 60px;
   padding: 0;
   font-weight: 300;
-  h2 {
+  text-align: center; 
+  .logo {
+    background-size: 85%;
+    border-radius: 50%;
+    margin: 10px auto;
+    width: 90px;
+    height: 90px;
+    background-color: $color;
+    background-image: url('../img/man.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  h1 {
     font-family: $type_header;
-    text-transform: uppercase;
     font-weight: bold;
   }
-  a {
-    color: $color;
+  h3 {
+    font-size: 100%;
+    font-family: $type_body;
+    text-transform: uppercase;
   }
 }
 
@@ -104,7 +115,6 @@ a {
 
 .footer {
   text-align: center;
-  border: #aaa solid 1px;
   width: 80%;
   margin: 20px auto;
 }
@@ -144,9 +154,22 @@ a {
   @include boxy_page;
 }
 
+.article-content {
+  a {
+    color: #000;
+    border-bottom: solid 1px $gray;
+    padding-bottom: 1px;
+  }
+}
+
 .page {
   @include boxy;
   @include boxy_page;
+  a {
+    color: #000;
+    border-bottom: solid 1px $gray;
+    padding-bottom: 1px;
+  }
 }
 
 .meta {
@@ -156,26 +179,6 @@ a {
   font-weight: bold;
   color: #aaa;
 }
-
-.index-list {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    padding: 3px 0px;
-    margin-bottom: 10px;
-    list-style: none;
-    &:last-child {
-      margin-bottom: 0px;
-    }
-  }
-  .date {
-    font-size: 13px;
-    color: #888;
-    display: block;
-  }
-} 
 
 .footnotes {
   font-size: .8em;
@@ -188,19 +191,6 @@ a {
   }
 }
 
-.button {
-  margin-top: 30px;
-  text-align: center;
-  a {
-    border-radius: 5px;
-    background: $color;
-    color: #fff;
-    padding: 10px 15px;
-    &:hover {
-      background: $dark_color;
-    }
-  }
-}
 
 blockquote {
   border-left: 7px solid $color;

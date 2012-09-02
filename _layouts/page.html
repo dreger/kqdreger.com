@@ -1,7 +1,20 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
 
-<section class="page">
-{{ content }}
-</section>
+  <section class="wrapper">
+    {% include header.html %}
+
+    <!-- Content goes here... -->
+    <section class="page">
+		{{ content }}
+		</section>
+
+    
+    {% include footer.html %}
+  </section>
+
+  {% include js.html %}
+</body>
+</html>
