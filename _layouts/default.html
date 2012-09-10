@@ -10,17 +10,17 @@
     <section class="content">
     
     <!-- ALL THE POSTS! -->
-    <section class="article-list">  
-    <ul>
-    {% for post in site.posts %}
-      <li>
-        <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3> 
-        <span class="meta">{{ post.date | date: "%B %d, %Y" }}</span>
-      </li>
-    {% endfor %}
-    </ul>
+      {% for post in site.posts %}
+        <section class="article">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+        <p class="meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        <section class="article-content">
+        {{ post.content }}
+        </section>
+        <!-- end article-content -->
+        </section>
+      {% endfor %}  
     </section>
-  </section>
 
   {% include js.html %}
 </body>
