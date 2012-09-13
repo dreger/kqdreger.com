@@ -1,7 +1,35 @@
 <section class="header">
-	<section class="logo"></section>
+	<section class="logo">
+      <a href="/"></a>
+  </section>
 
-	<h1><a href="/">{{ site.title }}</a></h1>
-	<h3>By <a href="/about.html">Kyle Dreger</a></h3>
+  <section class="user">
+  	<h1><a href="/">{{ site.title }}</a> by {{ site.author }}</h1>
+    {% if page.title %}
+      <h1 class="date">{{ page.date | date: "%b %d, %Y" }}</h1>
+    {% else %}
+      <script type="text/javascript">
+      var currentDate = new Date()
+      var month=new Array();
+      month[0]="Jan";
+      month[1]="Feb";
+      month[2]="Mar";
+      month[3]="Apr";
+      month[4]="May";
+      month[5]="Jun";
+      month[6]="Jul";
+      month[7]="Aug";
+      month[8]="Sep";
+      month[9]="Oct";
+      month[10]="Nov";
+      month[11]="Dec";
+      var month = month[currentDate.getMonth()];
+      var day = currentDate.getDate()
+      var year = currentDate.getFullYear()
+      document.write("<h1 class=\"date\">" + month + " " + day + ", " + year + "</h1>")
+      </script>
+    {% endif %}
+
+  </section>
 </section>
 <!-- end header -->

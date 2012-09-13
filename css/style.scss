@@ -1,64 +1,56 @@
 @import "reset"; 
 
-@mixin boxy { 
-  /*border: 1px solid #ddd;
-  border-bottom: none;
-  padding: 10px 20px;*/
-  margin: 30px 0px;
-}
-
-@mixin boxy_page {
-  /*border-radius: 10px;
-  border-bottom: 1px solid #ddd;*/
-}
-
 $text: #222;
 $gray: #ccc;
-$color: #3B3B3B;
+$color: #79C5D5;
 $dark_color: darken($color, 10%);
-$type_body: 'Lucida Grande', Verdana, sans-serif;
+$type_body:  Georgia, 'Lucida Grande', Verdana, sans-serif;
 $type_header: 'Helvetica Neue', Helvetica, sans-serif;
 
 body {
   font-family: $type_body;
-  color: #444;
-  line-height: 1.6em;   
-  font-size: 13px;
+  color: $text;
+  line-height: 1.5em;   
+  font-size: 16px;
   font-weight: 400;
+  margin: 0; 
+  padding: 0;
 }  
 h1,
 h2, 
 h3,
 p { 
-  padding: 6px 0px; 
+  padding: 8px 0px; 
 }
 h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-family: $type_header;
   font-weight: bold;
   a {
-    color: #000;
+    color: $color;
   }
 }
 
 h1 { 
-  font-size: 200%; 
+  font-size: 180%; 
+  letter-spacing: -1px;
   a {
     text-decoration: none;
     font-weight: bold;
   }
 }
 h2 { 
-  font-size: 180%; 
-  letter-spacing: 0px;
+  font-size: 150%; 
+  font-style: italic;
   a{
     text-decoration: none;
   }
 }
 h3 { 
-  font-size: 140%; 
+  font-size: 130%;
+  font-weight: 300;
+  font-style: italic;
   a {
     text-decoration: none;
   }
@@ -74,34 +66,50 @@ a {
 
 .wrapper
 {
-  width: 430px;
+  width: 480px;
   margin: 50px auto;
 }
 
 .header { 
-  margin-bottom: 60px;
+  font-family: $type_header;
   padding: 0;
   font-weight: 300;
-  text-align: center; 
+  text-align: center;   
+  height: 200px;
+  margin: 60px auto;
   .logo {
-    background-size: 85%;
+    background-color: #fff;
     border-radius: 50%;
-    margin: 10px auto;
-    width: 90px;
-    height: 90px;
-    background-color: $color;
-    background-image: url('../img/man.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    border: 10px solid $color; 
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    a {
+      background: url('../img/spark.png') center no-repeat $color;
+      display: block;
+      border-radius: 50%;
+      width: 104px;
+      height: 104px;
+      margin: 0 auto;
+      margin-top: 8px;
+      background-size: 85% 85%;
+    }
   }
-  h1 {
-    font-family: $type_header;
-    font-weight: bold;
-  }
-  h3 {
-    font-size: 100%;
-    font-family: $type_body;
-    text-transform: uppercase;
+  .user {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 20px auto;
+    width: 70%;
+    padding: 5px;
+    h1 {
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 100%; 
+      &.date {
+        font-size: .8em;
+      } 
+    }
   }
 }
 
@@ -117,7 +125,7 @@ a {
 .footer {
   text-align: center;
   width: 80%;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .about {
@@ -132,27 +140,19 @@ a {
   } 
 }
 
-.article-list {
+.archive_list {
+  margin: 80px 10px;
   ul {
     margin: 0;
     padding: 0;
     li {
       list-style: none; 
-      @include boxy;
-      &:first-child {
-        border-radius: 10px 10px 0px 0px;
-      }
-      &:last-child {
-        border-radius: 0px 0px 10px 10px;
-        border-bottom: 1px solid #ddd;
-      }
     }
   }
 }
 
 .article {
-  @include boxy;
-  @include boxy_page;
+  margin-top: 80px;
 }
 
 .article-content {
@@ -165,8 +165,7 @@ a {
 }
 
 .page {
-  @include boxy;
-  @include boxy_page;
+  margin: 30px 0px;
   a {
     color: #000;
     border-bottom: solid 1px $gray;
@@ -176,9 +175,11 @@ a {
 
 .meta {
   text-transform: uppercase;
-  text-align: left;
-  font-size: .9em;
-  font-weight: bold;
+  letter-spacing: -1px;
+  font-family: $type_header;
+  text-align: center;
+  font-size: .8em;
+  font-weight: 200;
   color: #aaa;
 }
 
@@ -226,10 +227,10 @@ em {
     Thanks @beep
 */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .wrapper {
     width: 90%;
-    margin: 20px auto;
+    margin: 0 auto;
   }
   .header {
     margin-bottom: 25px;
