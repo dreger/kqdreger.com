@@ -1,17 +1,17 @@
 @import "reset"; 
 
 $text: #222;
-$gray: #ccc;
+$gray: #ddd;
 $color: #79C5D5;
 $dark_color: darken($color, 10%);
-$type_body:  Georgia, 'Lucida Grande', Verdana, sans-serif;
-$type_header: 'Helvetica Neue', Helvetica, sans-serif;
+$type_body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$type_header: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 body {
   font-family: $type_body;
   color: $text;
   line-height: 1.5em;   
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   margin: 0; 
   padding: 0;
@@ -42,15 +42,12 @@ h1 {
 }
 h2 { 
   font-size: 150%; 
-  font-style: italic;
   a{
     text-decoration: none;
   }
 }
 h3 { 
   font-size: 130%;
-  font-weight: 300;
-  font-style: italic;
   a {
     text-decoration: none;
   }
@@ -66,8 +63,8 @@ a {
 
 .wrapper
 {
-  width: 480px;
-  margin: 50px auto;
+  width: 100%;
+  margin: 0px auto 50px;
 }
 
 .header { 
@@ -75,32 +72,38 @@ a {
   padding: 0;
   font-weight: 300;
   text-align: center;   
-  height: 200px;
-  margin: 30px auto 60px;
+  width: 100%;
+  border-bottom: 1px solid $gray;
   .logo {
     background-color: #fff;
     border-radius: 50%;
     border: 10px solid $color; 
-    margin: 0 auto;
-    width: 120px;
-    height: 120px;
+    margin: 50px auto 25px;
+    width: 100px;
+    height: 100px;
     a {
       background: url('../img/spark.png') center no-repeat $color;
       display: block;
       border-radius: 50%;
-      width: 104px;
-      height: 104px;
+      width: 84px;
+      height: 84px;
       margin: 0 auto;
       margin-top: 8px;
       background-size: 85% 85%;
     }
   }
   .user {
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    margin: 20px auto;
-    width: 70%;
-    padding: 5px;
+    margin-bottom: 25px;
+    a {
+      color: $gray;
+      border-radius: 10px;
+      padding: 5px;
+      border: solid 3px $gray;
+      &:hover {
+        color: $color;
+        border-color: $color;
+      }
+    }
     h1 {
       font-weight: bold;
       letter-spacing: 1px;
@@ -114,6 +117,8 @@ a {
 }
 
 .content {
+  width: 450px;
+  margin: 50px auto 0px;
   img {
     max-width: 100%;
     height: auto;
@@ -152,11 +157,12 @@ a {
 }
 
 .article {
-  margin-top: 80px;
+  img {
+    max-width: 100%;
+  }
 }
 
 .article-content {
-  padding-left: 10px;
   a {
     color: #000;
     border-bottom: solid 1px $gray;
