@@ -73,7 +73,7 @@ h3 {
   h1 a,
   h2 a,
   h3 a {
-    color: #79c5d5; }
+    color: #65a800; }
 
 h1 {
   font-size: 180%;
@@ -93,10 +93,10 @@ h3 {
     text-decoration: none; }
 
 a {
-  color: #79c5d5;
+  color: #65a800;
   text-decoration: none; }
   a:hover {
-    color: #79c5d5; }
+    color: #65a800; }
 
 .wrapper {
   width: 100%;
@@ -112,12 +112,12 @@ a {
   .header .logo {
     background-color: #fff;
     border-radius: 50%;
-    border: 10px solid #79c5d5;
+    border: 10px solid #65a800;
     margin: 50px auto 25px;
     width: 100px;
     height: 100px; }
     .header .logo a {
-      background: url("../img/spark.png") center no-repeat #79c5d5;
+      background: url("../img/spark.png") center no-repeat #65a800;
       display: block;
       border-radius: 50%;
       width: 84px;
@@ -133,8 +133,8 @@ a {
       padding: 5px;
       border: solid 3px #dddddd; }
       .header .user a:hover {
-        color: #79c5d5;
-        border-color: #79c5d5; }
+        color: #65a800;
+        border-color: #65a800; }
     .header .user h1 {
       font-weight: bold;
       letter-spacing: 1px;
@@ -208,7 +208,7 @@ a {
     display: none; }
 
 blockquote {
-  border-left: 7px solid #79c5d5;
+  border-left: 7px solid #65a800;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px; }
