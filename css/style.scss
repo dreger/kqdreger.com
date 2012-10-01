@@ -2,7 +2,7 @@
 
 $text: #222;
 $gray: #ddd;
-$color: #F6003C;
+$color: #771155;
 $dark_color: darken($color, 10%);
 $type_body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $type_header: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -85,14 +85,18 @@ a {
     width: 100px;
     height: 100px;
     a {
-      background: url('../img/foot.png') center no-repeat $color;
+      background: url('../img/spark.png') center no-repeat $color;
       display: block;
       border-radius: 50%;
       width: 84px;
       height: 84px;
       margin: 0 auto;
       margin-top: 8px;
-      background-size: 85% 85%;
+      background-size: 75% 75%;
+      &:hover {
+        background-size: 70% 70%;
+        background-image: url('../img/house.png');
+      }
     }
   }
   .user {
