@@ -2,7 +2,7 @@
 
 $text: #222;
 $gray: #ddd;
-$color: #B13F1D;
+$color: #F6003C;
 $dark_color: darken($color, 10%);
 $type_body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $type_header: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -15,6 +15,9 @@ body {
   font-weight: 400; 
   margin: 0; 
   padding: 0;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #ebebeb), color-stop(0.3, #fff), color-stop(0.7, #fff), color-stop(1, #ebebeb));
+  background: -moz-linear-gradient(left center, #ebebeb 0%, #fff 30%, #fff 70%, #ebebeb 100%);
 }  
 h1,
 h2, 
@@ -73,8 +76,8 @@ a {
   font-weight: 300;
   text-align: center;   
   width: 100%;
-  border-bottom: 1px solid $gray;
-  .logo {
+  border-bottom: 1px solid $gray; 
+  .logo { 
     background-color: #fff;
     border-radius: 50%;
     border: 10px solid $color; 
@@ -82,7 +85,7 @@ a {
     width: 100px;
     height: 100px;
     a {
-      background: url('../img/spark.png') center no-repeat $color;
+      background: url('../img/foot.png') center no-repeat $color;
       display: block;
       border-radius: 50%;
       width: 84px;

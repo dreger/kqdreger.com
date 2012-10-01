@@ -57,7 +57,10 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #ebebeb), color-stop(0.3, white), color-stop(0.7, white), color-stop(1, #ebebeb));
+  background: -moz-linear-gradient(left center, #ebebeb 0%, white 30%, white 70%, #ebebeb 100%); }
 
 h1,
 h2,
@@ -73,7 +76,7 @@ h3 {
   h1 a,
   h2 a,
   h3 a {
-    color: #b13f1d; }
+    color: #f6003c; }
 
 h1 {
   font-size: 180%;
@@ -93,10 +96,10 @@ h3 {
     text-decoration: none; }
 
 a {
-  color: #b13f1d;
+  color: #f6003c;
   text-decoration: none; }
   a:hover {
-    color: #b13f1d; }
+    color: #f6003c; }
 
 .wrapper {
   width: 100%;
@@ -112,12 +115,12 @@ a {
   .header .logo {
     background-color: #fff;
     border-radius: 50%;
-    border: 10px solid #b13f1d;
+    border: 10px solid #f6003c;
     margin: 50px auto 25px;
     width: 100px;
     height: 100px; }
     .header .logo a {
-      background: url("../img/spark.png") center no-repeat #b13f1d;
+      background: url("../img/foot.png") center no-repeat #f6003c;
       display: block;
       border-radius: 50%;
       width: 84px;
@@ -133,8 +136,8 @@ a {
       padding: 5px;
       border: solid 3px #dddddd; }
       .header .user a:hover {
-        color: #b13f1d;
-        border-color: #b13f1d; }
+        color: #f6003c;
+        border-color: #f6003c; }
     .header .user h1 {
       font-weight: bold;
       letter-spacing: 1px;
@@ -208,7 +211,7 @@ a {
     display: none; }
 
 blockquote {
-  border-left: 7px solid #b13f1d;
+  border-left: 7px solid #f6003c;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px; }
