@@ -9,22 +9,20 @@
 
     <section class="content">
     
-    <!-- ALL THE POSTS! -->
+    <!-- ALL THE POSTS! 
       {% for post in site.posts limit:3 %}
         <section class="article">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
         <section class="article-content">
         {{ post.content }}
         </section>
-        <!-- end article-content -->
         </section>
-      {% endfor %}  
+      {% endfor %}  -->
 
       <section class="archive_list"> 
-        <h3>Archive</h3>
         <ul>
         {% for post in site.posts offset:0 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+        <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li> 
         {% endfor %} 
         </ul>
       </section> 

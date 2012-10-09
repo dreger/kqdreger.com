@@ -1,0 +1,1 @@
+[App.net](http://alpha.app.net) is a real-time social feed without the ads. All member accounts are paid, which means that the developers don't have to worry about advertising, or finding another source 
