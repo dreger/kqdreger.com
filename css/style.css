@@ -1,0 +1,256 @@
+/* 
+    HTML RESET 
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  padding-left: 30px; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-style: bold; }
+
+body {
+  font-family: pt-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222222;
+  line-height: 1.7em;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  /*background: -webkit-gradient(linear, left top, right top, color-stop(0, #eee), color-stop(0.3, #fefefe), color-stop(0.7, #fefefe), color-stop(1, #eee));
+  background: -moz-linear-gradient(left center, #eee 0%, #fefefe 30%, #fefefe 70%, #eee 100%);
+*/ }
+
+h1,
+h2,
+h3,
+p {
+  padding: 10px 0px; }
+
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+  font-weight: bold; }
+  h1 a,
+  h2 a,
+  h3 a {
+    color: #4a1063; }
+
+h1 {
+  font-size: 220%;
+  letter-spacing: -1px; }
+  h1 a {
+    text-decoration: none;
+    font-weight: bold; }
+
+h2 {
+  font-size: 190%; }
+  h2 a {
+    text-decoration: none; }
+
+h3 {
+  font-size: 180%; }
+  h3 a {
+    text-decoration: none; }
+
+a {
+  color: #4a1063;
+  text-decoration: none; }
+  a:hover {
+    color: #4a1063; }
+
+.wrapper {
+  border-top: 10px solid #4a1063;
+  border-bottom: 10px solid #4a1063;
+  max-width: 500px;
+  width: 90%;
+  margin: 0px auto;
+  padding: 10px; }
+
+.header {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  font-weight: 300;
+  width: 100%;
+  margin: 100px 0px; }
+  .header .logo {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 10px solid #4a1063;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px; }
+    .header .logo a {
+      background: url("../img/star.png") center no-repeat #4a1063;
+      display: block;
+      border-radius: 50%;
+      width: 84px;
+      height: 84px;
+      margin: 0 auto;
+      margin-top: 8px;
+      background-size: 70% 70%; }
+  .header .user {
+    margin-bottom: 25px; }
+    .header .user a {
+      color: #cccccc;
+      border-radius: 10px;
+      padding: 5px;
+      border: solid 3px #cccccc; }
+      .header .user a:hover {
+        color: #4a1063;
+        border-color: #4a1063; }
+    .header .user h1 {
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 100%; }
+      .header .user h1.date {
+        font-size: .8em; }
+
+.content {
+  width: 100%; }
+  .content img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block; }
+
+.footer {
+  text-align: center;
+  width: 80%;
+  margin: 50px auto; }
+
+.about {
+  padding: 10px 0px 30px 0px; }
+  .about ul {
+    padding: 0;
+    margin: 0; }
+  .about li {
+    display: inline;
+    padding-right: 15px; }
+
+.archive_list {
+  margin: 40px 0px; }
+  .archive_list ul {
+    margin: 0;
+    padding: 0; }
+    .archive_list ul li {
+      list-style: none; }
+
+.article {
+  margin-bottom: 120px; }
+  .article img {
+    max-width: 100%; }
+
+.article-content p:first-child {
+  font-size: 1.2em; }
+.article-content a {
+  color: #000;
+  border-bottom: solid 1px #cccccc;
+  padding-bottom: 1px; }
+
+.page {
+  margin: 30px 0px; }
+  .page a {
+    color: #000;
+    border-bottom: solid 1px #cccccc;
+    padding-bottom: 1px; }
+
+.meta {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: .8em;
+  font-weight: 200;
+  color: #aaa; }
+
+.footnotes {
+  font-size: .8em;
+  line-height: 1.5em;
+  margin-top: 80px;
+  border-top: 1px dashed #ddd;
+  padding-top: 20px; }
+  .footnotes hr {
+    display: none; }
+
+blockquote {
+  border-left: 7px solid #4a1063;
+  padding-left: 15px;
+  font-style: italic;
+  margin: 20px 0px 20px 0px; }
+
+ul {
+  list-style: disc; }
+  ul li {
+    margin: 8px 0px; }
+
+pre {
+  font-family: monospace;
+  padding: 10px 0px 10px 30px;
+  margin: 15px 0px;
+  font-size: 1em;
+  max-width: 100%;
+  overflow: auto;
+  background: #f8f8f8; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+/*
+    Media queries to 
+    make content responsive
+    to different screen sizes.
+
+    Thanks @beep
+*/
+@media screen and (max-width: 490px) {
+  .content {
+    width: 90%;
+    margin: 0 auto; } }
