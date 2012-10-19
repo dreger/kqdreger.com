@@ -2,12 +2,14 @@
 
 $text: #222222;
 $gray: #ccc;
-$color: #4A1063;
+$blue: #4A1063;
+$color: #FF0000;
+$purple: #272B2E;
 $dark_color: darken($color, 10%);
-$type_body: pt-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$type_header: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$type_body: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$type_header: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 
-body {
+body { 
   font-family: $type_body;
   color: $text;
   line-height: 1.7em;   
@@ -68,7 +70,7 @@ a {
 {
   border-top: 10px solid $color;
   border-bottom: 10px solid $color;
-  max-width: 500px;
+  max-width: 550px;
   width: 90%;
   margin: 0px auto;
   padding: 10px;
@@ -88,14 +90,14 @@ a {
     width: 100px;
     height: 100px;
     a {
-      background: url('../img/star.png') center no-repeat $color;
+      background: url('../img/fire.png') center no-repeat $color;
       display: block;
       border-radius: 50%;
       width: 84px;
       height: 84px;
       margin: 0 auto;
       margin-top: 8px;
-      background-size: 70% 70%;
+      background-size: 80% 80%;
     }
   }
   .user {
@@ -245,7 +247,7 @@ em {
     Thanks @beep
 */
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 540px) {
   .content {
     width: 90%;
     margin: 0 auto;

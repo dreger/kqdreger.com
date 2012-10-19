@@ -1,7 +1,6 @@
 auto: true
 permalink: /:title
 server_port: 5000
-pygments: true
 
 # Setup
 author: Kyle Dreger
