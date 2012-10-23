@@ -77,7 +77,7 @@ h3 {
   h1 a,
   h2 a,
   h3 a {
-    color: red; }
+    color: #2da67d; }
 
 h1 {
   font-size: 220%;
@@ -89,7 +89,8 @@ h1 {
 h2 {
   font-size: 190%; }
   h2 a {
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: none; }
 
 h3 {
   font-size: 180%; }
@@ -97,14 +98,14 @@ h3 {
     text-decoration: none; }
 
 a {
-  color: red;
-  text-decoration: none; }
-  a:hover {
-    color: red; }
+  text-decoration: none;
+  color: #000;
+  border-bottom: solid 1px #cccccc;
+  padding-bottom: 1px; }
 
 .wrapper {
-  border-top: 10px solid red;
-  border-bottom: 10px solid red;
+  border-top: 10px solid #2da67d;
+  border-bottom: 10px solid #2da67d;
   max-width: 550px;
   width: 90%;
   margin: 0px auto;
@@ -119,19 +120,19 @@ a {
   .header .logo {
     background-color: #fff;
     border-radius: 50%;
-    border: 10px solid red;
+    border: 10px solid #2da67d;
     margin: 0px auto;
     width: 100px;
     height: 100px; }
     .header .logo a {
-      background: url("../img/fire.png") center no-repeat red;
+      background: url("../img/leaf.png") center no-repeat #2da67d;
       display: block;
       border-radius: 50%;
       width: 84px;
       height: 84px;
       margin: 0 auto;
       margin-top: 8px;
-      background-size: 80% 80%; }
+      background-size: 70% 70%; }
   .header .user {
     margin-bottom: 25px; }
     .header .user a {
@@ -140,8 +141,8 @@ a {
       padding: 5px;
       border: solid 3px #cccccc; }
       .header .user a:hover {
-        color: red;
-        border-color: red; }
+        color: #2da67d;
+        border-color: #2da67d; }
     .header .user h1 {
       font-weight: bold;
       letter-spacing: 1px;
@@ -218,7 +219,7 @@ a {
     display: none; }
 
 blockquote {
-  border-left: 7px solid red;
+  border-left: 7px solid #2da67d;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px; }

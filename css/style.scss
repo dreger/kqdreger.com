@@ -3,7 +3,7 @@
 $text: #222222;
 $gray: #ccc;
 $blue: #4A1063;
-$color: #FF0000;
+$color: #2DA67D;
 $purple: #272B2E;
 $dark_color: darken($color, 10%);
 $type_body: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -49,6 +49,7 @@ h2 {
   font-size: 190%; 
   a{
     text-decoration: none;
+    border-bottom: none;
   }
 }
 h3 { 
@@ -59,11 +60,10 @@ h3 {
 }
 
 a {
-  color: $color;
   text-decoration: none;
-  &:hover { 
-    color: $color;
-  }
+  color: #000;
+  border-bottom: solid 1px $gray;
+  padding-bottom: 1px;
 }
 
 .wrapper
@@ -90,14 +90,14 @@ a {
     width: 100px;
     height: 100px;
     a {
-      background: url('../img/fire.png') center no-repeat $color;
+      background: url('../img/leaf.png') center no-repeat $color;
       display: block;
       border-radius: 50%;
       width: 84px;
       height: 84px;
       margin: 0 auto;
       margin-top: 8px;
-      background-size: 80% 80%;
+      background-size: 70% 70%;
     }
   }
   .user {
