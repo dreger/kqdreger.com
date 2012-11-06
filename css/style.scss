@@ -42,6 +42,10 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     border-bottom: none;
+    position: relative;
+    &:active {
+      top: 1px;
+    }
   }
 }
 h2 { 
@@ -92,6 +96,7 @@ a {
   .date {
     padding: 5px;
     background-color: #F8FCC1;
+    border-radius: 3px;
   }
 }
 
