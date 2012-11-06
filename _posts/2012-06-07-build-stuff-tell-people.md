@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Buld stuff, tell people
+title: Build stuff, tell people
 date: 2012-06-07
 ---
 

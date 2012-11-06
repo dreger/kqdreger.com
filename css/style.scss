@@ -1,9 +1,9 @@
 @import "reset"; 
 
-$text: #222222;
+$text: #4D4D4D;
 $gray: #ccc;
 $blue: #4A1063;
-$color: #2DA67D;
+$color: #CC0C39;
 $purple: #272B2E;
 $dark_color: darken($color, 10%);
 $type_body: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -12,20 +12,18 @@ $type_header: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 body { 
   font-family: $type_body;
   color: $text;
-  line-height: 1.7em;   
-  font-size: 16px;
+  line-height: 1.6em;   
+  font-size: 15px;
   font-weight: 400; 
-  margin: 0; 
+  margin: 50px 0px; 
   padding: 0;
   background: #fff;
-  /*background: -webkit-gradient(linear, left top, right top, color-stop(0, #eee), color-stop(0.3, #fefefe), color-stop(0.7, #fefefe), color-stop(1, #eee));
-  background: -moz-linear-gradient(left center, #eee 0%, #fefefe 30%, #fefefe 70%, #eee 100%);
-*/}  
+}  
 h1,
 h2, 
 h3,
 p { 
-  padding: 10px 0px; 
+  margin-bottom: 20px; 
 }
 h1,
 h2,
@@ -33,27 +31,28 @@ h3 {
   line-height: 1.2em;
   font-weight: bold;
   a {
-    color: $color;
+    color: #000;
   }
 }
 
 h1 { 
-  font-size: 220%; 
+  font-size: 200%; 
   letter-spacing: -1px;
   a {
     text-decoration: none;
     font-weight: bold;
+    border-bottom: none;
   }
 }
 h2 { 
-  font-size: 190%; 
-  a{
+  font-size: 160%; 
+  a {
     text-decoration: none;
     border-bottom: none;
   }
 }
 h3 { 
-  font-size: 180%;
+  font-size: 120%;
   a {
     text-decoration: none;
   }
@@ -68,59 +67,27 @@ a {
 
 .wrapper
 {
-  border-top: 10px solid $color;
-  border-bottom: 10px solid $color;
-  max-width: 550px;
+  max-width: 500px;
   width: 90%;
   margin: 0px auto;
   padding: 10px;
 }
 
 .header { 
-  font-family: $type_header;
+  font-family: $type_body;
   padding: 0;
   font-weight: 300;
   width: 100%;
   margin: 100px 0px;
-  .logo { 
-    background-color: #fff;
-    border-radius: 50%;
-    border: 10px solid $color; 
-    margin: 0px auto;
-    width: 100px;
-    height: 100px;
-    a {
-      background: url('../img/leaf.png') center no-repeat $color;
-      display: block;
-      border-radius: 50%;
-      width: 84px;
-      height: 84px;
-      margin: 0 auto;
-      margin-top: 8px;
-      background-size: 70% 70%;
-    }
+  h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.5em; 
   }
-  .user {
-    margin-bottom: 25px;
-    a {
-      color: $gray;
-      border-radius: 10px;
-      padding: 5px;
-      border: solid 3px $gray;
-      &:hover {
-        color: $color;
-        border-color: $color;
-      }
-    }
-    h1 {
-      font-weight: bold;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      font-size: 100%; 
-      &.date {
-        font-size: .8em;
-      } 
-    }
+  .date {
+    padding: 5px;
+    background-color: #F8FCC1;
   }
 }
 
@@ -171,9 +138,6 @@ a {
 }
 
 .article-content {
-  p:first-child {
-    font-size: 1.2em; 
-  }
   a {
     color: #000;
     border-bottom: solid 1px $gray;
@@ -206,11 +170,7 @@ a {
   margin-top: 80px;
   border-top: 1px dashed #ddd;
   padding-top: 20px;
-  hr {
-    display: none;
-  }
 }
-
 
 blockquote {
   border-left: 7px solid $color;

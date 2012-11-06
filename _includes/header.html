@@ -1,13 +1,13 @@
 <section class="header">
 
-	<section class="logo">
+	<!-- <section class="logo">
       <a href="/"></a>
-  </section>
+  </section> -->
 
-  <!--<section class="user">
-  	<h1><a href="http://twitter.com/{{site.twitter}}">@{{site.twitter}}</a> <a href="/about">about</a></h1>
+  <h1><a href="/">dreger's blog</a></h1>
+
     {% if page.title %}
-      <h1 class="date">{{ page.date | date: "%b %d, %Y" }}</h1>
+      <p class="date">{{ page.date | date: "%b %d, %Y" }}</p>
     {% else %}
       <script type="text/javascript">
       var currentDate = new Date()
@@ -27,10 +27,8 @@
       var month = month[currentDate.getMonth()];
       var day = currentDate.getDate()
       var year = currentDate.getFullYear()
-      document.write("<h1 class=\"date\">" + month + " " + day + ", " + year + "</h1>")
+      document.write("<p class=\"date\">" + month + " " + day + ", " + year + "</p>")
       </script>
     {% endif %} 
-
-  </section>-->
 </section>
 <!-- end header -->
