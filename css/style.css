@@ -219,6 +219,5 @@ em {
     Thanks @beep
 */
 @media screen and (max-width: 540px) {
-  .content {
-    width: 90%;
-    margin: 0 auto; } }
+  .header {
+    margin-top: 50px; } }
