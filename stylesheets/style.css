@@ -19,36 +19,45 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  padding-left: 30px; }
+  padding-left: 30px;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 em {
-  font-style: italic; }
+  font-style: italic;
+}
 
 strong {
-  font-style: bold; }
+  font-style: bold;
+}
 
 body {
   font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -58,139 +67,175 @@ body {
   font-weight: 400;
   margin: 0px 0px 50px;
   padding: 0;
-  background: #fff; }
+  background: #fff;
+}
 
 h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-weight: bold; }
-  h1 a,
-  h2 a,
-  h3 a {
-    color: #000; }
+  font-weight: bold;
+}
+h1 a,
+h2 a,
+h3 a {
+  color: #000;
+}
 
 h1 {
   font-size: 200%;
-  letter-spacing: -1px; }
-  h1 a {
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: none;
-    position: relative; }
-    h1 a:active {
-      top: 1px; }
+  letter-spacing: -1px;
+}
+h1 a {
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: none;
+  position: relative;
+}
+h1 a:active {
+  top: 1px;
+}
 
 h2 {
-  font-size: 160%; }
-  h2 a {
-    text-decoration: none;
-    border-bottom: none; }
+  font-size: 160%;
+}
+h2 a {
+  text-decoration: none;
+  border-bottom: none;
+}
 
 h3 {
-  font-size: 120%; }
-  h3 a {
-    text-decoration: none; }
+  font-size: 120%;
+}
+h3 a {
+  text-decoration: none;
+}
 
 a {
   text-decoration: none;
   color: #000;
   border-bottom: solid 1px #cccccc;
-  padding-bottom: 1px; }
+  padding-bottom: 1px;
+}
 
 .wrapper {
   max-width: 500px;
   width: 90%;
   margin: 0px auto;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .header {
   font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0;
   font-weight: 300;
   width: 100%;
-  margin: 70px 0px; }
-  .header .logo a {
-    border: none;
-    text-decoration: none;
-    display: block;
-    width: 90px;
-    height: 90px;
-    background: url("../images/spark.png") center left no-repeat;
-    background-size: 40px; }
-    .header .logo a:active {
-      position: relative;
-      top: 1px; }
-  .header h1 {
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 1.5em; }
-    .header h1 .c1 {
-      color: #CC0C39; }
-    .header h1 .c2 {
-      color: #E6781E; }
-    .header h1 .c3 {
-      color: #C8CF02; }
-    .header h1 .c4 {
-      color: #1693A7; }
-  .header .date {
-    padding: 5px;
-    background-color: #F8FCC1;
-    border-radius: 3px; }
+  margin: 70px 0px;
+}
+.header .logo a {
+  border: none;
+  text-decoration: none;
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: url("../images/spark.png") center left no-repeat;
+  background-size: 40px;
+}
+.header .logo a:active {
+  position: relative;
+  top: 1px;
+}
+.header h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.header h1 .c1 {
+  color: #CC0C39;
+}
+.header h1 .c2 {
+  color: #E6781E;
+}
+.header h1 .c3 {
+  color: #C8CF02;
+}
+.header h1 .c4 {
+  color: #1693A7;
+}
+.header .date {
+  padding: 5px;
+  background-color: #F8FCC1;
+  border-radius: 3px;
+}
 
 .content {
-  width: 100%; }
-  .content img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block; }
+  width: 100%;
+}
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
 
 .footer {
   text-align: center;
   width: 80%;
-  margin: 50px auto; }
+  margin: 50px auto;
+}
 
 .about {
-  padding: 10px 0px 30px 0px; }
-  .about ul {
-    padding: 0;
-    margin: 0; }
-  .about li {
-    display: inline;
-    padding-right: 15px; }
+  padding: 10px 0px 30px 0px;
+}
+.about ul {
+  padding: 0;
+  margin: 0;
+}
+.about li {
+  display: inline;
+  padding-right: 15px;
+}
 
 .archive_list {
-  margin: 40px 0px; }
-  .archive_list ul {
-    margin: 0;
-    padding: 0; }
-    .archive_list ul li {
-      list-style: none; }
+  margin: 40px 0px;
+}
+.archive_list ul {
+  margin: 0;
+  padding: 0;
+}
+.archive_list ul li {
+  list-style: none;
+}
 
 .article {
-  margin-bottom: 120px; }
-  .article img {
-    max-width: 100%; }
+  margin-bottom: 120px;
+}
+.article img {
+  max-width: 100%;
+}
 
 .article-content a {
   color: #000;
   border-bottom: solid 1px #cccccc;
-  padding-bottom: 1px; }
+  padding-bottom: 1px;
+}
 
 .page {
-  margin: 30px 0px; }
-  .page a {
-    color: #000;
-    border-bottom: solid 1px #cccccc;
-    padding-bottom: 1px; }
+  margin: 30px 0px;
+}
+.page a {
+  color: #000;
+  border-bottom: solid 1px #cccccc;
+  padding-bottom: 1px;
+}
 
 .meta {
   text-transform: uppercase;
@@ -199,25 +244,30 @@ a {
   text-align: center;
   font-size: .8em;
   font-weight: 200;
-  color: #aaa; }
+  color: #aaa;
+}
 
 .footnotes {
   font-size: .8em;
   line-height: 1.5em;
   margin-top: 80px;
   border-top: 1px dashed #ddd;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
 blockquote {
   border-left: 7px solid #ff0050;
   padding-left: 15px;
   font-style: italic;
-  margin: 20px 0px 20px 0px; }
+  margin: 20px 0px 20px 0px;
+}
 
 ul {
-  list-style: disc; }
-  ul li {
-    margin: 8px 0px; }
+  list-style: disc;
+}
+ul li {
+  margin: 8px 0px;
+}
 
 pre {
   font-family: monospace;
@@ -226,13 +276,16 @@ pre {
   font-size: 1em;
   max-width: 100%;
   overflow: auto;
-  background: #f8f8f8; }
+  background: #f8f8f8;
+}
 
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 em {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /*
     Media queries to 
@@ -243,4 +296,6 @@ em {
 */
 @media screen and (max-width: 540px) {
   .header {
-    margin-top: 30px; } }
+    margin-top: 30px;
+  }
+}

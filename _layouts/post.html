@@ -20,16 +20,11 @@
           <h3>Archive</h3>
           <ul>
           {% for post in site.posts offset:0 %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
-          {% endfor %} 
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %} 
           </ul>
         </section> 
       </section>
     </section>
-    
-    {% include footer.html %}
   </section>
-
-  {% include js.html %}
 </body>
 </html>

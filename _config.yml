@@ -1,6 +1,6 @@
 # standard jekyll configuration
 
-permalink: date
+permalink: /:year/:title
 pygments: true
 exclude: ['Rakefile', 'README.md', 'config.rb']
 markdown: rdiscount
@@ -18,7 +18,7 @@ email: me@kyledreger.com
 #   id: feedburnerid
 
 google_analytics:
-  account: UA-17208416-14
+  account: UA-17208416-19
 
 github:
   username: dreger
