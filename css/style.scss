@@ -3,7 +3,7 @@
 $text: #4D4D4D;
 $gray: #ccc;
 $blue: #4A1063;
-$color: #CC0C39;
+$color: #ff0050;
 $purple: #272B2E;
 $dark_color: darken($color, 10%);
 $type_body: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -83,6 +83,21 @@ a {
   font-weight: 300;
   width: 100%;
   margin: 70px 0px;
+  .logo {
+    a {
+      border: none;
+      text-decoration: none;
+      display: block;
+      width: 90px;
+      height: 90px;
+      background: url('../images/spark.png') center left no-repeat;
+      background-size: 40px;
+      &:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
   h1 {
     font-weight: bold;
     letter-spacing: 1px;

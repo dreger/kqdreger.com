@@ -116,6 +116,17 @@ a {
   font-weight: 300;
   width: 100%;
   margin: 70px 0px; }
+  .header .logo a {
+    border: none;
+    text-decoration: none;
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: url("../images/spark.png") center left no-repeat;
+    background-size: 40px; }
+    .header .logo a:active {
+      position: relative;
+      top: 1px; }
   .header h1 {
     font-weight: bold;
     letter-spacing: 1px;
@@ -198,7 +209,7 @@ a {
   padding-top: 20px; }
 
 blockquote {
-  border-left: 7px solid #cc0c39;
+  border-left: 7px solid #ff0050;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px; }
