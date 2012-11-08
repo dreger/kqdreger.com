@@ -3,27 +3,25 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-<title>Kyle Dreger</title>
-<link href="http://kyledreger.com/atom.xml" rel="self"/>
-<link href="http://kyledreger.com/"/>
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>http://kyledreger.com/</id>
-<author>
-    <name>Kyle Dreger</name>
-    <email>hi@kyledreger.com</email>
-</author>
 
-{% for post in site.posts limit:10 %}
-    <entry>
-        <title>{{ post.title }}</title>
-        <link href="http://kyledreger.com{{ post.url }}"/>
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://kyledreger.com{{ post.id }}</id>
-        <content type="html">{{ post.content | xml_escape }}</content>
-        <!-- <author>
-        <name>Kyle Dreger</name>
-            <uri>http://kyledreger.com/about.html</uri>
-        </author> -->
-    </entry>
-{% endfor %}
+ <title>{{ site.title }}</title>
+ <link href="http://{{ site.domain }}/atom.xml" rel="self"/>
+ <link href="http://{{ site.domain }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://{{ site.domain }}/</id>
+ <author>
+   <name>{{ site.author }}</name>
+   <email>{{ site.email }}</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://{{ site.domain }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://{{ site.domain }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
 </feed>

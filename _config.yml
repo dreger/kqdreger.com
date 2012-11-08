@@ -1,12 +1,27 @@
-auto: true
-permalink: /:title
-server_port: 5000
+# standard jekyll configuration
 
-# Setup
+permalink: date
+pygments: true
+exclude: ['Rakefile', 'README.md', 'config.rb']
+markdown: rdiscount
+
+# configuration required for some pages
+
+domain: blog.kyledreger.com
+title: KD
 author: Kyle Dreger
-twitter: dreger
-email: hi@kyledreger.com
-title: Spark
-description: "Never stop building."
-analytics: UA-17208416-14
-domain: kyledreger.com
+email: me@kyledreger.com
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+google_analytics:
+  account: UA-17208416-14
+
+github:
+  username: dreger
+
+# disqus:
+#   id: disqusid
