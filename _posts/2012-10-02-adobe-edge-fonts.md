@@ -1,6 +1,7 @@
 ---
 title: Adobe Edge Web Fonts
 date: 2012-10-02
+published: false
 tags:
 - typography
 - web_fonts
