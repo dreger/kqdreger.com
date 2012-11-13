@@ -73,6 +73,10 @@ body {
 h1,
 h2,
 h3,
+h4,
+ul,
+ol,
+blockquote,
 p {
   margin-bottom: 20px;
 }
@@ -296,7 +300,6 @@ blockquote {
   border-left: 7px solid #6e9b4b;
   padding-left: 15px;
   font-style: italic;
-  margin: 20px 0px 20px 0px;
 }
 
 ul {
@@ -336,6 +339,14 @@ em {
     Thanks @beep
 */
 @media screen and (max-width: 600px) {
+  body {
+    font-family: 15px;
+  }
+
+  .wrapper {
+    margin-top: 0px;
+  }
+
   .header {
     margin-top: 30px;
   }
