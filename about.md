@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+![Me](http://kyledreger.com.s3.amazonaws.com/me.jpg)
+
 ### Hi
 
 This is the humble tech- and design centric weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:kyledreger) elsewhere on the web. He's also designed several [Tumblr themes](http://tumblr.com/themes/by/kyledreger) as well. 

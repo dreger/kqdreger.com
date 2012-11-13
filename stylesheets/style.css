@@ -61,7 +61,7 @@ strong {
 
 body {
   font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #4d4d4d;
+  color: #4a4a4a;
   line-height: 1.6em;
   font-size: 11px;
   font-weight: 400;
@@ -172,7 +172,7 @@ a {
 }
 .header .date {
   padding: 5px;
-  background-color: #F8FCC1;
+  background-color: #f8fcc1;
   border-radius: 3px;
 }
 
@@ -205,6 +205,31 @@ a {
   padding-right: 15px;
 }
 
+.archive_list ul {
+  padding: 0;
+  margin: 0px 0px 100px;
+}
+.archive_list ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+.archive_list ul li:last-child {
+  border-bottom: none;
+}
+.archive_list ul li a {
+  border: none;
+  padding: 8px 5px;
+  display: block;
+}
+.archive_list ul li a:hover {
+  background-color: #f8fcc1;
+}
+.archive_list ul li a .date {
+  float: right;
+}
+
 .user_bar {
   width: 20%;
   float: left;
@@ -220,11 +245,10 @@ a {
   list-style: none;
 }
 .user_bar ul li a {
-  color: #ddd;
   border-bottom: none;
 }
 .user_bar ul li a:hover {
-  color: #4d4d4d;
+  color: #6e9b4b;
 }
 
 .article {
@@ -268,7 +292,7 @@ a {
 }
 
 blockquote {
-  border-left: 7px solid #ff0050;
+  border-left: 7px solid #6e9b4b;
   padding-left: 15px;
   font-style: italic;
   margin: 20px 0px 20px 0px;

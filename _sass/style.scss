@@ -1,9 +1,11 @@
 @import "reset"; 
 
-$text: #4D4D4D;
+$text: #4a4a4a;
+$highlight: #F8FCC1;
 $gray: #ccc;
 $blue: #4A1063;
-$color: #ff0050;
+$pink: #ff0050;
+$color: #6E9B4B;
 $purple: #272B2E;
 $dark_color: darken($color, 10%);
 $type_body: Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -110,7 +112,7 @@ a {
   }
   .date {
     padding: 5px;
-    background-color: #F8FCC1;
+    background-color: $highlight;
     border-radius: 3px;
   }
 }
@@ -144,6 +146,33 @@ a {
   } 
 }
 
+.archive_list {
+  ul {
+    padding: 0;
+    margin: 0px 0px 100px;
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid #ddd;
+      &:last-child {
+        border-bottom: none;
+      }
+      a {
+        border: none;
+        padding: 8px 5px;
+        display: block;
+        &:hover {
+          background-color: $highlight;
+        }
+        .date {
+          float: right;
+        }
+      }
+    }
+  }
+}
+
 .user_bar {
   width: 20%;
   float: left;
@@ -156,10 +185,9 @@ a {
     li {
       list-style: none; 
       a {
-        color: #ddd;
         border-bottom: none;
         &:hover {
-          color: $text;
+          color: $color;
         }
       }
     }
