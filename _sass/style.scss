@@ -1,18 +1,19 @@
-@import "reset"; 
+@import "mixins/reset";  
 
 $text: #3a3a3a;
 $highlight: #F8FCC1;
 $gray: #ccc;
 $blue: #4A1063;
-$pink: #ff0050;
-$color: #6E9B4B;
+$pink: #ff0050; 
+$green: #6E9B4B;
+$color: #00aced;
 $purple: #272B2E;
 $dark_color: darken($color, 10%);
 $type_body: Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $type_header: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 
 body { 
-  font-family: $type_body;
+  font-family: $type_body; 
   color: $text;
   line-height: 1.6em;   
   font-size: 11px;

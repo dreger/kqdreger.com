@@ -253,7 +253,7 @@ a {
   border-bottom: none;
 }
 .user_bar ul li a:hover {
-  color: #6e9b4b;
+  color: #00aced;
 }
 
 .article {
@@ -297,7 +297,7 @@ a {
 }
 
 blockquote {
-  border-left: 7px solid #6e9b4b;
+  border-left: 7px solid #00aced;
   padding-left: 15px;
   font-style: italic;
 }
