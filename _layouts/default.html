@@ -18,16 +18,15 @@
         <!-- end article-content -->
       </section>
     {% endfor %}
-
-      <section class="archive_list">
-        <h3>Archive</h3> 
-        <ul>
-        <li><a href="/about.html">About</a></li>
-        {% for post in site.posts offset:0 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %} 
-        </ul>
-      </section> 
     </section>
+    <section class="user_bar">
+      <h3>Archive</h3> 
+      <ul>
+      <li><a href="/about.html">About</a></li>
+      {% for post in site.posts offset:0 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %} 
+      </ul>
+    </section> 
   </section>
 </body>
 </html>

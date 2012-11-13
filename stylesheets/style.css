@@ -126,7 +126,7 @@ a {
 }
 
 .wrapper {
-  max-width: 400px;
+  max-width: 610px;
   width: 90%;
   margin: 0px auto;
   padding: 10px;
@@ -177,7 +177,8 @@ a {
 }
 
 .content {
-  width: 100%;
+  width: 70%;
+  float: right;
 }
 .content img {
   max-width: 100%;
@@ -204,15 +205,26 @@ a {
   padding-right: 15px;
 }
 
-.archive_list {
-  margin: 40px 0px;
+.user_bar {
+  width: 20%;
+  float: left;
+  margin: 0px 0px 100px;
+  padding: 0;
+  text-align: left;
 }
-.archive_list ul {
+.user_bar ul {
   margin: 0;
   padding: 0;
 }
-.archive_list ul li {
+.user_bar ul li {
   list-style: none;
+}
+.user_bar ul li a {
+  color: #ddd;
+  border-bottom: none;
+}
+.user_bar ul li a:hover {
+  color: #4d4d4d;
 }
 
 .article {
@@ -298,8 +310,18 @@ em {
 
     Thanks @beep
 */
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 600px) {
   .header {
     margin-top: 30px;
+  }
+
+  .content {
+    float: none;
+    width: 100%;
+  }
+
+  .user_bar {
+    float: none;
+    width: 100%;
   }
 }
