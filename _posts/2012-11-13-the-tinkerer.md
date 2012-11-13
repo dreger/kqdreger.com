@@ -8,7 +8,7 @@ I want to tell you about the Tinkerer.
 
 The Tinkerer was a good web designer, a good programmer and a good writer. But having things come easy to him eventually led to trouble. 
 
-Creative was his mind, that he started dozens of small projects - though few ever saw completion. Hours were spent tweaking the colors, and fonts on his website. At first, this could be seen as an admirable dedication to the details, but in reality it was a vaccum for the any spare time he had.  
+Creative was his mind, that he started dozens of small projects - though few ever saw completion. Hours were spent tweaking the colors, and fonts on his website. At first, this could be seen as an admirable dedication to the details, but in reality it was a vacuum for the any spare time he had.  
 
 Time ran short. Studying, sleep and showers were being cut to make up the difference. Days felt longer as a tired mind moves more slowly. I'll go to bed early tonight, the Tinkerer would say, only to succumb to allure of making one last midnight change to some code. 
 
@@ -25,6 +25,4 @@ The Tinkerer has work ahead of him, but not in the usual sense. Rather, he has t
 - That for everything he says "yes" to, he's really saying "no" to something else.  
 - That identity comes from God, and not the color of his links. 
 
-That true joy can be found in fruitful work. Focused, quality work. Resulting in a product representitave of the time it took to create, and the care with which is was crafted. 
-
-From tinkerer, to creator.
+That true joy can be found in fruitful work. Focused, quality work. Resulting in a product representative of the time it took to create, and the care with which is was crafted. 
