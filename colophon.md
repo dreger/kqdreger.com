@@ -7,7 +7,7 @@ title: Colophon
 
 ### Hi
 
-This is the humble tech- and design centric weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:kyledreger) elsewhere on the web. He's also designed several [Tumblr themes](http://tumblr.com/themes/by/kyledreger) as well. 
+This is the humble tech- and design centric weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. He's also designed several [Tumblr themes](http://tumblr.com/themes/by/dregers) as well. 
 
 No built-in comments here, but feel free to email <hi@kyledreger.com> and he'll get back to you within a day or two. Cool nerds can also open up an issue at [dreger/feedback](https://github.com/dreger/feedback/issues/new) on GitHub.
 
