@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Colophon
 ---
 
 ![Me](http://kyledreger.com.s3.amazonaws.com/me.jpg)
