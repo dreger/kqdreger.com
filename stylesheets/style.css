@@ -60,10 +60,10 @@ strong {
 }
 
 body {
-  font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4d4d4d;
   line-height: 1.6em;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 400;
   margin: 0px 0px 50px;
   padding: 0;
@@ -126,14 +126,14 @@ a {
 }
 
 .wrapper {
-  max-width: 500px;
+  max-width: 400px;
   width: 90%;
   margin: 0px auto;
   padding: 10px;
 }
 
 .header {
-  font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0;
   font-weight: 300;
   width: 100%;
@@ -240,7 +240,7 @@ a {
 .meta {
   text-transform: uppercase;
   letter-spacing: -1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: .8em;
   font-weight: 200;
@@ -298,7 +298,7 @@ em {
 
     Thanks @beep
 */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 440px) {
   .header {
     margin-top: 30px;
   }
