@@ -128,7 +128,7 @@ a {
 .wrapper {
   max-width: 610px;
   width: 90%;
-  margin: 0px auto;
+  margin: 100px auto;
   padding: 10px;
 }
 
@@ -137,7 +137,7 @@ a {
   padding: 0;
   font-weight: 300;
   width: 100%;
-  margin: 70px 0px;
+  margin: 0px 0px 70px;
 }
 .header .logo a {
   border: none;
@@ -179,6 +179,7 @@ a {
 .content {
   width: 70%;
   float: right;
+  margin-bottom: 100px;
 }
 .content img {
   max-width: 100%;
