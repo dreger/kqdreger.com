@@ -5,7 +5,7 @@ title: Colophon
 
 ![Me](http://kyledreger.com.s3.amazonaws.com/me.jpg)
 
-### Hi
+### Good day
 
 This is the humble tech- and design centric weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. He's also designed several [Tumblr themes](http://tumblr.com/themes/by/dregers) as well. 
 
@@ -21,4 +21,4 @@ All writing is done via [iA Writer](http://www.iawriter.com/) in [Markdown](http
 
 ### Comments
 
-No built-in comments here, but feel free to email <hi@kyledreger.com> and he'll get back to you within a day or two. Cool nerds can also open up an issue at [dreger/feedback](https://github.com/dreger/feedback/issues/new) on GitHub.
+No built-in comments here, but feel free to email <hi@kyledreger.com> and you'll get back within a day or two. Cool nerds can also open up an issue at [dreger/feedback](https://github.com/dreger/feedback/issues/new) on GitHub.
