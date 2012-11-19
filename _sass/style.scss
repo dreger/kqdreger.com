@@ -97,7 +97,7 @@ a {
       display: block;
       width: 90px;
       height: 90px;
-      background: url('../images/smiles.png') center left no-repeat;
+      background: url('../images/dash.png') center left no-repeat;
       background-size: 50px;
       &:active {
         position: relative;
@@ -179,7 +179,7 @@ a {
   }
 }
 
-.user_bar {
+/*.user_bar {
   width: 20%;
   float: left;
   margin: 0px 0px 100px;
@@ -196,6 +196,39 @@ a {
           color: $color;
         }
       }
+    }
+  }
+}*/
+
+.user_bar {
+  width: 20%;
+  float: left;
+  margin: 0px 0px 100px;
+  padding: 0;
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Verdana, sans-serif;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none; 
+      a {
+        color: $gray;
+        display: inline-block;
+        letter-spacing: 1px;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid #fff;
+        padding: 4px 0px;
+        border-radius: 100px;
+        width: 100%;
+        text-transform: uppercase;
+        &:hover {
+          /*background-color: $color; */
+          color: $color;
+          border-color: $color;
+        }
+      } 
     }
   }
 }
