@@ -149,8 +149,8 @@ a {
   display: block;
   width: 90px;
   height: 90px;
-  background: url("../images/spark.png") center left no-repeat;
-  background-size: 40px;
+  background: url("../images/smiles.png") center left no-repeat;
+  background-size: 50px;
 }
 .header .logo a:active {
   position: relative;

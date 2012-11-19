@@ -6,7 +6,7 @@ $gray: #ccc;
 $blue: #4A1063;
 $pink: #ff0050; 
 $green: #6E9B4B;
-$color: #00aced;
+$color: #00aced; 
 $purple: #272B2E;
 $dark_color: darken($color, 10%);
 $type_body: Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -97,8 +97,8 @@ a {
       display: block;
       width: 90px;
       height: 90px;
-      background: url('../images/spark.png') center left no-repeat;
-      background-size: 40px;
+      background: url('../images/smiles.png') center left no-repeat;
+      background-size: 50px;
       &:active {
         position: relative;
         top: 1px;
