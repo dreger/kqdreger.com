@@ -21,4 +21,4 @@ All writing is done via [iA Writer](http://www.iawriter.com/) in [Markdown](http
 
 ### Comments
 
-No built-in comments here, but feel free to email <hi@kyledreger.com> and you'll get back within a day or two. Cool nerds can also open up an issue at [dreger/feedback](https://github.com/dreger/feedback/issues/new) on GitHub.
+No built-in comments here, but feel free to email <hi@kyledreger.com> and you'll get something back within a day or two. Cool nerds can also open up an issue at [dreger/feedback](https://github.com/dreger/feedback/issues/new) on GitHub.
