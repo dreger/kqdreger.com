@@ -179,7 +179,7 @@ a {
   }
 }
 
-/*.user_bar {
+.user_bar {
   width: 20%;
   float: left;
   margin: 0px 0px 100px;
@@ -198,9 +198,9 @@ a {
       }
     }
   }
-}*/
+}
 
-.user_bar {
+/*.user_bar {
   width: 20%;
   float: left;
   margin: 0px 0px 100px;
@@ -224,13 +224,12 @@ a {
         width: 100%;
         text-transform: uppercase;
         &:hover {
-          /*background-color: $color; */
           color: $color;
           border-color: $color;
         }
       } 
     }
-  }
+  }*/
 }
 
 .article {
