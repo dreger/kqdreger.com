@@ -3,8 +3,6 @@ layout: page
 title: Colophon
 ---
 
-![Me](http://kyledreger.com.s3.amazonaws.com/me.jpg)
-
 ### Good day
 
 This is the humble tech- and design centric weblog of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. He's also designed several [Tumblr themes](http://tumblr.com/themes/by/dregers) as well. 
