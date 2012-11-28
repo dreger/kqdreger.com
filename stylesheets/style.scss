@@ -6,7 +6,7 @@ $gray: #ccc;
 $blue: #4A1063;
 $pink: #ff0050; 
 $green: #6E9B4B;
-$color: #00aced; 
+$color: #ff0050; 
 $purple: #272B2E;
 $dark_color: darken($color, 10%);
 $type_body: Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -191,9 +191,11 @@ a {
     li {
       list-style: none; 
       a {
-        border-bottom: none;
+        /*border: 2px solid #fff;
+        border-radius: 50px;
+        text-align: center;*/
         &:hover {
-          color: $color;
+          
         }
       }
     }
@@ -212,9 +214,6 @@ a {
     color: #000;
     border-bottom: solid 1px $gray;
     padding-bottom: 1px;
-    &:hover {
-      color: $pink;
-    }
   }
 }
 
@@ -224,9 +223,6 @@ a {
     color: #000;
     border-bottom: solid 1px $gray;
     padding-bottom: 1px;
-    &:hover {
-      color: $pink;
-    }
   }
 }
 
