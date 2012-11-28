@@ -210,8 +210,11 @@ a {
 .article-content {
   a {
     color: #000;
-    border-bottom: solid 1px $pink;
+    border-bottom: solid 1px $gray;
     padding-bottom: 1px;
+    &:hover {
+      color: $pink;
+    }
   }
 }
 
@@ -221,6 +224,9 @@ a {
     color: #000;
     border-bottom: solid 1px $gray;
     padding-bottom: 1px;
+    &:hover {
+      color: $pink;
+    }
   }
 }
 
