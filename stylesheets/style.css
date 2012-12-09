@@ -68,7 +68,7 @@ ul,
 ol,
 blockquote,
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 20px; }
 
 h1,
 h2,
@@ -242,9 +242,8 @@ a {
   padding-top: 20px; }
 
 blockquote {
-  border-left: 7px solid #ff0050;
-  padding-left: 15px;
-  font-style: italic; }
+  border-left: 7px solid #865288;
+  padding-left: 15px; }
 
 ul {
   list-style: disc; }

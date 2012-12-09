@@ -30,7 +30,7 @@ ul,
 ol,
 blockquote,
 p { 
-  margin-bottom: 1.5em; 
+  margin-bottom: 20px; 
 }
 h1,
 h2,
@@ -245,9 +245,8 @@ a {
 }
 
 blockquote {
-  border-left: 7px solid $color;
+  border-left: 7px solid #865288;
   padding-left: 15px;
-  font-style: italic;
 }
 ul {
   list-style: disc;
