@@ -41,7 +41,7 @@ Alternatively, the ages that returned the least amount of results were:
 - 104 (194,000 results) *Brazilian architect Oscar Niemeyer*
 - 108 (223,000 results) *Oldest survivor of Auschwitz*
 
-If you're looking for an unconventional way to make a splash in Google's search results, I'd recommend being somewhat famous and dying at age 107 or higher. 
+If you're looking for an unconventional way to make a splash in Google's search results, I'd recommend being somewhat famous and dying at age 107 or older. 
 
 ### Backstory
 

@@ -11,6 +11,12 @@ This blog was born in the fall of 2010, when Kyle began attending the [Universit
 
 If you had to describe Kyle in one sentence, it might look like this: a passionate individual who lives to help people. Hopefully you found something here to enjoy, thanks for reading. 
 
+### Rise
+
+In the top-left of this site you'll see my superhero symbol. It represents my philosophy of "rise" - to always be moving up and forward in everything you do. 
+
+Simple, focused and everlasting.
+
 ### Setup
 
 [GitHub](http://github.com) and [Jekyll](https://github.com/mojombo/jekyll/) generate this site - keeping it lightweight, and static. The domain lives on [Hover](http://hover.com) (seriously, love them). You may occasionally see custom typefaces here, and those are served by the lovely [Typekit](http://typekit.com). 
