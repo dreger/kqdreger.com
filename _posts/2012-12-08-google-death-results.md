@@ -16,7 +16,7 @@ I was introspective this morning, and found myself Googling about death. I ran a
 
 All searches were done from a completely clean Google Chrome (v23.0.1271.95) instance on a Macbook Pro running OS X 10.8.2. Searches were done over Google's SSL. 
 
-I used the following query, substituting X for the numbers 10 through 100: 
+I used the following query, substituting X for the numbers 10 through 110: 
 
 > "dies at age X" OR "died at age X" 
 
