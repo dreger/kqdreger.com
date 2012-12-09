@@ -1,7 +1,7 @@
 ---
 title: Google death results
 date: 2012-12-09
-published: false
+layout: post
 tags: 
 - google
 - numbers
