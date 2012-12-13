@@ -1,0 +1,5 @@
+build
+check_links
+clean
+deploy
+server
