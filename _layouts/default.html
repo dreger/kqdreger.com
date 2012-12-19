@@ -4,14 +4,14 @@
 {% include head.html %}
 <body>
 
+  {% include header.html %}
+  
   <section class="wrapper">
-    {% include header.html %} 
-
     <section class="content">
-    
     {% for post in site.posts limit:3 %}
       <section class="article">
         <h2 id="article"><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+        <h3 class="article-date">Posted {{ post.date | date: "%B %d, %Y" }}</h3>
         <section class="article-content">
         {{ post.content }}
         </section>
@@ -20,7 +20,6 @@
     {% endfor %}
     </section>
     
-    {% include user_bar.html %} 
     
   </section>
 </body>

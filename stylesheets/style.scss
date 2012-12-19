@@ -1,13 +1,18 @@
 @import "mixins/reset";  
 
-$text: #3a3a3a;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+
+$text: #424242;
+$text_header: #222;
 $highlight: #F8FCC1;
-$gray: #ccc;
-$blue: #4A1063;
-$pink: #ff0050; 
-$green: #6E9B4B;
-$color: #ff0050; 
-$purple: #272B2E;
+$gray: #ddd;
+$color: #272b2e;
+$color2: #272b2e;
+$body_width: 450px; 
 $dark_color: darken($color, 10%);
 $type_body: Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $type_header: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
@@ -15,10 +20,10 @@ $type_header: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 body { 
   font-family: $type_body; 
   color: $text;
-  line-height: 1.6em;   
-  font-size: 11px;
+  line-height: 1.5em;   
+  font-size: 12px;
   font-weight: 400; 
-  margin: 0px 0px 50px; 
+  margin: 0px; 
   padding: 0;
   background: #fff;
 }  
@@ -56,13 +61,17 @@ h1 {
   }
 }
 h2 { 
-  font-size: 160%; 
+  font-size: 180%; 
+  line-height: 1.1em;
   a {
     text-decoration: none;
     border-bottom: none;
   }
 }
 h3 { 
+  &.article-date {
+    color: $gray;
+  }
   font-size: 120%;
   a {
     text-decoration: none;
@@ -78,9 +87,9 @@ a {
 
 .wrapper
 {
-  max-width: 610px;
+  max-width: $body_width;
   width: 90%;
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 10px;
 }
 
@@ -88,43 +97,53 @@ a {
   font-family: $type_body;
   padding: 0;
   font-weight: 300;
+  padding: 40px 0px;
   width: 100%;
-  margin: 0px 0px 70px ;
+  margin: 0px 0px 40px;
+  background-color: $color;
+  text-align: center;
   .logo {
     a {
       border: none;
       text-decoration: none;
       display: block;
-      width: 100px;
-      height: 100px;
-      background: url('../images/shard.png')  left center no-repeat;
-      background-size: 12px;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto; 
+      background: url('../images/shard_white.png') center no-repeat;
+      background-size: 100%; 
       &:active {
         position: relative;
         top: 1px;
       }
     }
   }
-  h1 {
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 1.5em; 
-    .c1 { color: #CC0C39; }
-    .c2 { color: #E6781E; }
-    .c3 { color: #C8CF02; }
-    .c4 { color: #1693A7; }
+}
+
+.dreger_bar {
+  max-width: $body_width;
+  width: 90%;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px;
+  h3 {
+    font-weight: 100;
   }
-  .date {
-    padding: 5px;
-    background-color: $highlight;
-    border-radius: 3px;
+  .happy {
+    float: left;
+    margin: 0;
+  }
+  .colophon {
+    float: right;
+    margin: 0;
+    a {
+      color: #fff;
+    }
   }
 }
 
 .content {
-  width: 70%;
-  float: right;
+  width: 100%;
   margin-bottom: 100px;
   img {
     max-width: 100%;
@@ -179,30 +198,10 @@ a {
   }
 }
 
-.user_bar {
-  width: 20%;
-  float: left;
-  margin: 0px 0px 100px;
-  padding: 0;
-  text-align: left;
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      list-style: none; 
-      a {
-        /*border: 2px solid #fff;
-        border-radius: 50px;
-        text-align: center;*/
-        &:hover {
-          
-        }
-      }
-    }
-  }
-}
-
 .article {
+  h2 {
+    margin-bottom: 10px;
+  }
   img { 
     max-width: 100%;
   }
@@ -245,7 +244,7 @@ a {
 }
 
 blockquote {
-  border-left: 10px solid #272b2e;
+  border-left: 8px solid $color;
   padding-left: 20px;
 }
 ul {
@@ -288,7 +287,6 @@ em {
     margin-top: 0px;
   }
   .header {
-    margin-top: 30px;
   }
   .content {
     float: none;

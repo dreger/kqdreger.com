@@ -3,22 +3,21 @@
 {% include head.html %}
 <body>
 
+  {% include header.html %}
+
   <section class="wrapper">
-    {% include header.html %}
     <section class="content">
       <!-- Content goes here... -->
       <!-- here's the article you wanted -->
       <section class="article">
         <h2 id="article"><a href="{{ page.url }}">{{ page.title }}</a></h2> 
+        <h3 class="article-date">Posted {{ page.date | date: "%B %d, %Y" }}</h3>
         <section class="article-content">
         {{ content }}
         </section>
         <!-- end article-content -->
       </section> 
       </section>
-      
-      {% include user_bar.html %} 
-
     </section>
   </section>
 </body>

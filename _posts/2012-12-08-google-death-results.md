@@ -10,15 +10,13 @@ tags:
 
 I was introspective this morning, and found myself Googling about death. I ran across [this comic](http://xkcd.com/369/) by xkcd, got inspired and ended up collecting quite a bit of data about the number of search results Google gives back for any given age of death. I've put those results into a graph for your pleasure, and you can also download the spreadsheet data in [.xls](http://blog.kyledreger.com.s3.amazonaws.com/2012-12-08-dreger-google-death-results.xls) or [.pages](http://blog.kyledreger.com.s3.amazonaws.com/2012-12-08-dreger-google-death-results.numbers) if you like. 
 
-[![google death results](http://blog.kyledreger.com.s3.amazonaws.com/2012-12-08-google-death-preview.png)](http://blog.kyledreger.com.s3.amazonaws.com/2012-12-08-google-death-results.png)
+[Graph image (.png) 115 KB](http://blog.kyledreger.com.s3.amazonaws.com/2012-12-08-google-death-results.png)
 
 ### Details
 
 All searches were done from a completely clean Google Chrome (v23.0.1271.95) instance on a Macbook Pro running OS X 10.8.2. Searches were done over Google's SSL. 
 
-I used the following query, substituting X for the numbers 10 through 110: 
-
-> "dies at age X" OR "died at age X" 
+I used the following query, substituting X for the numbers 10 through 110: **"dies at age X" OR "died at age X"**
 
 Then I copied Google's *estimated* number of possible results - the "About 100,000 results (0.25 seconds)" part - into a spreadsheet next to the value of X. 
 
