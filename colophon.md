@@ -13,7 +13,7 @@ If you had to describe Kyle in one sentence, it might look like this: a passiona
 
 ### Rise
 
-In the top-left of this site you'll see my superhero symbol. It represents my philosophy of "rise" - to always be moving up and forward in everything you do. 
+In the top-center of this site you'll see my superhero symbol. It represents my philosophy of "rise" - to always be moving up and forward in everything you do. 
 
 Simple, focused and everlasting.
 
