@@ -51,10 +51,10 @@ strong {
   font-style: bold; }
 
 body {
-  font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #424242;
-  line-height: 1.5em;
-  font-size: 12px;
+  font-family: open-sans, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  line-height: 1.533em;
+  font-size: 15px;
   font-weight: 400;
   margin: 0px;
   padding: 0;
@@ -74,7 +74,8 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #000; }
   h1 a,
   h2 a,
   h3 a {
@@ -82,6 +83,7 @@ h3 {
 
 h1 {
   font-size: 200%;
+  line-height: 1.1em;
   letter-spacing: -1px; }
   h1 a {
     text-decoration: none;
@@ -101,29 +103,29 @@ h2 {
 h3 {
   font-size: 120%; }
   h3.article-date {
-    color: #dddddd; }
+    color: #cccccc; }
   h3 a {
     text-decoration: none; }
 
 a {
   text-decoration: none;
   color: #000;
-  border-bottom: solid 1px #dddddd;
+  border-bottom: solid 1px #cccccc;
   padding-bottom: 1px; }
 
 .wrapper {
-  max-width: 420px;
+  max-width: 500px;
   width: 90%;
   margin: 0 auto;
   padding: 10px; }
 
 .header {
-  font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: open-sans, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0;
   font-weight: 300;
-  padding: 40px 0px;
+  padding: 50px 0px;
   width: 100%;
-  margin: 0px 0px 40px;
+  margin: 0;
   background-color: #272b2e;
   text-align: center; }
   .header .logo a {
@@ -140,21 +142,19 @@ a {
       top: 1px; }
 
 .dreger_bar {
-  max-width: 420px;
+  max-width: 500px;
   width: 90%;
-  color: #fff;
-  margin: 0 auto;
-  padding: 10px; }
+  padding: 0px;
+  margin: 50px auto;
+  text-align: left; }
   .dreger_bar h3 {
     font-weight: 100; }
   .dreger_bar .happy {
-    float: left;
+    /*float: left;*/
     margin: 0; }
   .dreger_bar .colophon {
-    float: right;
+    /*float: right;*/
     margin: 0; }
-    .dreger_bar .colophon a {
-      color: #fff; }
 
 .content {
   width: 100%;
@@ -207,14 +207,14 @@ a {
 
 .article-content a {
   color: #000;
-  border-bottom: solid 1px #dddddd;
+  border-bottom: solid 1px #cccccc;
   padding-bottom: 1px; }
 
 .page {
   margin: 30px 0px; }
   .page a {
     color: #000;
-    border-bottom: solid 1px #dddddd;
+    border-bottom: solid 1px #cccccc;
     padding-bottom: 1px; }
 
 .meta {

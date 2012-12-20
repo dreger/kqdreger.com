@@ -6,22 +6,22 @@
           border-radius: $radius;
 }
 
-$text: #424242;
+$text: #4d4d4d;
 $text_header: #222;
 $highlight: #F8FCC1;
-$gray: #ddd;
+$gray: #ccc;
 $color: #272b2e;
 $color2: #272b2e;
-$body_width: 420px; 
+$body_width: 500px; 
 $dark_color: darken($color, 10%);
-$type_body: Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$type_body: open-sans, Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $type_header: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 
 body { 
   font-family: $type_body; 
   color: $text;
-  line-height: 1.5em;   
-  font-size: 12px;
+  line-height: 1.533em;   
+  font-size: 15px;
   font-weight: 400; 
   margin: 0px; 
   padding: 0;
@@ -42,6 +42,7 @@ h2,
 h3 {
   line-height: 1.2em;
   font-weight: bold;
+  color: #000;
   a {
     color: #000;
   }
@@ -49,6 +50,7 @@ h3 {
 
 h1 { 
   font-size: 200%; 
+  line-height: 1.1em;
   letter-spacing: -1px;
   a {
     text-decoration: none;
@@ -97,9 +99,9 @@ a {
   font-family: $type_body;
   padding: 0;
   font-weight: 300;
-  padding: 40px 0px;
+  padding: 50px 0px;
   width: 100%;
-  margin: 0px 0px 40px;
+  margin: 0;
   background-color: $color;
   text-align: center;
   .logo {
@@ -123,22 +125,19 @@ a {
 .dreger_bar {
   max-width: $body_width;
   width: 90%;
-  color: #fff;
-  margin: 0 auto;
-  padding: 10px;
+  padding: 0px;
+  margin: 50px auto;
+  text-align: left;
   h3 {
     font-weight: 100;
   }
   .happy {
-    float: left;
+    /*float: left;*/
     margin: 0;
   }
   .colophon {
-    float: right;
+    /*float: right;*/
     margin: 0;
-    a {
-      color: #fff;
-    }
   }
 }
 
