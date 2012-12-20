@@ -274,6 +274,9 @@ em {
   .wrapper {
     margin-top: 0px; }
 
+  .archive_list {
+    font-size: .8em; }
+
   .content {
     float: none;
     width: 100%; }
