@@ -19,7 +19,7 @@ My coffee has finally reached the point of equilibrium: I can now drink a steady
 
 The barista is pulling out the items from the snack bar now, wrapping them in saran and putting them away for tomorrow. I always knew this sort of thing happened, obviously they can’t leave the food in there indefinitely, but I’ve never actually seen it being done.
 
-My coffee cup is now empty, after I shotgunned the last teaspoon of pure sugary chocolate confection. Decaf probably would have been a better choice for this time at night, but you don’t go to Starbucks to get decaf. That would be like going to McDonalds to get a salad – a complete waste of time. If you’ve already made it into the building, you are bound by society law to getting that Big Mac with fries, er.. mocha with whipped cream.
+My coffee cup is now empty, after I shotgunned the last teaspoon of pure sugary chocolate confection. Decaf probably would have been a better choice for this time at night, but you don’t go to Starbucks to get decaf. That would be like going to McDonalds to get a salad – a complete waste of time. If you’ve already made it into the building, you are bound by societal law to get that Big Mac with fries, er.. mocha with whipped cream.
 
 This has proven productive. Forcing myself to go somewhere where I’d be cornered, literally and metaphorically, into writing has been successful. This was fun.
 
