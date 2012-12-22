@@ -8,10 +8,11 @@
 
 $text: #4d4d4d;
 $text_header: #222;
-$highlight: #F8FCC1;
 $gray: #ccc;
 $color: #D95B43;
 $color2: #272b2e;
+$highlight: lighten($color, 35%);
+$highlight2: #F8FCC1;
 $body_width: 500px; 
 $dark_color: darken($color, 10%);
 $type_body: open-sans, Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -189,7 +190,7 @@ a {
         padding: 8px 5px;
         display: block;
         &:hover {
-          background-color: $highlight;
+          background-color: lighten($color, 30%); 
         }
         .date {
           float: right;
