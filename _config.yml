@@ -8,7 +8,7 @@ markdown: rdiscount
 # configuration required for some pages
 
 domain: blog.kyledreger.com
-title: KD
+title: Kyle Dreger
 author: Kyle Dreger
 email: me@kyledreger.com
 description: "Jesus is life. Simplicity is freedom. Rise."
