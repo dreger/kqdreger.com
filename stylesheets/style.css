@@ -123,7 +123,7 @@ a {
   margin: 0 auto;
   padding: 10px; }
 
-.header {font-family: "proxima-nova", Helvetica, sans-serif;
+.header {
   padding: 0;
   font-weight: 300;
   padding: 80px 0px;
