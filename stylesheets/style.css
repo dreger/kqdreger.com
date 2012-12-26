@@ -51,7 +51,7 @@ strong {
   font-style: bold; }
 
 body {
-  font-family: open-sans, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, sans-serif;
   color: #4d4d4d;
   line-height: 1.533em;
   font-size: 15px;
@@ -123,8 +123,7 @@ a {
   margin: 0 auto;
   padding: 10px; }
 
-.header {
-  font-family: open-sans, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+.header {font-family: "proxima-nova", Helvetica, sans-serif;
   padding: 0;
   font-weight: 300;
   padding: 80px 0px;
