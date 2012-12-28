@@ -5,12 +5,10 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ site.description }}" />
+  <link rel="stylesheet" media="screen" href="/stylesheets/style.css" type="text/css" />
   <script type="text/javascript" src="//use.typekit.net/eqd7pqa.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <link rel="stylesheet" media="screen" href="/stylesheets/style.css" type="text/css" />
-  {% if site.feedburner %}
-  <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-  {% endif %}
+  
   <link rel="alternate" type="application/atom+xml" title="Kyle Dreger" href="/atom.xml" />
   {% if site.google_analytics %}
   <!-- google analytics async -->
