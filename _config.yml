@@ -4,6 +4,7 @@ permalink: /:title
 pygments: true
 exclude: ['Rakefile', 'README.md', 'config.rb']
 markdown: rdiscount
+auto: true
 
 # configuration required for some pages
 

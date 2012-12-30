@@ -6,16 +6,17 @@
           border-radius: $radius; 
 }
 
-$text: #4d4d4d;
+$text: #444;
 $text_header: #222;
 $gray: #ccc;
+$color3: #61BCE1;
 $color: #D95B43;
 $color2: #272b2e;
 $highlight: lighten($color, 35%);
 $highlight2: #F8FCC1;
 $body_width: 500px; 
 $dark_color: darken($color, 10%);
-$type_body: "proxima-nova", sans-serif; 
+$type_body: "proxima-nova-soft", sans-serif; 
 
 body { 
   font-family: $type_body; 
@@ -27,7 +28,7 @@ body {
   padding: 0;
   background: #fff;
   -webkit-font-smoothing: antialiased;
-}  
+}    
 h1,
 h2, 
 h3,
