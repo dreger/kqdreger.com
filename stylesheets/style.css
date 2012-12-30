@@ -51,7 +51,7 @@ strong {
   font-style: bold; }
 
 body {
-  border-top: solid 15px #d5482e;
+  border-top: solid 15px #0099d3;
   font-family: "proxima-nova-soft", sans-serif;
   color: #444444;
   line-height: 1.533em;
@@ -132,7 +132,7 @@ a {
   width: 100%;
   height: 15px;
   margin: 0;
-  background-color: #d95b43;
+  background-color: #00aced;
   text-align: center; }
   .header .logo {
     display: none; }
@@ -167,8 +167,9 @@ a {
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    background: url("../images/shard_white.png") #d95b43 center no-repeat;
-    background-size: 80%; }
+    background: url("../images/shard_white.png") #00aced center no-repeat;
+    background-size: 80%;
+    border: 5px solid #0099d3; }
     .dreger_bar .symbol a:active {
       position: relative;
       top: 1px; }
@@ -216,7 +217,7 @@ a {
       padding: 8px 5px;
       display: block; }
       .archive_list ul li a:hover {
-        background-color: #f3cac2; }
+        background-color: #87deff; }
       .archive_list ul li a .date {
         float: right; }
 
@@ -247,7 +248,7 @@ a {
   padding-top: 20px; }
 
 blockquote {
-  border-left: 8px solid #d95b43;
+  border-left: 8px solid #00aced;
   padding-left: 20px; }
 
 ul {
