@@ -9,8 +9,8 @@
 $text: #444;
 $text_header: #222;
 $gray: #ccc;
-$color3: #61BCE1;
-$color: #D95B43;
+$color: #556270;
+$color3: #D95B43;
 $color2: #272b2e;
 $highlight: lighten($color, 35%);
 $highlight2: #F8FCC1;
@@ -46,7 +46,7 @@ h4 {
   line-height: 1.2em;
   font-weight: bold;
   color: #000;
-  text-align: center;
+  text-align: left;
   a {
     color: #000;
   }
@@ -131,7 +131,7 @@ a {
   width: 90%;
   padding: 0px;
   margin: 50px auto;
-  text-align: center;
+  text-align: right;
   h3 {
     font-weight: 100;
   }
