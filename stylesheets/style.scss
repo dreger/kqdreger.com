@@ -9,8 +9,8 @@
 $text: #444;
 $text_header: #222;
 $gray: #ccc;
-$color: #556270;
-$color3: #D95B43;
+$color3: #556270;
+$color: #D95B43;
 $color2: #272b2e;
 $highlight: lighten($color, 35%);
 $highlight2: #F8FCC1;
@@ -144,11 +144,20 @@ a {
     font-weight: 100;
   }
   .symbol {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    background: url('../images/shard_white.png') $color center no-repeat;
-    background-size: 80%; 
+    a {
+      display: block;
+      margin: 0;
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      background: url('../images/shard_white.png') $color center no-repeat;
+      background-size: 80%; 
+      &:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+    
   }
   .happy {
     /*float: left;*/
