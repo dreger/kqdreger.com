@@ -51,6 +51,7 @@ strong {
   font-style: bold; }
 
 body {
+  border-top: solid 15px #4a5562;
   font-family: "proxima-nova-soft", sans-serif;
   color: #444444;
   line-height: 1.533em;
@@ -86,7 +87,7 @@ h4 {
     color: #000; }
 
 h1 {
-  font-size: 200%;
+  font-size: 240%;
   line-height: 1.1em;
   letter-spacing: -1px; }
   h1 a {
@@ -127,23 +128,26 @@ a {
   font-family: "proxima-nova-soft", sans-serif;
   padding: 0;
   font-weight: 300;
-  padding: 80px 0px;
+  padding: 0px 0px;
   width: 100%;
+  height: 15px;
   margin: 0;
   background-color: #556270;
   text-align: center; }
-  .header .logo a {
-    border: none;
-    text-decoration: none;
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
-    background: url("../images/shard_white.png") center no-repeat;
-    background-size: 100%; }
-    .header .logo a:active {
-      position: relative;
-      top: 1px; }
+  .header .logo {
+    display: none; }
+    .header .logo a {
+      border: none;
+      text-decoration: none;
+      display: block;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto;
+      background: url("../images/shard_white.png") center no-repeat;
+      background-size: 100%; }
+      .header .logo a:active {
+        position: relative;
+        top: 1px; }
 
 .dreger_bar {
   max-width: 500px;
@@ -151,8 +155,18 @@ a {
   padding: 0px;
   margin: 50px auto;
   text-align: right; }
+  .dreger_bar h1 {
+    font-weight: 100;
+    float: left;
+    text-transform: capitalize; }
   .dreger_bar h3 {
     font-weight: 100; }
+  .dreger_bar .symbol {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background: url("../images/shard_white.png") #556270 center no-repeat;
+    background-size: 80%; }
   .dreger_bar .happy {
     /*float: left;*/
     margin: 0; }

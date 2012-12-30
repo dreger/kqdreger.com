@@ -19,8 +19,9 @@ $dark_color: darken($color, 10%);
 $type_body: "proxima-nova-soft", sans-serif; 
 
 body { 
+  border-top: solid 15px darken($color, 5%);
   font-family: $type_body; 
-  color: $text;
+  color: $text; 
   line-height: 1.533em;   
   font-size: 16px;
   font-weight: 400; 
@@ -53,7 +54,7 @@ h4 {
 }
 
 h1 { 
-  font-size: 200%; 
+  font-size: 240%; 
   line-height: 1.1em;
   letter-spacing: -1px;
   a {
@@ -103,12 +104,14 @@ a {
   font-family: $type_body;
   padding: 0;
   font-weight: 300;
-  padding: 80px 0px;
+  padding: 0px 0px;
   width: 100%;
+  height: 15px;
   margin: 0;
   background-color: $color;
   text-align: center;
   .logo {
+    display: none;
     a {
       border: none;
       text-decoration: none;
@@ -132,8 +135,20 @@ a {
   padding: 0px;
   margin: 50px auto;
   text-align: right;
+  h1 {
+    font-weight: 100;
+    float: left;
+    text-transform: capitalize;
+  }
   h3 {
     font-weight: 100;
+  }
+  .symbol {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background: url('../images/shard_white.png') $color center no-repeat;
+    background-size: 80%; 
   }
   .happy {
     /*float: left;*/
