@@ -15,7 +15,7 @@ $highlight: lighten($color, 35%);
 $highlight2: #F8FCC1;
 $body_width: 500px; 
 $dark_color: darken($color, 10%);
-$type_body: "proxima-nova", sans-serif;
+$type_body: "proxima-nova", sans-serif; 
 
 body { 
   font-family: $type_body; 
