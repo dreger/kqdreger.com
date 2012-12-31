@@ -51,7 +51,7 @@ strong {
   font-style: bold; }
 
 body {
-  border-top: solid 15px #0099d3;
+  border-top: solid 15px #b82e39;
   font-family: "proxima-nova-soft", sans-serif;
   color: #444444;
   line-height: 1.533em;
@@ -125,60 +125,35 @@ a {
   padding: 10px; }
 
 .header {
-  font-family: "proxima-nova-soft", sans-serif;
-  padding: 0;
-  font-weight: 300;
-  padding: 0px 0px;
+  padding: 0px;
   width: 100%;
   height: 15px;
   margin: 0;
-  background-color: #00aced;
-  text-align: center; }
-  .header .logo {
-    display: none; }
-    .header .logo a {
-      border: none;
-      text-decoration: none;
-      display: block;
-      width: 80px;
-      height: 80px;
-      margin: 0 auto;
-      background: url("../images/shard_white.png") center no-repeat;
-      background-size: 100%; }
-      .header .logo a:active {
-        position: relative;
-        top: 1px; }
+  background-color: #cc333f; }
 
 .dreger_bar {
   max-width: 500px;
   width: 90%;
-  padding: 0px;
-  margin: 50px auto;
-  text-align: right; }
-  .dreger_bar h1 {
-    font-weight: 100;
-    float: left;
-    text-transform: capitalize; }
-  .dreger_bar h3 {
-    font-weight: 100; }
+  padding: 10px;
+  margin: 60px auto;
+  text-align: right;
+  overflow: auto; }
+  .dreger_bar p {
+    padding-top: 10px;
+    float: right; }
   .dreger_bar .symbol a {
+    float: left;
     display: block;
-    margin: 0;
+    margin: 0px;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    background: url("../images/shard_white.png") #00aced center no-repeat;
+    background: url("../images/shard_white.png") #cc333f center no-repeat;
     background-size: 80%;
-    border: 5px solid #0099d3; }
+    border: 5px solid #b82e39; }
     .dreger_bar .symbol a:active {
       position: relative;
-      top: 1px; }
-  .dreger_bar .happy {
-    /*float: left;*/
-    margin: 0; }
-  .dreger_bar .colophon {
-    /*float: right;*/
-    margin: 0; }
+      top: 2px; }
 
 .content {
   width: 100%;
@@ -217,7 +192,7 @@ a {
       padding: 8px 5px;
       display: block; }
       .archive_list ul li a:hover {
-        background-color: #87deff; }
+        background-color: #ebadb2; }
       .archive_list ul li a .date {
         float: right; }
 
@@ -248,7 +223,7 @@ a {
   padding-top: 20px; }
 
 blockquote {
-  border-left: 8px solid #00aced;
+  border-left: 8px solid #cc333f;
   padding-left: 20px; }
 
 ul {
