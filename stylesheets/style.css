@@ -145,12 +145,12 @@ a {
     float: left;
     display: block;
     margin: 0px;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
     background: url("../images/shard_white.png") #cc333f center no-repeat;
     background-size: 80%;
-    border: 5px solid #b82e39; }
+    border: 10px solid #b82e39; }
     .dreger_bar .symbol a:active {
       position: relative;
       top: 2px; }

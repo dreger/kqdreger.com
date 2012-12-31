@@ -126,12 +126,12 @@ a {
       float: left;
       display: block;
       margin: 0px;
-      width: 60px;
-      height: 60px;
-      border-radius: 10px;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
       background: url('../images/shard_white.png') $color center no-repeat;
       background-size: 80%; 
-      border: 5px solid $dark_color;
+      border: 10px solid $dark_color;
       &:active {
         position: relative;
         top: 2px;
