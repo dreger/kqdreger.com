@@ -1,7 +1,7 @@
 @import "mixins/reset";  
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
+  -webkit-border-radius: $radius; 
      -moz-border-radius: $radius;
           border-radius: $radius; 
 }
@@ -11,13 +11,14 @@ $text_header: #222;
 $gray: #ccc;
 
 $color: #CC333F;
+$dark_color: darken($color, 5%);
+
 $color2: #272b2e;
 
 $highlight: lighten($color, 35%);
-$highlight2: #F8FCC1;
+$highlight2: #F8FCC1; 
 
 $body_width: 500px; 
-$dark_color: darken($color, 5%);
 $type_body: "proxima-nova-soft", sans-serif; 
 
 body { 
