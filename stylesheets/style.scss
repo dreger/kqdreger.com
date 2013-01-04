@@ -6,20 +6,18 @@
           border-radius: $radius; 
 }
 
+// Custom variables
+$color: #CC333F;
+$dark_color: darken($color, 5%);
+$type_body: "proxima-nova-soft", sans-serif; 
+
+// Sensible defaults
 $text: #444;
 $text_header: #222;
 $gray: #ccc;
-
-$color: #CC333F;
-$dark_color: darken($color, 5%);
-
-$color2: #272b2e;
-
+$gray_code: #eee;
 $highlight: lighten($color, 35%);
-$highlight2: #F8FCC1; 
-
 $body_width: 500px; 
-$type_body: "proxima-nova-soft", sans-serif; 
 
 body { 
   border-top: solid 15px $dark_color;
@@ -82,7 +80,7 @@ h3 {
   &.article-date {
     color: $gray;
   }
-  font-size: 120%;
+  font-size: 130%;
   a {
     text-decoration: none;
   }
@@ -232,8 +230,12 @@ a {
 }
 
 blockquote {
-  border-left: 8px solid $color;
-  padding-left: 20px;
+  border-left: 10px solid $color;
+  padding: 10px 0px 10px 20px;
+  p {
+    padding: 0;
+    margin: 0;
+  }
 }
 ul {
   list-style: disc;
@@ -246,12 +248,18 @@ audio {
 }
 pre {
   font-family: monospace;
-  padding: 10px 0px 10px 30px;
+  padding: 15px 25px;
   margin: 15px 0px;
-  font-size: 1em;
+  font-size: .9em;
   max-width: 100%;
   overflow: auto;
-  background: #f8f8f8;
+  background: $gray_code;
+  border-radius: 5px;
+}
+code {
+  background: $gray_code;
+  border-radius: 50px;
+  padding: 1px 10px;
 }
 strong {
   font-weight: bold;
@@ -282,9 +290,5 @@ em {
   .content {
     float: none;
     width: 100%;
-  }
-  .user_bar {
-    float: none;
-    width: 100%;  
   }
 }

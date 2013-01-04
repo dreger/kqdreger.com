@@ -1,29 +1,33 @@
-# standard jekyll configuration
+# Be sure to adjust the required configurations
+# to your liking. 
 
+
+# standard jekyll configuration
 permalink: /:title.html
 pygments: true
-exclude: ['Rakefile', 'README.md', 'config.rb']
-markdown: rdiscount
 auto: true
+markdown: rdiscount
 
-# configuration required for some pages
-
-domain: blog.kyledreger.com
+# required configuration 
+domain: www.kyledreger.com
 title: Kyle Dreger
 author: Kyle Dreger
 email: me@kyledreger.com
 description: "Jesus is life. Simplicity is freedom. Rise."
 
-# configuration for ehancements, uncomment to enable
+# optional configurations, uncomment to enable
 
-# feedburner:
-#   id: feedburnerid
+typekit: 
+  id: eqd7pqa
 
 google_analytics:
   account: UA-17208416-19
 
-github:
-  username: dreger
+# feedburner:
+#   id: feedburnerid
+
+# github:
+#   username:
 
 # disqus:
 #   id: disqusid
