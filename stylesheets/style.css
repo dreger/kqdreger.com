@@ -51,7 +51,7 @@ strong {
   font-style: bold; }
 
 body {
-  border-top: solid 15px #b82e39;
+  border-top: solid 15px #0d0d0d;
   font-family: "proxima-nova-soft", sans-serif;
   color: #444444;
   line-height: 1.533em;
@@ -129,7 +129,7 @@ a {
   width: 100%;
   height: 15px;
   margin: 0;
-  background-color: #cc333f; }
+  background-color: #1a1a1a; }
 
 .dreger_bar {
   max-width: 500px;
@@ -148,9 +148,9 @@ a {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: url("../images/shard_white.png") #cc333f center no-repeat;
+    background: url("../images/shard_white.png") #1a1a1a center no-repeat;
     background-size: 80%;
-    border: 10px solid #b82e39; }
+    border: 10px solid #0d0d0d; }
     .dreger_bar .symbol a:active {
       position: relative;
       top: 2px; }
@@ -192,7 +192,7 @@ a {
       padding: 8px 5px;
       display: block; }
       .archive_list ul li a:hover {
-        background-color: #ebadb2; }
+        background-color: #676767; }
       .archive_list ul li a .date {
         float: right; }
 
@@ -223,7 +223,7 @@ a {
   padding-top: 20px; }
 
 blockquote {
-  border-left: 10px solid #cc333f;
+  border-left: 10px solid #1a1a1a;
   padding: 10px 0px 10px 20px; }
   blockquote p {
     padding: 0;
