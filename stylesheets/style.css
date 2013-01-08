@@ -126,25 +126,22 @@ a {
   margin: 0 auto;
   padding: 10px; }
 
-.header {
-  padding: 0px;
-  width: 100%;
-  height: 15px;
-  margin: 0; }
-
 .dreger_bar {
   max-width: 500px;
   width: 90%;
   height: auto;
   padding: 5px;
-  margin: 30px auto 60px;
-  overflow: auto; }
-  .dreger_bar .l {
-    margin-top: -3.5em;
-    float: left; }
-  .dreger_bar .r {
-    margin-top: -3.5em;
-    float: right; }
+  margin: 30px auto;
+  overflow: auto;
+  text-align: center; }
+  .dreger_bar h3 {
+    display: none;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0; }
+  .dreger_bar p {
+    padding: 1.5em 0 0; }
   .dreger_bar .symbol a {
     display: block;
     margin: 0px auto;
@@ -180,8 +177,6 @@ a {
     display: inline;
     padding-right: 15px; }
 
-.archive_list .article-date {
-  font-size: .9em; }
 .archive_list ul {
   padding: 0;
   margin: 0px 0px 100px; }
@@ -189,6 +184,8 @@ a {
     list-style: none;
     padding: 0em;
     margin: 2em 0em; }
+    .archive_list ul li:first-child {
+      margin-top: 0; }
     .archive_list ul li h3 {
       margin-bottom: .2em; }
     .archive_list ul li a {

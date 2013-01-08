@@ -3,7 +3,7 @@
 
 
 # standard jekyll configuration
-permalink: /:title.html
+permalink: /:title
 pygments: true
 auto: true
 markdown: rdiscount

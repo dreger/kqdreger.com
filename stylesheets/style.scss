@@ -105,28 +105,23 @@ a {
   padding: 10px;
 }
 
-.header { 
-  padding: 0px;
-  width: 100%;
-  height: 15px;
-  margin: 0;
-  // background-color: $color;
-}
-
 .dreger_bar {
   max-width: $body_width;
   width: 90%;
   height: auto;
   padding: 5px;
-  margin: 30px auto 60px;
+  margin: 30px auto;
   overflow: auto;
-  .l {
-    margin-top: -3.5em;
-    float: left;
+  text-align: center;
+  h3 {
+    display: none;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0;
   }
-  .r {
-    margin-top: -3.5em;
-    float: right;
+  p {
+    padding: 1.5em 0 0;
   }
   .symbol {
     a {
@@ -175,9 +170,6 @@ a {
 }
 
 .archive_list {
-  .article-date {
-    font-size: .9em;
-  }
   ul {
     padding: 0;
     margin: 0px 0px 100px;
@@ -185,6 +177,9 @@ a {
       list-style: none;
       padding: 0em;
       margin: 2em 0em;
+      &:first-child {
+        margin-top: 0;
+      }
       h3 {
         margin-bottom: .2em;
       }
