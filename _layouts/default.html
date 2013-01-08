@@ -7,16 +7,14 @@
   
   <section class="wrapper">
     <section class="content">
-    {% for post in site.posts limit:3 %}
-      <section class="article">
-        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2> 
-        <h3 class="article-date">Posted {{ post.date | date: "%B %d, %Y" }}</h3>
-        <section class="article-content">
-        {{ post.content }}
-        </section>
-        <!-- end article-content -->
+    <p>A full-text RSS feed is available <a href="/atom.xml">here</a>. Thanks for reading and feel free to <a href="/colophon.html">contact</a> me with any questions. </p>
+
+      <section class="archive_list">
+        <ul>
+          {% for post in site.posts offset:0 %}
+          <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p class="article-date">{{ post.date | date: "%B %Y" }}</p></li>{% endfor %} 
+        </ul>
       </section>
-    {% endfor %}
     </section>
   </section>
 </body>
