@@ -8,6 +8,6 @@ title: Archive
 <section class="archive_list">
 <ul>
   {% for post in site.posts offset:0 %}
-  <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p class="article-date">{{ post.date | date: "%B %Y" }}</p></li>{% endfor %} 
+  <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2><p class="article-date">{{ post.date | date: "%B %Y" }}</p></li>{% endfor %} 
 </ul>
 </section>

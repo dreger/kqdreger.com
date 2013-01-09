@@ -7,7 +7,7 @@
 }
 
 // Custom variables
-$color: #1a1a1a;
+$color: #272b2e;
 $dark_color: darken($color, 5%);
 $type_body: "proxima-nova-soft", sans-serif; 
 $type_header: "freight-sans-pro", sans-serif;
@@ -21,7 +21,6 @@ $highlight: lighten($color, 35%);
 $body_width: 500px; 
 
 body { 
-  // border-top: solid 15px $dark_color;
   font-family: $type_body; 
   color: $text; 
   line-height: 1.533em;   
@@ -79,7 +78,7 @@ h2 {
   }
 }
 h3 { 
-  font-size: 130%;
+  font-size: 140%;
   a {
     text-decoration: none;
   }
@@ -113,15 +112,12 @@ a {
   margin: 30px auto;
   overflow: auto;
   text-align: center;
-  h3 {
-    display: none;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 1em 0 0;
-  }
   p {
+    text-align: center;
     padding: 1.5em 0 0;
+    text-transform: uppercase;
+    font-family: $type_header;
+    font-weight: 100;
   }
   .symbol {
     a {
@@ -129,10 +125,13 @@ a {
       margin: 0px auto;
       width: 70px;
       height: 70px;
-      border-radius: 50% 50%;
-      background: url('../images/shard_white.png') $color center no-repeat;
+      border-radius: 50%; 
+      background-image: url('../images/shard_white.png');
+      background-color: $color;
+      background-position: center;
+      background-repeat: no-repeat;
       background-size: 80%; 
-      border: .8em solid $dark_color;
+      border: .6em solid $dark_color;
       &:active {
         position: relative;
         top: 2px;
@@ -181,7 +180,7 @@ a {
         margin-top: 0;
       }
       h3 {
-        margin-bottom: .2em;
+        margin-bottom: .1em;
       }
       a {
         display: block;
