@@ -143,15 +143,15 @@ a {
   .dreger_bar .symbol a {
     display: block;
     margin: 0px auto;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-image: url("../images/shard_white.png");
     background-color: #272b2e;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
-    border: 0.6em solid #1b1e20; }
+    border: 0.7em solid #1b1e20; }
     .dreger_bar .symbol a:active {
       position: relative;
       top: 2px; }

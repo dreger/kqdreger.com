@@ -123,15 +123,15 @@ a {
     a {
       display: block;
       margin: 0px auto;
-      width: 70px;
-      height: 70px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%; 
       background-image: url('../images/shard_white.png');
       background-color: $color;
       background-position: center;
       background-repeat: no-repeat;
       background-size: 80%; 
-      border: .6em solid $dark_color;
+      border: .7em solid $dark_color;
       &:active {
         position: relative;
         top: 2px;
