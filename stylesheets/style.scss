@@ -134,7 +134,7 @@ a {
     padding: 0; 
     li {
       @include transition (opacity, ease-in, .3s);
-      @include prefixer (opacity, .3, webkit ms spec o moz);
+      @include prefixer (opacity, .6, webkit ms spec o moz);
       list-style: none;
       margin: 2.5em 0em;
       padding: 0em;

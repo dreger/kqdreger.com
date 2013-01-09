@@ -263,11 +263,11 @@ a {
     -ms-transition: opacity, ease-in, 0.3s;
     -o-transition: opacity, ease-in, 0.3s;
     transition: opacity, ease-in, 0.3s;
-    -webkit-opacity: 0.3;
-    -ms-opacity: 0.3;
-    opacity: 0.3;
-    -o-opacity: 0.3;
-    -moz-opacity: 0.3;
+    -webkit-opacity: 0.6;
+    -ms-opacity: 0.6;
+    opacity: 0.6;
+    -o-opacity: 0.6;
+    -moz-opacity: 0.6;
     list-style: none;
     margin: 2.5em 0em;
     padding: 0em; }
