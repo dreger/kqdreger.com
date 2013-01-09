@@ -115,16 +115,16 @@ a {
   p {
     text-align: center;
     padding: 1.5em 0 0;
-    text-transform: uppercase;
-    font-family: $type_header;
+    /*text-transform: uppercase;
+    font-family: $type_header;*/
     font-weight: 100;
   }
   .symbol {
     a {
       display: block;
       margin: 0px auto;
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
       border-radius: 50%; 
       background-image: url('../images/shard_white.png');
       background-color: $color;
