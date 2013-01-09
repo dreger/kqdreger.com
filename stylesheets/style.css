@@ -284,17 +284,6 @@ a {
     .list ul li h2 {
       margin-bottom: .1em; }
 
-.footer {
-  background-color: #000;
-  color: #fff;
-  height: 150px;
-  padding: 20px;
-  overflow: auto;
-  text-align: center;
-  width: 90%; }
-  .footer a {
-    color: #fff; }
-
 .article h2 {
   margin-bottom: 6px; }
 .article img {
@@ -358,3 +347,6 @@ em {
   .content img {
     width: 100%;
     margin-left: 0; } }
+@media screen and (max-width: 600px) {
+  .content {
+    margin: 30px 0px; } }
