@@ -2,12 +2,10 @@
 <html lang="en">
 {% include head.html %}
 <body>
-
-  {% include header.html %}
-
   <section class="wrapper">
     <section class="content">
-      <!-- Content goes here... -->
+      {% include dregers.html %}
+
       <!-- here's the article you wanted -->
       <section class="article">
         <h2 id="article"><a href="{{ page.url }}">{{ page.title }}</a></h2> 
@@ -16,7 +14,6 @@
         {{ content }}
         </section>
         <!-- end article-content -->
-      </section> 
       </section>
     </section>
   </section>
