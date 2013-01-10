@@ -2,20 +2,19 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <section class="wrapper">
-    <section class="content">
-      {% include dregers.html %}
+<section class="wrapper">
+<section class="content">
+{% include dregers.html %}
 
-      <!-- here's the article you wanted -->
-      <section class="article">
-        <h2 id="article"><a href="{{ page.url }}">{{ page.title }}</a></h2> 
-        <h3 class="article-date">Posted {{ page.date | date: "%B %d, %Y" }}</h3>
-        <section class="article-content">
-        {{ content }}
-        </section>
-        <!-- end article-content -->
-      </section>
-    </section>
-  </section>
+<!-- article ala boom -->
+<section class="article">
+<h2 id="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2> 
+<h3 class="article-date">Posted {{ page.date | date: "%B %d, %Y" }}</h3>
+<section class="article-content">
+{{ content }}
+</section>
+</section><!-- end article -->
+</section><!-- end content -->
+</section><!-- end wrapper -->
 </body>
 </html>

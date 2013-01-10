@@ -1,7 +1,3 @@
-# Be sure to adjust the required configurations
-# to your liking. 
-
-
 # standard jekyll configuration
 permalink: /:title
 pygments: true
@@ -15,19 +11,7 @@ author: Kyle Dreger
 email: me@kyledreger.com
 description: "Jesus is life. Simplicity is freedom. Rise."
 
-# optional configurations, uncomment to enable
-
 typekit: 
   id: eqd7pqa
-
 google_analytics:
   account: UA-17208416-19
-
-# feedburner:
-#   id: feedburnerid
-
-# github:
-#   username:
-
-# disqus:
-#   id: disqusid
