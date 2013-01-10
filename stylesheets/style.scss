@@ -32,6 +32,7 @@ h3,
 h4,
 ul,
 ol,
+hr,
 blockquote,
 p { 
   margin-bottom: 1.2em; 
@@ -62,6 +63,14 @@ a {
 .article-date {
   color: $gray;
   font-weight: bold;
+}
+
+hr {
+  border: none;
+  border: solid 3px $gray;
+  border-radius: 10px;
+  margin: 2.5em auto;
+  width: 75%;
 }
 
 .dreger_bar {

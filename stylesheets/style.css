@@ -167,6 +167,7 @@ h3,
 h4,
 ul,
 ol,
+hr,
 blockquote,
 p {
   margin-bottom: 1.2em; }
@@ -203,6 +204,13 @@ a {
 .article-date {
   color: #cccccc;
   font-weight: bold; }
+
+hr {
+  border: none;
+  border: solid 3px #cccccc;
+  border-radius: 10px;
+  margin: 2.5em auto;
+  width: 75%; }
 
 .dreger_bar {
   display: none;
