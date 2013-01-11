@@ -200,6 +200,8 @@ a {
   color: #222;
   padding-bottom: 1px;
   text-decoration: none; }
+  a:hover {
+    color: #00aced; }
 
 .article-date {
   color: #cccccc;
@@ -211,6 +213,12 @@ hr {
   border-radius: 10px;
   margin: 2.5em auto;
   width: 75%; }
+
+img {
+  display: inline;
+  margin-left: -100px;
+  width: 700px;
+  border-radius: 5px; }
 
 .dreger_bar {
   display: none;
@@ -278,10 +286,6 @@ hr {
 
 .article h2 {
   margin-bottom: 6px; }
-.article img {
-  display: inline;
-  margin-left: -100px;
-  width: 700px; }
 .article small {
   font-size: .9em;
   font-style: italic;
@@ -301,14 +305,21 @@ ul {
     margin: 8px 0px; }
 
 pre {
-  background: #eeeeee;
+  background: #eee;
   border-radius: 5px;
   font-family: monospace;
+  font-weight: bold;
   font-size: .9em;
   margin: 15px 0px;
   max-width: 100%;
   padding: 15px 25px;
-  overflow: auto; }
+  overflow: auto;
+  -moz-box-shadow: inset 0 0 3px 3px #e1e1e1;
+  -webkit-box-shadow: inset 0 0 3px 3px #e1e1e1;
+  box-shadow: inset 0 0 3px 3px #e1e1e1; }
+  pre code {
+    background: none;
+    padding: 0; }
 
 code {
   background: #eeeeee;
