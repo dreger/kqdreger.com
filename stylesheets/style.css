@@ -187,7 +187,7 @@ h4 {
     border-bottom: none; }
 
 h1 {
-  font-size: 200%; }
+  font-size: 220%; }
 
 h2 {
   font-size: 150%; }
@@ -260,7 +260,7 @@ img {
 
 .dregers {
   margin-bottom: 3em;
-  text-align: center; }
+  text-align: left; }
   .dregers h1 {
     font-weight: 900;
     margin-bottom: .2em; }
@@ -276,7 +276,7 @@ img {
   padding: 0; }
   .list ul li {
     list-style: none;
-    margin: 2.5em 0em;
+    margin: 2em 0em;
     padding: 0em; }
     .list ul li:first-child {
       margin-top: 0; }
@@ -286,12 +286,14 @@ img {
       margin-bottom: .1em; }
 
 .article h2 {
-  margin-bottom: 6px; }
+  margin-bottom: .5em; }
 .article small {
   font-size: .9em;
   font-style: italic;
   text-align: center;
   width: 100%; }
+.article .article-date {
+  text-align: right; }
 
 blockquote {
   border-left: 10px solid #1a1a1a;
