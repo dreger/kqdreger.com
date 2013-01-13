@@ -220,6 +220,13 @@ img {
   width: 700px;
   border-radius: 5px; }
 
+small {
+  font-size: .9em;
+  font-style: italic;
+  text-align: center;
+  display: block;
+  width: 100%; }
+
 .wrapper {
   margin: 0 auto;
   max-width: 500px;
@@ -259,13 +266,11 @@ img {
 
 .article h2 {
   margin-bottom: .5em; }
-.article small {
-  font-size: .9em;
-  font-style: italic;
-  text-align: center;
-  width: 100%; }
+.article h3 {
+  text-transform: uppercase; }
 .article .article-date {
-  text-align: right; }
+  text-align: right;
+  text-transform: none; }
 
 blockquote {
   border-left: 10px solid #1a1a1a;

@@ -84,6 +84,14 @@ img {
   border-radius: 5px;
 }
 
+small {
+  font-size: .9em;
+  font-style: italic;
+  text-align: center;
+  display: block; 
+  width: 100%;
+}
+
 // .dreger_bar {
 //   display: none;
 //   height: auto;
@@ -174,14 +182,12 @@ img {
   h2 {
     margin-bottom: .5em;
   }
-  small {
-    font-size: .9em;
-    font-style: italic;
-    text-align: center;
-    width: 100%;
+  h3 {
+    text-transform: uppercase;
   }
   & .article-date {
     text-align: right;
+    text-transform: none;
   }
 }
 
