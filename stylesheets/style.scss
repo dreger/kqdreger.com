@@ -67,6 +67,7 @@ a {
 .article-date {
   color: $gray;
   font-weight: bold;
+  text-transform: lowercase;
 }
 
 hr {
@@ -133,6 +134,7 @@ img {
 
 .dregers {
   margin-bottom: 3em;
+  text-align: center;
   h1 {
     font-weight: 900;
     margin-bottom: .2em;
@@ -144,6 +146,7 @@ img {
   p {
     margin: 0;
     padding: 0;
+    text-transform: lowercase;
   }
 }
 
@@ -161,7 +164,7 @@ img {
       a {
         display: block;
       }
-      h2 {
+      h3 {
         margin-bottom: .1em;
       }
     }
