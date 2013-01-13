@@ -50,9 +50,9 @@ h4 {
     border-bottom: none;
   }
 }
-h1 { font-size: 250%; }
-h2 { font-size: 180%; }
-h3 { font-size: 140%; }
+h1 { font-size: 200%; }
+h2 { font-size: 150%; }
+h3 { font-size: 120%; }
 
 a {
   border-bottom: solid 1px $gray;
@@ -67,7 +67,6 @@ a {
 .article-date {
   color: $gray;
   font-weight: bold;
-  text-transform: lowercase;
 }
 
 hr {
@@ -146,7 +145,6 @@ img {
   p {
     margin: 0;
     padding: 0;
-    text-transform: lowercase;
   }
 }
 
@@ -164,7 +162,7 @@ img {
       a {
         display: block;
       }
-      h3 {
+      h2 {
         margin-bottom: .1em;
       }
     }

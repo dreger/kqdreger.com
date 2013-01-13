@@ -3,9 +3,11 @@ layout: default
 title: Colophon
 ---
 
-### Rise
+Welcome to the humble website of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. He's not very good at writing in the third person, so I'm going to stop before I harm any innocent pronouns. 
 
-Across various networks, you'll see my superhero symbol. It represents my philosophy of "rise" - to always be moving up and forward in everything you do. 
+I started this site in the fall of 2010 when I began attending the [University of Mount Union](http://mountunion.edu). I do quite a bit of [writing](/weblog) about Jesus, design, Apple things, and coffee. I also has the most beautiful girlfriend in the world - no contest. 
+
+If you'd like to comment on something I've written, or just want to say hello, shoot an email to <hi@kyledreger.com> or [@dreger](http://twitter.com/dreger) on Twitter. 
 
 ### Setup
 
@@ -13,6 +15,3 @@ Across various networks, you'll see my superhero symbol. It represents my philos
 
 Writing is done via [iA Writer](http://www.iawriter.com/) in [Markdown](http://daringfireball.net/projects/markdown) formatting. The writing takes place on either a 13' Macbook Pro, or an iPhone 4.
 
-### Comments
-
-No built-in comments here, but feel free to email <hi@kyledreger.com> and you'll get something back. Cool nerds can also open up an issue at [dreger/feedback](https://github.com/dreger/feedback/issues/new) on GitHub.

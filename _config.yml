@@ -1,5 +1,5 @@
 # standard jekyll configuration
-permalink: /weblog/:title.html
+permalink: /:title.html
 pygments: true
 auto: true
 markdown: rdiscount

@@ -187,13 +187,13 @@ h4 {
     border-bottom: none; }
 
 h1 {
-  font-size: 250%; }
+  font-size: 200%; }
 
 h2 {
-  font-size: 180%; }
+  font-size: 150%; }
 
 h3 {
-  font-size: 140%; }
+  font-size: 120%; }
 
 a {
   border-bottom: solid 1px #cccccc;
@@ -205,8 +205,7 @@ a {
 
 .article-date {
   color: #cccccc;
-  font-weight: bold;
-  text-transform: lowercase; }
+  font-weight: bold; }
 
 hr {
   border: none;
@@ -270,8 +269,7 @@ img {
       position: relative; }
   .dregers p {
     margin: 0;
-    padding: 0;
-    text-transform: lowercase; }
+    padding: 0; }
 
 .list ul {
   margin: 0;
@@ -284,7 +282,7 @@ img {
       margin-top: 0; }
     .list ul li a {
       display: block; }
-    .list ul li h3 {
+    .list ul li h2 {
       margin-bottom: .1em; }
 
 .article h2 {
