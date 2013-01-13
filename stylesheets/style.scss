@@ -36,7 +36,7 @@ ol,
 hr,
 blockquote,
 p { 
-  margin-bottom: 1.2em; 
+  margin-bottom: 1.15em; 
 }
 h1,
 h2,
@@ -84,40 +84,40 @@ img {
   border-radius: 5px;
 }
 
-.dreger_bar {
-  display: none;
-  height: auto;
-  margin: 30px auto;
-  max-width: $body_width;
-  overflow: auto;
-  padding: 5px;
-  text-align: center;
-  width: 90%;
-  p {
-    font-weight: 100;
-    padding: 1.5em 0 0;
-    text-align: center;
-  }
-  .symbol {
-    a {    
-      background-image: url('../images/rainbow.jpg');
-      background-color: $accent;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%; 
-      border-radius: 50%; 
-      content: url('../images/shard_white.png');
-      display: block;
-      height: 100px;
-      margin: 0px auto;
-      width: 100px;
-      &:active {
-        top: 2px;
-        position: relative;
-      }
-    } 
-  }
-}
+// .dreger_bar {
+//   display: none;
+//   height: auto;
+//   margin: 30px auto;
+//   max-width: $body_width;
+//   overflow: auto;
+//   padding: 5px;
+//   text-align: center;
+//   width: 90%;
+//   p {
+//     font-weight: 100;
+//     padding: 1.5em 0 0;
+//     text-align: center;
+//   }
+//   .symbol {
+//     a {    
+//       background-image: url('../images/rainbow.jpg');
+//       background-color: $accent;
+//       background-position: center;
+//       background-repeat: no-repeat;
+//       background-size: 100%; 
+//       border-radius: 50%; 
+//       content: url('../images/shard_white.png');
+//       display: block;
+//       height: 100px;
+//       margin: 0px auto;
+//       width: 100px;
+//       &:active {
+//         top: 2px;
+//         position: relative;
+//       }
+//     } 
+//   }
+// }
 
 .wrapper
 {
@@ -145,6 +145,7 @@ img {
   p {
     margin: 0;
     padding: 0;
+    text-transform: lowercase;
   }
 }
 
