@@ -4,13 +4,15 @@ layout: post
 date: 2013-01-03
 ---
 
+**Update:** Added information about keeping our @mountunion.edu addresses for life. For those looking to set up your iOS / Android device *without* needing a passcode, jump down to the "IMAP and POP clients" section below. 
+
 This past week, my iPhone's email just stopped working. It wasn't long before many of my friends began complaining of similar problems. I knew that somewhere, a switch was flipped and the new Mount Union email system was finally set loose. 
 
 Students of Mount Union - our webmail has changed. Unfortunately, it's taken a turn for the worse. While the increase in storage is nice, it's overshadowed by a terrible, terrible, user experience.
 
-**The Good**: An upgrade in space from 30 MB to just under 25 GB, and better "reliability" and under-the-hood technology.
+**The Good**: An upgrade in space from 30 MB to just under 25 GB and lifelong @mountunion.edu access.
 
-**The Bad**: Being forced to sign in **twice** on webmail.mountunion.edu. Seriously. 
+**The Bad**: Being forced to sign in **twice** on webmail.mountunion.edu.  
 
 **The Ugly**: Broke existing mobile clients without telling us how to fix them, and the new webmail interface is a complete cluster. 
 
