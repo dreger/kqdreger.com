@@ -201,9 +201,9 @@ a {
   padding-bottom: 1px;
   text-decoration: none; }
   a .accent {
-    color: #00aced; }
+    color: #93c320; }
   a:hover {
-    color: #00aced; }
+    color: #93c320; }
 
 .article-date {
   color: #cccccc;
@@ -258,14 +258,14 @@ small {
   padding: 0; }
   .list ul li {
     list-style: none;
-    margin: 2em 0em;
+    margin: 1.5em 0em;
     padding: 0em; }
     .list ul li:first-child {
       margin-top: 0; }
     .list ul li a {
       display: block; }
     .list ul li h2 {
-      margin-bottom: .1em; }
+      margin-bottom: 0em; }
 
 .article h2 {
   margin-bottom: .5em; }

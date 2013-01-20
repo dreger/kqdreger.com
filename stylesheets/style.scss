@@ -5,7 +5,7 @@
 
 // Custom variables
 $accent: #1a1a1a;
-$accent_hover: #00aced;
+$accent_hover: #93c320;
 $dark_accent: darken($accent, 15%);
 $type_body: "proxima-nova-soft", sans-serif; 
 $type_header: "freight-sans-pro", sans-serif;
@@ -167,7 +167,7 @@ small {
     padding: 0; 
     li {
       list-style: none;
-      margin: 2em 0em;
+      margin: 1.5em 0em;
       padding: 0em;
       &:first-child {
         margin-top: 0;
@@ -176,7 +176,7 @@ small {
         display: block;
       }
       h2 {
-        margin-bottom: .1em;
+        margin-bottom: 0em;
       }
     }
   }
