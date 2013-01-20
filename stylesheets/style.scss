@@ -5,7 +5,7 @@
 
 // Custom variables
 $accent: #1a1a1a;
-$accent_hover: #00aced;
+$accent_hover: #C5E8E6;
 $dark_accent: darken($accent, 15%);
 $type_body: "proxima-nova-soft", sans-serif; 
 $type_header: "freight-sans-pro", sans-serif;
@@ -19,7 +19,7 @@ $highlight: lighten($accent, 35%);
 
 body { 
   -webkit-font-smoothing: antialiased;
-  background: #fff;
+  background: #fcfcfc;
   color: $text; 
   font-family: $type_body; 
   font-size: 16px;
@@ -59,6 +59,9 @@ a {
   color: #222;
   padding-bottom: 1px;
   text-decoration: none;
+  & .accent {
+    color: $accent_hover;
+  } 
   &:hover {
     color: $accent_hover;
   }
@@ -145,6 +148,7 @@ small {
   h1 {
     font-weight: 900;
     margin-bottom: .2em;
+    text-transform: uppercase;
     &:active {
       top: 1px;
       position: relative;
@@ -180,7 +184,7 @@ small {
 
 .article {
   h2 {
-    margin-bottom: .5em;
+    margin-bottom: .8em;
   }
   h3 {
     text-transform: uppercase;

@@ -153,7 +153,7 @@ strong {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: #fff;
+  background: #fcfcfc;
   color: #444444;
   font-family: "proxima-nova-soft", sans-serif;
   font-size: 16px;
@@ -200,8 +200,10 @@ a {
   color: #222;
   padding-bottom: 1px;
   text-decoration: none; }
+  a .accent {
+    color: #c5e8e6; }
   a:hover {
-    color: #00aced; }
+    color: #c5e8e6; }
 
 .article-date {
   color: #cccccc;
@@ -241,7 +243,8 @@ small {
   text-align: left; }
   .dregers h1 {
     font-weight: 900;
-    margin-bottom: .2em; }
+    margin-bottom: .2em;
+    text-transform: uppercase; }
     .dregers h1:active {
       top: 1px;
       position: relative; }
@@ -265,7 +268,7 @@ small {
       margin-bottom: .1em; }
 
 .article h2 {
-  margin-bottom: .5em; }
+  margin-bottom: .8em; }
 .article h3 {
   text-transform: uppercase; }
 .article .article-date {
