@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Colophon
----
+--- 
 ![me, I promise to get a better picture up eventually](https://dl.dropbox.com/u/418570/kyledreger/me.jpg)
 <small>this will eventually be a decent picture of my face</small>
 
-Welcome to the humble website of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. He's not very good at writing in the third person, so I'm going to stop before harm befalls any innocent pronouns. 
+### Welcome!
+
+Hello! And welcome to the humble website of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. He's not very good at writing in the third person, so I'm going to stop before harm befalls any innocent pronouns. 
 
 I started this site in the fall of 2010 when I began attending the [University of Mount Union](http://mountunion.edu). I do write quite a bit of about faith, design, Apple things, and coffee. I'm a Christian ([hence the title](http://bible.us/116/psa.1.3.nlt)) and I also have the most beautiful girlfriend in the world - no contest. 
 
