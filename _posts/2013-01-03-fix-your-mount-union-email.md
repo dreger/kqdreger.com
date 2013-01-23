@@ -123,7 +123,7 @@ Under "Incoming Mail Server", enter `pod51008.outlook.com` as the `Host Name`, a
 
 Your mail should now work. Remove the old Mount Union account, and feel free to turn OFF your Passcode lock.
 
-### Android Passcodeless email
+### Android Passcode-less email
 
 I haven't tested the Android set up, but [this tutorial from UCSanDiego](http://blink.ucsd.edu/technology/email/mobile/android-imap.html) has great pictures and instructions for setting up IMAP on Android. 
 
