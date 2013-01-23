@@ -51,7 +51,7 @@ h4 {
   }
 }
 h1 { font-size: 220%; }
-h2 { font-size: 150%; }
+h2 { font-size: 160%; }
 h3 { font-size: 120%; }
 
 a {
@@ -143,8 +143,8 @@ small {
 }
 
 .dregers {
-  margin-bottom: 3em;
-  text-align: right;
+  margin-bottom: 3.5em; 
+  text-align: center;
   h1 {
     font-weight: 900;
     margin-bottom: .2em;
@@ -196,9 +196,9 @@ small {
   h3 {
     text-transform: uppercase;
   }
-  p:first-child {
-    font-size: 1.1em;
-  }
+  // p:first-child {
+  //   font-size: 1.1em;
+  // }
   & .article-date {
     text-align: right;
     text-transform: none;

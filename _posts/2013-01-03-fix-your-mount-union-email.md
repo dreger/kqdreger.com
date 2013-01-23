@@ -4,7 +4,7 @@ layout: post
 date: 2013-01-03
 ---
 
-**Update:** Added information about keeping our @mountunion.edu addresses for life. For those looking to set up your iOS / Android device *without* needing a passcode, jump down to the "IMAP and POP clients" section below. 
+**UPDATE:** I simplified the instructions for those looking to set up your mobile email *without* the required passcode. More instructions under the "IMAP and POP clients" section. 
 
 This past week, my iPhone's email just stopped working. It wasn't long before many of my friends began complaining of similar problems. I knew that somewhere, a switch was flipped and the new Mount Union email system was finally set loose. 
 
@@ -113,9 +113,21 @@ I wasn't able to test these instructions, however in addition to the Sonic.net t
 
 If, for some reason, none of the sections above worked for you. You can try setting up your mail with IMAP, or POP, settings. These settings are basically another way of accessing your mail, but they won't give you access to the Exchange calendar, or contacts - odds are you don't need to worry much about this. 
 
-#### General IMAP and POP instructions 
+### General IMAP and POP instructions 
 
-Open your mobile / desktop email client and `Add` an account. Select something like `Manual setup` so you can enter the Reference instruction information from above. For specific instructions, I recommend that you head to Google. I've [already created a search for you](https://www.google.com/search?q=imap+setup+for+myclient), just replace "myclient" with the name of the application you are trying to set up. 
+Enter the Reference instruction information from above. For specific instructions, I recommend that you head to Google. I've [already created a search for you](https://www.google.com/search?q=imap+setup+for+myclient), just replace "myclient" with the name of the application you are trying to set up. 
+
+#### iOS Passcode-less email
+
+**NOTE:** Make sure you have your Wi-Fi turned OFF before doing the following steps. You can turn off Wi-Fi by going to Settings.app. 
+
+    Mail, Contacts, Calendars > Add Account...
+
+Select `Other` from the bottom of the list, then choose to `Add Mail Account`. Here, enter you `Name`, `Email` and `Password` - just choose something like "School" for the `Description`. 
+
+Under "Incoming Mail Server", enter `pod51008.outlook.com` as the `Host Name`, and enter your **full** @mountunion.edu email address under `User Name`. Do the exact same thing for "Outgoing Mail Server" as well. 
+
+Your mail should now work. Remove the old Mount Union account, and feel free to turn OFF your Passcode lock.
 
 ### Wrap-up
 
