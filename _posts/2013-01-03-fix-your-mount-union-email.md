@@ -107,17 +107,11 @@ Click `Add`, and then select `E-mail Account` as the type of account you wish to
 
 I wasn't able to test these instructions, however in addition to the Sonic.net tutorial, I also found the [official Microsoft instructions](http://windows.microsoft.com/en-US/windows-vista/Windows-Mail-setting-up-an-account-from-start-to-finish). 
 
-### IMAP and POP clients
-
-**NOTE:** Coming here from the iOS / Android sections, or just want Passcode-less email? All you have to do is instead of selecting `Microsoft Exchange` as the email service you wish to set up, choose `Other` on iOS, and `IMAP account` on Android. Use the Reference Instructions from above to help you complete your account. *I haven't tested the Android set up, but [this tutorial from UCSanDiego](http://blink.ucsd.edu/technology/email/mobile/android-imap.html) has great pictures and instructions.*
-
-If, for some reason, none of the sections above worked for you. You can try setting up your mail with IMAP, or POP, settings. These settings are basically another way of accessing your mail, but they won't give you access to the Exchange calendar, or contacts - odds are you don't need to worry much about this. 
-
-### General IMAP and POP instructions 
+### General IMAP and POP clients
 
 Enter the Reference instruction information from above. For specific instructions, I recommend that you head to Google. I've [already created a search for you](https://www.google.com/search?q=imap+setup+for+myclient), just replace "myclient" with the name of the application you are trying to set up. 
 
-#### iOS Passcode-less email
+### iOS Passcode-less email
 
 **NOTE:** Make sure you have your Wi-Fi turned OFF before doing the following steps. You can turn off Wi-Fi by going to Settings.app. 
 
@@ -128,6 +122,10 @@ Select `Other` from the bottom of the list, then choose to `Add Mail Account`. H
 Under "Incoming Mail Server", enter `pod51008.outlook.com` as the `Host Name`, and enter your **full** @mountunion.edu email address under `User Name`. Do the exact same thing for "Outgoing Mail Server" as well. 
 
 Your mail should now work. Remove the old Mount Union account, and feel free to turn OFF your Passcode lock.
+
+### Android Passcodeless email
+
+I haven't tested the Android set up, but [this tutorial from UCSanDiego](http://blink.ucsd.edu/technology/email/mobile/android-imap.html) has great pictures and instructions for setting up IMAP on Android. 
 
 ### Wrap-up
 
