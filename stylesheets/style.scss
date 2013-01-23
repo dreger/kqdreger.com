@@ -5,13 +5,13 @@
 
 // Custom variables
 $accent: #1a1a1a;
-$accent_hover: #93c320;
+$accent_hover: #ff0000;
 $dark_accent: darken($accent, 15%);
 $type_body: "proxima-nova-soft", sans-serif; 
 $type_header: "freight-sans-pro", sans-serif;
 
 // Sensible defaults
-$body_width: 500px; 
+$body_width: 550px; 
 $text: #444;
 $gray: #ccc; 
 $gray_code: #eee;
@@ -144,15 +144,21 @@ small {
 
 .dregers {
   margin-bottom: 3em;
-  text-align: left;
+  text-align: right;
   h1 {
     font-weight: 900;
     margin-bottom: .2em;
-    text-transform: uppercase;
-    &:active {
+    text-transform: lowercase;
+    a:active { 
       top: 1px;
       position: relative;
     }
+  }
+  h3 {
+    color: $text;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
   }
   p {
     margin: 0;
@@ -188,6 +194,9 @@ small {
   }
   h3 {
     text-transform: uppercase;
+  }
+  p:first-child {
+    font-size: 1.1em;
   }
   & .article-date {
     text-align: right;

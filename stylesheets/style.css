@@ -201,9 +201,9 @@ a {
   padding-bottom: 1px;
   text-decoration: none; }
   a .accent {
-    color: #93c320; }
+    color: red; }
   a:hover {
-    color: #93c320; }
+    color: red; }
 
 .article-date {
   color: #cccccc;
@@ -231,7 +231,7 @@ small {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 550px;
   width: 90%; }
 
 .content {
@@ -240,14 +240,19 @@ small {
 
 .dregers {
   margin-bottom: 3em;
-  text-align: left; }
+  text-align: right; }
   .dregers h1 {
     font-weight: 900;
     margin-bottom: .2em;
-    text-transform: uppercase; }
-    .dregers h1:active {
+    text-transform: lowercase; }
+    .dregers h1 a:active {
       top: 1px;
       position: relative; }
+  .dregers h3 {
+    color: #444444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em; }
   .dregers p {
     margin: 0;
     padding: 0;
@@ -271,6 +276,8 @@ small {
   margin-bottom: .5em; }
 .article h3 {
   text-transform: uppercase; }
+.article p:first-child {
+  font-size: 1.1em; }
 .article .article-date {
   text-align: right;
   text-transform: none; }
@@ -322,7 +329,7 @@ em {
 @media screen and (max-width: 700px) {
   .wrapper {
     margin-top: 0px;
-    max-width: 450px; }
+    max-width: 500px; }
 
   .content img {
     margin-left: 0;
