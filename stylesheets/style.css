@@ -219,7 +219,8 @@ hr {
 img {
   display: inline;
   margin-left: -100px;
-  width: 700px;
+  margin-top: .5em;
+  width: 750px;
   border-radius: 5px; }
 
 small {
@@ -325,14 +326,17 @@ em {
     Build a responsive web.
     Thanks @beep
 */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
   .wrapper {
     margin-top: 0px;
     max-width: 500px; }
 
   .content img {
-    margin-left: 0;
-    width: 100%; } }
+    margin-left: -25px;
+    width: 550px; } }
 @media screen and (max-width: 600px) {
   .content {
-    margin: 30px 0px 50px; } }
+    margin: 30px 0px 50px; }
+    .content img {
+      margin-left: 0;
+      width: 100%; } }
