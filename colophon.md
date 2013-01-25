@@ -2,7 +2,7 @@
 layout: default
 title: Colophon
 --- 
-![me, I promise to get a better picture up eventually](https://dl.dropbox.com/u/418570/kyledreger/me.jpg)
+![me, I promise to get a better picture up eventually](http://cargo.kyledreger.com.s3.amazonaws.com/me.jpg)
 <small>this will eventually be a decent picture of my face</small>
 
 Hello! And welcome to the humble website of Kyle Dreger. You can find his [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. He's not very good at writing in the third person, so I'm going to stop before harm befalls any innocent pronouns. 
