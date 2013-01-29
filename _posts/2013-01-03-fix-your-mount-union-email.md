@@ -111,7 +111,7 @@ I wasn't able to test these instructions, however in addition to the Sonic.net t
 
 Enter the Reference instruction information from above. For specific instructions, I recommend that you head to Google. I've [already created a search for you](https://www.google.com/search?q=imap+setup+for+myclient), just replace "myclient" with the name of the application you are trying to set up. 
 
-### iOS Passcode-less email
+#### iOS Passcode-less email
 
 **NOTE:** Make sure you have your Wi-Fi turned OFF before doing the following steps. You can turn off Wi-Fi by going to Settings.app. 
 
@@ -123,7 +123,7 @@ Under "Incoming Mail Server", enter `pod51008.outlook.com` as the `Host Name`, a
 
 Your mail should now work. Remove the old Mount Union account, and feel free to turn OFF your Passcode lock.
 
-### Android Passcode-less email
+#### Android Passcode-less email
 
 I haven't tested the Android set up, but [this tutorial from UCSanDiego](http://blink.ucsd.edu/technology/email/mobile/android-imap.html) has great pictures and instructions for setting up IMAP on Android. 
 

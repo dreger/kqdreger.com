@@ -156,7 +156,7 @@ body {
   background: #ffffff;
   color: #444444;
   font-family: "proxima-nova-soft", sans-serif;
-  font-size: 20px;
+  font-size: 28px;
   line-height: 1.533em;
   margin: 0;
   padding: 0; }
@@ -177,7 +177,7 @@ h2,
 h3,
 h4 {
   color: #222;
-  font-family: "freight-sans-pro", sans-serif;
+  font-family: refrigerator-deluxe, "freight-sans-pro", sans-serif;
   font-weight: bold;
   line-height: 1.1em; }
   h1 a,
@@ -187,13 +187,13 @@ h4 {
     border-bottom: none; }
 
 h1 {
-  font-size: 190%; }
+  font-size: 250%; }
 
 h2 {
-  font-size: 150%; }
+  font-size: 200%; }
 
 h3 {
-  font-size: 110%; }
+  font-size: 150%; }
 
 a {
   border-bottom: solid 1px #cccccc;
@@ -201,9 +201,9 @@ a {
   padding-bottom: 1px;
   text-decoration: none; }
   a .accent {
-    color: red; }
+    color: #00aced; }
   a:hover {
-    color: red; }
+    color: #00aced; }
 
 .article-date {
   color: #cccccc;
@@ -217,10 +217,10 @@ hr {
   width: 75%; }
 
 img {
-  display: inline;
-  margin-left: -75px;
+  display: block;
+  margin-left: -100px;
   margin-top: .5em;
-  width: 750px;
+  width: 900px;
   border-radius: 5px; }
 
 small {
@@ -232,55 +232,84 @@ small {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   width: 90%; }
 
 .content {
-  margin: 80px 0px;
+  margin: 50px 0;
   width: 100%; }
 
 .dregers {
   margin-bottom: 2.5em;
-  text-align: center; }
+  text-align: left;
+  clear: both;
+  height: 150px; }
   .dregers h1 {
     font-weight: 900;
-    margin-bottom: .2em;
+    margin: 0;
+    padding: 0;
     font-size: 3em;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    float: left; }
     .dregers h1 a:active {
       top: 1px;
       position: relative; }
   .dregers h3 {
-    color: #444444;
+    float: right;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1em; }
+    letter-spacing: 1px; }
+    .dregers h3 .hi {
+      color: #00aced; }
   .dregers p {
     margin: 0;
     padding: 0;
     text-transform: lowercase; }
 
-.list ul {
-  margin: 0;
-  padding: 0; }
-  .list ul li {
-    list-style: none;
-    margin: 1.5em 0em;
-    padding: 0em; }
-    .list ul li:first-child {
-      margin-top: 0; }
-    .list ul li a {
-      display: block; }
-    .list ul li h2 {
-      margin-bottom: 0em; }
+.list {
+  clear: both; }
+  .list ul {
+    margin: 0;
+    padding: 0; }
+    .list ul li {
+      list-style: none;
+      margin: 1.5em 0em;
+      padding: 0em; }
+      .list ul li:first-child {
+        margin-top: 0; }
+      .list ul li a {
+        display: block;
+        text-transform: uppercase; }
+      .list ul li h2 {
+        margin-bottom: 0em;
+        font-weight: 900; }
 
 .article h2 {
-  margin-bottom: .4em; }
+  font-weight: 100;
+  margin-bottom: .4em;
+  text-transform: uppercase; }
 .article h3 {
+  padding: 0;
+  margin: 3rem 0em;
   text-transform: uppercase; }
 .article .article-date {
   text-align: right;
   text-transform: none; }
+
+.boot {
+  background-color: #000;
+  padding: 100px 0px;
+  width: 100%;
+  color: #fff; }
+  .boot a {
+    color: #fff; }
+    .boot a:hover {
+      color: #00aced; }
+  .boot p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0; }
 
 blockquote {
   border-left: 10px solid #1a1a1a;
@@ -326,18 +355,22 @@ em {
     Build a responsive web.
     Thanks @beep
 */
-@media screen and (max-width: 780px) {
-  body {
-    font-size: 16px; }
+@media screen and (max-width: 910px) {
+  .dregers h1,
+  .dregers h3 {
+    float: none; }
 
   .wrapper {
     margin-top: 0px;
-    max-width: 550px; }
+    max-width: 600px; }
 
   .content img {
-    margin-left: -25px;
-    width: 600px; } }
-@media screen and (max-width: 610px) {
+    margin-left: -50;
+    max-width: 800px; } }
+@media screen and (max-width: 810px) {
+  .wrapper {
+    margin: 0 auto; }
+
   .content {
     margin: 30px 0px 50px; }
     .content img {

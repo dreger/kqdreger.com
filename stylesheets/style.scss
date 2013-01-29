@@ -5,13 +5,15 @@
 
 // Custom variables
 $accent: #1a1a1a;
-$accent_hover: #ff0000;
+$accent_hover: #00aced;
 $dark_accent: darken($accent, 15%);
 $type_body: "proxima-nova-soft", sans-serif; 
-$type_header: "freight-sans-pro", sans-serif;
+$type_header: refrigerator-deluxe, "freight-sans-pro", sans-serif;
 
 // Sensible defaults
-$body_width: 600px; 
+$body_width: 700px; 
+$img_width: $body_width+200;
+
 $text: #444;
 $gray: #ccc; 
 $gray_code: #eee;
@@ -22,7 +24,7 @@ body {
   background: #ffffff;
   color: $text; 
   font-family: $type_body; 
-  font-size: 20px;
+  font-size: 28px;
   line-height: 1.533em;   
   margin: 0; 
   padding: 0;
@@ -50,9 +52,9 @@ h4 {
     border-bottom: none;
   }
 }
-h1 { font-size: 190%; }
-h2 { font-size: 150%; }
-h3 { font-size: 110%; }
+h1 { font-size: 250%; }
+h2 { font-size: 200%; }
+h3 { font-size: 150%; }
 
 a {
   border-bottom: solid 1px $gray;
@@ -81,10 +83,10 @@ hr {
 }
 
 img { 
-  display: inline;
-  margin-left: -75px;
+  display: block;
+  margin-left: -100px;
   margin-top: .5em;
-  width: 750px;
+  width: $img_width;
   border-radius: 5px;
 }
 
@@ -139,28 +141,37 @@ small {
 }
 
 .content {
-  margin: 80px 0px;
+  margin: 50px 0;
   width: 100%;
 }
 
 .dregers {
   margin-bottom: 2.5em; 
-  text-align: center;
+  text-align: left;
+  clear: both;
+  height: 150px;
   h1 {
     font-weight: 900;
-    margin-bottom: .2em;
+    margin: 0;
+    padding: 0;
     font-size: 3em;
     text-transform: uppercase;
+    float: left;
     a:active { 
       top: 1px;
       position: relative;
     }
   }
   h3 {
-    color: $text;
+    float: right;
+    line-height: 2em;
+    margin: 0; 
+    padding: 0;
+    & .hi {
+      color: $accent_hover;
+    }
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 1em;
   }
   p {
     margin: 0;
@@ -170,6 +181,7 @@ small {
 }
 
 .list {
+  clear: both;
   ul {
     margin: 0;
     padding: 0; 
@@ -182,9 +194,11 @@ small {
       }
       a {
         display: block;
+        text-transform: uppercase;
       }
       h2 {
         margin-bottom: 0em;
+        font-weight: 900;
       }
     }
   }
@@ -192,17 +206,35 @@ small {
 
 .article {
   h2 {
+    font-weight: 100;
     margin-bottom: .4em;
-  }
-  h3 {
     text-transform: uppercase;
   }
-  // p:first-child {
-  //   font-size: 1.1em;
-  // }
+  h3 {
+    padding: 0;
+    margin: 3rem 0em;
+    text-transform: uppercase;
+  }
   & .article-date {
     text-align: right;
     text-transform: none;
+  }
+}
+
+.boot {
+  background-color: #000;
+  padding: 100px 0px;
+  width: 100%; 
+  color: #fff;
+  a {
+    color: #fff;
+    &:hover {
+      color: $accent_hover;
+    }
+  }
+  p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -255,23 +287,30 @@ em {
     Thanks @beep
 */
 
-@media screen and (max-width: 780px) {
-  body {
-    font-size: 16px;
+@media screen and (max-width: 910px) {
+  $body_width: $body_width - 50;
+  .dregers {
+    h1,
+    h3 {
+      float: none;
+    }
   }
   .wrapper {
     margin-top: 0px;
-    max-width: $body_width - 50px;
+    max-width: $body_width - 50;
   }
   .content {
     img {
-      margin-left: -25px;
-      width: 600px;
+      margin-left: -50;
+      max-width: $body_width+150;
     }
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 810px) {
+  .wrapper {
+    margin: 0 auto;
+  }
   .content {
     margin: 30px 0px 50px;
     img {
