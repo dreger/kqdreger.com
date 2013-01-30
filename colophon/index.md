@@ -11,7 +11,7 @@ I started this site in the fall of 2010 when I began attending the [University o
 
 If you'd like to comment on something I've written, or just want to say hello, shoot an email to <hi@kyledreger.com> or @ [dreger](http://twitter.com/dreger) on Twitter. 
 
-### Setup
+### SETUP
 
 [GitHub](http://github.com) and [Jekyll](https://github.com/mojombo/jekyll/) generate this site - keeping it lightweight, and static. The domain lives on [Hover](http://hover.com) (seriously, love them). You may occasionally see custom typefaces here, and those are served by the lovely [Typekit](http://typekit.com). 
 
