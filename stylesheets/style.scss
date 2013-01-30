@@ -308,6 +308,9 @@ em {
 }
 
 @media screen and (max-width: 810px) {
+  body {
+    font-size: 20px;
+  }
   .wrapper {
     margin: 0 auto;
   }

@@ -368,6 +368,9 @@ em {
     margin-left: -50;
     max-width: 800px; } }
 @media screen and (max-width: 810px) {
+  body {
+    font-size: 20px; }
+
   .wrapper {
     margin: 0 auto; }
 
