@@ -7,8 +7,8 @@
 $accent: #1a1a1a;
 $accent_hover: #00aced;
 $dark_accent: darken($accent, 15%);
-$type_body: "proxima-nova-soft", sans-serif; 
-$type_header: refrigerator-deluxe, "freight-sans-pro", sans-serif;
+$type_body: ff-meta-serif-web-pro, serif; 
+$type_header: refrigerator-deluxe, sans-serif;
 
 // Sensible defaults
 $body_width: 700px; 
@@ -25,7 +25,7 @@ body {
   color: $text; 
   font-family: $type_body; 
   font-size: 28px;
-  line-height: 1.533em;   
+  line-height: 1.6em;   
   margin: 0; 
   padding: 0;
 }    

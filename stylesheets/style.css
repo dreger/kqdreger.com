@@ -155,9 +155,9 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #ffffff;
   color: #444444;
-  font-family: "proxima-nova-soft", sans-serif;
+  font-family: ff-meta-serif-web-pro, serif;
   font-size: 28px;
-  line-height: 1.533em;
+  line-height: 1.6em;
   margin: 0;
   padding: 0; }
 
@@ -177,7 +177,7 @@ h2,
 h3,
 h4 {
   color: #222;
-  font-family: refrigerator-deluxe, "freight-sans-pro", sans-serif;
+  font-family: refrigerator-deluxe, sans-serif;
   font-weight: bold;
   line-height: 1.1em; }
   h1 a,
