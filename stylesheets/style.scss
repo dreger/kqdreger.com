@@ -57,6 +57,8 @@ h2 { font-size: 200%; }
 h3 { font-size: 150%; }
 
 a {
+  -webkit-transition: all .12s ease;
+  transition: all .12s ease;
   border-bottom: solid 1px $gray;
   color: #222;
   padding-bottom: 1px;
@@ -273,7 +275,7 @@ pre {
 code {
   background: $gray_code;
   border-radius: 50px;
-  padding: 1px 10px;
+  padding: 0px 10px;
 }
 strong {
   font-weight: bold;
@@ -289,6 +291,9 @@ em {
 
 @media screen and (max-width: 910px) {
   $body_width: $body_width - 50;
+  body {
+    font-size: 20px;
+  }
   .dregers {
     h1,
     h3 {
