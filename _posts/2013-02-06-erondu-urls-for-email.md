@@ -1,5 +1,5 @@
 --- 
-title: Smart Man Erondu - URLs for Email
+title: URLs for Email
 date: 2013-02-06
 layout: post
 ---
@@ -14,5 +14,5 @@ Online services treat Gmail's email+tag syntax as unique email addresses. That m
 
 Erondu's solution is more elegant. An online service could easily regex the core email address for log in, and then tag on the subfolder when emails had to be sent out. This way, regardless whether you're signing in to Facebook or Apple, your core email address will always get you in. It's simple, and users don't have to remember anything extra. 
 
-Kudos, Jared for coming up with a slick idea. It may hold more promise than you think. 
+Kudos, Jared for coming up with a slick idea - you're a smart man. It may hold more promise than you think. 
 
