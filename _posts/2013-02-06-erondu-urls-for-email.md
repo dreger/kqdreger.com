@@ -1,5 +1,5 @@
 --- 
-title: URLs for Email
+title: Smart Man Erondu: URLs for Email
 date: 2013-02-06
 layout: post
 ---
