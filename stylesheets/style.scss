@@ -11,7 +11,8 @@ $type_body: ff-meta-serif-web-pro, serif;
 $type_header: refrigerator-deluxe, sans-serif;
 
 // Sensible defaults
-$body_width: 700px; 
+// $body_width: 700px; 
+$body_width: 650px;
 $img_width: $body_width+200;
 
 $text: #444;
@@ -24,7 +25,8 @@ body {
   background: #ffffff;
   color: $text; 
   font-family: $type_body; 
-  font-size: 28px;
+  // font-size: 28px;
+  font-size: 22px;
   line-height: 1.6em;   
   margin: 0; 
   padding: 0;
@@ -290,7 +292,7 @@ em {
 */
 
 @media screen and (max-width: 910px) {
-  $body_width: $body_width - 50;
+  //$body_width: $body_width - 50;
   body {
     font-size: 20px;
   }
@@ -302,7 +304,7 @@ em {
   }
   .wrapper {
     margin-top: 0px;
-    max-width: $body_width - 50;
+    // max-width: $body_width - 50;
   }
   .content {
     img {

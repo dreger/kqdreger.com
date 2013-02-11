@@ -156,7 +156,7 @@ body {
   background: #ffffff;
   color: #444444;
   font-family: ff-meta-serif-web-pro, serif;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.6em;
   margin: 0;
   padding: 0; }
@@ -222,7 +222,7 @@ img {
   display: block;
   margin-left: -100px;
   margin-top: .5em;
-  width: 900px;
+  width: 850px;
   border-radius: 5px; }
 
 small {
@@ -234,7 +234,7 @@ small {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 650px;
   width: 90%; }
 
 .content {
@@ -366,8 +366,7 @@ em {
     float: none; }
 
   .wrapper {
-    margin-top: 0px;
-    max-width: 600px; }
+    margin-top: 0px; }
 
   .content img {
     margin-left: -50;
