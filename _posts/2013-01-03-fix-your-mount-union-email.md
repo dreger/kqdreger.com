@@ -1,5 +1,5 @@
 ---
-title: Fix your mountunion.edu email
+title: Fix your Mount Union .EDU email
 layout: post
 date: 2013-01-03
 ---

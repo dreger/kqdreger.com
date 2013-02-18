@@ -2,12 +2,36 @@
 <section class="wrapper">
 {% if page.title %}
 <p><em>{{page.title}}</em> by <a href="/colophon">Kyle Dreger</a><br>You should follow him on Twitter <a href="http://twitter.com/dreger">here</a>.</p>
-<p>Thanks for reading.</p>
+<script type="text/javascript">
+var d=new Date();
+var weekday=new Array(7); 
+weekday[0]="Sunday";
+weekday[1]="Monday";
+weekday[2]="Tuesday";
+weekday[3]="Wednesday";
+weekday[4]="Thursday";
+weekday[5]="Friday";
+weekday[6]="Saturday";
+var n = weekday[d.getDay()];
+document.write("<p>Happy "+n+", and thanks for reading.</p>")
+</script>
 {% endif %}
 
 {% unless page.title %}
 <p><a href="/colophon">Colophon</a> &middot; <a href="http://twitter.com/dreger">Twitter</a></p>
-<p>Thanks for reading.</p>
+<script type="text/javascript">
+var d=new Date();
+var weekday=new Array(7); 
+weekday[0]="Sunday";
+weekday[1]="Monday";
+weekday[2]="Tuesday";
+weekday[3]="Wednesday";
+weekday[4]="Thursday";
+weekday[5]="Friday";
+weekday[6]="Saturday";
+var n = weekday[d.getDay()];
+document.write("<p>Happy "+n+", and thanks for reading.</p>")
+</script>
 {% endunless %}
 </section>
 </section>
