@@ -23,7 +23,7 @@ body { -webkit-font-smoothing: antialiased; background-size: 80px; color: #30374
 
 h1, h2, h3, h4, ul, ol, hr, blockquote, p { margin-bottom: 1.15em; }
 
-h1, h2, h3, h4 { font-family: freight-sans-pro, sans-serif; font-weight: 900; line-height: 1.1em; }
+h1, h2, h3, h4 { font-family: freight-sans-pro, sans-serif; font-weight: bold; line-height: 1.1em; }
 h1 a, h2 a, h3 a, h4 a { color: #222; border-bottom: none; }
 
 h1 { font-size: 250%; }
