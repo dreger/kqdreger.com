@@ -155,18 +155,17 @@ small {
 .boot {
   background-color: $accent_hover;
   width: 100%;  
-  font-weight: 500;
   color: #fff;
   bottom: 0;
-  font-weight: 700;
   .sock {
-    padding: 3em 0em;
+    padding: 1.5em 0em;
     max-width: $body_width;
     margin: 0px 50px;
   }
   a {
     color: #fff;
-    border-bottom-color: #fff;
+    border-bottom-color: rgba(255,255,255,.3);
+    padding-bottom: 3px;
     &:hover {
       color: #fff;
     }

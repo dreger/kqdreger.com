@@ -63,9 +63,9 @@ small { font-size: .9em; font-style: italic; display: block; width: 100%; }
 .article .article-actions { margin: 0; font-weight: 100; margin-bottom: 1.5em; text-transform: lowercase; }
 .article .article-date { color: #bbbbbb; font-weight: 100; text-transform: none; text-align: right; }
 
-.boot { background-color: #71b3c7; width: 100%; font-weight: 500; color: #fff; bottom: 0; font-weight: 700; }
-.boot .sock { padding: 3em 0em; max-width: 600px; margin: 0px 50px; }
-.boot a { color: #fff; border-bottom-color: #fff; }
+.boot { background-color: #71b3c7; width: 100%; color: #fff; bottom: 0; }
+.boot .sock { padding: 1.5em 0em; max-width: 600px; margin: 0px 50px; }
+.boot a { color: #fff; border-bottom-color: rgba(255, 255, 255, 0.3); padding-bottom: 3px; }
 .boot a:hover { color: #fff; }
 .boot p:last-child { margin-bottom: 0; padding-bottom: 0; }
 

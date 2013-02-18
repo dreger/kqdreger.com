@@ -2,8 +2,6 @@
 layout: default
 title: Colophon
 --- 
-[Back to the archive](/)
-
 ![me, I promise to get a better picture up eventually](http://cargo.kyledreger.com.s3.amazonaws.com/me-and-nathan.jpg)
 <small>my brother (right) and I (left)</small>
 
