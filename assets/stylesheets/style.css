@@ -63,62 +63,56 @@ strong { font-style: bold; }
 .highlight .vc, .highlight .vg, .highlight .vi { color: #008080; }
 .highlight .il { color: #009999; }
 
-body { -webkit-font-smoothing: antialiased; background-size: 80px; color: #404956; font-family: freight-sans-pro, sans-serif; font-size: 18px; line-height: 1.6em; margin: 0; padding: 0; }
+body { -webkit-font-smoothing: antialiased; background-size: 80px; color: #303742; font-family: freight-sans-pro, sans-serif; font-size: 18px; line-height: 1.6em; margin: 0; padding: 0; }
 
 h1, h2, h3, h4, ul, ol, hr, blockquote, p { margin-bottom: 1.15em; }
 
-h1, h2, h3, h4 { color: #222; font-family: freight-sans-pro, sans-serif; font-weight: 900; line-height: 1.1em; }
-h1 a, h2 a, h3 a, h4 a { border-bottom: none; }
+h1, h2, h3, h4 { font-family: freight-sans-pro, sans-serif; font-weight: 900; line-height: 1.1em; }
+h1 a, h2 a, h3 a, h4 a { color: #222; border-bottom: none; }
 
 h1 { font-size: 250%; }
 
 h2 { font-size: 200%; }
 
-h3 { font-size: 150%; }
+h3 { font-size: 150%; margin: 1.2em 0; }
 
 a { -webkit-transition: all 0.12s ease; transition: all 0.12s ease; border-bottom: solid 1px #cccccc; color: #222; padding-bottom: 1px; text-decoration: none; }
 a .accent { color: #00aced; }
 a:hover { color: #00aced; }
 
-.back-to-root { color: #cccccc; }
-
-.article-meta { color: #cccccc; font-weight: 100; }
+.subtle { color: #cccccc; }
 
 hr { border: none; border: solid 3px #cccccc; border-radius: 10px; margin: 2.5em auto; width: 75%; }
 
-img { display: block; margin-top: .5em; width: 850px; border-radius: 5px; }
+img { display: block; margin-top: .5em; width: 800px; border-radius: 5px; }
 
-small { font-size: .9em; font-style: italic; text-align: center; display: block; width: 100%; }
+small { font-size: .9em; font-style: italic; display: block; width: 100%; }
 
-.wrapper { margin: 50px; max-width: 650px; width: 90%; }
+.wrapper { margin: 50px; max-width: 600px; width: 90%; padding: 0; }
 
-.content { margin: 50px 0; width: 100%; }
-
-.dregers { margin-bottom: 2.5em; text-align: left; clear: both; height: 150px; }
-.dregers h1 { font-weight: 900; margin: 0; padding: 0; font-size: 3em; text-transform: uppercase; float: left; }
-.dregers h1 a:active { top: 1px; position: relative; }
-.dregers h3 { float: right; line-height: 2em; margin: 0; padding: 0; text-transform: uppercase; letter-spacing: 1px; }
-.dregers h3 .hi { color: #00aced; }
-.dregers p { margin: 0; padding: 0; text-transform: lowercase; }
+.content { margin: 0; padding: 0; width: 100%; }
 
 .list { clear: both; }
 .list ul { margin: 0; padding: 0; }
-.list ul li { list-style: none; margin: 1.5em 0em; padding: 0em; }
+.list ul li { list-style: none; margin: 2.5em 0em; padding: 0em; }
 .list ul li:first-child { margin-top: 0; }
 .list ul li a { display: block; text-transform: uppercase; }
 .list ul li h2 { margin-bottom: 0em; font-weight: 100; }
+.list ul li h3 { margin: 0; }
+
+.article-meta { color: #cccccc; font-weight: 100; }
 
 .article h2 { font-weight: 100; margin-bottom: 0em; text-transform: uppercase; }
 .article h3 { padding: 0; margin: 1.2em 0em; text-transform: uppercase; }
-.article .article-meta { margin: 0; font-weight: 100; margin-bottom: 1.5em; text-transform: lowercase; }
+.article .article-actions { margin: 0; font-weight: 100; margin-bottom: 1.5em; text-transform: lowercase; }
 .article .article-date { color: #cccccc; font-weight: 100; text-transform: none; text-align: right; }
 
-.boot { background-color: #404956; padding: 50px 0px; width: 100%; color: #fff; }
-.boot a { color: #fff; }
-.boot a:hover { color: #00aced; }
+.boot { background-color: #303742; padding: 1.5em 0em; width: 100%; color: #eee; }
+.boot a { color: #fff; border-bottom-color: #5b687d; }
+.boot a:hover { color: #fff; }
 .boot p:last-child { margin-bottom: 0; padding-bottom: 0; }
 
-blockquote { border-left: 10px solid #404956; padding: 10px 0px 10px 20px; }
+blockquote { border-left: 10px solid #303742; padding: 10px 0px 10px 20px; }
 blockquote p { padding: 0; margin: 0; }
 
 ul { list-style: disc; }
@@ -135,12 +129,7 @@ em { font-style: italic; }
 
 /* Build a responsive web. Thanks @beep
 */
-@media screen and (max-width: 910px) { body { font-size: 20px; }
-  .dregers h1, .dregers h3 { float: none; }
-  .wrapper { margin-top: 0px; }
-  .content img { max-width: 800px; } }
-@media screen and (max-width: 810px) { body { font-size: 18px; }
-  .dregers { margin-bottom: 1.25em; }
+@media screen and (max-width: 920px) { body { font-size: 18px; }
   .wrapper { margin: 0 auto; }
   .content { margin: 30px 0px 50px; }
   .content img { margin-left: 0; width: 100%; } }

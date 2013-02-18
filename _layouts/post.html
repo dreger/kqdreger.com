@@ -4,12 +4,10 @@
 <body>
 <section class="wrapper">
 <section class="content">
-{% include dregers.html %}
-
 <!-- article ala boom -->
 <section class="article">
 <h2 id="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<h3 class="article-meta"><a class="back-to-root" href="/">home</a> &middot; <a class="back-to-root" href="javascript:function iprl5(){var d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Saving...) '+d.title;z.setAttribute('src',l.protocol+'//www.instapaper.com/j/22yvN61yHUDt?u='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));b.appendChild(z);}catch(e){alert('Please wait until the page has loaded.');}}iprl5();void(0)">read later</a></h3> 
+<h3 class="article-actions"><a class="subtle" href="/">home</a> &middot; <a class="subtle" href="javascript:function iprl5(){var d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Saving...) '+d.title;z.setAttribute('src',l.protocol+'//www.instapaper.com/j/22yvN61yHUDt?u='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));b.appendChild(z);}catch(e){alert('Please wait until the page has loaded.');}}iprl5();void(0)">read later</a></h3> 
 <section class="article-content">
 {{ content }}
 </section>

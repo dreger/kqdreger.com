@@ -4,26 +4,22 @@
 @import "css3/_syntax";  
 
 // Custom variables
-$accent: #404956;
+$accent: #303742;
 $accent_hover: #00aced;
 $dark_accent: darken($accent, 15%);
 $type_body: freight-sans-pro, sans-serif;  
 $type_header: freight-sans-pro, sans-serif;
 // Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
-// Sensible defaults
-// $body_width: 700px; 
-$body_width: 650px;
+$body_width: 600px;
 $img_width: $body_width+200;  
-
-$text: #404956;
+$text: #303742;
 $gray: #ccc; 
 $gray_code: #eee;
 $highlight: lighten($accent, 35%);
 
 body { 
   -webkit-font-smoothing: antialiased;
-  //background: url('../images/rise.png') top left no-repeat;
   background-size: 80px;
   color: $text; 
   font-family: $type_body; 
@@ -32,32 +28,21 @@ body {
   margin: 0; 
   padding: 0;
 }    
-h1,
-h2, 
-h3,
-h4,
-ul,
-ol,
-hr,
-blockquote,
-p { 
+h1, h2, h3, h4, ul, ol, hr, blockquote, p { 
   margin-bottom: 1.15em; 
 }
-h1,
-h2,
-h3, 
-h4 {
-  color: #222;
+h1, h2, h3, h4 {
   font-family: $type_header;
   font-weight: 900;
   line-height: 1.1em;
   a {
+    color: #222;
     border-bottom: none;
   }
 }
 h1 { font-size: 250%; }
 h2 { font-size: 200%; }
-h3 { font-size: 150%; }
+h3 { font-size: 150%; margin: 1.2em 0;}
 
 a {
   -webkit-transition: all .12s ease;
@@ -72,14 +57,10 @@ a {
   &:hover {
     color: $accent_hover;
   }
-}
-.back-to-root {
-  color: $gray;
-}
 
-.article-meta {
-  color: $gray;
-  font-weight: 100;
+}
+.subtle {
+    color: $gray;
 }
 
 hr {
@@ -92,7 +73,6 @@ hr {
 
 img { 
   display: block;
-  // margin-left: -100px;
   margin-top: .5em;
   width: $img_width;
   border-radius: 5px;
@@ -101,7 +81,6 @@ img {
 small {
   font-size: .9em;
   font-style: italic;
-  text-align: center;
   display: block; 
   width: 100%;
 }
@@ -110,46 +89,12 @@ small {
   margin: 50px;
   max-width: $body_width;
   width: 90%;
+  padding: 0;
 }
-
 .content {
-  margin: 50px 0;
+  margin: 0;
+  padding: 0;
   width: 100%;
-}
-
-.dregers {
-  margin-bottom: 2.5em; 
-  text-align: left;
-  clear: both;
-  height: 150px;
-  h1 {
-    font-weight: 900;
-    margin: 0;
-    padding: 0;
-    font-size: 3em;
-    text-transform: uppercase;
-    float: left;
-    a:active { 
-      top: 1px;
-      position: relative;
-    }
-  }
-  h3 {
-    float: right;
-    line-height: 2em;
-    margin: 0; 
-    padding: 0;
-    & .hi {
-      color: $accent_hover;
-    }
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  p {
-    margin: 0;
-    padding: 0;
-    text-transform: lowercase;
-  }
 }
 
 .list {
@@ -159,7 +104,7 @@ small {
     padding: 0; 
     li {
       list-style: none;
-      margin: 1.5em 0em;
+      margin: 2.5em 0em;
       padding: 0em;
       &:first-child {
         margin-top: 0;
@@ -172,10 +117,17 @@ small {
         margin-bottom: 0em;
         font-weight: 100;
       }
+      h3 {
+        margin: 0;
+      }
     }
   }
 }
 
+.article-meta {
+  color: $gray;
+  font-weight: 100;
+}
 .article {
   h2 {
     font-weight: 100;
@@ -187,7 +139,7 @@ small {
     margin: 1.2em 0em;
     text-transform: uppercase;
   }
-  & .article-meta {
+  & .article-actions {
     margin: 0;
     font-weight: 100;
     margin-bottom: 1.5em;
@@ -203,13 +155,14 @@ small {
 
 .boot {
   background-color: $text;
-  padding: 50px 0px;
+  padding: 1.5em 0em;
   width: 100%; 
-  color: #fff;
+  color: #eee;
   a {
     color: #fff;
+    border-bottom-color: lighten($text, 20%);
     &:hover {
-      color: $accent_hover;
+      color: #fff;
     }
   }
   p:last-child {
@@ -268,37 +221,10 @@ em {
     Thanks @beep
 */
 
-@media screen and (max-width: 910px) {
-  //$body_width: $body_width - 50;
-  body {
-    font-size: 20px;
-  }
-  .dregers {
-    h1,
-    h3 {
-      float: none;
-    }
-  }
-  .wrapper {
-    margin-top: 0px;
-    // max-width: $body_width - 50;
-  }
-  .content {
-    img {
-      // margin-left: -50;
-
-      max-width: $body_width+150;
-    }
-  }
-}
-
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 920px) {
   body {
     font-size: 18px;
   }
-  .dregers {
-    margin-bottom: 1.25em;
-  } 
   .wrapper {
     margin: 0 auto;
   }
