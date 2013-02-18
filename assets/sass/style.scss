@@ -1,11 +1,10 @@
 @import "css3/_transition";  
 @import "css3/_prefixer";  
 @import "css3/_reset";  
-@import "css3/_syntax";  
 
 // Custom variables
 $accent: #303742;
-$accent_hover: #00aced;
+$accent_hover: #71b3c7;
 $dark_accent: darken($accent, 15%);
 $type_body: freight-sans-pro, sans-serif;  
 $type_header: freight-sans-pro, sans-serif;
@@ -14,7 +13,7 @@ $type_header: freight-sans-pro, sans-serif;
 $body_width: 600px;
 $img_width: $body_width+200;  
 $text: #303742;
-$gray: #ccc; 
+$gray: #bbb; 
 $gray_code: #eee;
 $highlight: lighten($accent, 35%);
 
@@ -154,13 +153,20 @@ small {
 }
 
 .boot {
-  background-color: $text;
-  padding: 1.5em 0em;
-  width: 100%; 
-  color: #eee;
+  background-color: $accent_hover;
+  width: 100%;  
+  font-weight: 500;
+  color: #fff;
+  bottom: 0;
+  font-weight: 700;
+  .sock {
+    padding: 3em 0em;
+    max-width: $body_width;
+    margin: 0px 50px;
+  }
   a {
     color: #fff;
-    border-bottom-color: lighten($text, 20%);
+    border-bottom-color: #fff;
     &:hover {
       color: #fff;
     }
@@ -226,6 +232,9 @@ em {
     font-size: 18px;
   }
   .wrapper {
+    margin: 0 auto;
+  }
+  .sock {
     margin: 0 auto;
   }
   .content {
