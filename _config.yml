@@ -1,5 +1,5 @@
 # standard jekyll configuration
-permalink: /posts/:title/
+permalink: /:year/:month/:title/
 pygments: true
 auto: true
 markdown: rdiscount
