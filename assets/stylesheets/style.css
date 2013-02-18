@@ -75,10 +75,10 @@ blockquote p { padding: 0; margin: 0; }
 ul { list-style: disc; }
 ul li { margin: 8px 0px; }
 
-pre { background: #eeeeee; border-radius: 5px; border: 1px solid #bbbbbb; font-family: monospace; font-weight: bold; font-size: .9em; margin: 15px 0px; max-width: 100%; padding: 15px 25px; overflow: auto; }
+pre { background: #f4f4f4; border-radius: 5px; border: 1px solid #bbbbbb; font-family: monospace; font-weight: bold; font-size: .9em; margin: 15px 0px; max-width: 100%; padding: 15px 25px; overflow: auto; }
 pre code { background: none; padding: 0; }
 
-code { background: #eeeeee; border-radius: 50px; padding: 1px 10px; }
+code { background: #f4f4f4; border-radius: 50px; padding: 1px 10px; }
 
 strong { font-weight: bold; }
 
