@@ -108,7 +108,7 @@ small { font-size: .9em; font-style: italic; text-align: center; display: block;
 .list ul li a { display: block; text-transform: uppercase; }
 .list ul li h2 { margin-bottom: 0em; font-weight: 100; }
 
-.article h2 { font-weight: 100; margin-bottom: .1em; text-transform: uppercase; }
+.article h2 { font-weight: 100; margin-bottom: 0em; text-transform: uppercase; }
 .article h3 { padding: 0; margin: 1.2em 0em; text-transform: uppercase; }
 .article .article-meta { margin: 0; font-weight: 100; margin-bottom: 1.5em; text-transform: lowercase; }
 .article .article-date { color: #cccccc; font-weight: 100; text-transform: none; text-align: right; }
