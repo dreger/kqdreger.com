@@ -9,6 +9,7 @@ $accent_hover: #00aced;
 $dark_accent: darken($accent, 15%);
 $type_body: freight-sans-pro, sans-serif;  
 $type_header: freight-sans-pro, sans-serif;
+// Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
 // Sensible defaults
 // $body_width: 700px; 
@@ -25,7 +26,6 @@ body {
   background: #ffffff;
   color: $text; 
   font-family: $type_body; 
-  // font-size: 28px;
   font-size: 22px;
   line-height: 1.6em;   
   margin: 0; 
