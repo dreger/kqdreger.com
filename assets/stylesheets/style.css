@@ -44,7 +44,7 @@ img { display: block; margin-top: .5em; width: 635px; border-radius: 5px; }
 
 small { font-size: .9em; font-style: italic; display: block; width: 100%; }
 
-.wrapper { margin: 50px; max-width: 435px; width: 90%; padding: 0; }
+.wrapper { margin: 50px; margin-top: 45px; max-width: 435px; width: 90%; padding: 0; }
 
 .content { margin: 0; padding: 0; width: 100%; }
 
