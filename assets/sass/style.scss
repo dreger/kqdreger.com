@@ -10,7 +10,7 @@ $type_body: freight-sans-pro, sans-serif;
 $type_header: freight-sans-pro, sans-serif;
 // Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
-$body_width: 650px;
+$body_width: 435px;
 $img_width: $body_width+200;  
 $text: #303742;
 $gray: #bbb; 
@@ -22,7 +22,7 @@ body {
   background-size: 80px;
   color: $text; 
   font-family: $type_body; 
-  font-size: 25px; 
+  font-size: 16px; 
   line-height: 1.6em;   
   margin: 0; 
   padding: 0;
@@ -226,9 +226,9 @@ em {
     Thanks @beep
 */
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 750px) {
   body {
-    font-size: 18px;
+    //font-size: 18px;
   }
   .wrapper {
     margin: 0 auto;
