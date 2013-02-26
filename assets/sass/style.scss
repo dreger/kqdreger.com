@@ -13,7 +13,7 @@ $type_header: freight-sans-pro, sans-serif;
 $body_width: 435px;
 $img_width: $body_width+200;  
 $text: #303742;
-$gray: #bbb; 
+$gray: #888888; 
 $gray_code: #f4f4f4;
 $highlight: lighten($accent, 35%);
 
@@ -127,6 +127,7 @@ small {
 .article-meta {
   color: $gray;
   font-weight: 100;
+  text-transform: lowercase;
 }
 .article {
   h2 {
