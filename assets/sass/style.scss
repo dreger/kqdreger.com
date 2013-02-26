@@ -13,8 +13,8 @@ $type_header: freight-sans-pro, sans-serif;
 $body_width: 435px;
 $img_width: $body_width+200;  
 $text: #303742;
-$gray: #888888; 
-$gray_code: #f4f4f4;
+$gray: #555; 
+$gray_code: #eee;
 $highlight: lighten($accent, 35%);
 
 body { 
@@ -22,7 +22,7 @@ body {
   background-size: 80px;
   color: $text; 
   font-family: $type_body; 
-  font-size: 16px; 
+  font-size: 17px; 
   line-height: 1.6em;   
   margin: 0; 
   padding: 0;
@@ -46,7 +46,7 @@ h3 { font-size: 150%; margin: 1.2em 0;}
 a {
   -webkit-transition: all .12s ease;
   transition: all .12s ease;
-  border-bottom: solid 1px $gray;
+  border-bottom: solid 1px $gray_code;
   color: #222;
   padding-bottom: 1px;
   text-decoration: none;

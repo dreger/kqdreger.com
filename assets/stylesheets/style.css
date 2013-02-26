@@ -19,7 +19,7 @@ em { font-style: italic; }
 
 strong { font-style: bold; }
 
-body { -webkit-font-smoothing: antialiased; background-size: 80px; color: #303742; font-family: freight-sans-pro, sans-serif; font-size: 16px; line-height: 1.6em; margin: 0; padding: 0; }
+body { -webkit-font-smoothing: antialiased; background-size: 80px; color: #303742; font-family: freight-sans-pro, sans-serif; font-size: 17px; line-height: 1.6em; margin: 0; padding: 0; }
 
 h1, h2, h3, h4, ul, ol, hr, blockquote, p { margin-bottom: 1.15em; }
 
@@ -32,13 +32,13 @@ h2 { font-size: 200%; }
 
 h3 { font-size: 150%; margin: 1.2em 0; }
 
-a { -webkit-transition: all 0.12s ease; transition: all 0.12s ease; border-bottom: solid 1px #888888; color: #222; padding-bottom: 1px; text-decoration: none; }
+a { -webkit-transition: all 0.12s ease; transition: all 0.12s ease; border-bottom: solid 1px #eeeeee; color: #222; padding-bottom: 1px; text-decoration: none; }
 a .accent { color: #71b3c7; }
 a:hover { color: #71b3c7; }
 
-.subtle { color: #888888; }
+.subtle { color: #555555; }
 
-hr { border: none; border: solid 3px #888888; border-radius: 10px; margin: 2.5em auto; width: 75%; }
+hr { border: none; border: solid 3px #555555; border-radius: 10px; margin: 2.5em auto; width: 75%; }
 
 img { display: block; margin-top: .5em; width: 635px; border-radius: 5px; }
 
@@ -56,12 +56,12 @@ small { font-size: .9em; font-style: italic; display: block; width: 100%; }
 .list ul li h2 { margin-bottom: 0em; font-weight: 100; }
 .list ul li h3 { margin: 0; }
 
-.article-meta { color: #888888; font-weight: 100; text-transform: lowercase; }
+.article-meta { color: #555555; font-weight: 100; text-transform: lowercase; }
 
 .article h2 { font-weight: 100; margin-bottom: 0em; text-transform: uppercase; }
 .article h3 { padding: 0; margin: 1.2em 0em; text-transform: uppercase; }
 .article .article-actions { margin: 0; font-weight: 100; margin-bottom: 1.5em; text-transform: lowercase; }
-.article .article-date { color: #888888; font-weight: 100; text-transform: none; text-align: right; }
+.article .article-date { color: #555555; font-weight: 100; text-transform: none; text-align: right; }
 
 .boot { background-color: #71b3c7; width: 100%; color: #fff; bottom: 0; }
 .boot .sock { padding: 1.5em 0em; max-width: 435px; margin: 0px 50px; }
@@ -75,10 +75,10 @@ blockquote p { padding: 0; margin: 0; }
 ul { list-style: disc; }
 ul li { margin: 8px 0px; }
 
-pre { background: #f4f4f4; border-radius: 5px; border: 1px solid #888888; font-family: monospace; font-weight: bold; font-size: .9em; margin: 15px 0px; max-width: 100%; padding: 15px 25px; overflow: auto; }
+pre { background: #eeeeee; border-radius: 5px; border: 1px solid #555555; font-family: monospace; font-weight: bold; font-size: .9em; margin: 15px 0px; max-width: 100%; padding: 15px 25px; overflow: auto; }
 pre code { background: none; padding: 0; }
 
-code { background: #f4f4f4; border-radius: 50px; padding: 1px 10px; }
+code { background: #eeeeee; border-radius: 50px; padding: 1px 10px; }
 
 strong { font-weight: bold; }
 
