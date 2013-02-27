@@ -13,7 +13,7 @@ If you'd like to comment on something I've written, or just want to say hello, s
 
 ### SETUP
 
-[GitHub](http://github.com) and [Jekyll](https://github.com/mojombo/jekyll/) generate this site - keeping it lightweight, and static. The domain lives on [Hover](http://hover.com) (seriously, love them). You may occasionally see custom typefaces here, and those are served by [Typekit](http://typekit.com). 
+[GitHub](http://github.com) and [Jekyll](https://github.com/mojombo/jekyll) generate this site - keeping it lightweight, and static. The domain lives on [Hover](http://hover.com) (seriously, love them). You may occasionally see custom typefaces here, and those are served by [Typekit](http://typekit.com). 
 
 Writing is done via [iA Writer](http://www.iawriter.com/) in [Markdown](http://daringfireball.net/projects/markdown) formatting. The writing takes place on either a 13' Macbook Pro, or an iPhone 4.
 
