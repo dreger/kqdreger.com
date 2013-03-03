@@ -4,17 +4,17 @@
 
 // Custom variables
 $accent: #303742;
-$accent_hover: #71b3c7;
+$accent_hover: #ff5f4a;
 $dark_accent: darken($accent, 15%);
-$type_body: freight-sans-pro, sans-serif;  
-$type_header: freight-sans-pro, sans-serif;
+$type_body: museo-sans-rounded, sans-serif;  
+$type_header: refrigerator-deluxe, sans-serif;
 // Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
-$body_width: 435px;
+$body_width: 550px;
 $img_width: $body_width+200;  
 $text: #303742;
 $gray: #555; 
-$gray_code: #eee;
+$gray_code: #ddd;
 $highlight: lighten($accent, 35%);
 
 body { 
@@ -22,8 +22,8 @@ body {
   background-size: 80px;
   color: $text; 
   font-family: $type_body; 
-  font-size: 17px; 
-  line-height: 1.6em;   
+  font-size: 18px; 
+  line-height: 1.63em;   
   margin: 0; 
   padding: 0;
 }    
@@ -32,16 +32,16 @@ h1, h2, h3, h4, ul, ol, hr, blockquote, p {
 }
 h1, h2, h3, h4 {
   font-family: $type_header;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.1em;
   a {
     color: #222;
     border-bottom: none;
   }
 }
-h1 { font-size: 250%; }
-h2 { font-size: 200%; }
-h3 { font-size: 150%; margin: 1.2em 0;}
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; margin: 1.2em 0;}
 
 a {
   -webkit-transition: all .12s ease;
@@ -59,7 +59,7 @@ a {
 
 }
 .subtle {
-    color: $gray;
+    // color: $gray;
 }
 
 hr {
@@ -73,6 +73,7 @@ hr {
 img { 
   display: block;
   margin-top: .5em;
+  margin-left: -100px;
   width: $img_width;
   border-radius: 5px;
 }
@@ -80,19 +81,20 @@ img {
 small {
   font-size: .9em;
   font-style: italic;
+  text-align: center; 
   display: block; 
   width: 100%;
 }
-.wrapper
+.wrapper 
 {
-  margin: 50px;
+  margin: 50px auto;
   margin-top: 45px;
   max-width: $body_width;
   width: 90%;
   padding: 0;
 }
 .content {
-  margin: 0;
+  margin: 100px 0px;
   padding: 0;
   width: 100%;
 }
@@ -115,7 +117,6 @@ small {
       }
       h2 {
         margin-bottom: 0em;
-        font-weight: 100;
       }
       h3 {
         margin: 0;
@@ -125,13 +126,11 @@ small {
 }
 
 .article-meta {
-  color: $gray;
-  font-weight: 100;
+  // color: $gray;
   text-transform: lowercase;
 }
 .article {
   h2 {
-    font-weight: 100;
     margin-bottom: 0em;
     text-transform: uppercase;
   }
@@ -140,17 +139,21 @@ small {
     margin: 1.2em 0em;
     text-transform: uppercase;
   }
+  h4 {
+    text-transform: uppercase;
+  }
   & .article-actions {
     margin: 0;
-    font-weight: 100;
+    // font-weight: 100;
     margin-bottom: 1.5em;
     text-transform: lowercase;
   }
   & .article-date {
     color: $gray;
-    font-weight: 100;
-    text-transform: none;
-    text-align: right;
+    // font-weight: 100;
+    text-transform: lowercase;
+    text-align: center;
+    margin: 50px;
   }
 }
 
@@ -158,7 +161,6 @@ small {
   background-color: $accent_hover;
   width: 100%;  
   color: #fff;
-  bottom: 0;
   .sock {
     padding: 1.5em 0em;
     max-width: $body_width;
@@ -193,9 +195,9 @@ ul {
   }
 }
 pre {
-  background: $gray_code;
+  background: lighten($gray_code, 5%);
   border-radius: 5px;
-  border: 1px solid $gray;
+  border: 1px solid $gray_code;
   font-family: monospace;
   font-weight: bold;
   font-size: .9em;
@@ -228,7 +230,7 @@ em {
     Thanks @beep
 */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
   body {
     //font-size: 18px;
   }

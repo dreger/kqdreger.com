@@ -2,19 +2,20 @@
 <html lang="en">
 {% include head.html %}
 <body>
+{% include dreger_bar.html %}
+
 <section class="wrapper">
 <section class="content">
 <!-- article ala boom -->
 <section class="article">
 <h2 id="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<h3 class="article-actions"><a class="subtle" href="/">home</a> &middot; <a class="subtle" href="javascript:function iprl5(){var d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Saving...) '+d.title;z.setAttribute('src',l.protocol+'//www.instapaper.com/j/22yvN61yHUDt?u='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));b.appendChild(z);}catch(e){alert('Please wait until the page has loaded.');}}iprl5();void(0)">read later</a></h3>
+<p class="article-actions"><a class="subtle" href="/">home</a> &middot; <a class="subtle" href="javascript:function iprl5(){var d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Saving...) '+d.title;z.setAttribute('src',l.protocol+'//www.instapaper.com/j/22yvN61yHUDt?u='+encodeURIComponent(l.href)+'&t='+(new Date().getTime()));b.appendChild(z);}catch(e){alert('Please wait until the page has loaded.');}}iprl5();void(0)">read later</a></p>
 <section class="article-content">
 {{ content }}
 </section>
-<h3 class="article-date">Posted {{ page.date | date: "%B %d, %Y" }}</h3>
+<p class="article-date">&middot; {{ page.date | date: "%d %B %Y" }} &middot;</p>
 </section><!-- end article -->
 </section><!-- end content -->
 </section><!-- end wrapper -->
-{% include boot.html %}
 </body>
 </html>
