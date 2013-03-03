@@ -10,10 +10,10 @@ $type_body: museo-sans-rounded, sans-serif;
 $type_header: refrigerator-deluxe, sans-serif;
 // Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
-$body_width: 550px;
+$body_width: 650px;
 $img_width: $body_width+200;  
 $text: #303742;
-$gray: #555; 
+$gray: #ccc; 
 $gray_code: #ddd;
 $highlight: lighten($accent, 35%);
 
@@ -22,13 +22,13 @@ body {
   background-size: 80px;
   color: $text; 
   font-family: $type_body; 
-  font-size: 18px; 
+  font-size: 16px; 
   line-height: 1.63em;   
   margin: 0; 
   padding: 0;
 }    
 h1, h2, h3, h4, ul, ol, hr, blockquote, p { 
-  margin-bottom: 1.15em; 
+  margin-bottom: 1.1em; 
 }
 h1, h2, h3, h4 {
   font-family: $type_header;
@@ -130,14 +130,17 @@ small {
   text-transform: lowercase;
 }
 .article {
+  margin-bottom: 150px;
   h2 {
     margin-bottom: 0em;
     text-transform: uppercase;
+    font-weight: 900;
   }
   h3 {
     padding: 0;
-    margin: 1.2em 0em;
+    margin: 1.1em 0em;
     text-transform: uppercase;
+    font-weight: bold;
   }
   h4 {
     text-transform: uppercase;
@@ -149,11 +152,11 @@ small {
     text-transform: lowercase;
   }
   & .article-date {
-    color: $gray;
+    color: #ccc;
     // font-weight: 100;
-    text-transform: lowercase;
-    text-align: center;
-    margin: 50px;
+    text-transform: none;
+    font-weight: 900;
+    margin: 1.5em 0em;
   }
 }
 
@@ -162,9 +165,10 @@ small {
   width: 100%;  
   color: #fff;
   .sock {
-    padding: 1.5em 0em;
+    padding: 1em 0em;
     max-width: $body_width;
     margin: 0px 50px;
+    font-weight: bold;
   }
   a {
     color: #fff;
@@ -181,8 +185,10 @@ small {
 }
 
 blockquote {
-  border-left: 10px solid $accent;
+  border-left: 1px solid #CCC; 
   padding: 10px 0px 10px 20px;
+  color: #777;
+  margin-left: 1.5em;
   p {
     padding: 0;
     margin: 0;
