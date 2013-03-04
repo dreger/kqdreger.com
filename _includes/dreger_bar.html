@@ -1,6 +1,5 @@
-<section class="boot">
-<section class="sock">
-{% if page.title %}
+<section class="dreger-bar">
+<h1><a href="/">dreger's</a></h1>
 <script type="text/javascript">
 var d=new Date();
 var weekday=new Array(7); 
@@ -12,24 +11,6 @@ weekday[4]="Thursday";
 weekday[5]="Friday";
 weekday[6]="Saturday";
 var n = weekday[d.getDay()];
-document.write("<p><a href=\"/\">KD</a> &middot; <a href=\"/colophon\">Colophon</a> &middot; <a href=\"http://twitter.com/dreger\">Twitter</a> &middot; Happy "+n)
+document.write("<p><a href=\"/colophon\">Colophon</a> &middot; <a href=\"http://twitter.com/dreger\">Twitter</a> &middot; Happy "+n)
 </script>
-{% endif %}
-
-{% unless page.title %}
-<script type="text/javascript">
-var d=new Date();
-var weekday=new Array(7); 
-weekday[0]="Sunday";
-weekday[1]="Monday";
-weekday[2]="Tuesday";
-weekday[3]="Wednesday";
-weekday[4]="Thursday";
-weekday[5]="Friday";
-weekday[6]="Saturday";
-var n = weekday[d.getDay()];
-document.write("<p><a href=\"/\">KD</a> &middot; <a href=\"/colophon\">Colophon</a> &middot; <a href=\"http://twitter.com/dreger\">Twitter</a> &middot; Happy "+n)
-</script>
-{% endunless %}
-</section>
 </section>

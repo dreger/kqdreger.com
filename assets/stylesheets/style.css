@@ -57,17 +57,16 @@ small { font-size: .9em; font-style: italic; text-align: center; display: block;
 .article-meta { text-transform: lowercase; }
 
 .article { margin-bottom: 150px; }
-.article h2 { margin-bottom: 0em; text-transform: uppercase; font-weight: 900; }
+.article h2 { margin-bottom: 0em; text-transform: uppercase; }
 .article h3 { padding: 0; margin: 1.1em 0em; text-transform: uppercase; font-weight: bold; }
 .article h4 { text-transform: uppercase; }
 .article .article-actions { margin: 0; margin-bottom: 1.5em; text-transform: lowercase; }
 .article .article-date { color: #ccc; text-transform: none; font-weight: 900; margin: 1.5em 0em; }
 
-.boot { background-color: #94c140; width: 100%; color: #fff; text-align: center; }
-.boot .sock { padding: 1.5em 0em; font-weight: bold; }
-.boot a { color: #fff; border-bottom-color: rgba(255, 255, 255, 0.3); padding-bottom: 3px; }
-.boot a:hover { color: #fff; }
-.boot p:last-child { margin-bottom: 0; padding-bottom: 0; }
+.dreger-bar { width: 100%; text-align: center; margin: 80px 0px; color: #94c140; }
+.dreger-bar a { border-bottom: none; padding-bottom: none; }
+.dreger-bar h1 { font-weight: 1000; font-size: 3.5em; margin: 0em; }
+.dreger-bar p { margin-top: .8em; }
 
 blockquote { border-left: 1px solid #cccccc; padding: 10px 0px 10px 20px; color: #777; margin-left: 1.5em; }
 blockquote p { padding: 0; margin: 0; }

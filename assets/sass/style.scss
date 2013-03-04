@@ -31,7 +31,7 @@ h1, h2, h3, h4, ul, ol, hr, blockquote, p {
   margin-bottom: 1.1em; 
 }
 h1, h2, h3, h4 {
-  font-family: $type_header;
+  font-family: $type_header; 
   font-weight: 900;
   line-height: 1.1em;
   a {
@@ -134,7 +134,6 @@ small {
   h2 {
     margin-bottom: 0em;
     text-transform: uppercase;
-    font-weight: 900;
   }
   h3 {
     padding: 0;
@@ -160,26 +159,22 @@ small {
   }
 }
 
-.boot {
-  background-color: $accent_hover;
+.dreger-bar {
   width: 100%;  
-  color: #fff;
   text-align: center;
-  .sock {
-    padding: 1.5em 0em;
-    font-weight: bold;
-  }
+  margin: 80px 0px;
+  color: $accent_hover;
   a {
-    color: #fff;
-    border-bottom-color: rgba(255,255,255,.3);
-    padding-bottom: 3px;
-    &:hover {
-      color: #fff;
-    }
+    border-bottom: none;
+    padding-bottom: none;
   }
-  p:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
+  h1 {
+    font-weight: 1000;
+    font-size: 3.5em;
+    margin: 0em;  
+  }
+  p {
+    margin-top: .8em;
   }
 }
 
