@@ -33,8 +33,8 @@ h2 { font-size: 2em; }
 h3 { font-size: 1.5em; margin: 1.2em 0; }
 
 a { -webkit-transition: all 0.12s ease; transition: all 0.12s ease; border-bottom: solid 1px #dddddd; color: #222; padding-bottom: 1px; text-decoration: none; }
-a .accent { color: #ff5f4a; }
-a:hover { color: #ff5f4a; }
+a .accent { color: #94c140; }
+a:hover { color: #94c140; }
 
 hr { border: none; border: solid 3px #cccccc; border-radius: 10px; margin: 2.5em auto; width: 75%; }
 
@@ -63,7 +63,7 @@ small { font-size: .9em; font-style: italic; text-align: center; display: block;
 .article .article-actions { margin: 0; margin-bottom: 1.5em; text-transform: lowercase; }
 .article .article-date { color: #ccc; text-transform: none; font-weight: 900; margin: 1.5em 0em; }
 
-.boot { background-color: #ff5f4a; width: 100%; color: #fff; }
+.boot { background-color: #94c140; width: 100%; color: #fff; }
 .boot .sock { padding: 1em 0em; max-width: 650px; margin: 0px 50px; font-weight: bold; }
 .boot a { color: #fff; border-bottom-color: rgba(255, 255, 255, 0.3); padding-bottom: 3px; }
 .boot a:hover { color: #fff; }
