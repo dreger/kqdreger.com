@@ -4,10 +4,10 @@
 
 // Custom variables
 $accent: #303742;
-$accent_hover: #94C140;
+$accent_hover: #ee4938;
 $dark_accent: darken($accent, 15%);
-$type_body: museo-sans-rounded, sans-serif;  
-$type_header: museo-sans-rounded,refrigerator-deluxe, sans-serif;
+$type_body: ff-meta-serif-web-pro, sans-serif;  
+$type_header: ff-meta-serif-web-pro, sans-serif;
 // Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
 $body_width: 650px;
@@ -35,8 +35,11 @@ h1, h2, h3, h4 {
   font-weight: 900;
   line-height: 1.1em;
   a {
-    color: #222;
+    color: #333;
     border-bottom: none;
+    &:hover {
+      color: $accent_hover;
+    }
   }
 }
 h1 { font-size: 2.5em; }
@@ -47,14 +50,15 @@ a {
   -webkit-transition: all .12s ease;
   transition: all .12s ease;
   border-bottom: solid 1px $gray_code;
-  color: #222;
-  padding-bottom: 1px;
+  // color: #333;
+  color: $accent_hover;
+  padding-bottom: 0px;
   text-decoration: none;
   & .accent {
     color: $accent_hover;
   } 
   &:hover {
-    color: $accent_hover;
+    color: darken($accent_hover, 20%);
   }
 
 }
@@ -113,7 +117,7 @@ small {
       }
       a {
         display: block;
-        text-transform: uppercase;
+        // text-transform: uppercase;
       }
       h2 {
         margin-bottom: 0em;
@@ -133,16 +137,16 @@ small {
   margin-bottom: 150px;
   h2 {
     margin-bottom: 0em;
-    text-transform: uppercase;
+    // text-transform: uppercase;
   }
   h3 {
     padding: 0;
     margin: 1.1em 0em;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-weight: bold;
   }
   h4 {
-    text-transform: uppercase;
+    // text-transform: uppercase;
   }
   & .article-actions {
     margin: 0;
@@ -195,6 +199,7 @@ ul {
   }
 }
 pre {
+  font-family: source-code-pro; 
   background: lighten($gray_code, 5%);
   border-radius: 5px;
   border: 1px solid $gray_code;
@@ -211,12 +216,17 @@ pre {
   code {
     background: none;
     padding: 0;
+    border: none; 
   }
 }
 code {
+  font-family: source-code-pro; 
+  border: 1px solid #ccc;
+  font-size: .9em;
   background: #eee; 
   border-radius: 50px;
-  padding: 1px 10px;
+  padding: 2px 8px;
+  font-family: monospace;
 }
 strong {
   font-weight: bold;
