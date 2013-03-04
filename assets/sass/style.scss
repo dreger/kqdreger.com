@@ -3,11 +3,10 @@
 @import "css3/_reset";  
 
 // Custom variables
-$accent: #303742;
-$accent_hover: #ee4938;
+$accent: #ee4938;
 $dark_accent: darken($accent, 15%);
 $type_body: ff-meta-serif-web-pro, sans-serif;  
-$type_header: ff-meta-serif-web-pro, sans-serif;
+$type_header: futura-pt-condensed, sans-serif;
 // Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
 $body_width: 650px;
@@ -22,7 +21,7 @@ body {
   background-size: 80px;
   color: $text; 
   font-family: $type_body; 
-  font-size: 16px; 
+  font-size: 18px; 
   line-height: 1.63em;   
   margin: 0; 
   padding: 0;
@@ -34,11 +33,12 @@ h1, h2, h3, h4 {
   font-family: $type_header; 
   font-weight: 900;
   line-height: 1.1em;
+  text-transform: uppercase;
   a {
     color: #333;
     border-bottom: none;
     &:hover {
-      color: $accent_hover;
+      color: $accent;
     }
   }
 }
@@ -50,15 +50,14 @@ a {
   -webkit-transition: all .12s ease;
   transition: all .12s ease;
   border-bottom: solid 1px $gray_code;
-  // color: #333;
-  color: $accent_hover;
+  color: $accent;
   padding-bottom: 0px;
   text-decoration: none;
   & .accent {
-    color: $accent_hover;
+    color: $accent;
   } 
   &:hover {
-    color: darken($accent_hover, 20%);
+    color: darken($accent, 20%);
   }
 
 }
@@ -92,15 +91,40 @@ small {
 .wrapper 
 {
   margin: 50px auto;
-  margin-top: 45px;
+  margin-top: 0px;
   max-width: $body_width;
   width: 90%;
   padding: 0;
 }
 .content {
   margin: 50px 0px;
+  margin-top: 2.5em;
   padding: 0;
   width: 100%;
+}
+
+.dreger-bar {
+  width: 100%;  
+  text-align: center;
+  padding: 2.5em 0em;
+  color: $accent;
+  border-bottom: 1px solid #eee; 
+  a {
+    border-bottom: none;
+    padding-bottom: none;
+    color: #333;
+    &:hover {
+      color: $accent;
+    }
+  }
+  h1 {
+    font-weight: 1000;
+    font-size: 3.5em;
+    margin: 0em;  
+  }
+  p {
+    margin: 0em;
+  }
 }
 
 .list {
@@ -159,26 +183,9 @@ small {
     // font-weight: 100;
     text-transform: none;
     font-weight: 900;
-    margin: 1.5em 0em;
-  }
-}
-
-.dreger-bar {
-  width: 100%;  
-  text-align: center;
-  margin: 80px 0px;
-  color: $accent_hover;
-  a {
-    border-bottom: none;
-    padding-bottom: none;
-  }
-  h1 {
-    font-weight: 1000;
-    font-size: 3.5em;
-    margin: 0em;  
-  }
-  p {
-    margin-top: .8em;
+    margin: 1em 0em;
+    font-family: $type_header;
+    text-transform: uppercase;
   }
 }
 
