@@ -9,11 +9,10 @@
 <!-- article ala boom -->
 <section class="article">
 <h2 id="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<p class="article-date">{{ page.date | date: "%d %B %Y" }}</p>
-
 <section class="article-content">
 {{ content }}
 </section>
+<p class="article-date">{{ page.date | date: "%d %B %Y" }}</p>
 </section><!-- end article -->
 </section><!-- end content -->
 </section><!-- end wrapper -->

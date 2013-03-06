@@ -6,14 +6,15 @@
 $accent: #ee4938;
 $dark_accent: darken($accent, 15%);
 $type_body: ff-meta-serif-web-pro, sans-serif;  
-$type_header: futura-pt-condensed, sans-serif;
+$type_header: futura-pt, sans-serif;
 // Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
-$body_width: 650px;
-$img_width: $body_width+200;  
+$body_width: 660px;
+$content_padding: 2.5em;
 $text: #303742;
 $gray: #ccc; 
 $gray_code: #ddd;
+$gray_border: #dedede;
 $highlight: lighten($accent, 35%);
 
 body { 
@@ -21,7 +22,7 @@ body {
   background-size: 80px;
   color: $text; 
   font-family: $type_body; 
-  font-size: 18px; 
+  font-size: 15px; 
   line-height: 1.63em;   
   margin: 0; 
   padding: 0;
@@ -59,10 +60,6 @@ a {
   &:hover {
     color: darken($accent, 20%);
   }
-
-}
-.subtle {
-    // color: $gray;
 }
 
 hr {
@@ -76,9 +73,8 @@ hr {
 img { 
   display: block;
   margin-top: .5em;
-  margin-left: -100px;
-  width: $img_width;
-  border-radius: 5px;
+  width: $body_width;
+  margin-left: -39px;
 }
 
 small {
@@ -90,25 +86,31 @@ small {
 }
 .wrapper 
 {
-  margin: 50px auto;
-  margin-top: 0px;
+  margin: 0px auto;
   max-width: $body_width;
   width: 90%;
   padding: 0;
+
 }
+
 .content {
-  margin: 50px 0px;
-  margin-top: 2.5em;
-  padding: 0;
+  border: 1px solid $gray_border; 
+  border-top: none;
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  box-sizing: border-box; 
+  margin: 0px;
+  padding: $content_padding;
   width: 100%;
 }
 
 .dreger-bar {
   width: 100%;  
   text-align: center;
+  padding: $content_padding;
   padding: 2.5em 0em;
   color: $accent;
-  border-bottom: 1px solid #eee; 
+  border-bottom: 1px solid $gray_border; 
   a {
     border-bottom: none;
     padding-bottom: none;
@@ -124,6 +126,9 @@ small {
   }
   p {
     margin: 0em;
+    font-weight: 900;
+    font-family: $type_header;
+    text-transform: uppercase;
   }
 }
 
@@ -154,33 +159,26 @@ small {
 }
 
 .article-meta {
-  // color: $gray;
   text-transform: lowercase;
 }
 .article {
   margin-bottom: 150px;
   h2 {
-    margin-bottom: 0em;
-    // text-transform: uppercase;
+    margin-bottom: .5em;
   }
   h3 {
     padding: 0;
     margin: 1.1em 0em;
-    // text-transform: uppercase;
     font-weight: bold;
-  }
-  h4 {
-    // text-transform: uppercase;
   }
   & .article-actions {
     margin: 0;
-    // font-weight: 100;
     margin-bottom: 1.5em;
     text-transform: lowercase;
   }
   & .article-date {
-    color: #ccc;
-    // font-weight: 100;
+    color: $gray;
+    text-align: right;
     text-transform: none;
     font-weight: 900;
     margin: 1em 0em;
@@ -190,7 +188,7 @@ small {
 }
 
 blockquote {
-  border-left: 1px solid #CCC; 
+  border-left: 1px solid $gray; 
   padding: 10px 0px 10px 20px;
   color: #777;
   margin-left: 1.5em;
@@ -228,9 +226,9 @@ pre {
 }
 code {
   font-family: source-code-pro; 
-  border: 1px solid #ccc;
+  border: 1px solid $gray;
   font-size: .9em;
-  background: #eee; 
+  background: $gray_border; 
   border-radius: 50px;
   padding: 2px 8px;
   font-family: monospace;
@@ -247,7 +245,7 @@ em {
     Thanks @beep
 */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 750px) {
   body {
     //font-size: 18px;
   }
