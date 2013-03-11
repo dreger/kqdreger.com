@@ -3,4 +3,6 @@ layout: default
 ---
 # Kyle Dreger
 
-Attending school, playing soccer and [writing](http://notes.kyledreger.com).
+[140 characters](http://twitter.com/dreger) &middot; [notes](http://notes.kyledreger.com)
+
+Say hello <hi@kyledreger.com>
