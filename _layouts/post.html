@@ -2,19 +2,16 @@
 <html lang="en">
 {% include head.html %}
 <body>
-{% include dreger_bar.html %}
-
-<section class="wrapper">
 <section class="content">
-<!-- article ala boom -->
 <section class="article">
-<h2 id="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<section class="article-content">
+<hgroup>
+<h1 id="title">{{ page.title }}</h1> 
+<p id="meta"><a href="/">Kyle Dreger</a> &middot; {{ page.date | date: "%b %d, %Y" }}</p>
+</hgroup>
+<hr class="line">
 {{ content }}
 </section>
-<p class="article-date">{{ page.date | date: "%d %B %Y" }}</p>
-</section><!-- end article -->
-</section><!-- end content -->
-</section><!-- end wrapper -->
+{% include footer.html %}
+</section>
 </body>
 </html>

@@ -2,9 +2,9 @@
 
 # Set this to the root of your project
 http_path = "/"
-css_dir = "assets/stylesheets"
-sass_dir = "assets/sass"
-images_dir = "assets/images"
+css_dir = "_src/assets/stylesheets"
+sass_dir = "_src/assets/sass"
+# images_dir = "_src/assets/images"
 # javascripts_dir = "assets/javascripts"
 output_style= :compact
 

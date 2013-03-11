@@ -1,8 +1,22 @@
 ---
 layout: default
 ---
-# Kyle Dreger
+Welcome to my humble little website. Once you've read some of the articles below, check out my [tweets](http://twitter.com/dreger), [code](http://github.com/dreger) and [links](http://pinboard.in/u:dreger) elsewhere on the web. <script type="text/javascript">
+var d=new Date();
+var weekday=new Array(7); 
+weekday[0]="Sunday";
+weekday[1]="Monday";
+weekday[2]="Tuesday";
+weekday[3]="Wednesday";
+weekday[4]="Thursday";
+weekday[5]="Friday";
+weekday[6]="Saturday";
+var n = weekday[d.getDay()];
+document.write("Have a great "+n+".")
+</script>
 
-[140 characters](http://twitter.com/dreger) &middot; [notes](http://notes.kyledreger.com)
-
-Say hello <hi@kyledreger.com>
+<section class="list">
+<ul>
+{% for post in site.posts %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %} 
+</ul>
+</section>

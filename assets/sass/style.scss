@@ -7,44 +7,37 @@ $accent: #71b3c7;
 $dark_accent: darken($accent, 15%);
 $type_body: ff-meta-serif-web-pro, sans-serif;  
 $type_header: futura-pt, sans-serif;
+// Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
-$body_width: 660px;
+$body_width: 420px;
 $content_padding: 2.5em;
-$text: #303742;
+$text: #4d4d4d;
 $gray: #ccc; 
-$gray_code: #ddd;
-$gray_border: #dedede;
+$gray_light: #eee;
 $highlight: lighten($accent, 35%);
 
 body { 
   -webkit-font-smoothing: antialiased;
-  background-size: 80px;
   color: $text; 
   font-family: $type_body; 
   font-size: 15px; 
   line-height: 1.63em;   
   margin: 0; 
   padding: 0;
-}    
-h1, h2, h3, h4, ul, ol, hr, blockquote, p { 
-  margin-bottom: .5em; 
 }
-h1, h2, h3, h4 {
-  font-family: $type_header; 
-  font-weight: 900;
-  line-height: 1.1em;
-  text-transform: uppercase;
-  a {
-    color: #333;
-    border-bottom: none;
-    &:hover {
-      color: $accent;
-    }
-  }
-}
+
 h1 { font-size: 1.9em; }
 h2 { font-size: 1.6em; }
-h3 { font-size: 1.3em; margin: 1.2em 0;}
+h3 { font-size: 1.3em; }
+h1,h2,h3,h4,h5,h6 {
+  font-family: $type_header;
+  line-height: 1.1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h1,h2,h3,h4,h5,h6,p,img{
+  margin-bottom: 1.5em;
+}
 
 a {
   -webkit-transition: all .12s ease;
@@ -59,13 +52,139 @@ a {
   }
 }
 
-
-
-.content {
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  box-sizing: border-box; 
-  margin: 150px auto;
-  width: 500px;
+img { 
+  display: block;
+  width: $body_width+200px;
+  margin-left: -100px;
+  border-radius: 5px;
 }
 
+small {
+  font-size: .9em;
+  font-style: italic;
+  text-align: center; 
+  display: block; 
+  width: 100%;
+}
+
+.list {
+  clear: both;
+  text-transform: uppercase;
+  font-family: $type_header;
+  text-align: left;
+  font-weight: 900;
+  ul {
+    margin: 0;
+    padding: 0; 
+    li {
+      list-style: none;
+      margin: .6em 0em;
+      padding: 0em;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.content {
+  width: $body_width; 
+  margin: 100px auto;
+}
+#title { 
+  margin-bottom: .2em;
+  font-family: $type_header;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#meta {
+  margin: 0;
+}
+hgroup {
+  text-align: left;
+  margin: 0;
+}
+hr.line {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -moz-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -ms-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -o-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  margin: 2em 0em;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 2em; 
+}
+
+blockquote {
+  border-left: 1px solid $gray; 
+  padding: 10px 0px 10px 20px;
+  color: #777;
+  margin-left: 1.5em;
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+ul {
+  list-style: disc;
+  li {
+    margin: 8px 0px;
+  }
+}
+pre {
+  font-family: source-code-pro; 
+  background: $gray_light;
+  border-radius: 5px;
+  border: 1px solid $gray_light;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: .9em;
+  margin: 15px 0px;
+  max-width: 100%;
+  padding: 15px 25px;
+  overflow: auto;
+  -moz-box-shadow: inset 0 0 3px 3px $gray_light;
+  -webkit-box-shadow: inset 0 0 3px 3px $gray_light;
+  box-shadow: inset 0 0 3px 3px $gray_light;
+  code {
+    background: none;
+    padding: 0;
+    border: none; 
+  }
+}
+code {
+  font-family: source-code-pro; 
+  border: 1px solid $gray;
+  font-size: .9em;
+  background: $gray_light; 
+  border-radius: 50px;
+  padding: 0px 8px;
+  font-family: monospace;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+
+/*
+    Build a responsive web.
+    Thanks @beep
+*/
+
+@media screen and (max-width: 650px) {
+  .content {
+    margin: 50px auto;
+    width: 90%;
+    img {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}

@@ -1,5 +1,7 @@
 # standard jekyll configuration
-permalink: /posts/:title/
+# source: ./_src
+# destination: ./_site
+permalink: /notes/:title/
 pygments: true
 auto: true
 markdown: rdiscount
