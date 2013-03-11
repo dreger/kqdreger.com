@@ -3,11 +3,10 @@
 @import "css3/_reset";  
 
 // Custom variables
-$accent: #ee4938;
+$accent: #71b3c7;
 $dark_accent: darken($accent, 15%);
 $type_body: ff-meta-serif-web-pro, sans-serif;  
 $type_header: futura-pt, sans-serif;
-// Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
 
 $body_width: 660px;
 $content_padding: 2.5em;
@@ -28,7 +27,7 @@ body {
   padding: 0;
 }    
 h1, h2, h3, h4, ul, ol, hr, blockquote, p { 
-  margin-bottom: 1.1em; 
+  margin-bottom: .5em; 
 }
 h1, h2, h3, h4 {
   font-family: $type_header; 
@@ -43,16 +42,14 @@ h1, h2, h3, h4 {
     }
   }
 }
-h1 { font-size: 2.5em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.5em; margin: 1.2em 0;}
+h1 { font-size: 1.9em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; margin: 1.2em 0;}
 
 a {
   -webkit-transition: all .12s ease;
   transition: all .12s ease;
-  border-bottom: solid 1px $gray_code;
   color: $accent;
-  padding-bottom: 0px;
   text-decoration: none;
   & .accent {
     color: $accent;
@@ -62,204 +59,13 @@ a {
   }
 }
 
-hr {
-  border: none;
-  border: solid 3px $gray;
-  border-radius: 10px;
-  margin: 2.5em auto;
-  width: 75%;
-}
 
-img { 
-  display: block;
-  margin-top: .5em;
-  width: $body_width;
-  margin-left: -39px;
-}
-
-small {
-  font-size: .9em;
-  font-style: italic;
-  text-align: center; 
-  display: block; 
-  width: 100%;
-}
-.wrapper 
-{
-  margin: 0px auto;
-  max-width: $body_width;
-  width: 90%;
-  padding: 0;
-
-}
 
 .content {
-  border: 1px solid $gray_border; 
-  border-top: none;
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   box-sizing: border-box; 
-  margin: 0px;
-  padding: $content_padding;
-  width: 100%;
+  margin: 150px auto;
+  width: 500px;
 }
 
-.dreger-bar {
-  width: 100%;  
-  text-align: center;
-  padding: $content_padding;
-  padding: 2.5em 0em;
-  color: $accent;
-  border-bottom: 1px solid $gray_border; 
-  a {
-    border-bottom: none;
-    padding-bottom: none;
-    color: #333;
-    &:hover {
-      color: $accent;
-    }
-  }
-  h1 {
-    font-weight: 1000;
-    font-size: 3.5em;
-    margin: 0em;  
-  }
-  p {
-    margin: 0em;
-    font-weight: 900;
-    font-family: $type_header;
-    text-transform: uppercase;
-  }
-}
-
-.list {
-  clear: both;
-  ul {
-    margin: 0;
-    padding: 0; 
-    li {
-      list-style: none;
-      margin: 2.5em 0em;
-      padding: 0em;
-      &:first-child {
-        margin-top: 0;
-      }
-      a {
-        display: block;
-        // text-transform: uppercase;
-      }
-      h2 {
-        margin-bottom: 0em;
-      }
-      h3 {
-        margin: 0;
-      }
-    }
-  }
-}
-
-.article-meta {
-  text-transform: lowercase;
-}
-.article {
-  margin-bottom: 150px;
-  h2 {
-    margin-bottom: .5em;
-  }
-  h3 {
-    padding: 0;
-    margin: 1.1em 0em;
-    font-weight: bold;
-  }
-  & .article-actions {
-    margin: 0;
-    margin-bottom: 1.5em;
-    text-transform: lowercase;
-  }
-  & .article-date {
-    color: $gray;
-    text-align: right;
-    text-transform: none;
-    font-weight: 900;
-    margin: 1em 0em;
-    font-family: $type_header;
-    text-transform: uppercase;
-  }
-}
-
-blockquote {
-  border-left: 1px solid $gray; 
-  padding: 10px 0px 10px 20px;
-  color: #777;
-  margin-left: 1.5em;
-  p {
-    padding: 0;
-    margin: 0;
-  }
-}
-ul {
-  list-style: disc;
-  li {
-    margin: 8px 0px;
-  }
-}
-pre {
-  font-family: source-code-pro; 
-  background: lighten($gray_code, 5%);
-  border-radius: 5px;
-  border: 1px solid $gray_code;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: .9em;
-  margin: 15px 0px;
-  max-width: 100%;
-  padding: 15px 25px;
-  overflow: auto;
-  // -moz-box-shadow: inset 0 0 3px 3px #e1e1e1;
-  // -webkit-box-shadow: inset 0 0 3px 3px #e1e1e1;
-  // box-shadow: inset 0 0 3px 3px #e1e1e1;
-  code {
-    background: none;
-    padding: 0;
-    border: none; 
-  }
-}
-code {
-  font-family: source-code-pro; 
-  border: 1px solid $gray;
-  font-size: .9em;
-  background: $gray_border; 
-  border-radius: 50px;
-  padding: 2px 8px;
-  font-family: monospace;
-}
-strong {
-  font-weight: bold;
-}
-em {
-  font-style: italic;
-}
-
-/*
-    Build a responsive web.
-    Thanks @beep
-*/
-
-@media screen and (max-width: 750px) {
-  body {
-    //font-size: 18px;
-  }
-  .wrapper {
-    margin: 0 auto;
-  }
-  .sock {
-    margin: 0 auto;
-  }
-  .content {
-    // margin: 30px 0px 50px;
-    img {
-      margin-left: 0;
-      width: 100%;
-    }
-  }
-}
