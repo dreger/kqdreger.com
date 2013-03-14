@@ -2,13 +2,12 @@
 <html lang="en">
 {% include head.html %}
 <body>  
-<section class="content">
-<hgroup>
-<h1 id="title"><a href="/">Notes</a> by Dreger</h1>
-<hr class="line">
-</hgroup>
+<section class="content grid">
+{% include header.html %}
+
+<section class="col-2-3">
 {{ content }}
-{% include footer.html %}
+</section>
 </section>
 </body>
 </html>
