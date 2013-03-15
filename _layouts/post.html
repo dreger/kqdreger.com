@@ -2,17 +2,14 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<section class="content grid">
+<div class="wrapper">
 {% include header.html %}
-<section class="col-2-3">
-<section class="article">
-<hgroup>
-<h2 id="title">{{ page.title }}</h2> 
-<p id="meta">{{ page.date | date: "%b %d, %Y" }}</p>
-</hgroup>
+<div class="article">
+<h1 id="title">{{ page.title }}</h1> 
+<h2 id="meta">{{ page.date | date: "%b %d, %Y" }}</h2>
 {{ content }}
-</section>
+</div>
+</div>
 {% include footer.html %}
-</section>
 </body>
 </html>

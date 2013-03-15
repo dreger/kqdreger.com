@@ -7,7 +7,7 @@ auto: true
 markdown: rdiscount
 
 # required configuration 
-domain: www.kyledreger.com
+domain: kyledreger.com
 title: Kyle Dreger
 author: Kyle Dreger
 email: me@kyledreger.com

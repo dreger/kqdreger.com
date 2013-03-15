@@ -1,64 +1,127 @@
 @import "css3/_transition";  
-@import "css3/_prefixer";  
-@import "css3/_reset";  
-@import "_grid";
+@import "css3/_prefixer"; 
+@import "_grid"; 
 
 // Custom variables
-$accent: #0096ff;
-$dark_accent: darken($accent, 15%);
-$type_body: proxima-nova, sans-serif;  
-$type_header: proxima-nova, sans-serif;
-// Fav fonts: Refrigerator Deluxe by Mark Simonson Studio, FF Meta Serif Web Pro by FontFont
+$color: #71b3c7;
+$dark_color: darken($color, 15%);
+$serif: skolar, serif;  
+$sans: proxima-nova, sans-serif;
 
-$body_width: 700px;
+$width: 64rem;
 $content_padding: 2.5em;
 $text: #4d4d4d;
 $gray: #ccc; 
 $gray_light: #eee;
-$highlight: lighten($accent, 35%);
-
-body { 
-  -webkit-font-smoothing: antialiased;
-  border-top: 10px solid $accent;
-  color: $text; 
-  font-family: $type_body; 
-  font-size: 14px; 
-  line-height: 1.63em;   
-  margin: 0; 
+$highlight: lighten($color, 35%);
+* {
+  margin: 0;
   padding: 0;
 }
 
-h1 { font-size: 1.9em; }
-h2 { font-size: 1.6em; }
-h3 { font-size: 1.3em; }
-h1,h2,h3,h4,h5,h6 {
-  font-family: $type_header;
-  line-height: 1.1em;
-  font-weight: 900;
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Typography */
+
+body {
+  font-family: "skolar", serif;
+  font-size: 100%;
+  line-height: 1.5;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  color: $text; 
+  font-family: $serif; 
+}
+
+h1, h2, .h1, .h2 {
+  font-weight: 500;
+  line-height: 1.25;
+
+}
+
+h1, .h1 {
+  font-size: 2rem;
+}
+
+h2, .h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+p, .p {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+small, .small {
+  font-size: 1rem;
+}
+
+.title {
+  font-family: $sans;
+  margin: 4em 0em 1em 0em;
   text-transform: uppercase;
 }
-h1,h2,h3,h4,h5,h6,p,img,blockquote,ul{
-  margin-bottom: 1.2em;
+
+.sans {
+  font-family: $sans;
+}
+
+.serif {
+  font-family: $serif;
+}
+
+
+/* Colors */
+
+body {
+  color: #444;
+  background-color: #fff;
 }
 
 a {
-  -webkit-transition: all .12s ease;
-  transition: all .12s ease;
-  color: $accent;
+  color: #444;
   text-decoration: none;
-  & .accent {
-    color: $accent;
-  } 
-  &:hover {
-    // color: darken($accent, 20%);
-    background-color: $gray_light;
-  }
+  border-bottom: 3px solid #ddd;
 }
+
+a:hover {
+  color: #0cc;
+}
+
+
+/* Layout */
+
+
+
+// h1 { font-size: 1.9em; }
+// h2 { font-size: 1.6em; }
+// h3 { font-size: 1.3em; }
+// h1,h2,h3,h4,h5,h6 {
+//   font-family: $sans;
+//   line-height: 1.1em;
+//   font-weight: 900;
+//   text-transform: uppercase;
+// }
+// h1,h2,h3,h4,h5,h6,p,img{
+//   margin-bottom: 1.5em;
+// }
+
+// a {
+//   -webkit-transition: all .12s ease;
+//   transition: all .12s ease;
+//   color: $color;
+//   text-decoration: none;
+//   & .color {
+//     color: $color;
+//   } 
+//   &:hover {
+//     color: darken($color, 20%);
+//   }
+// }
 
 img { 
   display: block;
-  // width: $body_width+200px;
-  // margin-left: -100px;
   width: 100%;
   border-radius: 5px;
 }
@@ -73,126 +136,169 @@ small {
 
 .list {
   clear: both;
-  text-transform: uppercase;
-  font-family: $type_header;
   text-align: left;
-  font-weight: 700;
+  font-weight: 900;
+  a {
+    border-bottom: none;
+  }
+  .post-date {
+    float: right;
+  }
   ul {
     margin: 0;
     padding: 0; 
     li {
       list-style: none;
       margin: .6em 0em;
-      padding: 0em;
+      padding: 1em;
       &:first-child {
         margin-top: 0;
+      }
+      &:nth-child(odd) {
+        background-color: #eee;
       }
     }
   }
 }
-.header {
-  margin-bottom: 50px;
+
+.wrapper {
+  max-width: $width; 
+  padding: 0 5%;
+  margin: 0 auto;
 }
-.content {
-  width: $body_width; 
-  margin: 100px auto;
-}
-#title { 
-  margin-bottom: .2em;
-  font-family: $type_header;
+
+.title { 
   text-transform: uppercase;
   font-weight: 900;
 }
+
 #meta {
   margin: 0;
-  margin-bottom: 1.5em;
 }
-hgroup {
-  text-align: left;
+header {
+  text-align: center;
   margin: 0;
+  border-radius: 5px;
+  border-top: none;
+  padding: 20px;
+  h1 {
+    font-size: 4em; 
+    text-transform: uppercase;
+  }
+  a {
+    border-bottom: none;
+  }
 }
+
+
 hr.line {
   border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -moz-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -ms-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -o-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  height: 5px;
+  background-image: -webkit-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -moz-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -ms-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -o-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
   margin: 2em 0em;
 }
 
 .footer {
   text-align: center;
   font-size: 1.5em;
-  margin-top: 2em; 
+  margin: 4em 0em; 
+  width: 100%;
 }
 
-blockquote {
-  border-left: 1px solid $gray; 
-  padding: 10px 0px 10px 20px;
-  color: #777;
-  margin-left: 1.5em;
-  p {
-    padding: 0;
-    margin: 0;
+
+
+.article {
+  max-width: 48rem;
+  margin: 0 auto;
+  p,blockquote,ul {
+    margin: 1.5rem 0rem;
+  }
+  p:first-child {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  blockquote {
+    border-left: 1px solid $gray; 
+    padding: 10px 0px 10px 20px;
+    color: #777;
+    margin-left: 1.5em;
+    p:last-child {
+      padding: 0;
+      margin: 0;
+    }
   }
 }
+#title {
+  font-style: italic;
+  font-size: 3em;
+  font-weight: bold;
+}
+#meta {
+}
+
+
 ul {
-  margin-left: 1.5em;
-  list-style: disc;
+  list-style: circle;
+  padding-left: 1.5rem; 
   li {
     margin: 8px 0px;
   }
 }
 pre {
-  font-family: source-code-pro; 
-  background: $gray_light;
-  border-radius: 5px;
-  border: 1px solid $gray_light;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: .9em;
-  margin: 15px 0px;
-  max-width: 100%;
-  padding: 15px 25px;
-  overflow: auto;
-  -moz-box-shadow: inset 0 0 3px 3px $gray_light;
-  -webkit-box-shadow: inset 0 0 3px 3px $gray_light;
-  box-shadow: inset 0 0 3px 3px $gray_light;
+  padding: 20px;
+  background-color: #eee;
+  border: solid 3px #ddd;
   code {
-    background: none;
-    padding: 0;
-    border: none; 
+    border: none;
+    padding: none;
   }
 }
 code {
-  font-family: source-code-pro; 
-  border: 1px solid $gray;
-  font-size: .9em;
-  // background: $gray_light; 
-  border-radius: 50px;
-  padding: 1px 8px;
-  font-family: monospace;
-}
-strong {
-  font-weight: bold;
-}
-em {
-  font-style: italic;
+  padding: 2px 5px;
+  border: 2px solid #ddd;
+  background-color: #eee;
 }
 
 /*
     Build a responsive web.
     Thanks @beep
+
+    Grid thanks to 
+    http://jxnblk.com/
+    The dude's a rockstar
 */
 
-@media screen and (max-width: 800px) {
-  [class*='col-'] {
-    float: none;
-    width: 100%;
-  }
-  #title, #meta {
-  }
+
+/* Desktop Grid */
+
+    @media screen and (min-width: 768px) {
+    
+        .row:after {
+          clear: both;
+          content: '.';
+          display: block;
+          height: 0;
+          visibility: hidden;
+        }
+    
+        .col {
+          float: left;
+          width: 30%;
+          margin-right: 5%;
+        }
+        
+        .col:nth-child(3) {
+          margin-right: 0;
+        }
+    
+    }
+
+
+
+@media screen and (max-width: 650px) {
   .content {
     margin: 50px auto;
     width: 90%;
