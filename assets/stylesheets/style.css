@@ -10,7 +10,7 @@
 /* Typography */
 body {
   font-family: "skolar", serif;
-  font-size: 100%;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -28,8 +28,14 @@ h2, .h2 {
   font-size: 1.5rem;
   margin-top: 1.5rem; }
 
+h3, .h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase; }
+
 p, .p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-top: 1.5rem; }
 
 small, .small {
@@ -54,7 +60,8 @@ body {
 a {
   color: #444;
   text-decoration: none;
-  border-bottom: 3px solid #dddddd; }
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: -2px; }
 
 a:hover {
   color: #0cc; }
@@ -70,7 +77,8 @@ small {
   font-style: italic;
   text-align: center;
   display: block;
-  width: 100%; }
+  width: 100%;
+  margin: 1rem; }
 
 .list {
   clear: both;
@@ -105,25 +113,27 @@ small {
   margin: 0; }
 
 header {
-  text-align: center;
   margin: 0;
+  margin-top: 3em;
   border-radius: 5px;
   border-top: none;
-  padding: 20px; }
+  padding: 0px; }
   header h1 {
     font-size: 4em;
-    text-transform: uppercase; }
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -1px; }
   header a {
     border-bottom: none; }
 
 hr.line {
   border: 0;
-  height: 5px;
-  background-image: -webkit-linear-gradient(left, rgba(190, 190, 190, 0), rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  background-image: -moz-linear-gradient(left, rgba(190, 190, 190, 0), rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  background-image: -ms-linear-gradient(left, rgba(190, 190, 190, 0), rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  background-image: -o-linear-gradient(left, rgba(190, 190, 190, 0), rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  margin: 2em 0em; }
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
+  background-image: -moz-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
+  background-image: -ms-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
+  background-image: -o-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
+  margin: 2.5em 0em; }
 
 .footer {
   text-align: center;
@@ -131,25 +141,21 @@ hr.line {
   margin: 4em 0em;
   width: 100%; }
 
-.article {
-  max-width: 48rem;
-  margin: 0 auto; }
-  .article p, .article blockquote, .article ul {
-    margin: 1.5rem 0rem; }
-  .article p:first-child {
-    padding-top: 0;
-    margin-top: 0; }
-  .article blockquote {
-    border-left: 1px solid #cccccc;
-    padding: 10px 0px 10px 20px;
-    color: #777;
-    margin-left: 1.5em; }
-    .article blockquote p:last-child {
-      padding: 0;
-      margin: 0; }
+.article p, .article blockquote, .article ul {
+  margin: 1.5rem 0rem; }
+.article p:first-child {
+  padding-top: 0;
+  margin-top: 0; }
+.article blockquote {
+  border-left: 1px solid #cccccc;
+  padding: 10px 0px 10px 20px;
+  color: #777;
+  margin-left: 1.5em; }
+  .article blockquote p:last-child {
+    padding: 0;
+    margin: 0; }
 
 #title {
-  font-style: italic;
   font-size: 3em;
   font-weight: bold; }
 
@@ -168,7 +174,7 @@ pre {
     padding: none; }
 
 code {
-  padding: 2px 5px;
+  padding: 1px 5px;
   border: 2px solid #dddddd;
   background-color: #eee; }
 
@@ -182,6 +188,9 @@ code {
 */
 /* Desktop Grid */
 @media screen and (min-width: 768px) {
+  .post-date {
+    display: none; }
+
   .row:after {
     clear: both;
     content: '.';
@@ -196,10 +205,9 @@ code {
 
   .col:nth-child(3) {
     margin-right: 0; } }
-@media screen and (max-width: 650px) {
-  .content {
-    margin: 50px auto;
-    width: 90%; }
-    .content img {
-      margin-left: 0;
-      width: 100%; } }
+@media screen and (max-width: 768px) {
+  .post-date {
+    display: none; }
+
+  .title {
+    margin-top: 2em; } }

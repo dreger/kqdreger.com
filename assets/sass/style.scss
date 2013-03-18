@@ -25,7 +25,7 @@ $highlight: lighten($color, 35%);
 
 body {
   font-family: "skolar", serif;
-  font-size: 100%;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -47,9 +47,15 @@ h2, .h2 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
 }
+h3, .h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
 
 p, .p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-top: 1.5rem;
 }
 
@@ -82,7 +88,8 @@ body {
 a {
   color: #444;
   text-decoration: none;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: -2px;
 }
 
 a:hover {
@@ -92,33 +99,6 @@ a:hover {
 
 /* Layout */
 
-
-
-// h1 { font-size: 1.9em; }
-// h2 { font-size: 1.6em; }
-// h3 { font-size: 1.3em; }
-// h1,h2,h3,h4,h5,h6 {
-//   font-family: $sans;
-//   line-height: 1.1em;
-//   font-weight: 900;
-//   text-transform: uppercase;
-// }
-// h1,h2,h3,h4,h5,h6,p,img{
-//   margin-bottom: 1.5em;
-// }
-
-// a {
-//   -webkit-transition: all .12s ease;
-//   transition: all .12s ease;
-//   color: $color;
-//   text-decoration: none;
-//   & .color {
-//     color: $color;
-//   } 
-//   &:hover {
-//     color: darken($color, 20%);
-//   }
-// }
 
 img { 
   display: block;
@@ -132,6 +112,7 @@ small {
   text-align: center; 
   display: block; 
   width: 100%;
+  margin: 1rem;
 }
 
 .list {
@@ -176,14 +157,16 @@ small {
   margin: 0;
 }
 header {
-  text-align: center;
   margin: 0;
+  margin-top: 3em;
   border-radius: 5px;
   border-top: none;
-  padding: 20px;
+  padding: 0px;
   h1 {
     font-size: 4em; 
-    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -1px;
   }
   a {
     border-bottom: none;
@@ -193,12 +176,12 @@ header {
 
 hr.line {
   border: 0;
-  height: 5px;
-  background-image: -webkit-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -moz-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -ms-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -o-linear-gradient(left, rgba(190,190,190,0), rgba(190,190,190,0.75), rgba(190,190,190,0));
-  margin: 2em 0em;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -moz-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -ms-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  background-image: -o-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
+  margin: 2.5em 0em;
 }
 
 .footer {
@@ -211,8 +194,6 @@ hr.line {
 
 
 .article {
-  max-width: 48rem;
-  margin: 0 auto;
   p,blockquote,ul {
     margin: 1.5rem 0rem;
   }
@@ -232,7 +213,6 @@ hr.line {
   }
 }
 #title {
-  font-style: italic;
   font-size: 3em;
   font-weight: bold;
 }
@@ -257,7 +237,7 @@ pre {
   }
 }
 code {
-  padding: 2px 5px;
+  padding: 1px 5px;
   border: 2px solid #ddd;
   background-color: #eee;
 }
@@ -274,37 +254,32 @@ code {
 
 /* Desktop Grid */
 
-    @media screen and (min-width: 768px) {
-    
-        .row:after {
-          clear: both;
-          content: '.';
-          display: block;
-          height: 0;
-          visibility: hidden;
-        }
-    
-        .col {
-          float: left;
-          width: 30%;
-          margin-right: 5%;
-        }
-        
-        .col:nth-child(3) {
-          margin-right: 0;
-        }
-    
-    }
+@media screen and (min-width: 768px) {
+  .post-date {
+    display: none;
+  }
+  .row:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+  .col {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  .col:nth-child(3) {
+    margin-right: 0;
+  }
+}
 
-
-
-@media screen and (max-width: 650px) {
-  .content {
-    margin: 50px auto;
-    width: 90%;
-    img {
-      margin-left: 0;
-      width: 100%;
-    }
+@media screen and (max-width: 768px) {
+  .post-date {
+    display: none;
+  }
+  .title {
+    margin-top: 2em;
   }
 }
