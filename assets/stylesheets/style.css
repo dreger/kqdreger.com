@@ -38,7 +38,7 @@ h4, .h4 {
   font-size: 1.5rem;
   text-transform: uppercase; }
 
-p, .p {
+p, .p, ul, li {
   font-size: 1.5rem;
   margin-top: 1.5rem; }
 
@@ -105,7 +105,7 @@ small {
         background-color: #eee; }
 
 .wrapper {
-  max-width: 64rem;
+  max-width: 50rem;
   padding: 0 5%;
   margin: 0 auto; }
 
@@ -124,15 +124,15 @@ header {
   padding: 0px; }
   header h1 {
     font-size: 4em;
-    font-style: italic;
     font-weight: 900;
-    letter-spacing: -1px; }
+    text-transform: uppercase;
+    letter-spacing: -3px; }
   header a {
     border-bottom: none; }
 
 hr.line {
   border: 0;
-  height: 1px;
+  height: 2px;
   background-image: -webkit-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
   background-image: -moz-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
   background-image: -ms-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
@@ -164,7 +164,6 @@ hr.line {
   font-weight: bold; }
 
 ul {
-  list-style: circle;
   padding-left: 1.5rem; }
   ul li {
     margin: 8px 0px; }

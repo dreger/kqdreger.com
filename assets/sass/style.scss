@@ -8,7 +8,7 @@ $dark_color: darken($color, 15%);
 $serif: skolar, serif;  
 $sans: proxima-nova, sans-serif;
 
-$width: 64rem;
+$width: 50rem;
 $content_padding: 2.5em;
 $text: #4d4d4d;
 $gray: #ccc; 
@@ -58,7 +58,7 @@ h4, .h4 {
   text-transform: uppercase;
 }
 
-p, .p {
+p, .p, ul, li {
   font-size: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -168,9 +168,10 @@ header {
   padding: 0px;
   h1 {
     font-size: 4em; 
-    font-style: italic;
+    // font-style: italic;
     font-weight: 900;
-    letter-spacing: -1px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
   }
   a {
     border-bottom: none;
@@ -180,7 +181,7 @@ header {
 
 hr.line {
   border: 0;
-  height: 1px;
+  height: 2px;
   background-image: -webkit-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
   background-image: -moz-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
   background-image: -ms-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
@@ -225,7 +226,6 @@ hr.line {
 
 
 ul {
-  list-style: circle;
   padding-left: 1.5rem; 
   li {
     margin: 8px 0px;
