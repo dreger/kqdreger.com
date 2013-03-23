@@ -45,7 +45,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 1.5rem;
-  margin-top: 1.5rem;
+  // margin-top: 1.5rem;
 }
 h3, .h3 {
   font-size: 2rem;
@@ -69,7 +69,7 @@ small, .small {
 
 .title {
   font-family: $sans;
-  margin: 4em 0em 1em 0em;
+  margin: 2em 0em 1em;
   text-transform: uppercase;
 }
 
@@ -134,8 +134,8 @@ small {
     padding: 0; 
     li {
       list-style: none;
-      margin: .6em 0em;
-      padding: 1em;
+      margin: 0em;
+      padding: .8em;
       &:first-child {
         margin-top: 0;
       }
@@ -170,7 +170,7 @@ header {
     font-size: 3.5em; 
     // font-style: italic;
     font-weight: 100;
-    text-transform: lowercase;
+    text-transform: uppercase;
     letter-spacing: -2px;
   }
   a {
