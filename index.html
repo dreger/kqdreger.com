@@ -6,6 +6,6 @@ layout: default
 <h2 class="title">Things I've written</h2>
 <div class="list">
 <ul> 
-{% for post in site.posts %}<li><a class="h1" href="{{ post.url }}">{{ post.title }}</a><span class="post-date">{{ post.date | date: "%b %d, %Y" }}</li>{% endfor %} 
+{% for post in site.posts %}<li><a class="h2" href="{{ post.url }}">{{ post.title }}</a><span class="post-date">{{ post.date | date: "%b %d, %Y" }}</li>{% endfor %} 
 </ul>
 </div>

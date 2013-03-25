@@ -63,7 +63,7 @@ body {
 a {
   color: #444;
   text-decoration: none;
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #ddd;
   padding-bottom: -2px; }
 
 a:hover {
@@ -86,7 +86,9 @@ small {
 .list {
   clear: both;
   text-align: left;
-  font-weight: 900; }
+  font-weight: 500;
+  font-family: proxima-nova, sans-serif;
+  text-transform: lowercase; }
   .list a {
     border-bottom: none; }
   .list .post-date {
@@ -95,13 +97,16 @@ small {
     margin: 0;
     padding: 0; }
     .list ul li {
-      list-style: none;
-      margin: 0em;
-      padding: .8em; }
+      margin: .5em 0em;
+      list-style: none; }
+      .list ul li a {
+        padding: .5em;
+        display: block;
+        border-left: 1px solid #eee; }
+        .list ul li a:active {
+          background-color: #eee; }
       .list ul li:first-child {
         margin-top: 0; }
-      .list ul li:nth-child(odd) {
-        background-color: #eee; }
 
 .wrapper {
   max-width: 50rem;
@@ -123,7 +128,7 @@ header {
   padding: 0px; }
   header h1 {
     font-size: 3.5em;
-    font-weight: 100;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -2px; }
   header a {
@@ -159,8 +164,12 @@ hr.line {
     margin: 0; }
 
 #title {
-  font-size: 3em;
+  font-size: 2.5em;
+  font-family: proxima-nova, sans-serif;
   font-weight: bold; }
+
+#meta {
+  font-family: proxima-nova, sans-serif; }
 
 ul {
   padding-left: 1.5rem; }
@@ -170,14 +179,14 @@ ul {
 pre {
   padding: 20px;
   background-color: #eee;
-  border: solid 3px #dddddd; }
+  border: solid 3px #ddd; }
   pre code {
     border: none;
     padding: none; }
 
 code {
   padding: 1px 5px;
-  border: 2px solid #dddddd;
+  border: 2px solid #ddd;
   background-color: #eee; }
 
 /*
