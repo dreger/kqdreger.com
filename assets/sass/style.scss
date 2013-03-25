@@ -5,7 +5,7 @@
 // Custom variables
 $color: #71b3c7;
 $dark_color: darken($color, 15%);
-$serif: skolar, serif;  
+$serif: proxima-nova, skolar, serif;  
 $sans: proxima-nova, sans-serif;
 
 $width: 50rem;
@@ -39,6 +39,10 @@ h1, h2, .h1, .h2 {
 
 }
 
+h1, h2, h3, h4 {
+  line-height: 1.1em;
+}
+
 h1, .h1 {
   font-size: 2rem;
 }
@@ -59,20 +63,13 @@ h4, .h4 {
 }
 
 p, .p, ul, li {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
 }
 
 small, .small {
   font-size: 1rem;
 }
-
-.title {
-  font-family: $sans;
-  margin: 2em 0em 1em;
-  text-transform: uppercase;
-}
-
 .sans {
   font-family: $sans;
 }
@@ -116,7 +113,7 @@ small {
   text-align: center; 
   display: block; 
   width: 100%;
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 .list {
@@ -124,25 +121,26 @@ small {
   text-align: left;
   font-weight: 500;
   font-family: $sans;
+  line-height: 1.5em;
+  margin-top: 1.5rem;
   text-transform: lowercase;
   a {
     border-bottom: none;
-  }
-  .post-date {
-    float: right;
   }
   ul {
     margin: 0;
     padding: 0; 
     li {
-      margin: .5em 0em;
+      margin: 0em;
       list-style: none;
       a {
-        padding: .5em;
-        display: block;
-        border-left: 1px solid #eee; 
-        &:active {
+        -webkit-transition: all 0.2s ease; 
+        transition: all 0.2s ease;
+        padding: .5em .2em;
+        display: inline-block;
+        &:hover {
           background-color: #eee;
+          padding: .5em 1em;
         }
       }
       &:first-child {
@@ -162,10 +160,12 @@ small {
 }
 
 .title { 
-  text-transform: uppercase;
   font-weight: 900;
+  font-size: 2em;
+  font-family: $sans;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-
 #meta {
   margin: 0;
 }
@@ -226,14 +226,7 @@ hr.line {
     }
   }
 }
-#title {
-  font-size: 2.5em;
-  font-family: $sans;
-  font-weight: bold;
-}
-#meta {
-  font-family: $sans;
-}
+
 
 
 ul {
@@ -291,6 +284,9 @@ code {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
   .post-date {
     display: none;
   }

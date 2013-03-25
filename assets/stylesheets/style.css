@@ -15,11 +15,14 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   color: #4d4d4d;
-  font-family: skolar, serif; }
+  font-family: proxima-nova, skolar, serif; }
 
 h1, h2, .h1, .h2 {
   font-weight: 500;
   line-height: 1.25; }
+
+h1, h2, h3, h4 {
+  line-height: 1.1em; }
 
 h1, .h1 {
   font-size: 2rem; }
@@ -38,22 +41,17 @@ h4, .h4 {
   text-transform: uppercase; }
 
 p, .p, ul, li {
-  font-size: 1.5rem;
-  margin-top: 1.5rem; }
+  font-size: 1.3rem;
+  margin-top: 2rem; }
 
 small, .small {
   font-size: 1rem; }
-
-.title {
-  font-family: proxima-nova, sans-serif;
-  margin: 2em 0em 1em;
-  text-transform: uppercase; }
 
 .sans {
   font-family: proxima-nova, sans-serif; }
 
 .serif {
-  font-family: skolar, serif; }
+  font-family: proxima-nova, skolar, serif; }
 
 /* Colors */
 body {
@@ -81,30 +79,32 @@ small {
   text-align: center;
   display: block;
   width: 100%;
-  margin: 1rem; }
+  margin: 1rem auto; }
 
 .list {
   clear: both;
   text-align: left;
   font-weight: 500;
   font-family: proxima-nova, sans-serif;
+  line-height: 1.5em;
+  margin-top: 1.5rem;
   text-transform: lowercase; }
   .list a {
     border-bottom: none; }
-  .list .post-date {
-    float: right; }
   .list ul {
     margin: 0;
     padding: 0; }
     .list ul li {
-      margin: .5em 0em;
+      margin: 0em;
       list-style: none; }
       .list ul li a {
-        padding: .5em;
-        display: block;
-        border-left: 1px solid #eee; }
-        .list ul li a:active {
-          background-color: #eee; }
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        padding: .5em .2em;
+        display: inline-block; }
+        .list ul li a:hover {
+          background-color: #eee;
+          padding: .5em 1em; }
       .list ul li:first-child {
         margin-top: 0; }
 
@@ -114,8 +114,11 @@ small {
   margin: 0 auto; }
 
 .title {
-  text-transform: uppercase;
-  font-weight: 900; }
+  font-weight: 900;
+  font-size: 2em;
+  font-family: proxima-nova, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
 
 #meta {
   margin: 0; }
@@ -163,14 +166,6 @@ hr.line {
     padding: 0;
     margin: 0; }
 
-#title {
-  font-size: 2.5em;
-  font-family: proxima-nova, sans-serif;
-  font-weight: bold; }
-
-#meta {
-  font-family: proxima-nova, sans-serif; }
-
 ul {
   padding-left: 1.5rem; }
   ul li {
@@ -217,6 +212,9 @@ code {
   .col:nth-child(3) {
     margin-right: 0; } }
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 14px; }
+
   .post-date {
     display: none; }
 
