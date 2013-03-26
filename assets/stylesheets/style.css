@@ -15,7 +15,7 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   color: #4d4d4d;
-  font-family: proxima-nova, skolar, serif; }
+  font-family: proxima-nova-alt, serif; }
 
 h1, h2, .h1, .h2 {
   font-weight: 500;
@@ -48,10 +48,10 @@ small, .small {
   font-size: 1rem; }
 
 .sans {
-  font-family: proxima-nova, sans-serif; }
+  font-family: proxima-nova-alt, sans-serif; }
 
 .serif {
-  font-family: proxima-nova, skolar, serif; }
+  font-family: proxima-nova-alt, serif; }
 
 /* Colors */
 body {
@@ -85,7 +85,7 @@ small {
   clear: both;
   text-align: left;
   font-weight: 500;
-  font-family: proxima-nova, sans-serif;
+  font-family: proxima-nova-alt, sans-serif;
   line-height: 1.5em;
   margin-top: 1.5rem;
   text-transform: lowercase; }
@@ -100,11 +100,11 @@ small {
       .list ul li a {
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
-        padding: .5em .2em;
+        padding: .5em .18em;
         display: inline-block; }
         .list ul li a:hover {
           background-color: #eee;
-          padding: .5em 1em; }
+          padding: .5em 1.2em; }
       .list ul li:first-child {
         margin-top: 0; }
 
@@ -116,8 +116,8 @@ small {
 .title {
   font-weight: 900;
   font-size: 2em;
-  font-family: proxima-nova, sans-serif;
-  font-weight: bold;
+  font-family: proxima-nova-alt, sans-serif;
+  font-weight: 900;
   text-transform: uppercase; }
 
 #meta {

@@ -3,10 +3,11 @@
 @import "_grid"; 
 
 // Custom variables
+// Love Skolar Web
 $color: #71b3c7;
 $dark_color: darken($color, 15%);
-$serif: proxima-nova, skolar, serif;  
-$sans: proxima-nova, sans-serif;
+$serif: proxima-nova-alt, serif;  
+$sans: proxima-nova-alt, sans-serif;
 
 $width: 50rem;
 $content_padding: 2.5em;
@@ -136,11 +137,11 @@ small {
       a {
         -webkit-transition: all 0.2s ease; 
         transition: all 0.2s ease;
-        padding: .5em .2em;
+        padding: .5em .18em;
         display: inline-block;
         &:hover {
           background-color: #eee;
-          padding: .5em 1em;
+          padding: .5em 1.2em;
         }
       }
       &:first-child {
@@ -163,7 +164,7 @@ small {
   font-weight: 900;
   font-size: 2em;
   font-family: $sans;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
 }
 #meta {
