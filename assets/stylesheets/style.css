@@ -75,7 +75,8 @@ small {
   clear: both;
   font-family: nudista-web, serif;
   text-transform: uppercase;
-  font-size: 1.5em; }
+  font-size: 1.3em;
+  font-weight: 900; }
   .list a {
     border-bottom: none; }
   .list ul {
@@ -85,14 +86,14 @@ small {
       margin: .5em 0em;
       list-style: none; }
       .list ul li a {
-        -webkit-transition: all 0.16s ease;
-        transition: all 0.2s ease;
+        -webkit-transition: all 0.1s ease;
+        transition: all 0.1s ease;
         padding: .5em;
-        border-left: 10px solid #eeeeee;
+        background-color: #eeeeee;
         display: inline-block; }
         .list ul li a:hover {
           background-color: #eeeeee;
-          padding: .5em 1.2em; }
+          padding-left: 1em; }
       .list ul li:first-child {
         margin-top: 0; }
 

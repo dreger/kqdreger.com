@@ -111,7 +111,8 @@ small {
   clear: both;
   font-family: $font_header;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  font-weight: 900;
   a {
     border-bottom: none;
   }
@@ -122,16 +123,17 @@ small {
       margin: .5em 0em;
       list-style: none;
       a {
-        -webkit-transition: all 0.16s ease; 
-        transition: all 0.2s ease;
+        -webkit-transition: all 0.1s ease; 
+        transition: all 0.1s ease;
         padding: .5em;
-        border-left: 10px solid $gray_light;
+        background-color: $gray_light;
+        // border-left: 10px solid $gray_light;
         display: inline-block;
         &:hover {
           background-color: $gray_light;
-          padding: .5em 1.2em;
+          padding-left: 1em;
         }
-      }
+      } 
       &:first-child {
         margin-top: 0;
       }
