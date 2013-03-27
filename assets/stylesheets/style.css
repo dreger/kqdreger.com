@@ -9,49 +9,39 @@
 
 /* Typography */
 body {
-  font-family: "skolar", serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  color: #4d4d4d;
-  font-family: proxima-nova-alt, serif; }
-
-h1, h2, .h1, .h2 {
-  font-weight: 500;
-  line-height: 1.25; }
+  font-family: ff-tisa-web-pro, sans-serif, sans;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #4d4d4d; }
 
 h1, h2, h3, h4 {
-  line-height: 1.1em; }
+  line-height: 1.1em;
+  font-family: nudista-web, serif; }
 
-h1, .h1 {
-  font-size: 2rem; }
+h1 {
+  font-size: 2em;
+  font-weight: 900; }
+  h1 a {
+    border-bottom: none; }
 
-h2, .h2 {
-  font-size: 1.5rem; }
+h2 {
+  font-size: 1.8em; }
 
-h3, .h3 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+h3 {
+  font-size: 1.4em;
+  margin: 1.5em 0em;
   text-transform: uppercase; }
 
-h4, .h4 {
-  font-size: 1.5rem;
+h4 {
+  font-size: 1.2em;
   text-transform: uppercase; }
 
-p, .p, ul, li {
-  font-size: 1.3rem;
-  margin-top: 2rem; }
+p, ul, li {
+  margin-top: 2em; }
 
 small, .small {
-  font-size: 1rem; }
-
-.sans {
-  font-family: proxima-nova-alt, sans-serif; }
-
-.serif {
-  font-family: proxima-nova-alt, serif; }
+  font-size: 1em; }
 
 /* Colors */
 body {
@@ -61,17 +51,17 @@ body {
 a {
   color: #444;
   text-decoration: none;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #cacaca;
   padding-bottom: -2px; }
 
 a:hover {
-  color: #0cc; }
+  color: #00cccc; }
 
 /* Layout */
 img {
   display: block;
   width: 100%;
-  border-radius: 5px; }
+  border-radius: 3px; }
 
 small {
   font-size: .9em;
@@ -83,59 +73,53 @@ small {
 
 .list {
   clear: both;
-  text-align: left;
-  font-weight: 500;
-  font-family: proxima-nova-alt, sans-serif;
-  line-height: 1.5em;
-  margin-top: 1.5rem;
-  text-transform: lowercase; }
+  font-family: nudista-web, serif;
+  text-transform: uppercase;
+  font-size: 1.5em; }
   .list a {
     border-bottom: none; }
   .list ul {
     margin: 0;
     padding: 0; }
     .list ul li {
-      margin: 0em;
+      margin: .5em 0em;
       list-style: none; }
       .list ul li a {
-        -webkit-transition: all 0.2s ease;
+        -webkit-transition: all 0.16s ease;
         transition: all 0.2s ease;
-        padding: .5em .18em;
+        padding: .5em;
+        border-left: 10px solid #eeeeee;
         display: inline-block; }
         .list ul li a:hover {
-          background-color: #eee;
+          background-color: #eeeeee;
           padding: .5em 1.2em; }
       .list ul li:first-child {
         margin-top: 0; }
 
 .wrapper {
-  max-width: 50rem;
-  padding: 0 5%;
+  max-width: 45rem;
+  padding: 5% 0;
+  padding-bottom: 0;
   margin: 0 auto; }
 
-.title {
-  font-weight: 900;
-  font-size: 2em;
-  font-family: proxima-nova-alt, sans-serif;
-  font-weight: 900;
-  text-transform: uppercase; }
-
-#meta {
-  margin: 0; }
-
 header {
-  margin: 0;
-  margin-top: 3em;
-  border-radius: 5px;
   border-top: none;
-  padding: 0px; }
-  header h1 {
-    font-size: 3.5em;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: -2px; }
-  header a {
-    border-bottom: none; }
+  margin-bottom: 2.5em;
+  color: #eee; }
+
+.big {
+  font-size: 3.5em;
+  font-weight: 900;
+  font-weight: 900;
+  color: #00cccc;
+  text-transform: uppercase;
+  letter-spacing: -3px; }
+
+.date {
+  color: #cacaca; }
+
+.right {
+  text-align: right; }
 
 hr.line {
   border: 0;
@@ -148,8 +132,7 @@ hr.line {
 
 .footer {
   text-align: center;
-  font-size: 1.5em;
-  margin: 4em 0em;
+  margin: 3.5em 0em;
   width: 100%; }
 
 .article p, .article blockquote, .article ul {
@@ -158,7 +141,7 @@ hr.line {
   padding-top: 0;
   margin-top: 0; }
 .article blockquote {
-  border-left: 1px solid #cccccc;
+  border-left: 1px solid #cacaca;
   padding: 10px 0px 10px 20px;
   color: #777;
   margin-left: 1.5em; }

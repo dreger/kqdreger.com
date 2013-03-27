@@ -1,11 +1,8 @@
 ---
 layout: default
 ---
-<!-- <p class="h1">Welcome to the website of a guy who loves desiging things for the web. Need <a href="/colophon">more</a>?</p> -->
-
-<h2 class="title">Posts:</h2>
 <div class="list">
 <ul> 
-{% for post in site.posts %}<li><a class="h2" href="{{ post.url }}">&rsaquo;&rsaquo; {{ post.title }}</a><span class="post-date">{{ post.date | date: "%b %d, %Y" }}</li>{% endfor %} 
+{% for post in site.posts %}<li><a href="{{ post.url }}">{{ post.title }}</a><span class="post-date">{{ post.date | date: "%b %d, %Y" }}</li>{% endfor %} 
 </ul>
 </div>
