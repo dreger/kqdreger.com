@@ -166,7 +166,8 @@ pre {
 code {
   padding: 1px 5px;
   border: 2px solid #ddd;
-  background-color: #eee; }
+  background-color: #eee;
+  font-size: .9em; }
 
 /*
     Build a responsive web.
