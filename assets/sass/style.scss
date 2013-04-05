@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  line-height: 1.1em;
+  line-height: 1em;
   font-family: $font_header;
 }
 
@@ -124,14 +124,15 @@ small {
       list-style: none;
       a {
         -webkit-transition: all 0.1s ease; 
-        transition: all 0.1s ease;
+        transition: all 0.13s ease;
         padding: .5em;
         background-color: $gray_light;
         // border-left: 10px solid $gray_light;
         display: inline-block;
         &:hover {
           background-color: $gray_light;
-          padding-left: 1em;
+          padding-left: .5em;
+          border-left: 10px solid $color;
         }
       } 
       &:first-child {
@@ -210,7 +211,7 @@ hr.line {
 
 
 
-ul {
+ul, ol {
   padding-left: 1.5rem; 
   li {
     margin: 8px 0px;

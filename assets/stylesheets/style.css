@@ -16,7 +16,7 @@ body {
   color: #4d4d4d; }
 
 h1, h2, h3, h4 {
-  line-height: 1.1em;
+  line-height: 1em;
   font-family: nudista-web, serif; }
 
 h1 {
@@ -87,13 +87,14 @@ small {
       list-style: none; }
       .list ul li a {
         -webkit-transition: all 0.1s ease;
-        transition: all 0.1s ease;
+        transition: all 0.13s ease;
         padding: .5em;
         background-color: #eeeeee;
         display: inline-block; }
         .list ul li a:hover {
           background-color: #eeeeee;
-          padding-left: 1em; }
+          padding-left: .5em;
+          border-left: 10px solid #00cccc; }
       .list ul li:first-child {
         margin-top: 0; }
 
@@ -150,9 +151,9 @@ hr.line {
     padding: 0;
     margin: 0; }
 
-ul {
+ul, ol {
   padding-left: 1.5rem; }
-  ul li {
+  ul li, ol li {
     margin: 8px 0px; }
 
 pre {
