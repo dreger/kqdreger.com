@@ -86,12 +86,15 @@ small {
       margin: .5em 0em;
       list-style: none; }
       .list ul li a {
-        -webkit-transition: all 0.1s ease;
-        transition: all 0.13s ease;
+        -webkit-transition: all 0.12s ease;
+        transition: all 0.12s ease;
         padding: .5em;
         background-color: #eeeeee;
+        border-left: 0px solid #eeeeee;
         display: inline-block; }
         .list ul li a:hover {
+          -webkit-transition: all 0.12s ease;
+          transition: all 0.12s ease;
           background-color: #eeeeee;
           padding-left: .5em;
           border-left: 10px solid #00cccc; }
