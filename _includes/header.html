@@ -1,4 +1,16 @@
 <header>
-<h1 class="big"><a href="/">drgr</a><br>{% if page.title %} <span id="title">{{page.title}}</span><br><span class="date">{{ page.date | date: "%b %Y" }}</span>{% endif %}</h1>
+<h1 class="big"><a href="/">Drgr's</a><br>{% if page.title %} <span id="title">{{page.title}}</span><br><span class="date">{{ page.date | date: "%b %Y" }}</span>{% else %}<span id="title">Weblog</span><br><span class="date"><script type="text/javascript">
+var d=new Date();
+var weekday=new Array(7); 
+weekday[0]="Sunday";
+weekday[1]="Monday";
+weekday[2]="Tuesday";
+weekday[3]="Wednesday";
+weekday[4]="Thursday";
+weekday[5]="Friday";
+weekday[6]="Saturday";
+var n = weekday[d.getDay()];
+document.write("Happy "+n)
+</script></span>{% endif %}</h1>
 </header>
 <!-- <hr class="line"> -->
