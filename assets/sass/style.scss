@@ -1,21 +1,21 @@
-@import "css3/_transition";  
-@import "css3/_prefixer"; 
-@import "_grid"; 
+@import "css3/_transition";
+@import "css3/_prefixer";
+@import "_grid";
 
 // Custom variables
 // Love Skolar Web #71b3c7 0cc
 $color: #0cc;
-$color: #ff8000; 
+$color: #ff8000;
 $color: #db4a29;
 $color: #00a47a;
 $dark_color: darken($color, 15%);
-$font_header: nudista-web, serif;  
+$font_header: nudista-web, serif;
 $font_body: ff-tisa-web-pro, sans-serif;
 
 $width: 45rem;
 $content_padding: 2.5em;
 $text: #4d4d4d;
-$gray: #cacaca; 
+$gray: #cacaca;
 $gray_light: #eee;
 $highlight: lighten($color, 35%);
 * {
@@ -32,7 +32,7 @@ body {
   font-family: $font_body, sans;
   font-size: 18px;
   line-height: 1.6em;
-  color: $text; 
+  color: $text;
 }
 
 h1, h2, h3, h4 {
@@ -44,7 +44,7 @@ h1 {
   font-size: 2em;
   font-weight: 900;
   a {
-    border-bottom: none; 
+    border-bottom: none;
   }
 }
 h2 {
@@ -94,7 +94,7 @@ a:hover {
 /* Layout */
 
 
-img { 
+img {
   display: block;
   width: 100%;
   border-radius: 3px;
@@ -103,8 +103,8 @@ img {
 small {
   font-size: .9em;
   font-style: italic;
-  text-align: center; 
-  display: block; 
+  text-align: center;
+  display: block;
   width: 100%;
   margin: 1rem auto;
 }
@@ -120,26 +120,26 @@ small {
   }
   ul {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     margin-top: 2em;
     li {
       margin: .5em 0em;
       list-style: none;
       a {
-        -webkit-transition: all 0.12s ease; 
+        -webkit-transition: all 0.12s ease;
         transition: all 0.12s ease;
         padding: .5em;
         background-color: $gray_light;
         border-left: 0px solid $gray_light;
         display: inline-block;
         &:hover {
-          -webkit-transition: all 0.12s ease; 
+          -webkit-transition: all 0.12s ease;
           transition: all 0.12s ease;
           background-color: $gray_light;
           padding-left: .5em;
           border-left: 10px solid $color;
         }
-      } 
+      }
       &:first-child {
         margin-top: 0;
       }
@@ -148,9 +148,9 @@ small {
 }
 
 .wrapper {
-  max-width: $width; 
+  max-width: $width;
   padding: 5%;
-  padding-bottom: 0; 
+  padding-bottom: 0;
   margin: 0 auto;
 }
 
@@ -160,8 +160,8 @@ header {
   color: #eee;
 }
 
-.big { 
-  font-size: 3.5em; 
+.big {
+  font-size: 3.5em;
   font-weight: 900;
   font-weight: 900;
   color: $color;
@@ -188,7 +188,7 @@ hr.line {
 
 .footer {
   text-align: center;
-  margin: 3.5em 0em; 
+  margin: 3.5em 0em;
   width: 100%;
 }
 
@@ -217,7 +217,7 @@ hr.line {
 
 
 ul, ol {
-  padding-left: 1.5rem; 
+  padding-left: 1.5rem;
   li {
     margin: 8px 0px;
   }
@@ -242,7 +242,7 @@ code {
     Build a responsive web.
     Thanks @beep
 
-    Grid thanks to 
+    Grid thanks to
     http://jxnblk.com/
     The dude's a rockstar
 */
