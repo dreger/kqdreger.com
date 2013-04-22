@@ -115,7 +115,8 @@ small {
 header {
   border-top: none;
   margin: 3em auto 5em;
-  text-align: center; }
+  text-align: center;
+  width: 90%; }
   header .profile {
     overflow: auto;
     display: block;
