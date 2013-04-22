@@ -1,19 +1,19 @@
 # standard jekyll configuration
 # source: ./_src
 # destination: ./_site
-permalink: /:title
+permalink: /posts/:title
 pygments: true
 auto: true
 markdown: rdiscount
 
-# required configuration 
-domain: kyledreger.com
+# required configuration
+domain: dreger.co
 title: Kyle Dreger
 author: Kyle Dreger
 email: me@kyledreger.com
 description: "Jesus is life. Simplicity is freedom. Rise."
 
-typekit: 
+typekit:
   id: eqd7pqa
 google_analytics:
   account: UA-17208416-19
