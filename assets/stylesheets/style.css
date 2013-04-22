@@ -114,16 +114,15 @@ small {
 
 header {
   border-top: none;
-  margin: 4em auto;
-  color: #eeeeee;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  text-align: center;
-  border: 10px solid #eeeeee;
-  overflow: auto; }
-  header img {
+  margin: 3em auto 5em;
+  text-align: center; }
+  header .profile {
+    overflow: auto;
     display: block;
+    border: 5px solid #eeeeee;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
     margin: 0 auto; }
 
 .big {
