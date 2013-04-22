@@ -13,23 +13,24 @@ body {
   font-family: ff-tisa-web-pro, sans-serif, sans;
   font-size: 19px;
   line-height: 1.6em;
-  color: #4d4d4d; }
+  color: #4d4d4d;
+  border-top: solid 15px #64c5e6; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
   font-family: nudista-web, serif; }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 900; }
   h1 a {
     border-bottom: none; }
 
 h2 {
-  font-size: 1.8em; }
+  font-size: 1.95em; }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin: 1.5em 0em;
   text-transform: uppercase; }
 
@@ -113,9 +114,17 @@ small {
 
 header {
   border-top: none;
-  margin-bottom: 2.5em;
-  color: #eee;
-  text-align: center; }
+  margin: 4em auto;
+  color: #eeeeee;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  text-align: center;
+  border: 10px solid #eeeeee;
+  overflow: auto; }
+  header img {
+    display: block;
+    margin: 0 auto; }
 
 .big {
   font-size: 3em;
@@ -159,6 +168,10 @@ hr.line {
   .article blockquote p:last-child {
     padding: 0;
     margin: 0; }
+
+.article-title {
+  text-align: center;
+  font-family: ff-tisa-web-pro, sans-serif; }
 
 ul, ol {
   padding-left: 1.5rem; }
@@ -209,6 +222,9 @@ code {
 @media screen and (max-width: 768px) {
   body {
     font-size: 16px; }
+
+  .header {
+    margin-bottom: 2em; }
 
   .post-date {
     display: none; }
