@@ -11,7 +11,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   font-family: ff-tisa-web-pro, sans-serif, sans;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.6em;
   color: #4d4d4d; }
 
@@ -55,6 +55,9 @@ a {
   padding-bottom: -2px; }
 
 a:hover {
+  color: #64c5e6; }
+
+.color {
   color: #64c5e6; }
 
 /* Layout */
@@ -103,15 +106,16 @@ small {
 
 .wrapper {
   max-width: 45rem;
-  padding: 5%;
+  padding: 0% 5%;
   padding-bottom: 0;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 4em; }
 
 header {
   border-top: none;
-  text-align: center;
   margin-bottom: 2.5em;
-  color: #eee; }
+  color: #eee;
+  text-align: right; }
 
 .big {
   font-size: 3em;
@@ -122,7 +126,8 @@ header {
   letter-spacing: -2px; }
 
 .date {
-  color: #cacaca; }
+  color: #cacaca;
+  text-transform: uppercase; }
 
 .right {
   text-align: right; }
