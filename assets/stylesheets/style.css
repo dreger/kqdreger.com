@@ -14,11 +14,11 @@ body {
   font-size: 19px;
   line-height: 1.6em;
   color: #4d4d4d;
-  border-top: solid 15px #64c5e6; }
+  border-top: solid 10px #00cccc; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
-  font-family: nudista-web, serif; }
+  font-family: ff-tisa-web-pro, nudista-web, serif; }
 
 h1 {
   font-size: 2.2em;
@@ -56,10 +56,10 @@ a {
   padding-bottom: -2px; }
 
 a:hover {
-  color: #64c5e6; }
+  color: #00cccc; }
 
 .color {
-  color: #64c5e6; }
+  color: #00cccc; }
 
 /* Layout */
 img {
@@ -77,10 +77,11 @@ small {
 
 .list {
   clear: both;
-  font-family: nudista-web, serif;
+  font-family: ff-tisa-web-pro, nudista-web, serif;
   text-transform: uppercase;
   font-size: 1.3em;
-  font-weight: 900; }
+  font-weight: 900;
+  text-align: center; }
   .list a {
     border-bottom: none; }
   .list ul {
@@ -94,14 +95,7 @@ small {
         -webkit-transition: all 0.12s ease;
         transition: all 0.12s ease;
         padding: .5em;
-        border: 10px solid #eeeeee;
         display: inline-block; }
-        .list ul li a:hover {
-          -webkit-transition: all 0.12s ease;
-          transition: all 0.12s ease;
-          background-color: #eeeeee;
-          padding-left: .5em;
-          border-left: 10px solid #64c5e6; }
       .list ul li:first-child {
         margin-top: 0; }
 
@@ -114,13 +108,13 @@ small {
 
 header {
   border-top: none;
-  margin: 3em auto 5em;
+  margin: 2em auto 5em;
   text-align: center;
   width: 90%; }
   header .profile {
     overflow: auto;
     display: block;
-    border: 5px solid #eeeeee;
+    border: 5px solid #cacaca;
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -130,7 +124,7 @@ header {
   font-size: 3em;
   font-weight: 900;
   font-weight: 900;
-  color: #64c5e6;
+  color: #00cccc;
   text-transform: uppercase;
   letter-spacing: -2px; }
 
