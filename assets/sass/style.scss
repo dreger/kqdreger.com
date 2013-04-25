@@ -5,10 +5,10 @@
 // Custom variables
 // Love Skolar Web #71b3c7 0cc
 $color: #ff8000;
-$color: #64c5e6;
 $color: #00a47a;
 $color: #db4a29;
 $color: #0cc;
+$color: #2A8FBD;
 $dark_color: darken($color, 15%);
 $font_header: ff-tisa-web-pro, nudista-web, serif;
 $font_body: ff-tisa-web-pro, sans-serif;
@@ -34,7 +34,7 @@ body {
   font-size: 19px;
   line-height: 1.6em;
   color: $text;
-  border-top: solid 10px $color;
+  border-top: solid 15px $color;
 }
 
 h1, h2, h3, h4 {
@@ -117,9 +117,9 @@ small {
   clear: both;
   font-family: $font_header;
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: 900;
-  text-align: center;
+  text-align: left;
   a {
     border-bottom: none;
   }
@@ -133,15 +133,15 @@ small {
       a {
         -webkit-transition: all 0.12s ease;
         transition: all 0.12s ease;
-        padding: .5em;
-        // background-color: $gray_light;
-        // border: 10px solid $gray_light;
+        padding: .3em;
+        background-color: $gray_light;
+        border: 10px solid $gray_light;
         // border-left: 0px solid $gray_light;
         display: inline-block;
         &:hover {
-          // -webkit-transition: all 0.12s ease;
-          // transition: all 0.12s ease;
-          // background-color: $gray_light;
+          -webkit-transition: all 0.12s ease;
+          transition: all 0.12s ease;
+          background-color: $gray_light;
           // padding-left: .5em;
           // border-left: 10px solid $color;
         }
@@ -164,16 +164,15 @@ small {
 header {
   border-top: none;
   margin: 2em auto 5em;
-  text-align: center;
-  width: 90%;
+  text-align: left;
+  // width: 90%;
   .profile {
     overflow: auto;
     display: block;
-    border: 5px solid $gray;
     border-radius: 100%;
     width: 150px;
     height: 150px;
-    margin: 0 auto;
+    margin: 0;
   }
 }
 
@@ -233,7 +232,7 @@ hr.line {
 }
 
 .article-title {
-  text-align: center;
+  text-align: left;
   font-family: $font_body;
 }
 
