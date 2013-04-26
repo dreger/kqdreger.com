@@ -3,7 +3,7 @@ layout: post
 title: Eight days without Facebook
 ---
 
-It’s been eight days since [I deactivated my Facebook account](http://kyledreger.com/byebye-facebook/). After being truly logged out for more than a week, here are a few of the interesting things I’ve noticed:
+It’s been eight days since [I deactivated my Facebook account](http://dreger.co/weblog/byebye-facebook/). After being truly logged out for more than a week, here are a few of the interesting things I’ve noticed:
 
 ### Facebook: the 40 minute hour
 
