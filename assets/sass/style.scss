@@ -10,8 +10,9 @@ $color: #db4a29;
 $color: #0cc;
 $color: #2A8FBD;
 $dark_color: darken($color, 15%);
-$font_header: ff-tisa-web-pro, nudista-web, serif;
-$font_body: ff-tisa-web-pro, sans-serif;
+$font_stack: open-sans, "Avenir", "Tahoma", sans-serif;
+$font_header: $font_stack;
+$font_body: $font_stack;
 
 $width: 45rem;
 $content_padding: 2.5em;
@@ -34,7 +35,7 @@ body {
   font-size: 19px;
   line-height: 1.6em;
   color: $text;
-  border-top: solid 15px $color;
+  border-bottom: solid 30px $color;
 }
 
 h1, h2, h3, h4 {
