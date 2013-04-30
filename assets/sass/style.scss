@@ -5,16 +5,16 @@
 // Custom variables
 // Love Skolar Web #71b3c7 0cc
 $color: #ff8000;
+$color: #2A8FBD;
+$color: #0cc;
 $color: #00a47a;
 $color: #db4a29;
-$color: #0cc;
-$color: #2A8FBD;
 $dark_color: darken($color, 15%);
-$font_stack: open-sans, "Avenir", "Tahoma", sans-serif;
+$font_stack: "Avenir Next", open-sans, "Tahoma", sans-serif;
 $font_header: $font_stack;
 $font_body: $font_stack;
 
-$width: 45rem;
+$width: 40rem;
 $content_padding: 2.5em;
 $text: #4d4d4d;
 $gray: #cacaca;
@@ -32,10 +32,10 @@ $highlight: lighten($color, 35%);
 body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 1.6em;
   color: $text;
-  border-bottom: solid 30px $color;
+  border-bottom: solid 40px #333;
 }
 
 h1, h2, h3, h4 {
@@ -101,8 +101,9 @@ a:hover {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   border-radius: 3px;
+  height: auto !important;
 }
 
 small {
@@ -130,13 +131,16 @@ small {
     margin-top: 2em;
     li {
       margin: .5em 0em;
+      padding: 0;
       list-style: none;
       a {
         -webkit-transition: all 0.12s ease;
         transition: all 0.12s ease;
-        padding: .3em;
+        padding: .8em;
+        margin: 0;
         background-color: $gray_light;
-        border: 10px solid $gray_light;
+        font-weight: 700;
+        // border: 10px solid $gray_light;
         // border-left: 0px solid $gray_light;
         display: inline-block;
         &:hover {
@@ -171,8 +175,8 @@ header {
     overflow: auto;
     display: block;
     border-radius: 100%;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: 0;
   }
 }
