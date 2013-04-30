@@ -137,7 +137,8 @@ header {
 
 .date {
   color: #cacaca;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .right {
   text-align: right; }
