@@ -56,10 +56,10 @@ a {
   padding-bottom: -2px; }
 
 a:hover {
-  color: #db4a29; }
+  color: #00cccc; }
 
 .color {
-  color: #db4a29; }
+  color: #00cccc; }
 
 /* Layout */
 img {
@@ -122,16 +122,19 @@ header {
   header .profile {
     overflow: auto;
     display: block;
-    border-radius: 100%;
-    width: 120px;
-    height: 120px;
-    margin: 0; }
+    width: 150px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    background-color: #00cccc; }
+    header .profile img {
+      border-radius: 0px; }
 
 .big {
   font-size: 3em;
   font-weight: 900;
   font-weight: 900;
-  color: #db4a29;
+  color: #00cccc;
   text-transform: uppercase;
   letter-spacing: -2px; }
 
