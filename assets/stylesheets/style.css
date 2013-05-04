@@ -9,6 +9,7 @@
 
 /* Typography */
 body {
+  background: url("/assets/images/graph.png") top right no-repeat;
   -webkit-font-smoothing: antialiased;
   font-family: "Avenir Next", open-sans, "Tahoma", sans-serif, sans;
   font-size: 15px;
@@ -223,6 +224,7 @@ code {
     margin-right: 0; } }
 @media screen and (max-width: 768px) {
   body {
+    background: none;
     font-size: 16px; }
 
   .header {
