@@ -1,3 +1,3 @@
-# Kyle's notes
+# dreger.co
 
-A small weblog edited by Kyle Dreger. Hosted on [Github](http://github.com/dreger)
+A small weblog edited by Kyle Dreger. Proudly hosted on [GitHub](http://github.com/dreger).
