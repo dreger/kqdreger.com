@@ -89,25 +89,32 @@ small {
   .list ul {
     margin: 0;
     padding: 0;
-    margin-top: 2em; }
+    margin-top: -3em; }
     .list ul li {
-      margin: .5em 0em;
+      margin: .3em 0em;
       padding: 0;
       list-style: none; }
       .list ul li a {
         -webkit-transition: all 0.12s ease;
         transition: all 0.12s ease;
-        padding: .8em;
+        padding: .5em;
+        padding-left: 0em;
         margin: 0;
-        background-color: #eeeeee;
         font-weight: 700;
         display: inline-block; }
         .list ul li a:hover {
           -webkit-transition: all 0.12s ease;
-          transition: all 0.12s ease;
-          background-color: #eeeeee; }
+          transition: all 0.12s ease; }
       .list ul li:first-child {
         margin-top: 0; }
+
+.list-by-year {
+  color: #cacaca;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 3em; }
+  .list-by-year:first-child {
+    margin-top: none; }
 
 .wrapper {
   max-width: 41rem;
@@ -223,6 +230,9 @@ code {
   .col:nth-child(3) {
     margin-right: 0; } }
 @media screen and (max-width: 768px) {
+  .welcome {
+    display: none; }
+
   body {
     background: none;
     font-size: 16px; }
