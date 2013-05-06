@@ -4,11 +4,11 @@
 permalink:      /weblog/:title
 pygments:       true
 markdown:       rdiscount
-timezone:       nil
+# timezone:       nil
 
-future:         true
-show_drafts:    false
-limit_posts:    0
+# future:         true
+# show_drafts:    false
+# limit_posts:    0
 pygments:       true
 
 # required configuration
