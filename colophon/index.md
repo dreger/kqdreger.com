@@ -2,12 +2,13 @@
 layout: default
 title: Colophon
 ---
+## Colophon
+Kyle Dreger is a writer and designer. This website serves as an outlet for his creative writing endeavors. Unfortunately, he's not very good at writing in the third person, so I'm going to stop before harm befalls any innocent pronouns.
+
 ![el two amigos](http://cargo.kyledreger.com.s3.amazonaws.com/me-and-nathan.jpg)
 <small>my brother (right) and I (left)</small>
 
-Kyle Dreger is a writer and designer. This website serves as an outlet for his creative writing endeavors. Unfortunately, he's not very good at writing in the third person, so I'm going to stop before harm befalls any innocent pronouns.
-
-Originally at [kyledreger.com](http://kyledreger.com), I started this site in the fall of 2010 when I began attending the [University of Mount Union](http://mountunion.edu). I enjoy writing, and do so here on various topics. I believe in God ([#teamJesus](http://bible.us/116/psa.1.3.nlt)), love technology and building cool things with it, play soccer, and have the most beautiful girlfriend in the world - no contest.
+Founded in the fall of 2010 when [I began attending]({% post_url 2010-08-27-hello-college %}) the University of Mount Union, I've written here on a diverse subset of topics. Much of my inspiration comes from a faith in in God ([#teamJesus](http://bible.us/116/psa.1.3.nlt)), and a love for building beautiful software. Offline, I play soccer and have the most beautiful girlfriend in the world.
 
 If you'd like to get in touch, shoot an email to <hi@kyledreger.com> or mention @dreger on [Twitter](http://twitter.com/dreger) / (more frequently) [App.net](http://alpha.app.net/dreger).
 

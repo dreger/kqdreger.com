@@ -30,8 +30,9 @@ h2 {
   font-size: 1.95em; }
 
 h3 {
-  font-size: 1.3em;
+  font-size: .9em;
   margin: 1.5em 0em;
+  margin-bottom: 0em;
   text-transform: uppercase; }
 
 h4 {
