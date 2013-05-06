@@ -1,19 +1,24 @@
 # standard jekyll configuration
 # source: ./_src
 # destination: ./_site
-permalink: /weblog/:title
-pygments: true
-auto: true
-markdown: rdiscount
+permalink:      /weblog/:title
+pygments:       true
+markdown:       rdiscount
+timezone:       nil
+
+future:         true
+show_drafts:    false
+limit_posts:    0
+pygments:       true
 
 # required configuration
-domain: dreger.co
-title: Kyle Dreger
-author: Kyle Dreger
-email: me@kyledreger.com
-description: "Jesus is life. Simplicity is freedom. Rise."
+domain:         dreger.co
+title:          Kyle Dreger
+author:         Kyle Dreger
+email:          me@kyledreger.com
+description:    "Jesus is life. Simplicity is freedom. Rise."
 
 typekit:
-  id: eqd7pqa
+  id:           eqd7pqa
 google_analytics:
-  account: UA-17208416-19
+  account:      UA-17208416-19
