@@ -27,4 +27,4 @@ Regardless how dense Barry's graphs, no node ever overlaps any of its neighbors 
 
 For now, my random-graph-making itch has been scratched, but I hope to revisit this one day and implement a check to ensure that each new node has a little space from its neighbor. Until then, feel free to check out the [script on GitHub](https://gist.github.com/dreger/5519425) and have some fun.
 
-The final interesting thing from this experiment, that my girlfriend actually pointed out to me, is that each image really looks like a constellation. Funny, yet profound when taken in context with our own social graphs.
+The final interesting thing from this experiment, that my girlfriend actually pointed out to me, is that each image resembles a constellation. Funny, yet oddly profound when taken in context with our own social graphs and the world around us.
