@@ -26,3 +26,5 @@ However, even though the graphs from my script look similar to the ones from f8,
 Regardless how dense Barry's graphs, no node ever overlaps any of its neighbors - mine do. It's a subtle difference, but one that significantly impacted the quality of my images at the beginning. Eventually, I was able to compensate by having each node retain a slight transparency which enables you to still see individual nodes even when they overlap.
 
 For now, my random-graph-making itch has been scratched, but I hope to revisit this one day and implement a check to ensure that each new node has a little space from its neighbor. Until then, feel free to check out the [script on GitHub](https://gist.github.com/dreger/5519425) and have some fun.
+
+The final interesting thing from this experiment, that my girlfriend actually pointed out to me, is that each image really looks like a constellation. Funny, yet profound when taken in context with our own social graphs.
