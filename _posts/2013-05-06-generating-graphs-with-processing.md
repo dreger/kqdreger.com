@@ -1,5 +1,5 @@
 ---
-title: Generating Graphs with Processing
+title: Generating graphs with Processing
 layout: post
 ---
 ![one of my favorites](http://cargo.kyledreger.com.s3.amazonaws.com/graphs/graph.png)
