@@ -13,8 +13,7 @@ body {
   font-family: "Avenir Next", open-sans, "Tahoma", sans-serif, sans;
   font-size: 15px;
   line-height: 1.6em;
-  color: #4d4d4d;
-  border-bottom: solid 40px #333; }
+  color: #4d4d4d; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
@@ -130,9 +129,9 @@ header {
   header .profile {
     overflow: auto;
     display: block;
-    border-radius: 100%;
-    width: 120px;
-    height: 120px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
     margin: 0; }
 
 .big {
@@ -162,7 +161,7 @@ hr.line {
 
 .footer {
   text-align: center;
-  margin: 3.5em 0em;
+  margin: 4em 0em;
   width: 100%; }
 
 .article p, .article blockquote, .article ul {
