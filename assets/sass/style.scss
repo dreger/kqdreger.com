@@ -11,13 +11,13 @@ $color: #db4a29;
 $color: #0cc;
 $color: #2095f0;
 $dark_color: darken($color, 15%);
-$font_stack: "Avenir Next", open-sans, "Tahoma", sans-serif;
-$font_header: $font_stack;
-$font_body: $font_stack;
+$font_stack: "Avenir Next", sans-serif;
+$font_header: freight-sans-pro, $font_stack;
+$font_body: ff-tisa-web-pro, $font_stack;
 
-$width: 41rem;
+$width: 40rem;
 $content_padding: 2.5em;
-$text: #4d4d4d;
+$text: #333;
 $gray: #cacaca;
 $gray_light: #eee;
 $highlight: lighten($color, 35%);
@@ -34,8 +34,8 @@ body {
   // background: url('/assets/images/graph.png') top right no-repeat;
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 15px;
-  line-height: 1.6em;
+  font-size: 22px;
+  line-height: 1.5em;
   color: $text;
   // border-bottom: solid 40px #333;
 }
@@ -53,7 +53,7 @@ h1 {
   }
 }
 h2 {
-  font-size: 1.95em;
+  font-size: 2.4em;
 }
 h3 {
   font-size: .9em;
@@ -121,8 +121,9 @@ small {
 .list {
   clear: both;
   font-family: $font_header;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 1em;
+  line-height: .5em;
   font-weight: 900;
   text-align: left;
   a {
@@ -133,7 +134,7 @@ small {
     padding: 0;
     margin-top: -3em;
     li {
-      margin: .3em 0em;
+      // margin: 0 0;
       padding: 0;
       list-style: none;
       a {
@@ -158,8 +159,10 @@ small {
 
 .list-by-year {
   color: $gray;
+  padding: .5em 0;
   display: inline-block;
   font-weight: bold;
+  font-size: 1em;
   margin-top: 3em;
   &:first-child {
     margin-top: none;
@@ -168,23 +171,24 @@ small {
 
 .wrapper {
   max-width: $width;
-  padding: 0% 5%;
+  padding: 0;
   padding-bottom: 0;
   margin: 0 auto;
-  margin-top: 4em;
+  // margin: 2.5em;
+  margin-top: 3em;
 }
 
 header {
   border-top: none;
-  margin: 2em auto 5em;
-  text-align: left;
+  margin: 0 auto 3.5em;
+  text-align: center;
   .profile {
     overflow: auto;
     display: block;
-    border-radius: 10%;
-    width: 100px;
-    height: 100px;
-    margin: 0;
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
   }
 }
 
@@ -200,6 +204,7 @@ header {
   color: $gray;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: $font_header;
 }
 .right {
   text-align: right;
@@ -224,11 +229,14 @@ hr.line {
 
 .article {
   p,blockquote,ul {
-    margin: 1.5rem 0rem;
+    margin: 2rem 0rem;
   }
   p:first-child {
     padding-top: 0;
     margin-top: 0;
+  }
+  li {
+    margin: 1em;
   }
   blockquote {
     border-left: 2px solid $gray;
@@ -244,7 +252,7 @@ hr.line {
 
 .article-title {
   text-align: left;
-  font-family: $font_body;
+  color: #222;
 }
 
 
@@ -305,12 +313,16 @@ code {
 }
 
 @media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0% 5%;
+    margin: 2em auto;
+  }
   .welcome {
     display: none;
   }
   body {
     background: none;
-    font-size: 16px;
+    font-size: 18px;
   }
   .header {
     margin-bottom: 2em;

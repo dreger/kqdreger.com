@@ -10,14 +10,14 @@
 /* Typography */
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: "Avenir Next", open-sans, "Tahoma", sans-serif, sans;
-  font-size: 15px;
-  line-height: 1.6em;
-  color: #4d4d4d; }
+  font-family: ff-tisa-web-pro, "Avenir Next", sans-serif, sans;
+  font-size: 22px;
+  line-height: 1.5em;
+  color: #333333; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
-  font-family: "Avenir Next", open-sans, "Tahoma", sans-serif; }
+  font-family: freight-sans-pro, "Avenir Next", sans-serif; }
 
 h1 {
   font-size: 2.2em;
@@ -26,7 +26,7 @@ h1 {
     border-bottom: none; }
 
 h2 {
-  font-size: 1.95em; }
+  font-size: 2.4em; }
 
 h3 {
   font-size: .9em;
@@ -78,9 +78,10 @@ small {
 
 .list {
   clear: both;
-  font-family: "Avenir Next", open-sans, "Tahoma", sans-serif;
-  text-transform: uppercase;
+  font-family: freight-sans-pro, "Avenir Next", sans-serif;
+  text-transform: none;
   font-size: 1em;
+  line-height: .5em;
   font-weight: 900;
   text-align: left; }
   .list a {
@@ -90,7 +91,6 @@ small {
     padding: 0;
     margin-top: -3em; }
     .list ul li {
-      margin: .3em 0em;
       padding: 0;
       list-style: none; }
       .list ul li a {
@@ -109,30 +109,32 @@ small {
 
 .list-by-year {
   color: #cacaca;
+  padding: .5em 0;
   display: inline-block;
   font-weight: bold;
+  font-size: 1em;
   margin-top: 3em; }
   .list-by-year:first-child {
     margin-top: none; }
 
 .wrapper {
-  max-width: 41rem;
-  padding: 0% 5%;
+  max-width: 40rem;
+  padding: 0;
   padding-bottom: 0;
   margin: 0 auto;
-  margin-top: 4em; }
+  margin-top: 3em; }
 
 header {
   border-top: none;
-  margin: 2em auto 5em;
-  text-align: left; }
+  margin: 0 auto 3.5em;
+  text-align: center; }
   header .profile {
     overflow: auto;
     display: block;
-    border-radius: 10%;
-    width: 100px;
-    height: 100px;
-    margin: 0; }
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; }
 
 .big {
   font-size: 3em;
@@ -145,7 +147,8 @@ header {
 .date {
   color: #cacaca;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: freight-sans-pro, "Avenir Next", sans-serif; }
 
 .right {
   text-align: right; }
@@ -165,10 +168,12 @@ hr.line {
   width: 100%; }
 
 .article p, .article blockquote, .article ul {
-  margin: 1.5rem 0rem; }
+  margin: 2rem 0rem; }
 .article p:first-child {
   padding-top: 0;
   margin-top: 0; }
+.article li {
+  margin: 1em; }
 .article blockquote {
   border-left: 2px solid #cacaca;
   padding: 10px 0px 10px 15px;
@@ -180,7 +185,7 @@ hr.line {
 
 .article-title {
   text-align: left;
-  font-family: "Avenir Next", open-sans, "Tahoma", sans-serif; }
+  color: #222; }
 
 ul, ol {
   padding-left: 1.5rem; }
@@ -229,12 +234,16 @@ code {
   .col:nth-child(3) {
     margin-right: 0; } }
 @media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0% 5%;
+    margin: 2em auto; }
+
   .welcome {
     display: none; }
 
   body {
     background: none;
-    font-size: 16px; }
+    font-size: 18px; }
 
   .header {
     margin-bottom: 2em; }
