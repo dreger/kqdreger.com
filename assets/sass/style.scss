@@ -317,6 +317,9 @@ code {
 }
 
 @media screen and (max-width: 768px) {
+  .list a {
+    line-height: 1.1em;
+  }
   .wrapper {
     padding: 0% 5%;
     margin: 2em auto;
