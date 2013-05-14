@@ -15,9 +15,9 @@ $font_stack: "Avenir Next", sans-serif;
 $font_header: freight-sans-pro, $font_stack;
 $font_body: ff-tisa-web-pro, $font_stack;
 
-$width: 40rem;
+$width: 35rem;
 $content_padding: 2.5em;
-$text: #333;
+$text: #222;
 $gray: #cacaca;
 $gray_light: #eee;
 $highlight: lighten($color, 35%);
@@ -34,7 +34,7 @@ body {
   // background: url('/assets/images/graph.png') top right no-repeat;
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.5em;
   color: $text;
   // border-bottom: solid 40px #333;
@@ -67,7 +67,7 @@ h4 {
 }
 
 p, ul, li {
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 small, .small {
@@ -121,7 +121,7 @@ small {
 .list {
   clear: both;
   font-family: $font_header;
-  text-transform: none;
+  text-transform: uppercase;
   font-size: 1em;
   line-height: .5em;
   font-weight: 900;
@@ -181,14 +181,14 @@ small {
 header {
   border-top: none;
   margin: 0 auto 3.5em;
-  text-align: center;
+  text-align: left;
   .profile {
     overflow: auto;
     display: block;
     border-radius: 5%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    margin: 0 ;
   }
 }
 
@@ -229,7 +229,11 @@ hr.line {
 
 .article {
   p,blockquote,ul {
-    margin: 2rem 0rem;
+    margin: 1.5em 0;
+  }
+  p {
+    // margin: 0;
+    // text-indent: 2em;
   }
   p:first-child {
     padding-top: 0;

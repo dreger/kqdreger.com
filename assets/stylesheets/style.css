@@ -11,9 +11,9 @@
 body {
   -webkit-font-smoothing: antialiased;
   font-family: ff-tisa-web-pro, "Avenir Next", sans-serif, sans;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.5em;
-  color: #333333; }
+  color: #222222; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
@@ -39,7 +39,7 @@ h4 {
   text-transform: uppercase; }
 
 p, ul, li {
-  margin-top: 2em; }
+  margin-top: 1.5em; }
 
 small, .small {
   font-size: 1em; }
@@ -79,7 +79,7 @@ small {
 .list {
   clear: both;
   font-family: freight-sans-pro, "Avenir Next", sans-serif;
-  text-transform: none;
+  text-transform: uppercase;
   font-size: 1em;
   line-height: .5em;
   font-weight: 900;
@@ -118,7 +118,7 @@ small {
     margin-top: none; }
 
 .wrapper {
-  max-width: 40rem;
+  max-width: 35rem;
   padding: 0;
   padding-bottom: 0;
   margin: 0 auto;
@@ -127,14 +127,14 @@ small {
 header {
   border-top: none;
   margin: 0 auto 3.5em;
-  text-align: center; }
+  text-align: left; }
   header .profile {
     overflow: auto;
     display: block;
     border-radius: 5%;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto; }
+    width: 100px;
+    height: 100px;
+    margin: 0; }
 
 .big {
   font-size: 3em;
@@ -168,7 +168,7 @@ hr.line {
   width: 100%; }
 
 .article p, .article blockquote, .article ul {
-  margin: 2rem 0rem; }
+  margin: 1.5em 0; }
 .article p:first-child {
   padding-top: 0;
   margin-top: 0; }
