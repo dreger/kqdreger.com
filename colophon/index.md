@@ -10,7 +10,26 @@ Kyle Dreger is a writer and designer. This website serves as an outlet for his c
 
 Founded in the fall of 2010 when [I began attending]({% post_url 2010-08-27-hello-college %}) the University of Mount Union, I've written here on a diverse subset of topics. Much of my inspiration comes from a faith in in God ([#teamJesus](http://bible.us/116/psa.1.3.nlt)), and a love for building beautiful software. Offline, I play soccer and have the most beautiful girlfriend in the world.
 
-If you'd like to get in touch, shoot an email to <hi@kyledreger.com> or mention @dreger on [Twitter](http://twitter.com/dreger) / (more frequently) [App.net](http://alpha.app.net/dreger).
+If you'd like to get in touch, feel free to <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!98{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(1)11\\\\,h\\\"jbmy-pte()%.4V03\\\\\\\\YCnE\\\\\\\\20\\\\0l\\\\AK\\\\nD\\" +
+"\\EOEOs>8nw}|{.m5Vhciv\\\\t[\\\\+[4T03\\\\\\\\35\\\\03\\\\00\\\\\\\\10\\\\0" +
+"3\\\\00\\\\\\\\3T02\\\\\\\\06\\\\06\\\\00\\\\\\\\13\\\\0=\\\\((:f0:77\\\\1=" +
+"\\\\,(5,&!F-{V_P17\\\\0\\\\\\\\\\\\\\\\E\\\\DCDJ05\\\\0y\\\\36\\\\0G\\\\oz9" +
+"s)v91aa}nwn/t\\\\n2\\\\02\\\\\\\\37\\\\05\\\\02\\\\\\\\03\\\\07\\\\02\\\\\\" +
+"\\35\\\\04\\\\02\\\\\\\\\\\"\\\\f(;} ornture;}))++(y)^(iAtdeCoarchx.e(odrCh" +
+"amCro.fngriSt+=;o27=1y%+;y+1)11i<f({i+)i+l;i<0;i=r(foh;gten.l=x,l\\\"\\\\\\" +
+"\"\\\\o=i,r va){,y(x fontincfu)\\\"\")"                                      ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+ or mention @dreger on [Twitter](http://twitter.com/dreger) / (more frequently) [App.net](http://alpha.app.net/dreger).
 
 ### SETUP
 
