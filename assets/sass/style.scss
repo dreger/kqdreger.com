@@ -2,33 +2,25 @@
 @import "css3/_prefixer";
 @import "_grid";
 
-// Custom variables
-// Love Skolar Web #71b3c7 0cc
-$color: #ff8000;
-$color: #2A8FBD;
-$color: #00a47a;
-$color: #db4a29;
-$color: #0cc;
 $color: #2095f0;
 $dark_color: darken($color, 15%);
 $font_stack: "Avenir Next", sans-serif;
 $font_header: freight-sans-pro, $font_stack;
 $font_body: ff-tisa-web-pro, $font_stack;
-
 $width: 34rem;
 $content_padding: 2.5em;
 $text: #242424;
 $gray: #cacaca;
 $gray_light: #eee;
 $highlight: lighten($color, 35%);
+
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
-
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* Typography */
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -36,6 +28,7 @@ body {
   font-size: 18px;
   line-height: 1.56em;
   color: $text;
+  background-color: #fff;
 }
 
 h1, h2, h3, h4 {
@@ -50,9 +43,11 @@ h1 {
     border-bottom: none;
   }
 }
+
 h2 {
   font-size: 2.4em;
 }
+
 h3 {
   font-size: 1.6em;
   margin: 1.5em 0 0;
@@ -60,12 +55,11 @@ h3 {
     margin-top: .2em;
   }
 }
+
 h4 {
   font-size: 1.1em;
   text-transform: uppercase;
 }
-
-
 
 p, blockquote,ul {
   margin: 1.2em 0;
@@ -75,23 +69,17 @@ small, .small {
   font-size: 1em;
 }
 
-
-
-/* Colors */
-
-body {
-  color: $text;
-  background-color: #fff;
-}
-
 a {
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid $gray;
-}
-
-a:hover {
-  color: $color;
+  -webkit-transition: all 0.12s ease;
+  transition: all 0.12s ease;
+  &:hover {
+    -webkit-transition: all 0.12s ease;
+    transition: all 0.12s ease;
+    color: $color;
+  }
 }
 
 .color {
@@ -126,32 +114,20 @@ small {
   line-height: .5em;
   font-weight: 900;
   text-align: left;
-  a {
-    border-bottom: none;
-  }
   ul {
     margin: 0;
     padding: 0;
     margin-top: -3em;
     li {
-      // margin: 0 0;
       padding: 0;
       list-style: none;
       a {
-        -webkit-transition: all 0.12s ease;
-        transition: all 0.12s ease;
+        border-bottom: none;
         padding: .4em;
         padding-left: 0em;
         margin: 0;
         font-weight: 700;
         display: inline-block;
-        &:hover {
-          -webkit-transition: all 0.12s ease;
-          transition: all 0.12s ease;
-        }
-      }
-      &:first-child {
-        margin-top: 0;
       }
     }
   }
@@ -199,25 +175,16 @@ header {
   text-transform: uppercase;
   letter-spacing: -2px;
 }
+
 .date {
   color: $gray;
   text-transform: uppercase;
   font-weight: bold;
   font-family: $font_header;
 }
+
 .right {
   text-align: right;
-}
-
-
-hr.line {
-  border: 0;
-  height: 2px;
-  background-image: -webkit-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -moz-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -ms-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
-  background-image: -o-linear-gradient(left, rgba(190,190,190,0.75), rgba(190,190,190,0));
-  margin: 2.5em 0em;
 }
 
 .footer {
@@ -226,6 +193,14 @@ hr.line {
   width: 100%;
 }
 
+
+.article-title {
+  text-align: left;
+  color: #222;
+  & + p {
+    margin-top: .5em;
+  }
+}
 .article {
   p:first-child {
     padding-top: 0;
@@ -245,16 +220,6 @@ hr.line {
     }
   }
 }
-
-.article-title {
-  text-align: left;
-  color: #222;
-  & + p {
-    margin-top: .5em;
-  }
-}
-
-
 
 ul, ol {
   padding-left: 1.5rem;
@@ -281,35 +246,7 @@ code {
 /*
     Build a responsive web.
     Thanks @beep
-
-    Grid thanks to
-    http://jxnblk.com/
-    The dude's a rockstar
 */
-
-
-/* Desktop Grid */
-
-@media screen and (min-width: 768px) {
-  .post-date {
-    display: none;
-  }
-  .row:after {
-    clear: both;
-    content: '.';
-    display: block;
-    height: 0;
-    visibility: hidden;
-  }
-  .col {
-    float: left;
-    width: 30%;
-    margin-right: 5%;
-  }
-  .col:nth-child(3) {
-    margin-right: 0;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .list a {

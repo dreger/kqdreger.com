@@ -1,19 +1,17 @@
 * {
   margin: 0;
-  padding: 0; }
-
-* {
-  -moz-box-sizing: border-box;
+  padding: 0;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* Typography */
 body {
   -webkit-font-smoothing: antialiased;
   font-family: ff-tisa-web-pro, "Avenir Next", sans-serif, sans;
   font-size: 18px;
   line-height: 1.56em;
-  color: #242424; }
+  color: #242424;
+  background-color: #fff; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
@@ -44,18 +42,16 @@ p, blockquote, ul {
 small, .small {
   font-size: 1em; }
 
-/* Colors */
-body {
-  color: #242424;
-  background-color: #fff; }
-
 a {
   color: #000;
   text-decoration: none;
-  border-bottom: 1px solid #cacaca; }
-
-a:hover {
-  color: #2095f0; }
+  border-bottom: 1px solid #cacaca;
+  -webkit-transition: all 0.12s ease;
+  transition: all 0.12s ease; }
+  a:hover {
+    -webkit-transition: all 0.12s ease;
+    transition: all 0.12s ease;
+    color: #2095f0; }
 
 .color {
   color: #2095f0; }
@@ -83,8 +79,6 @@ small {
   line-height: .5em;
   font-weight: 900;
   text-align: left; }
-  .list a {
-    border-bottom: none; }
   .list ul {
     margin: 0;
     padding: 0;
@@ -93,18 +87,12 @@ small {
       padding: 0;
       list-style: none; }
       .list ul li a {
-        -webkit-transition: all 0.12s ease;
-        transition: all 0.12s ease;
+        border-bottom: none;
         padding: .4em;
         padding-left: 0em;
         margin: 0;
         font-weight: 700;
         display: inline-block; }
-        .list ul li a:hover {
-          -webkit-transition: all 0.12s ease;
-          transition: all 0.12s ease; }
-      .list ul li:first-child {
-        margin-top: 0; }
 
 .list-by-year {
   color: #cacaca;
@@ -152,19 +140,16 @@ header {
 .right {
   text-align: right; }
 
-hr.line {
-  border: 0;
-  height: 2px;
-  background-image: -webkit-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  background-image: -moz-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  background-image: -ms-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  background-image: -o-linear-gradient(left, rgba(190, 190, 190, 0.75), rgba(190, 190, 190, 0));
-  margin: 2.5em 0em; }
-
 .footer {
   text-align: center;
   margin: 4em 0em;
   width: 100%; }
+
+.article-title {
+  text-align: left;
+  color: #222; }
+  .article-title + p {
+    margin-top: .5em; }
 
 .article p:first-child {
   padding-top: 0;
@@ -179,12 +164,6 @@ hr.line {
   .article blockquote p:last-child {
     padding: 0;
     margin: 0; }
-
-.article-title {
-  text-align: left;
-  color: #222; }
-  .article-title + p {
-    margin-top: .5em; }
 
 ul, ol {
   padding-left: 1.5rem; }
@@ -208,30 +187,7 @@ code {
 /*
     Build a responsive web.
     Thanks @beep
-
-    Grid thanks to
-    http://jxnblk.com/
-    The dude's a rockstar
 */
-/* Desktop Grid */
-@media screen and (min-width: 768px) {
-  .post-date {
-    display: none; }
-
-  .row:after {
-    clear: both;
-    content: '.';
-    display: block;
-    height: 0;
-    visibility: hidden; }
-
-  .col {
-    float: left;
-    width: 30%;
-    margin-right: 5%; }
-
-  .col:nth-child(3) {
-    margin-right: 0; } }
 @media screen and (max-width: 768px) {
   .list a {
     line-height: 1.1em; }
