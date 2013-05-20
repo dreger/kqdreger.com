@@ -11,9 +11,9 @@
 body {
   -webkit-font-smoothing: antialiased;
   font-family: ff-tisa-web-pro, "Avenir Next", sans-serif, sans;
-  font-size: 16px;
-  line-height: 1.5em;
-  color: #333333; }
+  font-size: 18px;
+  line-height: 1.56em;
+  color: #242424; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
@@ -29,31 +29,30 @@ h2 {
   font-size: 2.4em; }
 
 h3 {
-  font-size: 1.1em;
-  margin: 1.5em 0em;
-  margin-bottom: 0em;
-  text-transform: uppercase; }
+  font-size: 1.6em;
+  margin: 1.5em 0 0; }
+  h3 + p {
+    margin-top: .2em; }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-transform: uppercase; }
 
-p, ul, li {
-  margin-top: 1.5em; }
+p, blockquote, ul {
+  margin: 1.2em 0; }
 
 small, .small {
   font-size: 1em; }
 
 /* Colors */
 body {
-  color: #333333;
+  color: #242424;
   background-color: #fff; }
 
 a {
   color: #000;
   text-decoration: none;
-  border-bottom: 2px solid #cacaca;
-  padding-bottom: -2px; }
+  border-bottom: 1px solid #cacaca; }
 
 a:hover {
   color: #2095f0; }
@@ -79,7 +78,7 @@ small {
 .list {
   clear: both;
   font-family: freight-sans-pro, "Avenir Next", sans-serif;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 1em;
   line-height: .5em;
   font-weight: 900;
@@ -96,7 +95,7 @@ small {
       .list ul li a {
         -webkit-transition: all 0.12s ease;
         transition: all 0.12s ease;
-        padding: .5em;
+        padding: .4em;
         padding-left: 0em;
         margin: 0;
         font-weight: 700;
@@ -113,12 +112,12 @@ small {
   display: inline-block;
   font-weight: bold;
   font-size: 1em;
-  margin-top: 3em; }
+  margin-top: 2.8em; }
   .list-by-year:first-child {
     margin-top: none; }
 
 .wrapper {
-  max-width: 35rem;
+  max-width: 34rem;
   padding: 0;
   padding-bottom: 0;
   margin: 0 auto;
@@ -127,14 +126,14 @@ small {
 header {
   border-top: none;
   margin: 0 auto 3.5em;
-  text-align: left; }
+  text-align: center; }
   header .profile {
     overflow: auto;
     display: block;
     border-radius: 100%;
     width: 120px;
     height: 120px;
-    margin: 0; }
+    margin: 1em auto; }
 
 .big {
   font-size: 3em;
@@ -167,18 +166,16 @@ hr.line {
   margin: 4em 0em;
   width: 100%; }
 
-.article p, .article blockquote, .article ul {
-  margin: 1.5em 0; }
 .article p:first-child {
   padding-top: 0;
   margin-top: 0; }
 .article li {
   margin: 1em; }
 .article blockquote {
-  border-left: 2px solid #cacaca;
-  padding: 10px 0px 10px 15px;
+  border-left: 8px solid #cacaca;
+  padding: 10px 0 10px 15px;
   color: #777;
-  margin-left: 1em; }
+  margin-left: 0; }
   .article blockquote p:last-child {
     padding: 0;
     margin: 0; }
@@ -186,6 +183,8 @@ hr.line {
 .article-title {
   text-align: left;
   color: #222; }
+  .article-title + p {
+    margin-top: .5em; }
 
 ul, ol {
   padding-left: 1.5rem; }
