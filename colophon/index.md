@@ -5,7 +5,7 @@ title: Colophon
 ## Colophon
 Kyle Dreger is a writer and designer. This website serves as an outlet for his creative writing endeavors. Unfortunately, he's not very good at writing in the third person, so I'm going to stop before harm befalls any innocent pronouns.
 
-![el two amigos](http://cargo.kyledreger.com.s3.amazonaws.com/me-and-nathan.jpg)
+![el dos amigos](http://cargo.kyledreger.com.s3.amazonaws.com/me-and-nathan.jpg)
 <small>my brother (right) and I (left)</small>
 
 Founded in the fall of 2010 when [I began attending]({% post_url 2010-08-27-hello-college %}) the University of Mount Union, I've written here on a diverse subset of topics. Much of my inspiration comes from a faith in in God ([#teamJesus](http://bible.us/116/psa.1.3.nlt)), and a love for building beautiful software. Offline, I play soccer and have the most beautiful girlfriend in the world.
