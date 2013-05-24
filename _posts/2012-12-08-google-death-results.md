@@ -49,6 +49,6 @@ I don't know what put me in an introspective mood this morning, but I spent some
 
 I actually had to start the research over about halfway through my first attempt. The query I used initially left out the word "age," which returned lots of items not related to human death. By including "age" I noticed the results were much more accurate for my goals. If anyone has a better query in mind, I'd love to hear about it.
 
-You can contact me on Twitter at [@dreger](http://twitter.com/dreger), or shoot an email to <hi@kyledreger.com>.
+You can contact me on Twitter at [@kyledreger](http://twitter.com/kyledreger), or shoot an email to <hi@kyledreger.com>.
 
 

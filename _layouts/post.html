@@ -6,8 +6,8 @@
 {% include header.html %}
 <div class="article">
 <h2 class="article-title">{{ page.title }}</h2>
+<p><span class="date">Published on {{ page.date | date: "%b %d, %Y" }}</span></p>
 {{ content }}
-<p><span class="date">{{ page.date | date: "%b %Y" }}</span></p>
 </div>
 </div>
 {% include footer.html %}

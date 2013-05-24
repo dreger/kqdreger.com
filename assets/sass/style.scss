@@ -2,7 +2,7 @@
 @import "css3/_prefixer";
 @import "_grid";
 
-$color: #5597B5;
+$color: #a1b53b;
 $dark_color: darken($color, 15%);
 $font_stack: "Avenir Next", sans-serif;
 $font_header: freight-sans-pro, $font_stack;
@@ -26,7 +26,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
   font-size: 16px;
-  line-height: 1.63em;
+  line-height: 1.53em;
   color: $text;
   background-color: #FDFDFD;
 }
@@ -34,28 +34,28 @@ body {
 h1, h2, h3, h4 {
   line-height: 1em;
   font-family: $font_header;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: #222;
+  }
 }
 
 h1 {
-  font-size: 2.2em;
-  font-weight: 900;
-  a {
-    border-bottom: none;
-  }
+  font-size: 2em;
+  font-weight: 400;
+
 }
 
 h2 {
-  font-size: 2.4em;
-  a {
-    border-bottom: none;
-  }
+  font-size: 1.8em;
 }
 
 h3 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   margin: 1.5em 0 0;
   & + p {
-    margin-top: .3em;
+    margin-top: .2em;
   }
 }
 
@@ -65,7 +65,7 @@ h4 {
 }
 
 p, blockquote,ul {
-  margin: 1.5em 0;
+  margin: 1.2em 0;
 }
 
 small, .small {
@@ -73,15 +73,18 @@ small, .small {
 }
 
 a {
-  color: #000;
+  color: $color;
   text-decoration: none;
-  border-bottom: 1px solid $gray;
+  // border-bottom: 1px solid $gray;
   -webkit-transition: all 0.12s ease;
   transition: all 0.12s ease;
+  // &:visited {
+  //   color: #e97f2a;
+  // }
   &:hover {
     -webkit-transition: all 0.12s ease;
     transition: all 0.12s ease;
-    color: $color;
+    color: #222;
   }
 }
 
@@ -93,8 +96,18 @@ a {
 /* Layout */
 
 #title {
-  font-size: 4.2em;
+  font-size: 2.5em;
+  font-weight: 900;
 }
+
+ol.index {
+  font-family: $font_header;
+  li {
+    list-style: square;
+    color: $gray;
+  }
+}
+
 
 img {
   display: block;
@@ -153,7 +166,7 @@ small {
 
 .wrapper {
   max-width: $width;
-  padding: 0;
+  padding: 0 5%;
   padding-bottom: 0;
   margin: 0 auto;
   margin-top: 3em;
@@ -184,7 +197,6 @@ header {
 
 .date {
   color: $gray;
-  text-transform: uppercase;
   font-weight: bold;
   font-family: $font_header;
 }
@@ -204,7 +216,7 @@ header {
   text-align: left;
   color: #222;
   & + p {
-    margin-top: .5em;
+    margin-top: .2em;
   }
 }
 .article {
@@ -237,7 +249,7 @@ ul, ol {
 pre {
   padding: 20px;
   background-color: #eee;
-  border: solid 3px #ddd;
+  border: solid 2px #ddd;
   code {
     border: none;
     padding: none;
@@ -245,9 +257,9 @@ pre {
 }
 code {
   padding: 1px 5px;
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   background-color: #eee;
-  font-size: .9em;
+  font-size: .8em;
 }
 
 /*
@@ -256,30 +268,30 @@ code {
 */
 
 @media screen and (max-width: 768px) {
-  .list {
-    font-size: 1.5em;
-  }
-  .list a {
-    line-height: 1em;
-  }
-  .wrapper {
-    padding: 0% 5%;
-    margin: 2em auto;
-  }
-  .welcome {
-    display: none;
-  }
-  body {
-    background: none;
-    font-size: 18px;
-  }
-  .header {
-    margin-bottom: 2em;
-  }
-  .post-date {
-    display: none;
-  }
-  .title {
-    margin-top: 2em;
-  }
+  // .list {
+  //   font-size: 1.5em;
+  // }
+  // .list a {
+  //   line-height: 1em;
+  // }
+  // .wrapper {
+  //   padding: 0% 5%;
+  //   margin: 2em auto;
+  // }
+  // .welcome {
+  //   display: none;
+  // }
+  // body {
+  //   background: none;
+  //   font-size: 18px;
+  // }
+  // .header {
+  //   margin-bottom: 2em;
+  // }
+  // .post-date {
+  //   display: none;
+  // }
+  // .title {
+  //   margin-top: 2em;
+  // }
 }
