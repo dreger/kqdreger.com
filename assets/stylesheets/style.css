@@ -45,7 +45,7 @@ small, .small {
   font-size: 1em; }
 
 a {
-  color: #a1b53b;
+  color: #00aacc;
   text-decoration: none;
   -webkit-transition: all 0.12s ease;
   transition: all 0.12s ease; }
@@ -55,7 +55,7 @@ a {
     color: #222; }
 
 .color {
-  color: #a1b53b; }
+  color: #00aacc; }
 
 /* Layout */
 #title {
@@ -66,7 +66,7 @@ ol.index {
   font-family: freight-sans-pro, "Avenir Next", sans-serif; }
   ol.index li {
     list-style: square;
-    color: #cacaca; }
+    color: #cccccc; }
 
 img {
   display: block;
@@ -106,7 +106,7 @@ small {
         display: inline-block; }
 
 .list-by-year {
-  color: #cacaca;
+  color: #cccccc;
   padding: .5em 0;
   display: inline-block;
   font-weight: bold;
@@ -120,30 +120,37 @@ small {
   padding: 0 5%;
   padding-bottom: 0;
   margin: 0 auto;
-  margin-top: 3em; }
+  margin-top: 6em; }
 
 header {
   border-top: none;
   margin: 0 auto 3.5em;
-  text-align: left; }
+  text-align: left;
+  font-family: freight-sans-pro, "Avenir Next", sans-serif; }
   header .profile {
+    font-weight: 100;
+    text-transform: uppercase;
     overflow: auto;
-    display: block;
-    border-radius: 100%;
-    width: 120px;
-    height: 120px;
-    margin: 1em auto; }
+    font-size: .85em;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: solid 1px #ddd;
+    padding: .5em 1em;
+    margin: 0;
+    color: #aaa; }
+    header .profile:hover {
+      color: #00aacc; }
 
 .big {
   font-size: 3em;
   font-weight: 900;
   font-weight: 900;
-  color: #a1b53b;
+  color: #00aacc;
   text-transform: uppercase;
   letter-spacing: -2px; }
 
 .date {
-  color: #cacaca;
+  color: #cccccc;
   font-weight: bold;
   font-family: freight-sans-pro, "Avenir Next", sans-serif; }
 
@@ -169,7 +176,7 @@ header {
   .article li {
     margin: 1em; }
   .article blockquote {
-    border-left: 8px solid #cacaca;
+    border-left: 8px solid #cccccc;
     padding: 10px 0 10px 15px;
     color: #777;
     margin-left: 0; }

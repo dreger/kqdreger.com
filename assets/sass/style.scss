@@ -2,7 +2,7 @@
 @import "css3/_prefixer";
 @import "_grid";
 
-$color: #a1b53b;
+$color: #0ac;
 $dark_color: darken($color, 15%);
 $font_stack: "Avenir Next", sans-serif;
 $font_header: freight-sans-pro, $font_stack;
@@ -10,7 +10,7 @@ $font_body: ff-tisa-web-pro, $font_stack;
 $width: 36rem;
 $content_padding: 2.5em;
 $text: #222222;
-$gray: #cacaca;
+$gray: #ccc;
 $gray_light: #eee;
 $highlight: lighten($color, 35%);
 
@@ -169,20 +169,30 @@ small {
   padding: 0 5%;
   padding-bottom: 0;
   margin: 0 auto;
-  margin-top: 3em;
+  margin-top: 6em;
 }
 
 header {
   border-top: none;
   margin: 0 auto 3.5em;
   text-align: left;
+  font-family: $font_header;
   .profile {
+    font-weight: 100;
+    text-transform: uppercase;
     overflow: auto;
-    display: block;
-    border-radius: 100%;
-    width: 120px;
-    height: 120px;
-    margin: 1em auto;
+    font-size: .85em;
+    letter-spacing: 1px;
+    display: inline-block;
+    // border-radius: 100%;
+    border: solid 1px #ddd;
+    padding: .5em 1em;
+    margin: 0;
+    color: #aaa;
+    &:hover {
+      color: $color;
+    }
+    // background-color: #f;
   }
 }
 
