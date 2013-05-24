@@ -3,12 +3,12 @@ title: Generating graphs with Processing
 layout: post
 ---
 
-[Ben Barry's post](http://designforfun.com/display.php?id=128) on designing the 2011 Facebook f8 Conference remains one of my favorite pieces about design on the internet. As I was reading back through it the other day, I came across how Barry had gone about generating those signature Facebook graph images:
+[Ben Barry's post](http://designforfun.com/display.php?id=128) on designing the 2011 Facebook f8 Conference remains one of my favorite pieces about design on the internet. As I was reading back through it the other day, I came across how Barry had gone about generating those signature Facebook graph images.
+
+<!--break-->
 
 > While working on [f8 2010](http://designforfun.com/display.php?id=99) we developed a rudimentary Processing script that allowed us to generate graph imagery. For 2011 we dusted it off and polished it up. With a some additional work we developed a robust tool that allowed us to rapidly iterate and develop graphics for a variety of applications. Because of the speed and flexibility it afforded us the entire graphic system for this years f8 was built using imagery generated with Processing.
 
-<!-- ![one of my favorites](http://cargo.kyledreger.com.s3.amazonaws.com/graphs/graph.png)
-<small>one of my many generated graphs</small> -->
 
 With nothing to do on my Saturday night, I downloaded [Processing](http://www.processing.org/) and thought I'd try to recreate Barry's technique.
 

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="list">
+<ul>
+{% for post in site.posts %}
+{% unless post.next %}
+<li><span class="list-by-year">{{ post.date | date: '%Y' }}</span></li>
+{% else %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% if year != nyear %}
+<li><span class="list-by-year">{{ post.date | date: '%Y' }}</span></li>
+{% endif %}
+{% endunless %}
+
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+{% endfor %}
+</ul>
+</div>

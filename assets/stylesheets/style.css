@@ -8,7 +8,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   font-family: ff-tisa-web-pro, "Avenir Next", sans-serif, sans;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.63em;
   color: #222222;
   background-color: #FDFDFD; }
@@ -25,6 +25,8 @@ h1 {
 
 h2 {
   font-size: 2.4em; }
+  h2 a {
+    border-bottom: none; }
 
 h3 {
   font-size: 1.6em;
@@ -58,7 +60,7 @@ a {
 
 /* Layout */
 #title {
-  font-size: 4em; }
+  font-size: 4.2em; }
 
 img {
   display: block;
@@ -78,8 +80,8 @@ small {
   clear: both;
   font-family: freight-sans-pro, "Avenir Next", sans-serif;
   text-transform: none;
-  font-size: 1em;
-  line-height: .5em;
+  font-size: 1.2em;
+  line-height: 1em;
   font-weight: 900;
   text-align: left; }
   .list ul {
@@ -108,7 +110,7 @@ small {
     margin-top: none; }
 
 .wrapper {
-  max-width: 35rem;
+  max-width: 36rem;
   padding: 0;
   padding-bottom: 0;
   margin: 0 auto;
@@ -117,7 +119,7 @@ small {
 header {
   border-top: none;
   margin: 0 auto 3.5em;
-  text-align: center; }
+  text-align: left; }
   header .profile {
     overflow: auto;
     display: block;
@@ -154,19 +156,21 @@ header {
   .article-title + p {
     margin-top: .5em; }
 
-.article p:first-child {
-  padding-top: 0;
-  margin-top: 0; }
-.article li {
-  margin: 1em; }
-.article blockquote {
-  border-left: 8px solid #cacaca;
-  padding: 10px 0 10px 15px;
-  color: #777;
-  margin-left: 0; }
-  .article blockquote p:last-child {
-    padding: 0;
-    margin: 0; }
+.article {
+  margin-bottom: 5em; }
+  .article p:first-child {
+    padding-top: 0;
+    margin-top: 0; }
+  .article li {
+    margin: 1em; }
+  .article blockquote {
+    border-left: 8px solid #cacaca;
+    padding: 10px 0 10px 15px;
+    color: #777;
+    margin-left: 0; }
+    .article blockquote p:last-child {
+      padding: 0;
+      margin: 0; }
 
 ul, ol {
   padding-left: 1.5rem; }
@@ -192,8 +196,11 @@ code {
     Thanks @beep
 */
 @media screen and (max-width: 768px) {
+  .list {
+    font-size: 1.5em; }
+
   .list a {
-    line-height: 1.1em; }
+    line-height: 1em; }
 
   .wrapper {
     padding: 0% 5%;

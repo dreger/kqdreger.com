@@ -1,21 +1,15 @@
 ---
 layout: default
 ---
-<div class="list">
-<ul>
-{% for post in site.posts %}
-{% unless post.next %}
-<li><span class="list-by-year">{{ post.date | date: '%Y' }}</span></li>
-{% else %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-{% if year != nyear %}
-<li><span class="list-by-year">{{ post.date | date: '%Y' }}</span></li>
-{% endif %}
-{% endunless %}
-
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-
+{% for post in site.posts limit:10 %}
+<article class="article">
+<h2 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<p><span class="date">{{ post.date | date: "%b %d, %Y" }}</span></p>
+{{ post.content | split:'<!--break-->' | first }}
+   {% if post.content contains '<!--break-->' %}
+      <a href="{{ post.url }}">Read more &rarr;</a>
+   {% endif %}
+</article>
 {% endfor %}
-</ul>
-</div>
+
+<h2><a href="/archive">Archive &rarr;</a></h2>

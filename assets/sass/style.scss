@@ -7,7 +7,7 @@ $dark_color: darken($color, 15%);
 $font_stack: "Avenir Next", sans-serif;
 $font_header: freight-sans-pro, $font_stack;
 $font_body: ff-tisa-web-pro, $font_stack;
-$width: 35rem;
+$width: 36rem;
 $content_padding: 2.5em;
 $text: #222222;
 $gray: #cacaca;
@@ -25,7 +25,7 @@ $highlight: lighten($color, 35%);
 body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.63em;
   color: $text;
   background-color: #FDFDFD;
@@ -46,6 +46,9 @@ h1 {
 
 h2 {
   font-size: 2.4em;
+  a {
+    border-bottom: none;
+  }
 }
 
 h3 {
@@ -90,7 +93,7 @@ a {
 /* Layout */
 
 #title {
-  font-size: 4em;
+  font-size: 4.2em;
 }
 
 img {
@@ -113,8 +116,8 @@ small {
   clear: both;
   font-family: $font_header;
   text-transform: none;
-  font-size: 1em;
-  line-height: .5em;
+  font-size: 1.2em;
+  line-height: 1em;
   font-weight: 900;
   text-align: left;
   ul {
@@ -159,7 +162,7 @@ small {
 header {
   border-top: none;
   margin: 0 auto 3.5em;
-  text-align: center;
+  text-align: left;
   .profile {
     overflow: auto;
     display: block;
@@ -205,6 +208,7 @@ header {
   }
 }
 .article {
+  margin-bottom: 5em;
   p:first-child {
     padding-top: 0;
     margin-top: 0;
@@ -252,8 +256,11 @@ code {
 */
 
 @media screen and (max-width: 768px) {
+  .list {
+    font-size: 1.5em;
+  }
   .list a {
-    line-height: 1.1em;
+    line-height: 1em;
   }
   .wrapper {
     padding: 0% 5%;
