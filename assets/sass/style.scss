@@ -2,14 +2,14 @@
 @import "css3/_prefixer";
 @import "_grid";
 
-$color: #2095f0;
+$color: #5597B5;
 $dark_color: darken($color, 15%);
 $font_stack: "Avenir Next", sans-serif;
 $font_header: freight-sans-pro, $font_stack;
 $font_body: ff-tisa-web-pro, $font_stack;
-$width: 34rem;
+$width: 35rem;
 $content_padding: 2.5em;
-$text: #242424;
+$text: #222222;
 $gray: #cacaca;
 $gray_light: #eee;
 $highlight: lighten($color, 35%);
@@ -26,9 +26,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
   font-size: 18px;
-  line-height: 1.56em;
+  line-height: 1.63em;
   color: $text;
-  background-color: #fff;
+  background-color: #FDFDFD;
 }
 
 h1, h2, h3, h4 {
@@ -52,7 +52,7 @@ h3 {
   font-size: 1.6em;
   margin: 1.5em 0 0;
   & + p {
-    margin-top: .2em;
+    margin-top: .3em;
   }
 }
 
@@ -62,7 +62,7 @@ h4 {
 }
 
 p, blockquote,ul {
-  margin: 1.2em 0;
+  margin: 1.5em 0;
 }
 
 small, .small {
@@ -89,6 +89,9 @@ a {
 
 /* Layout */
 
+#title {
+  font-size: 4em;
+}
 
 img {
   display: block;
