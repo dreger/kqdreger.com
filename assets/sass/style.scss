@@ -1,15 +1,11 @@
-@import "css3/_transition";
-
-
-
-$color: #0ac;
-$dark_color: darken($color, 15%);
-$font_stack: "Avenir Next", sans-serif;
-$font_header: freight-sans-pro, $font_stack;
-$font_body: ff-tisa-web-pro, $font_stack;
+$color: #B6C581;
+$color: #996078;
+$font_stack: open-sans, "Avenir Next", sans-serif;
+$font_header: $font_stack;
+$font_body: $font_stack;
 $width: 36rem;
-$content_padding: 2.5em;
-$text: #222222;
+$text: #333;
+$color_header: #222;
 $gray: #ccc;
 $gray_light: #eee;
 $highlight: lighten($color, 35%);
@@ -25,10 +21,11 @@ $highlight: lighten($color, 35%);
 body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.53em;
   color: $text;
   background-color: #FDFDFD;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4 {
@@ -43,8 +40,6 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 2em;
-  font-weight: 400;
-
 }
 
 h2 {
@@ -68,36 +63,17 @@ p, blockquote,ul {
   margin: 1.2em 0;
 }
 
-small, .small {
-  font-size: 1em;
-}
 
 a {
   color: $color;
-  text-decoration: none;
-  // border-bottom: 1px solid $gray;
+  // text-decoration: none;
   -webkit-transition: all 0.12s ease;
   transition: all 0.12s ease;
-  // &:visited {
-  //   color: #e97f2a;
-  // }
   &:hover {
     -webkit-transition: all 0.12s ease;
     transition: all 0.12s ease;
     color: #222;
   }
-}
-
-.color {
-  color: $color;
-}
-
-
-/* Layout */
-
-#title {
-  font-size: 2.5em;
-  font-weight: 900;
 }
 
 ol.index {
@@ -108,11 +84,10 @@ ol.index {
   }
 }
 
-
 img {
   display: block;
   max-width: 100%;
-  border-radius: 3px;
+  border-radius: 0px;
   height: auto !important;
 }
 
@@ -125,44 +100,6 @@ small {
   margin: 1rem auto;
 }
 
-.list {
-  clear: both;
-  font-family: $font_header;
-  text-transform: none;
-  font-size: 1.2em;
-  line-height: 1em;
-  font-weight: 900;
-  text-align: left;
-  ul {
-    margin: 0;
-    padding: 0;
-    margin-top: -3em;
-    li {
-      padding: 0;
-      list-style: none;
-      a {
-        border-bottom: none;
-        padding: .4em;
-        padding-left: 0em;
-        margin: 0;
-        font-weight: 700;
-        display: inline-block;
-      }
-    }
-  }
-}
-
-.list-by-year {
-  color: $gray;
-  padding: .5em 0;
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1em;
-  margin-top: 2.8em;
-  &:first-child {
-    margin-top: none;
-  }
-}
 
 .wrapper {
   max-width: $width;
@@ -177,33 +114,26 @@ header {
   margin: 0 auto 3.5em;
   text-align: left;
   font-family: $font_header;
-  .profile {
-    font-weight: 100;
-    text-transform: uppercase;
-    overflow: auto;
-    font-size: .8em;
-    letter-spacing: 1px;
-    display: inline-block;
-    // border-radius: 100%;
-    border: solid 1px #ddd;
-    padding: .5em 1em;
-    margin: 0;
-    color: #aaa;
-    &:hover {
-      color: $color;
-    }
-    // background-color: #f;
+}
+
+.profile {
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+  font-size: .75em;
+  letter-spacing: 1px;
+  display: inline-block;
+  border: solid 1px #ddd;
+  padding: .5em 1em;
+  color: #aaa;
+  text-decoration: none;
+  &:hover {
+    background-color: $color;
+    color: #fff;
+    border: solid 1px $color;
   }
 }
 
-.big {
-  font-size: 3em;
-  font-weight: 900;
-  font-weight: 900;
-  color: $color;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-}
 
 .date {
   color: $gray;
@@ -224,7 +154,7 @@ header {
 
 .article-title {
   text-align: left;
-  color: #222;
+  color: $color_header;
   & + p {
     margin-top: .2em;
   }
@@ -235,18 +165,16 @@ header {
     padding-top: 0;
     margin-top: 0;
   }
-  li {
-    margin: 1em;
-  }
-  blockquote {
-    border-left: 1px solid $gray;
-    padding: 10px 0 10px 15px;
-    color: #777;
-    margin-left: 0;
-    p:last-child {
-      padding: 0;
-      margin: 0;
-    }
+}
+
+blockquote {
+  border-left: 1px solid $gray;
+  padding: 10px 0 10px 15px;
+  color: #777;
+  margin-left: 0;
+  p:last-child {
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -256,6 +184,7 @@ ul, ol {
     margin: 8px 0px;
   }
 }
+
 pre {
   padding: 20px;
   background-color: #eee;
@@ -270,38 +199,4 @@ code {
   border: 1px solid #ddd;
   background-color: #eee;
   font-size: .8em;
-}
-
-/*
-    Build a responsive web.
-    Thanks @beep
-*/
-
-@media screen and (max-width: 768px) {
-  // .list {
-  //   font-size: 1.5em;
-  // }
-  // .list a {
-  //   line-height: 1em;
-  // }
-  // .wrapper {
-  //   padding: 0% 5%;
-  //   margin: 2em auto;
-  // }
-  // .welcome {
-  //   display: none;
-  // }
-  // body {
-  //   background: none;
-  //   font-size: 18px;
-  // }
-  // .header {
-  //   margin-bottom: 2em;
-  // }
-  // .post-date {
-  //   display: none;
-  // }
-  // .title {
-  //   margin-top: 2em;
-  // }
 }

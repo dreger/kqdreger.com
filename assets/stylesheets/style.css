@@ -7,23 +7,23 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: ff-tisa-web-pro, "Avenir Next", sans-serif, sans;
-  font-size: 16px;
+  font-family: open-sans, "Avenir Next", sans-serif, sans;
+  font-size: 15px;
   line-height: 1.53em;
-  color: #222222;
-  background-color: #FDFDFD; }
+  color: #333333;
+  background-color: #FDFDFD;
+  font-weight: 400; }
 
 h1, h2, h3, h4 {
   line-height: 1em;
-  font-family: freight-sans-pro, "Avenir Next", sans-serif;
+  font-family: open-sans, "Avenir Next", sans-serif;
   font-weight: bold; }
   h1 a, h2 a, h3 a, h4 a {
     text-decoration: none;
     color: #222; }
 
 h1 {
-  font-size: 2em;
-  font-weight: 400; }
+  font-size: 2em; }
 
 h2 {
   font-size: 1.8em; }
@@ -41,12 +41,8 @@ h4 {
 p, blockquote, ul {
   margin: 1.2em 0; }
 
-small, .small {
-  font-size: 1em; }
-
 a {
-  color: #00aacc;
-  text-decoration: none;
+  color: #996078;
   -webkit-transition: all 0.12s ease;
   transition: all 0.12s ease; }
   a:hover {
@@ -54,16 +50,8 @@ a {
     transition: all 0.12s ease;
     color: #222; }
 
-.color {
-  color: #00aacc; }
-
-/* Layout */
-#title {
-  font-size: 2.5em;
-  font-weight: 900; }
-
 ol.index {
-  font-family: freight-sans-pro, "Avenir Next", sans-serif; }
+  font-family: open-sans, "Avenir Next", sans-serif; }
   ol.index li {
     list-style: square;
     color: #cccccc; }
@@ -71,7 +59,7 @@ ol.index {
 img {
   display: block;
   max-width: 100%;
-  border-radius: 3px;
+  border-radius: 0px;
   height: auto !important; }
 
 small {
@@ -81,39 +69,6 @@ small {
   display: block;
   width: 100%;
   margin: 1rem auto; }
-
-.list {
-  clear: both;
-  font-family: freight-sans-pro, "Avenir Next", sans-serif;
-  text-transform: none;
-  font-size: 1.2em;
-  line-height: 1em;
-  font-weight: 900;
-  text-align: left; }
-  .list ul {
-    margin: 0;
-    padding: 0;
-    margin-top: -3em; }
-    .list ul li {
-      padding: 0;
-      list-style: none; }
-      .list ul li a {
-        border-bottom: none;
-        padding: .4em;
-        padding-left: 0em;
-        margin: 0;
-        font-weight: 700;
-        display: inline-block; }
-
-.list-by-year {
-  color: #cccccc;
-  padding: .5em 0;
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1em;
-  margin-top: 2.8em; }
-  .list-by-year:first-child {
-    margin-top: none; }
 
 .wrapper {
   max-width: 36rem;
@@ -126,33 +81,28 @@ header {
   border-top: none;
   margin: 0 auto 3.5em;
   text-align: left;
-  font-family: freight-sans-pro, "Avenir Next", sans-serif; }
-  header .profile {
-    font-weight: 100;
-    text-transform: uppercase;
-    overflow: auto;
-    font-size: .8em;
-    letter-spacing: 1px;
-    display: inline-block;
-    border: solid 1px #ddd;
-    padding: .5em 1em;
-    margin: 0;
-    color: #aaa; }
-    header .profile:hover {
-      color: #00aacc; }
+  font-family: open-sans, "Avenir Next", sans-serif; }
 
-.big {
-  font-size: 3em;
-  font-weight: 900;
-  font-weight: 900;
-  color: #00aacc;
+.profile {
   text-transform: uppercase;
-  letter-spacing: -2px; }
+  margin: 0 auto;
+  padding: 0;
+  font-size: .75em;
+  letter-spacing: 1px;
+  display: inline-block;
+  border: solid 1px #ddd;
+  padding: .5em 1em;
+  color: #aaa;
+  text-decoration: none; }
+  .profile:hover {
+    background-color: #996078;
+    color: #fff;
+    border: solid 1px #996078; }
 
 .date {
   color: #cccccc;
   font-weight: bold;
-  font-family: freight-sans-pro, "Avenir Next", sans-serif; }
+  font-family: open-sans, "Avenir Next", sans-serif; }
 
 .right {
   text-align: right; }
@@ -164,7 +114,7 @@ header {
 
 .article-title {
   text-align: left;
-  color: #222; }
+  color: #222222; }
   .article-title + p {
     margin-top: .2em; }
 
@@ -173,16 +123,15 @@ header {
   .article p:first-child {
     padding-top: 0;
     margin-top: 0; }
-  .article li {
-    margin: 1em; }
-  .article blockquote {
-    border-left: 1px solid #cccccc;
-    padding: 10px 0 10px 15px;
-    color: #777;
-    margin-left: 0; }
-    .article blockquote p:last-child {
-      padding: 0;
-      margin: 0; }
+
+blockquote {
+  border-left: 1px solid #cccccc;
+  padding: 10px 0 10px 15px;
+  color: #777;
+  margin-left: 0; }
+  blockquote p:last-child {
+    padding: 0;
+    margin: 0; }
 
 ul, ol {
   padding-left: 1.5rem; }
@@ -202,8 +151,3 @@ code {
   border: 1px solid #ddd;
   background-color: #eee;
   font-size: .8em; }
-
-/*
-    Build a responsive web.
-    Thanks @beep
-*/
