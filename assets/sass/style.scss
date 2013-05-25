@@ -1,6 +1,6 @@
 @import "css3/_transition";
-@import "css3/_prefixer";
-@import "_grid";
+
+
 
 $color: #0ac;
 $dark_color: darken($color, 15%);
@@ -181,7 +181,7 @@ header {
     font-weight: 100;
     text-transform: uppercase;
     overflow: auto;
-    font-size: .85em;
+    font-size: .8em;
     letter-spacing: 1px;
     display: inline-block;
     // border-radius: 100%;
@@ -239,7 +239,7 @@ header {
     margin: 1em;
   }
   blockquote {
-    border-left: 8px solid $gray;
+    border-left: 1px solid $gray;
     padding: 10px 0 10px 15px;
     color: #777;
     margin-left: 0;

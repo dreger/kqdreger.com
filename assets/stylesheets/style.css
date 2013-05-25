@@ -131,7 +131,7 @@ header {
     font-weight: 100;
     text-transform: uppercase;
     overflow: auto;
-    font-size: .85em;
+    font-size: .8em;
     letter-spacing: 1px;
     display: inline-block;
     border: solid 1px #ddd;
@@ -176,7 +176,7 @@ header {
   .article li {
     margin: 1em; }
   .article blockquote {
-    border-left: 8px solid #cccccc;
+    border-left: 1px solid #cccccc;
     padding: 10px 0 10px 15px;
     color: #777;
     margin-left: 0; }
