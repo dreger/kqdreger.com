@@ -1,9 +1,9 @@
-$color: #B6C581;
 $color: #996078;
-$font_stack:  anonymous-pro, "source code pro", "Lucida Grande", Verdana, Tahoma, sans-serif;
+$color: #749EB7;
+$font_stack:  source-code-pro, "Lucida Grande", Verdana, Tahoma, sans-serif;
 $font_header: $font_stack;
 $font_body: $font_stack;
-$width: 37rem;
+$width: 37.5rem;
 $text: #333;
 $color_header: #222;
 $gray: #ccc;
@@ -21,8 +21,8 @@ $highlight: lighten($color, 35%);
 body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 15px;
-  line-height: 1.53em;
+  font-size: 13px;
+  line-height: 1.55em;
   color: $text;
   background-color: #FDFDFD;
   font-weight: 400;
@@ -35,11 +35,14 @@ h1, h2, h3, h4 {
   a {
     text-decoration: none;
     color: #222;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.3em;
 }
 
 h2 {
@@ -60,19 +63,20 @@ h4 {
 }
 
 p, blockquote,ul {
-  margin: 1.2em 0;
+  margin: 1.4em 0;
 }
 
 
 a {
   color: $color;
-  // text-decoration: none;
+  text-decoration: none;
   -webkit-transition: all 0.12s ease;
   transition: all 0.12s ease;
   &:hover {
     -webkit-transition: all 0.12s ease;
     transition: all 0.12s ease;
-    color: #222;
+    // color: #222;
+    text-decoration: underline;
   }
 }
 
@@ -106,21 +110,19 @@ small {
   padding: 0 5%;
   padding-bottom: 0;
   margin: 0 auto;
-  margin-top: 10em;
+  margin-top: 8em;
 }
 
 header {
   border-top: none;
   margin: 0 auto 3.5em;
   font-family: $font_header;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3em;
 }
 .site-title {
-  // font-weight: 900;
-  // font-family: proxima-nova-condensed;
-  font-size: 2.5em;
-  font-weight: 900;
-  // font-size: em;
-  // text-decoration: none;
+  font-weight: 100;
+  text-transform: lowercase;
 }
 
 .profile {
@@ -155,14 +157,17 @@ header {
 
 .footer {
   text-align: center;
-  margin: 4em 0em;
-  width: 100%;
+  margin: 5em 0em;
+  // color: $gray;
+  // width: 100%;
 }
 
 
 .article-title {
   text-align: left;
   color: $color_header;
+  // font-size: 1em;
+  text-transform: uppercase;
   & + p {
     margin-top: .2em;
   }
