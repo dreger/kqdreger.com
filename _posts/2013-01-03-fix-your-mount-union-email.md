@@ -3,6 +3,7 @@ title: Fix your Mount Union .EDU email
 layout: post
 date: 2013-01-03
 ---
+**UPDATE #2:** I've found the magical URL which only makes you sign in once: [outlook.com/owa/mountunion.edu](http://outlook.com/owa/mountunion.edu). Just bookmark that and you'll be good to go.
 
 **UPDATE:** I simplified the instructions for those looking to set up your mobile email *without* the required passcode. More instructions under the "IMAP and POP clients" section.
 
