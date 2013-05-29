@@ -1,9 +1,9 @@
 $color: #B6C581;
 $color: #996078;
-$font_stack: open-sans, "Avenir Next", sans-serif;
+$font_stack:  anonymous-pro, "source code pro", "Lucida Grande", Verdana, Tahoma, sans-serif;
 $font_header: $font_stack;
 $font_body: $font_stack;
-$width: 36rem;
+$width: 37rem;
 $text: #333;
 $color_header: #222;
 $gray: #ccc;
@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 h2 {
@@ -106,26 +106,34 @@ small {
   padding: 0 5%;
   padding-bottom: 0;
   margin: 0 auto;
-  margin-top: 6em;
+  margin-top: 10em;
 }
 
 header {
   border-top: none;
   margin: 0 auto 3.5em;
-  text-align: left;
   font-family: $font_header;
+}
+.site-title {
+  // font-weight: 900;
+  // font-family: proxima-nova-condensed;
+  font-size: 2.5em;
+  font-weight: 900;
+  // font-size: em;
+  // text-decoration: none;
 }
 
 .profile {
-  text-transform: uppercase;
+  text-transform: none;
   margin: 0 auto;
   padding: 0;
-  font-size: .75em;
+  font-size: 2.75em;
   letter-spacing: 1px;
   display: inline-block;
   border: solid 1px #ddd;
   padding: .5em 1em;
-  color: #aaa;
+  font-weight: 900;
+  color: $color_header;
   text-decoration: none;
   &:hover {
     background-color: $color;
@@ -199,5 +207,5 @@ code {
   padding: 1px 5px;
   border: 1px solid #ddd;
   background-color: #eee;
-  font-size: .8em;
+  font-size: .9em;
 }
