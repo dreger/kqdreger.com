@@ -3,7 +3,7 @@ $color: #749EB7;
 $font_stack:  source-code-pro, "Lucida Grande", Verdana, Tahoma, sans-serif;
 $font_header: $font_stack;
 $font_body: $font_stack;
-$width: 37.5rem;
+$width: 45rem;
 $text: #333;
 $color_header: #222;
 $gray: #ccc;
@@ -21,7 +21,7 @@ $highlight: lighten($color, 35%);
 body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.55em;
   color: $text;
   background-color: #FDFDFD;
@@ -63,7 +63,7 @@ h4 {
 }
 
 p, blockquote,ul {
-  margin: 1.4em 0;
+  margin: 1.5em 0;
 }
 
 
