@@ -3,3 +3,5 @@
 body { font-family: adelle, "lucida grande", verdana; }
 h1,h2,h3,h4,.site-title,.article-title, .date { font-family: adelle, "lucida grande", verdana; }
 .date { font-weight: normal; }
+.article-title { text-transform: none; }
+.site-title { text-transform: none; }
