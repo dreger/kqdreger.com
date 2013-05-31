@@ -5,3 +5,5 @@ h1,h2,h3,h4,.site-title,.article-title, .date { font-family: adelle, "lucida gra
 .date { font-weight: normal; }
 .article-title { text-transform: none; }
 .site-title { text-transform: none; }
+body { font-size: 20px; line-height: 1.6; }
+.wrapper { max-width: 36rem; }
