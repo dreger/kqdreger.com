@@ -1,14 +1,18 @@
+/* Colors */
 $color: #996078;
 $color: #749EB7;
-$font_stack:  adelle, "Lucida Grande", Verdana, Tahoma, sans-serif;
-$font_header: $font_stack;
-$font_body: $font_stack;
-$width: 42rem;
-$text: #444;
-$color_header: #222;
-$gray: #ccc;
-$gray_light: #eee;
-$highlight: lighten($color, 35%);
+$colorForText: #424242;
+$colorGray: #ccc;
+$colorGrayLight: #eee;
+$colorForHeaders: #222;
+
+/* Typography */
+$fontStack:  adelle, georgia, serif;
+$fontHeading: $fontStack;
+$fontParagraph: $fontStack;
+
+/* Layout variables */
+$width: 41rem;
 
 * {
   margin: 0;
@@ -20,21 +24,20 @@ $highlight: lighten($color, 35%);
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: $font_body, sans;
-  font-size: 20px;
-  line-height: 1.85em;
-  color: $text;
   background-color: #FDFDFD;
+  color: $colorForText;
+  font-family: $fontParagraph;
+  font-size: 20px;
   font-weight: 400;
+  line-height: 1.9em;
 }
 
 h1, h2, h3, h4 {
-  line-height: 1em;
-  font-family: $font_header;
+  font-family: $fontHeading;
   font-weight: normal;
+  line-height: 1em;
   a {
     text-decoration: none;
-    // color: #222;
     &:hover {
       text-decoration: none;
     }
@@ -62,97 +65,81 @@ h4 {
   text-transform: uppercase;
 }
 
-p, blockquote,ul {
-  margin: 1.5em 0;
-}
-
-
 a {
+  -webkit-transition: all 0.12s ease;
   color: $color;
   text-decoration: none;
-  -webkit-transition: all 0.12s ease;
   transition: all 0.12s ease;
   &:hover {
     -webkit-transition: all 0.12s ease;
-    transition: all 0.12s ease;
-    // color: #222;
     text-decoration: underline;
+    transition: all 0.12s ease;
   }
 }
 
-ol.index {
-  font-family: $font_header;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  li {
-    margin: .5em 0;
-    padding: 0;
-    list-style: none;
-    // color: $gray;
-
-  }
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  border-radius: 0px;
-  height: auto !important;
-}
-
-small {
-  font-size: .9em;
-  font-style: italic;
-  text-align: center;
-  display: block;
-  width: 100%;
-  margin: 1rem auto;
-}
-
+/* Layout */
 
 .wrapper {
-  max-width: $width;
-  padding: 0 5%;
-  padding-bottom: 0;
   margin: 0 auto;
   margin-top: 8em;
+  max-width: $width;
+  padding: 0 1em;
+  padding-bottom: 0;
 }
 
 header {
   border-top: none;
+  font-family: $fontHeading;
   margin: 4em auto;
-  font-family: $font_header;
   text-align: center;
 }
+
 .site-title {
+  font-size: 1.1em;
   font-weight: 100;
   text-transform: none;
-  font-size: 1.1em;
 }
 
-
-
-.date {
-  color: $gray;
-  font-family: $font_header;
-  text-align: center;
-}
-
-.right {
-  text-align: right;
+.logo {
+  background: url('../images/anchor.png') center no-repeat;
+  background-color: $colorGrayLight;
+  background-size: 35px;
+  border-radius: 10%;
+  display: block;
+  height: 80px;
+  margin: 0 auto;
+  width: 80px;
+  &:hover {
+    background-color: $color;
+  }
 }
 
 .footer {
-  text-align: center;
   margin: 5em 0em;
+  text-align: center;
+}
+
+/* Index page */
+
+ol.index {
+  font-family: $fontHeading;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  li {
+    list-style: none;
+    margin: .5em 0;
+    padding: 0;
+  }
 }
 
 
+/* Article page */
+
 .article-title {
-  text-align: center;
-  color: $color_header;
+  color: $colorForHeaders;
   font-weight: normal;
+  text-align: center;
   text-transform: none;
   & + p {
     margin-top: .5em;
@@ -161,42 +148,91 @@ header {
 .article {
   margin-bottom: 5em;
   p:first-child {
-    padding-top: 0;
     margin-top: 0;
+    padding-top: 0;
+  }
+  p + p {
+    text-indent: 2em;
   }
 }
 
+.date {
+  color: $colorGray;
+  display: block;
+  font-family: $fontHeading;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+img, blockquote,ul {
+  margin: 1.5em 0;
+}
+
+img {
+  border-radius: 0px;
+  display: block;
+  height: auto !important;
+  max-width: 100%;
+}
+
+small {
+  display: block;
+  font-size: .9em;
+  font-style: italic;
+  margin: 1rem auto;
+  text-align: center;
+  width: 100%;
+}
+
 blockquote {
-  border-left: 1px solid $gray;
-  padding: 10px 0 10px 15px;
+  border-left: 1px solid $colorGray;
   color: #777;
   margin-left: 0;
+  padding: 10px 0 10px 15px;
   p:last-child {
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
 }
 
 ul, ol {
   padding-left: 1.5rem;
   li {
-    margin: 8px 0px;
     list-style: square;
+    margin: 8px 0px;
   }
 }
 
 pre {
+  background-color: $colorGrayLight;
+  border: solid 2px darken($colorGrayLight, 5%);
   padding: 20px;
-  background-color: #eee;
-  border: solid 2px #ddd;
   code {
     border: none;
     padding: none;
   }
 }
+
 code {
-  padding: 1px 5px;
-  border: 1px solid #ddd;
-  background-color: #eee;
+  background-color: $colorGrayLight;
+  border: 1px solid darken($colorGrayLight, 5%);
   font-size: .9em;
+  padding: 1px 5px;
+}
+
+/* Misc styles */
+
+.right {
+  text-align: right;
+}
+
+/* Media queries */
+
+@media (max-width: 600px) {
+  body {
+    font-size: 17px;
+  }
+  .wrapper {
+    margin-top: 1em;
+  }
 }
