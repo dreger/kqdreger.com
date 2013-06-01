@@ -1,10 +1,10 @@
 $color: #996078;
 $color: #749EB7;
-$font_stack:  source-code-pro, "Lucida Grande", Verdana, Tahoma, sans-serif;
+$font_stack:  adelle, "Lucida Grande", Verdana, Tahoma, sans-serif;
 $font_header: $font_stack;
 $font_body: $font_stack;
-$width: 45rem;
-$text: #333;
+$width: 42rem;
+$text: #444;
 $color_header: #222;
 $gray: #ccc;
 $gray_light: #eee;
@@ -21,8 +21,8 @@ $highlight: lighten($color, 35%);
 body {
   -webkit-font-smoothing: antialiased;
   font-family: $font_body, sans;
-  font-size: 16px;
-  line-height: 1.55em;
+  font-size: 20px;
+  line-height: 1.85em;
   color: $text;
   background-color: #FDFDFD;
   font-weight: 400;
@@ -31,10 +31,10 @@ body {
 h1, h2, h3, h4 {
   line-height: 1em;
   font-family: $font_header;
-  font-weight: bold;
+  font-weight: normal;
   a {
     text-decoration: none;
-    color: #222;
+    // color: #222;
     &:hover {
       text-decoration: none;
     }
@@ -82,9 +82,15 @@ a {
 
 ol.index {
   font-family: $font_header;
+  margin: 0;
+  padding: 0;
+  text-align: center;
   li {
-    list-style: square;
-    color: $gray;
+    margin: .5em 0;
+    padding: 0;
+    list-style: none;
+    // color: $gray;
+
   }
 }
 
@@ -115,40 +121,22 @@ small {
 
 header {
   border-top: none;
-  margin: 0 auto 3.5em;
+  margin: 4em auto;
   font-family: $font_header;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 3em;
+  text-align: center;
 }
 .site-title {
   font-weight: 100;
-  text-transform: lowercase;
+  text-transform: none;
+  font-size: 1.1em;
 }
 
-.profile {
-  text-transform: none;
-  margin: 0 auto;
-  padding: 0;
-  font-size: 2.75em;
-  letter-spacing: 1px;
-  display: inline-block;
-  border: solid 1px #ddd;
-  padding: .5em 1em;
-  font-weight: 900;
-  color: $color_header;
-  text-decoration: none;
-  &:hover {
-    background-color: $color;
-    color: #fff;
-    border: solid 1px $color;
-  }
-}
 
 
 .date {
   color: $gray;
-  font-weight: bold;
   font-family: $font_header;
+  text-align: center;
 }
 
 .right {
@@ -158,18 +146,16 @@ header {
 .footer {
   text-align: center;
   margin: 5em 0em;
-  // color: $gray;
-  // width: 100%;
 }
 
 
 .article-title {
-  text-align: left;
+  text-align: center;
   color: $color_header;
-  // font-size: 1em;
-  text-transform: uppercase;
+  font-weight: normal;
+  text-transform: none;
   & + p {
-    margin-top: .2em;
+    margin-top: .5em;
   }
 }
 .article {
