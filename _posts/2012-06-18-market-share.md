@@ -10,6 +10,8 @@ My father is not as savvy as I when it comes to computer technology, however he 
 
 He’s right.
 
+<!-- more -->
+
 The new Macbook Pro Retina is [not meant to be taken apart](http://www.wired.com/gadgetlab/2012/06/opinion-apple-retina-displa/). In order to make it as thin and light as it is, almost everything is either soldiered or glued together. iFixIt’s crew even gave it a terribly low 1/10 Repairability Score (10 being the easiest to repair).
 
 This got me thinking about how Apple actually approaches their business. And the conclusion I came to is that Apple doesn’t base their decisions around “market share” when it comes to hardware. Let that sink in for a moment. We’re not talking about iOS or Mac OSX, where they do want as much market share as possible, we’re talking about when Apple builds a new-category type of product.

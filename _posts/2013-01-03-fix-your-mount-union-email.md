@@ -9,7 +9,7 @@ date: 2013-01-03
 
 This past week, my iPhone's email just stopped working. It wasn't long before many of my friends began complaining of similar problems. I knew that somewhere, a switch was flipped and the new Mount Union email system was finally set loose.
 
-<!--break-->
+<!-- more -->
 
 Students of Mount Union - our webmail has changed. Unfortunately, it's taken a turn for the worse. While the increase in storage is nice, it's overshadowed by a terrible, terrible, user experience.
 

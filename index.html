@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<ol class="index">
-{% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for post in site.posts limit:5 %}
+<article class="article">
+   <h2 class="article-title">{{post.title}}</h2>
+   <span class="date">Published on {{ post.date | date: "%b %d, %Y" }}</span>
+   {{ post.content | split: '<!-- more -->' | first }}
+   <br>
+   <p><a href="{{post.url}}">Continue reading &rarr;</a>
+</article>
 {% endfor %}
-</ol>
-

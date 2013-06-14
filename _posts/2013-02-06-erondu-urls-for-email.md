@@ -6,6 +6,8 @@ layout: post
 
 This morning I read an interesting article by Jared Erondu titled [If Emails Worked Like URLs](http://blog.jarederondu.com/if-emails-worked-like-urls). His idea revolves around the notion of prematurely assigning subfolders to an email message based on the addressed it was sent to. In his example, sending an email to `john@johndoe.com/hire` would automatically sort the email into a folder/label named "hire."
 
+<!-- more -->
+
 As he noted in his post, Gmail already lets you do something like this. For instance, messages sent to `johndoe@gmail.com` and `johndoe+hire@gmail.com` all go to the same inbox where you could then use a filter to tack on a corresponding label. However, where Erondu's idea jumps miles ahead of Gmail's +tag syntax is this simple fact: you don't change the core email address.
 
 ### Tagging makes a unique address

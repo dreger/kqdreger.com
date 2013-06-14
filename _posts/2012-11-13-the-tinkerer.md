@@ -8,7 +8,7 @@ I want to tell you about the Tinkerer.
 
 The Tinkerer was a good web designer, a good programmer and a good writer. But having things come easy to him eventually led to trouble.
 
-<!--break-->
+<!-- more -->
 
 Creative was his mind, that he started dozens of small projects - though few ever saw completion. Hours were spent tweaking the colors, and fonts on his website. At first, this could be seen as an admirable dedication to the details, but in reality it was a vacuum for the any spare time he had.
 

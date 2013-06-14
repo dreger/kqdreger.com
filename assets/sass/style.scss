@@ -7,7 +7,8 @@ $colorGrayLight: #eee;
 $colorForHeaders: #222;
 
 /* Typography */
-$fontStack:  adelle, georgia, serif;
+$fontSize: 20px;
+$fontStack:  open-sans, adelle, georgia, serif;
 $fontHeading: $fontStack;
 $fontParagraph: $fontStack;
 
@@ -27,7 +28,7 @@ body {
   background-color: #FDFDFD;
   color: $colorForText;
   font-family: $fontParagraph;
-  font-size: 20px;
+  font-size: $fontSize;
   font-weight: 400;
   line-height: 1.9em;
 }
@@ -91,7 +92,7 @@ header {
   border-top: none;
   font-family: $fontHeading;
   margin: 4em auto;
-  text-align: center;
+  text-align: left;
 }
 
 .site-title {
@@ -116,7 +117,7 @@ header {
 
 .footer {
   margin: 5em 0em;
-  text-align: center;
+  text-align: left;
 }
 
 /* Index page */
@@ -125,7 +126,7 @@ ol.index {
   font-family: $fontHeading;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
   li {
     list-style: none;
     margin: .5em 0;
@@ -138,8 +139,8 @@ ol.index {
 
 .article-title {
   color: $colorForHeaders;
-  font-weight: normal;
-  text-align: center;
+  font-weight: bold;
+  text-align: left;
   text-transform: none;
   & + p {
     margin-top: .5em;
@@ -160,8 +161,8 @@ ol.index {
   color: $colorGray;
   display: block;
   font-family: $fontHeading;
-  margin-bottom: 1.5em;
-  text-align: center;
+  margin-bottom: 1em;
+  text-align: left;
 }
 
 img, blockquote,ul {
@@ -222,6 +223,9 @@ code {
 
 /* Misc styles */
 
+.center {
+  text-align: center;
+}
 .right {
   text-align: right;
 }

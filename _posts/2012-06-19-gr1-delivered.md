@@ -8,7 +8,7 @@ My GORUCK GR1 arrived today.
 
 I want to write a longer review after I get done dragging it through Georgia next week, but here are some quick impressions:
 
-<!--break-->
+<!-- more -->
 
 - Damn this is a nice bag. I’m 5’8″, weigh around 150 and this bag fits great. My previous Radio Ruck was a good fit, but the GR1 really hugs my body with all my gear in it.
 - The GR1 can fit a ton, the pockets are deep and the slightly angled bottom keeps the weight higher on my back. I needed some extra space, and it delivers.
