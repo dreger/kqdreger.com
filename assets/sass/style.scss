@@ -89,16 +89,23 @@ a {
 }
 
 header {
-  border-top: none;
+  // border-bottom: 1px dashed $colorGrayLight;
   font-family: $fontHeading;
+  // padding-bottom: 1em;
   margin: 4em auto;
   text-align: left;
 }
 
 .site-title {
-  font-size: 1.1em;
-  font-weight: 100;
-  text-transform: none;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left: -1px;
+  // display: block;
+  // & a:hover {
+  //   color: darken($color, 35%);
+  //   text-decoration: none;
+  // }
 }
 
 .logo {
@@ -139,7 +146,7 @@ ol.index {
 
 .article-title {
   color: $colorForHeaders;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   text-transform: none;
   & + p {
