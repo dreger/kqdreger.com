@@ -6,7 +6,6 @@ layout: default
    <h2 class="article-title">{{post.title}}</h2>
    <span class="date">Published on {{ post.date | date: "%b %d, %Y" }}</span>
    {{ post.content | split: '<!-- more -->' | first }}
-   <br>
-   <p><a href="{{post.url}}">Continue reading &rarr;</a>
+   <span class="continue-reading"><a href="{{post.url}}">Continue reading &rarr;</a></span>
 </article>
 {% endfor %}
