@@ -2,7 +2,7 @@
 layout: default
 title: Colophon
 ---
-## Colophon
+## This dashing young man.
 <br>
 Welcome to my website. Most of my online bios say something to the effect of "Student, designer and computerist from Ohio." That seems about right.
 

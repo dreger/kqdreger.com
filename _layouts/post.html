@@ -4,11 +4,11 @@
 <body>
 <div class="wrapper">
 {% include header.html %}
-<div class="article">
+<article class="article">
 <h2 class="article-title">{{ page.title }}</h2>
 <span class="date">Published on {{ page.date | date: "%b %d, %Y" }}</span>
 {{ content }}
-</div>
+</article>
 {% include footer.html %}
 </div>
 </body>

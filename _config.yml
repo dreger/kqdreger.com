@@ -15,10 +15,10 @@ pygments:       true
 domain:         kyledreger.com
 title:          Kyle Dreger
 author:         Kyle Dreger
-email:          me@kyledreger.com
+email:          hi@kyledreger.com
 description:    "Jesus is life. Simplicity is freedom. Rise."
 
 # typekit:
 #   id:           eqd7pqa
-google_analytics:
-  account:      UA-17208416-19
+# google_analytics:
+#   account:      UA-17208416-19
