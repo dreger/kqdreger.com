@@ -1,7 +1,7 @@
 /* Colors */
 $color: #996078;
 $color: #749EB7;
-$color: #567b9d;
+$color: #A4C400;
 $colorForText: #3a3a3a;
 $colorGray: #ababab;
 $colorGrayLight: #eee;
@@ -12,7 +12,7 @@ $colorForHeaders: #333;
 $fontSize: 14px;
 $fontStack: menlo, 'andale mono', 'courier new', sans-serif, sans;
 $fontStack: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-$fontHeading: $fontStack;
+$fontHeading: futura-pt, $fontStack;
 $fontParagraph: $fontStack;
 /* Layout variables */
 $width: 29rem;
@@ -96,26 +96,19 @@ a {
 }
 
 header {
-  // border-bottom: 1px dashed $colorGrayLight;
-  // padding-bottom: 1em;
   margin: 5em auto;
   text-align: center;
-}
-
-.site-title {
   font-family: $fontHeading;
-  // margin-bottom: .2em;
-  font-weight: bold;
-  text-transform: uppercase;
-  // letter-spacing: 1px;
-  // margin-left: -1px;
   aside {
-    // font-size: .5em;
     color: $colorGray;
     margin: .5em 0;
     font-weight: normal;
-    text-transform: none;
   }
+}
+
+.site-title {
+  text-transform: lowercase;
+  font-weight: bold;
 }
 
 .logo {
