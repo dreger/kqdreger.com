@@ -9,12 +9,13 @@ $colorForHeaders: #333;
 
 /* Typography */
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
-$fontSize: 11px;
-$fontStack:  menlo, 'andale mono', 'courier new', sans-serif, sans;
+$fontSize: 14px;
+$fontStack: menlo, 'andale mono', 'courier new', sans-serif, sans;
+$fontStack: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 $fontHeading: $fontStack;
 $fontParagraph: $fontStack;
 /* Layout variables */
-$width: 28rem;
+$width: 29rem;
 
 * {
   margin: 0;
@@ -133,7 +134,7 @@ header {
 
 .footer {
   margin: 5em 0em;
-  text-align: left;
+  text-align: center;
 }
 
 /* Index page */
@@ -165,7 +166,7 @@ ol.index {
   color: $colorForHeaders;
   font-weight: bold;
   font-size: 1.4em;
-  text-align: left;
+  text-align: center;
   text-transform: none;
   & + span {
     margin-top: .5em;
@@ -177,7 +178,7 @@ ol.index {
   color: $colorGray;
   display: block;
   margin: .5em 0;
-  text-align: left;
+  text-align: center;
 }
 
 .article {
