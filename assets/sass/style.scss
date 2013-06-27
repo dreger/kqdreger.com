@@ -1,7 +1,7 @@
 /* Colors */
+$color: #000;
 $color: #996078;
 $color: #749EB7;
-$color: #A4C400;
 $colorForText: #3a3a3a;
 $colorGray: #ababab;
 $colorGrayLight: #eee;
@@ -96,6 +96,7 @@ a {
 
 header {
   margin: 5em auto;
+  letter-spacing: 1px;
   text-align: center;
   font-family: $fontHeading;
   aside {
@@ -106,7 +107,7 @@ header {
 }
 
 .site-title {
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
