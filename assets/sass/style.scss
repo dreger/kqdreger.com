@@ -1,8 +1,8 @@
 /* Colors */
 $color: #000;
 $color: #54748d;
-$color: #E08E79;
 $color: #5d809c;
+$color: #00a887;
 $colorForText: #383838;
 $colorGray: #ababab;
 $colorGrayLight: #eee;
@@ -14,7 +14,7 @@ $fontHeading: "Avenir Next", Avenir, "Helvetica Nueue", Helvetica, "Segoe UI", "
 $fontParagraph: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 $textAlign: right;
 /* Layout variables */
-$width: 29rem;
+$width: 30rem;
 
 * {
   margin: 0;
@@ -25,7 +25,6 @@ $width: 29rem;
 }
 
 body {
-  // -webkit-font-smoothing: none;
   background-color: #FDFDFD;
   color: $colorForText;
   font-family: $fontParagraph;
@@ -39,8 +38,10 @@ h1, h2, h3, h4 {
   font-weight: bold;
   line-height: 1.1em;
   a {
+    -webkit-transition: all 0.12s ease;
     text-decoration: none;
     &:hover {
+      -webkit-transition: all 0.12s ease;
       text-decoration: none;
     }
   }
@@ -74,13 +75,10 @@ a {
   color: $color;
   text-decoration: none;
   transition: all 0.12s ease;
-  // padding: 3px 2px;
   &:hover {
     -webkit-transition: all 0.12s ease;
-    // text-decoration: underline;
     transition: all 0.12s ease;
     background-color: $colorGrayLight;
-    // border-radius: 50px;
   }
 }
 
@@ -95,9 +93,7 @@ a {
 }
 
 header {
-  margin: 5em auto;
-  // letter-spacing: 1px;
-  text-align: $textAlign;
+  margin: 3em auto;
   font-family: $fontHeading;
   aside {
     color: $colorGray;
@@ -107,26 +103,22 @@ header {
 }
 
 .site-title {
-  // text-transform: uppercase;
   font-weight: bold;
 }
 
 .logo {
-  background: url('../images/anchor.png') center no-repeat;
-  background-color: $colorGrayLight;
-  background-size: 35px;
-  border-radius: 10%;
   display: block;
-  height: 80px;
+  width: 200px;
   margin: 0 auto;
-  width: 80px;
+  -webkit-transition: all 0.12s ease;
   &:hover {
-    background-color: $color;
+    -webkit-transition: all 0.12s ease;
+    background-color: $colorGrayLight;
   }
 }
 
 .footer {
-  // font-family: $fontHeading;
+  font-family: $fontHeading;
   margin: 5em 0em;
   text-align: $textAlign;
 }
