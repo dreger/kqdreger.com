@@ -4,7 +4,7 @@ title: Colophon
 ---
 ## This guy.
 <br>
-Bold. Dashing. Clean shaven. My name is Kyle Dreger and welcome to my website.
+Kyle Dreger, nice to meet you. Welcome to my website where I enjoy writing and experimenting with web design. Thanks for visiting.
 
 ### Circa 2010
 I started writing here when [I began attending]({% post_url 2010-08-27-hello-college %}) the University of Mount Union. Inspiration comes from [my faith](http://bible.us/116/psa.1.3.nlt) and a love for building beautiful software. Offline, I play soccer, code and am <s>dating</s> engaged to the most incredible woman.
