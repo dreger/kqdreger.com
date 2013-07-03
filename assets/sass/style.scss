@@ -1,8 +1,4 @@
 /* Colors */
-$color: #000;
-$color: #54748d;
-$color: #5d809c;
-$color: #00a887;
 $color: #82A863;
 $colorForText: #333;
 $colorGray: #ababab;
@@ -14,6 +10,7 @@ $fontSize: 14px;
 $fontHeading: "Avenir Next", Avenir, "Helvetica Nueue", Helvetica, "Segoe UI", "Trebuchet MS", Arial, sans-serif;
 $fontParagraph: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 $textAlign: right;
+
 /* Layout variables */
 $width: 30rem;
 
@@ -31,7 +28,7 @@ body {
   font-family: $fontParagraph;
   font-size: $fontSize;
   font-weight: 400;
-  line-height: 1.8em;
+  line-height: 1.82em;
 }
 
 h1, h2, h3, h4 {
