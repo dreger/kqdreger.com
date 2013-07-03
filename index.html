@@ -4,7 +4,7 @@ layout: default
 {% for post in site.posts limit:5 %}
 <article class="article">
 <h2 class="article-title">{{post.title}}</h2>
-<span class="date">Published on {{ post.date | date: "%b %d, %Y" }}</span>{{ post.excerpt }}
+<span class="date">Published on {{ post.date | date: "%b %d, %Y" }}</span>{% post.excerpt %}
 <span class="continue-reading"><a href="{{post.url}}">Continue reading &rarr;</a></span>
 </article>
 {% endfor %}
