@@ -108,10 +108,16 @@ header {
 }
 
 .site-title {
-  font-weight: 100;
+  font-weight: 400;
+  letter-spacing: 1px;
   display: inline-block;
-  font-size: 2em;
-  padding: 1em;
+  text-transform: uppercase;
+  font-size: .9em;
+  padding: 2em 3em;
+  margin: 0;
+  line-height: 0;
+  border: solid 1px $colorGrayLight;
+  border-radius: 4px;
   &:hover {
     background-color: none;
   }
