@@ -3,8 +3,8 @@ $color: #000;
 $color: #54748d;
 $color: #5d809c;
 $color: #00a887;
-$color: #87b99b;
-$colorForText: #383838;
+$color: #82A863;
+$colorForText: #333;
 $colorGray: #ababab;
 $colorGrayLight: #eee;
 $colorForHeaders: #333;
@@ -97,8 +97,9 @@ a {
 }
 
 header {
-  margin: 3em auto;
+  margin: 4.5em auto;
   font-family: $fontHeading;
+  text-align: center;
   aside {
     color: $colorGray;
     margin: .5em 0;
@@ -107,12 +108,18 @@ header {
 }
 
 .site-title {
-  font-weight: bold;
+  font-weight: 100;
+  display: inline-block;
+  font-size: 2em;
+  padding: 1em;
+  &:hover {
+    background-color: none;
+  }
 }
 
 .logo {
   display: block;
-  width: 200px;
+  width: 100px;
   margin: 0 auto;
   -webkit-transition: all 0.12s ease;
   &:hover {
