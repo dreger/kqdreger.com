@@ -1,5 +1,6 @@
 /* Colors */
 $color: #82A863;
+$color: #0070bf;
 $colorForText: #333;
 $colorGray: #ababab;
 $colorGrayLight: #eee;
@@ -9,7 +10,7 @@ $colorForHeaders: #333;
 $fontSize: 14px;
 $fontHeading: "Avenir Next", Avenir, "Helvetica Nueue", Helvetica, "Segoe UI", "Trebuchet MS", Arial, sans-serif;
 $fontParagraph: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-$textAlign: right;
+$textAlign: left;
 
 /* Layout variables */
 $width: 30rem;
@@ -94,9 +95,9 @@ a {
 }
 
 header {
-  margin: 4.5em auto;
+  margin: 6em auto;
   font-family: $fontHeading;
-  text-align: center;
+  text-align: $textAlign;
   aside {
     color: $colorGray;
     margin: .5em 0;
@@ -108,27 +109,17 @@ header {
   font-weight: 400;
   letter-spacing: 1px;
   display: inline-block;
-  text-transform: uppercase;
-  font-size: .9em;
-  padding: 2em 3em;
   margin: 0;
   line-height: 0;
-  border: solid 1px $colorGrayLight;
-  border-radius: 4px;
+  // border: solid 1px $colorGrayLight;
+  // border-radius: 4px;
   &:hover {
-    background-color: none;
+    // background-color: none;
   }
 }
 
 .logo {
-  display: block;
-  width: 100px;
-  margin: 0 auto;
-  -webkit-transition: all 0.12s ease;
-  &:hover {
-    -webkit-transition: all 0.12s ease;
-    background-color: $colorGrayLight;
-  }
+  font-size: .7em;
 }
 
 .footer {
@@ -146,9 +137,10 @@ ol.index {
   text-align: left;
   li {
     list-style: none;
-    margin: .5em 0;
+    padding: .4em 0;
+    border-bottom: 1px solid $colorGrayLight;
     font-size: 1em;
-    padding: 0;
+    margin: 0;
   }
 }
 
@@ -166,7 +158,7 @@ ol.index {
   color: $colorForHeaders;
   font-weight: bold;
   // font-size: 1.4em;
-  text-align: center;
+  text-align: $textAlign;
   text-transform: none;
   & + span {
     margin-top: .5em;
@@ -178,7 +170,7 @@ ol.index {
   color: $colorGray;
   display: block;
   margin: .5em 0;
-  text-align: center;
+  text-align: $textAlign;
 }
 
 .article {
