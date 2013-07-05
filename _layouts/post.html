@@ -2,14 +2,14 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<div class="wrapper">
 {% include header.html %}
+<div class="wrapper">
 <article class="article">
 <h2 class="article-title">{{ page.title }}</h2>
-<span class="date">Published on {{ page.date | date: "%b %d, %Y" }}</span>
 {{ content }}
+<span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
 </article>
-{% include footer.html %}
+<!-- {% include footer.html %} -->
 </div>
 </body>
 </html>

@@ -2,18 +2,18 @@
 $color: #82A863;
 $color: #67bdc3;
 $colorForText: #333;
-$colorGray: #ababab;
-$colorGrayLight: #eee;
+$colorGray: #cdcdcd;
+$colorGrayLight: #eaeaea;
 $colorForHeaders: #333;
 
 /* Typography */
-$fontSize: 15px;
-$fontHeading: "Avenir Next", Avenir, "Helvetica Nueue", Helvetica, "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+$fontSize: 14px;
 $fontParagraph: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$fontHeading: "Avenir Next", Avenir, "Helvetica Nueue", Helvetica, "Segoe UI", "Trebuchet MS", Arial, sans-serif;
 $textAlign: center;
 
 /* Layout variables */
-$width: 29rem;
+$width: 25rem;
 
 * {
   margin: 0;
@@ -87,17 +87,20 @@ a {
 /* Layout */
 
 .wrapper {
-  margin: 0 auto;
-  margin-top: 12em;
+  margin: 0 auto 7em;
   max-width: $width;
   padding: 0 1em;
   padding-bottom: 0;
 }
 
 header {
-  margin: 6em auto;
+  margin: 5em auto;
+  padding: 2em 0;
+  width: 90%;
   font-family: $fontHeading;
+  text-transform: lowercase;
   text-align: $textAlign;
+  border-bottom: 1px solid $colorGrayLight;
   aside {
     color: $colorGray;
     margin: .5em 0;
@@ -144,12 +147,12 @@ ol.index {
   }
 }
 
-.continue-reading {
-  margin: 0;
-  margin-top: -1em;
-  padding: 0;
-  display: block;
-}
+// .continue-reading {
+//   margin: 0;
+//   margin-top: -1em;
+//   padding: 0;
+//   display: block;
+// }
 
 
 /* Article page */
@@ -157,11 +160,25 @@ ol.index {
 .article-title {
   color: $colorForHeaders;
   font-weight: bold;
-  // font-size: 1.4em;
+  font-size: 1.5em;
   text-align: $textAlign;
   text-transform: none;
-  & + span {
-    margin-top: .5em;
+}
+
+.continue-reading {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid $colorGrayLight;
+  padding: .4em 2em;
+  text-transform: uppercase;
+  font-size: .7em;
+  letter-spacing: 1px;
+  font-family: $fontHeading;
+  &:hover {
+    background-color: #fff;
+    border-color: $color;
   }
 }
 
@@ -169,19 +186,15 @@ ol.index {
   font-family: $fontHeading;
   color: $colorGray;
   display: block;
-  margin: .5em 0;
   text-align: $textAlign;
+  margin: 1em 0;
+  font-weight: bold;
 }
 
 .article {
-  margin-bottom: 5em;
-  p:first-child {
-    margin-top: 0;
-    padding-top: 0;
-  }
+  margin-bottom: 6em;
   p {
-    // text-indent: 2em;
-    margin-bottom: 2em;
+    margin: 1.5em 0;
   }
 }
 
@@ -226,7 +239,7 @@ ul, ol {
 }
 
 pre {
-  background-color: $colorGrayLight;
+  // background-color: $colorGrayLight;
   border: solid 2px darken($colorGrayLight, 5%);
   padding: 20px;
   code {
@@ -236,7 +249,7 @@ pre {
 }
 
 code {
-  background-color: $colorGrayLight;
+  // background-color: $colorGrayLight;
   border: 1px solid darken($colorGrayLight, 5%);
   font-size: .9em;
   padding: 1px 5px;
