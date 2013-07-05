@@ -1,5 +1,6 @@
 /* Colors */
-$color: #633C59;
+$color: #FF9962;
+$colorTitle: #9FD3DA;
 $colorForText: #333;
 $colorGray: #ccc;
 $colorGrayLight: #ddd;
@@ -38,6 +39,7 @@ h1, h2, h3, h4 {
   a {
     -webkit-transition: all 0.12s ease;
     text-decoration: none;
+    border: none;
     &:hover {
       -webkit-transition: all 0.12s ease;
       text-decoration: none;
@@ -71,15 +73,17 @@ h4 {
 a {
   -webkit-transition: all 0.12s ease;
   color: $color;
-  text-decoration: none;
+  // color: darken($colorForHeaders, 20%);
+  // text-decoration: none;
   transition: all 0.12s ease;
+  // border-bottom: 1px solid $colorGrayLight;
+  padding-bottom: 0px;
   & img {
     border: 0;
   }
   &:hover {
     -webkit-transition: all 0.12s ease;
     transition: all 0.12s ease;
-    background-color: $colorGrayLight;
   }
 }
 
@@ -109,6 +113,10 @@ header {
 .site-title {
   font-weight: bold;
   margin-bottom: .5em;
+  font-size: 2.1em;
+  a {
+    color: $colorTitle;
+  }
 }
 
 .logo {
@@ -130,8 +138,8 @@ ol.index {
   text-align: left;
   li {
     list-style: none;
-    padding: .4em 0;
-    border-bottom: 1px dotted $colorGrayLight;
+    padding: .3em 0;
+    // border-bottom: 1px dotted $colorGrayLight;
     font-size: 1em;
     margin: 0;
   }
