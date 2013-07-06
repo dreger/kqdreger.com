@@ -2,7 +2,7 @@
 layout: default
 title: Colophon
 ---
-## About Kyle and this site.
+## Colophon
 <br>
 Welcome to where I enjoy writing and experimenting with web design. Thanks for visiting.
 

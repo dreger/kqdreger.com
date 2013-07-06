@@ -1,10 +1,10 @@
 /* Colors */
-$color: #FF9962;
-$colorTitle: #9FD3DA;
+$color: #222;
+$colorTitle: #222;
 $colorForText: #333;
 $colorGray: #ccc;
 $colorGrayLight: #ddd;
-$colorForHeaders: #333;
+$colorForHeaders: #222;
 
 /* Typography */
 $fontSize: 14px;
@@ -13,7 +13,7 @@ $fontHeading: "Avenir Next", Avenir, "Helvetica Nueue", Helvetica, "Segoe UI", "
 $textAlign: left;
 
 /* Layout variables */
-$width: 25rem;
+$width: 24rem;
 
 * {
   margin: 0;
@@ -73,10 +73,7 @@ h4 {
 a {
   -webkit-transition: all 0.12s ease;
   color: $color;
-  // color: darken($colorForHeaders, 20%);
-  // text-decoration: none;
   transition: all 0.12s ease;
-  // border-bottom: 1px solid $colorGrayLight;
   padding-bottom: 0px;
   & img {
     border: 0;
@@ -97,23 +94,21 @@ a {
 }
 
 header {
-  margin: 3em 0;
+  margin: 5em 0;
   padding: 2em 0;
   font-family: $fontHeading;
-  text-transform: lowercase;
-  text-align: $textAlign;
-  border-bottom: 1px solid $colorGrayLight;
+  // text-align: right;
   aside {
-    color: $colorGray;
     margin: .5em 0;
     font-weight: normal;
   }
 }
 
 .site-title {
-  font-weight: bold;
-  margin-bottom: .5em;
-  font-size: 2.1em;
+  // text-transform: lowercase;
+  margin: 0em;
+  font-size: 2em;
+  // font-size: .9em;
   a {
     color: $colorTitle;
   }
@@ -138,7 +133,7 @@ ol.index {
   text-align: left;
   li {
     list-style: none;
-    padding: .3em 0;
+    padding: .2em 0;
     // border-bottom: 1px dotted $colorGrayLight;
     font-size: 1em;
     margin: 0;
