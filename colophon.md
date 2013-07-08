@@ -2,8 +2,6 @@
 layout: default
 title: Colophon
 ---
-## Colophon
-<br>
 Welcome to where I enjoy writing and experimenting with web design. Thanks for visiting.
 
 ### Quick bio
