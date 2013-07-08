@@ -48,12 +48,12 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: normal;
+  font-size: 1.8em;
+  font-weight: bold;
   text-align: $textAlign;
 }
 
@@ -100,19 +100,20 @@ header {
   padding: 2em 0;
   font-family: $fontHeading;
   text-align: $textAlign;
-  aside {
-    margin: .5em 0;
-    font-weight: normal;
-  }
 }
 
 .site-title {
   margin: 0em;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 2em;
   a {
     color: $colorTitle;
   }
+}
+
+aside {
+  margin: 1em 0;
+  font-weight: normal;
 }
 
 .logo {
@@ -164,8 +165,8 @@ ol.index {
 
 .article-title {
   color: $colorForHeaders;
-  font-weight: normal;
-  font-size: 2em;
+  font-weight: bold;
+  font-size: 1.8em;
   text-align: $textAlign;
   text-transform: none;
   margin: 1.5em 0;
@@ -288,9 +289,7 @@ code {
   .archive-date {
     float: none;
     display: inline-block;
-    color: $colorGray;
-    &:before {
-      content: " - ";
-    }
+    color: $colorForText;
+    font-size: .8em;
   }
 }
