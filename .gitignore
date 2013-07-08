@@ -1,5 +1,5 @@
 _site/
 .sass-cache/
 .DS_Store
-_drafts/
-_ideas/
+_src/_drafts/
+_src/_ideas/

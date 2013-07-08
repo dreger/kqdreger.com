@@ -1,7 +1,7 @@
 # standard jekyll configuration
-# source: ./_src
-# destination: ./_site
-permalink:      /:year/:title
+source:         ./_src
+destination:    ./_site
+permalink:      /posts/:title
 pygments:       true
 markdown:       rdiscount
 # timezone:       nil
