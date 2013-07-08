@@ -5,9 +5,9 @@
 <div class="wrapper">
 {% include header.html %}
 <article class="article">
-<h2 class="article-title">{{ page.title }}</h2>
-<span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
+<h2 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
 {{ content }}
+<span class="article-date">{{ page.date | date: "%b %d, %Y" }}</span>
 </article>
 </div>
 </body>

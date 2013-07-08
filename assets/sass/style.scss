@@ -9,11 +9,11 @@ $colorForHeaders: #222;
 /* Typography */
 $fontSize: 14px;
 $fontParagraph: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-$fontHeading: "Avenir Next", Avenir, "Helvetica Nueue", Helvetica, "Segoe UI", "Trebuchet MS", Arial, sans-serif;
-$textAlign: left;
+$fontHeading: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif;
+$textAlign: center;
 
 /* Layout variables */
-$width: 24rem;
+$width: 25rem;
 
 * {
   margin: 0;
@@ -54,6 +54,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: normal;
+  text-align: $textAlign;
 }
 
 h3 {
@@ -98,7 +99,7 @@ header {
   margin: 5em 0;
   padding: 2em 0;
   font-family: $fontHeading;
-  // text-align: right;
+  text-align: $textAlign;
   aside {
     margin: .5em 0;
     font-weight: normal;
@@ -127,17 +128,28 @@ header {
 /* Index page */
 
 ol.index {
-  font-family: $fontHeading;
+  // font-family: $fontHeading;
   margin: 0;
   padding: 0;
-  text-align: left;
+  // overflow: auto;
   li {
+    text-align: left;
+    display: block;
     list-style: none;
-    padding: .2em 0;
-    // border-bottom: 1px dotted $colorGrayLight;
+    padding: .2em;
+    border-bottom: 1px dotted $colorGrayLight;
     font-size: 1em;
     margin: 0;
+    border-bottom: 1px solid $colorGrayLight dotted;
+    // &:nth-child(odd) {
+    //   background-color: $colorGrayLight;
+    // }
   }
+}
+.archive-date {
+  float: right;
+  display: inline-block;
+  color: $colorGray;
 }
 
 // .continue-reading {
@@ -153,9 +165,10 @@ ol.index {
 .article-title {
   color: $colorForHeaders;
   font-weight: normal;
-  font-size: 1.7em;
+  font-size: 2em;
   text-align: $textAlign;
   text-transform: none;
+  margin: 1.5em 0;
 }
 
 .continue-reading {
@@ -175,7 +188,7 @@ ol.index {
   }
 }
 
-.date {
+.article-date {
   font-family: $fontHeading;
   color: $colorGray;
   display: block;
@@ -271,5 +284,13 @@ code {
   }
   .article {
     margin-bottom: 3em;
+  }
+  .archive-date {
+    float: none;
+    display: inline-block;
+    color: $colorGray;
+    &:before {
+      content: " - ";
+    }
   }
 }
