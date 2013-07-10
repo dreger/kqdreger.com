@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Colophon
+title: About
 ---
-Welcome to where I enjoy writing and experimenting with web design. Thanks for visiting.
+## About
+Hello, my name is Kyle Dreger. I'm a computer science and English writing student currently attending a small liberal arts university. Welcome to where I enjoy writing and experimenting with web design. Thanks for visiting.
 
 ### Quick bio
 I started writing here when [I began attending]({% post_url 2010-08-27-hello-college %}) the University of Mount Union. Inspiration comes from [my faith](http://bible.us/116/psa.1.3.nlt) and a love for building beautiful software. Offline, I play soccer, code and am <s>dating</s> engaged to the most incredible woman.

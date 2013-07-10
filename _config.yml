@@ -1,9 +1,10 @@
 # standard jekyll configuration
 source:         ./_src
 destination:    ./_site
-permalink:      /posts/:title
+permalink:      /:year/:month/:title
 pygments:       true
 markdown:       rdiscount
+# paginate: 1
 # timezone:       nil
 
 # future:         true

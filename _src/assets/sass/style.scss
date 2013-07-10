@@ -1,3 +1,13 @@
+/* Mixin */
+@mixin h2_style {
+  color: $colorForHeaders;
+  font-weight: normal;
+  font-size: 2em;
+  text-align: $textAlign;
+  text-transform: none;
+  margin-bottom: 1em;
+}
+
 /* Colors */
 $color: #222;
 $colorTitle: #222;
@@ -10,10 +20,10 @@ $colorForHeaders: #222;
 $fontSize: 14px;
 $fontParagraph: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 $fontHeading: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif;
-$textAlign: center;
+$textAlign: left;
 
 /* Layout variables */
-$width: 25rem;
+$width: 26rem;
 
 * {
   margin: 0;
@@ -35,7 +45,7 @@ body {
 h1, h2, h3, h4 {
   font-family: $fontHeading;
   font-weight: bold;
-  line-height: 1.1em;
+  line-height: 1.2em;
   a {
     -webkit-transition: all 0.12s ease;
     text-decoration: none;
@@ -52,9 +62,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
-  font-weight: bold;
-  text-align: $textAlign;
+  @include h2_style;
 }
 
 h3 {
@@ -89,7 +97,7 @@ a {
 /* Layout */
 
 .wrapper {
-  margin: 0 auto 7em;
+  margin: 7em auto;
   max-width: $width;
   padding: 0 1em;
   padding-bottom: 0;
@@ -122,8 +130,11 @@ aside {
 
 .footer {
   font-family: $fontHeading;
-  margin: 5em 0em;
-  text-align: $textAlign;
+  padding: 5em 1em;
+  margin: 0 auto;
+  text-align: center;
+  border-top: solid 1px $colorGrayLight;
+  width: 100%;
 }
 
 /* Index page */
@@ -151,12 +162,7 @@ ol.index {
 /* Article page */
 
 .article-title {
-  color: $colorForHeaders;
-  font-weight: bold;
-  font-size: 1.8em;
-  text-align: $textAlign;
-  text-transform: none;
-  margin: 1.5em 0;
+  @include h2_style;
 }
 
 .continue-reading {
@@ -176,7 +182,7 @@ ol.index {
   }
 }
 
-.article-date {
+.article-meta {
   font-family: $fontHeading;
   color: $colorGray;
   display: block;
@@ -268,6 +274,9 @@ code {
   header {
     margin: 2em 0;
     padding: 1em 0;
+  }
+  .footer a {
+    display: block;
   }
   .article {
     margin-bottom: 3em;

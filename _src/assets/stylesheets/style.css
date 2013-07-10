@@ -1,3 +1,4 @@
+/* Mixin */
 /* Colors */
 /* Typography */
 /* Layout variables */
@@ -5,13 +6,13 @@
 
 body { background-color: #FDFDFD; color: #333333; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 14px; font-weight: 400; line-height: 1.82em; }
 
-h1, h2, h3, h4 { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; font-weight: bold; line-height: 1.1em; }
+h1, h2, h3, h4 { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; font-weight: bold; line-height: 1.2em; }
 h1 a, h2 a, h3 a, h4 a { -webkit-transition: all 0.12s ease; text-decoration: none; border: none; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { -webkit-transition: all 0.12s ease; text-decoration: none; }
 
 h1 { font-size: 2.4em; }
 
-h2 { font-size: 1.8em; font-weight: bold; text-align: center; }
+h2 { color: #222222; font-weight: normal; font-size: 2em; text-align: left; text-transform: none; margin-bottom: 1em; }
 
 h3 { font-size: 1em; margin: 1.8em 0 0; font-weight: bold; text-transform: uppercase; }
 h3 + p { margin-top: .2em; }
@@ -23,9 +24,9 @@ a img { border: 0; }
 a:hover { -webkit-transition: all 0.12s ease; transition: all 0.12s ease; }
 
 /* Layout */
-.wrapper { margin: 0 auto 7em; max-width: 25rem; padding: 0 1em; padding-bottom: 0; }
+.wrapper { margin: 7em auto; max-width: 26rem; padding: 0 1em; padding-bottom: 0; }
 
-header { margin: 5em 0; padding: 2em 0; font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; text-align: center; }
+header { margin: 5em 0; padding: 2em 0; font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; text-align: left; }
 
 .site-title { margin: 0em; font-weight: normal; font-size: 2em; }
 .site-title a { color: #222222; }
@@ -34,7 +35,7 @@ aside { margin: 1em 0; font-weight: normal; }
 
 .logo { font-size: .7em; }
 
-.footer { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; margin: 5em 0em; text-align: center; }
+.footer { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; padding: 5em 1em; margin: 0 auto; text-align: center; border-top: solid 1px #dddddd; width: 100%; }
 
 /* Index page */
 ol.index { margin: 0; padding: 0; }
@@ -43,12 +44,12 @@ ol.index li { text-align: left; display: block; list-style: none; padding: .2em;
 .archive-date { float: right; display: inline-block; color: #cccccc; }
 
 /* Article page */
-.article-title { color: #222222; font-weight: bold; font-size: 1.8em; text-align: center; text-transform: none; margin: 1.5em 0; }
+.article-title { color: #222222; font-weight: normal; font-size: 2em; text-align: left; text-transform: none; margin-bottom: 1em; }
 
 .continue-reading { display: block; width: 50%; margin: 0 auto; text-align: center; border: 1px solid #dddddd; padding: .4em 2em; text-transform: uppercase; font-size: .7em; letter-spacing: 1px; font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; }
 .continue-reading:hover { background-color: #fff; border-color: #222222; }
 
-.article-date { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; color: #cccccc; display: block; text-align: center; margin: 1em 0; font-weight: bold; }
+.article-meta { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; color: #cccccc; display: block; text-align: left; margin: 1em 0; font-weight: bold; }
 
 .article p { margin-bottom: 1.5em; }
 
@@ -78,5 +79,6 @@ code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
 @media (max-width: 600px) { body { font-size: 16px; }
   .wrapper { margin-top: 1em; }
   header { margin: 2em 0; padding: 1em 0; }
+  .footer a { display: block; }
   .article { margin-bottom: 3em; }
   .archive-date { float: none; display: inline-block; color: #333333; font-size: .8em; } }
