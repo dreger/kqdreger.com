@@ -97,7 +97,7 @@ a {
 /* Layout */
 
 .wrapper {
-  margin: 7em auto;
+  margin: 7em auto 0;
   max-width: $width;
   padding: 0 1em;
   padding-bottom: 0;
@@ -120,6 +120,8 @@ header {
 }
 
 aside {
+  display: inline;
+  font-size: .8rem;
   margin: 1em 0;
   font-weight: normal;
 }
@@ -131,10 +133,15 @@ aside {
 .footer {
   font-family: $fontHeading;
   padding: 5em 1em;
-  margin: 0 auto;
+  margin: 5em auto 0;
   text-align: center;
-  border-top: solid 1px $colorGrayLight;
+  border-top: solid 1px #555;
   width: 100%;
+  background-color: $color;
+  color: #fefefe;
+  a {
+    color: #fefefe;
+  }
 }
 
 /* Index page */
@@ -269,14 +276,16 @@ code {
     font-size: 16px;
   }
   .wrapper {
-    margin-top: 1em;
+    margin-top: 1.5em;
+  }
+  .footer {
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
   header {
     margin: 2em 0;
     padding: 1em 0;
-  }
-  .footer a {
-    display: block;
   }
   .article {
     margin-bottom: 3em;

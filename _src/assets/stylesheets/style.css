@@ -24,18 +24,19 @@ a img { border: 0; }
 a:hover { -webkit-transition: all 0.12s ease; transition: all 0.12s ease; }
 
 /* Layout */
-.wrapper { margin: 7em auto; max-width: 26rem; padding: 0 1em; padding-bottom: 0; }
+.wrapper { margin: 7em auto 0; max-width: 26rem; padding: 0 1em; padding-bottom: 0; }
 
 header { margin: 5em 0; padding: 2em 0; font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; text-align: left; }
 
 .site-title { margin: 0em; font-weight: normal; font-size: 2em; }
 .site-title a { color: #222222; }
 
-aside { margin: 1em 0; font-weight: normal; }
+aside { display: inline; font-size: .8rem; margin: 1em 0; font-weight: normal; }
 
 .logo { font-size: .7em; }
 
-.footer { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; padding: 5em 1em; margin: 0 auto; text-align: center; border-top: solid 1px #dddddd; width: 100%; }
+.footer { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif; padding: 5em 1em; margin: 5em auto 0; text-align: center; border-top: solid 1px #555; width: 100%; background-color: #222222; color: #fefefe; }
+.footer a { color: #fefefe; }
 
 /* Index page */
 ol.index { margin: 0; padding: 0; }
@@ -77,8 +78,8 @@ code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
 
 /* Media queries */
 @media (max-width: 600px) { body { font-size: 16px; }
-  .wrapper { margin-top: 1em; }
+  .wrapper { margin-top: 1.5em; }
+  .footer { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; }
   header { margin: 2em 0; padding: 1em 0; }
-  .footer a { display: block; }
   .article { margin-bottom: 3em; }
   .archive-date { float: none; display: inline-block; color: #333333; font-size: .8em; } }
