@@ -283,9 +283,8 @@ code {
 }
 .separator {
   display: block;
-  margin: 5em auto; 
+  margin: 4.5em auto; 
   width: 50%;
-  // height: 1px; 
   border: solid $colorGrayLight 2px; 
   &:last-of-type {
     display: none; 

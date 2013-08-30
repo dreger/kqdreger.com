@@ -79,7 +79,7 @@ code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
 
 .right { text-align: right; }
 
-.separator { display: block; margin: 5em auto; width: 50%; border: solid #dddddd 2px; }
+.separator { display: block; margin: 4.5em auto; width: 50%; border: solid #dddddd 2px; }
 .separator:last-of-type { display: none; }
 
 /* Media queries */
