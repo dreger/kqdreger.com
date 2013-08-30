@@ -1,6 +1,7 @@
 ---
 title: Generating graphs with Processing
 layout: post
+starred: true
 ---
 
 [Ben Barry's post](http://designforfun.com/display.php?id=128) on designing the 2011 Facebook f8 Conference remains one of my favorite pieces about design on the internet. As I was reading back through it the other day, I came across how Barry had gone about generating those signature Facebook graph images.

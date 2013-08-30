@@ -2,6 +2,7 @@
 title: Microsoft Arc Touch review
 layout: post
 date: 2013-08-01
+starred: true
 ---
 
 The time had finally come for my trusty [Microsoft Wireless 3500](http://www.microsoft.com/hardware/en-us/p/wireless-mobile-mouse-3500) to die. For the past two years it had served me well, but the middle button - which had been inconsistent these past few months - finally failed. Given I had only spent $19 on it at a Target Back-to-School sale, I felt it was an opportune time to upgrade.

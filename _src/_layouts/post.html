@@ -6,8 +6,8 @@
 {% include header.html %}
 <article class="article">
 <h2 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<p class="article-meta">{{ page.date | date: "%b %d, %Y" }}</p>
 {{ content }}
-<span class="article-meta">{{ page.date | date: "%b %d, %Y" }}</span>
 </article>
 {% include footer.html %}
 </section>

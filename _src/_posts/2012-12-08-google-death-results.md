@@ -2,6 +2,7 @@
 title: Google death results
 date: 2012-12-09
 layout: post
+starred: true
 tags:
 - google
 - numbers
