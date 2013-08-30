@@ -1,7 +1,7 @@
 # standard jekyll configuration
 source:         ./_src
 destination:    ./_site
-permalink:      /:title
+permalink:      /:year/:month/:title
 pygments:       true
 markdown:       rdiscount
 # paginate: 1
@@ -16,7 +16,7 @@ pygments:       true
 domain:         kyledreger.com
 title:          Kyle Dreger
 author:         Kyle Dreger
-email:          hi@kyledreger.com
+email:          desk@kyledreger.com
 description:    "Jesus is life. Simplicity is freedom. Rise."
 
 # typekit:

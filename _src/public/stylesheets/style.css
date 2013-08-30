@@ -1,0 +1,84 @@
+/* Mixin */
+/* Colors */
+/* Typography */
+/* Layout variables */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body { background-color: #FDFDFD; color: #333333; font-family: ff-meta-serif-web-pro, "Avenir Next", Avenir, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 16px; font-weight: 400; line-height: 1.6em; }
+
+h1, h2, h3, h4 { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif; font-weight: bold; line-height: 1.2em; }
+h1 a, h2 a, h3 a, h4 a { text-decoration: none; border: none; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { text-decoration: none; }
+
+h1 { font-size: 2.4em; }
+
+h2 { color: #222222; font-weight: 400; font-size: 2em; text-align: left; text-transform: none; margin-bottom: 1em; }
+
+h3 { font-size: 1em; margin: 1.8em 0 0; color: #222222; font-weight: bold; text-transform: uppercase; }
+h3 + p { margin-top: .2em; }
+
+h4 { font-size: 1em; text-transform: uppercase; }
+
+a { color: #222222; transition: all 0.12s ease; border-bottom: 1px solid #cccccc; text-decoration: none; }
+a img { border: 0; }
+
+/* Layout */
+.wrapper { margin: 7em auto 0; max-width: 29.6rem; padding: 0 1em; padding-bottom: 0; }
+
+header { margin: 2em 0; padding: 2em 0; font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif; text-align: left; }
+
+.site-title { margin: 0em; font-weight: bold; text-transform: uppercase; font-size: 1.2em; }
+.site-title a { border-bottom: 0.3em solid #222222; color: #222222; }
+
+aside { display: inline; font-size: .8rem; margin: 1em 0; font-weight: normal; }
+
+.logo { font-size: .7em; }
+
+.footer { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif; padding: 4em 0; margin: 4.5em 0 0; border-top: solid 10px #cccccc; text-align: left; width: 100%; }
+
+/* Index page */
+ol.index { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif; margin: 0; padding: 0; }
+ol.index li { text-align: left; display: block; list-style: none; padding: .5em 0; border-bottom: 1px dashed #dddddd; font-size: 1em; margin: 0; border-bottom: 1px solid #dddddd dotted; }
+ol.index a { text-decoration: none; border-bottom: none; }
+
+.archive-date { float: right; display: inline-block; color: #cccccc; }
+
+/* Article page */
+.article-title { color: #222222; font-weight: 400; font-size: 2em; text-align: left; text-transform: none; margin-bottom: 1em; }
+
+.continue-reading { display: block; width: 50%; margin: 0 auto; text-align: center; border: 1px solid #dddddd; padding: .4em 2em; text-transform: uppercase; font-size: .7em; letter-spacing: 1px; font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif; }
+.continue-reading:hover { background-color: #fff; border-color: #222222; }
+
+.article-meta { font-family: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif; color: #cccccc; font-weight: bold; text-transform: uppercase; font-size: 1.2em; }
+
+.article p { margin-bottom: 1.5em; }
+
+img, blockquote, ul { margin: 2em 0; }
+
+img { border-radius: 0px; display: block; height: auto !important; max-width: 100%; }
+
+small { display: block; font-size: .9em; font-style: italic; margin: 1rem auto; text-align: center; width: 100%; }
+
+blockquote { border-left: 1px solid #dddddd; color: #777; margin-left: 0; padding: .5em 0 .5em 1em; }
+blockquote p:last-child { margin: 0; padding: 0; }
+
+ul, ol { padding-left: 1.5rem; }
+ul li, ol li { list-style: square; margin: 8px 0px; }
+
+pre { border: solid 2px #d0d0d0; padding: 20px; }
+pre code { border: none; padding: none; }
+
+code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
+
+/* Misc styles */
+.center { text-align: center; }
+
+.right { text-align: right; }
+
+/* Media queries */
+@media (max-width: 600px) { body { font-size: 16px; }
+  .wrapper { margin-top: 1.5em; }
+  .footer { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; }
+  header { margin: 2em 0; padding: 1em 0 1.5em; }
+  .article { margin-bottom: 3em; }
+  .archive-date { float: none; display: none; color: #333333; font-size: .8em; } }

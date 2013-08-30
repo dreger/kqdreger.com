@@ -2,10 +2,10 @@
 
 # Set this to the root of your project
 http_path = "/"
-css_dir = "_src/assets/stylesheets"
-sass_dir = "_src/assets/sass"
-# images_dir = "_src/assets/images"
-# javascripts_dir = "assets/javascripts"
+css_dir = "_src/public/stylesheets"
+sass_dir = "_src/public/sass"
+# images_dir = "_src/public/images"
+# javascripts_dir = "public/javascripts"
 # output_style= :compact
 
 # You can select your preferred output style here (can be overridden via the command line):

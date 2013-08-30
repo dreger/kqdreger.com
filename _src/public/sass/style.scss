@@ -1,7 +1,7 @@
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeaders;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 2em;
   text-align: $textAlign;
   text-transform: none;
@@ -9,6 +9,7 @@
 }
 
 /* Colors */
+$accent: #ff0040;
 $color: #222;
 $colorTitle: #222;
 $colorForText: #333;
@@ -17,13 +18,13 @@ $colorGrayLight: #ddd;
 $colorForHeaders: #222;
 
 /* Typography */
-$fontSize: 14px;
-$fontParagraph: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-$fontHeading: "Avenir Next", Avenir, "Segoe UI", "Helvetica Nueue", Helvetica, "Trebuchet MS", Arial, sans-serif;
+$fontSize: 16px;
+$fontParagraph: ff-meta-serif-web-pro, "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$fontHeading: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif;
 $textAlign: left;
 
 /* Layout variables */
-$width: 26rem;
+$width: 29.6rem;
 
 * {
   margin: 0;
@@ -39,7 +40,7 @@ body {
   font-family: $fontParagraph;
   font-size: $fontSize;
   font-weight: 400;
-  line-height: 1.82em;
+  line-height: 1.6em;
 }
 
 h1, h2, h3, h4 {
@@ -47,11 +48,9 @@ h1, h2, h3, h4 {
   font-weight: bold;
   line-height: 1.2em;
   a {
-    -webkit-transition: all 0.12s ease;
     text-decoration: none;
     border: none;
     &:hover {
-      -webkit-transition: all 0.12s ease;
       text-decoration: none;
     }
   }
@@ -68,6 +67,7 @@ h2 {
 h3 {
   font-size: 1em;
   margin: 1.8em 0 0;
+  color: $colorForHeaders;
   font-weight: bold;
   text-transform: uppercase;
   & + p {
@@ -81,16 +81,12 @@ h4 {
 }
 
 a {
-  -webkit-transition: all 0.12s ease;
   color: $color;
   transition: all 0.12s ease;
-  padding-bottom: 0px;
+  border-bottom: 1px solid $colorGray;
+  text-decoration: none;
   & img {
     border: 0;
-  }
-  &:hover {
-    -webkit-transition: all 0.12s ease;
-    transition: all 0.12s ease;
   }
 }
 
@@ -104,7 +100,7 @@ a {
 }
 
 header {
-  margin: 5em 0;
+  margin: 2em 0;
   padding: 2em 0;
   font-family: $fontHeading;
   text-align: $textAlign;
@@ -112,9 +108,11 @@ header {
 
 .site-title {
   margin: 0em;
-  font-weight: normal;
-  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
   a {
+    border-bottom: .3em solid $colorForHeaders;
     color: $colorTitle;
   }
 }
@@ -132,32 +130,34 @@ aside {
 
 .footer {
   font-family: $fontHeading;
-  padding: 5em 1em;
-  margin: 5em auto 0;
-  text-align: center;
-  border-top: solid 1px #555;
+  padding: 4em 0;
+  margin: 4.5em 0 0;
+  border-top: solid 10px $colorGray;
+  text-align: left;
   width: 100%;
-  background-color: $color;
-  color: #fefefe;
-  a {
-    color: #fefefe;
-  }
 }
 
 /* Index page */
 
 ol.index {
+  font-family: $fontHeading;
   margin: 0;
   padding: 0;
   li {
     text-align: left;
     display: block;
     list-style: none;
-    padding: .2em;
-    border-bottom: 1px dotted $colorGrayLight;
+    padding: .5em 0;
+    border-bottom: 1px dashed $colorGrayLight;
     font-size: 1em;
     margin: 0;
     border-bottom: 1px solid $colorGrayLight dotted;
+  }
+  a {
+    text-decoration: none;
+    border-bottom: none;
+    &:hover {
+    }
   }
 }
 .archive-date {
@@ -191,11 +191,16 @@ ol.index {
 
 .article-meta {
   font-family: $fontHeading;
+  // display: block;
+  // text-align: $textAlign;
+  // font-weight: bold;
+  // @include h2_style; 
   color: $colorGray;
-  display: block;
-  text-align: $textAlign;
-  margin: 1em 0;
+  // margin-top: 1em;
+  // text-align: center;
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
 }
 
 .article {
@@ -205,7 +210,6 @@ ol.index {
 }
 
 img, blockquote,ul {
-  // maybe 1.5?
   margin: 2em 0;
 }
 
@@ -245,7 +249,6 @@ ul, ol {
 }
 
 pre {
-  // background-color: $colorGrayLight;
   border: solid 2px darken($colorGrayLight, 5%);
   padding: 20px;
   code {
@@ -264,7 +267,7 @@ code {
 
 .center {
   text-align: center;
-}
+} 
 .right {
   text-align: right;
 }
@@ -285,14 +288,14 @@ code {
   }
   header {
     margin: 2em 0;
-    padding: 1em 0;
+    padding: 1em 0 1.5em;
   }
   .article {
     margin-bottom: 3em;
   }
   .archive-date {
     float: none;
-    display: inline-block;
+    display: none;
     color: $colorForText;
     font-size: .8em;
   }
