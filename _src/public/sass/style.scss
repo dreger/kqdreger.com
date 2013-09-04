@@ -10,22 +10,24 @@
 
 /* Colors */
 $accent: #ff0040;
-$color: #ff0040;
+$color: #4C7070;
 $colorTitle: #222;
 $colorForText: #333;
 $colorGray: #ccc;
 $colorGrayLight: #ddd;
 $colorForHeaders: #222;
 
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+
 /* Typography */
 $fontSize: 16px;
-$fontParagraph: ff-meta-serif-web-pro, "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-$fontHeading: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", Arial, sans-serif;
+$fontParagraph: proxima-nova-soft, "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$fontHeading: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
 $width: 29.6rem;
-
+// $width: 32rem;
 * {
   margin: 0;
   padding: 0;
@@ -112,7 +114,7 @@ header {
   margin: 0em;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.3em;
   a {
     border-bottom: 4px solid $colorForHeaders;
     color: $colorTitle;
@@ -170,13 +172,13 @@ ol.index {
 
 .starred {
   position: relative;
-  left: -25px; 
+  left: -25px;
 }
 .highlight {
   // position: counter-reset: lative;
   width: 20px;
   display: inline-block;
-  // left: -2em; 
+  // left: -2em;
   color: #00aced;
 }
 
@@ -184,7 +186,7 @@ ol.index {
 
 .article-title {
   @include h2_style;
-  margin-bottom: .5em;
+  margin-bottom: 0em;
 }
 
 .continue-reading {
@@ -209,11 +211,11 @@ ol.index {
   color: $colorGray;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: .85em;
+  font-size: 1em;
 }
 
 .article {
-  // padding: 2em 0; 
+  // padding: 2em 0;
   p {
     margin-bottom: 1.5em;
   }
@@ -277,17 +279,17 @@ code {
 
 .center {
   text-align: center;
-} 
+}
 .right {
   text-align: right;
 }
 .separator {
   display: block;
-  margin: 4.5em auto; 
-  width: 50%;
-  border: solid $colorGrayLight 2px; 
+  margin: 4.5em auto;
+  width: 75%;
+  border: solid $colorGrayLight 2px;
   &:last-of-type {
-    display: none; 
+    display: none;
   }
 }
 
