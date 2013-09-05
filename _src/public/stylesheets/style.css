@@ -28,7 +28,8 @@ a img { border: 0; }
 header { margin: 4em 0; padding: 2em 0; font-family: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; text-align: left; }
 
 .site-title { margin: 0em; font-weight: bold; text-transform: uppercase; font-size: 1.3em; }
-.site-title a { border-bottom: 4px solid #222222; color: #222222; }
+.site-title a { padding: .2em 0 .2em 1em; border-left: 4px solid #dddddd; color: #222222; }
+.site-title a:hover { border-left-color: #4c7070; }
 
 aside { display: inline; font-size: .8rem; margin: 1em 0; font-weight: normal; }
 
