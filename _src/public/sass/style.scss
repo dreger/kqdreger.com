@@ -17,12 +17,13 @@ $colorGray: #ccc;
 $colorGrayLight: #ddd;
 $colorForHeaders: #222;
 
-// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,900);
 
 /* Typography */
 $fontSize: 16px;
-$fontParagraph: proxima-nova-soft, "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-$fontHeading: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif;
+$fontParagraph: 'Merriweather', "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$fontHeading: 'Merriweather', "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif;
 $textAlign: left;
 
 /* Layout variables */

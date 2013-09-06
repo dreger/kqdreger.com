@@ -1,12 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,900);
 /* Mixin */
 /* Colors */
 /* Typography */
 /* Layout variables */
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: #FDFDFD; color: #333333; font-family: proxima-nova-soft, "Avenir Next", Avenir, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 16px; font-weight: 400; line-height: 1.6em; }
+body { background-color: #FDFDFD; color: #333333; font-family: "Merriweather", "Avenir Next", Avenir, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 16px; font-weight: 400; line-height: 1.6em; }
 
-h1, h2, h3, h4 { font-family: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; font-weight: bold; line-height: 1.2em; }
+h1, h2, h3, h4 { font-family: "Merriweather", "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; font-weight: bold; line-height: 1.2em; }
 h1 a, h2 a, h3 a, h4 a { color: #222222; text-decoration: none; border: none; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { text-decoration: none; }
 
@@ -25,7 +26,7 @@ a img { border: 0; }
 /* Layout */
 .wrapper { margin: 7em auto 0; max-width: 29.6rem; padding: 0 1em; padding-bottom: 0; }
 
-header { margin: 4em 0; padding: 2em 0; font-family: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; text-align: left; }
+header { margin: 4em 0; padding: 2em 0; font-family: "Merriweather", "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; text-align: left; }
 
 .site-title { margin: 0em; font-weight: bold; text-transform: uppercase; font-size: 1.3em; }
 .site-title a { padding: .2em 0 .2em 1em; border-left: 4px solid #dddddd; color: #222222; }
@@ -35,10 +36,10 @@ aside { display: inline; font-size: .8rem; margin: 1em 0; font-weight: normal; }
 
 .logo { font-size: .7em; }
 
-.footer { font-family: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; padding: 4em 0; margin: 4em 0 0; border-top: solid 4px #cccccc; text-align: left; width: 100%; }
+.footer { font-family: "Merriweather", "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; padding: 4em 0; margin: 4em 0 0; border-top: solid 4px #cccccc; text-align: left; width: 100%; }
 
 /* Index page */
-ol.index { font-family: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; margin: 0; padding: 0; }
+ol.index { font-family: "Merriweather", "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; margin: 0; padding: 0; }
 ol.index li { text-align: left; display: block; list-style: none; padding: .5em 0; border-bottom: 1px dashed #dddddd; font-size: 1em; margin: 0; border-bottom: 1px solid #dddddd dotted; }
 ol.index a { text-decoration: none; border-bottom: none; }
 
@@ -51,10 +52,10 @@ ol.index a { text-decoration: none; border-bottom: none; }
 /* Article page */
 .article-title { color: #222222; font-weight: bold; font-size: 1.5em; text-align: left; text-transform: none; margin-bottom: 1em; margin-bottom: 0em; }
 
-.continue-reading { display: block; width: 50%; margin: 0 auto; text-align: center; border: 1px solid #dddddd; padding: .4em 2em; text-transform: uppercase; font-size: .7em; letter-spacing: 1px; font-family: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; }
+.continue-reading { display: block; width: 50%; margin: 0 auto; text-align: center; border: 1px solid #dddddd; padding: .4em 2em; text-transform: uppercase; font-size: .7em; letter-spacing: 1px; font-family: "Merriweather", "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; }
 .continue-reading:hover { background-color: #fff; border-color: #4c7070; }
 
-.article-meta { font-family: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; color: #cccccc; font-weight: bold; text-transform: uppercase; font-size: 1em; }
+.article-meta { font-family: "Merriweather", "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif; color: #cccccc; font-weight: bold; text-transform: uppercase; font-size: 1em; }
 
 .article p { margin-bottom: 1.5em; }
 
