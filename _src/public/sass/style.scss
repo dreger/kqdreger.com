@@ -18,17 +18,18 @@ $colorGrayLight: #ddd;
 $colorForHeaders: #222;
 
 
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,900);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,900);
+//proxima-nova-soft, 'Merriweather', "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 
 /* Typography */
 $fontSize: 16px;
-$fontParagraph: 'Merriweather', "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-$fontHeading: 'Merriweather', "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif;
+$fontParagraph: proxima-nova-soft, "Avenir Next", Avenir, Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$fontHeading: proxima-nova-soft, "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Helvetica, "Trebuchet MS", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
-$width: 29.6rem;
-// $width: 32rem;
+$width: 30.5rem;
+
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +44,7 @@ body {
   font-family: $fontParagraph;
   font-size: $fontSize;
   font-weight: 400;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4 {
@@ -106,24 +107,24 @@ a {
 
 header {
   margin: 4em 0;
-  padding: 2em 0;
+  padding: 1em 0;
   font-family: $fontHeading;
   text-align: $textAlign;
 }
 
 .site-title {
-  margin: 0em;
+  margin: .5em 0;
   font-weight: bold;
-  text-transform: uppercase;
   font-size: 1.3em;
   a {
-    padding: .2em 0 .2em 1em;
-    border-left: 4px solid $colorGrayLight;
     color: $colorTitle;
     &:hover {
       border-left-color: $color;
     }
   }
+}
+.site-byline {
+  color: $colorGray;
 }
 
 aside {
