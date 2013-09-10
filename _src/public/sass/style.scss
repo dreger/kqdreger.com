@@ -28,7 +28,8 @@ $textAlign: left;
 
 /* Layout variables */
 $width: 30.5rem;
-$makeuppadding: 1em;
+$width_img: 50rem;
+$margin_img_left: 10.75rem;
 
 * {
   margin: 0;
@@ -100,14 +101,14 @@ a {
 .wrapper {
   margin: 7em auto 0;
   max-width: $width;
-  padding: 0 0em;
+  padding: 0 1em;
   padding-bottom: 0;
 
 }
 
 header {
   margin: 4em 0;
-  padding: $makeuppadding;
+  padding: 2em 0;
   font-family: $fontHeading;
   text-align: $textAlign;
 }
@@ -140,9 +141,9 @@ aside {
 
 .footer {
   font-family: $fontHeading;
-  padding: 4em $makeuppadding;
+  padding: 4em 0;
   margin: 4em 0 0;
-  border-top: solid 3px $colorGray;
+  border-top: solid 6px $colorGrayLight;
   text-align: left;
   width: 100%;
 }
@@ -222,7 +223,7 @@ ol.index {
 }
 
 .article {
-  padding: 0em $makeuppadding;
+  padding: 0em 0;
   p {
     margin-bottom: 1.5em;
   }
@@ -233,10 +234,12 @@ img, blockquote,ul {
 }
 
 img {
-  border-radius: 0px;
+  border-radius: 3px;
   display: block;
   height: auto !important;
-  max-width: 100%;
+  // max-width: 100%;
+  width: $width_img;
+  margin-left: -$margin_img_left;
 }
 
 small {
@@ -261,8 +264,16 @@ blockquote {
 
 ul, ol {
   padding-left: 1.5rem;
+  margin-bottom: 1.5em;
+}
+ul {
   li {
     list-style: square;
+    margin: 8px 0px;
+  }
+}
+ol {
+  li {
     margin: 8px 0px;
   }
 }
@@ -292,15 +303,22 @@ code {
 }
 .separator {
   display: block;
-  margin: 4.5em auto;
-  width: 100%;
-  border: solid $colorGrayLight 2px;
+  margin: 4em auto;
+  width: 110%;
+  margin-left: -5%;
+  border: solid $colorGrayLight 3px;
   &:last-of-type {
     display: none;
   }
 }
 
 /* Media queries */
+@media (max-width: 800px) {
+  img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
 
 @media (max-width: 600px) {
   body {
@@ -315,7 +333,7 @@ code {
     padding-bottom: 2em;
   }
   header {
-    margin: 2em $makeuppadding;
+    margin: 2em 0;
     padding: 1em 0 1.5em;
   }
   .article {
@@ -328,6 +346,7 @@ code {
     font-size: .8em;
   }
   .separator {
-    margin: 3em 0;
+    margin: 3em auto;
+    width: 100%;
   }
 }

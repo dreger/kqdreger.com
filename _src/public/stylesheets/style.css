@@ -23,9 +23,9 @@ a { color: #4c7070; transition: all 0.12s ease; border-bottom: 1px solid #cccccc
 a img { border: 0; }
 
 /* Layout */
-.wrapper { margin: 7em auto 0; max-width: 30.5rem; padding: 0 0em; padding-bottom: 0; }
+.wrapper { margin: 7em auto 0; max-width: 30.5rem; padding: 0 1em; padding-bottom: 0; }
 
-header { margin: 4em 0; padding: 1em; font-family: proxima-nova-soft, Helvetica, sans-serif; text-align: left; }
+header { margin: 4em 0; padding: 2em 0; font-family: proxima-nova-soft, Helvetica, sans-serif; text-align: left; }
 
 .site-title { margin: .2em 0; font-weight: bold; font-size: 1.3em; }
 .site-title a { color: #222222; }
@@ -37,7 +37,7 @@ aside { display: inline; font-size: .8rem; margin: 1em 0; font-weight: normal; }
 
 .logo { font-size: .7em; }
 
-.footer { font-family: proxima-nova-soft, Helvetica, sans-serif; padding: 4em 1em; margin: 4em 0 0; border-top: solid 3px #cccccc; text-align: left; width: 100%; }
+.footer { font-family: proxima-nova-soft, Helvetica, sans-serif; padding: 4em 0; margin: 4em 0 0; border-top: solid 6px #dddddd; text-align: left; width: 100%; }
 
 /* Index page */
 ol.index { font-family: proxima-nova-soft, Helvetica, sans-serif; margin: 0; padding: 0; }
@@ -58,20 +58,23 @@ ol.index a { text-decoration: none; border-bottom: none; }
 
 .article-meta { font-family: proxima-nova-soft, Helvetica, sans-serif; color: #cccccc; font-weight: bold; font-size: 1em; }
 
-.article { padding: 0em 1em; }
+.article { padding: 0em 0; }
 .article p { margin-bottom: 1.5em; }
 
 img, blockquote, ul { margin: 2em 0; }
 
-img { border-radius: 0px; display: block; height: auto !important; max-width: 100%; }
+img { border-radius: 3px; display: block; height: auto !important; width: 50rem; margin-left: -10.75rem; }
 
 small { display: block; font-size: .9em; font-style: italic; margin: 1rem auto; text-align: center; width: 100%; }
 
 blockquote { border-left: 1px solid #dddddd; color: #777; margin-left: 0; padding: .5em 0 .5em 1em; }
 blockquote p:last-child { margin: 0; padding: 0; }
 
-ul, ol { padding-left: 1.5rem; }
-ul li, ol li { list-style: square; margin: 8px 0px; }
+ul, ol { padding-left: 1.5rem; margin-bottom: 1.5em; }
+
+ul li { list-style: square; margin: 8px 0px; }
+
+ol li { margin: 8px 0px; }
 
 pre { border: solid 2px #d0d0d0; padding: 20px; }
 pre code { border: none; padding: none; }
@@ -83,14 +86,15 @@ code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
 
 .right { text-align: right; }
 
-.separator { display: block; margin: 4.5em auto; width: 100%; border: solid #dddddd 2px; }
+.separator { display: block; margin: 4em auto; width: 110%; margin-left: -5%; border: solid #dddddd 3px; }
 .separator:last-of-type { display: none; }
 
 /* Media queries */
+@media (max-width: 800px) { img { max-width: 100%; margin-left: 0; } }
 @media (max-width: 600px) { body { font-size: 16px; }
   .wrapper { margin-top: 1.5em; }
   .footer { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; }
-  header { margin: 2em 1em; padding: 1em 0 1.5em; }
+  header { margin: 2em 0; padding: 1em 0 1.5em; }
   .article { margin-bottom: 3em; }
   .archive-date { float: none; display: none; color: #333333; font-size: .8em; }
-  .separator { margin: 3em 0; } }
+  .separator { margin: 3em auto; width: 100%; } }
