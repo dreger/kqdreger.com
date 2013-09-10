@@ -1,7 +1,7 @@
 # standard jekyll configuration
 source:         ./_src
 destination:    ./_site
-permalink:      /:year/:month/:title
+permalink:      /:year/:month/:title.html
 pygments:       true
 markdown:       rdiscount
 # paginate: 1

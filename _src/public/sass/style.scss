@@ -19,11 +19,12 @@ $colorForHeaders: #222;
 
 
 // @import url(http://fonts.googleapis.com/css?family=Open-Sans:400,400italic,700,900);
+// LOVE jaf-facitweb
 
 /* Typography */
 $fontSize: 16px;
-$fontParagraph: proxima-nova-soft, Helvetica, sans-serif;
-$fontHeading: proxima-nova-soft, Helvetica, sans-serif;
+$fontParagraph: proxima-nova-soft, "Helvetica Neue", sans-serif;
+$fontHeading: proxima-nova-soft, "Helvetica Neue", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
@@ -217,8 +218,6 @@ ol.index {
   font-family: $fontHeading;
   color: $colorGray;
   font-weight: bold;
-  // text-align: right;
-  // text-transform: uppercase;
   font-size: 1em;
 }
 
