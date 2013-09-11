@@ -23,8 +23,8 @@ $colorForHeaders: #222;
 
 /* Typography */
 $fontSize: 16px;
-$fontParagraph: proxima-nova-soft, "Helvetica Neue", sans-serif;
-$fontHeading: proxima-nova-soft, "Helvetica Neue", sans-serif;
+$fontParagraph: proxima-nova, "Helvetica Neue", sans-serif;
+$fontHeading: proxima-nova, "Helvetica Neue", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
@@ -302,10 +302,10 @@ code {
 }
 .separator {
   display: block;
-  margin: 4em auto;
+  margin: 4.5em auto;
   width: 110%;
   margin-left: -5%;
-  border: solid $colorGrayLight 3px;
+  border: solid $colorGrayLight 2px;
   &:last-of-type {
     display: none;
   }
