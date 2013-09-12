@@ -1,8 +1,8 @@
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeaders;
-  font-weight: bold;
-  font-size: 1.5em;
+  font-weight: 200;
+  font-size: 2em;
   text-align: $textAlign;
   text-transform: none;
   margin-bottom: 1em;
@@ -12,8 +12,8 @@
 $accent: #ff0040;
 $color: #4C7070;
 $color: #9c3;
-$color: #ff0050;
 $color: #2b579a;
+$color: #ff0050;
 $colorTitle: #222;
 $colorForText: #333;
 $colorGray: #ccc;
@@ -21,13 +21,13 @@ $colorGrayLight: #eee;
 $colorForHeaders: #222;
 
 
-// @import url(http://fonts.googleapis.com/css?family=Open-Sans:400,400italic,700,900);
+// @import url(http://fonts.googleapis.com/css?family=Open-Sans:400,400italic,700);
 // LOVE jaf-facitweb
 
 /* Typography */
 $fontSize: 16px;
-$fontParagraph: proxima-nova-soft, "Helvetica Neue", sans-serif;
-$fontHeading: proxima-nova-soft, "Helvetica Neue", sans-serif;
+$fontParagraph: proxima-nova, "Helvetica Neue", sans-serif;
+$fontHeading: proxima-nova, "Helvetica Neue", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
@@ -45,6 +45,7 @@ $margin_img_left: 10.75rem;
 
 body {
   background-color: #FDFDFD;
+  border-top: 20px solid $color;
   color: $colorForText;
   font-family: $fontParagraph;
   font-size: $fontSize;
@@ -93,8 +94,8 @@ h4 {
 a {
   color: $color;
   transition: all 0.12s ease;
-  border-bottom: 1px solid $colorGray;
-  text-decoration: none;
+  // border-bottom: 1px solid $colorGray;
+  // text-decoration: none;
   & img {
     border: 0;
   }
@@ -107,32 +108,34 @@ a {
   max-width: $width;
   padding: 0 1em;
   padding-bottom: 0;
-
 }
 
 header {
   width: $width;
-  margin: 6em auto;
+  margin: 5em auto;
   padding: 2em 1em;
   font-family: $fontHeading;
-  color: #fff;
+  // color: #fff;
+  text-align: $textAlign;
 }
 .header-wrapper {
-  background-color: $color;
+  // background-color: $color;
 }
 
 .site-title {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 2.5em;
+  font-weight: 200;
+  text-align: $textAlign;
+  text-align: center;
+  // display: inline-block;
   margin-bottom: .2em;
-  text-transform: uppercase;
   a {
-    letter-spacing: 1px;
-    color: #fff;
+    // border-bottom: 5px solid
   }
 }
 .site-byline {
   // color: $colorGray;
+  // display: inline-block;
 }
 
 aside {
@@ -151,7 +154,7 @@ aside {
   padding: 4em 0;
   margin: 4em 0 0;
   border-top: solid 5px $colorGrayLight;
-  text-align: left;
+  text-align: $textAlign;
   width: 100%;
 }
 
@@ -201,6 +204,15 @@ ol.index {
 .article-title {
   @include h2_style;
   margin-bottom: .2em;
+  text-align: left;
+}
+.article-meta {
+  font-family: $fontHeading;
+  color: $colorGray;
+  text-align: left;
+  font-weight: 200;
+  // margin-top: 1.5em;
+  font-size: em;
 }
 
 .continue-reading {
@@ -220,12 +232,6 @@ ol.index {
   }
 }
 
-.article-meta {
-  font-family: $fontHeading;
-  color: $colorGray;
-  font-weight: bold;
-  font-size: 1em;
-}
 
 .article {
   padding: 0em 0;
@@ -311,7 +317,7 @@ code {
   margin: 5em auto;
   width: 130%;
   margin-left: -15%;
-  border: solid $colorGrayLight 4px;
+  border-top: solid $colorGrayLight 5px;
   &:last-of-type {
     display: none;
   }
@@ -339,7 +345,8 @@ code {
   }
   header {
     margin: 2em 0;
-    padding: 1em;
+    padding: 1.5em;
+    width: 100%;
   }
   .article {
     margin-bottom: 3em;
