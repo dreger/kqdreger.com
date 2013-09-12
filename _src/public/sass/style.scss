@@ -11,10 +11,13 @@
 /* Colors */
 $accent: #ff0040;
 $color: #4C7070;
+$color: #9c3;
+$color: #ff0050;
+$color: #2b579a;
 $colorTitle: #222;
 $colorForText: #333;
 $colorGray: #ccc;
-$colorGrayLight: #ddd;
+$colorGrayLight: #eee;
 $colorForHeaders: #222;
 
 
@@ -23,8 +26,8 @@ $colorForHeaders: #222;
 
 /* Typography */
 $fontSize: 16px;
-$fontParagraph: proxima-nova, "Helvetica Neue", sans-serif;
-$fontHeading: proxima-nova, "Helvetica Neue", sans-serif;
+$fontParagraph: proxima-nova-soft, "Helvetica Neue", sans-serif;
+$fontHeading: proxima-nova-soft, "Helvetica Neue", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
@@ -100,7 +103,7 @@ a {
 /* Layout */
 
 .wrapper {
-  margin: 7em auto 0;
+  margin: 0 auto;
   max-width: $width;
   padding: 0 1em;
   padding-bottom: 0;
@@ -108,25 +111,28 @@ a {
 }
 
 header {
-  margin: 4em 0;
-  padding: 2em 0;
+  width: $width;
+  margin: 6em auto;
+  padding: 2em 1em;
   font-family: $fontHeading;
-  text-align: $textAlign;
+  color: #fff;
+}
+.header-wrapper {
+  background-color: $color;
 }
 
 .site-title {
-  margin: .2em 0;
+  font-size: 1.5em;
   font-weight: bold;
-  font-size: 1.3em;
+  margin-bottom: .2em;
+  text-transform: uppercase;
   a {
-    color: $colorTitle;
-    &:hover {
-      border-left-color: $color;
-    }
+    letter-spacing: 1px;
+    color: #fff;
   }
 }
 .site-byline {
-  color: $colorGray;
+  // color: $colorGray;
 }
 
 aside {
@@ -144,7 +150,7 @@ aside {
   font-family: $fontHeading;
   padding: 4em 0;
   margin: 4em 0 0;
-  border-top: solid 6px $colorGrayLight;
+  border-top: solid 5px $colorGrayLight;
   text-align: left;
   width: 100%;
 }
@@ -251,7 +257,7 @@ small {
 }
 
 blockquote {
-  border-left: 1px solid $colorGrayLight;
+  border-left: 5px solid $colorGrayLight;
   color: #777;
   margin-left: 0;
   padding: .5em 0 .5em 1em;
@@ -302,10 +308,10 @@ code {
 }
 .separator {
   display: block;
-  margin: 4.5em auto;
-  width: 110%;
-  margin-left: -5%;
-  border: solid $colorGrayLight 2px;
+  margin: 5em auto;
+  width: 130%;
+  margin-left: -15%;
+  border: solid $colorGrayLight 4px;
   &:last-of-type {
     display: none;
   }
@@ -333,7 +339,7 @@ code {
   }
   header {
     margin: 2em 0;
-    padding: 1em 0 1.5em;
+    padding: 1em;
   }
   .article {
     margin-bottom: 3em;

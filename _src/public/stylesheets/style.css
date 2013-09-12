@@ -4,9 +4,9 @@
 /* Layout variables */
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: #FDFDFD; color: #333333; font-family: proxima-nova, "Helvetica Neue", sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5em; }
+body { background-color: #FDFDFD; color: #333333; font-family: proxima-nova-soft, "Helvetica Neue", sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5em; }
 
-h1, h2, h3, h4 { font-family: proxima-nova, "Helvetica Neue", sans-serif; font-weight: bold; line-height: 1.2em; }
+h1, h2, h3, h4 { font-family: proxima-nova-soft, "Helvetica Neue", sans-serif; font-weight: bold; line-height: 1.2em; }
 h1 a, h2 a, h3 a, h4 a { color: #222222; text-decoration: none; border: none; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { text-decoration: none; }
 
@@ -19,29 +19,28 @@ h3 + p { margin-top: .2em; }
 
 h4 { font-size: 1em; text-transform: uppercase; }
 
-a { color: #4c7070; transition: all 0.12s ease; border-bottom: 1px solid #cccccc; text-decoration: none; }
+a { color: #2b579a; transition: all 0.12s ease; border-bottom: 1px solid #cccccc; text-decoration: none; }
 a img { border: 0; }
 
 /* Layout */
-.wrapper { margin: 7em auto 0; max-width: 30.5rem; padding: 0 1em; padding-bottom: 0; }
+.wrapper { margin: 0 auto; max-width: 30.5rem; padding: 0 1em; padding-bottom: 0; }
 
-header { margin: 4em 0; padding: 2em 0; font-family: proxima-nova, "Helvetica Neue", sans-serif; text-align: left; }
+header { width: 30.5rem; margin: 6em auto; padding: 2em 1em; font-family: proxima-nova-soft, "Helvetica Neue", sans-serif; color: #fff; }
 
-.site-title { margin: .2em 0; font-weight: bold; font-size: 1.3em; }
-.site-title a { color: #222222; }
-.site-title a:hover { border-left-color: #4c7070; }
+.header-wrapper { background-color: #2b579a; }
 
-.site-byline { color: #cccccc; }
+.site-title { font-size: 1.5em; font-weight: bold; margin-bottom: .2em; text-transform: uppercase; }
+.site-title a { letter-spacing: 1px; color: #fff; }
 
 aside { display: inline; font-size: .8rem; margin: 1em 0; font-weight: normal; }
 
 .logo { font-size: .7em; }
 
-.footer { font-family: proxima-nova, "Helvetica Neue", sans-serif; padding: 4em 0; margin: 4em 0 0; border-top: solid 6px #dddddd; text-align: left; width: 100%; }
+.footer { font-family: proxima-nova-soft, "Helvetica Neue", sans-serif; padding: 4em 0; margin: 4em 0 0; border-top: solid 5px #eeeeee; text-align: left; width: 100%; }
 
 /* Index page */
-ol.index { font-family: proxima-nova, "Helvetica Neue", sans-serif; margin: 0; padding: 0; }
-ol.index li { text-align: left; display: block; list-style: none; padding: .5em 0; border-bottom: 1px dashed #dddddd; font-size: 1em; margin: 0; border-bottom: 1px solid #dddddd dotted; }
+ol.index { font-family: proxima-nova-soft, "Helvetica Neue", sans-serif; margin: 0; padding: 0; }
+ol.index li { text-align: left; display: block; list-style: none; padding: .5em 0; border-bottom: 1px dashed #eeeeee; font-size: 1em; margin: 0; border-bottom: 1px solid #eeeeee dotted; }
 ol.index a { text-decoration: none; border-bottom: none; }
 
 .archive-date { float: right; display: inline-block; color: #cccccc; }
@@ -53,10 +52,10 @@ ol.index a { text-decoration: none; border-bottom: none; }
 /* Article page */
 .article-title { color: #222222; font-weight: bold; font-size: 1.5em; text-align: left; text-transform: none; margin-bottom: 1em; margin-bottom: .2em; }
 
-.continue-reading { display: block; width: 50%; margin: 0 auto; text-align: center; border: 1px solid #dddddd; padding: .4em 2em; text-transform: uppercase; font-size: .7em; letter-spacing: 1px; font-family: proxima-nova, "Helvetica Neue", sans-serif; }
-.continue-reading:hover { background-color: #fff; border-color: #4c7070; }
+.continue-reading { display: block; width: 50%; margin: 0 auto; text-align: center; border: 1px solid #eeeeee; padding: .4em 2em; text-transform: uppercase; font-size: .7em; letter-spacing: 1px; font-family: proxima-nova-soft, "Helvetica Neue", sans-serif; }
+.continue-reading:hover { background-color: #fff; border-color: #2b579a; }
 
-.article-meta { font-family: proxima-nova, "Helvetica Neue", sans-serif; color: #cccccc; font-weight: bold; font-size: 1em; }
+.article-meta { font-family: proxima-nova-soft, "Helvetica Neue", sans-serif; color: #cccccc; font-weight: bold; font-size: 1em; }
 
 .article { padding: 0em 0; }
 .article p { margin-bottom: 1.5em; }
@@ -67,7 +66,7 @@ img { border-radius: 3px; display: block; height: auto !important; width: 50rem;
 
 small { display: block; font-size: .9em; font-style: italic; margin: 1rem auto; text-align: center; width: 100%; }
 
-blockquote { border-left: 1px solid #dddddd; color: #777; margin-left: 0; padding: .5em 0 .5em 1em; }
+blockquote { border-left: 5px solid #eeeeee; color: #777; margin-left: 0; padding: .5em 0 .5em 1em; }
 blockquote p:last-child { margin: 0; padding: 0; }
 
 ul, ol { padding-left: 1.5rem; margin-bottom: 1.5em; }
@@ -76,17 +75,17 @@ ul li { list-style: square; margin: 8px 0px; }
 
 ol li { margin: 8px 0px; }
 
-pre { border: solid 2px #d0d0d0; padding: 20px; }
+pre { border: solid 2px #e1e1e1; padding: 20px; }
 pre code { border: none; padding: none; }
 
-code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
+code { border: 1px solid #e1e1e1; font-size: .9em; padding: 1px 5px; }
 
 /* Misc styles */
 .center { text-align: center; }
 
 .right { text-align: right; }
 
-.separator { display: block; margin: 4.5em auto; width: 110%; margin-left: -5%; border: solid #dddddd 2px; }
+.separator { display: block; margin: 5em auto; width: 130%; margin-left: -15%; border: solid #eeeeee 4px; }
 .separator:last-of-type { display: none; }
 
 /* Media queries */
@@ -94,7 +93,7 @@ code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
 @media (max-width: 600px) { body { font-size: 16px; }
   .wrapper { margin-top: 1.5em; }
   .footer { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; }
-  header { margin: 2em 0; padding: 1em 0 1.5em; }
+  header { margin: 2em 0; padding: 1em; }
   .article { margin-bottom: 3em; }
   .archive-date { float: none; display: none; color: #333333; font-size: .8em; }
   .separator { margin: 3em auto; width: 100%; } }
