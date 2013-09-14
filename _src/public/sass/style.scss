@@ -115,11 +115,14 @@ header {
   margin: 5em auto;
   padding: 2em 1em;
   font-family: $fontHeading;
-  // color: #fff;
   text-align: $textAlign;
 }
-.header-wrapper {
-  // background-color: $color;
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .site-title {
@@ -127,15 +130,9 @@ header {
   font-weight: 200;
   text-align: $textAlign;
   text-align: center;
-  // display: inline-block;
   margin-bottom: .2em;
-  a {
-    // border-bottom: 5px solid
-  }
 }
 .site-byline {
-  // color: $colorGray;
-  // display: inline-block;
 }
 
 aside {
