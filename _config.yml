@@ -19,7 +19,7 @@ author:         Kyle Dreger
 email:          desk@kyledreger.com
 description:    "Jesus is life. Simplicity is freedom. Rise."
 
-# typekit:
-#   id:           eqd7pqa
+typekit:
+  id:           eqd7pqa
 google_analytics:
   account:      UA-17208416-19

@@ -21,17 +21,17 @@ $colorGray: #ccc;
 $colorGrayLight: #eee;
 $colorForHeaders: #222;
 
-@import url(http://fonts.googleapis.com/css?family=Open-Sans:400,400italic,700);
+// @import url(http://fonts.googleapis.com/css?family=Open-Sans:400,400italic,700);
 // LOVE jaf-facitweb
 
 /* Typography */
 $fontSize: 14px;
-$fontHeading: "open sans", "Helvetica Neue", sans-serif;
-$fontParagraph: "open sans", "Helvetica Neue", sans-serif;
+$fontHeading: open-sans, "Helvetica Neue", sans-serif;
+$fontParagraph: open-sans, "Helvetica Neue", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
-$width: 30.5rem;
+$width: 30rem;
 $width_img: 50rem;
 $margin_img_left: 10.75rem;
 
@@ -115,7 +115,6 @@ header {
   margin: 5em auto;
   padding: 2em 1em;
   font-family: $fontHeading;
-  text-align: center;
 }
 
 .logo {
