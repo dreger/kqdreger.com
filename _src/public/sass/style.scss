@@ -1,7 +1,7 @@
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeaders;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 1.5em;
   text-align: $textAlign;
   text-transform: none;
@@ -26,14 +26,14 @@ $colorForHeaders: #222;
 
 /* Typography */
 $fontSize: 14px;
-$fontHeading: open-sans, "Helvetica Neue", sans-serif;
-$fontParagraph: open-sans, "Helvetica Neue", sans-serif;
+$fontHeading: proxima-nova, open-sans, "Helvetica Neue", sans-serif;
+$fontParagraph: proxima-nova, open-sans, "Helvetica Neue", sans-serif;
 $textAlign: left;
 
 /* Layout variables */
-$width: 30rem;
+$width: 28rem;
 $width_img: 50rem;
-$margin_img_left: 10.75rem;
+$margin_img_left: 12rem;
 
 * {
   margin: 0;
@@ -76,8 +76,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
-  margin: 1.8em 0 0;
+  font-size: 1.1em;
+  margin: 1.8em 0 .2em;
   color: $colorForHeaders;
   font-weight: bold;
   text-transform: uppercase;
@@ -318,7 +318,7 @@ code {
 }
 
 /* Media queries */
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   img {
     max-width: 100%;
     margin-left: 0;
