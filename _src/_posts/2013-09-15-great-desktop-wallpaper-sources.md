@@ -1,5 +1,5 @@
 ---
-title: The best places for desktop wallpapers
+title: The Best Places for Desktop Wallpapers
 layout: post
 date: 2013-09-15
 ---

@@ -1,8 +1,8 @@
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeaders;
-  font-weight: 900;
-  font-size: 1.5em;
+  font-weight: bold;
+  font-size: 2em;
   text-align: $textAlign;
   text-transform: none;
   margin-bottom: 1em;
@@ -10,30 +10,30 @@
 
 /* Colors */
 $accent: #ff0040;
-$color: #4C7070;
-$color: #9c3;
-$color: #2b579a;
 $color: #ff0050;
+$color: #2b579a;
+$color: #9c3;
+$color: #4C7070;
 $color: #4D2D59;
-$colorTitle: #222;
+$colorTitle: #333;
 $colorForText: #333;
 $colorGray: #ccc;
 $colorGrayLight: #eee;
-$colorForHeaders: #222;
+$colorForHeaders: #333;
 
 // @import url(http://fonts.googleapis.com/css?family=Open-Sans:400,400italic,700);
 // LOVE jaf-facitweb
 
 /* Typography */
-$fontSize: 14px;
-$fontHeading: proxima-nova, open-sans, "Helvetica Neue", sans-serif;
-$fontParagraph: proxima-nova, open-sans, "Helvetica Neue", sans-serif;
+$fontSize: 16px;
+$fontHeading:  "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif;
+$fontParagraph: Georgia, serif;
 $textAlign: left;
 
 /* Layout variables */
-$width: 28rem;
-$width_img: 50rem;
-$margin_img_left: 12rem;
+$width: 32rem;
+$width_img: 52rem;
+$margin_img_left: 11rem;
 
 * {
   margin: 0;
@@ -45,12 +45,12 @@ $margin_img_left: 12rem;
 
 body {
   background-color: #FDFDFD;
-  border-top: 20px solid $color;
+  border-bottom: 50px solid $color;
   color: $colorForText;
   font-family: $fontParagraph;
   font-size: $fontSize;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.625em;
 }
 
 h1, h2, h3, h4 {
@@ -76,7 +76,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 1.8em 0 .2em;
   color: $colorForHeaders;
   font-weight: bold;
@@ -112,8 +112,7 @@ a {
 
 header {
   width: $width;
-  margin: 5em auto;
-  padding: 2em 1em;
+  margin: 8em auto;
   font-family: $fontHeading;
 }
 
@@ -125,8 +124,8 @@ header {
 }
 
 .site-title {
-  font-size: 2em;
-  font-weight: 900;
+  font-size: 3em;
+  font-weight: normal;
   margin-bottom: .2em;
 }
 .site-byline {
@@ -318,7 +317,7 @@ code {
 }
 
 /* Media queries */
-@media (max-width: 810px) {
+@media (max-width: 53em) {
   img {
     max-width: 100%;
     margin-left: 0;
