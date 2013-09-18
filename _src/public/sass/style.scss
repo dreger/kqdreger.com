@@ -2,7 +2,7 @@
 @mixin h2_style {
   color: $colorForHeadings;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   text-transform: none;
   margin-bottom: 1em;
 }
@@ -15,15 +15,16 @@ $colorGray: #ccc;
 $colorGrayLight: #ddd;
 
 /* Typography */
-$typeSize: 16px;
+$typeSize: 14px;
 $typeLineHeight: 1.625em;
 $typeForHeadings:  'Avenir Next', 'Helvetica Neue', 'Segoe UI', Verdana sans-serif;
 $typeForBody: Georgia, serif;
 
 /* Layout variables */
-$wrapperWidth: 32rem;
+$wrapperWidth: 30rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
+$largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
 
 * {
   margin: 0;
@@ -139,7 +140,7 @@ ol.archive {
 /* Titles and such */
 
 .site-title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: normal;
   margin-bottom: .2em;
 }
@@ -264,8 +265,8 @@ code {
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  header {
-    margin: 3em 0;
+  .header {
+    margin: 4em 0;
     width: 100%;
   }
   .article {
