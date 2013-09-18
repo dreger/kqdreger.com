@@ -4,14 +4,14 @@
 /* Layout variables */
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: #FDFDFD; border-bottom: 50px solid #4d2d59; color: #333333; font-family: Georgia, serif; font-size: 16px; line-height: 1.625em; }
+body { background-color: #FDFDFD; border-bottom: 50px solid #4d2d59; color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 1.625em; }
 
 h1, h2, h3, h4 { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; line-height: 1.2em; }
 h1 a, h2 a, h3 a, h4 a { color: #333333; text-decoration: none; border: none; }
 
 h1 { font-size: 2.4em; }
 
-h2 { color: #333333; font-weight: bold; font-size: 2em; text-transform: none; margin-bottom: 1em; }
+h2 { color: #333333; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1em; }
 
 h3 { font-size: 1em; margin: 1.8em 0em; color: #333333; font-weight: bold; text-transform: uppercase; border-left: 5px solid #dddddd; padding: .5em 0 .5em 1em; }
 h3 + p { margin-top: .2em; }
@@ -22,7 +22,7 @@ a { color: #4d2d59; }
 a img { border: 0; }
 
 /* Layout */
-.wrapper { margin: 0 auto; max-width: 32rem; padding: 0 1em; padding-bottom: 0; }
+.wrapper { margin: 0 auto; max-width: 30rem; padding: 0 1em; padding-bottom: 0; }
 
 .header { margin: 8em auto; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; }
 
@@ -36,10 +36,10 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 .archive-date { float: right; display: inline-block; color: #cccccc; }
 
 /* Titles and such */
-.site-title { font-size: 3em; font-weight: normal; margin-bottom: .2em; }
+.site-title { font-size: 2.5em; font-weight: normal; margin-bottom: .2em; }
 
 /* Article page */
-.article-title { color: #333333; font-weight: bold; font-size: 2em; text-transform: none; margin-bottom: 1em; margin-bottom: .2em; }
+.article-title { color: #333333; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1em; margin-bottom: .2em; }
 
 .article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; color: #cccccc; }
 
@@ -48,7 +48,7 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 
 img, blockquote, ul { margin: 2em 0; }
 
-img { border-radius: 3px; display: block; height: auto; width: 52rem; margin-left: -11rem; }
+img { border-radius: 3px; display: block; height: auto; width: 52rem; margin-left: -12rem; }
 
 small { display: block; font-size: .9em; font-style: italic; margin: 1rem auto; text-align: center; width: 100%; }
 
@@ -79,7 +79,7 @@ code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
 @media (max-width: 600px) { body { font-size: 16px; }
   .wrapper { margin-top: 1.5em; }
   .footer { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; }
-  header { margin: 3em 0; width: 100%; }
+  .header { margin: 4em 0; width: 100%; }
   .article { margin-bottom: 3em; }
   .archive-date { float: none; display: none; color: #333333; font-size: .8em; }
   .separator { margin: 3em auto; width: 100%; } }
