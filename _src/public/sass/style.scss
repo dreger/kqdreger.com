@@ -1,39 +1,29 @@
 /* Mixin */
 @mixin h2_style {
-  color: $colorForHeaders;
+  color: $colorForHeadings;
   font-weight: bold;
   font-size: 2em;
-  text-align: $textAlign;
   text-transform: none;
   margin-bottom: 1em;
 }
 
 /* Colors */
-$accent: #ff0040;
-$color: #ff0050;
-$color: #2b579a;
-$color: #9c3;
-$color: #4C7070;
 $color: #4D2D59;
-$colorTitle: #333;
-$colorForText: #333;
+$colorForBody: #333;
+$colorForHeadings: #333;
 $colorGray: #ccc;
-$colorGrayLight: #eee;
-$colorForHeaders: #333;
-
-// @import url(http://fonts.googleapis.com/css?family=Open-Sans:400,400italic,700);
-// LOVE jaf-facitweb
+$colorGrayLight: #ddd;
 
 /* Typography */
-$fontSize: 16px;
-$fontHeading:  "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif;
-$fontParagraph: Georgia, serif;
-$textAlign: left;
+$typeSize: 16px;
+$typeLineHeight: 1.625em;
+$typeForHeadings:  'Avenir Next', 'Helvetica Neue', 'Segoe UI', Verdana sans-serif;
+$typeForBody: Georgia, serif;
 
 /* Layout variables */
-$width: 32rem;
-$width_img: 52rem;
-$margin_img_left: 11rem;
+$wrapperWidth: 32rem;
+$largeImageWidth: 52rem;
+$largeImageOffset: 11rem;
 
 * {
   margin: 0;
@@ -46,24 +36,19 @@ $margin_img_left: 11rem;
 body {
   background-color: #FDFDFD;
   border-bottom: 50px solid $color;
-  color: $colorForText;
-  font-family: $fontParagraph;
-  font-size: $fontSize;
-  font-weight: 400;
-  line-height: 1.625em;
+  color: $colorForBody;
+  font-family: $typeForBody;
+  font-size: $typeSize;
+  line-height: $typeLineHeight;
 }
 
 h1, h2, h3, h4 {
-  font-family: $fontHeading;
-  font-weight: bold;
+  font-family: $typeForHeadings;
   line-height: 1.2em;
   a {
-    color: $colorForHeaders;
+    color: $colorForHeadings;
     text-decoration: none;
     border: none;
-    &:hover {
-      text-decoration: none;
-    }
   }
 }
 
@@ -77,10 +62,12 @@ h2 {
 
 h3 {
   font-size: 1em;
-  margin: 1.8em 0 .2em;
-  color: $colorForHeaders;
+  margin: 1.8em 0em;
+  color: $colorForHeadings;
   font-weight: bold;
   text-transform: uppercase;
+  border-left: 5px solid $colorGrayLight;
+  padding: .5em 0 .5em 1em;
   & + p {
     margin-top: .2em;
   }
@@ -93,9 +80,6 @@ h4 {
 
 a {
   color: $color;
-  transition: all 0.12s ease;
-  // border-bottom: 1px solid $colorGray;
-  // text-decoration: none;
   & img {
     border: 0;
   }
@@ -105,56 +89,28 @@ a {
 
 .wrapper {
   margin: 0 auto;
-  max-width: $width;
+  max-width: $wrapperWidth;
   padding: 0 1em;
   padding-bottom: 0;
 }
 
-header {
-  width: $width;
+.header {
   margin: 8em auto;
-  font-family: $fontHeading;
-}
-
-.logo {
-  max-width: 150px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.site-title {
-  font-size: 3em;
-  font-weight: normal;
-  margin-bottom: .2em;
-}
-.site-byline {
-}
-
-aside {
-  display: inline;
-  font-size: .8rem;
-  margin: 1em 0;
-  font-weight: normal;
-}
-
-.logo {
-  font-size: .7em;
+  font-family: $typeForHeadings;
 }
 
 .footer {
-  font-family: $fontHeading;
+  font-family: $typeForHeadings;
   padding: 4em 0;
   margin: 4em 0 0;
   border-top: solid 5px $colorGrayLight;
-  text-align: $textAlign;
   width: 100%;
 }
 
-/* Index page */
+/* Archive page */
 
-ol.index {
-  font-family: $fontHeading;
+ol.archive {
+  font-family: $typeForHeadings;
   margin: 0;
   padding: 0;
   li {
@@ -180,16 +136,12 @@ ol.index {
   color: $colorGray;
 }
 
-.starred {
-  position: relative;
-  left: -25px;
-}
-.highlight {
-  // position: counter-reset: lative;
-  width: 20px;
-  display: inline-block;
-  // left: -2em;
-  color: #00aced;
+/* Titles and such */
+
+.site-title {
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: .2em;
 }
 
 /* Article page */
@@ -197,34 +149,11 @@ ol.index {
 .article-title {
   @include h2_style;
   margin-bottom: .2em;
-  text-align: left;
 }
 .article-meta {
-  font-family: $fontHeading;
+  font-family: $typeForHeadings;
   color: $colorGray;
-  text-align: left;
-  // font-weight: 200;
-  // margin-top: 1.5em;
-  font-size: em;
 }
-
-.continue-reading {
-  display: block;
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  border: 1px solid $colorGrayLight;
-  padding: .4em 2em;
-  text-transform: uppercase;
-  font-size: .7em;
-  letter-spacing: 1px;
-  font-family: $fontHeading;
-  &:hover {
-    background-color: #fff;
-    border-color: $color;
-  }
-}
-
 
 .article {
   padding: 0em 0;
@@ -240,10 +169,9 @@ img, blockquote,ul {
 img {
   border-radius: 3px;
   display: block;
-  height: auto !important;
-  // max-width: 100%;
-  width: $width_img;
-  margin-left: -$margin_img_left;
+  height: auto;
+  width: $largeImageWidth;
+  margin-left: -$largeImageOffset;
 }
 
 small {
@@ -337,8 +265,7 @@ code {
     padding-bottom: 2em;
   }
   header {
-    margin: 2em 0;
-    padding: 1.5em;
+    margin: 3em 0;
     width: 100%;
   }
   .article {
@@ -347,7 +274,7 @@ code {
   .archive-date {
     float: none;
     display: none;
-    color: $colorForText;
+    color: $colorForBody;
     font-size: .8em;
   }
   .separator {
