@@ -8,7 +8,7 @@
 }
 
 /* Colors */
-$color: #4D2D59;
+$color: #F1433F;
 $colorForBody: #333;
 $colorForHeadings: #333;
 $colorGray: #ccc;
@@ -98,6 +98,16 @@ a {
 .header {
   margin: 8em auto;
   font-family: $typeForHeadings;
+}
+
+.header-nav {
+  a {
+    text-decoration: none;
+    color: $colorGray;
+    &:hover {
+      color: $color;
+    }
+  }
 }
 
 .footer {
@@ -228,6 +238,9 @@ code {
 
 /* Misc styles */
 
+.color {
+  color: $color;
+}
 .center {
   text-align: center;
 }
