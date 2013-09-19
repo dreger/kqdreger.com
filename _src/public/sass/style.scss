@@ -5,6 +5,7 @@
   font-size: 1.5em;
   text-transform: none;
   margin-bottom: 1.5rem;
+  line-height: 1em;
 }
 
 @mixin colorlessLinks {
@@ -165,7 +166,6 @@ ol.archive {
 
 .article-title {
   @include h2_style;
-  // margin-bottom: .2em;
 }
 .article-meta {
   font-family: $typeForHeadings;
@@ -187,8 +187,8 @@ ol.archive {
   font-size: 1em;
   font-weight: normal;
   a {
-    // color: $color;
     border-bottom: 1px solid $colorGrayLight;
+    line-height: $typeLineHeight;
   }
   .permalink {
     text-decoration: underline;
