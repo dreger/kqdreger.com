@@ -4,7 +4,18 @@
   font-weight: bold;
   font-size: 1.5em;
   text-transform: none;
-  margin-bottom: 1em;
+  margin-bottom: 1.5rem;
+}
+
+@mixin colorlessLinks {
+  a {
+    text-decoration: none;
+    border: none;
+    color: $colorGray;
+    &:hover {
+      color: $color;
+    }
+  }
 }
 
 /* Colors */
@@ -18,7 +29,7 @@ $colorGrayLight: #ddd;
 $typeSize: 14px;
 $typeLineHeight: 1.625em;
 $typeForHeadings:  'Avenir Next', 'Helvetica Neue', 'Segoe UI', Verdana sans-serif;
-$typeForBody: Georgia, serif;
+$typeForBody: $typeForHeadings, Georgia, serif;
 
 /* Layout variables */
 $wrapperWidth: 30rem;
@@ -36,7 +47,6 @@ $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
 
 body {
   background-color: #FDFDFD;
-  border-bottom: 50px solid $color;
   color: $colorForBody;
   font-family: $typeForBody;
   font-size: $typeSize;
@@ -81,6 +91,8 @@ h4 {
 
 a {
   color: $color;
+  border-bottom: 1px solid $colorGrayLight;
+  text-decoration: none;
   & img {
     border: 0;
   }
@@ -101,20 +113,14 @@ a {
 }
 
 .header-nav {
-  a {
-    text-decoration: none;
-    color: $colorGray;
-    &:hover {
-      color: $color;
-    }
-  }
+  @include colorlessLinks;
 }
 
 .footer {
   font-family: $typeForHeadings;
   padding: 4em 0;
   margin: 4em 0 0;
-  border-top: solid 5px $colorGrayLight;
+  border-top: solid 1px $colorGrayLight;
   width: 100%;
 }
 
@@ -159,17 +165,34 @@ ol.archive {
 
 .article-title {
   @include h2_style;
-  margin-bottom: .2em;
+  // margin-bottom: .2em;
 }
 .article-meta {
   font-family: $typeForHeadings;
   color: $colorGray;
+  @include colorlessLinks;
 }
 
 .article {
   padding: 0em 0;
   p {
     margin-bottom: 1.5em;
+  }
+}
+
+/* Linklog */
+
+.article-title-link {
+  @extend .article-title;
+  font-size: 1em;
+  font-weight: normal;
+  a {
+    // color: $color;
+    border-bottom: 1px solid $colorGrayLight;
+  }
+  .permalink {
+    text-decoration: underline;
+    margin-left: 1em;
   }
 }
 
@@ -252,7 +275,7 @@ code {
   margin: 5em auto;
   width: 130%;
   margin-left: -15%;
-  border-top: solid $colorGrayLight 5px;
+  border-top: solid $colorGrayLight 1px;
   &:last-of-type {
     display: none;
   }

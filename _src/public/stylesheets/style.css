@@ -4,21 +4,21 @@
 /* Layout variables */
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: #FDFDFD; border-bottom: 50px solid #f1433f; color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 1.625em; }
+body { background-color: #FDFDFD; color: #333333; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif, Georgia, serif; font-size: 14px; line-height: 1.625em; }
 
 h1, h2, h3, h4 { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; line-height: 1.2em; }
 h1 a, h2 a, h3 a, h4 a { color: #333333; text-decoration: none; border: none; }
 
 h1 { font-size: 2.4em; }
 
-h2 { color: #333333; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1em; }
+h2 { color: #333333; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; }
 
 h3 { font-size: 1em; margin: 1.8em 0em; color: #333333; font-weight: bold; text-transform: uppercase; border-left: 5px solid #dddddd; padding: .5em 0 .5em 1em; }
 h3 + p { margin-top: .2em; }
 
 h4 { font-size: 1em; text-transform: uppercase; }
 
-a { color: #f1433f; }
+a { color: #f1433f; border-bottom: 1px solid #dddddd; text-decoration: none; }
 a img { border: 0; }
 
 /* Layout */
@@ -26,10 +26,10 @@ a img { border: 0; }
 
 .header { margin: 8em auto; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; }
 
-.header-nav a { text-decoration: none; color: #cccccc; }
+.header-nav a { text-decoration: none; border: none; color: #cccccc; }
 .header-nav a:hover { color: #f1433f; }
 
-.footer { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; padding: 4em 0; margin: 4em 0 0; border-top: solid 5px #dddddd; width: 100%; }
+.footer { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; padding: 4em 0; margin: 4em 0 0; border-top: solid 1px #dddddd; width: 100%; }
 
 /* Archive page */
 ol.archive { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; margin: 0; padding: 0; }
@@ -42,12 +42,19 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 .site-title { font-size: 2.5em; font-weight: normal; margin-bottom: .2em; }
 
 /* Article page */
-.article-title { color: #333333; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1em; margin-bottom: .2em; }
+.article-title, .article-title-link { color: #333333; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; }
 
 .article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; color: #cccccc; }
+.article-meta a { text-decoration: none; border: none; color: #cccccc; }
+.article-meta a:hover { color: #f1433f; }
 
 .article { padding: 0em 0; }
 .article p { margin-bottom: 1.5em; }
+
+/* Linklog */
+.article-title-link { font-size: 1em; font-weight: normal; }
+.article-title-link a { border-bottom: 1px solid #dddddd; }
+.article-title-link .permalink { text-decoration: underline; margin-left: 1em; }
 
 img, blockquote, ul { margin: 2em 0; }
 
@@ -76,7 +83,7 @@ code { border: 1px solid #d0d0d0; font-size: .9em; padding: 1px 5px; }
 
 .right { text-align: right; }
 
-.separator { display: block; margin: 5em auto; width: 130%; margin-left: -15%; border-top: solid #dddddd 5px; }
+.separator { display: block; margin: 5em auto; width: 130%; margin-left: -15%; border-top: solid #dddddd 1px; }
 .separator:last-of-type { display: none; }
 
 /* Media queries */

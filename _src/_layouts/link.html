@@ -12,7 +12,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <section class="wrapper">
 {% include header.html %}
 <article class="article">
-<h2 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<h2 class="article-title-link"><a href="{{ page.link }}">{{ page.title }} &rarr;</a></h2>
 {{ content }}
 <p class="article-meta">{{ page.date | date: "%b %d, %Y" }} &middot; <a href="{{ post.url }}">Permalink</a></p>
 </article>
