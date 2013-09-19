@@ -1,3 +1,3 @@
-# dreger.co
+# kyledreger.com
 
-A small weblog edited by Kyle Dreger. Proudly hosted on [GitHub](http://github.com/dreger).
+A small column edited by Kyle Dreger.
