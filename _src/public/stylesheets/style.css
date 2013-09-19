@@ -53,7 +53,7 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 
 /* Linklog */
 .article-title-link { font-size: 1em; font-weight: normal; }
-.article-title-link a { border-bottom: 1px solid #dddddd; line-height: 1.625em; }
+.article-title-link a { border-bottom: 1px solid #dddddd; line-height: 1.625em; color: #f1433f; }
 .article-title-link .permalink { text-decoration: underline; margin-left: 1em; }
 
 img, blockquote, ul { margin: 2em 0; }
