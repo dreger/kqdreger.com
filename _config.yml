@@ -13,13 +13,14 @@ markdown:       rdiscount
 pygments:       true
 
 # required configuration
-domain:         kyledreger.com
+domain:         kyledreger.net
 title:          Kyle Dreger
 author:         Kyle Dreger
-email:          comments@kyledreger.com
+email:          comments@kyledreger.net
 description:    "Jesus is life. Simplicity is freedom. Rise."
 
 # typekit:
 #   id:           eqd7pqa
-google_analytics:
-  account:      UA-17208416-19
+# google_analytics:
+#   account:      UA-17208416-21
+
