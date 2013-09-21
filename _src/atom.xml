@@ -15,6 +15,7 @@ layout: nil
  </author>
 
  {% for post in site.posts %}
+ {% if post.date %}
  <entry>
    <title>{{ post.title }}</title>
    {% if post.link %}
@@ -26,6 +27,7 @@ layout: nil
    <id>http://{{ site.domain }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
- {% endfor %}
+{% endif %}
+{% endfor %}
 
 </feed>

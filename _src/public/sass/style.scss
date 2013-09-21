@@ -21,6 +21,7 @@
 
 /* Colors */
 $color: #F1433F;
+$color: #CC333F;
 $colorForBody: #222;
 $colorForHeadings: #222;
 $colorGray: #aaa;
@@ -292,7 +293,7 @@ code {
 
 @media (max-width: 600px) {
   body {
-    font-size: 16px;
+    font-size: 15px;
   }
   .wrapper {
     margin-top: 1.5em;
