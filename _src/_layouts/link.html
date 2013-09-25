@@ -10,7 +10,11 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include head.html %}
 <body>
 <section class="wrapper">
+<section class="sidebar">
 {% include header.html %}
+</section>
+
+<section class="content">
 <article class="article">
 <h2 class="article-title-link"><a href="{{ page.link }}">{{ page.title }} &rarr;</a></h2>
 {{ content }}
@@ -18,5 +22,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 </article>
 {% include footer.html %}
 </section>
+</section>
+
 </body>
 </html>
