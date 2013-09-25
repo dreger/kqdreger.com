@@ -21,17 +21,17 @@
 
 /* Colors */
 $color: #CC333F;
-$color: #007aff;
+$color: #007AFF;
 $colorForBackground: #f3f3f3;
 $colorForBody: #2a2a2a;
 $colorForHeadings: #2a2a2a;
-$colorGray: #aaa;
+$colorGray: #a0a0a0;
 $colorGrayLight: #ccc;
 
 /* Typography */
-$typeSize: 14px;
+$typeSize: 13px;
 $typeLineHeight: 1.625em;
-$typeForHeadings:  'Myriad Pro', 'Avenir Next', 'Helvetica Neue', 'Arial', sans-serif;
+$typeForHeadings:  'Avenir Next', 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
 $typeForBody: 'Georgia Pro', Georgia, serif;
 
 /* Layout variables */
@@ -189,7 +189,7 @@ ol.archive {
 .site-title {
   @include h2_style;
   text-transform: uppercase;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   letter-spacing: 1px;
   // font-size: 1.5em;
   // font-weight: bold;
@@ -219,7 +219,7 @@ ol.archive {
 .article-title-link {
   @extend .article-title;
   font-size: 1em;
-  font-weight: normal;
+  font-weight: bold;
   a {
     border-bottom: 1px solid $colorGrayLight;
     line-height: $typeLineHeight;

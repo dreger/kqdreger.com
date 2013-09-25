@@ -18,4 +18,4 @@ My first post here coincided with the [start of my college career]({% post_url 2
 ### This site
 I use [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format via [Sublime Text 2](http://sublimetext.com) or [iA Writer](http:iawriter.com).
 <br><br>
-Typefaces are set in Myriad Pro (Mac) and Segoe UI (Windows) for the headings and Georgia for the body copy.
+Typefaces are set in Avenir Next (Mac) and Segoe UI (Windows) for the headings and Georgia for the body copy.
