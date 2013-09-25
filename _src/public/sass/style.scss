@@ -5,7 +5,7 @@
   font-size: 1.5em;
   text-transform: none;
   margin-bottom: 1.5rem;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 @mixin colorlessLinks {
@@ -30,8 +30,8 @@ $colorGrayLight: #ccc;
 /* Typography */
 $typeSize: 14px;
 $typeLineHeight: 1.625em;
-$typeForHeadings:  'Avenir Next', 'Helvetica Neue', 'Segoe UI', Verdana sans-serif;
-$typeForBody: $typeForHeadings, Georgia, serif;
+$typeForHeadings:  'Myriad Pro', 'Avenir Next', 'Helvetica Neue', 'Segoe UI', Verdana sans-serif;
+$typeForBody: 'Georgia Pro', Georgia, serif;
 
 /* Layout variables */
 $wrapperWidth: 30rem;
