@@ -6,7 +6,7 @@
 
 body { background-color: #f3f3f3; color: #2a2a2a; font-family: "Georgia Pro", Georgia, serif; font-size: 14px; line-height: 1.625em; }
 
-h1, h2, h3, h4 { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; line-height: 1.2em; }
+h1, h2, h3, h4 { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; line-height: 1.2em; }
 h1 a, h2 a, h3 a, h4 a { color: #2a2a2a; text-decoration: none; border: none; }
 
 h1 { font-size: 2.4em; }
@@ -26,7 +26,7 @@ a img { border: 0; }
 
 .content { width: 68%; float: left; background-color: #fdfdfd; padding: 3em; }
 
-.sidebar { width: 28%; padding-top: 3em; float: right; text-align: left; font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; }
+.sidebar { width: 28%; padding-top: 3em; float: right; text-align: left; font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; }
 .sidebar nav { text-transform: uppercase; }
 .sidebar nav a { text-decoration: none; border: none; color: #aaaaaa; }
 .sidebar nav a:hover { color: #007aff; }
@@ -34,10 +34,10 @@ a img { border: 0; }
 .sidebar nav ul { padding: 0; margin-top: 0; }
 .sidebar nav li { list-style: none; padding: 0; margin: 0; }
 
-.footer { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; padding-top: 4em; margin: 4em 0 0; border-top: dotted 1px #cccccc; width: 100%; clear: both; }
+.footer { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; padding-top: 4em; margin: 4em 0 0; border-top: dotted 1px #cccccc; width: 100%; clear: both; }
 
 /* Archive page */
-ol.archive { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; margin: 0; padding: 0; }
+ol.archive { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; margin: 0; padding: 0; }
 ol.archive li { text-align: left; display: block; list-style: none; padding: .5em 0; border-bottom: 1px dashed #cccccc; font-size: 1em; margin: 0; border-bottom: 1px solid #cccccc dotted; }
 ol.archive a { text-decoration: none; border-bottom: none; }
 
@@ -49,7 +49,7 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 /* Article page */
 .article-title, .article-title-link { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
 
-.article-meta { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Segoe UI", Verdana sans-serif; color: #aaaaaa; }
+.article-meta { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; color: #aaaaaa; }
 .article-meta a { text-decoration: none; border: none; color: #aaaaaa; }
 .article-meta a:hover { color: #007aff; }
 
