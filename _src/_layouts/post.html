@@ -10,13 +10,20 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include head.html %}
 <body>
 <section class="wrapper">
+
+<section class="sidebar">
 {% include header.html %}
+</section>
+
+<section class="content">
 <article class="article">
 <h2 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
 {{ content }}
 <p class="article-meta">{{ page.date | date: "%b %d, %Y" }} &middot; <a href="{{ post.url }}">Permalink</a></p>
 </article>
 {% include footer.html %}
+</section>
+
 </section>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 # Set this to the root of your project
 http_path = "/"
-css_dir = "_src/public/stylesheets"
+css_dir = "_src/public/css"
 sass_dir = "_src/public/sass"
 # images_dir = "_src/public/images"
 # javascripts_dir = "public/javascripts"

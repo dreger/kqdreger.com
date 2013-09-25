@@ -1,0 +1,106 @@
+/* Mixin */
+/* Colors */
+/* Typography */
+/* Layout variables */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body { background-color: #f3f3f3; color: #2a2a2a; font-family: "Georgia Pro", Georgia, serif; font-size: 14px; line-height: 1.625em; }
+
+h1, h2, h3, h4 { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; line-height: 1.2em; }
+h1 a, h2 a, h3 a, h4 a { color: #2a2a2a; text-decoration: none; border: none; }
+
+h1 { font-size: 2.4em; }
+
+h2 { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
+
+h3 { font-size: 1em; margin: 1.8em 0em; color: #2a2a2a; font-weight: bold; text-transform: uppercase; border-left: 5px solid #cccccc; padding: .5em 0 .5em 1em; line-height: 1em; }
+h3 + p { margin-top: .2em; }
+
+h4 { font-size: 1em; text-transform: uppercase; }
+
+a { color: #007aff; border-bottom: 1px solid #cccccc; text-decoration: none; }
+a img { border: 0; }
+
+/* Layout */
+.wrapper { margin: 8em auto; max-width: 51rem; padding: 0 1em; padding-bottom: 0; overflow: auto; }
+
+.content { width: 68%; float: left; background-color: #fdfdfd; padding: 3em; }
+
+.sidebar { width: 28%; padding-top: 3em; float: right; text-align: left; font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; }
+.sidebar nav { text-transform: uppercase; }
+.sidebar nav a { text-decoration: none; border: none; color: #aaaaaa; }
+.sidebar nav a:hover { color: #007aff; }
+.sidebar nav a { display: block; letter-spacing: 1px; font-size: .9em; }
+.sidebar nav ul { padding: 0; margin-top: 0; }
+.sidebar nav li { list-style: none; padding: 0; margin: 0; }
+
+.footer { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; padding-top: 4em; margin: 4em 0 0; border-top: dotted 1px #cccccc; width: 100%; clear: both; }
+
+/* Archive page */
+ol.archive { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; margin: 0; padding: 0; }
+ol.archive li { text-align: left; display: block; list-style: none; padding: .5em 0; border-bottom: 1px dashed #cccccc; font-size: 1em; margin: 0; border-bottom: 1px solid #cccccc dotted; }
+ol.archive a { text-decoration: none; border-bottom: none; }
+
+.archive-date { float: right; display: inline-block; color: #aaaaaa; }
+
+/* Titles and such */
+.site-title { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; text-transform: uppercase; margin: 1rem 0; letter-spacing: 1px; }
+
+/* Article page */
+.article-title, .article-title-link { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
+
+.article-meta { font-family: "Myriad Pro", "Avenir Next", "Helvetica Neue", "Arial", sans-serif; color: #aaaaaa; }
+.article-meta a { text-decoration: none; border: none; color: #aaaaaa; }
+.article-meta a:hover { color: #007aff; }
+
+.article { padding: 0em 0; }
+.article p { margin-bottom: 1.5em; }
+
+/* Linklog */
+.article-title-link { font-size: 1em; font-weight: normal; }
+.article-title-link a { border-bottom: 1px solid #cccccc; line-height: 1.625em; color: #007aff; }
+.article-title-link .permalink { text-decoration: underline; margin-left: 1em; }
+
+img, blockquote, ul { margin: 2em 0; }
+
+img { border-radius: 3px; display: block; height: auto; width: 52rem; margin-left: -1.5rem; }
+
+small { display: block; font-size: .9em; font-style: italic; margin: 1rem auto; text-align: center; width: 100%; }
+
+blockquote { border-left: 5px solid #cccccc; color: #777; margin-left: 0; padding: .5em 0 .5em 1em; }
+blockquote p:last-child { margin: 0; padding: 0; }
+
+ul, ol { padding-left: 1.5rem; margin-bottom: 1.5em; }
+
+ul li { list-style: square; margin: 8px 0px; }
+
+ol li { margin: 8px 0px; }
+
+pre { border: solid 2px #bfbfbf; padding: 20px; }
+pre code { border: none; padding: none; }
+
+code { border: 1px solid #bfbfbf; font-size: .9em; padding: 1px 5px; }
+
+/* Misc styles */
+.color { color: #007aff; }
+
+.center { text-align: center; }
+
+.right { text-align: right; }
+
+.separator { display: block; margin: 5em auto; border-top: dotted #aaaaaa 1px; }
+.separator:last-of-type { display: none; }
+
+/* Media queries */
+@media (max-width: 796px) { .archive-date { display: none; float: none; } }
+@media (max-width: 680px) { body { background-color: #fff; }
+  .wrapper { margin-top: 0em; max-width: 500px; }
+  .footer { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; }
+  .sidebar { margin: 1em auto 2em; border-bottom: 2px solid #cccccc; padding: .5em 0; width: 100%; text-align: center; float: none; display: block; }
+  .sidebar nav, .sidebar p { display: none; }
+  .content { background-color: #fff; margin-top: 1em; width: auto; float: none; padding: 1em; }
+  .site-title { font-weight: 100; }
+  .article { margin-bottom: 3em; }
+  .archive-date { float: none; display: none; color: #2a2a2a; font-size: .8em; }
+  .separator { margin: 3em auto; width: 100%; } }
+@media (max-width: 550px) { .wrapper { max-width: 100%; } }
