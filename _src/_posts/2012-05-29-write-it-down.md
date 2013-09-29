@@ -2,6 +2,7 @@
 title: Write it down
 date: 2012-05-29
 layout: post
+category: weblog
 tags: Momento, notes
 ---
 

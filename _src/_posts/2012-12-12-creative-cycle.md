@@ -1,11 +1,12 @@
 ---
 title: Creative cycle
 layout: post
-tags: 
+category: weblog
+tags:
 - creativity
 ---
 
-Admidst my finals, I wanted to take a break and share an excerpt from one of my papers. I don't know whether it's the lack of sleep, or overdose of caffeine, but I'm particularly proud of this closing paragraph: 
+Admidst my finals, I wanted to take a break and share an excerpt from one of my papers. I don't know whether it's the lack of sleep, or overdose of caffeine, but I'm particularly proud of this closing paragraph:
 
 > Ask any creative - writer, designer or artist - and they will tell you that their work is never done. Even in our downtime, our minds are constantly growing organic ideas planted in the soil of our experiences. As we move from project to project our skills become more refined, and allow for new avenues of opportunity to be explored. It is a never-ending cycle for those who strive to create something for the world
 

@@ -1,6 +1,7 @@
 ---
 title: The Five C
 layout: post
+category: weblog
 date: 2013-09-13
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: weblog
 title: Spoken word "Love"
 category: Spoken word
 tags: love, poetry, praise

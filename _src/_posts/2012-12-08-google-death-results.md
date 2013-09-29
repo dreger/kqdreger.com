@@ -2,6 +2,7 @@
 title: Google death results
 date: 2012-12-09
 layout: post
+category: weblog
 starred: true
 tags:
 - google

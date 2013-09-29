@@ -1,6 +1,7 @@
 ---
 title: Generating graphs with Processing
 layout: post
+category: weblog
 starred: true
 ---
 [Ben Barry's post](http://designforfun.com/display.php?id=128) on designing the 2011 Facebook f8 Conference remains one of my favorite pieces about design on the internet. As I was reading back through it the other day, I came across how Barry had gone about generating those signature Facebook graph images.
@@ -22,7 +23,7 @@ My script, which I ended up calling GraphMaker, starts by randomly placing nodes
 
 The results looked good, and I spent at least half an hour **just** tweaking all the parameters that go with each node (color, size, max distance a line can be between two nodes).
 
-However, even though the graphs from my script look similar to the ones from f8, there's one significant flaw that I could never figure out how to fix: overlapping nodes. 
+However, even though the graphs from my script look similar to the ones from f8, there's one significant flaw that I could never figure out how to fix: overlapping nodes.
 
 Regardless how dense Barry's graphs, no node ever overlaps any of its neighbors - mine do. It's a subtle difference, but one that significantly impacted the quality of my images at the beginning. Eventually, I was able to compensate by having each node retain a slight transparency which enables you to still see individual nodes even when they overlap.
 

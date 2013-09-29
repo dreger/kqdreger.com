@@ -1,6 +1,7 @@
 ---
 title: What matters
 layout: post
+category: weblog
 date: 2013-07-10
 ---
 

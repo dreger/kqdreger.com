@@ -5,7 +5,7 @@ title: About
 ## Colophon
 Writen and produced by me, Kyle Dreger.
 <br><br>
-My first post here coincided with the [start of my college career]({% post_url 2010-08-27-hello-college %}). Inspiration comes from [my faith](http://bible.us/116/psa.1.3.nlt) and a love for building beautiful things. Offline, I play soccer, code and am <s>dating</s> engaged to the most incredible woman.
+I write about technology, design, and great study hacks. Inspiration comes from [my faith](http://bible.us/116/psa.1.3.nlt) and a love for building beautiful software. Offline, I play soccer, code and am <s>dating</s> engaged to the most incredible woman.
 
 ### Mac apps
 - Webkit

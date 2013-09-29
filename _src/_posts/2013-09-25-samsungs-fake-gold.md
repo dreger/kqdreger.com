@@ -1,8 +1,9 @@
 ---
-title: Of All the Features Samsung Could Have Copied from the iPhone 5S, They Went With the Gold Color
+title: Samsung's Golden Galaxy S4
 link: http://www.theverge.com/2013/9/25/4769086/samsung-counters-iphone-5s-with-a-golden-galaxy-s4
 date: 2013-09-25 11:21
 layout: link
+category: linklog
 ---
 The Verge:
 

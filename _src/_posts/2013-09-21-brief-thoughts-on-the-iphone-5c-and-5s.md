@@ -2,6 +2,7 @@
 title: Brief Hands-On with the New iPhones
 date: 2013-09-21 11:56
 layout: post
+category: weblog
 ---
 After hitting golfballs for an hour at the range with my brother, I convinced him to swing by our local Verizon Wireless store to check out the iPhone 5C and 5S. Here are some brief thoughts:
 

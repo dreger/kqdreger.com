@@ -1,5 +1,6 @@
 ---
 layout: post
+category: weblog
 date: 2012-05-14
 title: Orientation, questions and the CEO
 tags: questions, timken, orientation, ceo

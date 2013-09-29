@@ -2,6 +2,7 @@
 title: Nine Million iPhones Sold, 200 Million Users on iOS 7
 date: 2013-09-23 17:07
 layout: post
+category: weblog
 ---
 Apple [just announced](http://www.apple.com/pr/library/2013/09/23First-Weekend-iPhone-Sales-Top-Nine-Million-Sets-New-Record.html) that they sold over nine million new iPhones this past weekend, breaking all previous records for a product launch. They also noted that over 200 million users have upgraded to iOS 7.
 

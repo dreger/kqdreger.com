@@ -1,5 +1,6 @@
 ---
 layout: post
+category: weblog
 title: Coffeescript
 date: 2012-05-26 1930 −5
 ---

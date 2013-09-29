@@ -1,5 +1,6 @@
 ---
 layout: post
+category: weblog
 title: Writing simple code
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: weblog
 title: Eight days without Facebook
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+category: weblog
 title: Get FROGED
 category : Reflection
 tags : ['bold living', 'frog', 'jesus']

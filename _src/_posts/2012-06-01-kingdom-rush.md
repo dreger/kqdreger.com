@@ -1,5 +1,6 @@
 ---
 layout: post
+category: weblog
 title: Great games - Kingdom Rush
 date: 2012-06-01
 ---

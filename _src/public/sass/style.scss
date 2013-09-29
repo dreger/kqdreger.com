@@ -22,6 +22,7 @@
 /* Colors */
 $color: #CC333F;
 $color: #007AFF;
+$colorForBackground: #fafafa;
 $colorForBackground: #f3f3f3;
 $colorForBody: #2a2a2a;
 $colorForHeadings: #2a2a2a;
@@ -31,7 +32,7 @@ $colorGrayLight: #ccc;
 /* Typography */
 $typeSize: 13px;
 $typeLineHeight: 1.625em;
-$typeForHeadings:  'Avenir Next', 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
+$typeForHeadings: 'Avenir Next', 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
 $typeForBody: 'Georgia Pro', Georgia, serif;
 
 /* Layout variables */
@@ -114,16 +115,17 @@ a {
 
 .content {
   width: 68%;
-  float: left;
+  float: right;
   background-color: #fdfdfd;
+  // border-left: 1px solid $colorGrayLight;
   padding: 3em;
 }
 
 .sidebar {
   width: 28%;
   padding-top: 3em;
-  float: right;
-  text-align: left;
+  float: left;
+  text-align: right;
   font-family: $typeForHeadings;
   nav {
     @include colorlessLinks;
@@ -188,12 +190,16 @@ ol.archive {
 
 .site-title {
   @include h2_style;
+  font-family: 'Avenir Next Condensed';
   text-transform: uppercase;
-  margin: 1.5rem 0;
-  letter-spacing: 1px;
-  // font-size: 1.5em;
-  // font-weight: bold;
-  // margin-bottom: .2em;
+  margin: 1rem 0;
+  // letter-spacing: 1px;
+  font-size: 2em;
+  line-height: 1em;
+  letter-spacing: 0px;
+  a:hover {
+    color: $color;
+  }
 }
 
 /* Article page */
@@ -239,8 +245,9 @@ img {
   border-radius: 3px;
   display: block;
   height: auto;
-  width: $largeImageWidth;
-  margin-left: -$largeImageOffset;
+  // width: $largeImageWidth;
+  // margin-left: -$largeImageOffset;
+  max-width: 100%;
 }
 
 small {
@@ -310,7 +317,8 @@ code {
   margin: 5em auto;
   // width: 130%;
   // margin-left: -15%;
-  border-top: dotted $colorGray 1px;
+  // border-top: solid $colorGrayLight 1px;
+  height: 1px;
   &:last-of-type {
     display: none;
   }

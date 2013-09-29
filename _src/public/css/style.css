@@ -24,9 +24,9 @@ a img { border: 0; }
 /* Layout */
 .wrapper { margin: 8em auto; max-width: 51rem; padding: 0 1em; padding-bottom: 0; overflow: auto; }
 
-.content { width: 68%; float: left; background-color: #fdfdfd; padding: 3em; }
+.content { width: 68%; float: right; background-color: #fdfdfd; padding: 3em; }
 
-.sidebar { width: 28%; padding-top: 3em; float: right; text-align: left; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", "Arial", sans-serif; }
+.sidebar { width: 28%; padding-top: 3em; float: left; text-align: right; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", "Arial", sans-serif; }
 .sidebar nav { text-transform: uppercase; }
 .sidebar nav a { text-decoration: none; border: none; color: #a0a0a0; }
 .sidebar nav a:hover { color: #007aff; }
@@ -44,7 +44,8 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 .archive-date { float: right; display: inline-block; color: #a0a0a0; }
 
 /* Titles and such */
-.site-title { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; text-transform: uppercase; margin: 1.5rem 0; letter-spacing: 1px; }
+.site-title { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; font-family: 'Avenir Next Condensed'; text-transform: uppercase; margin: 1rem 0; font-size: 2em; line-height: 1em; letter-spacing: 0px; }
+.site-title a:hover { color: #007aff; }
 
 /* Article page */
 .article-title, .article-title-link { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
@@ -63,7 +64,7 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 
 img, blockquote, ul { margin: 2em 0; }
 
-img { border-radius: 3px; display: block; height: auto; width: 52rem; margin-left: -1.5rem; }
+img { border-radius: 3px; display: block; height: auto; max-width: 100%; }
 
 small { display: block; font-size: .9em; font-style: italic; margin: 1rem auto; text-align: center; width: 100%; }
 
@@ -88,7 +89,7 @@ code { border: 1px solid #bfbfbf; font-size: .9em; padding: 1px 5px; }
 
 .right { text-align: right; }
 
-.separator { display: block; margin: 5em auto; border-top: dotted #a0a0a0 1px; }
+.separator { display: block; margin: 5em auto; height: 1px; }
 .separator:last-of-type { display: none; }
 
 /* Media queries */
