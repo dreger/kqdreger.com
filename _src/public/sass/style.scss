@@ -2,6 +2,7 @@
 @mixin h2_style {
   color: $colorForHeadings;
   font-weight: bold;
+  font-family: $typeB;
   font-size: 1.5em;
   text-transform: none;
   margin-bottom: 1.5rem;
@@ -20,23 +21,26 @@
 }
 
 /* Colors */
-$color: #CC333F;
 $color: #007AFF;
-$colorForBackground: #fafafa;
+$color: #72b1c8;
 $colorForBackground: #f3f3f3;
+$colorForBackground: #fefefe;
 $colorForBody: #2a2a2a;
 $colorForHeadings: #2a2a2a;
 $colorGray: #a0a0a0;
 $colorGrayLight: #ccc;
 
 /* Typography */
-$typeSize: 13px;
-$typeLineHeight: 1.625em;
-$typeForHeadings: 'Avenir Next', 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
-$typeForBody: 'Georgia Pro', Georgia, serif;
+$typeSize: 14px;
+$typeLineHeight: 1.65em;
+$typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+$typeB: $typeA;
+
+// Three places that are different from body:
+// .sidebar : .footer : h3
 
 /* Layout variables */
-$wrapperWidth: 51rem;
+$wrapperWidth: 50rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
 $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
@@ -52,13 +56,12 @@ $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
 body {
   background-color: $colorForBackground;
   color: $colorForBody;
-  font-family: $typeForBody;
+  font-family: $typeB;
   font-size: $typeSize;
   line-height: $typeLineHeight;
 }
 
 h1, h2, h3, h4 {
-  font-family: $typeForHeadings;
   line-height: 1.2em;
   a {
     color: $colorForHeadings;
@@ -83,6 +86,7 @@ h3 {
   text-transform: uppercase;
   border-left: 5px solid $colorGrayLight;
   padding: .5em 0 .5em 1em;
+  font-family: $typeB;
   line-height: 1em;
   & + p {
     margin-top: .2em;
@@ -114,26 +118,28 @@ a {
 }
 
 .content {
-  width: 68%;
+  width: 70%;
   float: right;
-  background-color: #fdfdfd;
-  // border-left: 1px solid $colorGrayLight;
-  padding: 3em;
+  font-family: $typeA;
+  padding: 4em;
 }
 
 .sidebar {
-  width: 28%;
-  padding-top: 3em;
+  width: 30%;
+  padding-top: 4em;
   float: left;
   text-align: right;
-  font-family: $typeForHeadings;
   nav {
-    @include colorlessLinks;
     text-transform: uppercase;
+    font-size: 11px;
+    @include colorlessLinks;
     a {
       display: block;
       letter-spacing: 1px;
-      font-size: .9em;
+      margin: .25em 0;
+      &:first-child {
+        margin-top: 0;
+      }
     }
     ul {
       padding: 0;
@@ -148,7 +154,7 @@ a {
 }
 
 .footer {
-  font-family: $typeForHeadings;
+  font-family: $typeB;
   padding-top: 4em;
   margin: 4em 0 0;
   border-top: dotted 1px $colorGrayLight;
@@ -160,7 +166,8 @@ a {
 /* Archive page */
 
 ol.archive {
-  font-family: $typeForHeadings;
+  font-family: $typeB;
+  font-size: .9em;
   margin: 0;
   padding: 0;
   li {
@@ -190,13 +197,12 @@ ol.archive {
 
 .site-title {
   @include h2_style;
-  font-family: 'Avenir Next Condensed';
   text-transform: uppercase;
   margin: 1rem 0;
-  // letter-spacing: 1px;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1em;
-  letter-spacing: 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
   a:hover {
     color: $color;
   }
@@ -208,15 +214,15 @@ ol.archive {
   @include h2_style;
 }
 .article-meta {
-  font-family: $typeForHeadings;
   color: $colorGray;
   @include colorlessLinks;
+  font-family: $typeB;
 }
 
 .article {
   padding: 0em 0;
   p {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.25em;
   }
 }
 
@@ -224,8 +230,8 @@ ol.archive {
 
 .article-title-link {
   @extend .article-title;
-  font-size: 1em;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 1.2em;
   a {
     border-bottom: 1px solid $colorGrayLight;
     line-height: $typeLineHeight;
@@ -263,7 +269,7 @@ blockquote {
   border-left: 5px solid $colorGrayLight;
   color: #777;
   margin-left: 0;
-  padding: .5em 0 .5em 1em;
+  padding: 0 1em;
   p:last-child {
     margin: 0;
     padding: 0;
@@ -272,7 +278,7 @@ blockquote {
 
 ul, ol {
   padding-left: 1.5rem;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.25em;
 }
 ul {
   li {
@@ -364,8 +370,8 @@ code {
     float: none;
     padding: 1em;
   }
-  .site-title {
-    font-weight: 100;
+  .article-title {
+    text-align: center;
   }
 
   .article {

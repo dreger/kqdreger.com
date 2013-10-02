@@ -4,62 +4,63 @@
 /* Layout variables */
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: #f3f3f3; color: #2a2a2a; font-family: "Georgia Pro", Georgia, serif; font-size: 13px; line-height: 1.625em; }
+body { background-color: #fefefe; color: #2a2a2a; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 14px; line-height: 1.65em; }
 
-h1, h2, h3, h4 { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", "Arial", sans-serif; line-height: 1.2em; }
+h1, h2, h3, h4 { line-height: 1.2em; }
 h1 a, h2 a, h3 a, h4 a { color: #2a2a2a; text-decoration: none; border: none; }
 
 h1 { font-size: 2.4em; }
 
-h2 { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
+h2 { color: #2a2a2a; font-weight: bold; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
 
-h3 { font-size: 1em; margin: 1.8em 0em; color: #2a2a2a; font-weight: bold; text-transform: uppercase; border-left: 5px solid #cccccc; padding: .5em 0 .5em 1em; line-height: 1em; }
+h3 { font-size: 1em; margin: 1.8em 0em; color: #2a2a2a; font-weight: bold; text-transform: uppercase; border-left: 5px solid #cccccc; padding: .5em 0 .5em 1em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; line-height: 1em; }
 h3 + p { margin-top: .2em; }
 
 h4 { font-size: 1em; text-transform: uppercase; }
 
-a { color: #007aff; border-bottom: 1px solid #cccccc; text-decoration: none; }
+a { color: #72b1c8; border-bottom: 1px solid #cccccc; text-decoration: none; }
 a img { border: 0; }
 
 /* Layout */
-.wrapper { margin: 8em auto; max-width: 51rem; padding: 0 1em; padding-bottom: 0; overflow: auto; }
+.wrapper { margin: 8em auto; max-width: 50rem; padding: 0 1em; padding-bottom: 0; overflow: auto; }
 
-.content { width: 68%; float: right; background-color: #fdfdfd; padding: 3em; }
+.content { width: 70%; float: right; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; padding: 4em; }
 
-.sidebar { width: 28%; padding-top: 3em; float: left; text-align: right; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", "Arial", sans-serif; }
-.sidebar nav { text-transform: uppercase; }
+.sidebar { width: 30%; padding-top: 4em; float: left; text-align: right; }
+.sidebar nav { text-transform: uppercase; font-size: 11px; }
 .sidebar nav a { text-decoration: none; border: none; color: #a0a0a0; }
-.sidebar nav a:hover { color: #007aff; }
-.sidebar nav a { display: block; letter-spacing: 1px; font-size: .9em; }
+.sidebar nav a:hover { color: #72b1c8; }
+.sidebar nav a { display: block; letter-spacing: 1px; margin: .25em 0; }
+.sidebar nav a:first-child { margin-top: 0; }
 .sidebar nav ul { padding: 0; margin-top: 0; }
 .sidebar nav li { list-style: none; padding: 0; margin: 0; }
 
-.footer { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", "Arial", sans-serif; padding-top: 4em; margin: 4em 0 0; border-top: dotted 1px #cccccc; width: 100%; clear: both; }
+.footer { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; padding-top: 4em; margin: 4em 0 0; border-top: dotted 1px #cccccc; width: 100%; clear: both; }
 
 /* Archive page */
-ol.archive { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", "Arial", sans-serif; margin: 0; padding: 0; }
+ol.archive { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: .9em; margin: 0; padding: 0; }
 ol.archive li { text-align: left; display: block; list-style: none; padding: .5em 0; border-bottom: 1px dashed #cccccc; font-size: 1em; margin: 0; border-bottom: 1px solid #cccccc dotted; }
 ol.archive a { text-decoration: none; border-bottom: none; }
 
 .archive-date { float: right; display: inline-block; color: #a0a0a0; }
 
 /* Titles and such */
-.site-title { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; font-family: 'Avenir Next Condensed'; text-transform: uppercase; margin: 1rem 0; font-size: 2em; line-height: 1em; letter-spacing: 0px; }
-.site-title a:hover { color: #007aff; }
+.site-title { color: #2a2a2a; font-weight: bold; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; text-transform: uppercase; margin: 1rem 0; font-size: 1.5em; line-height: 1em; font-weight: bold; letter-spacing: 1px; }
+.site-title a:hover { color: #72b1c8; }
 
 /* Article page */
-.article-title, .article-title-link { color: #2a2a2a; font-weight: bold; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
+.article-title, .article-title-link { color: #2a2a2a; font-weight: bold; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
 
-.article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", "Arial", sans-serif; color: #a0a0a0; }
+.article-meta { color: #a0a0a0; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
 .article-meta a { text-decoration: none; border: none; color: #a0a0a0; }
-.article-meta a:hover { color: #007aff; }
+.article-meta a:hover { color: #72b1c8; }
 
 .article { padding: 0em 0; }
-.article p { margin-bottom: 1.5em; }
+.article p { margin-bottom: 1.25em; }
 
 /* Linklog */
-.article-title-link { font-size: 1em; font-weight: bold; }
-.article-title-link a { border-bottom: 1px solid #cccccc; line-height: 1.625em; color: #007aff; }
+.article-title-link { font-weight: normal; font-size: 1.2em; }
+.article-title-link a { border-bottom: 1px solid #cccccc; line-height: 1.65em; color: #72b1c8; }
 .article-title-link .permalink { text-decoration: underline; margin-left: 1em; }
 
 img, blockquote, ul { margin: 2em 0; }
@@ -68,10 +69,10 @@ img { border-radius: 3px; display: block; height: auto; max-width: 100%; }
 
 small { display: block; font-size: .9em; font-style: italic; margin: 1rem auto; text-align: center; width: 100%; }
 
-blockquote { border-left: 5px solid #cccccc; color: #777; margin-left: 0; padding: .5em 0 .5em 1em; }
+blockquote { border-left: 5px solid #cccccc; color: #777; margin-left: 0; padding: 0 1em; }
 blockquote p:last-child { margin: 0; padding: 0; }
 
-ul, ol { padding-left: 1.5rem; margin-bottom: 1.5em; }
+ul, ol { padding-left: 1.5rem; margin-bottom: 1.25em; }
 
 ul li { list-style: square; margin: 8px 0px; }
 
@@ -83,7 +84,7 @@ pre code { border: none; padding: none; }
 code { border: 1px solid #bfbfbf; font-size: .9em; padding: 1px 5px; }
 
 /* Misc styles */
-.color { color: #007aff; }
+.color { color: #72b1c8; }
 
 .center { text-align: center; }
 
@@ -100,7 +101,7 @@ code { border: 1px solid #bfbfbf; font-size: .9em; padding: 1px 5px; }
   .sidebar { margin: 1em auto 2em; border-bottom: 2px solid #cccccc; padding: .5em 0; width: 100%; text-align: center; float: none; display: block; }
   .sidebar nav, .sidebar p { display: none; }
   .content { background-color: #fff; margin-top: 1em; width: auto; float: none; padding: 1em; }
-  .site-title { font-weight: 100; }
+  .article-title, .article-title-link { text-align: center; }
   .article { margin-bottom: 3em; }
   .archive-date { float: none; display: none; color: #2a2a2a; font-size: .8em; }
   .separator { margin: 3em auto; width: 100%; } }
