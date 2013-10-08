@@ -5,7 +5,7 @@ category: weblog
 date: 2013-09-13
 ---
 
-Some thoughts on the new iPhone 5C, and why it's going to be both my next iPhone and the most popular version Apple's ever sold.
+Some thoughts on the new iPhone 5C, and why it's going to be the most popular version Apple's ever sold.
 
 One of my favorite iPhones to hold was the iPhone 3GS. In my opinion, it was one of the best-feeling phones Apple ever made. It's not that I don't appreciate the luxurious feel ushered in with the iPhone 4, I do. But the 3GS felt like, on an ideological level, the everyman's phone. Something simple, sturdy, and able to take a little abuse while still looking great.
 

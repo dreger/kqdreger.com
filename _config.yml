@@ -13,7 +13,7 @@ markdown:       rdiscount
 pygments:       true
 
 # required configuration
-domain:         kyledreger.com
+domain:         http://kyledreger.com
 title:          Kyle Dreger
 author:         Kyle Dreger
 email:          comments@kyledreger.com

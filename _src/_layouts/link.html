@@ -8,7 +8,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 
 <html lang="en">
 {% include head.html %}
-<body>
+<body onload="setupZoom()">
 <section class="wrapper">
 <section class="sidebar">
 {% include header.html %}
@@ -23,6 +23,5 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include footer.html %}
 </section>
 </section>
-
 </body>
 </html>

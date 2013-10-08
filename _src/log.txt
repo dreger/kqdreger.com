@@ -5,6 +5,11 @@ dregerkq@mountunion.edu
 # The Log
 A journal of my journey taking this website to SCE project level.
 
+## October 7, 2013
+The NYT Manual of Style has come in great handy. However, I've found a faster way to do most of my queries as of late:
+
+Go to Google.com and enter into the search box: "site:nytimes.com X" replacing X with whatever word / words you're querying. This will return pages of Google results with term X *only from The New York Times website*. Often I can tell within a few seconds what the "correct" usage is, and I'm able to confindently go forward.
+
 ## September 23, 2013
 I did some research as to what manuals of style Daring Fireball, Shawn Blanc, and Marco Arment are using for their sites. Arment and Blanc appears to be using their own personal guides, as they've written nothing on the subject. Gruber, however, follows the New York Times Manual of Style [1].
 

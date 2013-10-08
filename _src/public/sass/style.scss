@@ -28,7 +28,7 @@ $colorForBackground: #fefefe;
 $colorForBody: #2a2a2a;
 $colorForHeadings: #2a2a2a;
 $colorGray: #a0a0a0;
-$colorGrayLight: #ccc;
+$colorGrayLight: #cdcdcd;
 
 /* Typography */
 $typeSize: 14px;
@@ -144,6 +144,7 @@ a {
     ul {
       padding: 0;
       margin-top: 0;
+      margin-bottom: 1.5rem;
     }
     li {
       list-style: none;
@@ -220,9 +221,9 @@ ol.archive {
 }
 
 .article {
-  padding: 0em 0;
-  p {
-    margin-bottom: 1.25em;
+  padding: 0;
+  p:first-child {
+    margin-top: 0;
   }
 }
 
@@ -243,16 +244,14 @@ ol.archive {
   }
 }
 
-img, blockquote,ul {
-  margin: 2em 0;
+img, blockquote, ul, ol, p {
+  margin: 1.5em 0;
 }
 
 img {
   border-radius: 3px;
   display: block;
   height: auto;
-  // width: $largeImageWidth;
-  // margin-left: -$largeImageOffset;
   max-width: 100%;
 }
 
@@ -278,17 +277,16 @@ blockquote {
 
 ul, ol {
   padding-left: 1.5rem;
-  margin-bottom: 1.25em;
 }
 ul {
   li {
     list-style: square;
-    margin: 8px 0px;
+    margin: .5em 0;
   }
 }
 ol {
   li {
-    margin: 8px 0px;
+    margin: .5em 0;
   }
 }
 
@@ -308,6 +306,17 @@ code {
 }
 
 /* Misc styles */
+hr {
+border: solid $colorGrayLight;
+border-radius: 5px;
+border-width: 5px 0 0;
+clear: both;
+color: #fff;
+margin: 3em auto;
+height: 0;
+max-width: 430px;
+width: 5em;
+}
 
 .color {
   color: $color;
@@ -321,9 +330,6 @@ code {
 .separator {
   display: block;
   margin: 5em auto;
-  // width: 130%;
-  // margin-left: -15%;
-  // border-top: solid $colorGrayLight 1px;
   height: 1px;
   &:last-of-type {
     display: none;
