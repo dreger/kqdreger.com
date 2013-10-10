@@ -4,38 +4,38 @@
 /* Layout variables */
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: #fefefe; color: #2a2a2a; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 14px; line-height: 1.65em; }
+body { background-color: #fefefe; color: #2a2a2a; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 13px; line-height: 1.65em; }
 
 h1, h2, h3, h4 { line-height: 1.2em; }
-h1 a, h2 a, h3 a, h4 a { color: #2a2a2a; text-decoration: none; border: none; }
 
-h1 { font-size: 2.4em; }
+h1, h2, h3, h4, h5, h6 { font-size: 1em; }
 
-h2 { color: #2a2a2a; font-weight: bold; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
+h2 { color: #333333; font-weight: normal; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.25rem; line-height: 1.2em; }
 
-h3 { font-size: 1em; margin: 1.8em 0em; color: #2a2a2a; font-weight: bold; text-transform: uppercase; border-left: 5px solid #cdcdcd; padding: .5em 0 .5em 1em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; line-height: 1em; }
+h3 { font-size: 1em; margin: 1.8em 0em; color: #333333; font-weight: bold; text-transform: uppercase; border-left: 5px solid #cdcdcd; padding: .5em 0 .5em 1em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; line-height: 1em; }
 h3 + p { margin-top: .2em; }
 
 h4 { font-size: 1em; text-transform: uppercase; }
 
-a { color: #72b1c8; border-bottom: 1px solid #cdcdcd; text-decoration: none; }
+a { color: #66aac3; text-decoration: none; }
+a:hover { text-decoration: underline; }
 a img { border: 0; }
 
 /* Layout */
-.wrapper { margin: 8em auto; max-width: 50rem; padding: 0 1em; padding-bottom: 0; overflow: auto; }
+.wrapper { margin: 8em auto; max-width: 48rem; padding: 0 1em; padding-bottom: 0; overflow: auto; }
 
 .content { width: 70%; float: right; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; padding: 4em; }
 
 .sidebar { width: 30%; padding-top: 4em; float: left; text-align: right; }
-.sidebar nav { text-transform: uppercase; font-size: 11px; }
+.sidebar nav { text-transform: uppercase; letter-spacing: 1px; font-size: 11px; }
 .sidebar nav a { text-decoration: none; border: none; color: #a0a0a0; }
-.sidebar nav a:hover { color: #72b1c8; }
+.sidebar nav a:hover { color: #66aac3; }
 .sidebar nav a { display: block; letter-spacing: 1px; margin: .25em 0; }
 .sidebar nav a:first-child { margin-top: 0; }
-.sidebar nav ul { padding: 0; margin-top: 0; margin-bottom: 1.5rem; }
+.sidebar nav ul { padding: 0; margin-top: 0; margin-bottom: 1.25rem; }
 .sidebar nav li { list-style: none; padding: 0; margin: 0; }
 
-.footer { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; padding-top: 4em; margin: 4em 0 0; border-top: dotted 1px #cdcdcd; width: 100%; clear: both; }
+.footer { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; padding-top: 4em; margin: 4em 0 0; width: 100%; clear: both; }
 
 /* Archive page */
 ol.archive { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: .9em; margin: 0; padding: 0; }
@@ -45,25 +45,30 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 .archive-date { float: right; display: inline-block; color: #a0a0a0; }
 
 /* Titles and such */
-.site-title { color: #2a2a2a; font-weight: bold; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; text-transform: uppercase; margin: 1rem 0; font-size: 1.5em; line-height: 1em; font-weight: bold; letter-spacing: 1px; }
-.site-title a:hover { color: #72b1c8; }
+.site-title { color: #333333; font-weight: normal; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.25rem; line-height: 1.2em; font-size: 1.5em; text-transform: uppercase; margin: 1rem 0; line-height: 1em; font-weight: normal; letter-spacing: 1px; }
+.site-title a { color: #333333; }
+.site-title a:hover { text-decoration: none; }
 
 /* Article page */
-.article-title, .article-title-link { color: #2a2a2a; font-weight: bold; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.5rem; line-height: 1.2em; }
+.article-title, .article-title-link { color: #333333; font-weight: normal; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1.5em; text-transform: none; margin-bottom: 1.25rem; line-height: 1.2em; font-size: 2em; }
+.article-title a, .article-title-link a { color: #333333; }
+.article-title a:hover, .article-title-link a:hover { text-decoration: none; }
 
-.article-meta { color: #a0a0a0; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
+.article-meta { color: #a0a0a0; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; font-size: 11px; }
 .article-meta a { text-decoration: none; border: none; color: #a0a0a0; }
-.article-meta a:hover { color: #72b1c8; }
+.article-meta a:hover { color: #66aac3; }
 
 .article { padding: 0; }
 .article p:first-child { margin-top: 0; }
 
 /* Linklog */
-.article-title-link { font-weight: normal; font-size: 1.2em; }
-.article-title-link a { border-bottom: 1px solid #cdcdcd; line-height: 1.65em; color: #72b1c8; }
+.article-title-link { font-weight: normal; font-size: 1.25em; }
+.article-title-link a { line-height: 1.65em; color: #66aac3; }
+.article-title-link a:hover { text-decoration: underline; }
 .article-title-link .permalink { text-decoration: underline; margin-left: 1em; }
+.article-title-link .link-arrow { margin-left: .5em; display: none; }
 
-img, blockquote, ul, ol, p { margin: 1.5em 0; }
+img, blockquote, ul, ol, p { margin: 1.25em 0; }
 
 img { border-radius: 3px; display: block; height: auto; max-width: 100%; }
 
@@ -84,16 +89,15 @@ pre code { border: none; padding: none; }
 code { border: 1px solid silver; font-size: .9em; padding: 1px 5px; }
 
 /* Misc styles */
-hr { border: solid #cdcdcd; border-radius: 5px; border-width: 5px 0 0; clear: both; color: #fff; margin: 3em auto; height: 0; max-width: 430px; width: 5em; }
+hr { border: solid #cdcdcd; border-radius: 5px; border-width: 2px 0 0; clear: both; color: #fff; margin: 3em auto; height: 1px; max-width: 430px; width: 6em; }
 
-.color { color: #72b1c8; }
+.color { color: #66aac3; }
 
 .center { text-align: center; }
 
 .right { text-align: right; }
 
-.separator { display: block; margin: 5em auto; height: 1px; }
-.separator:last-of-type { display: none; }
+.separator { display: block; margin: 7em auto; font-size: 11px; text-align: center; color: #cdcdcd; }
 
 /* Media queries */
 @media (max-width: 796px) { .archive-date { display: none; float: none; } }

@@ -5,7 +5,7 @@ title: Colophon
 ## Colophon
 Writen and produced by Kyle Dreger.
 
-I'm currently a full-time undergraduate student of computer science and English writing. I write about technology, design, and great study hacks.Offline, I play soccer, code, and am blessed to be <s>dating</s> engaged to the most beautiful woman.
+I'm currently a full-time undergraduate student of computer science and English writing. I write about technology, design, and great study hacks. Offline, I play soccer, code, and am blessed to be <s>dating</s> engaged to the most beautiful woman.
 
 ### Mac apps
 - Webkit

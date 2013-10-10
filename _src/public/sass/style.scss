@@ -1,11 +1,11 @@
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeadings;
-  font-weight: bold;
+  font-weight: normal;
   font-family: $typeB;
-  font-size: 1.5em;
+  font-size: $pageTitleSize;
   text-transform: none;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   line-height: 1.2em;
 }
 
@@ -20,18 +20,31 @@
   }
 }
 
+@mixin smallCaps {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+}
+
 /* Colors */
 $color: #007AFF;
-$color: #72b1c8;
+$color: #66aac3;
 $colorForBackground: #f3f3f3;
 $colorForBackground: #fefefe;
 $colorForBody: #2a2a2a;
-$colorForHeadings: #2a2a2a;
+$colorForHeadings: #333;
 $colorGray: #a0a0a0;
 $colorGrayLight: #cdcdcd;
 
+// @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+//Menlo, Monaco, monospace,
+
 /* Typography */
-$typeSize: 14px;
+$typeSize: 13px;
+$siteTitleSize: 1.5em;
+$linkTitleSize: 1.25em;
+$articleTitleSize: 2em;
+$pageTitleSize: $siteTitleSize;
 $typeLineHeight: 1.65em;
 $typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 $typeB: $typeA;
@@ -40,7 +53,7 @@ $typeB: $typeA;
 // .sidebar : .footer : h3
 
 /* Layout variables */
-$wrapperWidth: 50rem;
+$wrapperWidth: 48rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
 $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
@@ -63,15 +76,10 @@ body {
 
 h1, h2, h3, h4 {
   line-height: 1.2em;
-  a {
-    color: $colorForHeadings;
-    text-decoration: none;
-    border: none;
-  }
 }
 
-h1 {
-  font-size: 2.4em;
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
 }
 
 h2 {
@@ -100,8 +108,11 @@ h4 {
 
 a {
   color: $color;
-  border-bottom: 1px solid $colorGrayLight;
+  // border-bottom: 1px solid $colorGrayLight;
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
   & img {
     border: 0;
   }
@@ -130,8 +141,7 @@ a {
   float: left;
   text-align: right;
   nav {
-    text-transform: uppercase;
-    font-size: 11px;
+    @include smallCaps;
     @include colorlessLinks;
     a {
       display: block;
@@ -144,7 +154,7 @@ a {
     ul {
       padding: 0;
       margin-top: 0;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
     }
     li {
       list-style: none;
@@ -158,7 +168,7 @@ a {
   font-family: $typeB;
   padding-top: 4em;
   margin: 4em 0 0;
-  border-top: dotted 1px $colorGrayLight;
+  // border-top: dotted 1px $colorGrayLight;
   width: 100%;
   clear: both;
 }
@@ -198,14 +208,17 @@ ol.archive {
 
 .site-title {
   @include h2_style;
+  font-size: $siteTitleSize;
   text-transform: uppercase;
   margin: 1rem 0;
-  font-size: 1.5em;
   line-height: 1em;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 1px;
+  a {
+    color: $colorForHeadings;
+  }
   a:hover {
-    color: $color;
+    text-decoration: none;
   }
 }
 
@@ -213,11 +226,19 @@ ol.archive {
 
 .article-title {
   @include h2_style;
+  font-size: $articleTitleSize;
+  a {
+    color: $colorForHeadings;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 .article-meta {
-  color: $colorGray;
   @include colorlessLinks;
+  color: $colorGray;
   font-family: $typeB;
+  @include smallCaps;
 }
 
 .article {
@@ -232,20 +253,26 @@ ol.archive {
 .article-title-link {
   @extend .article-title;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: $linkTitleSize;
   a {
-    border-bottom: 1px solid $colorGrayLight;
     line-height: $typeLineHeight;
     color: $color;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .permalink {
     text-decoration: underline;
     margin-left: 1em;
   }
+  .link-arrow {
+    margin-left: .5em;
+    display: none;
+  }
 }
 
 img, blockquote, ul, ol, p {
-  margin: 1.5em 0;
+  margin: 1.25em 0;
 }
 
 img {
@@ -309,13 +336,13 @@ code {
 hr {
 border: solid $colorGrayLight;
 border-radius: 5px;
-border-width: 5px 0 0;
+border-width: 2px 0 0;
 clear: both;
 color: #fff;
 margin: 3em auto;
-height: 0;
+height: 1px;
 max-width: 430px;
-width: 5em;
+width: 6em;
 }
 
 .color {
@@ -329,10 +356,13 @@ width: 5em;
 }
 .separator {
   display: block;
-  margin: 5em auto;
-  height: 1px;
+  margin: 7em auto;
+  // height: 1px;
+  font-size: 11px;
+  text-align: center;
+  color: $colorGrayLight;
   &:last-of-type {
-    display: none;
+    // display: none;
   }
 }
 
