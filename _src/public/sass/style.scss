@@ -28,7 +28,7 @@
 
 /* Colors */
 $color: #007AFF;
-$color: #66aac3;
+$color: #3787e0;
 $colorForBackground: #f3f3f3;
 $colorForBackground: #fefefe;
 $colorForBody: #2a2a2a;
@@ -42,7 +42,7 @@ $colorGrayLight: #cdcdcd;
 /* Typography */
 $typeSize: 13px;
 $siteTitleSize: 1.5em;
-$linkTitleSize: 1.25em;
+$linkTitleSize: 1em;
 $articleTitleSize: 2em;
 $pageTitleSize: $siteTitleSize;
 $typeLineHeight: 1.65em;
@@ -252,7 +252,7 @@ ol.archive {
 
 .article-title-link {
   @extend .article-title;
-  font-weight: normal;
+  font-weight: bold;
   font-size: $linkTitleSize;
   a {
     line-height: $typeLineHeight;

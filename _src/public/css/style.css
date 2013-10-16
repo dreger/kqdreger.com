@@ -17,7 +17,7 @@ h3 + p { margin-top: .2em; }
 
 h4 { font-size: 1em; text-transform: uppercase; }
 
-a { color: #66aac3; text-decoration: none; }
+a { color: #3787e0; text-decoration: none; }
 a:hover { text-decoration: underline; }
 a img { border: 0; }
 
@@ -29,7 +29,7 @@ a img { border: 0; }
 .sidebar { width: 30%; padding-top: 4em; float: left; text-align: right; }
 .sidebar nav { text-transform: uppercase; letter-spacing: 1px; font-size: 11px; }
 .sidebar nav a { text-decoration: none; border: none; color: #a0a0a0; }
-.sidebar nav a:hover { color: #66aac3; }
+.sidebar nav a:hover { color: #3787e0; }
 .sidebar nav a { display: block; letter-spacing: 1px; margin: .25em 0; }
 .sidebar nav a:first-child { margin-top: 0; }
 .sidebar nav ul { padding: 0; margin-top: 0; margin-bottom: 1.25rem; }
@@ -56,14 +56,14 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 
 .article-meta { color: #a0a0a0; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; font-size: 11px; }
 .article-meta a { text-decoration: none; border: none; color: #a0a0a0; }
-.article-meta a:hover { color: #66aac3; }
+.article-meta a:hover { color: #3787e0; }
 
 .article { padding: 0; }
 .article p:first-child { margin-top: 0; }
 
 /* Linklog */
-.article-title-link { font-weight: normal; font-size: 1.25em; }
-.article-title-link a { line-height: 1.65em; color: #66aac3; }
+.article-title-link { font-weight: bold; font-size: 1em; }
+.article-title-link a { line-height: 1.65em; color: #3787e0; }
 .article-title-link a:hover { text-decoration: underline; }
 .article-title-link .permalink { text-decoration: underline; margin-left: 1em; }
 .article-title-link .link-arrow { margin-left: .5em; display: none; }
@@ -91,7 +91,7 @@ code { border: 1px solid silver; font-size: .9em; padding: 1px 5px; }
 /* Misc styles */
 hr { border: solid #cdcdcd; border-radius: 5px; border-width: 2px 0 0; clear: both; color: #fff; margin: 3em auto; height: 1px; max-width: 430px; width: 6em; }
 
-.color { color: #66aac3; }
+.color { color: #3787e0; }
 
 .center { text-align: center; }
 
