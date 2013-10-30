@@ -27,8 +27,8 @@
 }
 
 /* Colors */
-$color: #007AFF;
 $color: #3787e0;
+$color: #FF0050;
 $colorForBackground: #f3f3f3;
 $colorForBackground: #fefefe;
 $colorForBody: #2a2a2a;
@@ -38,6 +38,8 @@ $colorGrayLight: #cdcdcd;
 
 // @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 //Menlo, Monaco, monospace,
+
+
 
 /* Typography */
 $typeSize: 13px;
@@ -121,11 +123,12 @@ a {
 /* Layout */
 
 .wrapper {
-  margin: 8em auto;
+  margin: 0 auto;
   max-width: $wrapperWidth;
-  padding: 0 1em;
+  padding: 8em 1em;
   padding-bottom: 0;
   overflow: auto;
+  // border-top: 10px solid $color;
 }
 
 .content {
@@ -292,7 +295,7 @@ small {
 }
 
 blockquote {
-  border-left: 5px solid $colorGrayLight;
+  border-left: 2px solid $colorGrayLight;
   color: #777;
   margin-left: 0;
   padding: 0 1em;
@@ -300,6 +303,14 @@ blockquote {
     margin: 0;
     padding: 0;
   }
+}
+
+.big-quote {
+  display: block;
+  font-family: Georgia;
+  font-size: 1em;
+  font-style: italic;
+
 }
 
 ul, ol {
@@ -360,7 +371,7 @@ width: 6em;
   // height: 1px;
   font-size: 11px;
   text-align: center;
-  color: $colorGrayLight;
+  color: $colorGray;
   &:last-of-type {
     // display: none;
   }
@@ -380,6 +391,7 @@ width: 6em;
   }
   .wrapper {
     margin-top: 0em;
+    padding-top: 0;
     max-width: 500px;
   }
   .footer {
@@ -389,7 +401,7 @@ width: 6em;
   }
   .sidebar {
     margin: 1em auto 2em;
-    border-bottom: 2px solid $colorGrayLight;
+    border-bottom: 3px solid $colorGrayLight;
     padding: .5em 0;
     width: 100%;
     text-align: center;

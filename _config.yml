@@ -4,6 +4,8 @@ destination:    ./_site
 permalink:      /blog/:year/:month/:title.html
 pygments:       true
 markdown:       rdiscount
+rdiscount:
+  extensions: [ footnotes ]
 # paginate: 1
 # timezone:       nil
 
