@@ -3,6 +3,8 @@ layout: default
 title: Colophon
 ---
 ## Colophon
+![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
+
 Writen and produced by Kyle Dreger.
 
 I'm currently a full-time undergraduate student of computer science and English writing. I write about technology, design, and great study hacks. Offline, I play soccer, code, and am blessed to be <s>dating</s> engaged to the most beautiful woman.
