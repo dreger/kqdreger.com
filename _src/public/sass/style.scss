@@ -48,8 +48,8 @@ $linkTitleSize: 1em;
 $articleTitleSize: 2em;
 $pageTitleSize: $siteTitleSize;
 $typeLineHeight: 1.65em;
-$typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-$typeB: $typeA;
+$typeA: "Georgia Pro", Georgia, serif;
+$typeB: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif,$typeA;
 
 // Three places that are different from body:
 // .sidebar : .footer : h3
