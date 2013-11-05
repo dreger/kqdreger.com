@@ -36,20 +36,19 @@ $colorForHeadings: #333;
 $colorGray: #a0a0a0;
 $colorGrayLight: #cdcdcd;
 
-// @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 //Menlo, Monaco, monospace,
 
 
 
 /* Typography */
 $typeSize: 13px;
-$siteTitleSize: 1.5em;
+$siteTitleSize: 2em;
 $linkTitleSize: 1em;
 $articleTitleSize: 2em;
 $pageTitleSize: $siteTitleSize;
-$typeLineHeight: 1.65em;
-$typeA: "Georgia Pro", Georgia, serif;
-$typeB: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif,$typeA;
+$typeLineHeight: 1.7em;
+$typeB:  "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+$typeA: $typeB, "Georgia Pro", Georgia, serif;
 
 // Three places that are different from body:
 // .sidebar : .footer : h3
@@ -212,7 +211,7 @@ ol.archive {
 .site-title {
   @include h2_style;
   font-size: $siteTitleSize;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin: 1rem 0;
   line-height: 1em;
   font-weight: normal;
@@ -246,6 +245,7 @@ ol.archive {
 
 .article {
   padding: 0;
+  text-align: left;
   p:first-child {
     margin-top: 0;
   }
@@ -262,6 +262,9 @@ ol.archive {
     color: $color;
     &:hover {
       text-decoration: underline;
+    }
+    &:after {
+      content: "\2192";
     }
   }
   .permalink {
