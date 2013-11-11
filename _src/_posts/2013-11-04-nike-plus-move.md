@@ -1,6 +1,6 @@
 ---
 title: "Nike+ Move"
-link: "https://itunes.apple.com/us/app/nike+-move/id712498492?mt=8&ign-mpt=uo%3D4"
+link: "https://itunes.apple.com/us/app/nike+-move/id712498492"
 date: 2013-11-04 21:43
 layout: link
 ---

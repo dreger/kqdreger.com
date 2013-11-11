@@ -7,7 +7,7 @@ You can subscribe to this site in several ways:
 
 ### Main RSS Feed
 
-[http://kyledreger.com/index.xml]({{site.domain}}/index.xml)
+[http://feedpress.me/kyledreger](http://feedpress.me/kyledreger)
 
 ### Twitter
 

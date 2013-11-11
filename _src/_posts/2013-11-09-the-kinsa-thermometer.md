@@ -1,5 +1,5 @@
 ---
-title: The Kinsa Thermometer for iPhone
+title: The Kinsa Thermometer
 link: https://www.kinsahealth.com/
 date: 2013-11-09 14:22
 layout: link

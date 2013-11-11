@@ -7,11 +7,11 @@ layout: nil
 <link href="{{ site.domain }}/atom.xml" rel="self"/>
 <link href="{{ site.domain }}/"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>http://{{ site.domain }}/</id>
-<author>
+<id>{{ site.domain }}/</id>
+<!-- <author>
 <name>{{ site.author }}</name>
 <email>{{ site.email }}</email>
-</author>
+</author> -->
 {% for post in site.posts limit:20 %}
 {% if post.date %}
 <entry>
