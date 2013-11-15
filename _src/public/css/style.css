@@ -46,7 +46,7 @@ ol.archive a { text-decoration: none; border-bottom: none; }
 
 /* Titles and such */
 .site-title { color: #333333; font-weight: normal; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 2em; text-transform: none; margin-bottom: 1.25rem; line-height: 1.2em; font-size: 2em; text-transform: lowercase; margin: 1rem 0; line-height: 1em; font-weight: normal; letter-spacing: 1px; }
-.site-title a { color: #333333; }
+.site-title a { color: #333333; text-decoration: none; }
 .site-title a:hover { text-decoration: none; }
 
 /* Article page */

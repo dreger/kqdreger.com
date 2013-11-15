@@ -28,6 +28,7 @@
 
 /* Colors */
 $color: #3787e0;
+$color: #222;
 $color: #FF0050;
 $colorForBackground: #f3f3f3;
 $colorForBackground: #fefefe;
@@ -218,6 +219,7 @@ ol.archive {
   letter-spacing: 1px;
   a {
     color: $colorForHeadings;
+    text-decoration: none;
   }
   a:hover {
     text-decoration: none;
