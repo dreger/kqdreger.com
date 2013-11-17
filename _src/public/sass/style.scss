@@ -23,7 +23,7 @@
 @mixin smallCaps {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 11px;
+  font-size: .8em;
 }
 
 /* Colors */
@@ -42,9 +42,9 @@ $colorGrayLight: #cdcdcd;
 
 
 /* Typography */
-$typeSize: 13px;
+$typeSize: 16px;
 $siteTitleSize: 2em;
-$linkTitleSize: 1em;
+$linkTitleSize: 1.25em;
 $articleTitleSize: 2em;
 $pageTitleSize: $siteTitleSize;
 $typeLineHeight: 1.7em;
@@ -55,7 +55,7 @@ $typeA: $typeB, "Georgia Pro", Georgia, serif;
 // .sidebar : .footer : h3
 
 /* Layout variables */
-$wrapperWidth: 48rem;
+$wrapperWidth: 57rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
 $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
@@ -374,7 +374,7 @@ width: 6em;
   display: block;
   margin: 7em auto;
   // height: 1px;
-  font-size: 11px;
+  font-size: .8em;
   text-align: center;
   color: $colorGray;
   &:last-of-type {
@@ -383,14 +383,14 @@ width: 6em;
 }
 
 /* Media queries */
-@media (max-width: 796px) {
+@media (max-width: 850px) {
   .archive-date {
     display: none;
     float: none;
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 800px) {
   body {
     background-color: #fff;
   }
