@@ -1,8 +1,10 @@
+
+
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeadings;
   font-weight: normal;
-  font-family: $typeB;
+  font-family: $typeA;
   font-size: $pageTitleSize;
   text-transform: none;
   margin-bottom: 1.25rem;
@@ -21,9 +23,9 @@
 }
 
 @mixin smallCaps {
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1px;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 /* Colors */
@@ -31,31 +33,31 @@ $color: #3787e0;
 $color: #222;
 $color: #FF0050;
 $colorForBackground: #f3f3f3;
-$colorForBackground: #fefefe;
+$colorForBackground: #fff;
 $colorForBody: #2a2a2a;
 $colorForHeadings: #333;
 $colorGray: #a0a0a0;
 $colorGrayLight: #cdcdcd;
+$colorGrayLightest: #eee;
 
-//Menlo, Monaco, monospace,
-
+//"Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 
 
 /* Typography */
 $typeSize: 16px;
 $siteTitleSize: 2em;
-$linkTitleSize: 1.25em;
-$articleTitleSize: 2em;
-$pageTitleSize: $siteTitleSize;
+$linkTitleSize: 1.5em;
+$articleTitleSize: 2.5em;
+$pageTitleSize: $articleTitleSize;
 $typeLineHeight: 1.7em;
-$typeB:  "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-$typeA: $typeB, "Georgia Pro", Georgia, serif;
+$typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
+$typeB: $typeA;
 
 // Three places that are different from body:
 // .sidebar : .footer : h3
 
 /* Layout variables */
-$wrapperWidth: 57rem;
+$wrapperWidth: 40rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
 $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
@@ -89,15 +91,16 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.25em;
   margin: 1.8em 0em;
   color: $colorForHeadings;
   font-weight: bold;
   text-transform: uppercase;
-  border-left: 5px solid $colorGrayLight;
+  border-left: 10px solid $colorGrayLight;
   padding: .5em 0 .5em 1em;
   font-family: $typeB;
   line-height: 1em;
+  letter-spacing: 1px;
   & + p {
     margin-top: .2em;
   }
@@ -125,31 +128,28 @@ a {
 .wrapper {
   margin: 0 auto;
   max-width: $wrapperWidth;
-  padding: 8em 1em;
-  padding-bottom: 0;
+  padding: 10em 1em;
   overflow: auto;
-  // border-top: 10px solid $color;
 }
 
 .content {
-  width: 70%;
-  float: right;
-  font-family: $typeA;
-  padding: 4em;
+  width: 100%;
+  float: none;
 }
 
 .sidebar {
-  width: 30%;
-  padding-top: 4em;
-  float: left;
+  width: 100%;
+  float: none;
+  margin-bottom: 5em;
   text-align: right;
   nav {
     @include smallCaps;
     @include colorlessLinks;
     a {
-      display: block;
+      // display: block;
       letter-spacing: 1px;
-      margin: .25em 0;
+      margin: 0;
+      margin-left: 1em;
       &:first-child {
         margin-top: 0;
       }
@@ -162,6 +162,7 @@ a {
     li {
       list-style: none;
       padding: 0;
+      display: inline;
       margin: 0;
     }
   }
@@ -181,7 +182,7 @@ a {
 
 ol.archive {
   font-family: $typeB;
-  font-size: .9em;
+  font-size: 1.25em;
   margin: 0;
   padding: 0;
   li {
@@ -189,10 +190,10 @@ ol.archive {
     display: block;
     list-style: none;
     padding: .5em 0;
-    border-bottom: 1px dashed $colorGrayLight;
-    font-size: 1em;
+
+    // font-size: 1em;
     margin: 0;
-    border-bottom: 1px solid $colorGrayLight dotted;
+    // border-bottom: 2px solid $colorGrayLightest;
   }
   a {
     text-decoration: none;
@@ -202,9 +203,10 @@ ol.archive {
   }
 }
 .archive-date {
-  float: right;
-  display: inline-block;
-  color: $colorGray;
+  float: none;
+  font-size: 1em;
+  display: block;
+  color: $colorGrayLight;
 }
 
 /* Titles and such */
@@ -213,9 +215,10 @@ ol.archive {
   @include h2_style;
   font-size: $siteTitleSize;
   text-transform: lowercase;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+  font-family: $typeB;
   line-height: 1em;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 1px;
   a {
     color: $colorForHeadings;
@@ -231,6 +234,7 @@ ol.archive {
 .article-title {
   @include h2_style;
   font-size: $articleTitleSize;
+  font-weight: bold;
   a {
     color: $colorForHeadings;
     &:hover {

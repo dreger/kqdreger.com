@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Syndicated Feeds
+title: Subscribe
 ---
-## Syndicated Feeds
+## Ways to Subscribe
 You can subscribe to this site in several ways:
 
 ### Main RSS Feed

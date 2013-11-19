@@ -1,5 +1,5 @@
 ---
-title: Brief Thoughts on the New iPads
+title: The New iPads
 date: 2013-11-14 21:25
 layout: post
 ---
@@ -25,7 +25,7 @@ Other than the Retina Display, there are no visible changes to the hardware desi
 
 The original iPad Mini was a winner and, for me, the iPad that Apple always wanted to build. With the new Retina Display and internal specs to match that of the Air, Apple is now, essentially, selling one iPad, but in two different sizes.
 
-### iOS 7, and a Note on Touch ID
+### iOS 7 and Touch ID
 
 Unfortunately, iOS 7 still has some work to do before it's really ready for the big screen. In my brief tests, there were some noticeable instances where transitions acted weirdly, particularly with the parallax effect on the home screen wallpaper. I'm sure these things will be ironed out in future updates, but it's still slightly disappointing that the iOS experience isn't as great for the iPad as it is on the iPhone.
 

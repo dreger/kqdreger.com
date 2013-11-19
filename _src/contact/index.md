@@ -2,7 +2,8 @@
 layout: default
 title: Contact
 ---
-## Contact
+## Contact Information
+
 Please send all comments and correspondence to:
 
 <script type="text/javascript">
