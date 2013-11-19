@@ -15,7 +15,7 @@ h2 { color: #333333; font-weight: normal; font-family: "Avenir Next", "Helvetica
 h3 { font-size: 1.25em; margin: 1.8em 0em; color: #333333; font-weight: bold; text-transform: uppercase; border-left: 10px solid #cdcdcd; padding: .5em 0 .5em 1em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; line-height: 1em; letter-spacing: 1px; }
 h3 + p { margin-top: .2em; }
 
-h4 { font-size: 1em; text-transform: uppercase; }
+h4 { font-size: 1.25em; margin-top: 2em; }
 
 a { color: #ff0050; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -86,10 +86,10 @@ ul li { list-style: square; margin: .5em 0; }
 
 ol li { margin: .5em 0; }
 
-pre { border: solid 2px silver; padding: 20px; }
+pre { font-family: Menlo, Monaco, monospace; background-color: #eeeeee; border: 1px solid #cdcdcd; padding: 1em; }
 pre code { border: none; padding: none; }
 
-code { border: 1px solid silver; font-size: .9em; padding: 1px 5px; }
+code { background-color: #eeeeee; border: 1px solid #cdcdcd; font-size: .9em; padding: 3px 5px; border-radius: 1em; }
 
 /* Misc styles */
 hr { border: solid #cdcdcd; border-radius: 5px; border-width: 2px 0 0; clear: both; color: #fff; margin: 3em auto; height: 1px; max-width: 430px; width: 6em; }

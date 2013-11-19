@@ -7,7 +7,7 @@ title: Colophon
 
 **kyledreger.com**<br>
 _n._<br>
-A small webcolumn featuring long-form articles and short commentary on the world of technology, design, and liberal arts. Readers of this site tend to have an interest in new technologies, typography, web design, Apple Inc., and cool apps. All content is writen and produced by Kyle Dreger.
+A small webcolumn featuring long-form articles and short commentary on the world of technology, design, and liberal arts. Readers of this site tend to have an interest in new technologies, typography, web design, Apple Inc., and cool apps. All content is written and produced by Kyle Dreger.
 
 ### Mac apps
 - Webkit

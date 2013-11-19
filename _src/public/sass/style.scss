@@ -107,8 +107,8 @@ h3 {
 }
 
 h4 {
-  font-size: 1em;
-  text-transform: uppercase;
+  font-size: 1.25em;
+  margin-top: 2em;
 }
 
 a {
@@ -338,8 +338,10 @@ ol {
 }
 
 pre {
-  border: solid 2px darken($colorGrayLight, 5%);
-  padding: 20px;
+  font-family: Menlo, Monaco, monospace;
+  background-color: $colorGrayLightest;
+  border: 1px solid $colorGrayLight;
+  padding: 1em;
   code {
     border: none;
     padding: none;
@@ -347,9 +349,11 @@ pre {
 }
 
 code {
-  border: 1px solid darken($colorGrayLight, 5%);
+  background-color: $colorGrayLightest;
+  border: 1px solid $colorGrayLight;
   font-size: .9em;
-  padding: 1px 5px;
+  padding: 3px 5px;
+  border-radius: 1em;
 }
 
 /* Misc styles */
