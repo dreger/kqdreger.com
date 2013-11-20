@@ -1,7 +1,7 @@
 # standard jekyll configuration
 source:         ./_src
 destination:    ./_site
-permalink:      /blog/:year/:month/:title.html
+permalink:      /blog/:year:month-:title.html
 pygments:       true
 markdown:       rdiscount
 rdiscount:

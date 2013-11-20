@@ -3,8 +3,6 @@ title: The Importance of Journaling
 date: 2013-10-30 13:50
 layout: post
 ---
-_This article was [originally published](http://stemmings.com/the-importance-of-journaling/) May 23, 2013, on Stemmings.com_
-
 Richard Holmes always gave us ice cream. Whenever my siblings and I would walk down the road to say hello, the first thing he'd do would be to tell us there's "ice cream in the back." Although he was just a neighbor who lived down the road, I'm pretty sure he never actually ate any of the ice cream he bought for us. It was just something he did for our benefit.
 
 Surrounded by corn in a small farmhouse about a half-mile off the road, we'd sit in his front living room and gaze out the floor to ceiling windows overlooking the front yard. He'd tell us stories about the war, growing up during the Great Depression, and how he had saved up enough money to buy his first, and only, house in full. My favorites were the ones where he'd talk about his life around the age of 25. He sounded like the type of guy you wished you had as a friend. Adventurous, smart and a good soul.
@@ -38,3 +36,5 @@ It's for this reason I encourage you to start writing today. Get a 3-subject not
 ---
 
 Mr. Holmes never spoke of a journal, but I secretly hoped I might find something as we cleaned out his house for the last time. I never came across such a memoir, but I take solace in knowing that I've helped preserve at least a few of his stories; if only to aid me as I retell them to my own children. And, I'm sure, every now and again they'll get a little ice cream with story time.
+
+_This article was [originally published](http://stemmings.com/the-importance-of-journaling/) May 23, 2013, on Stemmings.com_

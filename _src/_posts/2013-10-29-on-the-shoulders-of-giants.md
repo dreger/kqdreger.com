@@ -3,8 +3,6 @@ title: On the Shoulders of Giants
 date: 2013-10-29 13:41
 layout: post
 ---
-_This article was [originally published](http://stemmings.com/on-the-shoulders-of-giants/) March 15, 2013, on Stemmings.com_
-
 The very first website I ever designed was the horrifically-named Linkag3verywhere.com. I built it with the intention of displaying a curated list of links to online games, websites and articles I found interesting. I gave the address out to my cousins and friends, and remember being thrilled to see the (mostly generated directly by me) page visits go up every day. I still have the Linkag3verywhere.com code in a folder of archived projects, and every now and again I'll go pull up the original design.
 
 It was terrible.
@@ -43,3 +41,4 @@ I am not yet a Giant, but that's the beauty about our industry &mdash; anyone ca
 
 God willing, my work may get to that point one day. But for now, there's still plenty of joy to be had in the journey, and maybe that's the most important part of it all anyway.
 
+_This article was [originally published](http://stemmings.com/on-the-shoulders-of-giants/) March 15, 2013, on Stemmings.com_
