@@ -1,12 +1,12 @@
 ---
 layout: default
-title: The Linked List Archive
+title: The Archive
 ---
-<h2>Archive &mdash; Links</h2>
-<p>Below is every item I've linked to here. Want the <a href="/archive">articles instead</a>?</p>
+<h2>Archives &#x2f; Posts</h2>
+<p>Below is every article ever published here. Looking for the <a href="/archives/excerpts.html">excerpts</a>?</p>
 <ol class="archive">
 {% for post in site.posts %}
-{% if post.link %}
+{% if post.link == nil %}
 <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="archive-date">{{ post.date | date: "%b %d, %Y" }}</span></li>
 {% endif %}
 {% endfor %}

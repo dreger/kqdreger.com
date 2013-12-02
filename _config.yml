@@ -1,11 +1,13 @@
 # standard jekyll configuration
 source:         ./_src
 destination:    ./_site
-permalink:      /blog/:year/:month/:title.html
+permalink:      /archives/:title.html
 pygments:       true
 markdown:       rdiscount
 rdiscount:
   extensions: [ footnotes ]
+
+gems: [permalinkrewriter]
 # paginate: 1
 # timezone:       nil
 

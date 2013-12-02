@@ -22,7 +22,7 @@ a:hover { text-decoration: underline; }
 a img { border: 0; }
 
 /* Layout */
-.wrapper { margin: 0 auto; max-width: 40rem; padding: 10em 1em; overflow: auto; }
+.wrapper { margin: 0 auto; max-width: 42rem; padding: 10em 2em; overflow: auto; }
 
 .content { width: 100%; float: none; }
 
@@ -80,7 +80,7 @@ blockquote p:last-child { margin: 0; padding: 0; }
 
 .big-quote { display: block; font-family: Georgia; font-size: 1em; font-style: italic; }
 
-ul, ol { padding-left: 1.5rem; }
+ul, ol { padding-left: 0rem; }
 
 ul li { list-style: square; margin: .5em 0; }
 
