@@ -391,6 +391,10 @@ width: 6em;
 }
 
 /* Media queries */
+
+// Thanks @nickheer for this one:
+// @media screen and (max-width: 1024px){em{font-family: 'Helvetica';}}
+
 @media (max-width: 850px) {
   .archive-date {
     display: none;
@@ -398,13 +402,15 @@ width: 6em;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 760px) {
   body {
     background-color: #fff;
+    font-size: 14px;
   }
   .wrapper {
     margin-top: 0em;
     padding-top: 0;
+    padding: 1em;
     max-width: 500px;
   }
   .footer {
@@ -413,9 +419,9 @@ width: 6em;
     padding-bottom: 2em;
   }
   .sidebar {
-    margin: 1em auto 2em;
-    border-bottom: 3px solid $colorGrayLight;
-    padding: .5em 0;
+    margin: 2rem auto;
+    border-bottom: 2px solid $colorGrayLight;
+    padding: 0;
     width: 100%;
     text-align: center;
     float: none;
@@ -424,12 +430,20 @@ width: 6em;
       display: none;
     }
   }
+  .site-title {
+    padding-bottom: 2rem;
+    margin: 0;
+  }
+  .article-title {
+    font-size: 2em;
+  }
   .content {
     background-color: #fff;
-    margin-top: 1em;
+    margin-top: 0;
     width: auto;
     float: none;
     padding: 1em;
+    padding-top: 0;
   }
   .article-title {
     text-align: center;

@@ -104,12 +104,14 @@ hr { border: solid #cdcdcd; border-radius: 5px; border-width: 2px 0 0; clear: bo
 
 /* Media queries */
 @media (max-width: 850px) { .archive-date { display: none; float: none; } }
-@media (max-width: 800px) { body { background-color: #fff; }
-  .wrapper { margin-top: 0em; padding-top: 0; max-width: 500px; }
+@media (max-width: 760px) { body { background-color: #fff; font-size: 14px; }
+  .wrapper { margin-top: 0em; padding-top: 0; padding: 1em; max-width: 500px; }
   .footer { margin-top: 3em; padding-top: 2em; padding-bottom: 2em; }
-  .sidebar { margin: 1em auto 2em; border-bottom: 3px solid #cdcdcd; padding: .5em 0; width: 100%; text-align: center; float: none; display: block; }
+  .sidebar { margin: 2rem auto; border-bottom: 2px solid #cdcdcd; padding: 0; width: 100%; text-align: center; float: none; display: block; }
   .sidebar nav, .sidebar p { display: none; }
-  .content { background-color: #fff; margin-top: 1em; width: auto; float: none; padding: 1em; }
+  .site-title { padding-bottom: 2rem; margin: 0; }
+  .article-title, .article-title-link { font-size: 2em; }
+  .content { background-color: #fff; margin-top: 0; width: auto; float: none; padding: 1em; padding-top: 0; }
   .article-title, .article-title-link { text-align: center; }
   .article { margin-bottom: 3em; }
   .archive-date { float: none; display: none; color: #2a2a2a; font-size: .8em; }
