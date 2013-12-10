@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,900);
 
 
 /* Mixin */
@@ -8,7 +9,7 @@
   font-size: $pageTitleSize;
   text-transform: none;
   margin-bottom: 1.25rem;
-  line-height: 1.2em;
+  line-height: 1.1em;
 }
 
 @mixin colorlessLinks {
@@ -44,20 +45,20 @@ $colorGrayLightest: #eee;
 
 
 /* Typography */
-$typeSize: 16px;
+$typeSize: 18px;
 $siteTitleSize: 2em;
 $linkTitleSize: 1.5em;
-$articleTitleSize: 2.5em;
+$articleTitleSize: 2em;
 $pageTitleSize: $articleTitleSize;
-$typeLineHeight: 1.7em;
+$typeLineHeight: 1.75em;
 $typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
-$typeB: $typeA;
+$typeB: "Merriweather", "Georgia Pro", Georgia;
 
 // Three places that are different from body:
 // .sidebar : .footer : h3
 
 /* Layout variables */
-$wrapperWidth: 42rem;
+$wrapperWidth: 44rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
 $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
@@ -76,6 +77,7 @@ body {
   font-family: $typeB;
   font-size: $typeSize;
   line-height: $typeLineHeight;
+  // border-top: 50px solid #222;
 }
 
 h1, h2, h3, h4 {
@@ -93,12 +95,12 @@ h2 {
 h3 {
   font-size: 1.25em;
   margin: 1.8em 0em;
+  font-family: $typeA;
   color: $colorForHeadings;
   font-weight: bold;
   text-transform: uppercase;
   border-left: 10px solid $colorGrayLight;
   padding: .5em 0 .5em 1em;
-  font-family: $typeB;
   line-height: 1em;
   letter-spacing: 1px;
   & + p {
@@ -135,6 +137,8 @@ a {
 .content {
   width: 100%;
   float: none;
+  font-weight: 300;
+
 }
 
 .sidebar {
@@ -142,6 +146,7 @@ a {
   float: none;
   margin-bottom: 5em;
   text-align: right;
+  font-family: $typeA;
   nav {
     @include smallCaps;
     @include colorlessLinks;
@@ -216,7 +221,7 @@ ol.archive {
   font-size: $siteTitleSize;
   text-transform: lowercase;
   margin-bottom: 1rem;
-  font-family: $typeB;
+  font-family: $typeA;
   line-height: 1em;
   font-weight: bold;
   letter-spacing: 1px;
@@ -234,7 +239,7 @@ ol.archive {
 .article-title {
   @include h2_style;
   font-size: $articleTitleSize;
-  font-weight: bold;
+  font-weight: normal;
   a {
     color: $colorForHeadings;
     &:hover {

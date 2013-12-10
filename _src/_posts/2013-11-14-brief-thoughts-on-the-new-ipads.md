@@ -3,7 +3,7 @@ title: The New iPads
 date: 2013-11-14 21:25
 layout: post
 ---
-Apple's got two new iPads out, and I finally got to play with both of them this past week at my local Apple Store. Here are my thoughts after about 10 minutes with each device.
+Apple's got two new iPads out, and I finally got to play with both of them this past weekend at my local Apple Store. Here are my thoughts after about 10 minutes with each device.
 
 _Note: For this post, I'll be shortening both iPad names to just "Air" and "Retina Mini."_
 
@@ -33,6 +33,6 @@ An omission, if you can even call it that, from this year's iPads is any form of
 
 ### What to buy
 
-If you've never owned an iPad before, or your last one was a 3rd generation model, now is a great time to be checking out the new hardware. Between the Air and the Retina Mini, the decision truly comes down to what you plan on using the iPad for. If you plan on doing a lot of typing and don't want to buy a wireless keyboard, I'd push you in the direction of the Air, as the extra space makes for a much nicer on-screen typing experience. However, if your main use will be reading, playing games, or just browsing the web, I think you should check out the Retina Mini. The smaller size and weight make the Retina Mini an effortless travel companion, and the Retina Display provides a fantastic experience for consuming media.
+If you've never owned an iPad before, or your last one was a 3rd generation model, now is a great time to be checking out the new hardware. Between the Air and the Retina Mini, the decision truly comes down to what you plan on using the iPad for. If you plan on doing a lot of typing and don't want to buy a wireless keyboard, I'd push you in the direction of the Air, as the extra space makes for a much nicer on-screen typing experience. However, if your main use will be reading, playing games, or just browsing the web, I think you should check out the Retina Mini. The smaller size and weight make the Retina Mini an ideal travel companion, and the Retina Display provides a fantastic experience for consuming media.
 
-Although the lack of Touch ID on either device is unfortunate, it's omission is in no way a deal breaker. The Air and Retina Mini are, by far, the best tablets Apple has ever produced, and either one would make for an excellent investment.
+Although the lack of Touch ID on either device is unfortunate, it's omission shouldn't sway any potential buyers. The Air and Retina Mini are, by far, the best tablets Apple has ever produced, and either one would make for an excellent investment.

@@ -7,7 +7,7 @@ markdown:       rdiscount
 rdiscount:
   extensions: [ footnotes ]
 
-gems: [permalinkrewriter]
+# gems: [permalinkrewriter]
 # paginate: 1
 # timezone:       nil
 

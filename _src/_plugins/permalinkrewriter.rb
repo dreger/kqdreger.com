@@ -15,6 +15,10 @@ module Jekyll
                     day_of_year = '0'+item.date.yday.to_s
                 end
                 item.data['permalink'] = '/archives/' + item.date.strftime('%g') + day_of_year + '-' + item.slug + '.html'
+                # item.data['permalink'] = '/archives/' + item.slug + '.html'
+
+                # item.data['permalink'] = '/archives/' + item.slug + ''
+
             end
         end
     end
