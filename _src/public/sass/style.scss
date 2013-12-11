@@ -1,10 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,900);
 
 
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeadings;
-  font-weight: normal;
+  font-weight: bold;
   font-family: $typeA;
   font-size: $pageTitleSize;
   text-transform: none;
@@ -30,9 +29,7 @@
 }
 
 /* Colors */
-$color: #3787e0;
-$color: #222;
-$color: #FF0050;
+$color: #096ac5;
 $colorForBackground: #f3f3f3;
 $colorForBackground: #fff;
 $colorForBody: #2a2a2a;
@@ -45,20 +42,18 @@ $colorGrayLightest: #eee;
 
 
 /* Typography */
-$typeSize: 18px;
-$siteTitleSize: 2em;
+$typeSize: 24px;
+$siteTitleSize: 1.5em;
 $linkTitleSize: 1.5em;
 $articleTitleSize: 2em;
 $pageTitleSize: $articleTitleSize;
-$typeLineHeight: 1.75em;
-$typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
-$typeB: "Merriweather", "Georgia Pro", Georgia;
+$typeLineHeight: 1.5em;
+$typeA: "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
+$typeB: "Georgia Pro", "Georgia", serif;
 
-// Three places that are different from body:
-// .sidebar : .footer : h3
 
 /* Layout variables */
-$wrapperWidth: 44rem;
+$wrapperWidth: 54rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
 $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
@@ -130,22 +125,21 @@ a {
 .wrapper {
   margin: 0 auto;
   max-width: $wrapperWidth;
-  padding: 10em 2em;
+  padding: 5em 2em;
   overflow: auto;
 }
 
 .content {
   width: 100%;
   float: none;
-  font-weight: 300;
-
+  font-weight: 400;
 }
 
-.sidebar {
+.header {
   width: 100%;
   float: none;
   margin-bottom: 5em;
-  text-align: right;
+  text-align: left;
   font-family: $typeA;
   nav {
     @include smallCaps;
@@ -154,7 +148,7 @@ a {
       // display: block;
       letter-spacing: 1px;
       margin: 0;
-      margin-left: 1em;
+      margin-right: 1em;
       &:first-child {
         margin-top: 0;
       }
@@ -221,9 +215,9 @@ ol.archive {
   font-size: $siteTitleSize;
   text-transform: lowercase;
   margin-bottom: 1rem;
-  font-family: $typeA;
+  font-family: inherit;
   line-height: 1em;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 1px;
   a {
     color: $colorForHeadings;
@@ -239,7 +233,7 @@ ol.archive {
 .article-title {
   @include h2_style;
   font-size: $articleTitleSize;
-  font-weight: normal;
+  font-weight: bold;
   a {
     color: $colorForHeadings;
     &:hover {
@@ -271,6 +265,7 @@ ol.archive {
   a {
     line-height: $typeLineHeight;
     color: $color;
+    line-height: 1.1em;
     &:hover {
       text-decoration: underline;
     }
@@ -309,22 +304,14 @@ small {
 }
 
 blockquote {
-  border-left: 2px solid $colorGrayLight;
-  color: #777;
+  border-left: 5px solid $color;
   margin-left: 0;
+  font-style: italic;
   padding: 0 1em;
   p:last-child {
     margin: 0;
     padding: 0;
   }
-}
-
-.big-quote {
-  display: block;
-  font-family: Georgia;
-  font-size: 1em;
-  font-style: italic;
-
 }
 
 ul, ol {
@@ -362,21 +349,7 @@ code {
 }
 
 /* Misc styles */
-hr {
-border: solid $colorGrayLight;
-border-radius: 5px;
-border-width: 2px 0 0;
-clear: both;
-color: #fff;
-margin: 3em auto;
-height: 1px;
-max-width: 430px;
-width: 6em;
-}
 
-.color {
-  color: $color;
-}
 .center {
   text-align: center;
 }
@@ -386,44 +359,24 @@ width: 6em;
 .separator {
   display: block;
   margin: 7em auto;
-  // height: 1px;
   font-size: .8em;
   text-align: center;
   color: $colorGray;
-  &:last-of-type {
-    // display: none;
-  }
 }
+
 
 /* Media queries */
 
-// Thanks @nickheer for this one:
-// @media screen and (max-width: 1024px){em{font-family: 'Helvetica';}}
-
-@media (max-width: 850px) {
-  .archive-date {
-    display: none;
-    float: none;
-  }
-}
-
-@media (max-width: 760px) {
+@media (max-width: 600px) {
   body {
-    background-color: #fff;
-    font-size: 14px;
+    font-size: 16px;
   }
   .wrapper {
     margin-top: 0em;
-    padding-top: 0;
     padding: 1em;
     max-width: 500px;
   }
-  .footer {
-    margin-top: 3em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-  .sidebar {
+  .header {
     margin: 2rem auto;
     border-bottom: 2px solid $colorGrayLight;
     padding: 0;
@@ -453,15 +406,8 @@ width: 6em;
   .article-title {
     text-align: center;
   }
-
   .article {
     margin-bottom: 3em;
-  }
-  .archive-date {
-    float: none;
-    display: none;
-    color: $colorForBody;
-    font-size: .8em;
   }
   .separator {
     margin: 3em auto;
@@ -469,8 +415,3 @@ width: 6em;
   }
 }
 
-@media (max-width: 550px) {
-  .wrapper {
-    max-width: 100%;
-  }
-}

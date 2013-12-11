@@ -10,8 +10,9 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include head.html %}
 <body onload="setupZoom()">
 <section class="wrapper">
-<section class="sidebar">
-{% include sidebar.html %}
+
+<section class="header">
+{% include header.html %}
 </section>
 
 <section class="content">
@@ -20,8 +21,8 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {{ content }}
 <p class="article-meta"><a href="{{ post.url }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
 </article>
-<!-- {% include footer.html %}
- --></section>
+</section>
+
 </section>
 </body>
 </html>
