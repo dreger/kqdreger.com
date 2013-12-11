@@ -7,7 +7,7 @@ title: Archives &#x2f; Posts
 <ol class="archive">
 {% for post in site.posts %}
 {% if post.link == nil %}
-<li><a href="{{ post.url }}">{{ post.title }}</a> <span class="archive-date">{{ post.date | date: "%b %d, %Y" }}</li>
+<li><a href="{{ post.url }}">{{ post.title }}</a> <span class="archive-date">{{ post.date | date: "%b %d, %Y" }} &middot; <script>document.write(readingTime({{ post.content | number_of_words }}));</script> min read</li>
 {% endif %}
 {% endfor %}
 </ol>
