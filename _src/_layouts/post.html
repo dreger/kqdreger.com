@@ -9,18 +9,15 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <html lang="en">
 {% include head.html %}
 <body onload="setupZoom()">
-<section class="wrapper">
-
-<section class="header">
+<section class="dregerbar">
 {% include header.html %}
 </section>
-
+<section class="wrapper">
 <section class="content">
 <article class="article">
+<section class="small-cap-title">{{ page.date | date: "%d %B %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
 <h2 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<!-- <p class="reading-time"><script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</p> -->
 {{ content }}
-<p class="article-meta"><a href="{{ post.url }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
 </article>
 </section>
 

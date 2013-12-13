@@ -1,14 +1,48 @@
 
 
+
+/* Colors */
+$color: #096ac5;
+$color: #6a3;
+$color: #ff0050;
+$colorForBackground: #f3f3f3;
+$colorForBackground: #fff;
+$colorForBody: #2a2a2a;
+$colorForHeadings: #333;
+$colorGray: #a0a0a0;
+$colorGrayLight: #cdcdcd;
+$colorGrayLightest: #eee;
+
+//"Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+
+
+/* Typography */
+$typeSize: 16px;
+$siteTitleSize: 1.5em;
+$linkTitleSize: 1.5em;
+$articleTitleSize: 2em;
+$pageTitleSize: $articleTitleSize;
+$typeLineHeight: 1.5em;
+$typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
+$typeB: "Georgia Pro", "Georgia", serif;
+
+
+/* Layout variables */
+$wrapperWidth: 38rem;
+$largeImageWidth: 52rem;
+$largeImageOffset: 11rem;
+$largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
+
+
 /* Mixin */
 @mixin h2_style {
   color: $colorForHeadings;
-  font-weight: bold;
+  font-weight: normal;
   font-family: $typeA;
   font-size: $pageTitleSize;
   text-transform: none;
   margin-bottom: 1.25rem;
-  line-height: 1.1em;
+  line-height: 1em;
 }
 
 @mixin colorlessLinks {
@@ -28,35 +62,29 @@
   font-size: 1em;
 }
 
-/* Colors */
-$color: #096ac5;
-$colorForBackground: #f3f3f3;
-$colorForBackground: #fff;
-$colorForBody: #2a2a2a;
-$colorForHeadings: #333;
-$colorGray: #a0a0a0;
-$colorGrayLight: #cdcdcd;
-$colorGrayLightest: #eee;
+@mixin gradient {
+  $colorLight: $color;
+  $colorDark: darken($colorLight, 10%);
 
-//"Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  /* fallback */
+  background-color: $color;
 
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from($colorLight), to($colorDark));
 
-/* Typography */
-$typeSize: 24px;
-$siteTitleSize: 1.5em;
-$linkTitleSize: 1.5em;
-$articleTitleSize: 2em;
-$pageTitleSize: $articleTitleSize;
-$typeLineHeight: 1.5em;
-$typeA: "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
-$typeB: "Georgia Pro", "Georgia", serif;
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(left, $colorDark, $colorLight);
 
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, $colorDark, $colorLight);
 
-/* Layout variables */
-$wrapperWidth: 54rem;
-$largeImageWidth: 52rem;
-$largeImageOffset: 11rem;
-$largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
+  /* IE 10 */
+  background: -ms-linear-gradient(left, $colorDark, $colorLight);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, $colorDark, $colorLight);
+}
+
 
 * {
   margin: 0;
@@ -125,8 +153,10 @@ a {
 .wrapper {
   margin: 0 auto;
   max-width: $wrapperWidth;
-  padding: 5em 2em;
+  padding: 3em 2em;
   overflow: auto;
+  // border: 1px solid $colorGrayLightest;
+  border-top: none;
 }
 
 .content {
@@ -135,28 +165,78 @@ a {
   font-weight: 400;
 }
 
-.header {
+.dregerbar {
   width: 100%;
+  border-bottom: 3em solid $color;
+  padding: .5em;
+  text-align: center;
+  font-family: $typeA;
+  .header-nav {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    list-style-type: none;
+  }
+  a {
+    color: $colorGrayLight;
+    padding: 0 .5em;
+    letter-spacing: 1px;
+    &:hover {
+      color: $color;
+      text-decoration: none;
+      border-bottom: 5px solid $color;
+    }
+  }
+}
+
+.small-cap-title {
+  border-top: 2px solid $colorGrayLightest;
+  padding: .25em 0;
+  font-size: .8em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: $typeA;
+  margin-bottom: 2em;
+  color:$colorGrayLight;
+}
+
+
+
+.header {
+  display: none;
+  width: 100%;
+  // @include gradient;
+  color: #fff;
   float: none;
-  margin-bottom: 5em;
+  padding: .5em 1em;
+  margin-bottom: 0;
   text-align: left;
   font-family: $typeA;
   nav {
     @include smallCaps;
     @include colorlessLinks;
+    text-transform: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
     a {
-      // display: block;
+      color: #fff;
       letter-spacing: 1px;
       margin: 0;
-      margin-right: 1em;
+      margin-left: 1em;
+      &:hover {
+        color: #fff;
+        border-bottom: 5px solid #fff;
+      }
       &:first-child {
         margin-top: 0;
       }
     }
     ul {
       padding: 0;
-      margin-top: 0;
-      margin-bottom: 1.25rem;
+      margin: 0;
     }
     li {
       list-style: none;
@@ -214,7 +294,7 @@ ol.archive {
   @include h2_style;
   font-size: $siteTitleSize;
   text-transform: lowercase;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
   font-family: inherit;
   line-height: 1em;
   font-weight: normal;
@@ -233,6 +313,7 @@ ol.archive {
 .article-title {
   @include h2_style;
   font-size: $articleTitleSize;
+  letter-spacing: 0px;
   font-weight: bold;
   a {
     color: $colorForHeadings;
@@ -358,10 +439,22 @@ code {
 }
 .separator {
   display: block;
-  margin: 7em auto;
+  margin: 3em auto;
   font-size: .8em;
   text-align: center;
   color: $colorGray;
+}
+
+hr {
+  border: solid $colorGrayLight;
+  border-radius: 5px;
+  border-width: 2px 0 0;
+  clear: both;
+  color: #fff;
+  margin: 3em auto;
+  height: 1px;
+  max-width: 430px;
+  width: 6em;
 }
 
 
@@ -373,8 +466,13 @@ code {
   }
   .wrapper {
     margin-top: 0em;
-    padding: 1em;
+    padding: 2em .5em;
     max-width: 500px;
+  }
+  .dregerbar {
+    li:last-child {
+      display: none;
+    }
   }
   .header {
     margin: 2rem auto;
