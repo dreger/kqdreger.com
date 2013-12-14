@@ -1,32 +1,43 @@
 ---
 layout: default
 ---
+<section class="left-column">
 {% for post in site.posts limit:1 %}
+{% unless post.link %}
 <section class="small-cap-title">Latest post &middot; <script>document.write(readingTime({{ post.content | number_of_words }}))</script> min read</section>
 <article class="article">
-  {% if post.link %}
-  <h2 class="article-title-link"><a href="{{ post.link }}">{{ post.title }} <span class="link-arrow">&rarr;</span></a></h2>
-  {% else %}
   <h2 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {% endif %}
   {{ post.content }}
-  <!-- <p class="article-meta"><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></p> -->
 </article>
+{% endunless %}
 {% endfor %}
 
 <div class="separator">&#215; &nbsp;&nbsp; &#215; &nbsp;&nbsp; &#215;</div>
 
 <section class="small-cap-title">Read this next</section>
 {% for post in site.posts offset:1 limit:5 %}
+{% unless post.link %}
 <article class="article">
-  {% if post.link %}
-  <h2 class="article-title-link"><a href="{{ post.link }}">{{ post.title }} <span class="link-arrow">&rarr;</span></a></h2>
-  {% else %}
   <h2 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {% endif %}
-  <!-- <p class="reading-time"><script>document.write(readingTime({{ post.content | number_of_words }}))</script> min reading time</p> -->
   {{ post.content }}
   <p class="article-meta"><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></p>
 </article>
-<div class="separator">&#215; &nbsp;&nbsp; &#215; &nbsp;&nbsp; &#215; &nbsp;&nbsp; &#215; &nbsp;&nbsp; &#215;</div>
+<div class="separator">&#215; &nbsp;&nbsp; &#215; &nbsp;&nbsp; &#215;</div>
+{% endunless %}
 {% endfor %}
+</section> <!-- /left column -->
+
+<section class="right-column">
+<section class="small-cap-title">Latest linked items</section>
+{% for post in site.posts limit:10 %}
+{% if post.link %}
+<article class="article article-link">
+  <h2 class="article-title-link">{{ post.title }}</h2>
+  {{ post.excerpt }}
+  <p><a href="{{ post.url }}">Read More &rarr;</a></p>
+  <!-- <p class="article-meta"><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></p> -->
+</article>
+<div class="separator">&nbsp;</div>
+{% endif %}
+{% endfor %}
+</section> <!-- /right column -->

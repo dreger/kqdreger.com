@@ -1,89 +1,14 @@
-
-
-
-/* Colors */
-$color: #096ac5;
-$color: #6a3;
-$color: #ff0050;
-$colorForBackground: #f3f3f3;
-$colorForBackground: #fff;
-$colorForBody: #2a2a2a;
-$colorForHeadings: #333;
-$colorGray: #a0a0a0;
-$colorGrayLight: #cdcdcd;
-$colorGrayLightest: #eee;
-
-//"Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-
-
-/* Typography */
-$typeSize: 16px;
-$siteTitleSize: 1.5em;
-$linkTitleSize: 1.5em;
-$articleTitleSize: 2em;
-$pageTitleSize: $articleTitleSize;
-$typeLineHeight: 1.5em;
-$typeA: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
-$typeB: "Georgia Pro", "Georgia", serif;
+@import '_mixins';
+@import '_colors';
+@import '_typography';
 
 
 /* Layout variables */
-$wrapperWidth: 38rem;
+$wrapperWidth: 64rem;
+$readingWrapperWidth: 48rem;
 $largeImageWidth: 52rem;
 $largeImageOffset: 11rem;
 $largeImageOffset: ($largeImageWidth - $wrapperWidth) / 2 + 1rem;
-
-
-/* Mixin */
-@mixin h2_style {
-  color: $colorForHeadings;
-  font-weight: normal;
-  font-family: $typeA;
-  font-size: $pageTitleSize;
-  text-transform: none;
-  margin-bottom: 1.25rem;
-  line-height: 1em;
-}
-
-@mixin colorlessLinks {
-  a {
-    text-decoration: none;
-    border: none;
-    color: $colorGray;
-    &:hover {
-      color: $color;
-    }
-  }
-}
-
-@mixin smallCaps {
-  text-transform: capitalize;
-  letter-spacing: 1px;
-  font-size: 1em;
-}
-
-@mixin gradient {
-  $colorLight: $color;
-  $colorDark: darken($colorLight, 10%);
-
-  /* fallback */
-  background-color: $color;
-
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, left top, right top, from($colorLight), to($colorDark));
-
-  /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(left, $colorDark, $colorLight);
-
-  /* Firefox 3.6+ */
-  background: -moz-linear-gradient(left, $colorDark, $colorLight);
-
-  /* IE 10 */
-  background: -ms-linear-gradient(left, $colorDark, $colorLight);
-
-  /* Opera 11.10+ */
-  background: -o-linear-gradient(left, $colorDark, $colorLight);
-}
 
 
 * {
@@ -100,7 +25,6 @@ body {
   font-family: $typeB;
   font-size: $typeSize;
   line-height: $typeLineHeight;
-  // border-top: 50px solid #222;
 }
 
 h1, h2, h3, h4 {
@@ -138,7 +62,6 @@ h4 {
 
 a {
   color: $color;
-  // border-bottom: 1px solid $colorGrayLight;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -155,7 +78,6 @@ a {
   max-width: $wrapperWidth;
   padding: 3em 2em;
   overflow: auto;
-  // border: 1px solid $colorGrayLightest;
   border-top: none;
 }
 
@@ -168,20 +90,22 @@ a {
 .dregerbar {
   width: 100%;
   border-bottom: 3em solid $color;
-  padding: .5em;
-  text-align: center;
+  padding: 3em 0;
+  text-align: left;
   font-family: $typeA;
   .header-nav {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: $wrapperWidth;
   }
   li {
     display: inline;
     list-style-type: none;
   }
   a {
+    font-size: $siteTitleSize;
     color: $colorGrayLight;
-    padding: 0 .5em;
+    margin-right: 1em;
     letter-spacing: 1px;
     &:hover {
       color: $color;
@@ -191,10 +115,33 @@ a {
   }
 }
 
+.reading-wrapper {
+  @extend .wrapper;
+  max-width: $readingWrapperWidth;
+  padding-top: 3rem;
+  .article-title {
+    font-size: 3.25rem;
+  }
+  font-size: 1.4rem;
+  line-height: $typeLineHeight;
+}
+
+.reading-dregerbar {
+  @extend .dregerbar;
+  padding: .5em 0;
+  border-bottom: none;
+  text-align: center;
+  background-color: $colorForBody;
+  a {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
 .small-cap-title {
-  border-top: 2px solid $colorGrayLightest;
+  border-top: 3px solid $colorGrayLightest;
   padding: .25em 0;
-  font-size: .8em;
+  font-size: .8rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: $typeA;
@@ -202,58 +149,19 @@ a {
   color:$colorGrayLight;
 }
 
-
-
-.header {
-  display: none;
-  width: 100%;
-  // @include gradient;
-  color: #fff;
-  float: none;
-  padding: .5em 1em;
-  margin-bottom: 0;
-  text-align: left;
-  font-family: $typeA;
-  nav {
-    @include smallCaps;
-    @include colorlessLinks;
-    text-transform: none;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-    a {
-      color: #fff;
-      letter-spacing: 1px;
-      margin: 0;
-      margin-left: 1em;
-      &:hover {
-        color: #fff;
-        border-bottom: 5px solid #fff;
-      }
-      &:first-child {
-        margin-top: 0;
-      }
-    }
-    ul {
-      padding: 0;
-      margin: 0;
-    }
-    li {
-      list-style: none;
-      padding: 0;
-      display: inline;
-      margin: 0;
-    }
-  }
+.column {
+  // padding: 0 1em;
 }
 
-.footer {
-  font-family: $typeB;
-  padding-top: 4em;
-  margin: 4em 0 0;
-  // border-top: dotted 1px $colorGrayLight;
-  width: 100%;
-  clear: both;
+.left-column {
+  max-width: 56%;
+  float: left;
+}
+
+.right-column {
+  max-width: 44%;
+  float: right;
+  padding-left: 4em;
 }
 
 
@@ -288,47 +196,6 @@ ol.archive {
   color: $colorGrayLight;
 }
 
-/* Titles and such */
-
-.site-title {
-  @include h2_style;
-  font-size: $siteTitleSize;
-  text-transform: lowercase;
-  // margin-bottom: 1rem;
-  font-family: inherit;
-  line-height: 1em;
-  font-weight: normal;
-  letter-spacing: 1px;
-  a {
-    color: $colorForHeadings;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-}
-
-/* Article page */
-
-.article-title {
-  @include h2_style;
-  font-size: $articleTitleSize;
-  letter-spacing: 0px;
-  font-weight: bold;
-  a {
-    color: $colorForHeadings;
-    &:hover {
-      text-decoration: none;
-    }
-  }
-}
-.article-meta {
-  @include colorlessLinks;
-  color: $colorGray;
-  font-family: $typeB;
-  @include smallCaps;
-}
-
 .article {
   padding: 0;
   text-align: left;
@@ -337,31 +204,8 @@ ol.archive {
   }
 }
 
-/* Linklog */
-
-.article-title-link {
-  @extend .article-title;
-  font-weight: bold;
-  font-size: $linkTitleSize;
-  a {
-    line-height: $typeLineHeight;
-    color: $color;
-    line-height: 1.1em;
-    &:hover {
-      text-decoration: underline;
-    }
-    &:after {
-      content: "\2192";
-    }
-  }
-  .permalink {
-    text-decoration: underline;
-    margin-left: 1em;
-  }
-  .link-arrow {
-    margin-left: .5em;
-    display: none;
-  }
+.article-link + .separator {
+  margin: 1em 0;
 }
 
 img, blockquote, ul, ol, p {
@@ -439,9 +283,8 @@ code {
 }
 .separator {
   display: block;
-  margin: 3em auto;
-  font-size: .8em;
-  text-align: center;
+  margin: 5em auto;
+  text-align: left;
   color: $colorGray;
 }
 

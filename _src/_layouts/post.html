@@ -9,13 +9,13 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <html lang="en">
 {% include head.html %}
 <body onload="setupZoom()">
-<section class="dregerbar">
+<section class="reading-dregerbar">
 {% include header.html %}
 </section>
-<section class="wrapper">
+<section class="reading-wrapper">
 <section class="content">
 <article class="article">
-<section class="small-cap-title">{{ page.date | date: "%d %B %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
+<section class="small-cap-title">{{ page.date | date: "%b %d, %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
 <h2 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
 {{ content }}
 </article>
