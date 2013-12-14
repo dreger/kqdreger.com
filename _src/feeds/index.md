@@ -2,7 +2,7 @@
 layout: default
 title: Subscribe
 ---
-## Ways to Subscribe
+# Ways to Subscribe
 You can subscribe to this site in several ways:
 
 - On Twitter [@kyledreger.com](http://twitter.com/kyledregercom).

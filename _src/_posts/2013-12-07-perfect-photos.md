@@ -2,7 +2,7 @@
 title: How to Make Perfect Photos
 link: http://cjchilvers.com/blog/2013/12/06/how-to-make-perfect-photos
 date: 2013-12-07 12:35
-layout: link
+layout: post
 published: false
 ---
 CJ Chilvers:

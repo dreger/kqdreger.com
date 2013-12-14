@@ -2,7 +2,7 @@
 title: "Iconic: A Photographic Tribute to Apple Innovation"
 link: http://iconicbook.com
 date: 2013-10-07 17:18
-layout: link
+layout: post
 ---
 A six-chapter photo book depicting every product Apple has ever made. From the product page:
 

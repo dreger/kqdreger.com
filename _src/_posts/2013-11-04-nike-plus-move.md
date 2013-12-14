@@ -2,7 +2,7 @@
 title: "Nike+ Move"
 link: "https://itunes.apple.com/us/app/nike+-move/id712498492"
 date: 2013-11-04 21:43
-layout: link
+layout: post
 ---
 Apple and Nike have always had a good relationship (remember the [Nike + iPod Sport Kit](http://www.pcmag.com/article2/0,2817,1989319,00.asp)?) so it's little surprise that one of the first "big" apps to take advantage of the 5S's new activity-monitoring M7 processor is from Nike.
 

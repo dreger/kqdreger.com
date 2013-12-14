@@ -8,19 +8,20 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 
 <html lang="en">
 {% include head.html %}
-<body onload="setupZoom()">
-<section class="reading-dregerbar">
+<body>
+<section class="dregerbar">
 {% include header.html %}
 </section>
-<section class="reading-wrapper">
-<section class="content">
+<section class="wrapper">
 <article class="article">
-<section class="small-cap-title">{{ page.date | date: "%b %d, %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
-<h2 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+{% if page.link %}
+<section class="date-posted">{{ page.date | date: "Posted %b %d, %Y" }} &middot; <a href="{{ page.link }}">Original source &rarr;</a></section>
+{% else %}
+<section class="date-posted">{{ page.date | date: "Posted %b %d, %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
+{% endif %}
 {{ content }}
 </article>
-</section>
-
 </section>
 </body>
 </html>
