@@ -17,7 +17,7 @@ pygments:       true
 
 # required configuration
 domain:         http://kyledreger.com
-title:          Dreger Notes
+title:          Kyle Dreger
 author:         Kyle Dreger
 email:          comments@kyledreger.com
 description:    "Well-written Nerdery"

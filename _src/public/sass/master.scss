@@ -70,6 +70,14 @@ body {
   }
   a {
     color: $color_black;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    padding: .25em .75em;
+    &:hover {
+      background-color: $color_black;
+      color: #fff;
+    }
   }
 }
 
@@ -85,7 +93,7 @@ article {
 .content article:first-child { margin-top: 0; padding-top: 0;}
 
 .article-title {
-  margin-bottom: .25em;
+  margin-top: 1rem;
   font-weight: normal;
 }
 
@@ -93,6 +101,9 @@ article {
   font-family: $sans;
   color: $color_charcoal;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .8em;
 }
 
 /*
@@ -133,6 +144,7 @@ a {
   padding-bottom: 1px;
   border-bottom: solid $color_gray 3px;
   text-decoration: none;
+  transition: .5s ease;
   &:hover {
     border-bottom-color: $color_links;
   }
