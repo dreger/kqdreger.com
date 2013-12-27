@@ -17,7 +17,7 @@ module Jekyll
                 item.data['permalink'] = '/archives/' + item.date.strftime('%g') + day_of_year + '-' + item.slug + '.html'
                 # item.data['permalink'] = '/archives/' + item.slug + '.html'
 
-                # item.data['permalink'] = '/archives/' + item.slug + '.html'
+                # item.data['permalink'] = '/' + item.slug + '.html'
 
             end
         end

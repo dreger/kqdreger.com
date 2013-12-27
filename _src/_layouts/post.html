@@ -15,13 +15,16 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <section class="wrapper">
 <article class="article">
 {% if page.link %}
-<section class="date-posted">{{ page.date | date: "Posted %b %d, %Y" }} &middot; <a href="{{ page.link }}">Original source &rarr;</a></section>
+<section class="article-meta">{{ page.date | date: "%b %d, %Y" }} &middot; <a href="{{ page.link }}">Original source &rarr;</a></section>
 {% else %}
-<section class="date-posted">{{ page.date | date: "Posted %b %d, %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
+<section class="article-meta">{{ page.date | date: "%b %d, %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
 {% endif %}
 <h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 {{ content }}
-</article>
+</article><!--
+<section class="footer">
+<section class="article-meta">Read this next</section>
+</section> -->
 </section>
 </body>
 </html>

@@ -40,7 +40,7 @@ You can also mention me on [Twitter](http://twitter.com/kyledreger) and [App.net
 ## Mac apps
 - Webkit
 - Sublime Text
-- Byword
+- iA Writer Pro
 - Tweetbot
 - ReadKit
 - TextExpander
