@@ -58,6 +58,7 @@ body {
 
 input.search {
   // border: 1px solid $color_gray;
+  font-family: $sans;
   border-radius: 50px;
   font-size: .9em;
   padding: .25em 0 .25em 1em;
@@ -72,6 +73,18 @@ input.search {
     color: #fff;
   }
 }
+
+.required {
+  @extend input.search;
+  background-color: #fff;
+  border: solid 2px $color_gray;
+  padding: .5em 1em;
+  margin-bottom: 1em;
+  // width: 400px;
+  width: 300px;
+  display: block;
+}
+
 
 fieldset {
     border: none;
@@ -113,7 +126,7 @@ fieldset {
     padding: .25em 1em;
     border-radius: 50px;
     margin: 0;
-    &.home {}
+    &.home { color: $color_charcoal; }
     &:hover {
       color: #fff;
       background-color: $color_black;
@@ -181,11 +194,15 @@ ol.archives {
 
 /* Utility Rules */
 
-img {
-  max-width: $image_width;
-  margin-left: -$image_offset;
+strong > img {
+  width: 160%;
+  margin-left: -30%;
   border: none;
   outline: none;
+}
+img {
+  width: $wrapper_width;
+  height: auto;
 }
 
 blockquote {
@@ -229,9 +246,16 @@ a {
   }
 }
 
-@media (max-width: 950px) {
-  img {
-    max-width: 100%;
+@media (max-width: 1000px) {
+  strong > img {
+    width: 130%;
+    margin-left: -15%;
+  }
+}
+
+@media (max-width: 820px) {
+  strong > img {
+    width: 100%;
     margin-left: 0;
   }
 }
