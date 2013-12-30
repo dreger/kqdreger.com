@@ -7,7 +7,7 @@ $color_charcoal: #bababa;
 $color_links: #111;
 
 /* Type */
-$sans: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
+$sans: "Verdana", "Helvetica Neue", "Segoe UI", sans-serif;
 $serif: "Georgia Pro", Georgia, serif;
 $type_line_height: 1.5em;
 
@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,h6 {
     color: $color_black;
   }
 }
+
+h2,h3,h4 { margin: 1.5rem 0; }
+
+h1 { font-weight: normal; }
 
 .small-caps-title {
   font-size: .85em;
@@ -50,14 +54,12 @@ body {
   color: $color_black;
   font-family: $serif;
   max-width: $wrapper_width;
-  margin: 0 auto;
-  padding: $side_padding;
-  padding-top: 0;
+  margin: 0;
+  padding: 2em;
   line-height: $type_line_height;
 }
 
 input.search {
-  // border: 1px solid $color_gray;
   font-family: $sans;
   border-radius: 50px;
   font-size: .9em;
@@ -65,7 +67,6 @@ input.search {
   outline: none;
   background-color: $color_gray;
   border: none;
-
   transition: .5s ease;
   &:focus {
     border-color: $color_links;
@@ -80,7 +81,6 @@ input.search {
   border: solid 2px $color_gray;
   padding: .5em 1em;
   margin-bottom: 1em;
-  // width: 400px;
   width: 300px;
   display: block;
 }
@@ -94,50 +94,29 @@ fieldset {
   }
 
 .dregerbar {
-  border-bottom: 1px solid $color_gray;
-  border-top: 1px solid $color_gray;
-  font-family: $sans;
-  padding: 1em 2em;
-  text-align: center;
-  margin: 5em 0;
+  margin-bottom: 3em;
   form {
     display: inline;
     margin: 0;
     padding: 0;
   }
-  ul {
-    margin: 0 auto;
-    padding: 0;
-    max-width: $wrapper_width;
-  }
-  li {
-    display: inline;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    font-size: .9em;
-    color: $color_black;
-    font-weight: bold;
-    display: inline-block;
-    border: none;
-    text-transform: uppercase;
-    padding: .25em 1em;
-    border-radius: 50px;
-    margin: 0;
-    &.home { color: $color_charcoal; }
-    &:hover {
-      color: #fff;
-      background-color: $color_black;
-    }
+}
+
+.site-title {
+  // font-style: italic;
+  font-size: 3em;
+  font-weight: normal;
+  // text-transform: uppercase;
+  letter-spacing: -1px;
+  + p {
+    margin: .5em 0 0;
   }
 }
 
 /* Articles */
 
 article {
-  margin: 8em 0;
+  // margin: 8em 0;
   &:first-child {
     margin-top: 0;
   }
@@ -147,10 +126,10 @@ aside {
   position: absolute;
   float: left;
   width: 200px;
-  margin-left: -230px;
+  margin-left: $wrapper_width + 2rem;
   font-size: .9em;
   line-height: 1.25em;
-  text-align: right;
+  text-align: left;
 
 }
 
@@ -159,15 +138,26 @@ aside {
 .article-title {
   margin-top: 1rem;
   font-weight: normal;
+  + p {
+    margin-top: 1rem;
+  }
 }
 
 .article-meta {
+  font-size: .8em;
   font-family: $sans;
   color: $color_charcoal;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: .9em;
+  line-height: 100%;
+}
+
+.separator {
+  font-size: 4em;
+  color: $color_gray;
+  margin: 2em 0;
+  font-weight: bold;
 }
 
 /*
@@ -177,18 +167,21 @@ aside {
 ol.archives {
   padding: 0;
   margin: 0;
-  font-family: $sans;
-  font-weight: bold;
+  font-family: $serif;
+  // font-weight: bold;
   li {
     list-style: none;
-    padding: .5em 0;
+    padding: .4em 0;
+    &:first-child {
+      padding-top: 0;
+    }
   }
   .archives-date {
     font-weight: normal;
     font-family: $serif;
-    font-size: .85em;
+    // font-size: .85em;
     // padding-left: 1rem;
-    display: block;
+    // display: block;
   }
 }
 
@@ -196,7 +189,7 @@ ol.archives {
 
 strong > img {
   width: 160%;
-  margin-left: -30%;
+  // margin-left: -30%;
   border: none;
   outline: none;
 }
@@ -215,7 +208,7 @@ a {
   color: $color_links;
   outline: none;
   padding-bottom: 1px;
-  border-bottom: solid $color_gray 3px;
+  border-bottom: solid $color_gray 2px;
   text-decoration: none;
   transition: .5s ease;
   &:hover {
@@ -230,7 +223,13 @@ a {
 
 /* Media queries */
 
-@media (max-width: 1120px) {
+@media (max-width: 1040px) {
+  strong > img {
+    width: 130%;
+  }
+}
+
+@media (max-width: 900px) {
   aside {
     position: relative;
     margin-left: 0;
@@ -244,16 +243,6 @@ a {
     border-bottom: 1px solid $color_gray;
     padding: .5em 0;
   }
-}
-
-@media (max-width: 1000px) {
-  strong > img {
-    width: 130%;
-    margin-left: -15%;
-  }
-}
-
-@media (max-width: 820px) {
   strong > img {
     width: 100%;
     margin-left: 0;
@@ -261,7 +250,7 @@ a {
 }
 
 @media (max-width: 600px) {
-  .wrapper, .dregerbar {
+  .wrapper {
     padding: 1em 1em;
     margin: 2em 0;
   }

@@ -9,10 +9,10 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <html lang="en">
 {% include head.html %}
 <body>
+<section class="wrapper">
 <section class="dregerbar">
 {% include header.html %}
 </section>
-<section class="wrapper">
 <article class="article">
 {% if page.link %}
 <section class="article-meta">{{ page.date | date: "%b %d, %Y" }} &middot; <a href="{{ page.link }}">Original source &rarr;</a></section>
@@ -21,10 +21,8 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% endif %}
 <h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 {{ content }}
-</article><!--
-<section class="footer">
-<section class="article-meta">Read this next</section>
-</section> -->
+</article>
+<section class="separator">&#10010;</section>
 </section>
 </body>
 </html>
