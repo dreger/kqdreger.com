@@ -7,8 +7,8 @@ $color_charcoal: #bababa;
 $color_links: #111;
 
 /* Type */
-$sans: "Verdana", "Helvetica Neue", "Segoe UI", sans-serif;
-$serif: "Georgia Pro", Georgia, serif;
+$sans: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
+$serif: $sans"Georgia Pro", Georgia, serif;
 $type_line_height: 1.5em;
 
 h1,h2,h3,h4,h5,h6 {
@@ -25,7 +25,10 @@ h1,h2,h3,h4,h5,h6 {
 
 h2,h3,h4 { margin: 1.5rem 0; }
 
-h1 { font-weight: normal; }
+h1 {
+  font-weight: normal;
+  font-size: 3em;
+}
 
 .small-caps-title {
   font-size: .85em;
@@ -54,7 +57,7 @@ body {
   color: $color_black;
   font-family: $serif;
   max-width: $wrapper_width;
-  margin: 0;
+  margin: 0 auto;
   padding: 2em;
   line-height: $type_line_height;
 }
@@ -94,7 +97,7 @@ fieldset {
   }
 
 .dregerbar {
-  margin-bottom: 3em;
+  margin: 5em 0;
   form {
     display: inline;
     margin: 0;
@@ -103,10 +106,8 @@ fieldset {
 }
 
 .site-title {
-  // font-style: italic;
-  font-size: 3em;
-  font-weight: normal;
-  // text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
   letter-spacing: -1px;
   + p {
     margin: .5em 0 0;
@@ -116,7 +117,6 @@ fieldset {
 /* Articles */
 
 article {
-  // margin: 8em 0;
   &:first-child {
     margin-top: 0;
   }
@@ -126,17 +126,17 @@ aside {
   position: absolute;
   float: left;
   width: 200px;
-  margin-left: $wrapper_width + 2rem;
+  margin-left: -230px;
   font-size: .9em;
   line-height: 1.25em;
-  text-align: left;
+  text-align: right;
 
 }
 
 .content article:first-child { margin-top: 0; padding-top: 0;}
 
 .article-title {
-  margin-top: 1rem;
+  margin: 1rem 0;
   font-weight: normal;
   + p {
     margin-top: 1rem;
@@ -144,10 +144,10 @@ aside {
 }
 
 .article-meta {
-  font-size: .8em;
+  // font-size: .8em;
   font-family: $sans;
   color: $color_charcoal;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 100%;
@@ -165,13 +165,10 @@ aside {
 */
 
 ol.archives {
-  padding: 0;
-  margin: 0;
   font-family: $serif;
-  // font-weight: bold;
+  margin: 0;
   li {
-    list-style: none;
-    padding: .4em 0;
+    padding: .2em 0;
     &:first-child {
       padding-top: 0;
     }
@@ -179,24 +176,23 @@ ol.archives {
   .archives-date {
     font-weight: normal;
     font-family: $serif;
-    // font-size: .85em;
-    // padding-left: 1rem;
-    // display: block;
   }
 }
 
 /* Utility Rules */
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 strong > img {
-  width: 160%;
-  // margin-left: -30%;
+  max-width: 160%;
+  margin-left: -30%;
   border: none;
   outline: none;
 }
-img {
-  width: $wrapper_width;
-  height: auto;
-}
+
 
 blockquote {
   border-left: .25em solid $color_links;
@@ -207,9 +203,6 @@ blockquote {
 a {
   color: $color_links;
   outline: none;
-  padding-bottom: 1px;
-  border-bottom: solid $color_gray 2px;
-  text-decoration: none;
   transition: .5s ease;
   &:hover {
     border-bottom-color: $color_links;
@@ -223,13 +216,7 @@ a {
 
 /* Media queries */
 
-@media (max-width: 1040px) {
-  strong > img {
-    width: 130%;
-  }
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
   aside {
     position: relative;
     margin-left: 0;
@@ -243,16 +230,29 @@ a {
     border-bottom: 1px solid $color_gray;
     padding: .5em 0;
   }
+}
+
+@media (max-width: 1040px) {
   strong > img {
-    width: 100%;
+    max-width: 130%;
+    margin-left: -15%;
+  }
+}
+
+@media (max-width: 900px) {
+  strong > img {
+    max-width: 100%;
     margin-left: 0;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .wrapper {
     padding: 1em 1em;
-    margin: 2em 0;
+  }
+  .dregerbar {
+    margin: 3em 0;
+    // text-align: center;
   }
 }
 
