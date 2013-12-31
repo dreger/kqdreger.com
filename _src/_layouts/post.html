@@ -16,11 +16,14 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <article class="article">
 <h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 
-{% if page.link %}
-<section class="article-meta">{{ page.date | date: "%b %d, %Y" }} &middot; <a href="{{ page.link }}">Original source &rarr;</a></section>
-{% else %}
-<section class="article-meta">{{ page.date | date: "%b %d, %Y" }} &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read</section>
-{% endif %}
+<section class="article-meta">{{ page.date | date: "%b %d, %Y" }}
+  {% if page.link %}
+    &middot; <a href="{{ page.link }}">source &rarr;</a>
+  {% else %}
+    &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read
+  {% endif %}
+</section>
+
 {{ content }}
 </article>
 <section class="separator">&#10010;</section>

@@ -9,7 +9,7 @@ A small webcolumn featuring long-form articles and short commentary on the world
 
 A combination of [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) are used to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
 
-Headings are set in Helvetica Neue (OS X) and Segoe UI (Windows). Body copy is displayed in Georgia.
+Text is set in Myriad Pro (OS X) and Segoe UI (Windows).
 
 ## Contact Information
 
