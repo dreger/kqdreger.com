@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
-<ol class="archives">
-{% for post in site.posts %}
-{% if post.link %}
-<li value="{{ forloop.rindex0 }}">&rarr;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
-{% else %}
-<li value="{{ forloop.rindex0 }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endif %}
+{% for post in site.posts limit:15 %}
+<article>
+  <h1 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+  {% if post.link %}
+  <section class="article-meta">{{ post.date | date: "%b %d" }} &middot; <a href="{{ post.link }}">source &rarr;</a></section>
+  {% else %}
+  <section class="article-meta">{{ post.date | date: "%b %d" }} &middot; <script>document.write(readingTime({{ post.content | number_of_words }}))</script> min read</section>
+  {% endif %}
+  {{ post.content }}
+</article>
+<section class="separator">&#10010;</section>
+
 {% endfor %}
-</ol>

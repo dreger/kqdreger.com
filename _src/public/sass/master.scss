@@ -8,7 +8,7 @@ $color_charcoal: #bababa;
 $color_links: #111;
 
 /* Type */
-$sans: "Myriad Pro", "Helvetica Neue", "Segoe UI", sans-serif;
+$sans: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif;
 $serif: $sans;
 $type_line_height: 1.5em;
 
@@ -28,7 +28,7 @@ h2,h3,h4 { margin: 1.5rem 0; }
 
 h1 {
   font-weight: normal;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .small-caps-title {
@@ -41,7 +41,7 @@ h1 {
 }
 
 /* Layout */
-$wrapper_width: 38rem;
+$wrapper_width: 36rem;
 $image_width: $wrapper_width + 10rem;
 $image_offset: 5rem;
 $side_padding: 2em;
@@ -54,7 +54,7 @@ body {
 }
 
 .wrapper {
-  font-size: 18px;
+  font-size: 16px;
   color: $color_black;
   font-family: $serif;
   max-width: $wrapper_width;
@@ -99,10 +99,29 @@ fieldset {
 
 .dregerbar {
   margin: 5em 0;
-  form {
+  text-align: center;
+  line-height: 100%;
+  font-size: .85em;
+  ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    border: 2px solid $color_gray;
+    border-radius: 50px;
+  }
+  li {
     display: inline;
-    margin: 0;
-    padding: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 1em;
+    color: $color_charcoal;
+    &:hover {
+      color: $color_links;
+    }
   }
 }
 
@@ -118,9 +137,7 @@ fieldset {
 /* Articles */
 
 article {
-  &:first-child {
-    margin-top: 0;
-  }
+  margin: 0;
 }
 
 aside {
@@ -137,7 +154,7 @@ aside {
 .content article:first-child { margin-top: 0; padding-top: 0;}
 
 .article-title {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
   font-weight: normal;
   + p {
     margin-top: 1rem;
@@ -154,18 +171,18 @@ aside {
 }
 
 .separator {
-  font-size: 4em;
+  font-size: 2em;
   color: $color_gray;
   margin: 2em 0;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
 }
 
 /*
   Pages: Archives
 */
 
-ol.archives {
+.archives {
   font-family: $serif;
   margin: 0;
   li {
@@ -249,11 +266,14 @@ a {
 
 @media (max-width: 768px) {
   .wrapper {
+    font-size: 14px;
     padding: 1em 1em;
   }
   .dregerbar {
     margin: 3em 0;
-    // text-align: center;
+    a:not(.home){
+      display: none;
+    }
   }
 }
 
