@@ -24,20 +24,11 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
-h2,h3,h4 { margin: 1.5rem 0; }
+h2,h3,h4 { margin: 1.25rem 0; }
 
 h1 {
   font-weight: bold;
   font-size: 2em;
-}
-
-.small-caps-title {
-  font-size: .85em;
-  text-transform: uppercase;
-  font-family: $sans;
-  color: $color_charcoal;
-  letter-spacing: 1px;
-  font-weight: 400;
 }
 
 /* Layout */
@@ -63,32 +54,23 @@ body {
   line-height: $type_line_height;
 }
 
-input.search {
-  font-family: $sans;
+.required {
   border-radius: 50px;
-  font-size: .9em;
-  padding: .25em 0 .25em 1em;
   outline: none;
-  background-color: $color_gray;
-  border: none;
   transition: .5s ease;
+  font-family: $sans;
+  background-color: #fff;
+  border: solid 2px $color_gray;
+  padding: .5em 1em;
+  margin-bottom: 1em;
+  width: 250px;
+  display: block;
   &:focus {
     border-color: $color_links;
     background-color: $color_links;
     color: #fff;
   }
 }
-
-.required {
-  @extend input.search;
-  background-color: #fff;
-  border: solid 2px $color_gray;
-  padding: .5em 1em;
-  margin-bottom: 1em;
-  width: 300px;
-  display: block;
-}
-
 
 fieldset {
     border: none;
@@ -101,6 +83,7 @@ fieldset {
   font-family: $sans;
   margin: 1rem 0;
   padding: 0;
+  line-height: 100%;
   li {
     display: inline;
     list-style: none;
@@ -113,15 +96,6 @@ fieldset {
     &:hover {
       border-bottom: 5px solid $color_links;
     }
-  }
-}
-
-.site-title {
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  + p {
-    margin: .5em 0 0;
   }
 }
 
@@ -139,22 +113,7 @@ aside {
   font-size: .9em;
   line-height: 1.25em;
   text-align: right;
-
 }
-
-.content article:first-child { margin-top: 0; padding-top: 0;}
-
-
-.author {
-  margin-bottom: 1rem;
-  // margin-top: 10rem;
-  font-size: 1em;
-  text-transform: uppercase;
-  a:hover {
-    border-bottom: 5px solid $color_links;
-  }
-}
-
 
 .article-title {
   margin-bottom: 1rem;
@@ -176,11 +135,15 @@ aside {
 
 .outgoing-anchor {
   color: $color_charcoal;
-  display: block;
+  line-height: 1em;
   margin: 1rem 0;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+  border-bottom: 5px solid $color_gray;
+  &:hover {
+    border-bottom: 5px solid $color_charcoal;
+  }
 }
 
 .separator {
@@ -198,6 +161,7 @@ aside {
 .archives {
   font-family: $serif;
   margin: 0;
+  padding: 0;
   li {
     padding: .2em 0;
     list-style: circle;
@@ -205,10 +169,6 @@ aside {
     &:first-child {
       padding-top: 0;
     }
-  }
-  .archives-date {
-    font-weight: normal;
-    font-family: $serif;
   }
 }
 

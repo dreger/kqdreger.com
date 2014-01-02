@@ -306,57 +306,45 @@ table { border-collapse: collapse; border-spacing: 0; }
 h1, h2, h3, h4, h5, h6 { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; line-height: 1em; margin: 0; padding: 0; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { border: none; text-decoration: none; color: #222222; }
 
-h2, h3, h4 { margin: 1.5rem 0; }
+h2, h3, h4 { margin: 1.25rem 0; }
 
 h1 { font-weight: bold; font-size: 2em; }
-
-.small-caps-title { font-size: .85em; text-transform: uppercase; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; letter-spacing: 1px; font-weight: 400; }
 
 /* Layout */
 body { -webkit-font-smoothing: antialiased; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .wrapper { font-size: 18px; color: #222222; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; max-width: 36rem; margin: 8em auto 0; padding: 0 2em; line-height: 1.6rem; }
 
-input.search, .required { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; border-radius: 50px; font-size: .9em; padding: .25em 0 .25em 1em; outline: none; background-color: #e9e9e9; border: none; transition: .5s ease; }
-input.search:focus, .required:focus { border-color: #111111; background-color: #111111; color: #fff; }
-
-.required { background-color: #fff; border: solid 2px #e9e9e9; padding: .5em 1em; margin-bottom: 1em; width: 300px; display: block; }
+.required { border-radius: 50px; outline: none; transition: .5s ease; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; background-color: #fff; border: solid 2px #e9e9e9; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
+.required:focus { border-color: #111111; background-color: #111111; color: #fff; }
 
 fieldset { border: none; display: inline; padding: 0; margin: 0; }
 
-.dregerbar { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; margin: 1rem 0; padding: 0; }
+.dregerbar { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; margin: 1rem 0; padding: 0; line-height: 100%; }
 .dregerbar li { display: inline; list-style: none; margin-right: 1em; }
 .dregerbar a { text-decoration: none; font-weight: bold; text-transform: uppercase; }
 .dregerbar a:hover { border-bottom: 5px solid #111111; }
-
-.site-title { font-weight: bold; text-transform: uppercase; letter-spacing: -1px; }
-.site-title + p { margin: .5em 0 0; }
 
 /* Articles */
 article { margin: 0; }
 
 aside { position: absolute; float: left; width: 200px; margin-left: -230px; font-size: .9em; line-height: 1.25em; text-align: right; }
 
-.content article:first-child { margin-top: 0; padding-top: 0; }
-
-.author { margin-bottom: 1rem; font-size: 1em; text-transform: uppercase; }
-.author a:hover { border-bottom: 5px solid #111111; }
-
 .article-title { margin-bottom: 1rem; font-weight: bold; }
 .article-title + p { margin-top: 1rem; }
 
 .article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 1.1em; }
 
-.outgoing-anchor { color: #bababa; display: block; margin: 1rem 0; text-decoration: none; font-weight: bold; text-transform: uppercase; }
+.outgoing-anchor { color: #bababa; line-height: 1em; margin: 1rem 0; text-decoration: none; font-weight: bold; text-transform: uppercase; border-bottom: 5px solid #e9e9e9; }
+.outgoing-anchor:hover { border-bottom: 5px solid #bababa; }
 
 .separator { font-size: 2em; color: #e9e9e9; margin: 2em 0; font-weight: bold; text-align: center; }
 
 /* Pages: Archives
 */
-.archives { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; margin: 0; }
+.archives { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; margin: 0; padding: 0; }
 .archives li { padding: .2em 0; list-style: circle; color: #bababa; }
 .archives li:first-child { padding-top: 0; }
-.archives .archives-date { font-weight: normal; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; }
 
 /* Utility Rules */
 img { max-width: 100%; height: auto; }
