@@ -2,7 +2,7 @@
 title: Samsung's Golden Galaxy S4
 link: http://www.theverge.com/2013/9/25/4769086/samsung-counters-iphone-5s-with-a-golden-galaxy-s4
 date: 2013-09-25 11:21
-layout: link
+layout: post
 category: linklog
 ---
 The Verge:

@@ -2,7 +2,7 @@
 title: Live Stream of Today's Apple Event
 link: http://www.apple.com/apple-events/october-2013/
 date: 2013-10-22 12:48
-layout: link
+layout: post
 ---
 For the first in a very long time, Apple has a live stream of today's event available. However, you'll need a Mac, iOS device, or Apple TV to catch it:
 

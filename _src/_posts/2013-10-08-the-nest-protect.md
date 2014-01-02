@@ -2,7 +2,7 @@
 title: "Nest Protect: Your Smoke Alarm, but Beautiful"
 link: http://nest.com/smoke-co-alarm/life-with-nest-protect/
 date: 2013-10-08 09:04
-layout: link
+layout: post
 published: true
 ---
 Nest, the company behind the gorgeous (yes, [_gorgeous_]({{site.domain}}/public/cargo/nest-thermostat.jpg)) [thermostat](http://nest.com/thermostat/life-with-nest-thermostat/), just released their latest product: a smoke and carbon monoxide detector called the Nest Protect. Tony Fadell, C.E.O. of Nest and Apple alumni, on his company's blog:

@@ -1,0 +1,15 @@
+---
+layout: default
+title: Archives &#x2f; Posts
+---
+<h1>Archives &#x2f; Posts &amp; Excerpts</h1>
+<p>Below is everything on the site. Want just the <a href="/archives/index.html">posts</a>?</p>
+<ol class="archives">
+{% for post in site.posts %}
+{% if post.link %}
+<li>&rarr;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a><span class="archives-date">{{ post.date | date: "%b %d, %Y" }}</li>
+{% else %}
+<li><a href="{{ post.url }}">{{ post.title }}</a><span class="archives-date">{{ post.date | date: "%b %d, %Y" }} &middot; <script>document.write(readingTime({{ post.content | number_of_words }}));</script> min read</li>
+{% endif %}
+{% endfor %}
+</ol>
