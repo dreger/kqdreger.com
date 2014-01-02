@@ -303,32 +303,31 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* Literal.Number.Integer.Long */
 /* Colors */
 /* Type */
-h1, h2, h3, h4, h5, h6 { font-family: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif; line-height: 1em; margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; line-height: 1em; margin: 0; padding: 0; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { border: none; text-decoration: none; color: #222222; }
 
 h2, h3, h4 { margin: 1.5rem 0; }
 
-h1 { font-weight: normal; font-size: 2em; }
+h1 { font-weight: bold; font-size: 2em; }
 
-.small-caps-title { font-size: .85em; text-transform: uppercase; font-family: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; letter-spacing: 1px; font-weight: 400; }
+.small-caps-title { font-size: .85em; text-transform: uppercase; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; letter-spacing: 1px; font-weight: 400; }
 
 /* Layout */
 body { -webkit-font-smoothing: antialiased; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-.wrapper { font-size: 16px; color: #222222; font-family: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif; max-width: 36rem; margin: 0 auto; padding: 2em; line-height: 1.5em; }
+.wrapper { font-size: 18px; color: #222222; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; max-width: 36rem; margin: 8em auto 0; padding: 0 2em; line-height: 1.6rem; }
 
-input.search, .required { font-family: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif; border-radius: 50px; font-size: .9em; padding: .25em 0 .25em 1em; outline: none; background-color: #e9e9e9; border: none; transition: .5s ease; }
+input.search, .required { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; border-radius: 50px; font-size: .9em; padding: .25em 0 .25em 1em; outline: none; background-color: #e9e9e9; border: none; transition: .5s ease; }
 input.search:focus, .required:focus { border-color: #111111; background-color: #111111; color: #fff; }
 
 .required { background-color: #fff; border: solid 2px #e9e9e9; padding: .5em 1em; margin-bottom: 1em; width: 300px; display: block; }
 
 fieldset { border: none; display: inline; padding: 0; margin: 0; }
 
-.dregerbar { margin: 5em 0; text-align: center; line-height: 100%; font-size: .85em; }
-.dregerbar ul { display: inline-block; margin: 0 auto; padding: 1em 1.5em; border: 2px solid #e9e9e9; border-radius: 50px; }
-.dregerbar li { display: inline; list-style: none; }
-.dregerbar a { text-decoration: none; font-weight: bold; text-transform: uppercase; margin: 0 1em; color: #bababa; }
-.dregerbar a:hover { color: #111111; }
+.dregerbar { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; margin: 1rem 0; padding: 0; }
+.dregerbar li { display: inline; list-style: none; margin-right: 1em; }
+.dregerbar a { text-decoration: none; font-weight: bold; text-transform: uppercase; }
+.dregerbar a:hover { border-bottom: 5px solid #111111; }
 
 .site-title { font-weight: bold; text-transform: uppercase; letter-spacing: -1px; }
 .site-title + p { margin: .5em 0 0; }
@@ -340,28 +339,35 @@ aside { position: absolute; float: left; width: 200px; margin-left: -230px; font
 
 .content article:first-child { margin-top: 0; padding-top: 0; }
 
-.article-title { margin-bottom: 1rem; font-weight: normal; }
+.author { margin-bottom: 1rem; font-size: 1em; text-transform: uppercase; }
+.author a:hover { border-bottom: 5px solid #111111; }
+
+.article-title { margin-bottom: 1rem; font-weight: bold; }
 .article-title + p { margin-top: 1rem; }
 
-.article-meta { font-family: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 1.1em; }
+.article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 1.1em; }
+
+.outgoing-anchor { color: #bababa; display: block; margin: 1rem 0; text-decoration: none; font-weight: bold; text-transform: uppercase; }
 
 .separator { font-size: 2em; color: #e9e9e9; margin: 2em 0; font-weight: bold; text-align: center; }
 
 /* Pages: Archives
 */
-.archives { font-family: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif; margin: 0; }
-.archives li { padding: .2em 0; }
+.archives { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; margin: 0; }
+.archives li { padding: .2em 0; list-style: circle; color: #bababa; }
 .archives li:first-child { padding-top: 0; }
-.archives .archives-date { font-weight: normal; font-family: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif; }
+.archives .archives-date { font-weight: normal; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; }
 
 /* Utility Rules */
 img { max-width: 100%; height: auto; }
 
 strong > img { max-width: 160%; margin-left: -30%; border: none; outline: none; }
 
+hr { border: 2px solid #e9e9e9; max-width: 50%; margin: 2rem auto; }
+
 blockquote { border-left: 0.25em solid #111111; margin-left: 0; padding-left: 1em; }
 
-a { color: #111111; outline: none; transition: .5s ease; }
+a { color: #111111; outline: none; }
 a:hover { border-bottom-color: #111111; }
 a img { outline: none; border: none; }
 
@@ -369,6 +375,5 @@ a img { outline: none; border: none; }
 @media (max-width: 1120px) { aside { position: relative; margin-left: 0; max-width: inherit; float: none; font-size: inherit; text-align: inherit; width: auto; line-height: inherit; border-top: 1px solid #e9e9e9; border-bottom: 1px solid #e9e9e9; padding: .5em 0; } }
 @media (max-width: 1040px) { strong > img { max-width: 130%; margin-left: -15%; } }
 @media (max-width: 900px) { strong > img { max-width: 100%; margin-left: 0; } }
-@media (max-width: 768px) { .wrapper { font-size: 14px; padding: 1em 1em; }
-  .dregerbar { margin: 3em 0; }
-  .dregerbar a:not(.home) { display: none; } }
+@media (max-width: 768px) { .wrapper { font-size: 14px; padding: 1em 1em; margin: 1em 0; }
+  .dregerbar { margin: 1em 0; } }

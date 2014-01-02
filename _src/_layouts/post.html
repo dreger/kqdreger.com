@@ -10,21 +10,14 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include head.html %}
 <body>
 <section class="wrapper">
-<section class="dregerbar">
 {% include header.html %}
-</section>
 <article class="article">
 <h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-
-<section class="article-meta">{{ page.date | date: "%b %d, %Y" }}
-  {% if page.link %}
-    &middot; <a href="{{ page.link }}">source &rarr;</a>
-  {% else %}
-    &middot; <script>document.write(readingTime({{ page.content | number_of_words }}))</script> min read
-  {% endif %}
-</section>
-
+{% if page.link %}
+<a class="outgoing-anchor" href="{{ post.link }}">Source &rarr;</a>
+{% endif %}
 {{ content }}
+<p class="article-meta">{{ page.date | date: "%b %d, %Y" }}</p>
 </article>
 <section class="separator">&#10010;</section>
 </section>

@@ -8,9 +8,9 @@ $color_charcoal: #bababa;
 $color_links: #111;
 
 /* Type */
-$sans: "Avenir Next" "Helvetica Neue", "Segoe UI", sans-serif;
+$sans: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
 $serif: $sans;
-$type_line_height: 1.5em;
+$type_line_height: 1.6rem;
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $sans;
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 h2,h3,h4 { margin: 1.5rem 0; }
 
 h1 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 2em;
 }
 
@@ -54,12 +54,12 @@ body {
 }
 
 .wrapper {
-  font-size: 16px;
+  font-size: 18px;
   color: $color_black;
   font-family: $serif;
   max-width: $wrapper_width;
-  margin: 0 auto;
-  padding: 2em;
+  margin: 8em auto 0;
+  padding: 0 2em;
   line-height: $type_line_height;
 }
 
@@ -98,29 +98,20 @@ fieldset {
   }
 
 .dregerbar {
-  margin: 5em 0;
-  text-align: center;
-  line-height: 100%;
-  font-size: .85em;
-  ul {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 1em 1.5em;
-    border: 2px solid $color_gray;
-    border-radius: 50px;
-  }
+  font-family: $sans;
+  margin: 1rem 0;
+  padding: 0;
   li {
     display: inline;
     list-style: none;
+    margin-right: 1em;
   }
   a {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 1em;
-    color: $color_charcoal;
     &:hover {
-      color: $color_links;
+      border-bottom: 5px solid $color_links;
     }
   }
 }
@@ -153,11 +144,24 @@ aside {
 
 .content article:first-child { margin-top: 0; padding-top: 0;}
 
+
+.author {
+  margin-bottom: 1rem;
+  // margin-top: 10rem;
+  font-size: 1em;
+  text-transform: uppercase;
+  a:hover {
+    border-bottom: 5px solid $color_links;
+  }
+}
+
+
 .article-title {
   margin-bottom: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   + p {
     margin-top: 1rem;
+    // font-size: 1.2rem;
   }
 }
 
@@ -168,6 +172,15 @@ aside {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.1em;
+}
+
+.outgoing-anchor {
+  color: $color_charcoal;
+  display: block;
+  margin: 1rem 0;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .separator {
@@ -187,6 +200,8 @@ aside {
   margin: 0;
   li {
     padding: .2em 0;
+    list-style: circle;
+    color: $color_charcoal;
     &:first-child {
       padding-top: 0;
     }
@@ -211,6 +226,11 @@ strong > img {
   outline: none;
 }
 
+hr {
+  border: 2px solid $color_gray;
+  max-width: 50%;
+  margin: 2rem auto;
+}
 
 blockquote {
   border-left: .25em solid $color_links;
@@ -221,7 +241,7 @@ blockquote {
 a {
   color: $color_links;
   outline: none;
-  transition: .5s ease;
+  // transition: .5s ease;
   &:hover {
     border-bottom-color: $color_links;
   }
@@ -268,12 +288,10 @@ a {
   .wrapper {
     font-size: 14px;
     padding: 1em 1em;
+    margin: 1em 0;
   }
   .dregerbar {
-    margin: 3em 0;
-    a:not(.home){
-      display: none;
-    }
+    margin: 1em 0;
   }
 }
 

@@ -3,7 +3,7 @@ layout: default
 title: Colophon
 ---
 # About This Site
-A small webcolumn featuring long-form articles and short commentary on the world of technology, design, and liberal arts. Readers of this site tend to have an interest in new technologies, typography, web design, and Apple Inc.. All content is written and produced by Kyle Dreger.
+A small webcolumn featuring long-form articles and short commentary on the world of technology, design, and liberal arts. Readers of this site tend to have an interest in new technologies, typography, web design, and Apple Inc. All content is written and produced by Kyle Dreger.
 
 ![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
 
