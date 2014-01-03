@@ -8,7 +8,7 @@ $color_charcoal: #bababa;
 $color_links: #111;
 
 /* Type */
-$sans: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
+$sans: Myriad Pro, "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
 $serif: $sans;
 $type_line_height: 1.6rem;
 
@@ -178,6 +178,7 @@ aside {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: .5rem;
 }
 
 strong > img {
