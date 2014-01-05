@@ -14,7 +14,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <article class="article">
 <h1 class="article-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 {% if page.link %}
-<a class="outgoing-anchor" href="{{ post.link }}">Source &rarr;</a>
+<a class="outgoing-anchor" href="{{ page.link }}">Source &rarr;</a>
 {% endif %}
 {{ content }}
 <p class="article-meta">{{ page.date | date: "%b %d, %Y" }}</p>
