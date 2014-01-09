@@ -99,10 +99,23 @@ fieldset {
   }
 }
 
+.small-caps {
+  text-transform: uppercase;
+  font-size: .8em;
+  border-top: 1px solid $color_gray;
+  color: $color_charcoal;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin: 1.5rem 0 .5rem;
+}
+
 /* Articles */
 
 article {
   margin: 0;
+  + .small-caps {
+    margin-top: 3rem;
+  }
 }
 
 aside {
@@ -248,7 +261,7 @@ a {
 
 @media (max-width: 500px) {
   .wrapper {
-    font-size: 14px;
+    font-size: 16px;
     padding: 1em 1em;
     margin: 1em 0;
   }
