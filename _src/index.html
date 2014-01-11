@@ -1,22 +1,12 @@
 ---
 layout: default
 ---
-
-{% for post in site.posts limit:1 offset: 2 %}
-<p class="small-caps">Latest</p>
-
-<article class="article">
-<h1 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-{% if post.link %}
-<a class="outgoing-anchor" href="{{ post.link }}">Source &rarr;</a>
-{% endif %}
-{{ post.content }}
-</article>
+{% for post in site.posts limit:1 %}
+<p class="small-caps">Last updated: {{ post.date | date: "%b %d" }}</p>
 {% endfor %}
 
-<p class="small-caps">Archived posts</p>
 <ul class="archives">
-{% for post in site.posts offset:1 %}
+{% for post in site.posts %}
 <li><a href="{{ post.url }}">{{ post.title }}</a>{% if post.link %}&nbsp;&rarr;{% endif %}</li>
 {% endfor %}
 </ul>

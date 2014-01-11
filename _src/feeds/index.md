@@ -24,7 +24,7 @@ You can follow updates to this site on Twitter [@kyledreger.com](http://twitter.
 
 <!--End mc_embed_signup-->
 
-
+<!--
 <form action="" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -34,4 +34,4 @@ You can follow updates to this site on Twitter [@kyledreger.com](http://twitter.
     data-description="2 widgets ($20.00)"
     data-image="/128x128.png">
   </script>
-</form>
+</form> -->
