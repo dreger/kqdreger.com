@@ -10,7 +10,7 @@ $color_links: #ff0050;
 /* Type */
 $sans: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
 $serif: $sans;
-$type_line_height: 1.6rem;
+$type_line_height: 1.55rem;
 
 @mixin no-decoration {
   a, a:hover, a:active { text-decoration: none; }
@@ -37,7 +37,7 @@ h1 {
 }
 
 /* Layout */
-$wrapper_width: 32rem;
+$wrapper_width: 35rem;
 $image_width: $wrapper_width + 10rem;
 $image_offset: 5rem;
 $side_padding: 2em;
@@ -54,7 +54,7 @@ body {
   color: $color_black;
   font-family: $sans;
   max-width: $wrapper_width;
-  margin: 8rem auto 0;
+  margin: 10rem auto 0;
   padding: 0 2rem;
   line-height: $type_line_height;
 }
@@ -86,7 +86,7 @@ fieldset {
 
 .dregerbar {
   font-family: $sans;
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding: 0;
   line-height: 100%;
   li {
@@ -98,9 +98,11 @@ fieldset {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    color: $color_black;
     &:hover {
       text-decoration: none;
-      border-bottom: 5px solid $color_links;
+      color: $color_black;
+      border-bottom: 5px solid $color_black;
     }
   }
 }
@@ -154,20 +156,33 @@ aside {
 }
 
 .outgoing-anchor {
-  color: $color_links;
+  color: $color_charcoal;
   line-height: 1em;
   font-family: $sans;
-  margin: 1rem 0;
+  margin: .5rem 0;
   text-decoration: none;
+  padding: .25rem .5rem;
+  border-left: 5px solid $color_gray;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 5px solid $color_gray;
-  border-top: 5px solid $color_gray;
   &:hover {
-    border-bottom: 5px solid $color_links;
-    border-top: 5px solid $color_links;
     text-decoration: none;
+    // background-color: $color_links;
+    // border-left-color: $color_links
+    color: $color_links;
   }
+}
+
+.article-break {
+  width: 140%;
+  padding: 0;
+  height: 1px;
+  background-color: $color_gray;
+  border: 2px solid $color_gray;
+  border-radius: 50px;
+  margin: 5rem 0;
+  margin-left: -20%;
+
 }
 
 .separator {
@@ -213,8 +228,8 @@ strong > img {
 }
 
 hr {
-  border: 2px solid $color_gray;
-  max-width: 50%;
+  border: 2px solid $color_charcoal;
+  max-width: 40%;
   margin: 2rem auto;
 }
 
@@ -254,14 +269,14 @@ a {
 }
 
 @media (max-width: 1040px) {
-  strong > img {
+  strong > img, .article-break {
     max-width: 130%;
     margin-left: -15%;
   }
 }
 
 @media (max-width: 900px) {
-  strong > img {
+  strong > img, .article-break {
     max-width: 100%;
     margin-left: 0;
   }
@@ -274,7 +289,7 @@ a {
     margin: 1em 0;
   }
   .dregerbar {
-    margin: 1em 0;
+    margin: 2em 0;
   }
 }
 

@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-{% for post in site.posts limit:1 %}
-<p class="small-caps">Last updated: {{ post.date | date: "%b %d" }}</p>
+
+
+<!-- <p class="small-caps">Latest</p> -->
+{% for post in site.posts limit:15   %}
+
+<article class="article">
+<h1 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+{% if post.link %}
+<a class="outgoing-anchor" href="{{ post.link }}">original source &rarr;</a>
+{% endif %}
+{{ post.content }}
+</article>
+
+<section class="article-break">&nbsp;</section>
 {% endfor %}
 
-<ul class="archives">
-{% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a>{% if post.link %}&nbsp;&rarr;{% endif %}</li>
-{% endfor %}
-</ul>
-
-<p>Since two thousand and ten, <strong>{{ site.posts | size }} items</strong> have been written.</p>
