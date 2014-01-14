@@ -336,7 +336,7 @@ article + .small-caps { margin-top: 3rem; }
 
 aside { position: absolute; float: left; width: 200px; margin-left: -230px; font-size: .9em; line-height: 1.25em; text-align: right; }
 
-.article-title { margin-bottom: 1rem; font-weight: normal; line-height: 1em; }
+.article-title { margin-bottom: .75rem; font-weight: normal; line-height: 1.2em; }
 .article-title + p { margin-top: 0; }
 
 .article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 1.1em; }
@@ -376,5 +376,6 @@ a img { outline: none; border: none; }
 @media (max-width: 1040px) { strong > img, .article-break { max-width: 130%; margin-left: -15%; } }
 @media (max-width: 900px) { strong > img, .article-break { max-width: 100%; margin-left: 0; } }
 @media (max-width: 500px) { .archives span { display: block; margin-top: 1rem; }
-  .wrapper { font-size: 15px; padding: 1em 1em; margin: 1em 0; }
-  .dregerbar { margin: 2em 0; } }
+  .wrapper { font-size: 15px; padding: 1em 1em; margin: 0 0 1rem; }
+  .dregerbar { margin: 1rem 0; }
+  .article-break { margin: 3rem 0; } }

@@ -144,9 +144,9 @@ aside {
 }
 
 .article-title {
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
   font-weight: normal;
-  line-height: 1em;
+  line-height: 1.2em;
   // text-transform: uppercase;
   + p {
     margin-top: 0;
@@ -319,10 +319,13 @@ a {
   .wrapper {
     font-size: 15px;
     padding: 1em 1em;
-    margin: 1em 0;
+    margin: 0 0 1rem;
   }
   .dregerbar {
-    margin: 2em 0;
+    margin: 1rem 0;
+  }
+  .article-break {
+    margin: 3rem 0;
   }
 }
 
