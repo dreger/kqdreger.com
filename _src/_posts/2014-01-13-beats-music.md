@@ -1,7 +1,6 @@
 ---
 title: Beats Music
-link: https://beatsmusic.com
 date: 2014-01-13 11:27
 layout: post
 ---
-Beats, the company behind the popular Beats by Dre headphones, is launching a new online music subscription service on January 21. Considering how well-known the company is for their headphones, which have garnered clout as premier hardware, this launch will bring a large dose of publicity to the online music subscription arena. 
+Beats, the company behind the popular Beats by Dre headphones, is [launching a new online music subscription service](https://beatsmusic.com) on January 21. Considering how well-known the company is for their headphones, which have garnered clout as premier hardware, this launch will bring a large dose of publicity to the online music subscription arena.

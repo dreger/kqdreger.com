@@ -4,7 +4,7 @@ layout: default
 
 
 <!-- <p class="small-caps">Latest</p> -->
-{% for post in site.posts limit:15   %}
+{% for post in site.posts limit:5 %}
 
 <article class="article">
 <h1 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -17,3 +17,4 @@ layout: default
 <section class="article-break">&nbsp;</section>
 {% endfor %}
 
+<section class="archives-link"><a href="/archives">Read the Archives</a></section>

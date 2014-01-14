@@ -86,7 +86,7 @@ fieldset {
 
 .dregerbar {
   font-family: $sans;
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 0;
   line-height: 100%;
   li {
@@ -191,6 +191,23 @@ aside {
   margin: 2em 0;
   font-weight: bold;
   text-align: center;
+}
+
+.archives-link {
+  text-align: center;
+  a {
+    color: $color_black;
+    border-bottom: 10px solid #fff;
+    font-size: 2em;
+    margin: 3rem auto;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+  }
+  a:hover {
+    border-bottom: 10px solid $color_black;
+    text-decoration: none;
+  }
 }
 
 /*
