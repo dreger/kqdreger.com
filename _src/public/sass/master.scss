@@ -33,7 +33,13 @@ h2,h3,h4 { margin: 1.25rem 0; }
 
 h1 {
   font-weight: bold;
+  line-height: 1.2em;
   font-size: 2em;
+  margin-bottom: .75rem;
+  + p {
+      margin-top: 0;
+      // font-size: 1.2rem;
+    }
 }
 
 /* Layout */
@@ -145,14 +151,7 @@ aside {
 }
 
 .article-title {
-  margin-bottom: .75rem;
   font-weight: normal;
-  line-height: 1.2em;
-  // text-transform: uppercase;
-  + p {
-    margin-top: 0;
-    // font-size: 1.2rem;
-  }
 }
 
 .article-meta {

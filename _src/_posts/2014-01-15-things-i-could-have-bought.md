@@ -13,6 +13,7 @@ This might sound unorthodox for a writer who focuses on some of the very things 
 
 --- 
 
-__Total saved: $18.00__
+__Total saved: $48.00__
 
+- $30 - [Mint website statistics](http://haveamint.com)
 - $18 - [Mnmlrdr](https://mnmlrdr.com) subscription 

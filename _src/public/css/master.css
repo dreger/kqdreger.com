@@ -309,7 +309,8 @@ h1 a, h1 a:hover, h1 a:active, h2 a, h2 a:hover, h2 a:active, h3 a, h3 a:hover, 
 
 h2, h3, h4 { margin: 1.25rem 0; }
 
-h1 { font-weight: bold; font-size: 2em; }
+h1 { font-weight: bold; line-height: 1.2em; font-size: 2em; margin-bottom: .75rem; }
+h1 + p { margin-top: 0; }
 
 /* Layout */
 body { -webkit-font-smoothing: antialiased; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -336,8 +337,7 @@ article + .small-caps { margin-top: 3rem; }
 
 aside { position: absolute; float: left; width: 200px; margin-left: -230px; margin-top: -3rem; font-size: .9em; line-height: 1.25em; text-align: right; }
 
-.article-title { margin-bottom: .75rem; font-weight: normal; line-height: 1.2em; }
-.article-title + p { margin-top: 0; }
+.article-title { font-weight: normal; }
 
 .article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif; color: #bababa; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 1.1em; }
 
