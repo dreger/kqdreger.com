@@ -138,6 +138,7 @@ aside {
   float: left;
   width: 200px;
   margin-left: -230px;
+  margin-top: -3rem;
   font-size: .9em;
   line-height: 1.25em;
   text-align: right;
@@ -285,7 +286,9 @@ a {
   aside {
     position: relative;
     margin-left: 0;
+    font-style: italic;
     max-width: inherit;
+    margin-top: 0;
     float: none;
     font-size: inherit;
     text-align: inherit;
