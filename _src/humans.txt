@@ -1,7 +1,0 @@
-This website is designed and written by Kyle Dreger.
-
-You can find him everywhere on the web @kyledreger
-
-I use [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format via [Sublime Text 2](http://sublimetext.com) or [iA Writer](http:iawriter.com).
-
-Thanks for reading.
