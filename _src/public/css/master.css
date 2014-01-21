@@ -688,6 +688,7 @@ fieldset {
     text-transform: uppercase;
     color: #222222;
     margin-right: .75rem;
+    letter-spacing: 1px;
     padding: .25rem 0; }
     .dregerbar a:hover {
       text-decoration: none;
