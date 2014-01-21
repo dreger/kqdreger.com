@@ -5,19 +5,22 @@
 $color_black: #222;
 $color_gray: #e9e9e9;
 $color_charcoal: #bababa;
-$color_links: #585858;
+$color_links: #00aeff;
 
 /* Type */
-$sans: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
-$serif:  $sans;
-$type_line_height: 1.5rem;
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+
+$sans: "Avenir Next", "Segoe UI", sans-serif;
+$serif: $sans;
+$type_line_height: 1.5em;
 
 @mixin no-decoration {
   a, a:hover, a:active { text-decoration: none; }
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: $sans;
+  font-family: "Avenir Next Condensed", $sans;
   line-height: 1em;
   margin: 0;
   padding: 0;
@@ -34,7 +37,7 @@ h2,h3,h4 { margin: 1.25rem 0; }
 h1 {
   font-weight: bold;
   line-height: 1.2em;
-  font-size: 2em;
+  // font-size: 1em;
   margin-bottom: .75rem;
   + p {
       margin-top: 0;
@@ -42,8 +45,15 @@ h1 {
     }
 }
 
+// h2 { font-size: 1.25em; }
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 /* Layout */
-$wrapper_width: 35rem;
+$wrapper_width: 32rem;
 $image_width: $wrapper_width + 10rem;
 $image_offset: 5rem;
 $side_padding: 2em;
@@ -58,7 +68,7 @@ body {
 .wrapper {
   font-size: 16px;
   color: $color_black;
-  font-family: $sans;
+  font-family: $serif;
   max-width: $wrapper_width;
   margin: 10rem auto 0;
   padding: 0 2rem;
@@ -101,6 +111,7 @@ fieldset {
   margin: 1rem 0;
   line-height: 100%;
   padding: 0;
+
   li {
     display: inline;
     list-style: none;
@@ -111,10 +122,11 @@ fieldset {
     text-transform: uppercase;
     color: $color_black;
     margin-right: .75rem;
+    padding: .25rem 0;
     &:hover {
       text-decoration: none;
       color: $color_black;
-      border-bottom: 5px solid $color_black;
+      border-top: 5px solid $color_links;
     }
   }
 }
@@ -151,7 +163,7 @@ aside {
 }
 
 .article-title {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .article-meta {
@@ -160,7 +172,6 @@ aside {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  line-height: 1.1em;
 }
 
 .outgoing-anchor {
@@ -269,8 +280,9 @@ blockquote {
 }
 
 a {
-  color: $color_links;
+  color: $color_black;
   outline: none;
+  &:hover { color: $color_links; }
   // text-decoration: none;
   & img {
     outline: none;

@@ -3,9 +3,9 @@ layout: default
 title: Colophon
 ---
 # About This Site
-Here is a small webcolumn featuring long-form articles and short commentary on the world of technology, design, and liberal arts. Readers of this site tend to have an interest in new technologies, typography, web design, and Apple Inc. All content is written and produced by Kyle Dreger.
+Here is a small webcolumn featuring long-form articles and short commentary on the world of technology, design, and liberal arts. Readers of this site tend to have an interest in new technologies, typography, and web design. All content is written and produced by Kyle Dreger. Also, we're closed on Sundays.
 
-![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
+__![my desk]({{site.domain}}/public/cargo/my-desk.jpg)__
 
 A combination of [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) are used to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
 
@@ -38,3 +38,5 @@ while(x=eval(x));
 </script>
 
 You can also mention me on [Twitter](http://twitter.com/kyledreger) and [App.net](http://alpha.app.net/kyledreger).
+
+<!-- ![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png) -->
