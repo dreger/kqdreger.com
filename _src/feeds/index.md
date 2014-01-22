@@ -2,7 +2,7 @@
 layout: default
 title: Subscribe
 ---
-# Ways to Subscribe
+# Subscribe
 You can follow updates to this site on Twitter [@kyledreger.com](http://twitter.com/kyledregercom), by using the main RSS feed ([feedpress.me/kyledreger](http://feedpress.me/kyledreger)), or by subscribing to the email newsletter below:
 
 <!-- Begin MailChimp Signup Form -->

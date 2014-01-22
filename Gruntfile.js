@@ -18,7 +18,8 @@ module.exports = function(grunt) {
               compass: true
             },
             files: {
-              '_src/public/css/master.css' : '_src/public/scss/master.scss'
+              '_src/public/css/master.css' : '_src/public/scss/master.scss',
+              '_src/public/css/test.css' : '_src/public/scss/test.scss'
             }
           }
         },
