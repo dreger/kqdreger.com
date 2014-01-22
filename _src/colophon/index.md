@@ -3,9 +3,10 @@ layout: default
 title: Colophon
 ---
 # Colophon
-Here is a small webcolumn featuring long-form articles and short commentary on the world of technology, design, and liberal arts. Readers of this site tend to have an interest in new technologies, typography, and web design. All content is written and produced by Kyle Dreger. Also, we're closed on Sundays.
-
 ![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
+<small>Photo credit Sarah and Chris Durr.</small>
+
+This is a small webcolumn that features long-form articles and short commentary on design, writing, and craft / creating. Readers of this site tend to have an interest in new technologies, typography, and quality gear. All content is written and produced by Kyle Dreger. Also, we're closed on Sundays.
 
 A combination of [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) are used to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
 
