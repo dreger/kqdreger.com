@@ -1,9 +1,9 @@
 @import '_normalize';
 @import '_pygments';
 
-$page_width: 32rem;
+$page_width: 34rem;
 $page_margin: 0 auto;
-$page_padding: 1.5rem 1rem;
+$page_padding: 2rem 1rem;
 $header_footer_margin: 4rem;
 
 $color_copy: #222;
@@ -11,7 +11,7 @@ $color_accent: #ff0050;
 $color_faded: #ccc;
 
 $font_size: 16px;
-$sans: Avenir Next Condensed, Helvetica Neue, Segoe UI, sans;
+$sans: Avenir Next, Helvetica Neue, Segoe UI, sans;
 $serif: Georgia, Times, serif;
 
 /*
@@ -22,27 +22,34 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre {
   margin-bottom: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .article-meta {
   line-height: 1.1em;
   a {
     text-decoration: none;
+    color: #111;
   }
 }
 
 h1 {
   font-weight: normal;
+  font-size: 1.5rem;
 }
 
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.1rem; }
+
 .title {
- font-size: 2.5rem;
-font-family: $sans;
- text-transform: uppercase;
- letter-spacing: 2px;
- font-weight: normal;
+  font-size: 2.5rem;
+  font-family: $sans;
+  // text-transform: uppercase;
+  letter-spacing: 2px;
+  // font-weight: 300;
+  text-align: center;
 }
 
 .article-title {
-  font-weight: normal;
+  font-weight: 600;
+  font-family: $sans;
 }
 
 .small-caps {
@@ -54,7 +61,7 @@ font-family: $sans;
 }
 
 .article-meta {
-  color: $color_faded;
+  a { color: $color_faded; }
 }
 
 /*
@@ -73,9 +80,10 @@ a {
 */
 
 body {
+  -webkit-font-smoothing: antialiased;
   font-size: $font_size;
   font-family: $serif;
-  line-height: 1.4em;
+  line-height: 1.65em;
   color: $color_copy;
 }
 
@@ -151,12 +159,12 @@ aside {
   .wrap {
     max-width: $page_width;
     margin: $page_margin;
-    padding: $page_padding;
+    padding: $page_padding ;
     overflow: auto;
     section {
-      width: 45%;
+      width: 55%;
       display: inline-block;
-      &:nth-child(2) { float: right; }
+      &:nth-child(2) { float: right; width: 35%; }
     }
   }
 }
@@ -210,7 +218,7 @@ hr {
 }
 
 @media (max-width: 900px) {
-  .header { margin: 1rem 0; }
+  .header { margin: 2rem 0 3rem; }
   .footer { margin-top: 1rem;}
   strong > img, .article-break {
     max-width: 100%;
@@ -219,8 +227,13 @@ hr {
 }
 
 @media (max-width: 500px) {
+  .title {
+    font-size: 2em;
+  }
   .archives span {
-    float: left;
+    float: none;
+    display: inline;
+    display: none;
   }
   .article-break {
     margin: 3rem 0;

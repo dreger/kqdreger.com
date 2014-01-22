@@ -610,32 +610,40 @@ table {
 h1, h2, h3, h4, h5, h6, p, blockquote, pre {
   margin-bottom: 1rem; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .article-meta {
   line-height: 1.1em; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    text-decoration: none; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a {
+    text-decoration: none;
+    color: #111; }
 
 h1 {
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 1.5rem; }
+
+h2 {
+  font-size: 1.25rem; }
+
+h3 {
+  font-size: 1.1rem; }
 
 .title {
   font-size: 2.5rem;
-  font-family: Avenir Next Condensed, Helvetica Neue, Segoe UI, sans;
-  text-transform: uppercase;
+  font-family: Avenir Next, Helvetica Neue, Segoe UI, sans;
   letter-spacing: 2px;
-  font-weight: normal; }
+  text-align: center; }
 
 .article-title {
-  font-weight: normal; }
+  font-weight: 600;
+  font-family: Avenir Next, Helvetica Neue, Segoe UI, sans; }
 
 .small-caps {
   font-size: .85rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Avenir Next Condensed, Helvetica Neue, Segoe UI, sans;
+  font-family: Avenir Next, Helvetica Neue, Segoe UI, sans;
   font-weight: bold; }
 
-.article-meta {
+.article-meta a {
   color: #cccccc; }
 
 /*
@@ -650,9 +658,10 @@ a {
   Page styles
 */
 body {
+  -webkit-font-smoothing: antialiased;
   font-size: 16px;
   font-family: Georgia, Times, serif;
-  line-height: 1.4em;
+  line-height: 1.65em;
   color: #222222; }
 
 .header {
@@ -661,8 +670,8 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 32rem;
-  padding: 1.5rem 1rem; }
+  max-width: 34rem;
+  padding: 2rem 1rem; }
 
 .article-break {
   text-align: center;
@@ -693,7 +702,7 @@ aside {
 .required {
   border-radius: 10px;
   outline: none;
-  font-family: Avenir Next Condensed, Helvetica Neue, Segoe UI, sans;
+  font-family: Avenir Next, Helvetica Neue, Segoe UI, sans;
   background-color: #fff;
   border: solid 3px #cccccc;
   padding: .5em 1em;
@@ -712,15 +721,16 @@ aside {
     padding: 0;
     list-style: none; }
   .footer .wrap {
-    max-width: 32rem;
+    max-width: 34rem;
     margin: 0 auto;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1rem;
     overflow: auto; }
     .footer .wrap section {
-      width: 45%;
+      width: 55%;
       display: inline-block; }
       .footer .wrap section:nth-child(2) {
-        float: right; }
+        float: right;
+        width: 35%; }
 
 img {
   max-width: 100%;
@@ -760,7 +770,7 @@ hr {
     margin-left: -15%; } }
 @media (max-width: 900px) {
   .header {
-    margin: 1rem 0; }
+    margin: 2rem 0 3rem; }
 
   .footer {
     margin-top: 1rem; }
@@ -769,8 +779,13 @@ hr {
     max-width: 100%;
     margin-left: 0; } }
 @media (max-width: 500px) {
+  .title {
+    font-size: 2em; }
+
   .archives span {
-    float: left; }
+    float: none;
+    display: inline;
+    display: none; }
 
   .article-break {
     margin: 3rem 0; } }

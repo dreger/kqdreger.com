@@ -4,7 +4,8 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         shell: {
             jekyllBuild: {
-                command: 'jekyll build'
+                command: 'rm -rf _site/*; jekyll build',
+                stdout: true
             },
             jekyllServe: {
                 command: 'jekyll serve'
@@ -26,17 +27,29 @@ module.exports = function(grunt) {
 
         watch: {
             files: [
-                '_src/_includes/*.html',
-                '_src/_layouts/*.html',
-                '_src/_posts/*.md',
-                '_src/_config.yml',
-                '_src/index.html',
                 '_src/public/scss/**/*'
             ],
-
             tasks: ['sass', 'shell:jekyllBuild'],
             options: {
                 interrupt: true,
+                atBegin: true,
+                livereload: true,
+            }
+        },
+
+
+
+        watch: {
+            files: [
+                '_src/_posts/*.md',
+                '_src/_includes/*.html',
+                '_src/_layouts/*.html',
+                '_src/_config.yml',
+                '_src/index.html',
+            ],
+            tasks: ['shell:jekyllBuild'],
+            options: {
+                interrupt: false,
                 atBegin: true,
                 livereload: true,
             }
