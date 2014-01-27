@@ -3,7 +3,7 @@
 # Set this to the root of your project
 http_path = "/"
 css_dir = "_src/public/css"
-sass_dir = "_src/public/sass"
+sass_dir = "_src/public/scss"
 # images_dir = "_src/public/images"
 # javascripts_dir = "public/javascripts"
 # output_style= :compact
