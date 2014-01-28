@@ -10,18 +10,22 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <body>
 {% include header.html %}
 <section class="wrapper">
+<section class="post">
 <article class="article">
 <h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 {% if page.link %}
 <a class="outgoing-anchor" href="{{ page.link }}">original source &rarr;</a>
 {% endif %}
+
 {{ content }}
 <p class="article-meta"><a href="{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
 
 </article>
 <section class="article-break">&#10005;&nbsp;&nbsp;&nbsp;&#10005;&nbsp;&nbsp;&nbsp;&#10005;</section>
-
 </section>
+</section>
+<div class="clear"></div>
+
 {% include footer.html %}
 </body>
 </html>

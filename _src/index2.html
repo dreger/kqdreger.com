@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+
+<!-- <p class="small-caps">Latest</p> -->
+{% for post in site.posts limit:8 %}
+<article class="article">
+<h1 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+{{ post.content }}
+<p class="article-meta"><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></p>
+</article>
+
+<section class="article-break">&#10005;&nbsp;&nbsp;&nbsp;&#10005;&nbsp;&nbsp;&nbsp;&#10005;</section>
+{% endfor %}
