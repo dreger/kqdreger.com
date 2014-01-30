@@ -7,7 +7,7 @@ $page_padding: 2rem 1rem;
 $header_footer_margin: 3rem;
 
 $color_copy: #222;
-$color_accent: rgba(102, 150, 134, 1.0);
+$color_accent: #ff0050;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, .article-meta {
 h1 {
   font-weight: normal;
   font-family: $sans;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -82,7 +82,7 @@ a {
   color: $color_accent;
   text-decoration: none;
   &:hover {
-    color: darken($color_accent, 16%);
+    color: darken($color_accent, 8%);
   }
 }
 
