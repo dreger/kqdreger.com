@@ -1,24 +1,23 @@
 @import '_normalize';
 @import '_pygments';
 
-$page_width: 46rem;
+$page_width: 29rem;
 $page_margin: 0 auto;
 $page_padding: 2rem 1rem;
 $header_footer_margin: 3rem;
 
 $color_copy: #222;
-$color_accent: #00aced;
+$color_accent: rgba(102, 150, 134, 1.0);
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
 $font_size: 16px;
 $sans: Avenir Next, Helvetica Neue, Segoe UI, sans;
-$serif:  $sans, Georgia, Times, serif;
+$serif:  $sans;
 
 /*
   Typography styles
 */
-
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre {
   margin-bottom: 1rem;
@@ -52,18 +51,10 @@ h3 {
 }
 
 .title {
-  font-size: 2rem;
-  font-family: $sans;
-  display: inline-block;
-  margin: 0;
-  padding: 4rem 1rem 1.25rem;
-  // letter-spacing: 1px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #fff;
-  background-color: #272b2e;
-  border-top: none;
-  &:hover { color: #fff; }
+  margin: 1.5rem 0 .5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  // text-transform: uppercase;
 }
 
 .article-title {
@@ -100,7 +91,6 @@ a {
 */
 
 html {
-  // -webkit-font-smoothing: antialiased;
   font-size: $font_size;
   line-height: 1.65em;
   font-family: $serif;
@@ -121,23 +111,20 @@ html {
 
 .header {
   margin: 0;
-  margin-bottom: $header_footer_margin;
-  // background-color: $color_faded_blue;
+  margin-top: 5rem;
   & .wrap {
     padding: 0 1rem 1rem;
   }
   img {
     width: 200px;
   }
-  a {
-    display: block;
-  }
+
   span {
     $header_color: #272b2e;
     display: block;
     float: left;
     width: 25%;
-    height: 36px;
+    height: 16px;
     background-color: $header_color;
     &:nth-child(2) { background-color: lighten($header_color, 08%); }
     &:nth-child(3) { background-color: lighten($header_color, 16%); }
@@ -166,13 +153,13 @@ aside {
   line-height: 1.65em;
   padding: .5rem 0;
   position: relative;
-    float: left;
-    padding: .5rem;
-    margin: .5rem 0;
-    margin-right: 1.5rem;
-    width: 220px;
-    margin-left: -180px;
-    text-align: right;
+  float: left;
+  padding: .5rem;
+  margin: .5rem 0;
+  margin-right: 1.5rem;
+  width: 220px;
+  margin-left: -200px;
+  text-align: right;
 }
 
 .wrapper {
@@ -183,7 +170,7 @@ aside {
 
 .content {
   max-width: $page_width * .65;
-  float: left;
+  margin: 0 auto;
 }
 
 .sidebar {
@@ -220,21 +207,18 @@ aside {
     text-align: right;
     margin: 0 .25rem;
     &:hover { color: $color_accent; }
-    // border: solid $color_faded 1px;
-    // border-radius: 50px 0 0 50px;
     &:nth-child(2) {
       text-align: left;
-      // border-radius: 0 50px 50px 0;
       border-left: none;
     }
   }
 }
 
 .article-break {
-  text-align: center;
+  text-align: left;
   color: $color_faded;
-  margin: 4rem 0;
-  font-size: 1.5rem;
+  margin: .5rem 0;
+  font-size: .8rem;
 }
 
 
@@ -243,9 +227,6 @@ aside {
   padding: 0;
   list-style: none;
   li {
-    // padding: .2rem 0;
-    // margin: 1rem 0;
-    // border-bottom: 1px dotted $color_faded;
     span {
       color: $color_faded;
     }
@@ -264,8 +245,6 @@ aside {
   display: block;
   &:focus {
     border-color: $color_accent;
-    // background-color: $color_links;
-    // color: #fff;
   }
 }
 
@@ -275,7 +254,6 @@ aside {
   background-color: $color_faded_blue;
   text-align: center;
   line-height: 1.65em;
-  // font-size: .8rem;
   ul {
     padding: 0;
     list-style: none;
@@ -297,9 +275,7 @@ hr {
 
 
 @media (max-width: 1040px) {
-  .sidebar { display: none; }
-  .content { float: none; margin: 0 auto; }
-  .post aside {
+  aside {
     position: relative;
     margin-left: 0;
     font-style: italic;
@@ -313,7 +289,7 @@ hr {
     padding: .5em 0;
   }
 
-  .post strong > img{
+  strong > img{
     max-width: 130%;
     margin-left: -15%;
   }
@@ -321,25 +297,18 @@ hr {
 
 @media (max-width: 900px) {
   .footer { margin-top: 3rem;}
-  .post strong > img, .article-break {
+  strong > img, .article-break {
     max-width: 100%;
     margin-left: 0;
   }
 }
 
 @media (max-width: 500px) {
-  .title {
-    display: block;
-    text-align: center;
-    padding: 2rem 0;
-  }
   .header {
-    margin-bottom: 0rem;
-    & .wrap { padding: 0; }
-    span { height: 50px; }
+    margin: 0rem;
   }
   .title {
-    font-size: 2em;
+    margin-top: 1rem;
   }
   .archives span {
     float: none;

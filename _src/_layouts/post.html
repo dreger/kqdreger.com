@@ -8,9 +8,8 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <html lang="en">
 {% include head.html %}
 <body>
-{% include header.html %}
 <section class="wrapper">
-<section class="post">
+{% include header.html %}
 <article class="article">
 <h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 {% if page.link %}
@@ -19,7 +18,6 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {{ content }}
 <p class="article-meta"><a href="{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
 </article>
-</section>
 
 <section class="pagination">
 {% if page.next %}<a href="{{ page.next.url }}">&larr; Previous</a>{% endif %}{% if page.previous %}<a href="{{ page.previous.url }}">Next &rarr;</a>{% endif %}
