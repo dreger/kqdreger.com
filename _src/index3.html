@@ -1,0 +1,19 @@
+
+---
+layout: default
+---
+
+<!-- <p>There are currently <strong>{{ site.posts | size }} items</strong> in the archives.</p> -->
+<ul class="archives">
+{% for post in site.posts limit: 20 %}
+<li value="{{ forloop.rindex0 }}">
+<span>{{ post.date | date: "%D:" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+<br>
+{{post.content | strip_html | truncate: 140}}
+</li>
+
+<div class="article-break">&bull;&nbsp;&bull;&nbsp;&bull;</div>
+{% endfor %}
+</ul>
+
+<p>Read more in <a href="/archives">the archives</a>.</p>
