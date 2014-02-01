@@ -313,7 +313,7 @@ h1 { font-weight: normal; font-family: Avenir Next, Helvetica Neue, Segoe UI, sa
 h2 { font-size: 1.25rem; margin-bottom: .25rem; }
 h2 + p { margin-top: 0rem; }
 
-h3 { font-size: 1.1rem; margin-bottom: .25rem; }
+h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: 2px; margin-top: 2rem; margin-bottom: .25rem; }
 h3 + p { margin-top: 0rem; }
 
 .title { margin: 1.5rem 0 .5rem; font-size: 1.5rem; font-weight: 600; }
@@ -326,14 +326,14 @@ h3 + p { margin-top: 0rem; }
 
 /* Link styles
 */
-a { color: #ff0050; text-decoration: none; }
+a { color: #ff0050; }
 a:hover { color: #d60043; }
 
 /* Page styles
 */
 html { font-size: 16px; line-height: 1.65em; font-family: Avenir Next, Helvetica Neue, Segoe UI, sans; color: #222222; }
 
-.wrap { max-width: 29rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
+.wrap { max-width: 32rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
 .wrap section { width: 55%; display: inline-block; }
 .wrap section:nth-child(2) { float: right; width: 35%; }
 
@@ -345,20 +345,22 @@ html { font-size: 16px; line-height: 1.65em; font-family: Avenir Next, Helvetica
 .header span:nth-child(3) { background-color: #4c545a; }
 .header span:nth-child(4) { background-color: #727e86; }
 
+blockquote { border-left: 5px solid #ff0050; margin-left: 1rem; padding-left: 1rem; }
+
 img { max-width: 100%; height: auto; border-radius: 5px; }
 
 strong > img { border: none; outline: none; max-width: 160%; margin-left: -30%; }
 
 aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-size: .9rem; line-height: 1.65em; padding: .5rem 0; position: relative; float: left; padding: .5rem; margin: .5rem 0; margin-right: 1.5rem; width: 220px; margin-left: -200px; text-align: right; }
 
-.wrapper { margin: 0 auto; max-width: 29rem; padding: 0 1rem; }
+.wrapper { margin: 0 auto; max-width: 32rem; padding: 0 1rem; }
 
-.content { max-width: 18.85rem; margin: 0 auto; }
+.content { max-width: 20.8rem; margin: 0 auto; }
 
-.sidebar { max-width: 8.7rem; font-size: .9rem; font-family: Avenir Next, Helvetica Neue, Segoe UI, sans; line-height: 1.65em; float: right; }
+.sidebar { max-width: 9.6rem; font-size: .9rem; font-family: Avenir Next, Helvetica Neue, Segoe UI, sans; line-height: 1.65em; float: right; }
 .sidebar ul { padding: 0; list-style: none; }
 
-.post { max-width: 21.75rem; margin: 0 auto; }
+.post { max-width: 24rem; margin: 0 auto; }
 
 .pagination { display: none; margin-top: 3rem; text-align: center; }
 .pagination a { margin: 0 auto; overflow: hidden; display: inline-block; color: #cccccc; width: 100px; padding: .25rem .5rem; text-transform: uppercase; letter-spacing: 1px; font-size: .85rem; text-align: right; margin: 0 .25rem; }
