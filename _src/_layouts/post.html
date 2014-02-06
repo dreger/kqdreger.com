@@ -5,7 +5,6 @@ Title: {{ page.title }}
 Author: Kyle Dreger
 Published on: {{ page.date | date: "%b %d, %Y" }}
 -->
-
 <html lang="en">
 {% include head.html %}
 <body>
@@ -17,9 +16,15 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <a class="outgoing-anchor" href="{{ page.link }}">original source &rarr;</a>
 {% endif %}
 {{ content }}
-<p class="article-meta">{{ page.date | date: "%b %d, %Y" }}</p>
+<p class="article-meta"><a href="{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
 </article>
-<section class="separator">&#10010;</section>
+
+<section class="pagination">
+{% if page.next %}<a href="{{ page.next.url }}">&larr; Previous</a>{% endif %}{% if page.previous %}<a href="{{ page.previous.url }}">Next &rarr;</a>{% endif %}
 </section>
+
+</section>
+<div class="clear"></div>
+{% include footer.html %}
 </body>
 </html>

@@ -1,21 +1,18 @@
 ---
 layout: default
 ---
+<ul class="archives">
+{% for post in site.posts limit: 20 %}
+<li value="{{ forloop.rindex0 }}">
+<span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
+<br>
+<a href="{{ post.url }}">{{ post.title }}</a>
+<br>
+{{post.content | strip_html | truncatewords: 50}}
+</li>
 
-
-<!-- <p class="small-caps">Latest</p> -->
-{% for post in site.posts limit:5 %}
-
-<article class="article">
-<h1 class="article-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-
-{% if post.link %}
-<a class="outgoing-anchor" href="{{ post.link }}">original source &rarr;</a>
-{% endif %}
-{{ post.content }}
-</article>
-
-<section class="article-break">&nbsp;</section>
+<div class="article-break">&bull;&nbsp;&bull;&nbsp;&bull;</div>
 {% endfor %}
+</ul>
 
-<section class="archives-link"><h2><a href="/archives">Read the Archives</a></h2></section>
+<p>Read more in <a href="/archives">the archives</a>.</p>
