@@ -1,12 +1,14 @@
 ---
-layout: post
+layout: default
 ---
 <ul class="archives">
 {% for post in site.posts limit: 20 %}
 <li value="{{ forloop.rindex0 }}">
-<span>{{ post.date | date: "%D:" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+<span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
 <br>
-{{post.content | strip_html | truncate: 140}}
+<a href="{{ post.url }}">{{ post.title }}</a>
+<br>
+{{post.content | strip_html | truncatewords: 50}}
 </li>
 
 <div class="article-break">&bull;&nbsp;&bull;&nbsp;&bull;</div>

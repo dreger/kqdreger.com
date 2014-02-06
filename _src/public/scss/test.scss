@@ -12,7 +12,7 @@ $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
 $font_size: 16px;
-$sans: Avenir Next, Helvetica Neue, Segoe UI, sans;
+$sans: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans;
 $serif:  $sans;
 
 /*
@@ -47,9 +47,10 @@ h2 {
 h3 {
   font-size: .9rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-top: 2rem;
-  margin-bottom: .25rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
   + p { margin-top: 0rem; }
 }
 
@@ -71,6 +72,20 @@ h3 {
   letter-spacing: 2px;
   font-family: $sans;
   font-weight: bold;
+}
+
+codes {
+  font-size: .9rem;
+  font-family: "Anonymous Pro", "Menlo", monospace;
+  border: dotted 1px $color_faded;
+  border-radius: 40px;
+  padding: .2rem .5rem;
+}
+
+pre {
+  line-height: 1rem;
+  font-size: .8rem;
+  font-family:  Menlo, monospace;
 }
 
 .article-meta {
@@ -117,21 +132,6 @@ html {
   margin-top: 5rem;
   & .wrap {
     padding: 0 1rem 1rem;
-  }
-  img {
-    width: 200px;
-  }
-
-  span {
-    $header_color: #272b2e;
-    display: block;
-    float: left;
-    width: 25%;
-    height: 16px;
-    background-color: $header_color;
-    &:nth-child(2) { background-color: lighten($header_color, 08%); }
-    &:nth-child(3) { background-color: lighten($header_color, 16%); }
-    &:nth-child(4) { background-color: lighten($header_color, 32%); }
   }
 }
 
@@ -237,7 +237,10 @@ aside {
   list-style: none;
   li {
     span {
+      text-transform: uppercase;
       color: $color_faded;
+      letter-spacing: 1px;
+      font-size: .9rem;
     }
   }
 }
@@ -260,7 +263,8 @@ aside {
 .footer {
   margin-top: $header_footer_margin;
   color: $color_faded;
-  background-color: $color_faded_blue;
+  border-top: 1px solid lighten($color_faded, 10%);
+  // background-color: $color_faded_blue;
   text-align: center;
   line-height: 1.65em;
   ul {
@@ -319,11 +323,11 @@ hr {
   .title {
     margin-top: 1rem;
   }
-  .archives span {
-    float: none;
-    display: inline;
-    display: none;
-  }
+  // .archives span {
+  //   float: none;
+  //   display: inline;
+  //   display: none;
+  // }
   .article-break {
     margin: 1rem 0;
   }
