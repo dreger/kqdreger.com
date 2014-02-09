@@ -1,7 +1,7 @@
 @import '_normalize';
 @import '_pygments';
 
-$page_width: 32rem;
+$page_width: 30rem;
 $page_margin: 0 auto;
 $page_padding: 2rem 1rem;
 $header_footer_margin: 3rem;
@@ -11,8 +11,8 @@ $color_accent: #ff0050;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
-$font_size: 16px;
-$sans: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans;
+$font_size: 20px;
+$sans: Helvetica Neue, Helvetica, Segoe UI, Arial, sans;
 $serif:  $sans;
 
 /*
@@ -35,6 +35,7 @@ h1 {
   font-weight: normal;
   font-family: $sans;
   font-size: 2rem;
+  margin: 1rem 0;
 }
 
 h2 {
@@ -48,7 +49,7 @@ h3 {
   font-size: .9rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-weight: bold;
   margin-bottom: .5rem;
   + p { margin-top: 0rem; }
@@ -111,6 +112,7 @@ a {
 html {
   font-size: $font_size;
   line-height: 1.65em;
+  line-height: 1.4em;
   font-family: $serif;
   color: $color_copy;
 }

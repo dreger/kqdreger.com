@@ -308,19 +308,19 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre { margin-bottom: 1rem; }
 h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; color: #111; }
 
-h1 { font-weight: normal; font-family: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans; font-size: 2rem; }
+h1 { font-weight: normal; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; font-size: 2rem; margin: 1rem 0; }
 
 h2 { font-size: 1.25rem; margin-bottom: .25rem; }
 h2 + p { margin-top: 0rem; }
 
-h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 2rem; font-weight: bold; margin-bottom: .5rem; }
+h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 1.5rem; font-weight: bold; margin-bottom: .5rem; }
 h3 + p { margin-top: 0rem; }
 
 .title { margin: 1.5rem 0 .5rem; font-size: 1.5rem; font-weight: 600; }
 
-.article-title { font-weight: 600; font-family: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans; }
+.article-title { font-weight: 600; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; }
 
-.small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans; font-weight: bold; }
+.small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; font-weight: bold; }
 
 codes { font-size: .9rem; font-family: "Anonymous Pro", "Menlo", monospace; border: dotted 1px #cccccc; border-radius: 40px; padding: .2rem .5rem; }
 
@@ -335,9 +335,9 @@ a:hover { color: #d60043; }
 
 /* Page styles
 */
-html { font-size: 16px; line-height: 1.65em; font-family: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans; color: #222222; }
+html { font-size: 20px; line-height: 1.65em; line-height: 1.4em; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; color: #222222; }
 
-.wrap { max-width: 32rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
+.wrap { max-width: 30rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
 .wrap section { width: 55%; display: inline-block; }
 .wrap section:nth-child(2) { float: right; width: 35%; }
 
@@ -352,14 +352,14 @@ strong > img { border: none; outline: none; max-width: 160%; margin-left: -30%; 
 
 aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-size: .9rem; line-height: 1.65em; padding: .5rem 0; position: relative; float: left; padding: .5rem; margin: .5rem 0; margin-right: 1.5rem; width: 220px; margin-left: -200px; text-align: right; }
 
-.wrapper { margin: 0 auto; max-width: 32rem; padding: 0 1rem; }
+.wrapper { margin: 0 auto; max-width: 30rem; padding: 0 1rem; }
 
-.content { max-width: 20.8rem; margin: 0 auto; }
+.content { max-width: 19.5rem; margin: 0 auto; }
 
-.sidebar { max-width: 9.6rem; font-size: .9rem; font-family: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans; line-height: 1.65em; float: right; }
+.sidebar { max-width: 9rem; font-size: .9rem; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; line-height: 1.65em; float: right; }
 .sidebar ul { padding: 0; list-style: none; }
 
-.post { max-width: 24rem; margin: 0 auto; }
+.post { max-width: 22.5rem; margin: 0 auto; }
 
 .pagination { display: none; margin-top: 3rem; text-align: center; }
 .pagination a { margin: 0 auto; overflow: hidden; display: inline-block; color: #cccccc; width: 100px; padding: .25rem .5rem; text-transform: uppercase; letter-spacing: 1px; font-size: .85rem; text-align: right; margin: 0 .25rem; }
@@ -371,7 +371,7 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 .archives { padding: 0; list-style: none; }
 .archives li span { text-transform: uppercase; color: #cccccc; letter-spacing: 1px; font-size: .9rem; }
 
-.required { border-radius: 10px; outline: none; font-family: Gotham Book, Avenir Next, Helvetica Neue, Segoe UI, sans; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
+.required { border-radius: 10px; outline: none; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
 .required:focus { border-color: #ff0050; }
 
 .footer { margin-top: 3rem; color: #cccccc; border-top: 1px solid #e6e6e6; text-align: center; line-height: 1.65em; }
