@@ -348,9 +348,9 @@ blockquote { border-left: 5px solid #cccccc; margin-left: 1rem; padding-left: 1r
 
 img { max-width: 100%; height: auto; border-radius: 5px; }
 
-strong > img { border: none; outline: none; max-width: 160%; margin-left: -30%; }
+strong > img { border: none; outline: none; max-width: 190%; margin-left: -45%; }
 
-aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-size: .9rem; line-height: 1.65em; padding: .5rem 0; position: relative; float: left; padding: .5rem; margin: .5rem 0; margin-right: 1.5rem; width: 220px; margin-left: -200px; text-align: right; }
+aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-size: .8rem; line-height: 1.4em; padding: .5rem 0; position: relative; float: left; margin-right: 1.5rem; width: 250px; margin-left: -280px; text-align: right; }
 
 .wrapper { margin: 0 auto; max-width: 30rem; padding: 0 1rem; }
 
@@ -382,8 +382,8 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 hr { border: 2px solid #cccccc; max-width: 40%; margin: 2rem auto; }
 
 /* Media queries */
-@media (max-width: 1040px) { aside { position: relative; margin-left: 0; font-style: italic; max-width: inherit; margin-top: 0; float: none; font-size: .85rem; text-align: inherit; width: auto; line-height: inherit; padding: .5em 0; }
-  strong > img { max-width: 130%; margin-left: -15%; } }
+@media (max-width: 1200px) { aside { position: relative; margin-left: 0; font-style: italic; max-width: inherit; margin-top: 0; float: none; font-size: .9rem; text-align: inherit; width: auto; line-height: inherit; padding: .5em 0; }
+  strong > img { max-width: 140%; margin-left: -20%; } }
 @media (max-width: 900px) { .footer { margin-top: 3rem; }
   strong > img, .article-break { max-width: 100%; margin-left: 0; } }
 @media (max-width: 500px) { .header { margin: 0rem; }

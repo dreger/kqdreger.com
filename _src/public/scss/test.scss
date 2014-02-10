@@ -113,6 +113,7 @@ html {
   font-size: $font_size;
   line-height: 1.65em;
   line-height: 1.4em;
+  // TODO
   font-family: $serif;
   color: $color_copy;
 }
@@ -153,23 +154,23 @@ img {
 strong > img {
   border: none;
   outline: none;
-  max-width: 160%;
-      margin-left: -30%;
+  max-width: 190%;
+  margin-left: -45%;
 }
 
 aside {
   border-top: 1px dotted $color_faded;
   border-bottom: 1px dotted $color_faded;
-  font-size: .9rem;
-  line-height: 1.65em;
+  font-size: .8rem;
+  line-height: 1.4em;
   padding: .5rem 0;
   position: relative;
   float: left;
-  padding: .5rem;
-  margin: .5rem 0;
+  // padding: .5rem;
+  // margin: .5rem 0;
   margin-right: 1.5rem;
-  width: 220px;
-  margin-left: -200px;
+  width: 250px;
+  margin-left: -280px;
   text-align: right;
 }
 
@@ -289,7 +290,7 @@ hr {
 /* Media queries */
 
 
-@media (max-width: 1040px) {
+@media (max-width: 1200px) {
   aside {
     position: relative;
     margin-left: 0;
@@ -297,7 +298,7 @@ hr {
     max-width: inherit;
     margin-top: 0;
     float: none;
-    font-size: .85rem;
+    font-size: .9rem;
     text-align: inherit;
     width: auto;
     line-height: inherit;
@@ -305,8 +306,8 @@ hr {
   }
 
   strong > img{
-    max-width: 130%;
-    margin-left: -15%;
+    max-width: 140%;
+    margin-left: -20%;
   }
 }
 

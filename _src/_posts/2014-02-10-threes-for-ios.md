@@ -16,4 +16,4 @@ Also interesting to read, Ben Kuchera, over on Polygon, has the backstory to Thr
 
 > "Every time I added anything like that, it always felt unwieldy and unnatural. It just didn’t want to be there," Vollmer explained. "Every time I took that stuff out it felt like a good game again."
 
-Threes! is, cutely, 33.333333% off for a limited time, which puts it [at only $1.99 on the App Store](https://itunes.apple.com/app/threes!/id779157948?mt=8). If you like puzzle games in the same vein as [Letterpress](http://www.atebits.com/letterpress/) and [SpellTower](http://www.spelltower.com), I have a feeling you are in for a treat.
+Threes! is, cutely, 33.333333% off for a limited time, which puts it [at only $1.99 on the App Store](https://itunes.apple.com/us/app/threes!/id779157948?mt=8&uo=4&at=10ltSa) [affiliate link]. If you like puzzle games in the same vein as [Letterpress](http://www.atebits.com/letterpress/) and [SpellTower](http://www.spelltower.com), I have a feeling you are in for a treat.
