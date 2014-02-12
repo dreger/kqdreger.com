@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre { margin-bottom: 1rem; }
 h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; color: #111; }
 
-h1 { font-weight: normal; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; font-size: 2rem; margin: 1rem 0; }
+h1 { font-weight: normal; font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif; font-size: 2rem; margin: 1rem 0; }
 
 h2 { font-size: 1.25rem; margin-bottom: .25rem; }
 h2 + p { margin-top: 0rem; }
@@ -316,13 +316,13 @@ h2 + p { margin-top: 0rem; }
 h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 1.5rem; font-weight: bold; margin-bottom: .5rem; }
 h3 + p { margin-top: 0rem; }
 
+em { font-family: Helvetica; }
+
 .title { margin: 1.5rem 0 .5rem; font-size: 1.5rem; font-weight: 600; }
 
-.article-title { font-weight: 600; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; }
+.article-title { font-weight: 600; font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif; }
 
-.small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; font-weight: bold; }
-
-codes { font-size: .9rem; font-family: "Anonymous Pro", "Menlo", monospace; border: dotted 1px #cccccc; border-radius: 40px; padding: .2rem .5rem; }
+.small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif; font-weight: bold; }
 
 pre { line-height: 1rem; font-size: .8rem; font-family: Menlo, monospace; }
 
@@ -335,7 +335,7 @@ a:hover { color: #d60043; }
 
 /* Page styles
 */
-html { font-size: 20px; line-height: 1.65em; line-height: 1.4em; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; color: #222222; }
+html { font-size: 20px; line-height: 1.65em; line-height: 1.5em; font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif; color: #222222; }
 
 .wrap { max-width: 30rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
 .wrap section { width: 55%; display: inline-block; }
@@ -356,7 +356,7 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 
 .content { max-width: 19.5rem; margin: 0 auto; }
 
-.sidebar { max-width: 9rem; font-size: .9rem; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; line-height: 1.65em; float: right; }
+.sidebar { max-width: 9rem; font-size: .9rem; font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif; line-height: 1.65em; float: right; }
 .sidebar ul { padding: 0; list-style: none; }
 
 .post { max-width: 22.5rem; margin: 0 auto; }
@@ -371,7 +371,7 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 .archives { padding: 0; list-style: none; }
 .archives li span { text-transform: uppercase; color: #cccccc; letter-spacing: 1px; font-size: .9rem; }
 
-.required { border-radius: 10px; outline: none; font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
+.required { border-radius: 10px; outline: none; font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
 .required:focus { border-color: #ff0050; }
 
 .footer { margin-top: 3rem; color: #cccccc; border-top: 1px solid #e6e6e6; text-align: center; line-height: 1.65em; }
