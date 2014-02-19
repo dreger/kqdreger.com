@@ -303,7 +303,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* Literal.Number.Integer.Long */
 /* Typography styles
 */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre { margin-bottom: 1rem; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio { margin-bottom: 1rem; }
 
 h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; border: none; color: #111; }
@@ -350,6 +350,8 @@ html { font-size: 20px; line-height: 1.65em; line-height: 1.5em; font-family: "A
 
 blockquote { border-left: 3px solid #cccccc; margin-left: 1rem; padding-left: 1rem; }
 
+audio { display: block; width: 80%; }
+
 img { max-width: 100%; height: auto; border-radius: 5px; }
 
 strong > img { border: none; outline: none; max-width: 190%; margin-left: -45%; }
@@ -372,8 +374,6 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 
 .article-break { text-align: left; color: #cccccc; margin: .5rem 0; font-size: .8rem; }
 
-li { margin: .25rem 0; }
-
 .archives { padding: 0; list-style: none; }
 .archives li { margin: .25rem 0; }
 .archives li span { text-transform: uppercase; color: #cccccc; letter-spacing: 1px; font-size: .9rem; }
@@ -392,9 +392,8 @@ hr { border: 2px solid #cccccc; max-width: 40%; margin: 2rem auto; }
 @media (max-width: 1200px) { aside { position: relative; margin-left: 0; font-style: italic; max-width: inherit; margin-top: 0; float: none; font-size: .9rem; text-align: inherit; width: auto; line-height: inherit; padding: .5em 0; }
   strong > img { max-width: 140%; margin-left: -20%; } }
 @media (max-width: 900px) { .footer { margin-top: 3rem; }
+  .footer a { display: block; width: 70%; margin: 0 auto; text-decoration: none; border: solid 3px #cccccc; padding: .25rem .5rem; border-radius: 50px; }
   strong > img, .article-break { max-width: 100%; margin-left: 0; } }
 @media (max-width: 500px) { .header { margin: 0rem; }
   .title { margin-top: 1rem; }
-  .article-break { margin: 1rem 0; }
-  .archives li { margin: 1rem 0; }
-  .archives span { display: none; } }
+  .archives li { margin: 0; } }

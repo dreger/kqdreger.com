@@ -20,7 +20,7 @@ $serif:  $sans;
   Typography styles
 */
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre {
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio{
   margin-bottom: 1rem;
 }
 
@@ -154,6 +154,11 @@ blockquote {
   padding-left: 1rem;
 }
 
+audio {
+  display: block;
+  width: 80%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -240,10 +245,6 @@ aside {
   font-size: .8rem;
 }
 
-li {
-  margin: .25rem 0;
-}
-
 .archives {
   padding: 0;
   list-style: none;
@@ -321,7 +322,17 @@ hr {
 }
 
 @media (max-width: 900px) {
-  .footer { margin-top: 3rem;}
+  .footer {
+    a { display: block;
+        width: 70%;
+        margin: 0 auto;
+        text-decoration: none;
+        border: solid 3px $color_faded;
+        padding: .25rem .5rem;
+        border-radius: 50px;
+      }
+    margin-top: 3rem;
+  }
   strong > img, .article-break {
     max-width: 100%;
     margin-left: 0;
@@ -335,15 +346,10 @@ hr {
   .title {
     margin-top: 1rem;
   }
-  .article-break {
-    margin: 1rem 0;
-  }
+
   .archives {
     li {
-      margin: 1rem 0;
-    }
-    span {
-      display: none;
+      margin: 0;
     }
   }
 }
