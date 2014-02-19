@@ -3,6 +3,7 @@ layout: default
 ---
 <ul class="archives">
 {% for post in site.posts limit: 20 %}
+{% unless post.layout == 'post-log' %}
 <li value="{{ forloop.rindex0 }}">
 <span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
 <br>
@@ -12,6 +13,7 @@ layout: default
 </li>
 
 <div class="article-break">&bull;&nbsp;&bull;&nbsp;&bull;</div>
+{% endunless %}
 {% endfor %}
 </ul>
 

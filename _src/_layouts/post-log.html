@@ -1,0 +1,28 @@
+<!doctype html>
+
+<!--
+Title: {{ page.title }}
+Author: Kyle Dreger
+Published on: {{ page.date | date: "%b %d, %Y" }}
+-->
+<html lang="en">
+{% include head.html %}
+<body class="log">
+<section class="wrapper">
+{% include header-log.html %}
+<article class="article">
+<h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<audio controls="controls" preload="preload" src="{{site.domain}}/log/audio/{{ page.audio }}">
+  <source src="{{site.domain}}/log/audio/{{ page.audio }}" type="audio/mpeg">
+</audio>
+<p><a href="{{site.domain}}/{{ page.audio }}">Download here</a></p>
+
+{{ content }}
+<p class="article-meta"><a href="{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
+</article>
+
+</section>
+<div class="clear"></div>
+{% include footer.html %}
+</body>
+</html>

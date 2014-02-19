@@ -3,6 +3,8 @@ title: My Presentation on Mobile Applications
 date: 2014-02-17 17:09
 layout: post
 ---
+__Update:__ The _Alliance Review_ has posted [the online version of the article](http://www.the-review.com/local%20news/2014/02/15/chamber-seminar-focuses-on-mobile-technology) that covered my presentation.
+
 Whew, last week was packed for me. If you noticed the irregular publishing schedule, I apologize. Let me show you what took up most of my time.
 
 About three months ago, I was asked by my university's Office of Marketing to create a presentation about mobile applications. The audience would be a mix of business- and marketing-focused professionals, and my job was to both educate and advise as to the current state of mobile applications.

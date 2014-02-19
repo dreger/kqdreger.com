@@ -15,8 +15,8 @@ layout: nil
 {% for post in site.posts limit:20 %}
 {% if post.date %}
 <entry>
-   <title>{{ post.title }}</title>
-   {% if post.link %}<link href="{{ post.link }}"/>{% else %}<link href="{{site.domain}}{{ post.url }}"/>{% endif %}
+   <title>{% if post.layout == 'post-log' %}The Log: {% endif %}{{ post.title }}</title>
+   <link href="{{site.domain}}{{ post.url }}"/>
    <published>{{ post.date | date_to_xmlschema }}</published>
    <id>{{ site.domain }}{{ post.id }}</id>
    <author>

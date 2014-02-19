@@ -8,6 +8,7 @@ $header_footer_margin: 3rem;
 
 $color_copy: #222;
 $color_accent: #ff0050;
+$color_accent_log: #00aced;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
@@ -99,6 +100,18 @@ a {
   color: $color_accent;
   &:hover {
     color: darken($color_accent, 8%);
+  }
+}
+
+.log {
+  a {
+    color: $color_accent_log;
+    &:hover {
+      color: darken($color_accent_log, 8%);
+    }
+  }
+  .article-title {
+    a { color: #111; }
   }
 }
 
@@ -227,12 +240,15 @@ aside {
   font-size: .8rem;
 }
 
-
+li {
+  margin: .25rem 0;
+}
 
 .archives {
   padding: 0;
   list-style: none;
   li {
+    margin: .25rem 0;
     span {
       text-transform: uppercase;
       color: $color_faded;
@@ -321,6 +337,14 @@ hr {
   }
   .article-break {
     margin: 1rem 0;
+  }
+  .archives {
+    li {
+      margin: 1rem 0;
+    }
+    span {
+      display: none;
+    }
   }
 }
 

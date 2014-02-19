@@ -333,6 +333,10 @@ pre { line-height: 1rem; font-size: .8rem; font-family: Menlo, monospace; }
 a { color: #ff0050; }
 a:hover { color: #d60043; }
 
+.log a { color: #00aced; }
+.log a:hover { color: #008ec4; }
+.log .article-title a { color: #111; }
+
 /* Page styles
 */
 html { font-size: 20px; line-height: 1.65em; line-height: 1.5em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; color: #222222; }
@@ -368,7 +372,10 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 
 .article-break { text-align: left; color: #cccccc; margin: .5rem 0; font-size: .8rem; }
 
+li { margin: .25rem 0; }
+
 .archives { padding: 0; list-style: none; }
+.archives li { margin: .25rem 0; }
 .archives li span { text-transform: uppercase; color: #cccccc; letter-spacing: 1px; font-size: .9rem; }
 
 .required { border-radius: 50px; outline: none; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
@@ -388,4 +395,6 @@ hr { border: 2px solid #cccccc; max-width: 40%; margin: 2rem auto; }
   strong > img, .article-break { max-width: 100%; margin-left: 0; } }
 @media (max-width: 500px) { .header { margin: 0rem; }
   .title { margin-top: 1rem; }
-  .article-break { margin: 1rem 0; } }
+  .article-break { margin: 1rem 0; }
+  .archives li { margin: 1rem 0; }
+  .archives span { display: none; } }
