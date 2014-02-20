@@ -12,7 +12,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include header-log.html %}
 <article class="article">
 <h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-<p class="article-meta">Recorded on {{ page.date | date: "%B %d, %Y" }} &mdash; <a href="{{site.domain}}/{{ page.audio }}">Download here</a> ({{ page.audio_size }})</p>
+<p>Recorded on {{ page.date | date: "%B %d, %Y" }} &mdash; <a href="{{site.domain}}/log/audio/{{ page.audio }}">Download here</a> ({{ page.audio_size }})</p>
 
 <audio controls="controls"  src="{{site.domain}}/log/audio/{{ page.audio }}">
   <source src="{{site.domain}}/log/audio/{{ page.audio }}" type="audio/mpeg">
