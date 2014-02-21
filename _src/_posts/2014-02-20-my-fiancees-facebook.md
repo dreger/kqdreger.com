@@ -5,7 +5,7 @@ layout: post-log
 audio: 2014-02-20-2205.mp3
 audio_size: 22.6MB
 ---
-I was very pleased to have Emily Mariani, my fiancee, on the show today. Emily and I talked about Facebook Paper, the Whatsapp acquisition, Flappy Bird and more.
+I was very pleased to have Emily Mariani, my fiancee, on the show today. Emily and I talk about Facebook Paper, the $19 billion acquisition of WhatsApp, Flappy Bird and my B+ in Geology.
 
 ### Show notes
 - [Facebook Paper](https://www.facebook.com/paper)
