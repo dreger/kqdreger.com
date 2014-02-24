@@ -7,14 +7,14 @@ $page_padding: 2rem 1rem;
 $header_footer_margin: 3rem;
 
 $color_copy: #222;
-$color_accent: #ff0050;
+$color_accent: #444;
 $color_accent_log: #00aced;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
-$font_size: 20px;
+$font_size: 18px;
 $sans: 'Avenir Next', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
-$serif:  $sans;
+$serif:  Georgia, serif;
 
 /*
   Typography styles
@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio{
 
 h1, h2, h3, h4, h5, h6, .article-meta {
   line-height: 1.1em;
+  font-family: $sans;
   a {
     text-decoration: none;
     border: none;
@@ -35,9 +36,13 @@ h1, h2, h3, h4, h5, h6, .article-meta {
 
 h1 {
   font-weight: normal;
-  font-family: $sans;
   font-size: 2rem;
-  margin: 1rem 0;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  font-family: $serif;
+  + p {
+    margin-top: 0;
+  }
 }
 
 h2 {
@@ -53,25 +58,21 @@ h3 {
   letter-spacing: 1px;
   margin-top: 1.5rem;
   font-weight: bold;
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
   + p { margin-top: 0rem; }
-}
-
-em {
-  font-family: 'Avenir Next', Helvetica;
 }
 
 .title {
   margin: 1.5rem 0 .5rem;
+  font-family: $sans;
   font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .article-title {
   font-weight: 400;
-  font-family: $sans;
 }
 
 .small-caps {
@@ -262,10 +263,10 @@ aside {
 .index {
   @extend .archives;
   a {
-    text-transform: uppercase;
+    // text-transform: capitalize;
     font-weight: bold;
     text-decoration: none;
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
   }
 }
 

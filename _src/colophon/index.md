@@ -6,9 +6,9 @@ title: Colophon
 ![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
 <small>Photo credit Sarah and Chris Durr.</small>
 
-This is a small webcolumn that focuses on how design can be applied to writing, technology, and craft. Made in Ohio, made on a Mac. Written daily-ish by Kyle Dreger.
+This is a small webcolumn, [and podcast](/log), that focuses on how design can be applied to writing, technology, and craft. Made in Ohio, made on a Mac. Written daily-ish by Kyle Dreger.
 
-Please send all comments and correspondence to [Twitter @kyledreger](http://twitter.com/kyledreger) or email: <dregerkq@mountunion.edu>.
+Please send all comments and correspondence to [@kyledreger](http://twitter.com/kyledreger) or email: <dregerkq@mountunion.edu>.
 
 ### Conflicts of Interest
 I do not own any stock or other investments in any of the companies I write about.
