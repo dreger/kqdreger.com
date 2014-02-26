@@ -14,5 +14,6 @@ Thank you for being with me on the journey so far, and here's to another chapter
 Thanks for reading _and_ listening,<br>
 KD
 
-### Footnotes
+---
+
 1. Although I like "The Log" &mdash; it hearkens back to the days of a "captain's log" &mdash; I'm still toying with the final name for the podcast. Any thoughts?

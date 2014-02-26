@@ -2,19 +2,14 @@
 layout: default
 ---
 <ul class="index">
-{% for post in site.posts limit: 20 %}
-{% unless post.layout == 'post-log' %}
-<li value="{{ forloop.rindex0 }}">
-<span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
-<br>
-<a href="{{ post.url }}">{{ post.title }}</a>
-<br>
+{% for post in site.posts limit: 20 %}{% unless post.layout == 'post-log' %}
+<li>
+<a href="{{ post.url }}">{{ post.title }}</a><br>
 {{post.content | strip_html | truncatewords: 50}}
+<br>
+<span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
 </li>
-
-<div class="article-break">&bull;&nbsp;&bull;&nbsp;&bull;</div>
-{% endunless %}
-{% endfor %}
+{% endunless %}{% endfor %}
 </ul>
 
 <p>Read more in <a href="/archives">the archives</a>.</p>

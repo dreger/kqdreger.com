@@ -1,7 +1,6 @@
 # standard jekyll configuration
 source:         ./_src
 destination:    ./_site
-permalink:      /archives/:title.html
 pygments:       true
 markdown:       rdiscount
 rdiscount:
@@ -10,7 +9,6 @@ rdiscount:
 # gems: [permalinkrewriter]
 # paginate: 1
 # timezone:       nil
-
 # future:         true
 # show_drafts:    false
 pygments:       true
