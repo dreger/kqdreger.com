@@ -132,6 +132,6 @@ I haven't tested the Android set up, but [this tutorial from UCSanDiego](http://
 
 ### Wrap-up
 
-Hopefully one of the above instructions worked for you. If not, I'd recommend taking your email client and laptop / phone / tablet down to Mount's IT department and having them set it up for you. If you have any comments, corrections or questions, feel free to shoot me an email at <dregerkq@mountunion.edu>. Cheers, everyone.
+Hopefully one of the above instructions worked for you. If not, I'd recommend taking your email client and laptop / phone / tablet down to Mount's IT department and having them set it up for you. If you have any comments, corrections or questions, feel free to [shoot me an email](/colophon). Cheers, everyone.
 
 You should follow me on twitter [here](http://twitter.com/dreger).

@@ -1,9 +1,11 @@
 ---
-title: Let's Talk About Apps
-date: 2014-02-19 23:09
 layout: post-log
-audio: 2014-02-19-2309.mp3
-audio_size: 12.1MB
+date: 2014-02-19 23:09
+title: Episode 1 - Let's Talk About Apps
+duration: 11:12
+length: 12099920
+file: 2014-02-19-2309.mp3
+size: 12.1MB
 ---
 In this episode, I talk about some of the apps I'm using today and why I enjoy them. Finally, I explain some of my rational behind choosing _good_ apps, and touch on why sticking with a tool you know might be better than using the newest app on the App Store.
 

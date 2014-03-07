@@ -1,26 +1,27 @@
-@import '_normalize';
-@import '_pygments';
+@import "_normalize";
+@import "_pygments";
+@import "_bigfoot-default";
 
-$page_width: 30rem;
+$page_width: 32rem;
 $page_margin: 0 auto;
 $page_padding: 2rem 1rem;
 $header_footer_margin: 3rem;
 
 $color_copy: #222;
-$color_accent: #444;
+$color_accent: #333;
 $color_accent_log: #00aced;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
 $font_size: 18px;
-$sans:  'Avenir Next', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+$sans: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 $serif:  $sans;
 
 /*
   Typography styles
 */
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio{
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist{
   margin-bottom: 1rem;
 }
 
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, h6, .article-meta {
 
 h1 {
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: .5rem;
   margin-top: 0;
   + p {
@@ -46,7 +47,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   margin-bottom: .25rem;
   + p {
     margin-top: 0rem;
@@ -59,14 +61,11 @@ h3 {
   margin-top: 1.5rem;
   font-weight: bold;
   margin-bottom: .25rem;
-  padding: .25rem 0;
-  padding-left: .5rem;
-  border-left: 5px solid $color_faded_blue;
   + p { margin-top: 0rem; }
 }
 
 .title {
-  margin: 1.5rem 0 .75rem;
+  margin: 1.5rem 0 1rem;
   font-family: $sans;
   font-size: 1rem;
   letter-spacing: 1px;
@@ -126,7 +125,6 @@ a {
 
 html {
   font-size: $font_size;
-  line-height: 1.65em;
   line-height: 1.4em;
   font-family: $serif;
   color: $color_copy;
@@ -312,6 +310,10 @@ hr {
   margin: 2rem auto;
   + ol {
     font-size: .85rem;
+    line-height: 1.4em;
+    li {
+      margin: .5rem 0;
+    }
   }
 }
 
@@ -358,4 +360,3 @@ hr {
     margin-top: 1rem;
   }
 }
-
