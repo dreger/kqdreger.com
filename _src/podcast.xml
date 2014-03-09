@@ -23,11 +23,11 @@ layout: nil
 
 <itunes:image href="{{site.domain}}/log/assets/itunes.jpg" />
 <itunes:category text="Technology" />
-<itunes:category text="Society &amp; Culture" />
+<itunes:category text="Podcasting" />
 
 <!-- <itunes:new-feed-url>http://{{ site.domain }}/podcast.xml</itunes:new-feed-url> -->
 
-{% for post in site.posts limit:10 %}
+{% for post in site.posts %}
 {% if post.layout == 'post-log' %}
 
 <item>
@@ -44,7 +44,6 @@ layout: nil
 </item>
 {% endif %}
 {% endfor %}
-
 </channel>
 
 </rss>

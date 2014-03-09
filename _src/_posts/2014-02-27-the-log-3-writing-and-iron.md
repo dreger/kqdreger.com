@@ -1,7 +1,7 @@
 ---
 layout: post-log
 date: 2014-02-27 20:31
-title: Episode 3 - Sharpening Iron and Pencils
+title: 003 - Sharpening Iron and Pencils
 duration: 11:16
 length: 9471342
 file: 2014-02-27-2031.mp3

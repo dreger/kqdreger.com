@@ -441,6 +441,8 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 .index li { margin-bottom: 1.5rem; }
 .index a { font-weight: bold; text-decoration: none; }
 
+.podcast li { margin-bottom: .5rem; }
+
 .required { border-radius: 50px; outline: none; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
 .required:focus { border-color: #333333; }
 
@@ -459,4 +461,5 @@ hr + ol li { margin: .5rem 0; }
 @media (max-width: 900px) { .footer { margin-top: 3rem; }
   strong > img, .article-break { max-width: 100%; margin-left: 0; } }
 @media (max-width: 500px) { .header { margin: 0rem; }
-  .title { margin-top: 1rem; } }
+  .title { margin-top: 1rem; }
+  .index span, .archives span, .index span { display: block; } }

@@ -1,7 +1,7 @@
 ---
 layout: post-log
 date: 2014-02-20 22:05
-title: "Episode 2 - My Fiancee's Facebook"
+title: "002 - My Fiancee's Facebook"
 duration: 26:57
 length: 22641402
 file: 2014-02-20-2205.mp3

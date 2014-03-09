@@ -1,7 +1,7 @@
 ---
 layout: post-log
 date: 2014-02-19 23:09
-title: Episode 1 - Let's Talk About Apps
+title: 001 - Let's Talk About Apps
 duration: 11:12
 length: 12099920
 file: 2014-02-19-2309.mp3

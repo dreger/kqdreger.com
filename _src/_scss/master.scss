@@ -273,6 +273,10 @@ aside {
   }
 }
 
+.podcast li {
+  margin-bottom: .5rem;
+}
+
 .required {
   border-radius: 50px;
   outline: none;
@@ -358,5 +362,9 @@ hr {
   }
   .title {
     margin-top: 1rem;
+  }
+
+  .index span, .archives span {
+    display: block;
   }
 }

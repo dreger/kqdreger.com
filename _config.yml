@@ -4,7 +4,8 @@ destination:    ./_site
 pygments:       true
 markdown:       rdiscount
 rdiscount:
-  extensions: [ footnotes ]
+  extensions: [smart]
+  # extensions: [ footnotes ]
 
 # gems: [permalinkrewriter]
 # paginate: 1
@@ -24,4 +25,3 @@ description:    "Well-written Nerdery"
 #   id:           eqd7pqa
 # google_analytics:
 #   account:      UA-17208416-21
-
