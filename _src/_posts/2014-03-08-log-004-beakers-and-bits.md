@@ -3,7 +3,7 @@ layout: post-log
 date: 2014-03-08 18:41
 title: 004 - Beakers and Bits
 duration: 39:32
-length: 33,211,277
+length: 33,212,008
 file: 2014-03-08-1841.mp3
 size: 33.2 MB
 ---
@@ -17,4 +17,3 @@ This week, Christopher Durr, an inorganic chemistry student and my soon-to-be br
 - [Bamboo Paper app](https://itunes.apple.com/us/app/bamboo-paper-notebook/id443131313?mt=8)
 - [Paper by FiftyThree](http://www.fiftythree.com/paper)
 - [House of Staunton Chess Boards](http://www.houseofstaunton.com) (where we got our set)
--

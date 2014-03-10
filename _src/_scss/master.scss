@@ -15,7 +15,7 @@ $color_faded_blue: #f1f3f6;
 
 $font_size: 18px;
 $sans: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-$serif:  $sans;
+$serif: $sans;
 
 /*
   Typography styles
@@ -88,7 +88,17 @@ h3 {
 pre {
   line-height: 1rem;
   font-size: .8rem;
-  font-family:  Menlo, monospace;
+  font-family: Menlo, monospace;
+  border: 2px solid #eee;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+}
+
+p code {
+  border-radius: 10px;
+  border: 2px solid #eee;
+  padding: .1rem .5rem;
+  font-size: .9rem;
 }
 
 .article-meta {

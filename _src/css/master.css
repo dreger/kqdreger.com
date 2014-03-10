@@ -383,7 +383,9 @@ h3 + p { margin-top: 0rem; }
 
 .small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-weight: bold; }
 
-pre { line-height: 1rem; font-size: .8rem; font-family: Menlo, monospace; }
+pre { line-height: 1rem; font-size: .8rem; font-family: Menlo, monospace; border: 2px solid #eee; padding: .5rem 1rem; border-radius: 10px; }
+
+p code { border-radius: 10px; border: 2px solid #eee; padding: .1rem .5rem; font-size: .9rem; }
 
 .article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
 .article-meta a { color: #cccccc; }
