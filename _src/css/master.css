@@ -378,8 +378,10 @@ h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: 1px; margin-to
 h3 + p { margin-top: 0rem; }
 
 .title { margin: 1.5rem 0 1rem; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase; font-weight: bold; }
+.title a { color: #cccccc; }
+.title a:hover { color: #222; }
 
-.article-title { font-weight: 400; }
+.article-title { font-weight: 700; font-size: 2rem; margin: 4rem 0; }
 
 .small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-weight: bold; }
 
@@ -401,7 +403,7 @@ a:hover { color: #1f1f1f; }
 
 /* Page styles
 */
-html { font-size: 18px; line-height: 1.4em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; color: #222222; }
+html { font-size: 16px; line-height: 1.4em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; color: #222222; }
 
 .wrap { max-width: 32rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
 .wrap section { width: 55%; display: inline-block; }

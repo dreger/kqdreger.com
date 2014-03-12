@@ -13,7 +13,7 @@ $color_accent_log: #00aced;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
-$font_size: 18px;
+$font_size: 16px;
 $sans: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 $serif: $sans;
 
@@ -71,10 +71,16 @@ h3 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bold;
+  a {
+    color: $color_faded;
+    &:hover { color: #222; }
+  }
 }
 
 .article-title {
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 4rem 0;
 }
 
 .small-caps {

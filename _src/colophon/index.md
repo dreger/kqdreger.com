@@ -8,7 +8,19 @@ title: Colophon
 
 This is a small webcolumn, [and podcast](/log), that focuses on how design can be applied to writing, technology, and craft. Made in Ohio, made on a Mac. Written daily-ish by Kyle Dreger.
 
-Please send all comments and correspondence to [@kyledreger](http://twitter.com/kyledreger) or email: <dregerkq@mountunion.edu>.
+Please send all comments and correspondence to [@kyledreger](http://twitter.com/kyledreger) or email:
+
+<SCRIPT TYPE="text/javascript">
+<!--
+mail='mountunion.edu'
+mail=('dregerkq' + '@' + mail)
+document.write('<A href="mailto:' + mail + '">' + mail + '</a>')
+//-->
+</script>
+<NOSCRIPT>
+<em>Email address protected by JavaScript.<BR>
+Please enable JavaScript to contact me.</em>
+</NOSCRIPT>
 
 ### Conflicts of Interest
 I do not own any stock or other investments in any of the companies I write about.
