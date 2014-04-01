@@ -12,12 +12,13 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include header-log.html %}
 <article class="article">
 <h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-<p>Recorded on {{ page.date | date: "%B %d, %Y" }} &mdash; <a href="{{site.domain}}/log/audio/{{ page.file }}">Download here</a> ({{ page.size }})</p>
 
 <audio controls="controls"  src="{{site.domain}}/log/audio/{{ page.file }}">
   <source src="{{site.domain}}/log/audio/{{ page.file }}" type="audio/mpeg">
   Your browser does not support the audio element. Please download the audio file above.
 </audio>
+
+<p>Recorded on {{ page.date | date: "%B %d, %Y" }} &mdash; <a href="{{site.domain}}/log/audio/{{ page.file }}">Download here</a> ({{ page.size }})</p>
 
 {{ content }}
 </article>

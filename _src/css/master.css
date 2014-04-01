@@ -365,7 +365,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist { margin-bottom: 1rem; }
 
-h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; border: none; color: #111; }
 
 h1 { font-weight: normal; font-size: 1.5rem; margin-bottom: .5rem; margin-top: 0; }
@@ -377,25 +377,25 @@ h2 + p { margin-top: 0rem; }
 h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 1.5rem; font-weight: bold; margin-bottom: .25rem; }
 h3 + p { margin-top: 0rem; }
 
-.title { margin: 1.5rem 0 1rem; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase; font-weight: bold; }
+.title { margin: 1.5rem 0 1rem; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 1rem; letter-spacing: 1px; text-transform: uppercase; font-weight: bold; }
 .title a { color: #cccccc; }
 .title a:hover { color: #222; }
 
 .article-title { font-weight: 700; font-size: 2rem; margin: 4rem 0; }
 
-.small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-weight: bold; }
+.small-caps { font-size: .85rem; text-transform: uppercase; letter-spacing: 2px; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-weight: bold; }
 
 pre { line-height: 1rem; font-size: .8rem; font-family: Menlo, monospace; border: 2px solid #eee; padding: .5rem 1rem; border-radius: 10px; }
 
 p code { border-radius: 10px; border: 2px solid #eee; padding: .1rem .5rem; font-size: .9rem; }
 
-.article-meta { font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
+.article-meta { font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
 .article-meta a { color: #cccccc; }
 
 /* Link styles
 */
-a { color: #0074d9; }
-a:hover { color: #005eb0; }
+a { color: #ff0050; }
+a:hover { color: #d60043; }
 
 .log a { color: #00aced; }
 .log a:hover { color: #008ec4; }
@@ -403,7 +403,7 @@ a:hover { color: #005eb0; }
 
 /* Page styles
 */
-html { font-size: 16px; line-height: 1.4em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; color: #222222; }
+html { font-size: 15px; line-height: 1.4em; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; color: #222222; }
 
 .wrap { max-width: 32rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
 .wrap section { width: 55%; display: inline-block; }
@@ -426,14 +426,14 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 
 .content { max-width: 20.8rem; margin: 0 auto; }
 
-.sidebar { max-width: 9.6rem; font-size: .9rem; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; line-height: 1.65em; float: right; }
+.sidebar { max-width: 9.6rem; font-size: .9rem; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; line-height: 1.65em; float: right; }
 .sidebar ul { padding: 0; list-style: none; }
 
 .post { max-width: 24rem; margin: 0 auto; }
 
 .pagination { display: none; margin-top: 3rem; text-align: center; }
 .pagination a { margin: 0 auto; overflow: hidden; display: inline-block; color: #cccccc; width: 100px; padding: .25rem .5rem; text-transform: uppercase; letter-spacing: 1px; font-size: .85rem; text-align: right; margin: 0 .25rem; }
-.pagination a:hover { color: #0074d9; }
+.pagination a:hover { color: #ff0050; }
 .pagination a:nth-child(2) { text-align: left; border-left: none; }
 
 .article-break { text-align: left; color: #cccccc; margin: .5rem 0; font-size: .8rem; }
@@ -447,8 +447,8 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 
 .podcast li { margin-bottom: .5rem; }
 
-.required { border-radius: 50px; outline: none; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
-.required:focus { border-color: #0074d9; }
+.required { border-radius: 50px; outline: none; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; background-color: #fff; border: solid 3px #cccccc; padding: .5em 1em; margin-bottom: 1em; width: 250px; display: block; }
+.required:focus { border-color: #ff0050; }
 
 .footer { margin-top: 3rem; color: #cccccc; border-top: 3px solid #e6e6e6; text-align: center; line-height: 1.65em; }
 .footer ul { padding: 0; list-style: none; }
