@@ -3,7 +3,7 @@ _site
 _src/_drafts/
 _src/_ideas/
 _src/portfolio/
-_src/log/
+_src/log/audio/*
 
 # Ignore caches and logs
 .sass-cache
