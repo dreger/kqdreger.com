@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-03-08 18:41
 title: 004 - Beakers and Bits
 duration: 39:32

@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-03-16 21:53
 title: 005 - (Interview) Dr. Rodney Dick on Web Writing
 duration: 46:37

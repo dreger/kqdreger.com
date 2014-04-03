@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-02-27 20:31
 title: 003 - Sharpening Iron and Pencils
 duration: 11:16

@@ -13,8 +13,8 @@ layout: nil
 <itunes:subtitle>Discussing design, craft, and writing. Recorded from my dorm room.</itunes:subtitle>
 <itunes:author>Kyle Dreger</itunes:author>
 <itunes:keywords>kyle,dreger,news,craft,design,writing,college,technology</itunes:keywords>
-<itunes:summary>A daily-ish podcast by Kyle Dreger on the topics of design, craft, and technology.</itunes:summary>
-<description>A daily-ish podcast by Kyle Dreger on the topics of design, craft, and technology.</description>
+<itunes:summary>A weekly podcast by Kyle Dreger and guests on the topics of design, craft, and all sorts of technology. </itunes:summary>
+<description>A weekly podcast by Kyle Dreger and guests on the topics of design, craft, and all sorts of technology. </description>
 
 <itunes:owner>
 <itunes:name>Kyle Dreger</itunes:name>
@@ -27,9 +27,7 @@ layout: nil
 
 <!-- <itunes:new-feed-url>http://{{ site.domain }}/podcast.xml</itunes:new-feed-url> -->
 
-{% for post in site.posts %}
-{% if post.layout == 'post-log' %}
-
+{% for post in site.categories.log-podcast %}
 <item>
 <title>{{ post.title }}</title>
 <itunes:author>Kyle Dreger</itunes:author>
@@ -42,7 +40,6 @@ layout: nil
 <itunes:duration>{{ post.duration }}</itunes:duration>
 <itunes:keywords>kyle,dreger,news,craft,design,writing,college,technology</itunes:keywords>
 </item>
-{% endif %}
 {% endfor %}
 </channel>
 

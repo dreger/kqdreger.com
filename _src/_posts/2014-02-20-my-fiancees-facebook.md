@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-02-20 22:05
 title: "002 - My Fiancee's Facebook"
 duration: 26:57

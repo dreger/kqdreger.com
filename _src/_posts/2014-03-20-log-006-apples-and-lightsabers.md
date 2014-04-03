@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-03-20 20:08
 title: 006 - Apples and Lightsabers
 duration: 53:00

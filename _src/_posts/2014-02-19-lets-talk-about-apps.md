@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-02-19 23:09
 title: 001 - Let's Talk About Apps
 duration: 11:12

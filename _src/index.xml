@@ -15,7 +15,7 @@ layout: nil
 {% for post in site.posts limit:20 %}
 {% if post.date %}
 <entry>
-   <title>{% if post.layout == 'post-log' %}The Log: {% endif %}{{ post.title }}</title>
+   <title>{% if post.category == 'log-podcast' %}The Log: {% endif %}{{ post.title }}</title>
    <link href="{{site.domain}}{{ post.url }}"/>
    <published>{{ post.date | date_to_xmlschema }}</published>
    <id>{{ site.domain }}{{ post.id }}</id>

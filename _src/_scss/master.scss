@@ -17,11 +17,19 @@ $font_size: 15px;
 $sans: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 $serif: $sans;
 
+@mixin colorless-links {
+  a { 
+    color: $color_faded; 
+    text-decoration: none; 
+    &:hover { color: #222 }
+  }
+}
+
 /*
   Typography styles
 */
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist{
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist {
   margin-bottom: 1rem;
 }
 
@@ -38,22 +46,19 @@ h1, h2, h3, h4, h5, h6, .article-meta {
 
 h1 {
   font-weight: normal;
-  font-size: 1.5rem;
-  margin-bottom: .5rem;
-  margin-top: 0;
-  + p {
-    margin-top: 0;
-  }
-}
+  font-size: 2rem;
+  margin: 4rem 0;
+} // all page titles
 
 h2 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: .25rem;
   + p {
     margin-top: 0rem;
   }
 }
+
 h3 {
   font-size: .9rem;
   text-transform: uppercase;
@@ -64,23 +69,33 @@ h3 {
   + p { margin-top: 0rem; }
 }
 
+.navigation {
+  @include colorless-links;
+  margin: 5rem 0;
+  ul {
+    margin: 0; 
+    padding: 0; 
+    float: right; 
+    li {
+      display: inline;
+      margin-left: .75rem;
+    }
+  }
+}
+
 .title {
-  margin: 1.5rem 0 1rem;
+  display: inline-block;
+  float: left; 
   font-family: $sans;
   font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bold;
-  a {
-    color: $color_faded;
-    &:hover { color: #222; }
-  }
 }
 
 .article-title {
   font-weight: 700;
-  font-size: 2rem;
-  margin: 4rem 0;
+  
 }
 
 .small-caps {
@@ -123,15 +138,14 @@ a {
   }
 }
 
+
+
 .log {
   a {
     color: $color_accent_log;
     &:hover {
       color: darken($color_accent_log, 8%);
     }
-  }
-  .article-title {
-    a { color: #111; }
   }
 }
 
@@ -158,13 +172,7 @@ html {
   }
 }
 
-.header {
-  margin: 0;
-  margin-top: 5rem;
-  & .wrap {
-    padding: 0 1rem 1rem;
-  }
-}
+
 
 blockquote {
   border-left: 3px solid $color_faded;
@@ -308,20 +316,22 @@ aside {
 }
 
 .footer {
+  @include colorless-links; 
   margin-top: $header_footer_margin;
   color: $color_faded;
   border-top: 3px solid lighten($color_faded, 10%);
   text-align: center;
   line-height: 1.65em;
-  ul {
-    padding: 0;
-    list-style: none;
-  }
-
 }
 
 
 .clear { clear: both; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 hr {
   border: 2px solid $color_faded;
@@ -372,11 +382,17 @@ hr {
 }
 
 @media (max-width: 500px) {
-  .header {
-    margin: 0rem;
+  .navigation {
+    ul {
+      float: none; 
+      li { margin: 0 .75rem 0 0; }
+    }
+    margin: 4rem 0;
   }
   .title {
-    margin-top: 1rem;
+    float: none; 
+    display: block; 
+    margin-bottom: .75rem;
   }
 
   .index span, .archives span {

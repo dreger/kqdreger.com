@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-03-30 19:59
 title: 007 - All These Games Pt. 1
 duration: 28:48

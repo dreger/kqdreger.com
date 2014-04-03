@@ -1,5 +1,6 @@
 ---
-layout: post-log
+layout: post
+category: log-podcast
 date: 2014-03-30 20:09
 title: 008 - All These Games Pt. 2
 duration: 33:00
