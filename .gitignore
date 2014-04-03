@@ -5,7 +5,7 @@ _src/_ideas/
 _src/portfolio/
 _src/log/audio/*
 _src/public/*
-
+portfolio/
 
 # Ignore caches and logs
 .sass-cache
