@@ -22,4 +22,4 @@ I am currently using [Audacity](http://audacity.sourceforge.net) to do all my au
 
 As my foray into the podcasting world continues, I'll update this series with any new thoughts or tips I come across. Currently, one of the biggest things I want to ensure is that I don't forget to _write_ in the midst of all this recording and editing. How ironic that would be, no?
 
-As always, thanks for reading and listening, and be sure to check out the [latest episode]({% post_url 2014-02-20-my-fiancees-facebook %}) of The Log with special guest Emily Mariani, my fiancee.
+As always, thanks for reading and listening, and be sure to check out the [latest episode]({% post_url log/2014-02-20-my-fiancees-facebook %}) of The Log with special guest Emily Mariani, my fiancee.
