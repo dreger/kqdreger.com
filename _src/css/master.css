@@ -405,7 +405,7 @@ a:hover { color: #d60043; }
 
 /* Page styles
 */
-html { font-size: 15px; line-height: 1.4em; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; color: #222222; }
+html { font-size: 16px; line-height: 1.4em; font-family: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif; color: #222222; }
 
 .wrap { max-width: 32rem; margin: 0 auto; padding: 2rem 1rem; overflow: auto; }
 .wrap section { width: 55%; display: inline-block; }
@@ -441,8 +441,8 @@ aside { border-top: 1px dotted #cccccc; border-bottom: 1px dotted #cccccc; font-
 .archives li, .index li { margin: .25rem 0; }
 .archives li span, .index li span { text-transform: capitalize; color: #cccccc; letter-spacing: 1px; font-size: .9rem; }
 
-.index li { margin-bottom: 1.5rem; }
-.index a { font-weight: bold; text-decoration: none; }
+.index li { margin-bottom: 1.5rem; color: #888; }
+.index a { font-size: 1.2em; font-weight: normal; text-decoration: none; color: #222; }
 
 .podcast li { margin-bottom: .5rem; }
 

@@ -13,7 +13,7 @@ $color_accent_log: #00aced;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
 
-$font_size: 15px;
+$font_size: 16px;
 $sans: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 $serif: $sans;
 
@@ -289,10 +289,13 @@ aside {
   @extend .archives;
   li {
     margin-bottom: 1.5rem;
+    color: #888; 
   }
   a {
-    font-weight: bold;
+    font-size: 1.2em; 
+    font-weight: normal;
     text-decoration: none;
+    color: #222;
   }
 }
 
