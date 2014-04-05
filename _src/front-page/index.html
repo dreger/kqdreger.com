@@ -5,7 +5,7 @@ title: Front Page
 <h1>The Front Page</h1>
 
 <ul class="index">
-{% for post in site.posts limit: 20 %}
+{% for post in site.posts limit: 15 %}
 
 {% unless post.category == 'log-podcast' %}
 	<li>

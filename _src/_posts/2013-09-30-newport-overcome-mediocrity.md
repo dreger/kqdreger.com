@@ -3,6 +3,7 @@ title: "Overcome Mediocrity, Not Fear"
 link: http://calnewport.com/blog/2013/06/26/the-courage-crutch-a-remarkable-life-requires-you-to-overcome-mediocrity-not-fear/
 date: 2013-09-30 12:38
 layout: post
+category: weblog
 ---
 Cal Newport writing for his blog, [Study Hacks](http://calnewport.com/blog):
 

@@ -2,6 +2,7 @@
 title: The Unpublished
 date: 2014-01-22 00:14
 layout: post
+category: weblog
 ---
 Sometimes, as a writer, a nagging thought or idea will torment you relentlessly until you slay it with a hot iron sword of words and punctuation. However, not all battles lead to a publishable work; sometimes the ideas were so battered by the battle, the only consolation they can give is the peace of mind that you emerged victorious. 
 

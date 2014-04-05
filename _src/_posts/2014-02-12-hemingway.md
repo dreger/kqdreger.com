@@ -2,6 +2,7 @@
 title: "Hemingway: Write Bold and Clear"
 date: 2014-02-12 12:41
 layout: post
+category: weblog
 ---
 [Hemingway](http://www.hemingwayapp.com), developed by Adam and Ben Long, is a small website where you can have your text analyzed against a variety of clarity-focused metrics. From the home page: 
 

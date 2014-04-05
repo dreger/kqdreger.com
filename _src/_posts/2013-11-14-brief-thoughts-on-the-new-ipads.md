@@ -2,6 +2,7 @@
 title: The New iPads
 date: 2013-11-14 21:25
 layout: post
+category: weblog
 ---
 Apple's got two new iPads out, and I finally got to play with both of them this past weekend at my local Apple Store. Here are my thoughts after about 10 minutes with each device.
 

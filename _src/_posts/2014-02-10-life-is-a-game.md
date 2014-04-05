@@ -2,6 +2,7 @@
 title: Life is a Game
 date: 2014-02-10 10:39
 layout: post
+category: weblog
 ---
 Oliver Emberton on his [personal blog](http://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/): 
 

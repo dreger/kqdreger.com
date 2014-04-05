@@ -2,6 +2,7 @@
 title: Google death results
 date: 2012-12-09 13:44
 layout: post
+category: weblog
 ---
 
 I was introspective this morning, and found myself Googling about death. I ran across [this comic](http://xkcd.com/369/) by xkcd, got inspired and ended up collecting quite a bit of data about the number of search results Google gives back for any given age of death. I've put those results into a graph for your pleasure, and you can also download the spreadsheet data in [.xls](http://cargo.kyledreger.com.s3.amazonaws.com/2012-12-08-dreger-google-death-results.xls) if you like.

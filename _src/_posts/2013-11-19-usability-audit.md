@@ -2,6 +2,7 @@
 title: A Usability Audit on Myself
 date: 2013-11-19 09:19
 layout: post
+category: weblog
 ---
 There's nothing quite like tearing apart your own work,<sup>1</sup> and that's exactly what I did after looking at the usability of kyledreger.com.
 

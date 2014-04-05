@@ -2,6 +2,7 @@
 title: Tapbots and iOS 7
 date: 2013-10-19 16:49
 layout: post
+category: weblog
 ---
 When iOS 7 was announced, it instantly made most of the apps in the App Store look old and outdated; apps that had previously made heavy use of graphics and images looked out of place in contrast to iOS 7's flatness.
 

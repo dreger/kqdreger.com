@@ -3,6 +3,7 @@ title: Day One for iOS 7
 link: https://itunes.apple.com/us/app/day-one-journal-diary/id421706526
 date: 2013-11-13 22:05
 layout: post
+category: weblog
 ---
 One of the ways that I chronicle my life is through the action of journaling. However, I don't always have time to sit down and write out long reflections on the day. Back when I was a young boy, I used to carry around little steno notebooks and write about my day _as it was happening_.
 

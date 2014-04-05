@@ -2,6 +2,7 @@
 title: Thoughts on the Front Page
 date: 2014-01-06 11:52
 layout: post
+category: weblog
 ---
 I've been toying with how best to structure the front page of sites that have a focus on writing. The front page is the first impression, a digital handshake, and ensuring it conveys your content in a way you want is extremely important. 
 

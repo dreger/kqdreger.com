@@ -2,6 +2,7 @@
 title: Unique URIs for Jekyll
 date: 2014-02-28 16:44
 layout: post
+category: weblog
 published: false
 ---
 One of the benefits of using a static-site generator like Jekyll is that your site gets fast. Like really fast. 

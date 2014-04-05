@@ -3,6 +3,7 @@ title: Vesper Support Guidelines
 link: http://vesperapp.co/blog/support-guidelines/
 date: 2013-11-05 13:24
 layout: post
+category: weblog
 ---
 Over on the Q Branch blog, Dave Wiskus wrote about how he approaches support for Vesper:
 

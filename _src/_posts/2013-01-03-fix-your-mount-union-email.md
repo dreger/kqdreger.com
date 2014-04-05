@@ -1,6 +1,7 @@
 ---
 title: Fix your Mount Union .EDU email
 layout: post
+category: weblog
 date: 2013-01-03
 ---
 **UPDATE #3:** This whole post is pretty much irrelevant now. Besides the slightly vitriolic nature, the entire Outlook Web App was recently updated to match the aesthetics / functionally of [Outlook.com](http://outlook.com) and is incredibly more usable. Post will remain here for posterity.

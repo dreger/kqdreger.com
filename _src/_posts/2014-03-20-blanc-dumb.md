@@ -2,6 +2,7 @@
 title: "'Dumb'"
 date: 2014-03-20 17:20
 layout: post
+category: weblog
 ---
 Shawn Blanc, [on the recent news regarding smartwatches](http://shawnblanc.net/2014/03/dumb/): 
 

@@ -3,6 +3,7 @@ title: A Case for Bordered Buttons in iOS 7
 link: http://blog.jaredsinclair.com/post/64880801326/untouchable
 date: 2013-10-27 21:33
 layout: post
+category: weblog
 ---
 iOS app designer and devloper, Jared Sinclair:
 

@@ -2,6 +2,7 @@
 title: "Serif Fours Look a Lot Like Nines"
 date: 2014-01-15 21:10
 layout: post
+category: weblog
 ---
 Fascinating little anecdote about how _The New York Times'_ issue number [was off by 500 for more than a century](http://www.theatlantic.com/technology/archive/2014/01/the-em-new-york-times-em-had-a-mistake-on-its-front-page-every-day-for-more-than-a-century/283076/). Rebecca J. Rosen for _The Atlantic_: 
 

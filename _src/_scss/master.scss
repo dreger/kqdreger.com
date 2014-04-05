@@ -21,7 +21,8 @@ $serif: $sans;
   a { 
     color: $color_faded; 
     text-decoration: none; 
-    &:hover { color: #222 }
+    &:hover { color: #222; }
+    &.active { color: #222; }
   }
 }
 
@@ -367,6 +368,14 @@ hr {
 
 .large {
   font-size: 1.25rem;
+  line-height: 1.4em;
+}
+
+ul.large {
+  padding-left: 1em;
+  li {
+    margin: .5rem 0; 
+  } 
 }
 
 /* Media queries */

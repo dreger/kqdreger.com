@@ -2,6 +2,7 @@
 title: "'Special'"
 date: 2014-01-30 00:21
 layout: post
+category: weblog
 ---
 Out of all the nostalgic posts regarding the Macintosh's 30th birthday, I like John Gruber's [anecdotal piece the best](http://daringfireball.net/2014/01/special): 
 

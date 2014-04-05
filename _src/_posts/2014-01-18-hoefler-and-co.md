@@ -2,6 +2,7 @@
 title: "'For Immediate Release'"
 date: 2014-01-18 18:49
 layout: post
+category: weblog
 ---
 Yesterday, Hoefler &amp; Co. [issued a public statement](http://typography.com/press/20140117) in regards to Tobias Frere-Jones suing Jonathan Hoefler. The company's General Counsel, Michael Burke:
 
