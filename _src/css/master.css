@@ -478,7 +478,8 @@ ul.large li { margin: .5rem 0; }
   strong > img { max-width: 140%; margin-left: -20%; } }
 @media (max-width: 900px) { .footer { margin-top: 3rem; }
   strong > img, .article-break { max-width: 100%; margin-left: 0; } }
-@media (max-width: 500px) { h1.center.strong { font-size: 1.5rem; }
+@media (max-width: 500px) { h1.center.strong { font-size: 1.25rem; }
+  .large { font-size: 1rem; }
   .post-date { display: none; }
   .navigation { margin: 4rem 0; }
   .navigation ul { float: none; }

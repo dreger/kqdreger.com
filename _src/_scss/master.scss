@@ -414,7 +414,11 @@ ul.large {
 
 @media (max-width: 500px) {
   h1.center.strong {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .large {
+    font-size: 1rem; 
   }
 
   .post-date {
