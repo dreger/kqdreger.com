@@ -8,7 +8,7 @@ $page_padding: 2rem 1rem;
 $header_footer_margin: 3rem;
 
 $color_copy: #222;
-$color_accent: #ff0050;
+$color_accent: #8aba56;
 $color_accent_log: #00aced;
 $color_faded: #ccc;
 $color_faded_blue: #f1f3f6;
@@ -38,9 +38,7 @@ h1, h2, h3, h4, h5, h6, .article-meta {
   font-family: $sans;
 
   a {
-    text-decoration: none;
-    border: none;
-    color: #111;
+    
   }
 }
 
@@ -51,8 +49,8 @@ h1 {
 } // all page titles
 
 h2 {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: normal;
   margin-bottom: .25rem;
   + p {
     margin-top: 0rem;
@@ -60,7 +58,7 @@ h2 {
 }
 
 h3 {
-  font-size: .9rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 1.5rem;
@@ -95,7 +93,14 @@ h3 {
 
 .article-title {
   font-weight: 700;
-  
+  & a {
+    text-decoration: none;
+    border: none;
+    color: #111;
+    &:hover {
+      color: darken($color_accent, 8%);
+    }
+  }
 }
 
 .small-caps {
@@ -124,8 +129,13 @@ p code {
 
 .article-meta {
   font-family: $serif;
-  a { color: $color_faded; }
+  a { 
+    color: $color_faded; 
+    font-weight: bold; 
+    text-decoration: none;
+  }
 }
+
 
 /*
   Link styles
@@ -280,7 +290,7 @@ aside {
       text-transform: capitalize;
       color: $color_faded;
       letter-spacing: 1px;
-      font-size: .9rem;
+      font-size: 1rem;
     }
   }
 }
@@ -289,13 +299,13 @@ aside {
   @extend .archives;
   li {
     margin-bottom: 1.5rem;
-    color: #888; 
+    color: #444; 
   }
   a {
-    font-size: 1.2em; 
-    font-weight: normal;
+    font-size: 1.25em; 
+    font-weight: bold;
     text-decoration: none;
-    color: #222;
+    // color: #222;
   }
 }
 
@@ -349,6 +359,15 @@ hr {
   }
 }
 
+.center {
+  text-align: center; 
+}
+
+.strong { font-weight: bold; }
+
+.large {
+  font-size: 1.25rem;
+}
 
 /* Media queries */
 

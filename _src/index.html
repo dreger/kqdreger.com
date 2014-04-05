@@ -1,25 +1,13 @@
 ---
-layout: default
+layout: default-bare
 ---
-<ul class="index">
-{% for post in site.posts limit: 20 %}
+<h1 class="center strong">Hello, my name is Kyle Dreger.<br>I'm a writer, podcaster, and software designer.</h1>
 
-{% if post.category == 'log-podcast' %}
-	<li>
-	<a href="{{ post.url }}">The Log: {{ post.title }}</a>
-	<br>
-	<span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
-	</li>
-{% else %}
-	<li>
-	<a href="{{ post.url }}">{{ post.title }}</a><br>
-	{{post.content | strip_html | truncatewords: 50}}
-	<br>
-	<span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
-	</li>
-{% endif %}
+<h3>Writing</h3>
+<p class="large">I write a small webcolumn, <a href="/front-page">called The Front page</a>.</p>
 
-{% endfor %}
-</ul>
+<h3>Podcasting</h3>
+<p class="large">Once a week, I host a podcast about science, technology, and gaming <a href="/log">on The Log</a>.</p>
 
-
+<h3>Coding</h3>
+<p class="large">You can see what I'm tinkering with by <a href="http://github.com/kyledreger">checking out my GitHub profile</a>.</p>
