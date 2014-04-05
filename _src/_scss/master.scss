@@ -311,7 +311,7 @@ aside {
 }
 
 .podcast li {
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
 }
 
 .required {
@@ -413,6 +413,14 @@ ul.large {
 }
 
 @media (max-width: 500px) {
+  h1.center.strong {
+    font-size: 1.5rem;
+  }
+
+  .post-date {
+    display: none;
+  }
+
   .navigation {
     ul {
       float: none; 

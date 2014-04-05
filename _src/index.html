@@ -8,7 +8,7 @@ layout: default-bare
 
 <ul class="large">
 {% for post in site.categories.weblog limit:5 %}
-<li>{{ post.date | date: "%b %d:" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><span class="post-date">{{ post.date | date: "%b %d:" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
