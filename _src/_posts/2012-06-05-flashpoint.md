@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Flashpoint
 date: 2012-06-05
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Assembly language love affair
 ---
 

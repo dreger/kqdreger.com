@@ -2,7 +2,7 @@
 title: Tobias Frere-Jones is Suing Jonathan Hoefler
 date: 2014-01-17 12:07
 layout: post
-category: weblog
+category: post
 --- 
 This news broke yesterday afternoon, but I wanted to let it simmer for a while before commenting. Given that [Hoefler & Frere-Jones (H&FJ)](http://www.typography.com) is one of the world's best type foundries (their fonts in use by Nike, the Obama campaign, and numerous other national agencies), I wasn't sure whether the headlines about one of the founders suing the other were simply sensational and overreacting to something much smaller. 
 

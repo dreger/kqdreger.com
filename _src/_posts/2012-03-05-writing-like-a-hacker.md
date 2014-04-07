@@ -1,7 +1,7 @@
 ---
 Title: Writing like a hacker
 layout: post
-category: weblog
+category: post
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 title: Amazon's 30-Minutes-or-Less Delivery by Drone
 date: 2013-12-02 18:43
 layout: post
-category: weblog
+category: post
 ---
 Yesterday, Amazon CEO Jeff Bezos [sat down with Charlie Rose](http://www.cbsnews.com/news/amazons-jeff-bezos-looks-to-the-future/) and unveiled Amazon's next big step for their fulfillment centers: delivery by drone in under 30 minutes.
 

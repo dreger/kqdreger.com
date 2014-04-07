@@ -2,7 +2,7 @@
 title: My Presentation on Mobile Applications
 date: 2014-02-17 17:09
 layout: post
-category: weblog
+category: post
 ---
 __Update:__ The _Alliance Review_ has posted [the online version of the article](http://www.the-review.com/local%20news/2014/02/15/chamber-seminar-focuses-on-mobile-technology) that covered my presentation.
 

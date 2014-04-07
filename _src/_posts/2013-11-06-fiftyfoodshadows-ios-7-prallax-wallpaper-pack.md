@@ -3,7 +3,7 @@ title: Fiftyfootshadows.net iOS 7 Parallax Wallpaper Pack
 link: http://fiftyfootshadows.net/2013/11/06/ios-7-parallax-wallpaper-pack/
 date: 2013-11-06 08:33
 layout: post
-category: weblog
+category: post
 ---
 John Carey:
 

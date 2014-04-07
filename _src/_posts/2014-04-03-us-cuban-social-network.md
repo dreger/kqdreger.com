@@ -2,7 +2,7 @@
 title: "The Secret, U.S.-Backed Cuban Social Network"
 date: 2014-04-03 19:04
 layout: post
-category: weblog
+category: post
 published: false
 ---
 [](http://bigstory.ap.org/article/us-secretly-created-cuban-twitter-stir-unrest)

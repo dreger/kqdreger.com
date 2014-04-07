@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Interviewing as research
 category: School
 tags: learning, writing, english

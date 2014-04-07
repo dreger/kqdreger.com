@@ -3,7 +3,7 @@ title: A Year of Nothing New
 link: http://lifeloveandwords.wordpress.com/2013/12/19/a-year-of-nothing-new/
 date: 2013-12-19 09:26
 layout: post
-category: weblog
+category: post
 ---
 It seems I wasn’t the only one who wanted to mentally, physically, and spiritually start cleaning out the clutter that seems to accrue with time. Sarah Durr, my good friend and future sister-in-law, writing over on her blog _Life, Love and Words_, says she’s giving up buying anything new for a whole year. This part is my favorite: 
 

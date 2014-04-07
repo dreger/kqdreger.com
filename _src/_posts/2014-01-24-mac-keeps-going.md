@@ -2,7 +2,7 @@
 title: The Mac Keeps Going 
 date: 2014-01-24 14:06
 layout: post
-category: weblog
+category: post
 ---
 
 After returning from Christmas break, I noticed a lot of students carrying around Microsoft Surface tablets. I see these devices in meetings, in class, and anywhere there is a surface (ha) to put them. What I have yet to see, however, is anyone using the Surface exclusively as a tablet. 

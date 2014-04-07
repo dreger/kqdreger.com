@@ -1,7 +1,7 @@
 ---
 title: Jumping in
 layout: post
-category: weblog
+category: post
 date: 2013-09-02
 starred: true
 ---

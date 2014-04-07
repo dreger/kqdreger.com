@@ -1,7 +1,7 @@
 ---
 Title: Cold writing
 layout: post
-category: weblog
+category: post
 comments: true
 ---
 

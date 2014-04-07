@@ -2,7 +2,7 @@
 title: Thanksgiving Break
 date: 2013-11-26 09:52
 layout: post
-category: weblog
+category: post
 ---
 My Thanksgiving break begins today after classes finish at 5 p.m. Given that the next few days will be filled with food, family, and traveling, KDHQ will be happily shutting down our web browsers until next week. 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: I lost my iPhone
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Market share
 date: 2012-06-18
 ---

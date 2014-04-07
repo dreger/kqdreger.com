@@ -2,7 +2,7 @@
 title: ABC's One-On-One with Tim Cook
 date: 2014-01-26 11:40
 layout: post
-category: weblog
+category: post
 ---
 ABC News has put up [a video of their one-on-one interview with Apple CEO Tim Cook](http://abcnews.go.com/WNT/video/apple-ceo-speaks-21660730). David Muir, ABC's interviewer, and Cook discussed the new Mac Pro, Apple's increasing focus on manufacturing within the U.S., and the government's transparency. Craig Federighi and Bud Tribble made guest appearances in the video, but they were not taped while speaking.
 

@@ -1,7 +1,7 @@
 ---
 title: Creative cycle
 layout: post
-category: weblog
+category: post
 tags:
 - creativity
 ---

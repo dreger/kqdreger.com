@@ -3,7 +3,7 @@ title: iOS 7.0.3 Released with Faster Transitions
 link: http://www.macstories.net/news/apple-releases-ios-7-0-3-with-updated-reduce-motion-setting-spotlight-improvements-icloud-keychain-and-more/
 date: 2013-10-23 19:15
 layout: post
-category: weblog
+category: post
 ---
 Quietly shipped alongside all that was released on Tuesday, iOS 7.0.3 is now available for download.
 

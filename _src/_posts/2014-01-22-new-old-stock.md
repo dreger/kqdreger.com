@@ -2,7 +2,7 @@
 title: New Old Stock Photography
 date: 2014-01-22 18:46
 layout: post
-category: weblog
+category: post
 ---
 Cole Townsend has started curating a collection of [vintage photography from public archives](http://nos.twnsnd.co). All of the images are free of any known copyright. 
 

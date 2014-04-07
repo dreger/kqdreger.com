@@ -2,7 +2,7 @@
 title: Writer Pro for Mac
 date: 2013-12-19 12:00
 layout: post
-category: weblog
+category: post
 ---
 If you had to categorize me with one word, it would be "writer."  As a student of computer science and rhetorical composition (fancy words for writing), I take the tools I use very seriously. The programmer in me wants efficiency and innovation, and the writer in me wants tools that facilitate accurate editing and my personal writing processes.  For a while, it was just me and TextEdit, the default text-editor on the Mac, pounding away. However, as I started writing more sophisticated forms of code and prose, my tools evolved. For coding, I started using Sublime Text. For writing, [I turned to iA Writer]({% post_url 2012-05-30-ia-writer-122 %}). Little has changed until today.
 

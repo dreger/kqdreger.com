@@ -2,7 +2,7 @@
 title: A $19 Billion Partnership
 date: 2014-03-18 18:03
 layout: post
-category: weblog
+category: post
 ---
 Interesting choice of words from WhatsApp founder Jan Koum [on the company's blog](http://blog.whatsapp.com/index.php/2014/03/setting-the-record-straight/): 
 

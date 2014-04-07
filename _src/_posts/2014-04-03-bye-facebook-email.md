@@ -2,7 +2,7 @@
 title: Facebook Axes @facebook.com Email Addresses
 date: 2014-04-03 19:07
 layout: post
-category: weblog
+category: post
 published: false
 ---
 For something that wo

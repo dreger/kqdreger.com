@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: GORUCK GR1 Delivered
 date: 2012-06-19
 ---

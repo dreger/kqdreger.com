@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: To the point
 date: 2012-06-02
 ---

@@ -2,7 +2,7 @@
 title: Some stats from KDHQ
 date: 2013-10-24 08:04
 layout: post
-category: weblog
+category: post
 ---
 The past few weeks at the KDHQ have been fun, and I want to share some stats and updates.
 

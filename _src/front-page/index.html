@@ -2,21 +2,22 @@
 layout: default
 title: Front Page
 ---
-<h1>The Front Page</h1>
 
-<ul class="index">
 {% for post in site.posts limit: 15 %}
+<article>
+<aside>&#9679;</aside>
 
-{% unless post.category == 'log-podcast' %}
-	<li>
-	<a href="{{ post.url }}">{{ post.title }}</a><br>
-	{{post.content | strip_html | truncatewords: 50}}
-	<br>
-	<span>{{ post.date | date: "%d %b %Y, %H:%M" }}</span>
-	</li>
-{% endunless %}
+{% if post.category == 'post' %}
+	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	{{ post.content | strip_html | truncatewords: 40 }}
 
+{% elsif post.category == 'link' %}
+	<span class="snippet">{{ post.content | strip_newlines }}</span>
+	<span class="source-information">via {{ post.source-author }} / <a href="{{ post.source-link }}">{{ post.source }} &rarr;</a></span>
+
+{% endif %}
+
+</article>
 {% endfor %}
-</ul>
 
 

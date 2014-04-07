@@ -2,7 +2,7 @@
 title: Microsoft Employee Badge Redesign
 date: 2014-02-18 08:41
 layout: post
-category: weblog
+category: post
 ---
 Ahmet Alp Blakan recently posted [his redesign of Microsoft's employee badge](https://ahmetalpbalkan.com/blog/microsoft-employee-badge-redesign/) or "Blue Badge." Blakan: 
 

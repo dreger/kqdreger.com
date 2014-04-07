@@ -2,7 +2,7 @@
 title: InstantClick.js
 date: 2014-02-10 15:29
 layout: post
-category: weblog
+category: post
 ---
 Incredibly smart JavaScript library from [Alex Dieulot](https://github.com/dieulot) that uses the [HTML5 pushState() spec](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history) to pre-load whichever link a user is currently hovering over. From the [InstantClick homepage](http://instantclick.io):  
 

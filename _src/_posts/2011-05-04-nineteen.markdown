@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: 5 things I've learned in 19 years
 starred: true
 ---

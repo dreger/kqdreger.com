@@ -2,7 +2,7 @@
 title: Things I Could Have Bought
 date: 2014-01-15 00:33
 layout: post
-category: weblog
+category: post
 ---
 As I sat here [debating which RSS syncing service to invest in](https://twitter.com/kyledreger/status/423184317494603776), a familiar tug on my conscience appeared. Do I really need this service? What problem does it solve? Could $18 be better spent?
 

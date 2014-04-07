@@ -2,7 +2,7 @@
 title: Frank Chimero's New Personal Website
 date: 2014-03-04 12:29
 layout: post
-category: weblog
+category: post
 ---
 Frank Chimero, one of the veterans of web design and a personal hero of mine, just [took the wraps off his new website](http://frankchimero.com/blog/make-it-homely/): 
 

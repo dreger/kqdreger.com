@@ -2,7 +2,7 @@
 title: GoDaddy to File for IPO
 date: 2014-03-14 21:39
 layout: post
-category: weblog
+category: post
 ---
 Telis Demos and Mike Spector for the _Wall Street Journal_, reporting on the possibility of [a GoDaddy IPO coming later](http://online.wsj.com/news/article_email/SB10001424052702304914904579439542130264508-lMyQjAxMTA0MDEwMDExNDAyWj) this year: 
 

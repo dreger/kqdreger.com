@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Goodbye, Facebook
 date: 2012-02-02 19:30 -5
 ---

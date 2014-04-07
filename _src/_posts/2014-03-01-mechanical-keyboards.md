@@ -2,7 +2,7 @@
 title: Mechanical Keyboards
 date: 2014-03-01 21:28
 layout: post
-category: weblog
+category: post
 ---
 Ah, keyboards. They are the most intimate form of connection we have with our computers. However, for the past couple years, I have given little thought to what actually goes into making a _good_ keyboard.
 

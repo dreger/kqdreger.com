@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Habit building
 date: 2012-05-30 1930 −5
 ---

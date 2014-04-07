@@ -2,7 +2,7 @@
 title: De-clutter Your Social Networks, Part One
 date: 2013-12-18 11:54
 layout: post
-category: weblog
+category: post
 ---
 Most things in life, left unchecked, tend to fall into chaos. I find this particularly true regarding the number and quality of the updates I receive through social networks.  The problem is that we've become desensitized to the value of our own time, and we continue to add new Facebook friends or follow people on Twitter without closing off some of the existing network.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Apple, Nintendo and a TV
 date: 2012-06-04
 ---

@@ -2,7 +2,7 @@
 title: On the Shoulders of Giants
 date: 2013-10-29 13:41
 layout: post
-category: weblog
+category: post
 ---
 The very first website I ever designed was the horrifically-named Linkag3verywhere.com. I built it with the intention of displaying a curated list of links to online games, websites and articles I found interesting. I gave the address out to my cousins and friends, and remember being thrilled to see the (mostly generated directly by me) page visits go up every day. I still have the Linkag3verywhere.com code in a folder of archived projects, and every now and again I'll go pull up the original design.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Social scoreboards
 date: 2013-06-20
 tags: social, google-analytics, writing

@@ -3,7 +3,7 @@ title: The Kinsa Thermometer
 link: https://www.kinsahealth.com/
 date: 2013-11-09 14:22
 layout: post
-category: weblog
+category: post
 ---
 These past few days I've [been sick with a cold](https://twitter.com/kyledregercom/status/398851532848132096). When ill, one of the things I always do is keep a diligent hand-written journal of any medication I took and all the corresponding times. I've often thought about building a simple app to manage this for me, but Inder Singh, the executive vice president of the Clinton Health Access from 2008 to 2011, looks to be taking this idea one step further with, what he calls, the "World's Smartest Thermometer."
 

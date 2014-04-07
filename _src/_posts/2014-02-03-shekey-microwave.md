@@ -2,7 +2,7 @@
 title: I Don't Need a Popcorn Button
 date: 2014-02-03 10:44
 layout: post
-category: weblog
+category: post
 ---
 Aaron Shekey, a designer and developer living in Minneapolis, recently remodeled his kitchen, which gave him the opportunity to [take a look at the current state of design amid various home appliances](http://www.aaronshekey.com/posts/the-hot-dog-button/):
 

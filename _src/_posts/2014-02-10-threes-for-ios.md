@@ -2,7 +2,7 @@
 title: Threes!
 date: 2014-02-10 11:27
 layout: post
-category: weblog
+category: post
 ---
 
 New math-based iOS game from the creators of [Ridiculous Fishing](http://www.ridiculousfishing.com), [Greg Wohlwend](http://aeiowu.com) and [Asher Vollmer](http://ashervollmer.tumblr.com/home). Blending math and strategy, Threes! looks incredibly addicting. If you are more of a visual person, I found [the trailer](http://asherv.com/threes/) does a great job of explaining the gameplay.

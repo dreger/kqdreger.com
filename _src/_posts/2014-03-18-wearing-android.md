@@ -3,7 +3,7 @@ title: Wearing Android
 date: 2014-03-18 18:35
 published: false
 layout: post
-category: weblog
+category: post
 ---
 
 

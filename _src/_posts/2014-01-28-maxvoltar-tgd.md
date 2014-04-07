@@ -2,7 +2,7 @@
 title: Tim Van Damme on The Great Discontent
 date: 2014-01-28 10:34
 layout: post
-category: weblog 
+category: post 
 ---
 Over on [The Great Discontent](http://thegreatdiscontent.com) (TGD), Tina Essmaker just published her [interview with Dropbox designer, Tim Van Damme](http://thegreatdiscontent.com/tim-van-damme).
 

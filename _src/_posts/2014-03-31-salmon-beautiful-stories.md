@@ -2,7 +2,7 @@
 title:  Where Every Story Looks the Same
 date: 2014-03-31 21:50
 layout: post
-category: weblog
+category: post
 ---
 The trend towards big and beautiful online article design is becoming more common. This past year, the _New York Times_ [went through a large redesign](http://www.nytimes.com/redesign/), focusing on bigger type and giving every article a command of the page. Just this last month, Time.com [did the same](http://time.com/13113/time-coms-redesign/), rolling out a new, bigger layout &mdash; following the same large-article trend as the _Times_. 
 

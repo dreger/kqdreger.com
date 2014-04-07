@@ -2,7 +2,7 @@
 title: Podcasting Diaries, Part 1
 date: 2014-02-06 23:28
 layout: post
-category: weblog
+category: post
 ---
 One of my goals for this semester is to start a small podcast. I have always loved public speaking, and I truly enjoy finding the stories of other people. Hopefully this will give me the chance to do just that. 
 

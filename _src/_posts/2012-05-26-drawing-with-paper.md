@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Drawing with paper
 date: 2012-05-26
 ---

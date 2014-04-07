@@ -2,7 +2,7 @@
 title: Made on an iPhone
 date: 2014-02-04 18:00 -5
 layout: post
-category: weblog
+category: post
 ---
 Apple, on their [new "1.24.14 Film" page](http://www.apple.com/30-years/1-24-14-film/):
 

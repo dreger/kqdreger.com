@@ -2,7 +2,7 @@
 title: Goodbye, Editorially
 date: 2014-02-16 21:03
 layout: post
-category: weblog
+category: post
 ---
 Editorially, the collaborative online writing application, is shutting down on May 30. From [their Goodbye post](http://stet.editorially.com/articles/goodbye/):
 

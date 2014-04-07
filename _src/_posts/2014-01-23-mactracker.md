@@ -2,7 +2,7 @@
 title: Mactracker.app
 date: 2014-01-23 18:53
 layout: post
-category: weblog
+category: post
 ---
 Writing my last post, I was trying to remember the name of an app I had used that listed the details and specifications of not just every Mac, but also every Apple _device_ ever made. A little searching and I finally found it: [Mactracker by Ian Page](http://mactracker.ca). 
 

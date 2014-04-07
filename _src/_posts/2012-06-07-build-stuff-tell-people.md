@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: Build stuff, tell people
 date: 2012-06-07
 ---

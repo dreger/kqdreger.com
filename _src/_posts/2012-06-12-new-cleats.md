@@ -1,6 +1,6 @@
 ---
 layout: post
-category: weblog
+category: post
 title: New cleats
 date: 2012-06-12
 ---

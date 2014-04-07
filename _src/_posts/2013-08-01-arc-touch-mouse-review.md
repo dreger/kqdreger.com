@@ -1,7 +1,7 @@
 ---
 title: Microsoft Arc Touch review
 layout: post
-category: weblog
+category: post
 date: 2013-08-01
 starred: true
 ---
