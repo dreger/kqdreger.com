@@ -7,28 +7,37 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 -->
 
 <body>
-<section class="wrapper">
 {% include header.html %}
-<article class="article">
-<h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<section class="wrapper container">
 
 {% if page.category == 'log-podcast' %}
+	<article class="article">
+	<h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 	<audio controls="controls"  src="{{site.domain}}/log/audio/{{ page.file }}">
 	<source src="{{site.domain}}/log/audio/{{ page.file }}" type="audio/mpeg">
 	Your browser does not support the audio element. Please download the audio file above.
 	</audio>
 	<p>Recorded on {{ page.date | date: "%B %d, %Y" }} &mdash; <a href="{{site.domain}}/log/audio/{{ page.file }}">Download here</a> ({{ page.size }})</p>
 	{{ content }}
+	</article>
 
-{% else %}
-	{% if page.link %}
-	<a class="outgoing-anchor" href="{{ page.link }}">original source &rarr;</a>
-	{% endif %}
+{% elsif page.category == 'post' %}
+	<article class="article">
+	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 	{{ content }}
-	<p class="article-meta"><a href="{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a></p>
+	<p class="date"><a href="{{ page.url }}">{{ page.date | date: "%b, %d, %Y" }}</a></p>
+	</article>
+
+{% elsif page.category == 'link' %}
+	<article class="link">
+	<p class="source-information"><a href="{{ page.source-link }}">{{ page.title }}</a></p>
+	<p class="snippet">{{ content }}</p>
+
+	<p class="date"><a href="{{ page.url }}">{{ page.date | date: "%b, %d, %Y" }}</a></p>
+	</article>
 
 {% endif %}
-</article>
+
 </section>
 <div class="clear"></div>
 {% include footer.html %}

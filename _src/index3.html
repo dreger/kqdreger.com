@@ -1,0 +1,21 @@
+---
+layout: default-bare
+---
+<h1 class="center strong">Hello, my name is Kyle Dreger.<br>I'm a writer, podcaster, and software designer.</h1>
+
+<h2 class="strong">Writing</h2>
+<p class="large">I write a small webcolumn, <a href="/front-page">called The Front page</a>. Here are my 5 latest posts:</p>
+
+<ul class="large">
+{% for post in site.categories.weblog limit:5 %}
+<li><span class="post-date">{{ post.date | date: "%b %d:" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2 class="strong">Podcasting</h2> 
+{% for post in site.categories.log-podcast limit:1 %}
+<p class="large">Once a week, I host a podcast about science, technology, and gaming <a href="/log">on The Log</a>. Listen to the latest episode: <a href="{{ post.url }}">{{ post.title }}</a>.</p>
+{% endfor %}
+
+<h2 class="strong">Coding</h2>
+<p class="large">You can see what I'm tinkering with by <a href="http://github.com/kyledreger">checking out my GitHub profile</a>.</p>

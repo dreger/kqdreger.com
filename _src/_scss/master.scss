@@ -19,7 +19,7 @@ $color_faded_lightest: #CFCFCF;
 $color_faded_blue: #f1f3f6;
 
 $font_size: 16px;
-$sans: Avenir Next, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+$sans:  "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 $serif: $sans;
 
 $h1-size: 1.625rem; 
@@ -27,7 +27,7 @@ $h2-size: 1.25rem;
 $h3-size: 1.625rem; 
 
 
-$wrapper-padding: 4rem; 
+$wrapper-padding: 2rem; 
 
 $max-width: 560px; 
 
@@ -60,7 +60,6 @@ body {
   @extend %container-padding; 
   margin: 0 auto;
   padding-top: $wrapper-padding;
-  // border-left: 1px solid #ddd; 
   article:first-child {
     margin-top: 0; 
   }
@@ -70,12 +69,13 @@ body {
   // @extend %container-padding; 
   font-size: 1.8rem;
   margin-bottom: 0;
-  border-bottom: 1px solid $color_faded_lightest; 
+  border-bottom: 10px solid #eee; 
   padding: $wrapper-padding + 3rem 1rem $wrapper-padding 1rem; 
+  a { border: none; }
 }
 
 .site-title {
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 1px; 
   font-weight: bold; 
   margin-right: 1.5rem;
@@ -99,6 +99,13 @@ body {
     }
 }
 
+.footer {
+  border-top: 1px solid $color_faded_lightest; 
+  padding: $wrapper-padding 0; 
+  text-align: center; 
+  margin-top: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist {
   margin-bottom: 1rem;
 }
@@ -109,6 +116,7 @@ h1, h2, h3, h4, h5, h6, .article-meta {
 
   a {
     text-decoration: none;
+    border: none;
     color: #222; 
   }
 }
@@ -129,14 +137,14 @@ h1 {
 
 
 article {
-  margin: $wrapper-padding 0; 
-  aside {
-    position: relative;
-    float: left;
-    font-size: 20px;
-    margin-left: -23px; 
-    color: $color_faded_lightest;
-  }
+  padding: 2rem 0; 
+  margin: 0; 
+
+}
+
+article.link + article.link {
+  // border-top: 1px dotted $color_faded_light;
+  // padding: 1rem 0;
 }
 
 .snippet p {
@@ -145,11 +153,41 @@ article {
 
 .source-information {
   font-weight: 400; 
-  font-size: 1rem;
-  color: $color_faded; 
+  display: block;
+  margin-bottom: 1rem;
+  a { 
+    font-weight: bold; 
+  }
+}
+
+.date-divider {
+  margin: 4rem 0;
+  letter-spacing: 2px; 
+  text-transform: uppercase;  
   font-size: .9rem;
-  @include colorless-links($color_faded_light); 
-  a { font-weight: bold; }
+}
+
+.date a {
+  color: $color_faded_lightest;
+  border: none; 
+  padding: 0;
+  &:hover {
+    color: #222; 
+  }
+}
+
+a {
+  color: #0074D9;
+  text-decoration: none; 
+  border-bottom: 1px solid $color_faded_lightest; 
+  &:hover {
+    background-color: $color_faded_lightest;
+  }
+}
+
+img {
+  max-width: 100%; 
+  height: auto;
 }
 
 /* Media queries */
@@ -187,6 +225,20 @@ article {
 }
 
 @media (max-width: 500px) {
+ 
+  .header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  article {
+    padding: 1rem 0;
+  }
+
+  .wrapper {
+    padding: 1rem; 
+  }
+
   h1.center.strong {
     font-size: 1.1rem;
   }
