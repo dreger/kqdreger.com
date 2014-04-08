@@ -4,7 +4,7 @@ destination:    ./_site
 pygments:       true
 markdown:       rdiscount
 rdiscount:
-  extensions: [footnotes]
+  extensions: [footnotes, smart]
   # extensions: [ footnotes ]
 
 # gems: [permalinkrewriter]
