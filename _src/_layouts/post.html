@@ -12,7 +12,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 
 {% if page.category == 'log-podcast' %}
 	<article class="article">
-	<h1 class="article-title big"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	<p class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></p>
 	<audio controls="controls"  src="{{site.domain}}/log/audio/{{ page.file }}">
 	<source src="{{site.domain}}/log/audio/{{ page.file }}" type="audio/mpeg">
 	Your browser does not support the audio element. Please download the audio file above.
@@ -23,7 +23,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 
 {% elsif page.category == 'post' %}
 	<article class="article">
-	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	<p class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></p>
 	{{ content }}
 	<p class="date"><a href="{{ page.url }}">{{ page.date | date: "%b, %d, %Y" }}</a></p>
 	</article>

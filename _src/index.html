@@ -6,17 +6,17 @@ layout: default
 
 {% if post.category == 'post' %}
 	<article>
-	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	<p class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
 	{{ post.content  }}
-	<p class="date"><a href="{{ post.url }}">{{ post.date | date: "%b, %d, %Y" }}</a></p>
+	<p class="date"><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></p>
 	</article>
 
 {% elsif post.category == 'link' %}
 	<article class="link">
 	<p class="source-information"><a href="{{ post.source-link }}">{{ post.title }}</a></p>
-	<p class="snippet">{{ post.content }}</p>
+	{{ post.content }}
 
-	<p class="date"><a href="{{ post.url }}">{{ post.date | date: "%b, %d, %Y" }}</a></p>
+	<p class="date"><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></p>
 	</article>
 {% endif %}
 
