@@ -307,10 +307,10 @@ body { line-height: 1.4rem; font-family: "Helvetica Neue", "Segoe UI", Arial, sa
 
 .container { max-width: 550px; margin: 0 auto; }
 
-.wrapper { margin: 0 auto; padding-top: 2rem; }
+.wrapper { margin: 0 auto; padding-top: 3rem; }
 .wrapper article:first-child { margin-top: 0; padding-top: 0; }
 
-.header { font-size: 1.8rem; margin-bottom: 0; border-bottom: 10px solid #dadada; padding: 5rem 1rem 2rem 1rem; }
+.header { font-size: 1.8rem; margin-bottom: 0; border-bottom: 10px solid #dadada; padding: 5rem 1rem 3rem 1rem; }
 .header a { border: none; }
 
 .site-title { text-transform: lowercase; letter-spacing: 1px; font-weight: bold; margin-right: 1.5rem; text-decoration: none; color: #222; }
@@ -323,7 +323,7 @@ body { line-height: 1.4rem; font-family: "Helvetica Neue", "Segoe UI", Arial, sa
 .nav a.active { color: #222; }
 .nav li { list-style: none; display: inline; margin-right: 1rem; }
 
-.footer { border-top: 1px solid #9a9a9a; padding: 2rem 0; text-align: center; margin-top: 2rem; }
+.footer { border-top: 10px solid #dadada; padding: 3rem 0; text-align: center; margin-top: 2rem; }
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist { margin-bottom: 1rem; }
 
@@ -332,7 +332,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; bor
 
 h1 { font-size: 1.625rem; font-weight: 600; margin: 0; margin-bottom: .5rem; }
 
-.post-title { font-weight: bold; font-size: 1.625rem; line-height: 1em; }
+.post-title { font-weight: bold; font-size: 1.625rem; margin-top: 0; line-height: 1em; }
 .post-title a { text-decoration: none; border: none; color: #222; }
 
 article { padding: 2rem 0; margin: 0; }

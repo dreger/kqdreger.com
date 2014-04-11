@@ -19,7 +19,7 @@ $h1-size: 1.625rem;
 $h2-size: 1.25rem; 
 $h3-size: 1.625rem; 
 
-$wrapper-padding: 2rem; 
+$wrapper-padding: 3rem; 
 
 $max-width: 550px; 
 
@@ -63,7 +63,7 @@ body {
   font-size: 1.8rem;
   margin-bottom: 0;
   border-bottom: 10px solid $color_faded_single_line; 
-  padding: $wrapper-padding + 3rem 1rem $wrapper-padding 1rem; 
+  padding: $wrapper-padding + 2rem 1rem $wrapper-padding 1rem; 
   a { border: none; }
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .footer {
-  border-top: 1px solid $color_faded_lightest; 
+  border-top: 10px solid $color_faded_single_line; 
   padding: $wrapper-padding 0; 
   text-align: center; 
   margin-top: 2rem;
@@ -130,6 +130,7 @@ h1 {
 .post-title {
   font-weight: bold; 
   font-size: $h1-size; 
+  margin-top: 0; 
   line-height: 1em;
   a {
     text-decoration: none; 

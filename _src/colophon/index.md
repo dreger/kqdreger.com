@@ -3,10 +3,10 @@ layout: default
 title: Colophon
 ---
 # Colophon
-<!-- ![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
-<small>Photo credit Sarah and Chris Durr.</small> -->
+![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
+<small>Photo credit Sarah and Chris Durr.</small>
 
-This site is home to a [small webcolumn](/front-page) and [podcast](/log). The webcolumn focuses on the latest news in writing, technology, and design. The podcast offers commentatary on science, everyday technology, and gaming. 
+This site is home to a [small webcolumn](/) and [podcast](/log). The webcolumn focuses on the latest news in writing, technology, and design. The podcast offers commentatary on science, everyday technology, and gaming. 
 
 Made in Ohio, made on a Mac. Written daily-ish by Kyle Dreger. Please send all comments and correspondence to [@kyledreger](http://twitter.com/kyledreger) or email:
 
