@@ -18,4 +18,16 @@ ga('create', 'UA-17208416-21', 'kyledreger.com');
 ga('send', 'pageview');
 </script>
 
+<!-- 
+	Random Colors ROCK
+-->
+<script type="text/javascript">
+	var colors = Array("#0074D9;", "#ff0050;", "#A7C845;"); 
+	var color = colors[Math.floor(Math.random()*colors.length)];
+	document.write("<style>"
+		+ "a { color: " + color + " }" 
+		+ ".header { border-bottom-color: " + color + " }" 
+		+ "</style>");
+</script>
+
 </head>

@@ -1,28 +1,14 @@
 @import "_normalize";
 @import "_pygments";
+@import "_colors";
+@import "_typography"; 
 
+// Local Variables
 $page_width: 32rem;
-
-$color_copy: #222;
-$color_accent: #0074D9;
-
-$color_faded: #7b7b7b;
-$color_faded_light: #7a7a7a;
-$color_faded_lightest: #9a9a9a; 
-$color_faded_single_line: #dadada; 
-$color_faded_blue: #f1f3f6;
-
-$font_size: 16px;
-$sans: "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-
-$h1-size: 1.625rem; 
-$h2-size: 1.25rem; 
-$h3-size: 1.625rem; 
-
 $wrapper-padding: 3rem; 
+$max-width: 35rem; 
 
-$max-width: 550px; 
-
+// Mixins
 @mixin colorless-links($color) {
   a { 
     color: $color; 
@@ -36,6 +22,12 @@ $max-width: 550px;
   padding: 0 1rem; 
 }
 
+%image-width {
+  max-width: 180%; 
+  margin-left: -40%;
+}
+
+// Layout styles
 body {
   line-height: 1.4rem;
   font-family: $sans; 
@@ -59,24 +51,11 @@ body {
 }
 
 .header {
-  // @extend %container-padding; 
   font-size: 1.8rem;
   margin-bottom: 0;
-  border-bottom: 10px solid $color_faded_single_line; 
+  border-bottom: 10px solid $color_accent; 
   padding: $wrapper-padding + 2rem 1rem $wrapper-padding 1rem; 
   a { border: none; }
-}
-
-.site-title {
-  text-transform: lowercase;
-  letter-spacing: 1px; 
-  font-weight: bold; 
-  margin-right: 1.5rem;
-  text-decoration: none;
-  color: #222;
-}
-.site-date {
-  font-weight: normal; 
 }
 
 .nav {
@@ -92,12 +71,20 @@ body {
     }
 }
 
+article {
+  padding: 2rem 0; 
+  margin: 0; 
+
+}
+
 .footer {
   border-top: 10px solid $color_faded_single_line; 
   padding: $wrapper-padding 0; 
   text-align: center; 
   margin-top: 2rem;
 }
+
+// Typography styles
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist {
   margin-bottom: 1rem;
@@ -106,7 +93,6 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist {
 h1, h2, h3, h4, h5, h6, .article-meta {
   line-height: 1.1em;
   font-family: $sans;
-
   a {
     text-decoration: none;
     border: none;
@@ -119,13 +105,19 @@ h1 {
   font-weight: 600; 
   margin: 0;
   margin-bottom: .5rem; 
-  // font-weight: normal;
-  // font-size: 2rem;
-  // margin: 4rem 0;
-  + h2 {
+} 
 
-  }
-} // all page titles
+.site-title {
+  text-transform: lowercase;
+  letter-spacing: 1px; 
+  font-weight: bold; 
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #222;
+}
+.site-date {
+  font-weight: normal; 
+}
 
 .post-title {
   font-weight: bold; 
@@ -137,17 +129,6 @@ h1 {
     border: none; 
     color: #222; 
   }
-}
-
-article {
-  padding: 2rem 0; 
-  margin: 0; 
-
-}
-
-article.link + article.link {
-  // border-top: 1px dotted $color_faded_light;
-  // padding: 1rem 0;
 }
 
 .snippet p {
@@ -162,13 +143,6 @@ article.link + article.link {
   a { 
     font-weight: bold; 
   }
-}
-
-.date-divider {
-  margin: 4rem 0;
-  letter-spacing: 2px; 
-  text-transform: uppercase;  
-  font-size: .9rem;
 }
 
 .date a {
@@ -189,9 +163,13 @@ a {
   }
 }
 
-img {
-  max-width: 100%; 
-  height: auto;
+// Misc styles
+
+.date-divider {
+  margin: 4rem 0;
+  letter-spacing: 2px; 
+  text-transform: uppercase;  
+  font-size: .9rem;
 }
 
 blockquote {
@@ -202,15 +180,12 @@ blockquote {
 
 img {
   border-radius: 5px; 
+  max-width: 100%; 
+  height: auto;
   margin: 1rem 0;
   -moz-box-shadow:     0 5px 10px #444;
    -webkit-box-shadow:  0 5px 10px #444;
    box-shadow:          0 5px 10px #444;
-}
-
-%image-width {
-  max-width: 180%; 
-  margin-left: -40%;
 }
 
 strong > img {
@@ -222,22 +197,9 @@ em > img {
 }
 
 
-/* Media queries */
-
-
-@media (max-width: 1200px) {
-
-
-  // strong > img{
-  //   max-width: 140%;
-  //   margin-left: -20%;
-  // }
-}
+// Media queries
 
 @media (max-width: 1020px) {
-  // .footer {
-  //   margin-top: 3rem;
-  // }
   strong > img, em > img {
     max-width: 100%;
     margin-left: 0;
@@ -245,7 +207,6 @@ em > img {
 }
 
 @media (max-width: 500px) {
- 
   .header {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -259,31 +220,7 @@ em > img {
     padding: 1rem; 
   }
 
-  // h1.center.strong {
-  //   font-size: 1.1rem;
-  // }
-  // .large {
-  //   font-size: 1rem; 
-  // }
-
   .post-date {
     display: none;
   }
-
-  // .navigation {
-  //   ul {
-  //     float: none; 
-  //     li { margin: 0 .75rem 0 0; }
-  //   }
-  //   margin: 4rem 0;
-  // }
-  // .title {
-  //   float: none; 
-  //   display: block; 
-  //   margin-bottom: .75rem;
-  // }
-
-  // .index span, .archives span {
-  //   display: block;
-  // }
 }
