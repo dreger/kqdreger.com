@@ -305,50 +305,58 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 strong > img, em > img { max-width: 180%; margin-left: -40%; }
 
-body { line-height: 1.4rem; font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 16px; -moz-box-sizing: content-box; box-sizing: content-box; }
-
-.container { max-width: 35rem; margin: 0 auto; }
-
-.wrapper { margin: 0 auto; padding-top: 3rem; }
-.wrapper article:first-child { margin-top: 0; padding-top: 0; }
-
-.header { font-size: 1.8rem; margin-bottom: 0; border-bottom: 10px solid #0074d9; padding: 5rem 1rem 3rem 1rem; }
-.header a { border: none; }
-
-.nav { margin: 0; padding: 0; margin-top: 1rem; font-size: 1.25rem; }
-.nav a { color: #9a9a9a; text-decoration: none; }
-.nav a:hover { color: #222; }
-.nav a.active { color: #222; }
-.nav li { list-style: none; display: inline; margin-right: 1rem; }
-
-article { padding: 2rem 0; margin: 0; }
-
-.footer { border-top: 10px solid #dadada; padding: 3rem 0; text-align: center; margin-top: 2rem; }
-
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist { margin-bottom: 1rem; }
 
 h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; border: none; color: #222; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; border: none; color: #222222; }
 
-h1 { font-size: 1.625rem; font-weight: 600; margin: 0; margin-bottom: .5rem; }
+h1 { font-size: 2rem; font-weight: 600; margin: 0; margin-bottom: .5rem; }
 
-.site-title { text-transform: lowercase; letter-spacing: 1px; font-weight: bold; margin-right: 1.5rem; text-decoration: none; color: #222; }
+h2 { font-size: 1.4rem; }
+
+h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+
+.site-title { text-transform: lowercase; letter-spacing: 1px; font-weight: bold; margin-right: 1.5rem; text-decoration: none; color: #222222; }
 
 .site-date { font-weight: normal; }
 
-.post-title { font-weight: bold; font-size: 1.625rem; margin-top: 0; line-height: 1em; }
+.post-title { font-weight: bold; font-size: 2rem; margin-top: 0; line-height: 1em; }
 .post-title a { text-decoration: none; border: none; color: #222; }
+
+.archives { margin: 0; padding: 0; list-style: none; }
+.archives li { margin: .5rem 0; }
 
 .snippet p { margin: 0; padding-left: 1rem; }
 
 .source-information { font-weight: 400; display: block; margin-bottom: 1rem; }
 .source-information a { font-weight: bold; }
+.source-information a.permalink { margin-left: .5rem; }
 
-.date a { color: #9a9a9a; border: none; padding: 0; }
-.date a:hover { color: #222; }
+.date { color: #9a9a9a; border: none; font-weight: bold; padding: 0; }
 
-a { color: #0074d9; text-decoration: none; border-bottom: 1px solid #9a9a9a; }
+a { color: #0074d9; text-decoration: none; border-bottom: 2px solid #dadada; padding-bottom: -1px; }
 a:hover { background-color: #dadada; }
+
+body { line-height: 1.5rem; color: #444444; font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif; font-size: 18px; -moz-box-sizing: content-box; box-sizing: content-box; }
+
+.container { max-width: 35.5rem; margin: 0 auto; }
+
+.wrapper { margin: 0 auto; padding-top: 3rem; }
+.wrapper article:first-child { margin-top: 0; padding-top: 0; }
+
+.header { font-size: 1.8rem; border-bottom: 2px solid #dadada; margin-bottom: 0; text-align: left; padding: 5rem 1rem 3rem 1rem; }
+.header a { border: none; }
+
+.nav { margin: 0; padding: 0; margin-top: 1rem; font-size: 1.4rem; }
+.nav a { color: #9a9a9a; text-decoration: none; }
+.nav a:hover { color: #222; }
+.nav a.active { color: #222; }
+.nav li { list-style: none; display: inline; margin-right: 1rem; }
+
+article { padding-top: 5rem; margin: 0; }
+article p:first-child { margin-top: 0; }
+
+.footer { border-top: 10px solid #dadada; padding: 3rem 0; text-align: center; margin-top: 5rem; }
 
 .date-divider { margin: 4rem 0; letter-spacing: 2px; text-transform: uppercase; font-size: .9rem; }
 
@@ -359,7 +367,7 @@ img { border-radius: 5px; max-width: 100%; height: auto; margin: 1rem 0; -moz-bo
 em > img { box-shadow: none; }
 
 @media (max-width: 1020px) { strong > img, em > img { max-width: 100%; margin-left: 0; } }
-@media (max-width: 500px) { .header { padding-top: 1rem; padding-bottom: 1rem; }
+@media (max-width: 500px) { .header { padding-top: 1rem; padding-bottom: 1rem; text-align: left; border-bottom: 2px solid #dadada; }
   article { padding: 1rem 0; }
   .wrapper { padding: 1rem; }
-  .post-date { display: none; } }
+  .archives-date { display: none; } }

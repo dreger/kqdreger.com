@@ -6,7 +6,7 @@
 // Local Variables
 $page_width: 32rem;
 $wrapper-padding: 3rem; 
-$max-width: 35rem; 
+$max-width: 35.5rem; 
 
 // Mixins
 @mixin colorless-links($color) {
@@ -27,12 +27,115 @@ $max-width: 35rem;
   margin-left: -40%;
 }
 
+// Typography styles
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, .article-meta {
+  line-height: 1.1em;
+  font-family: $sans;
+  a {
+    text-decoration: none;
+    border: none;
+    color: $color_header; 
+  }
+}
+
+h1 {
+  font-size: $h1-size;
+  font-weight: 600; 
+  margin: 0;
+  margin-bottom: .5rem; 
+} 
+
+h2 {
+  font-size: $h2-size; 
+}
+
+h3 {
+  font-size: $h3-size;
+  text-transform: uppercase;
+  letter-spacing: 1px; 
+}
+
+.site-title {
+  text-transform: lowercase;
+  letter-spacing: 1px; 
+  font-weight: bold; 
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: $color_header;
+}
+.site-date {
+  font-weight: normal; 
+}
+
+.post-title {
+  font-weight: bold; 
+  font-size: $h1-size; 
+  margin-top: 0; 
+  line-height: 1em;
+  a {
+    text-decoration: none; 
+    border: none; 
+    color: #222; 
+  }
+}
+
+.archives {
+  margin: 0; 
+  padding: 0;
+  list-style: none;
+  li {
+    margin: .5rem 0;
+  }
+}
+
+.snippet p {
+  margin: 0; 
+  padding-left: 1rem;
+}
+
+.source-information {
+  font-weight: 400; 
+  display: block;
+  margin-bottom: 1rem;
+  a { 
+    font-weight: bold; 
+    &.permalink {
+      margin-left: .5rem;
+    }
+  }
+}
+
+.date {
+  color: $color_faded_lightest;
+  border: none; 
+  font-weight: bold; 
+  padding: 0;
+}
+
+a {
+  color: $color_accent;
+  text-decoration: none; 
+  border-bottom: 2px solid $color_faded_single_line; 
+  padding-bottom: -1px; 
+  &:hover {
+    background-color: $color_faded_single_line;
+  }
+}
+
 // Layout styles
+
 body {
-  line-height: 1.4rem;
+  line-height: 1.5rem;
+  color: $color_copy;
   font-family: $sans; 
   font-size: $font-size; 
-  -moz-box-sizing: content-box; box-sizing: content-box;
+  -moz-box-sizing: content-box; 
+  box-sizing: content-box;
 }
 
 .container {
@@ -52,8 +155,10 @@ body {
 
 .header {
   font-size: 1.8rem;
+    border-bottom: 2px solid $color_faded_single_line;
+
   margin-bottom: 0;
-  border-bottom: 10px solid $color_accent; 
+  text-align: left;
   padding: $wrapper-padding + 2rem 1rem $wrapper-padding 1rem; 
   a { border: none; }
 }
@@ -72,96 +177,21 @@ body {
 }
 
 article {
-  padding: 2rem 0; 
+  padding-top: 5rem; 
   margin: 0; 
-
+  p:first-child {
+    margin-top: 0; 
+  }
 }
 
 .footer {
   border-top: 10px solid $color_faded_single_line; 
   padding: $wrapper-padding 0; 
   text-align: center; 
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
-// Typography styles
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist {
-  margin-bottom: 1rem;
-}
-
-h1, h2, h3, h4, h5, h6, .article-meta {
-  line-height: 1.1em;
-  font-family: $sans;
-  a {
-    text-decoration: none;
-    border: none;
-    color: #222; 
-  }
-}
-
-h1 {
-  font-size: $h1-size;
-  font-weight: 600; 
-  margin: 0;
-  margin-bottom: .5rem; 
-} 
-
-.site-title {
-  text-transform: lowercase;
-  letter-spacing: 1px; 
-  font-weight: bold; 
-  margin-right: 1.5rem;
-  text-decoration: none;
-  color: #222;
-}
-.site-date {
-  font-weight: normal; 
-}
-
-.post-title {
-  font-weight: bold; 
-  font-size: $h1-size; 
-  margin-top: 0; 
-  line-height: 1em;
-  a {
-    text-decoration: none; 
-    border: none; 
-    color: #222; 
-  }
-}
-
-.snippet p {
-  margin: 0; 
-  padding-left: 1rem;
-}
-
-.source-information {
-  font-weight: 400; 
-  display: block;
-  margin-bottom: 1rem;
-  a { 
-    font-weight: bold; 
-  }
-}
-
-.date a {
-  color: $color_faded_lightest;
-  border: none; 
-  padding: 0;
-  &:hover {
-    color: #222; 
-  }
-}
-
-a {
-  color: $color_accent;
-  text-decoration: none; 
-  border-bottom: 1px solid $color_faded_lightest; 
-  &:hover {
-    background-color: $color_faded_single_line;
-  }
-}
 
 // Misc styles
 
@@ -210,6 +240,8 @@ em > img {
   .header {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    text-align: left; 
+    border-bottom: 2px solid $color_faded_single_line;
   }
 
   article {
@@ -220,7 +252,7 @@ em > img {
     padding: 1rem; 
   }
 
-  .post-date {
+  .archives-date {
     display: none;
   }
 }

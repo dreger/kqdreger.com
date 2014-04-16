@@ -22,12 +22,12 @@ document.write('<A href="mailto:' + mail + '">' + mail + '</a>')
 Please enable JavaScript to contact me.</em>
 </NOSCRIPT>
 
-### Conflicts of Interest
+## Conflicts of Interest
 I do not own any stock or other investments in any of the companies I write about.
 
 Generally, any links that I post to Amazon or iTunes will carry my affiliate tag, which basically means I get a small kickback if you buy any of the items I link to. Thanks!
 
-### The Nuts and Bolts
+## The Nuts and Bolts
 A combination of [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) are used to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
 
 Type is set in Avenir Next (OS X) and Segoe UI (Windows).

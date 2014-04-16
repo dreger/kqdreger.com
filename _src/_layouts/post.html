@@ -25,15 +25,15 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 	<article class="article">
 	<p class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></p>
 	{{ content }}
-	<p class="date"><a href="{{ page.url }}">{{ page.date | date: "%b, %d, %Y" }}</a></p>
+	<p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
 	</article>
 
 {% elsif page.category == 'link' %}
 	<article class="link">
-	<p class="source-information"><a href="{{ page.source-link }}">{{ page.title }}</a></p>
+	<p class="source-information"><a href="{{ page.source-link }}">{{ page.title }}</a> <a class="permalink" href="{{ post.url }}">&#10006;</a></p>
 	<p class="snippet">{{ content }}</p>
 
-	<p class="date"><a href="{{ page.url }}">{{ page.date | date: "%b, %d, %Y" }}</a></p>
+	<p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
 	</article>
 
 {% endif %}
