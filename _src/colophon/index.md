@@ -3,8 +3,8 @@ layout: default
 title: Colophon
 ---
 # Colophon
-![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
-<small>Photo credit Sarah and Chris Durr.</small>
+<!-- ![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
+<small>Photo credit Sarah and Chris Durr.</small> -->
 
 This site is home to a [small webcolumn](/) and [podcast](/log). The webcolumn focuses on the latest news in writing, technology, and design. The podcast offers commentatary on science, everyday technology, and gaming. 
 
@@ -30,6 +30,6 @@ Generally, any links that I post to Amazon or iTunes will carry my affiliate tag
 ## The Nuts and Bolts
 A combination of [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) are used to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
 
-Type is set in Avenir Next (OS X) and Segoe UI (Windows).
+<!-- Type is set in Avenir Next (OS X) and Segoe UI (Windows). -->
 
 
