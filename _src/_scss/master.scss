@@ -116,6 +116,13 @@ h3 {
   padding: 0;
 }
 
+.archives-link {
+  margin: 4rem 0 -5rem; 
+  text-align: center; 
+  border: 2px solid $color_faded_single_line;
+  padding: 2rem;
+}
+
 a {
   color: $color_accent;
   text-decoration: none; 
