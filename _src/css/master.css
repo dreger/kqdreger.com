@@ -307,18 +307,18 @@ strong > img, em > img { max-width: 180%; margin-left: -40%; }
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist { margin-bottom: 1rem; }
 
-h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; font-family: proxima-nova, "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; border: none; color: #222222; }
 
 h1 { font-size: 1.8rem; font-weight: 600; margin: 0; margin-bottom: .5rem; }
 
-h2 { font-size: 1.3rem; }
+h2 { font-size: 1.3rem; margin: 1.5rem 0 .5rem; }
 
-h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; }
+h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin: 2rem 0 .25rem; }
 
 .site-title { text-transform: lowercase; letter-spacing: 1px; font-weight: bold; margin-right: 1.5rem; text-decoration: none; color: #222222; }
 
-.post-title { font-weight: lighter; font-size: 1.8rem; margin-top: 0; line-height: 1em; }
+.post-title { font-weight: 400; font-size: 1.8rem; margin-top: 0; line-height: 1em; }
 .post-title a { text-decoration: none; border: none; color: #222; }
 
 .archives { margin: 0; padding: 0; list-style: none; }
@@ -337,7 +337,7 @@ a:hover { background-color: #dadada; }
 
 html { font-size: 18px; }
 
-body { line-height: 1.5em; color: #444444; font-family: proxima-nova, "Helvetica Neue", "Segoe UI", Arial, sans-serif; -moz-box-sizing: content-box; box-sizing: content-box; }
+body { line-height: 1.5em; color: #444444; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; -moz-box-sizing: content-box; box-sizing: content-box; }
 
 .container { max-width: 31rem; margin: 0 auto; }
 
