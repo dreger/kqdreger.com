@@ -7,7 +7,7 @@ rdiscount:
   extensions: [footnotes, smart]
   # extensions: [ footnotes ]
 
-# gems: [permalinkrewriter]
+# gems: [permalinkrewriter, sitemap_generator]
 # paginate: 1
 # timezone:       nil
 # future:         true
@@ -15,6 +15,7 @@ rdiscount:
 pygments:       true
 
 # required configuration
+url: 			http://kyledreger.com
 domain:         http://kyledreger.com
 title:          Kyle Dreger
 author:         Kyle Dreger
