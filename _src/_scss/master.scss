@@ -4,9 +4,9 @@
 @import "_typography"; 
 
 // Local Variables
-$page_width: 32rem;
+$page_width: 31rem;
 $wrapper-padding: 3rem; 
-$max-width: 35.5rem; 
+$max-width: 31rem; 
 
 // Mixins
 @mixin colorless-links($color) {
@@ -68,12 +68,9 @@ h3 {
   text-decoration: none;
   color: $color_header;
 }
-.site-date {
-  font-weight: normal; 
-}
 
 .post-title {
-  font-weight: bold; 
+  font-weight: lighter; 
   font-size: $h1-size; 
   margin-top: 0; 
   line-height: 1em;
@@ -120,7 +117,7 @@ h3 {
 a {
   color: $color_accent;
   text-decoration: none; 
-  border-bottom: 2px solid $color_faded_single_line; 
+  border-bottom: 2pt solid $color_faded_single_line; 
   padding-bottom: -1px; 
   &:hover {
     background-color: $color_faded_single_line;
@@ -128,12 +125,14 @@ a {
 }
 
 // Layout styles
+html {
+  font-size: $font-size; 
+}
 
 body {
-  line-height: 1.5rem;
+  line-height: 1.5em;
   color: $color_copy;
   font-family: $sans; 
-  font-size: $font-size; 
   -moz-box-sizing: content-box; 
   box-sizing: content-box;
 }
@@ -155,8 +154,7 @@ body {
 
 .header {
   font-size: 1.8rem;
-    border-bottom: 2px solid $color_faded_single_line;
-
+  border-bottom: 2pt solid $color_faded_single_line;
   margin-bottom: 0;
   text-align: left;
   padding: $wrapper-padding + 2rem 1rem $wrapper-padding 1rem; 
@@ -185,15 +183,36 @@ article {
 }
 
 .footer {
-  border-top: 10px solid $color_faded_single_line; 
+  border-top: 2pt solid $color_faded_single_line; 
   padding: $wrapper-padding 0; 
   text-align: center; 
   margin-top: 5rem;
+  p:first-child{
+    margin-top: 0; 
+  }
 }
 
-
-
 // Misc styles
+
+.button {
+  background-color: $color_accent; 
+  padding: 1rem 2rem; 
+  border-bottom: 5px solid darken($color_accent, 10%); 
+  display: block;
+  color: #fff; 
+  font-size: 1.25rem;
+  font-weight: bold; 
+  border-radius: 3px; 
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 70%;
+  &:hover {
+    background-color: lighten($color_accent, 5%);
+  }
+  &:active {
+    background-color: darken($color_accent, 10%);
+  }
+}
 
 .date-divider {
   margin: 4rem 0;
@@ -226,6 +245,12 @@ em > img {
   box-shadow: none; 
 }
 
+figcaption {
+  margin: -1.5rem 0 1.5rem; 
+  text-align: center; 
+  font-style: italic;
+  font-size: .9rem;
+}
 
 // Media queries
 
@@ -237,22 +262,35 @@ em > img {
 }
 
 @media (max-width: 500px) {
+  html {
+    font-size: 16px; 
+  }
   .header {
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: left; 
-    border-bottom: 2px solid $color_faded_single_line;
+    border-bottom: 2pt solid $color_faded_single_line;
+    font-size: 25px; 
+  }
+  .nav {
+    font-size: 20px;
   }
 
   article {
-    padding: 1rem 0;
+    padding-top: 3rem;
   }
 
   .wrapper {
-    padding: 1rem; 
+    padding: 2rem 1rem; 
   }
 
   .archives-date {
     display: none;
+  }
+
+  .footer {
+    margin-top: 0rem;
+    padding: 1rem;
+    text-align: left;
   }
 }
