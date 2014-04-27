@@ -316,6 +316,8 @@ h2 { font-size: 1.3rem; margin: 1.5rem 0 .5rem; }
 
 h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin: 2rem 0 .25rem; }
 
+.small-caps { font-size: .9rem; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
+
 .site-title { text-transform: lowercase; letter-spacing: 1px; font-weight: bold; margin-right: 1.5rem; text-decoration: none; color: #222222; }
 
 .post-title { font-weight: 400; font-size: 1.8rem; margin-top: 0; line-height: 1em; }
@@ -337,11 +339,11 @@ h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin: 2r
 a { color: #0074d9; text-decoration: none; border-bottom: 2pt solid #dadada; padding-bottom: -1px; }
 a:hover { background-color: #dadada; }
 
-html { font-size: 18px; }
+html { font-size: 16px; }
 
 body { line-height: 1.5em; color: #444444; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; -moz-box-sizing: content-box; box-sizing: content-box; }
 
-.container { max-width: 31rem; margin: 0 auto; }
+.container { max-width: 32rem; margin: 0 auto; }
 
 .wrapper { margin: 0 auto; padding-top: 3rem; }
 .wrapper article:first-child { margin-top: 0; padding-top: 0; }
