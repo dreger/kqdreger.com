@@ -29,6 +29,7 @@ layout: nil
    </author>
   <content type="html">
     {{ post.content | xml_escape }}
+    &lt;a href=&quot;{{site.domain}}{{ post.url }}&quot;&gt;&#10006;&lt;/a&gt;
   </content>
 </entry>
 {% endif %}

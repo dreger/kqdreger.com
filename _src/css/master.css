@@ -352,7 +352,7 @@ body { line-height: 1.5em; color: #444444; font-family: "Avenir Next", "Helvetic
 .header a { border: none; }
 
 .nav { margin: 0; padding: 0; margin-top: 1rem; font-size: 1.3rem; }
-.nav a { color: #9a9a9a; text-decoration: none; }
+.nav a { color: #7a7a7a; text-decoration: none; }
 .nav a:hover { color: #222; }
 .nav a.active { color: #222; }
 .nav li { list-style: none; display: inline; margin-right: 1rem; }
@@ -384,4 +384,4 @@ figcaption { margin: -1.5rem 0 1.5rem; text-align: center; font-style: italic; f
   article { padding-top: 3rem; }
   .wrapper { padding: 2rem 1rem; }
   .archives-date { display: none; }
-  .footer { margin-top: 0rem; padding: 1rem; text-align: left; } }
+  .footer { padding: 1rem; } }
