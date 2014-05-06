@@ -6,7 +6,7 @@
 // Local Variables
 $page_width: 31rem;
 $wrapper-padding: 3rem; 
-$max-width: 32rem; 
+$max-width: 30rem; 
 
 // Mixins
 @mixin colorless-links($color) {
@@ -70,7 +70,7 @@ h3 {
 }
 
 .site-title {
-  text-transform: lowercase;
+  // text-transform: lowercase;
   letter-spacing: 1px; 
   font-weight: bold; 
   margin-right: 1.5rem;
@@ -119,8 +119,11 @@ h3 {
 .date {
   color: $color_faded_lightest;
   border: none; 
-  font-weight: bold; 
+  text-align: left;
   padding: 0;
+  font-size: .85rem; 
+  text-transform: uppercase;
+  letter-spacing: 1px; 
 }
 
 .archives-link {
@@ -146,7 +149,7 @@ html {
 }
 
 body {
-  line-height: 1.5em;
+  line-height: $line-height;
   color: $color_copy;
   font-family: $sans; 
   -moz-box-sizing: content-box; 
@@ -169,9 +172,10 @@ body {
 }
 
 .header {
-  font-size: 1.8rem;
+  font-size: 1.25rem;
   border-bottom: 2pt solid $color_faded_single_line;
   margin-bottom: 0;
+  font-weight: normal;
   text-align: left;
   padding: $wrapper-padding + 2rem 1rem $wrapper-padding 1rem; 
   a { border: none; }
@@ -181,8 +185,8 @@ body {
   @include colorless-links($color_faded_light); 
     margin: 0; 
     padding: 0; 
-    margin-top: 1rem;
-    font-size: $h2-size;
+    margin-top: .5rem;
+    font-size: 1rem;
     li { 
       list-style: none; 
       display: inline;
@@ -201,7 +205,9 @@ article {
 .footer {
   border-top: 2pt solid $color_faded_single_line; 
   padding: $wrapper-padding 0; 
-  text-align: center; 
+  text-align: left; 
+  font-size: .85rem;
+  line-height: .85rem;
   margin-top: 5rem;
   p:first-child{
     margin-top: 0; 

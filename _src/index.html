@@ -15,8 +15,11 @@ layout: default
 	<article class="link">
 	<p class="source-information"><a href="{{ post.source-link }}">{{ post.title }}</a> <a class="permalink" href="{{ post.url }}">&#10006;</a></p>
 	{{ post.content }}
+	<p class="date">{{ post.date | date: "%B %d" }} </p>
 	</article>
 {% endif %}
+
+<span class="article-break"></span>
 
 {% endfor %}
 

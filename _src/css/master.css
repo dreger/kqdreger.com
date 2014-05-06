@@ -310,17 +310,17 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist { margin-bottom: 1rem; 
 h1, h2, h3, h4, h5, h6, .article-meta { line-height: 1.1em; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .article-meta a { text-decoration: none; border: none; color: #222222; }
 
-h1 { font-size: 1.8rem; font-weight: 600; margin: 0; margin-bottom: .5rem; }
+h1 { font-size: 1.5rem; font-weight: 600; margin: 0; margin-bottom: .5rem; }
 
-h2 { font-size: 1.3rem; margin: 1.5rem 0 .5rem; }
+h2 { font-size: 1.25rem; margin: 1.5rem 0 .5rem; }
 
 h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin: 2rem 0 .25rem; }
 
 .small-caps { font-size: .9rem; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
 
-.site-title { text-transform: lowercase; letter-spacing: 1px; font-weight: bold; margin-right: 1.5rem; text-decoration: none; color: #222222; }
+.site-title { letter-spacing: 1px; font-weight: bold; margin-right: 1.5rem; text-decoration: none; color: #222222; }
 
-.post-title { font-weight: 400; font-size: 1.8rem; margin-top: 0; line-height: 1em; }
+.post-title { font-weight: 400; font-size: 1.5rem; margin-top: 0; line-height: 1em; }
 .post-title a { text-decoration: none; border: none; color: #222; }
 
 .archives { margin: 0; padding: 0; list-style: none; }
@@ -332,26 +332,26 @@ h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin: 2r
 .source-information a { font-weight: bold; }
 .source-information a.permalink { margin-left: .5rem; }
 
-.date { color: #9a9a9a; border: none; font-weight: bold; padding: 0; }
+.date { color: #9a9a9a; border: none; text-align: left; padding: 0; font-size: .85rem; text-transform: uppercase; letter-spacing: 1px; }
 
 .archives-link { margin: 4rem 0 -5rem; text-align: center; border: 2px solid #dadada; padding: 2rem; }
 
-a { color: #0074d9; text-decoration: none; border-bottom: 2pt solid #dadada; padding-bottom: -1px; }
+a { color: #ff0050; text-decoration: none; border-bottom: 2pt solid #dadada; padding-bottom: -1px; }
 a:hover { background-color: #dadada; }
 
 html { font-size: 16px; }
 
 body { line-height: 1.5em; color: #444444; font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif; -moz-box-sizing: content-box; box-sizing: content-box; }
 
-.container { max-width: 32rem; margin: 0 auto; }
+.container { max-width: 30rem; margin: 0 auto; }
 
 .wrapper { margin: 0 auto; padding-top: 3rem; }
 .wrapper article:first-child { margin-top: 0; padding-top: 0; }
 
-.header { font-size: 1.8rem; border-bottom: 2pt solid #dadada; margin-bottom: 0; text-align: left; padding: 5rem 1rem 3rem 1rem; }
+.header { font-size: 1.25rem; border-bottom: 2pt solid #dadada; margin-bottom: 0; font-weight: normal; text-align: left; padding: 5rem 1rem 3rem 1rem; }
 .header a { border: none; }
 
-.nav { margin: 0; padding: 0; margin-top: 1rem; font-size: 1.3rem; }
+.nav { margin: 0; padding: 0; margin-top: .5rem; font-size: 1rem; }
 .nav a { color: #7a7a7a; text-decoration: none; }
 .nav a:hover { color: #222; }
 .nav a.active { color: #222; }
@@ -360,12 +360,12 @@ body { line-height: 1.5em; color: #444444; font-family: "Avenir Next", "Helvetic
 article { padding-top: 5rem; margin: 0; }
 article p:first-child { margin-top: 0; }
 
-.footer { border-top: 2pt solid #dadada; padding: 3rem 0; text-align: center; margin-top: 5rem; }
+.footer { border-top: 2pt solid #dadada; padding: 3rem 0; text-align: left; font-size: .85rem; line-height: .85rem; margin-top: 5rem; }
 .footer p:first-child { margin-top: 0; }
 
-.button { background-color: #0074d9; padding: 1rem 2rem; border-bottom: 5px solid #0059a6; display: block; color: #fff; font-size: 1.25rem; font-weight: bold; border-radius: 3px; margin: 2rem auto; text-align: center; max-width: 70%; }
-.button:hover { background-color: #0082f3; }
-.button:active { background-color: #0059a6; }
+.button { background-color: #ff0050; padding: 1rem 2rem; border-bottom: 5px solid #cc0040; display: block; color: #fff; font-size: 1.25rem; font-weight: bold; border-radius: 3px; margin: 2rem auto; text-align: center; max-width: 70%; }
+.button:hover { background-color: #ff1a61; }
+.button:active { background-color: #cc0040; }
 
 .date-divider { margin: 4rem 0; letter-spacing: 2px; text-transform: uppercase; font-size: .9rem; }
 
