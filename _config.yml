@@ -14,7 +14,7 @@ rdiscount:
 highlighter:       pygments
 
 # required configuration
-url: 			http://kyledreger.com
+url:            http://kyledreger.com
 domain:         http://kyledreger.com
 title:          Kyle Dreger
 author:         Kyle Dreger
@@ -25,3 +25,9 @@ description:    "Well-written Nerdery"
 #   id:           eqd7pqa
 # google_analytics:
 #   account:      UA-17208416-21
+defaults:
+  -
+    scope:
+        path: "" # empty string for all files
+    values:
+        layout: "defualt"

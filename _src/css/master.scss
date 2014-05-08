@@ -7,7 +7,7 @@
 @import "_typography";
 
 // Local Variables
-$page_width: 31rem;
+$page_width: 30rem;
 $wrapper-padding: 3rem;
 $max-width: 30rem;
 
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, .article-meta {
 
 h1 {
   font-size: $h1-size;
-  font-weight: 600;
+  font-weight: lighter;
   margin: 0;
   margin-bottom: .5rem;
 }
@@ -56,11 +56,14 @@ h1 {
 h2 {
   font-size: $h2-size;
   margin: 1.5rem 0 .5rem;
+  font-weight: normal;
+  font-style: italic;
 }
 
 h3 {
   font-size: $h3-size;
   text-transform: uppercase;
+  font-weight: normal;
   letter-spacing: 1px;
   margin: 2rem 0 .25rem;
 }
@@ -73,16 +76,15 @@ h3 {
 }
 
 .site-title {
-  text-transform: lowercase;
+  text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: bold;
   margin-right: 1.5rem;
   text-decoration: none;
   color: $color_header;
 }
 
 .post-title {
-  font-weight: 400;
+  font-weight: normal;
   font-size: $h1-size;
   margin-top: 0;
   line-height: 1em;
@@ -98,7 +100,7 @@ h3 {
   padding: 0;
   list-style: none;
   li {
-    margin: .5rem 0;
+    margin: 1rem 0;
   }
 }
 
@@ -112,9 +114,9 @@ h3 {
   display: block;
   margin-bottom: 1rem;
   a {
-    font-weight: bold;
     &.permalink {
       margin-left: .5rem;
+      // font-size: 1.5rem;
     }
   }
 }
@@ -175,12 +177,12 @@ body {
 }
 
 .header {
-  font-size: 1.25rem;
-  border-bottom: 2pt solid $color_faded_single_line;
-  margin-bottom: 0;
+  font-size: 1rem;
+  // border-bottom: 2pt solid $color_faded_single_line;
+  margin-bottom: 3rem;
   font-weight: normal;
   text-align: left;
-  padding: $wrapper-padding + 2rem 1rem $wrapper-padding 1rem;
+  padding: 1rem;
   a { border: none; }
 }
 
@@ -209,6 +211,7 @@ article {
   border-top: 2pt solid $color_faded_single_line;
   padding: $wrapper-padding 0;
   text-align: left;
+  text-align: center;
   font-size: .85rem;
   line-height: .85rem;
   margin-top: 5rem;
@@ -275,6 +278,12 @@ figcaption {
   text-align: center;
   font-style: italic;
   font-size: .9rem;
+}
+
+.archives-date {
+  display: block;
+  font-size: .85rem;
+  color: $color_faded_lightest;
 }
 
 // Media queries

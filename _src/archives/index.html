@@ -7,10 +7,10 @@ title: Archives
 <ul class="archives">
 {% for post in site.posts %}
 {% if post.category == 'log-podcast' %}
-<li value="{{ forloop.rindex0 }}"><span class="archives-date">{{ post.date | date: "%Y-%m-%d:" }}</span> <a href="{{ post.url }}">Log {{ post.title }}</a></li>
+<li value="{{ forloop.rindex0 }}"><a href="{{ post.url }}">Log {{ post.title }} <span class="archives-date">{{ post.date | date: "%Y-%m-%d" }}</span> </a></li>
 
 {% else %}
-<li value="{{ forloop.rindex0 }}"><span class="archives-date">{{ post.date | date: "%Y-%m-%d:" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+<li value="{{ forloop.rindex0 }}"><a href="{{ post.url }}">{{ post.title }} <span class="archives-date">{{ post.date | date: "%Y-%m-%d" }}</span> </a></li>
 {% endif %}
 {% endfor %}
 </ul>
