@@ -50,7 +50,7 @@ h1 {
   font-size: $h1-size;
   font-weight: lighter;
   margin: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -69,16 +69,12 @@ h3 {
 }
 
 .small-caps {
-  font-size: .9rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-variant: small-caps;
 }
 
 .site-title {
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-right: 1.5rem;
   text-decoration: none;
   color: $color_header;
 }
@@ -86,7 +82,6 @@ h3 {
 .post-title {
   font-weight: normal;
   font-size: $h1-size;
-  margin-top: 0;
   line-height: 1em;
   a {
     text-decoration: none;
@@ -178,11 +173,10 @@ body {
 
 .header {
   font-size: 1rem;
-  // border-bottom: 2pt solid $color_faded_single_line;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   font-weight: normal;
   text-align: left;
-  padding: 1rem;
+  padding: 2rem 1rem;
   a { border: none; }
 }
 
@@ -190,7 +184,7 @@ body {
   @include colorless-links($color_faded_light);
     margin: 0;
     padding: 0;
-    margin-top: .5rem;
+    margin-top: .25rem;
     font-size: 1rem;
     li {
       list-style: none;
@@ -297,17 +291,18 @@ figcaption {
 
 @media (max-width: 500px) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
   .header {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
+
     text-align: left;
     border-bottom: 2pt solid $color_faded_single_line;
-    font-size: 25px;
+    // font-size: 25px;
   }
   .nav {
-    font-size: 20px;
+    // font-size: 20px;
+    margin-top: .5rem;
   }
 
   article {
@@ -315,11 +310,7 @@ figcaption {
   }
 
   .wrapper {
-    padding: 2rem 1rem;
-  }
-
-  .archives-date {
-    display: none;
+    padding: 0 1rem 2rem 1rem;
   }
 
   .footer {

@@ -5,6 +5,8 @@ markdown:       rdiscount
 rdiscount:
   extensions: [footnotes, smart]
   # extensions: [ footnotes ]
+# gems:
+  # - jekyll-sitemap
 
 # gems: [permalinkrewriter, sitemap_generator]
 # paginate: 1
