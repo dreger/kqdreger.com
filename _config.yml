@@ -1,7 +1,6 @@
 # standard jekyll configuration
 source:         ./_src
 destination:    ./_site
-pygments:       true
 markdown:       rdiscount
 rdiscount:
   extensions: [footnotes, smart]
@@ -12,7 +11,7 @@ rdiscount:
 # timezone:       nil
 # future:         true
 # show_drafts:    false
-pygments:       true
+highlighter:       pygments
 
 # required configuration
 url: 			http://kyledreger.com
