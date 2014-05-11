@@ -292,6 +292,10 @@ hr {
   color: $color_faded_single_line;
 }
 
+del {
+  color: $color_faded_lightest;
+}
+
 // Media queries
 
 @media (max-width: 1020px) {
