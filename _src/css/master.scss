@@ -222,9 +222,9 @@ article {
 // Misc styles
 
 .button {
-  background-color: $color_accent;
+  background-color: #0074D9;
   padding: 1rem 2rem;
-  border-bottom: 5px solid darken($color_accent, 10%);
+  border-bottom: 5px solid darken(#0074D9, 10%);
   display: block;
   color: #fff;
   font-size: 1.25rem;
@@ -234,10 +234,10 @@ article {
   text-align: center;
   max-width: 70%;
   &:hover {
-    background-color: lighten($color_accent, 10%);
+    background-color: lighten(#0074D9, 5%);
   }
   &:active {
-    background-color: darken($color_accent, 10%);
+    background-color: darken(#0074D9, 10%);
   }
 }
 
