@@ -48,3 +48,22 @@
   /* Opera 11.10+ */
   background: -o-linear-gradient(left, $colorDark, $colorLight);
 }
+
+@mixin colorless-links($color) {
+  a {
+    color: $color;
+    text-decoration: none;
+    &:hover { color: #222; }
+    &.active { color: #222; }
+  }
+}
+
+
+%container-padding {
+  padding: 0 1rem;
+}
+
+%image-width {
+  max-width: 180%;
+  margin-left: -40%;
+}

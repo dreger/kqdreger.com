@@ -33,3 +33,8 @@ defaults:
         path: "" # empty string for all files
     values:
         layout: "defualt"
+sass:
+    style:  compressed  # nested|expanded|compact|compressed
+    deploy_style: compressed  # nested|expanded|compact|compressed
+    # "deploy_style:" is used only for building the site
+    # (ie: not using the --watch flag)

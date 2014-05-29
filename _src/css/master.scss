@@ -1,36 +1,12 @@
 ---
 ---
 
-@import "_normalize";
-@import "_pygments";
-@import "_colors";
-@import "_typography";
+@import "normalize";
+@import "mixins";
+@import "pygments";
+@import "variables";
 
-// Local Variables
-$page_width: 30rem;
-$wrapper-padding: 3rem;
-$max-width: 34rem;
-
-// Mixins
-@mixin colorless-links($color) {
-  a {
-    color: $color;
-    text-decoration: none;
-    &:hover { color: #222; }
-    &.active { color: #222; }
-  }
-}
-
-%container-padding {
-  padding: 0 1rem;
-}
-
-%image-width {
-  max-width: 180%;
-  margin-left: -40%;
-}
-
-// Typography styles
+// Typography
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, audio, .gist {
   margin-bottom: 1rem;
@@ -74,21 +50,12 @@ h3 {
 }
 
 .site-title {
+  font-size: 1rem;
+  margin: 1rem 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   color: $color_header;
-}
-
-.post-title {
-  font-weight: normal;
-  font-size: $h1-size;
-  line-height: 1em;
-  a {
-    text-decoration: none;
-    border: none;
-    color: #222;
-  }
 }
 
 .archives {
@@ -97,24 +64,6 @@ h3 {
   list-style: none;
   li {
     margin: 1rem 0;
-  }
-}
-
-.snippet p {
-  margin: 0;
-  padding-left: 1rem;
-}
-
-.source-information {
-  font-weight: 400;
-  display: block;
-  margin-bottom: 1rem;
-  a {
-    &.permalink {
-      margin-left: .5rem;
-      font-weight: 100;
-      font-size: 1rem;
-    }
   }
 }
 
@@ -148,18 +97,14 @@ a {
 }
 
 // Layout styles
+
 html {
   font-size: $font-size;
 }
 
 body {
   line-height: $line-height;
-  background-color: #fff;
-  background-color: #fbf6f0;
-  background-color: #f2f1e9;
-  background-color: #f5f1e9;
-  background-color: #F5F1E9;
-  background-color: #f8f7f0;
+  background-color: $color_background;
   color: $color_copy;
   font-family: $sans;
   -moz-box-sizing: content-box;
@@ -209,6 +154,21 @@ article {
   p:first-child {
     margin-top: 0;
   }
+
+  // .post-title { font-size: 1.8rem; }
+
+  .link_title {
+    font-size: 1.1rem;
+    font-style: normal;
+    margin: 1rem 0;
+    a { border-bottom: 2pt solid $color_faded_single_line; }
+  }
+}
+
+.permalink {
+  margin-left: .5rem;
+  font-weight: 100;
+  font-size: 1.1rem;
 }
 
 .footer {
@@ -324,17 +284,14 @@ del {
   }
   .header {
     padding: 1rem;
-
     text-align: left;
     border-bottom: 2pt solid $color_faded_single_line;
-    // font-size: 25px;
   }
   .nav {
-    // font-size: 20px;
     margin-top: .5rem;
   }
 
-  article {
+  .article {
     padding-top: 3rem;
   }
 
@@ -343,7 +300,6 @@ del {
   }
 
   .footer {
-    // margin-top: 0rem;
     padding: 1rem;
   }
 }
