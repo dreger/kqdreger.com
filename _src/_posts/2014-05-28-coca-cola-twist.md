@@ -5,6 +5,4 @@ layout: post
 source-link: http://youtu.be/t9cmoT_wb0A
 title: "Coca-Cola Presents: The Friendly Twist"
 ---
-Coca-Cola bottles that are impossible to open unless two people place their bottles cap-to-cap and turned. 
-
-I'm not a big pop drinker, but this video from might be one of the coolest (and quirky) things I've seen from a soft-drink company. 
+Coca-Cola made bottles that require two bottles to open. I'm not a big pop drinker, but this video from might be one of the coolest (and quirkiest) things I've seen from a soft-drink company.
