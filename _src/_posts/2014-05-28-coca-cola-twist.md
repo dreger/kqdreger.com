@@ -5,6 +5,6 @@ layout: post
 source-link: http://youtu.be/t9cmoT_wb0A
 title: "Coca-Cola Presents: The Friendly Twist"
 ---
-Coca-Cola put a vending machine in the middle of a campus quad, and then made the bottles impossible to open unless two bottles are placed cap-to-cap and turned. 
+Coca-Cola bottles that are impossible to open unless two people place their bottles cap-to-cap and turned. 
 
 I'm not a big pop drinker, but this video from might be one of the coolest (and quirky) things I've seen from a soft-drink company. 
