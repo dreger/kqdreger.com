@@ -158,17 +158,18 @@ article {
   // .post-title { font-size: 1.8rem; }
 
   .link_title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-style: normal;
     margin: 1rem 0;
-    a { border-bottom: 2pt solid $color_faded_single_line; }
+    line-height: 1.4em; 
+    a { border-bottom: 2pt solid $color_faded_lightest; }
   }
 }
 
 .permalink {
   margin-left: .5rem;
   font-weight: 100;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .footer {

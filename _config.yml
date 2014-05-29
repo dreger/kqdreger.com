@@ -4,9 +4,8 @@ destination:    ./_site
 markdown:       rdiscount
 rdiscount:
   extensions: [footnotes, smart]
-  # extensions: [ footnotes ]
-# gems:
-  # - jekyll-sitemap
+
+permalink: /:year/:month/:title
 
 # gems: [permalinkrewriter, sitemap_generator]
 # paginate: 1
