@@ -92,7 +92,7 @@ a {
   border-bottom: 2pt solid $color_faded_lightest;
   padding-bottom: -1px;
   &:hover {
-    background-color: $color_faded_single_line;
+    background-color: $color_background;
   }
 }
 
@@ -104,7 +104,6 @@ html {
 
 body {
   line-height: $line-height;
-  background-color: $color_background;
   color: $color_copy;
   font-family: $sans;
   -moz-box-sizing: content-box;
@@ -118,6 +117,11 @@ body {
 
 .wrapper {
   @extend %container-padding;
+  padding: 3rem;
+  // background-color: $color_background;
+  // border: solid 10px $color_background;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
   margin: 0 auto;
   padding-top: $wrapper-padding;
   article:first-child {
@@ -136,7 +140,7 @@ body {
 }
 
 .nav {
-  @include colorless-links($color_faded_light);
+  @include colorless-links($color_faded);
     margin: 0;
     padding: 0;
     margin-top: .25rem;
@@ -155,13 +159,13 @@ article {
     margin-top: 0;
   }
 
-  // .post-title { font-size: 1.8rem; }
+  .post_title { line-height: 1.4em; }
 
   .link_title {
     font-size: 1rem;
     font-style: normal;
     margin: 1rem 0;
-    line-height: 1.4em; 
+    line-height: 1.4em;
     a { border-bottom: 2pt solid $color_faded_lightest; }
   }
 }
@@ -173,7 +177,7 @@ article {
 }
 
 .footer {
-  border-top: 2pt solid $color_faded_single_line;
+  // border-top: 2pt solid $color_faded_single_line;
   padding: $wrapper-padding 0;
   text-align: left;
   text-align: center;
@@ -217,7 +221,7 @@ article {
 blockquote {
   margin-left: 1rem;
   padding-left: 1rem;
-  border-left: 1px solid $color_faded_single_line;
+  border-left: 3px solid $color_faded_single_line;
 }
 
 img {
@@ -282,6 +286,9 @@ del {
 @media (max-width: 500px) {
   html {
     font-size: 14px;
+  }
+  body {
+    background-color: $color_background;
   }
   .header {
     padding: 1rem;
