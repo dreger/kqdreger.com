@@ -52,7 +52,7 @@ h3 {
 .site-title {
   font-size: 1rem;
   margin: 1rem 0;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   color: $color_header;
@@ -63,7 +63,7 @@ h3 {
   padding: 0;
   list-style: none;
   li {
-    margin: 1rem 0;
+    margin: .75rem 0;
   }
 }
 
@@ -73,8 +73,8 @@ h3 {
   text-align: left;
   padding: 0;
   font-size: .85rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: normal;
+  text-transform: capitalize;
   letter-spacing: 1px;
 }
 
@@ -88,15 +88,24 @@ h3 {
 
 a {
   color: $color_accent;
-  text-decoration: none;
-  border-bottom: 2pt solid $color_faded_lightest;
-  padding-bottom: -1px;
+  // text-decoration: none;
+  // border-bottom: 1pt solid $color_accent;
+  // padding-bottom: -1px;
   &:hover {
     background-color: $color_background;
   }
 }
 
 // Layout styles
+
+/* Webkit */
+body ::selection {
+    background: $color_background;
+}
+/* Gecko/Mozilla */
+body ::-moz-selection {
+    background: $color_background;
+}
 
 html {
   font-size: $font-size;
@@ -253,6 +262,7 @@ figcaption {
   display: block;
   font-size: .85rem;
   color: $color_faded_lightest;
+  text-decoration: none;
 }
 
 hr {
@@ -285,10 +295,10 @@ del {
 
 @media (max-width: 500px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
   body {
-    background-color: $color_background;
+    // background-color: $color_background;
   }
   .header {
     padding: 1rem;

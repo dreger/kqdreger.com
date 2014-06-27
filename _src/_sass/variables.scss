@@ -4,13 +4,15 @@ $color_copy: #222;
 $color_header: #222;
 $color_accent: #ff0050;
 $color_accent: #0074D9;
-$color_accent: #222;
+$color_accent: #B22E4E;
 
 $color_faded: #7b7b7b;
 $color_faded_light: #7a7a7a;
 $color_faded_lightest: #9a9a9a;
 $color_faded_single_line: #dadada;
 $color_faded_blue: #f1f3f6;
+
+// #B22E4E
 
 $color_background: #fbf6f0;
 $color_background: #f2f1e9;
@@ -23,8 +25,8 @@ $color_background: #fff8da;
 // Typography
 
 $font_size: 16px;
-$sans: 'Mercury SSm A', 'Mercury SSm B', Georgia, "Hoefler Text", serif;
-$line-height: 1.585em;
+$sans: "Hoefler Text", Georgia, serif;
+$line-height: 1.4em;
 
 $h1-size: 1.5rem;
 $h2-size: 1.25rem;
@@ -33,4 +35,4 @@ $h3-size: 1rem;
 // Page Variables
 
 $wrapper-padding: 3rem;
-$max-width: 32rem;
+$max-width: 30rem;

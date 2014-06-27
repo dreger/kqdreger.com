@@ -2,8 +2,6 @@
 layout: post
 category: post
 title: Get FROGED
-category : Reflection
-tags : ['bold living', 'frog', 'jesus']
 ---
 
 In college, trying to *fully rely on God every day* is hard.
