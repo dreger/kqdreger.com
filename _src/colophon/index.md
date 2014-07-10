@@ -2,32 +2,51 @@
 layout: default
 title: Colophon
 ---
-# Colophon
-<!-- ![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
-<small>Photo credit Sarah and Chris Durr.</small> -->
+![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
+<small>Photo credit: [Sarah and Chris Durr](http://sarahandchrisphoto.wordpress.com/).</small>
 
-Welcome to my webcolumn. I write and curate the news, with a focus on the topics of writing, technology, and design. This site was hand-coded in Ohio and was made on a Mac. Written daily-ish by me, Kyle Dreger.
+Hello! My name is Kyle Dreger. On a normal day, I write and curate the news, with a focus on the topics of writing, technology, and design. Currently, I'm in the process of marrying a smart, beautiful girl, so things are on a small hiatus.
 
-Please send all comments and correspondence to [@kyledreger](http://twitter.com/kyledreger) or email:
 
-<SCRIPT TYPE="text/javascript">
-<!--
-mail='mountunion.edu'
-mail=('dregerkq' + '@' + mail)
-document.write('<A href="mailto:' + mail + '">' + mail + '</a>')
-//-->
-</script>
-<NOSCRIPT>
-<em>Email address protected by JavaScript.<BR>
-Please enable JavaScript to contact me.</em>
-</NOSCRIPT>
+Please send all correspondence to:
 
-### Conflicts of Interest
-I do not own any stock or other investments in any of the companies I write about.
-
-Generally, any links that I post to Amazon or iTunes will carry my affiliate tag, which basically means I get a small kickback if you buy any of the items I link to. Thanks!
+[@kyledreger](http://twitter.com/kyledreger) or <dregerkq@mountunion.edu>
 
 ### The Nuts and Bolts
 A combination of [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) are used to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
 
-Type is set in [H&Co's](http://typography.com) Gotham.
+Type is set in [H&amp;Co's](http://typography.com) Ideal Sans.
+
+<span style="display:none;">
+{% for post in site.posts limit: 25 %}
+
+{% if post.category == 'post' %}
+  <article class="post">
+    <h1 class="post_title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h1>
+    {% if post.content contains "<!-- more -->" %}
+        {{ post.content | split:"<!-- more -->" | first % }}
+        <p><a href="{{ post.url }}">Continue reading &rarr;</a></p>
+      {% else %}
+      {{ post.content  }}
+    {% endif %}
+    <p class="date">{{ post.date | date: "%B %d" }}</p>
+  </article>
+
+{% elsif post.category == 'link' %}
+  <article class="link">
+    <h1 class="link_title">
+      <a href="{{ post.source-link }}">{{ post.title }}</a>
+      <a class="permalink" href="{{ post.url }}">&bull;</a>
+    </h1>
+    {{ post.content }}
+    <p class="date">{{ post.date | date: "%B %d" }}</p>
+  </article>
+{% endif %}
+
+
+{% endfor %}
+
+<p class="archives-link">Whew! You've reached the end of the front page.<br>Why don't you check out <a href="/archives">the archives</a>?</p>
+</span>

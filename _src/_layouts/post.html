@@ -24,7 +24,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% elsif page.category == 'post' %}
 	<article class="article">
 		<h1 class="post_title">
-			<a href="{{ page.url }}">&#35; {{ page.title }}</a>
+			<a href="{{ page.url }}">{{ page.title }}</a>
 		</h1>
 		{{ content }}
 		<p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
@@ -34,7 +34,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 	<article class="link">
 		<h1 class="link_title">
 			<a href="{{ page.source-link }}">{{ page.title }}</a>
-			<a class="permalink" href="{{ post.url }}">&#10006;</a>
+			<a class="permalink" href="{{ post.url }}">&bull;</a>
 		</h1>
 
 		{{ content }}

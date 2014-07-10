@@ -1,6 +1,5 @@
 ---
 ---
-
 @import "normalize";
 @import "mixins";
 @import "pygments";
@@ -109,7 +108,7 @@ body ::-moz-selection {
 
 html {
   font-size: $font-size;
-}
+} 
 
 body {
   line-height: $line-height;
@@ -117,6 +116,7 @@ body {
   font-family: $sans;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  background-color: #1d1f21;
 }
 
 .container {
@@ -239,8 +239,8 @@ img {
   height: auto;
   margin: 1rem 0;
   -moz-box-shadow:     0 5px 10px #444;
-   -webkit-box-shadow:  0 5px 10px #444;
-   box-shadow:          0 5px 10px #444;
+  -webkit-box-shadow:  0 5px 10px #444;
+  box-shadow:          0 5px 10px #444;
 }
 
 strong > img {
