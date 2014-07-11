@@ -102,10 +102,16 @@ blockquote {
     color: #aaa;
     margin: 0;
     padding: 0;
-    margin-left: 1rem;
     li {
-      margin: .25rem 0;
+      margin: .75rem 0;
+      border-radius: 4px;
+      list-style: none;
+      border: 1px solid #ccc;
+      padding: .5rem;
     }
+}
+.archives-date {
+  display: block;
 }
 
 .footer {
@@ -114,10 +120,6 @@ blockquote {
   padding: 1rem 0;
   color: #bbb;
   font-size: .9rem;
-}
-
-.archives-date {
-    display: none;
 }
 
 article {
