@@ -1,0 +1,22 @@
+---
+layout: default
+title: Archives
+---
+<h1>Archives</h1>
+<p>There are currently <strong>{{ site.posts | size }} items</strong> in the archives.</p>
+<ul class="archives">
+{% for post in site.posts %}
+
+{% if post.category == 'log-podcast' %}
+<li value="{{ forloop.rindex0 }}"><a href="{{ post.url }}">Log {{ post.title }}</a> <span class="archives-date">{{ post.date | date: "%Y-%m-%d" }}</span></li>
+
+{% elsif post.category == 'post' %}
+<li value="{{ forloop.rindex0 }}"><a href="{{ post.url }}">{{ post.title }}</a>  <span class="archives-date">{{ post.date | date: "%Y-%m-%d" }}</span></li>
+
+{% elsif post.category == 'link' %}
+<li value="{{ forloop.rindex0 }}"><a href="{{ post.url }}">{{ post.title }}</a> &rarr; <span class="archives-date">{{ post.date | date: "%Y-%m-%d" }}</span></li>
+
+{% endif %}
+
+{% endfor %}
+</ul>

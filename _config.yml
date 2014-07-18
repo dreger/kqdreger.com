@@ -5,7 +5,7 @@ markdown:       rdiscount
 rdiscount:
   extensions: [footnotes, smart]
 
-permalink: /:year/:month/:title
+permalink: /:title.html
 
 
 highlighter:       pygments

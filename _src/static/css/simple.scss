@@ -23,7 +23,7 @@ body {
     background-color: $color-bg;
     margin: 0 auto;
     font-family: $serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     line-height: 1.4em;
     max-width: 34rem;
@@ -66,6 +66,7 @@ blockquote {
     font-size: .8rem;
     text-transform: uppercase;
     font-family: $sans;
+    letter-spacing: 1px;
   }
   .name {
     display: inline-block;
@@ -85,8 +86,9 @@ blockquote {
   a {
     text-decoration: none;
     color: $color-copy;
+    border-bottom: 1px solid #ddd;
     &:hover {
-      border-bottom-color: $color;
+      border-bottom-color: lighten($color, 20%);
     }
   }
   li {

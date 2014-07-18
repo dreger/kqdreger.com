@@ -1,0 +1,90 @@
+<head>
+<title>
+InstantClick.js &bull; Kyle Dreger
+
+</title>
+<meta charset="utf-8">
+<meta name="Description" content="Incredibly smart JavaScript library from Alex Dieulot that uses the HTML5 pushState() spec to pre-load whichever link a user is currently hovering over. From the InstantClick homepage: Latency is inevitable...">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+
+<link rel="alternate" type="application/atom+xml" title="Kyle Dreger" href="http://feedpress.me/kyledreger" />
+
+
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7690092/619704/css/fonts.css" />
+
+<link rel="stylesheet" type="text/css" href="/static/css/simple.css">
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17208416-21', 'kyledreger.com');
+ga('send', 'pageview');
+</script>
+</head>
+
+
+<!--
+Title: InstantClick.js
+Author: Kyle Dreger
+Published on: Feb 10, 2014
+-->
+
+<body>
+<header class="header">
+<section class="container">
+  <h1 class="site-title">
+    <a href="/">
+      <span class="desk">With faith,</span>
+      <span class="name">Kyle Q. Dreger</span>
+    </a>
+  </h1>
+
+  <ul class="nav">
+  	<li><a href="/archives">Archives</a></li>
+  	<li><a href="/feeds">RSS</a></li>
+  </ul>
+</section>
+</header>
+
+<section class="wrapper container">
+
+
+	<article class="article">
+		<h1 class="post_title">
+			<a href="/archives/14041-instantclick-js.html">InstantClick.js</a>
+		</h1>
+		<p>Incredibly smart JavaScript library from <a href="https://github.com/dieulot">Alex Dieulot</a> that uses the <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history">HTML5 pushState() spec</a> to pre-load whichever link a user is currently hovering over. From the <a href="http://instantclick.io">InstantClick homepage</a>:</p>
+
+<blockquote><p>Latency is inevitable with today’s internet architecture so InstantClick cheats by preloading links you are likely to click on.</p>
+
+<p>Before a visitor clicks on a link, he hovers over that link. Between these two events, 200 ms to 300 ms usually pass by (<a href="http://instantclick.io/click-test.html">test yourself here</a>). InstantClick makes use of that time to preload the page, so that the page is already there when you click.</p></blockquote>
+
+<p>Dieulot references the Nielsen Norman Group&rsquo;s <a href="http://www.nngroup.com/articles/response-times-3-important-limits/">3 Important Limits</a> article, which lists the optimal response times for human-computer interaction. From the study:</p>
+
+<blockquote><p>A delay of 0.2–1.0 seconds does mean that users notice the delay and thus feel the computer is &ldquo;working&rdquo; on the command, as opposed to having the command be a direct effect of the users' actions. Example: If sorting a table according to the selected column can&rsquo;t be done in 0.1 seconds, it certainly has to be done in 1 second, or users will feel that the UI is sluggish and will lose the sense of &ldquo;flow&rdquo; in performing their task.</p></blockquote>
+
+<p><em>Note: If you care about usability, the <a href="http://www.nngroup.com/articles/response-times-3-important-limits/">whole article</a> is a really great read.</em></p>
+
+<p>Ideas like InstantClick are not new, Ruby on Rails has <a href="https://github.com/rails/turbolinks">Turbolinks</a> that accomplishes the same goal, but I have yet to see an implementation that is so simple to install for non-Rails projects. Include two lines of code (one of which calls the minified script), and you&rsquo;ll be off and running.</p>
+
+<p>If you are reading this, then the script should be running on my site now, albeit for desktop browsers only (Dieulot has mobile support via touchDown coming soon). To test it out, feel free to click through some of the articles in <a href="/archives">the archives</a> or any of the stories on the front page; you should notice that pages seem to load near instantly.</p>
+
+<p>Even though static sites are fast by nature, I have been really impressed with the increase in speed that InstantClick has afforded me. I look forward to watching it develop.</p>
+
+		<p class="date">February 10, 2014</p>
+	</article>
+
+
+
+<footer class="footer">
+    <p>Powered by coffee and prayer.</p>
+</footer>
+</section>
+
+
+</body>
+</html>

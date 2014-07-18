@@ -10,7 +10,7 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% include header.html %}
 <section class="wrapper container">
 
-{% if page.category == 'log-podcast' %}
+{% if page.category == 'show' %}
 	<article class="article">
 		<h1 class="post_title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 		<audio controls="controls"  src="{{site.domain}}/log/audio/{{ page.file }}">
