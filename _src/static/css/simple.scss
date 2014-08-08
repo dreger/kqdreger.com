@@ -2,7 +2,8 @@
 ---
 
 // Few variables
-$color: rgb(114, 175, 191);
+$color-dark: rgb(38, 43, 46);
+$color: $color-dark; // rgb(114, 175, 191);
 $color-copy: #333;//#1d1f20;
 $color-bg: #fff; //#b1b1b1;
 
@@ -40,10 +41,14 @@ h6 {
 
 h1 {
   font-weight: bold;
-  font-size: 1.75rem;
+  font-size: 1.65rem;
+  line-height: 1.2em;
+  &.site-title {
+    font-size: .8rem;
+  }
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: normal;
   font-style: italic;
 }
@@ -51,13 +56,19 @@ h3 {
   text-transform: uppercase;
   color: #444;
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: .9rem;
   margin: 1.5rem 0 0;
   + p { margin-top: .25rem; }
 }
 
 blockquote {
   font-style: italic;
+}
+
+.kd-color {
+  border-radius: 3px;
+  height: 100px;
+  background-color: $color-dark;
 }
 
 .header {
@@ -74,6 +85,7 @@ blockquote {
     font-size: 1.25rem;
   }
 }
+
 .nav {
   list-style: none;
   display: inline-block;
@@ -86,7 +98,7 @@ blockquote {
   a {
     text-decoration: none;
     color: $color-copy;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
     &:hover {
       border-bottom-color: lighten($color, 20%);
     }
@@ -94,7 +106,7 @@ blockquote {
   li {
     display: inline-block;
     padding-bottom: 16px;
-    margin-left: 1rem;
+    margin-right: 1rem;
     &.faded {
       color: #bbb;
     }
@@ -114,6 +126,22 @@ blockquote {
   display: block;
 }
 
+.nav-segement {
+  margin-bottom: 1.5rem;
+  padding: 0;
+  display: block;
+  li {
+    margin: 0;
+    padding: .25rem 1rem;
+    cursor: pointer;
+    display: inline;
+    border: 1px solid #eee;
+    &:hover {
+      border-color: $color;
+    }
+  }
+}
+
 .footer {
   margin-top: 3rem;
   border-top: 1px solid #eee;
@@ -127,8 +155,6 @@ article {
 }
 
 .post_title {
-  font-family: $sans;
-  line-height: 1.2em;
   a {
     text-decoration: none;
     color: #222;

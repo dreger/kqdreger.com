@@ -1,17 +1,24 @@
 ---
 layout: default
 ---
-![me, grinning unabashed]({{site.domain}}/public/cargo/kd.png)
-<small>Photo credit: [Sarah and Chris Durr](http://sarahandchrisphoto.wordpress.com/).</small>
+# About
 
-Hello! My name is Kyle Dreger. On a normal day, I write and curate the news, with a focus on the topics of writing, technology, and design. Currently, I'm in the process of marrying a smart, beautiful girl, so things are on a small hiatus.
+Hello, my name is Kyle Dreger. I write and curate the news, with a focus on the topics of writing, technology, and design. Currently, I'm in the process of ~~marrying a smart, beautiful girl~~ enjoying life with my new wife, so things have slowed down.
 
+Please send all correspondence to [@kyledreger](http://twitter.com/kyledreger) or:
 
-Please send all correspondence to:
+<SCRIPT TYPE="text/javascript">
+<!--
+mail='dreger.me'
+mail=('comments' + '@' + mail)
+document.write('<A href="mailto:' + mail + '">' + mail + '</a>')
+//-->
+</script>
+<NOSCRIPT>
+<em>Email address protected by JavaScript.<BR>
+Please enable JavaScript to contact me.</em>
+</NOSCRIPT>
 
-[@kyledreger](http://twitter.com/kyledreger) or <dregerkq@mountunion.edu>
+**This site runs on** [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll), and the source can be found [on GitHub](https://github.com/kyledreger/kyledreger.com). Type is set in [H&amp;Co's](http://typography.com) Ideal Sans.
 
-### The Nuts and Bolts
-A combination of [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) are used to publish this site. The domain lives on [Hover](http://hover.com) (love them, highly recommend), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
-
-Type is set in [H&amp;Co's](http://typography.com) Ideal Sans.
+{% include footer.html %}
