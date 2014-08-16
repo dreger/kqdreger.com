@@ -13,8 +13,12 @@ module Jekyll
         elsif item.date.yday < 100
           day_of_year = '0'+item.date.yday.to_s
         end
-      item.data['permalink'] = '/archives/' + item.date.strftime('%g') + day_of_year + '-' + item.slug + '.html'
-      end
+
+        if item.data['category'].eql? "show"
+          item.data['permalink'] = '/log/' + item.date.strftime('%g') + day_of_year + item.date.strftime('%H%M') + '-' + item.slug + '.html'
+        else
+          item.data['permalink'] = '/archives/' + item.date.strftime('%g') + day_of_year + '-' + item.slug + '.html'
+        end      end
     end
   end
 end
