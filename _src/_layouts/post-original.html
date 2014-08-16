@@ -9,7 +9,9 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 -->
 
 <body>
-<section class="wrapper">
+{% include header.html %}
+<section class="wrapper container">
+
 {% if page.category == 'show' %}
 	<article class="article">
 		<h1 class="post_title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
@@ -21,19 +23,30 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 		{{ content }}
 	</article>
 
-{% else %}
+{% elsif page.category == 'post' %}
 	<article class="article">
 		<h1 class="post_title">
-			{% if page.category == 'post' %}<a href="{{ page.url }}">{{ page.title }}</a>
-			{% else %}<a href="{{ page.source-link }}">{{ page.title }}&nbsp;&rarr;</a>{% endif %}
+			<a href="{{ page.url }}">{{ page.title }}</a>
 		</h1>
 		{{ content }}
 		<p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
 	</article>
+
+{% elsif page.category == 'link' %}
+	<article class="link">
+		<h1 class="link_title">
+			<a href="{{ page.source-link }}">{{ page.title }}</a>
+			<a class="permalink" href="{{ post.url }}">&bull;</a>
+		</h1>
+
+		{{ content }}
+
+		<p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+	</article>
+
 {% endif %}
 </section>
 
-{% include footer.html %}
 
 </body>
 </html>

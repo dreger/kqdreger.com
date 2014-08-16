@@ -3,7 +3,7 @@ layout: default
 ---
 # About
 
-Hello, my name is Kyle Dreger. I write and curate the news, with a focus on the topics of writing, technology, and design. Currently, I'm in the process of ~~marrying a smart, beautiful girl~~ enjoying life with my new wife, so things have slowed down.
+Hello, my name is Kyle Dreger. I write and curate the news, with a focus on the topics of writing, technology, and design. Currently, I'm in the process of enjoying life with my new wife, so things have slowed down.
 
 Please send all correspondence to [@kyledreger](http://twitter.com/kyledreger) or:
 

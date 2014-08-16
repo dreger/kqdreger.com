@@ -10,33 +10,24 @@ $color-bg: #fff; //#b1b1b1;
 $serif:  'Ideal Sans SSm A', 'Ideal Sans SSm B', 'Avenir Next', Helvetica, Arial;
 $sans: $serif;
 
-$max-width: 32rem;
-
-$h1-size: 1.8rem;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 body {
-    margin: 0;
-    padding: 0;
+    padding: 2rem 1rem;
     color: $color-copy;
     background-color: $color-bg;
+    margin: 0 auto;
     font-family: $serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.4em;
-
-}
-
-.wrapper {
-  max-width: $max-width;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+    line-height: 1.35em;
+    max-width: 36rem;
 }
 
 h1,
@@ -50,7 +41,7 @@ h6 {
 
 h1 {
   font-weight: bold;
-  font-size: $h1-size;
+  font-size: 2rem;
   line-height: 1.1em;
   &.site-title {
     font-size: .8rem;
@@ -152,16 +143,11 @@ blockquote {
 }
 
 .footer {
-  margin: 0;
-  // margin-top: 3rem;
+  margin-top: 3rem;
   border-top: 1px solid #eee;
-  padding: 2rem 1rem;
-  color: #aaa;
-  font-size: 1rem;
-}
-.wrap {
-  max-width:$max-width;
-  margin: 0 auto;
+  padding: 1rem 0;
+  color: #bbb;
+  font-size: .9rem;
 }
 
 article {
@@ -217,10 +203,10 @@ a {
   margin: 0;
   padding: 0;
   font-family: $sans;
-  font-size: $h1-size;
+  font-size: 2rem;
   line-height: 1.1em;
   li {
-    margin: 4rem 0;
+    margin: 3rem 0;
     list-style: none;
   }
   a {
