@@ -6,7 +6,7 @@ title: About
 
 My name is Kyle Dreger, and I work as a user experience designer. This site houses my thoughts on the topics of writing, technology, and design.
 
-_I'm currently enjoying figuring out life with my new wife, so things are on a small hiatus._
+_I'm currently enjoying life with my new wife, so things are on a small hiatus._
 
 Please send all correspondence to:
 
