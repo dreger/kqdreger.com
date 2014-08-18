@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-05-22 22:25
 layout: post
 source-link: http://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=2

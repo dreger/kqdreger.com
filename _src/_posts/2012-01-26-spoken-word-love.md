@@ -1,8 +1,8 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: Spoken word "Love"
-category: Spoken word
+categories: volume-zero Spoken word
 tags: love, poetry, praise
 ---
 

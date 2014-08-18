@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-30 16:11
 layout: post
 source-link: http://www.theverge.com/2014/4/26/5656468/comixology-ios-update-removes-in-app-purchases

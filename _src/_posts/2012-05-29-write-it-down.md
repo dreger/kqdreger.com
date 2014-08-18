@@ -2,7 +2,7 @@
 title: Write it down
 date: 2012-05-29
 layout: post
-category: post
+categories: volume-zero post
 tags: Momento, notes
 ---
 

@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-25 09:22
 layout: post
 source-link: https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table

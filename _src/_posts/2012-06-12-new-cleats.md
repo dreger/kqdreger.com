@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: New cleats
 date: 2012-06-12
 ---

@@ -2,7 +2,7 @@
 title: "Satya Nadella, Microsoft CEO"
 date: 2014-02-04 18:50
 layout: post
-category: post
+categories: volume-one post
 ---
 This evening, Microsoft announced that Satya Nadella, previously the Executive Vice President of Cloud and Enterprise, [will be appointed to the position of CEO](http://www.microsoft.com/en-us/news/press/2014/feb14/02-04newspr.aspx). Nadella becomes only the third CEO in the company's history. From the official press page:
 

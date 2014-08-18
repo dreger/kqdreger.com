@@ -2,7 +2,7 @@
 title: The Curse of Unlimited Data
 date: 2013-09-04
 layout: post
-category: post
+categories: volume-one post
 ---
 
 I'm one of the few lucky Verizon customers who still has an unlimited data plan. However, as I begin to look at possible upgrades for my three-year-old iPhone 4, I find myself in the predicament of getting an upgrade without being forced into a capped data plan.

@@ -3,7 +3,7 @@ title: How to Make a Vepser 1.007
 link: http://vesperapp.co/blog/how-to-make-a-vesper-1-007/
 date: 2013-10-03 21:55
 layout: post
-category: post
+categories: volume-one post
 ---
 Dave Wiskus put together a fantastic post about the design decisions behind the latest iOS 7 update to, my [personal favorite note-taking app]({% post_url 2013-07-13-vesper %}), Vesper:
 

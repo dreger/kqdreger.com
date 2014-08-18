@@ -2,7 +2,7 @@
 title: Whitney
 date: 2014-05-08 17:45
 layout: post
-category: post
+categories: volume-one post
 ---
 [Avenir Next](http://www.linotype.com/2090/avenirnext.html) has long been my typeface of choice for kyledreger.com. However, Avenir Next only comes pre-installed on OS X machines, which means that I had to fallback to system fonts for my Windows readers. 
 

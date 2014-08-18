@@ -3,7 +3,7 @@ title: Elon Musk on Model S Fire
 link: http://www.teslamotors.com/blog/model-s-fire
 date: 2013-10-06 10:57
 layout: post
-category: post
+categories: volume-one post
 ---
 After numerous reports [and videos](http://www.youtube.com/watch?v=q0kjI08n4fg) of a Telsa Model S being on fire at the end of a highway off-ramp, Telsa C.E.O. Elon Musk commented on the company blog:
 

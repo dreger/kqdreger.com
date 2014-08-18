@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: Goodbye, Facebook
 date: 2012-02-02 19:30 -5
 ---

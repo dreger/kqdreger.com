@@ -3,7 +3,7 @@ title: "Foolish Reporting of the Week: Brad Reed"
 link: http://bgr.com/2013/10/18/apple-ios-7-lawsuit-filed/
 date: 2013-10-19 18:42
 layout: post
-category: post
+categories: volume-one post
 ---
 Brad Reed, writing for _BGR_, wins this week's _Foolish Reporting_ award for his ridiculously misleading headline writing. The headline in question? "iPhone user hates iOS 7 so much that he's suing Apple over it":
 

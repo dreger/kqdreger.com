@@ -3,7 +3,7 @@ title: "Tweetbot 3 FAQ"
 link: http://tapbots.com/blog/news/tweetbot-3-questions-and-answers
 date: 2013-10-27 22:00
 layout: post
-category: post
+categories: volume-one post
 ---
 Tapbots answers some questions, and hint at some upcoming features, for Tweetbot 3. Noteworthy tidbits:
 

@@ -2,7 +2,7 @@
 title: Written in the Star(s)bucks
 date: 2012-06-08
 layout: post
-category: post
+categories: volume-zero post
 tags: Starbucks, writing
 ---
 I haven't accomplished much writing today. So, in lieu of staying inside and eating more cereal, I put on jeans and and a belt and drove over to my local Starbucks. In a lot of ways, this coffee shop mirrors my writing. There's not much else I could do here, except write. I can't load up the Xbox, make something to eat, or try and socialize with the roommates down the hall; just write. It suits me.

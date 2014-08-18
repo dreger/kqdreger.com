@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: Maybe a love story
 ---
 

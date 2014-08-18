@@ -1,7 +1,7 @@
 ---
 title: The Five C
 layout: post
-category: post
+categories: volume-one post
 date: 2013-09-13
 ---
 

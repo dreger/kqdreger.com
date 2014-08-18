@@ -1,8 +1,8 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: Interviewing as research
-category: School
+categories: volume-zero School
 tags: learning, writing, english
 ---
 

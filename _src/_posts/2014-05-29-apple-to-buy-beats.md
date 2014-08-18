@@ -1,5 +1,5 @@
 ---
-category: post
+categories: volume-one post
 date: 2014-05-28 18:40
 layout: post
 title: "Synthesis: Apple Acquires Beats Music and Beats Electronics"

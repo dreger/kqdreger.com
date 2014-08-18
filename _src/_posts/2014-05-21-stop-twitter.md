@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-05-21 19:37
 layout: post
 source-link: http://stopdesign.com/archive/2014/05/09/a-love-letter-to-twitter.html

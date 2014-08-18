@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-16 22:46
 layout: post
 source-link: http://blog.plasticmind.com/users/better-passwords/

@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-14 11:58
 layout: post
 source-link: https://storify.com/bombayhustle/lukew-tips-for-mobile-design

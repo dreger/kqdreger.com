@@ -2,7 +2,7 @@
 title: The Front Page, Part Two
 date: 2014-01-14 16:59
 layout: post
-category: post
+categories: volume-one post
 ---
 Following my post on [The Front Page]({% post_url 2014-01-06-front-page %}), I had a good email conversation with my buddy, [Nick Heer](http://pxlnv.com). Our conversation brought up some more ideas regarding page design, and I wanted to expand on them here. Consider this post as part of an ongoing, public discussion and exploration of rhetorical design for the front page of a news and journalistic website.
 

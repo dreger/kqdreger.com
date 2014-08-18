@@ -2,7 +2,7 @@
 title: Looping with Liquid
 date: 2014-03-09 18:37
 layout: post
-category: post
+categories: volume-one post
 ---
 In my `podcast.xml` file, I have a loop that goes through all my posts and identifies which ones are episodes of The Log:
 

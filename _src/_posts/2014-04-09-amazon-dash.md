@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-09 00:58
 layout: post
 source-link: https://fresh.amazon.com/dash

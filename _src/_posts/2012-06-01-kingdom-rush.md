@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: Great games - Kingdom Rush
 date: 2012-06-01
 ---

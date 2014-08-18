@@ -3,7 +3,7 @@ title: Slow Fast Slow by Studio Neat
 link: http://www.studioneat.com/products/slowfast
 date: 2013-10-29 13:14
 layout: post
-category: post
+categories: volume-one post
 ---
 One of the great features of the iPhone 5S' camera is the ability to take 120 fps (frames per second) video and then play it back in slow motion. Unfortunately, that feature is exclusive to the iPhone 5S.
 

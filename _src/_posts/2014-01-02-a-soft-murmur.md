@@ -2,7 +2,7 @@
 title: A Soft Murmur
 date: 2014-01-02 13:44
 layout: post
-category: post
+categories: volume-one post
 ---
 I write better with background noise, and lately, I've been enjoying the [ambient noise from A Soft Murmur](http://asoftmurmur.com). This site allows you to generate an array of background sounds by adjusting the volume levels of six different sounds: rain, thunder, fire, waves, birds, and humans.
 

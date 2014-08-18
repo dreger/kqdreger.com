@@ -2,7 +2,7 @@
 title: Big Cartel Guides
 date: 2014-03-14 22:34
 layout: post
-category: post
+categories: volume-one post
 ---
 Big Cartel, the makers of a customizable online store for your creative goods, has a [delightful micro-site](http://guides.bigcartel.com) that features small guides filled with "Practical advice for everything you may encounter throughout your life as an artist and entrepreneur."
 

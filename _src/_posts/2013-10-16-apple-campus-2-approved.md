@@ -3,7 +3,7 @@ title: "Cupertino Council Approves Apple's 'Campus 2'"
 link: http://www.mercurynews.com/business/ci_24319747/cupertino-council-clears-huge-apple-spaceship-campus-liftoff
 date: 2013-10-16 19:18
 layout: post
-category: post
+categories: volume-one post
 ---
 This is going to be one of the most beautiful, architecturally-unique headquarters in the world, and it's now been approved by a unanimous vote from Cupertino's city council.
 

@@ -2,7 +2,7 @@
 title: Dear Ms. Tina Brown
 date: 2014-03-12 12:36
 layout: post
-category: post
+categories: volume-one post
 ---
 _I tried to sending the following message through the [Tina Brown Media](http://www.tinabrownmedia.com/contact-us/) contact form, but the message wouldn't send (I assume it was exceeding the server's maximum number of allowed characters). Nonetheless, the remarks I am addressing took place publicly, so I feel the apology should as well._
 

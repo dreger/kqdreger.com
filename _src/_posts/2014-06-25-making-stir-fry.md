@@ -2,7 +2,7 @@
 title: "Marriage Diary #1 - Dinner"
 date: 2014-06-25 21:19
 layout: post
-category: post
+categories: volume-one post
 published: false
 ---
 We made stir fry the other night, and it didn't suck. 

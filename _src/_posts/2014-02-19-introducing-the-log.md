@@ -2,7 +2,7 @@
 title: The Log Podcast
 date: 2014-02-19 21:09
 layout: post
-category: post
+categories: volume-one post
 ---
 Last night, I flipped the switch on my latest project, [The Log Podcast](/log) [1].
 

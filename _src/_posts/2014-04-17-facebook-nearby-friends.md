@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-17 21:46
 layout: post
 source-link: http://recode.net/2014/04/17/facebooks-nearby-friends-feature-aims-for-more-offline-hook-ups/

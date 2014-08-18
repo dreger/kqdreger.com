@@ -3,7 +3,7 @@ title: Google Releases "Web Designer"
 link: http://www.google.com/webdesigner/
 date: 2013-10-01 21:05
 layout: post
-category: post
+categories: volume-one post
 ---
 It would be much more honest if they called it Google _Ad_ Designer. Google needed a way to help designers make HTML5-based advertisements, and this is their solution.
 

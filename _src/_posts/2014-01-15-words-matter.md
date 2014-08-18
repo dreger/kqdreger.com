@@ -2,7 +2,7 @@
 title: Words Matter
 date: 2014-01-15 19:38
 layout: post
-category: post
+categories: volume-one post
 ---
 _Subtitle: The FCC just stabbed the open internet in the heart._
 

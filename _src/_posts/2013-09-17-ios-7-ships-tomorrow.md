@@ -2,7 +2,7 @@
 title: "PSA: iOS 7 Ships Tomorrow"
 date: 2013-09-17
 layout: post
-category: post
+categories: volume-one post
 ---
 Just a reminder to all my friends and readers that iOS 7 is  [rolling out tomorrow](http://www.theverge.com/2013/9/10/4715240/ios-7-release-date) for all devices. Although I don't know exactly what time it will be available, pushing out any software to nearly 700,000,000 devices is no small task - be patient.
 

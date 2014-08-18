@@ -2,7 +2,7 @@
 title: New Site Search
 date: 2013-12-27 14:13
 layout: post
-category: post
+categories: volume-one post
 ---
 *UPDATE: Scratch that, I've removed the search for now. Until I can find a way to search in-site without punching out to Google, I'll go without.*
 

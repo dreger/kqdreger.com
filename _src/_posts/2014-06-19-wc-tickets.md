@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-06-19 21:49
 layout: post
 source-link: http://www.creativebloq.com/computer-arts/80-years-world-cup-ticket-designs-61411991

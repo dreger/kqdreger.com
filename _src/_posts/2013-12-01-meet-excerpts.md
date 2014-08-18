@@ -2,7 +2,7 @@
 title: A Change to Linked Items
 date: 2013-12-01 22:08
 layout: post
-category: post
+categories: volume-one post
 ---
 Over the past two months, I've been linking to various articles, apps, and items that I've thought my readers would enjoy. However I've noticed that the amount of commentary I've been adding to each linked item has been dropping &mdash; this is not something I want. 
 

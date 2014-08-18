@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-06-19 21:45
 layout: post
 source-link: http://animagraffs.com

@@ -1,7 +1,7 @@
 ---
 title: What matters
 layout: post
-category: post
+categories: volume-zero post
 date: 2013-07-10
 ---
 

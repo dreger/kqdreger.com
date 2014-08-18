@@ -2,7 +2,7 @@
 title: Describing RSS
 date: 2014-01-31 21:53
 layout: post
-category: post
+categories: volume-one post
 ---
 Since running this website is part of an academic project, I have been asked, perhaps more often than usual, to describe several of the technologies that I am using. Most non-technical people can generally grasp the idea of a statically-generated site and domains / hosting, but one topic that seems to take an extra round of explaining is RSS. 
 

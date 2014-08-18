@@ -2,7 +2,7 @@
 title: An Apple a Day
 date: 2014-01-31 22:04
 layout: post
-category: post
+categories: volume-one post
 ---
 Last December, [Apple executives met with the FDA to discuss mobile medical applications](http://bits.blogs.nytimes.com/2014/01/31/apple-meets-with-f-d-a-regulators-for-mobile-medical-applications/), perhaps indicative of a growing interest surrounding health-focused devices. Nick Bilton for the _New York Times_ Bits Blog: 
 

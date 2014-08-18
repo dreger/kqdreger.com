@@ -1,7 +1,7 @@
 ---
 Title: Cold writing
 layout: post
-category: post
+categories: volume-zero post
 comments: true
 ---
 

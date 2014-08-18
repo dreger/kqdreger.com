@@ -1,7 +1,7 @@
 ---
 title: Jumping in
 layout: post
-category: post
+categories: volume-one post
 date: 2013-09-02
 starred: true
 ---

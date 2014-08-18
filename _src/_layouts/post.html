@@ -25,15 +25,13 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 {% else %}
 	<article class="article">
 		<h1 class="post_title">
-			{% if page.category == 'post' %}<a href="{{ page.url }}">{{ page.title }}</a>
-			{% else %}<a href="{{ page.source-link }}">{{ page.title }}&nbsp;&rarr;</a>{% endif %}
+			{% if page.categories contains 'post' %}<a href="{{ page.url }}">{{ page.title }}</a>
+			{% elsif page.categories contains 'link' %}<a href="{{ page.source-link }}">{{ page.title }}&nbsp;&rarr;</a>{% endif %}
 		</h1>
 		{{ content }}
 		<p class="faded">{{ page.date | date: "%B %d, %Y" }}</p>
 	</article>
 {% endif %}
 </section>
-
-
 </body>
 </html>

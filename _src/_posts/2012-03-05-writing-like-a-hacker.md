@@ -1,7 +1,7 @@
 ---
 Title: Writing like a hacker
 layout: post
-category: post
+categories: volume-zero post
 comments: true
 ---
 

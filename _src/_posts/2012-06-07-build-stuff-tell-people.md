@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: Build stuff, tell people
 date: 2012-06-07
 ---

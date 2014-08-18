@@ -2,7 +2,7 @@
 title: The Importance of Journaling
 date: 2013-10-30 13:50
 layout: post
-category: post
+categories: volume-one post
 ---
 Richard Holmes always gave us ice cream. Whenever my siblings and I would walk down the road to say hello, the first thing he'd do would be to tell us there's "ice cream in the back." Although he was just a neighbor who lived down the road, I'm pretty sure he never actually ate any of the ice cream he bought for us. It was just something he did for our benefit.
 

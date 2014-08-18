@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-05-21 19:23
 layout: post
 source-link: http://voiceandtone.com

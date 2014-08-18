@@ -1,6 +1,6 @@
 ---
 title: Practical Advice for Traveling
-category: link
+categories: volume-one link
 source-link: http://randsinrepose.com/archives/practical-advice-for-the-obsessive-compulsive-traveler/
 date: 2014-04-08 18:45
 layout: post

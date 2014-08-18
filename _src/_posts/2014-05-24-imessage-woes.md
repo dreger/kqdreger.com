@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-05-24 21:18
 layout: post
 source-link: http://recode.net/2014/05/22/apples-imessage-issue-goes-from-bad-to-worse-with-server-glitch/

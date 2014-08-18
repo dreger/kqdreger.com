@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-09 12:17
 layout: post
 source-link: http://www.overthought.org/blog/2014/the-ultimate-guide-to-solving-ios-battery-drain

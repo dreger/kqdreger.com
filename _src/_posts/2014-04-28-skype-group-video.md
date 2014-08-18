@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-28 11:13
 layout: post
 source-link: http://blogs.skype.com/2014/04/28/skype-loves-bringing-groups-together-with-free-group-video-calling/

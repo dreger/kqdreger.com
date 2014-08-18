@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-15 18:32
 layout: post
 source-link: http://bgr.com/2014/04/15/amazon-smartphone-photos-specs-kindle-phone-exclusive/

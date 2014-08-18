@@ -2,7 +2,7 @@
 title: Scratch-Off Media
 date: 2014-03-31 21:46
 layout: post
-category: post
+categories: volume-one post
 ---
 Chris Bowler, with some thoughtful reflection on the effects of [getting everything in real time](http://chrisbowler.com/journal/the-lottery): 
 

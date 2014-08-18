@@ -3,7 +3,7 @@ title: The Bullet Journal Note-Taking System
 link: http://www.bulletjournal.com
 date: 2013-09-20 10:20
 layout: post
-category: post
+categories: volume-one post
 
 ---
 If you're like me, you love taking notes by hand. The Bullet Journal, developed by art director and designer Ryder Carroll, is a note-taking system that focuses on helping quickly collect and find all your daily todos and notes. I've been using it for the past few months and have found it to be a very personal, elegant way of organizing my daily life.

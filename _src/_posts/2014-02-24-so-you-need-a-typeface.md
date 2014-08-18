@@ -2,7 +2,7 @@
 title: So You Need a Typeface
 date: 2014-02-24 16:01
 layout: post
-category: post
+categories: volume-one post
 ---
 Using Julian Hansen's famous [typeface-related poster](http://julianhansen.com/index.php?/alternative-type-finder/) as a starting point, Ian Li built [an interactive version](http://ianli.com/synat/) that retains the same charm as the original.
 

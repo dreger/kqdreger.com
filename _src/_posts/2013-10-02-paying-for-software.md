@@ -2,7 +2,7 @@
 title: Lovingly Crafted
 date: 2013-10-02 17:49
 layout: post
-category: post
+categories: volume-one post
 ---
 You're building a chair.
 

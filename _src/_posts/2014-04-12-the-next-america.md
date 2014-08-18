@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-12 16:07
 layout: post
 source-link: http://www.pewresearch.org/next-america/

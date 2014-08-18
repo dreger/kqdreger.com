@@ -2,7 +2,7 @@
 title: The Age of Mobile
 date: 2014-03-05 21:01
 layout: post
-category: post
+categories: volume-one post
 ---
 Om Malik, the founder of Gigaom, put together some truly awesome charts that help [illustrate, and give context to, the meteoric rise of WhatsApp](http://om.co/2014/03/03/whatsapp-vs-facebook/):
 

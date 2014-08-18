@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-05-07 21:40
 layout: post
 source-link: http://www.thecramped.com/about/

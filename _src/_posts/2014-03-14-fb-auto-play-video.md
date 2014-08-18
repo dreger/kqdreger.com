@@ -2,7 +2,7 @@
 title: Facebook Plans to Introduce Auto-Playing Video 
 date: 2014-03-14 22:02
 layout: post
-category: post
+categories: volume-one post
 ---
 Emil Protalinski, [writing for _The Next Web_](http://thenextweb.com/facebook/2014/03/13/facebook-introduces-15-second-premium-video-ads-auto-play-without-sound-stop-scroll-past): 
 

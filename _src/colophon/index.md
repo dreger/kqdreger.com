@@ -12,7 +12,12 @@ Please send all correspondence to:
 
 [@kyledreger](http://twitter.com/kyledreger) or <comments@dreger.me>
 
+### Volumes?
+
+On [the homepage](/), I have broken my writing into different volumes, based on the period of life in which I wrote them. I'm currently writing, what I consider, Volume Two. 
+
 ### Colophon
+
 I use [Amazon S3](http://aws.amazon.com/s3/) and [Jekyll](https://github.com/mojombo/jekyll) to publish this site. The domain lives on [Hover](http://hover.com), and posts are written in [Markdown](http://daringfireball.net/projects/markdown) format.
 
 Type is set in [H&amp;Co's](http://typography.com) Ideal Sans.

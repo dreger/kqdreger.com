@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+categories: volume-zero post
 title: Apple, Nintendo and a TV
 date: 2012-06-04
 ---

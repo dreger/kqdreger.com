@@ -1,7 +1,7 @@
 ---
 title: Creative cycle
 layout: post
-category: post
+categories: volume-zero post
 tags:
 - creativity
 ---

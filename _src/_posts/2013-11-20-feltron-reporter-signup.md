@@ -3,7 +3,7 @@ title: Reporter for iPhone
 link: http://www.reporter-app.com
 date: 2013-11-20 14:38
 layout: post
-category: post
+categories: volume-one post
 ---
 Nicholas Feltron, the guy behind those [incredibly-detailed self analysis reports](http://feltron.com/ar12_01.html), is getting ready to release Reporter for iPhone, a data-collecting tool that helps you track the quantifiable data in your life. From the pre-launch page:
 

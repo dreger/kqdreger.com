@@ -2,7 +2,7 @@
 title: Consistency
 date: 2014-05-03 01:23
 layout: post
-category: post
+categories: volume-one post
 published: false
 ---
 In the editing field, you live and die by the consistency with which you edit your documents. 

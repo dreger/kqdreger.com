@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-04-21 21:47
 layout: post
 source-link: http://recode.net/2014/04/18/beats-bites-the-bullet-and-starts-selling-subscriptions-from-apples-app/

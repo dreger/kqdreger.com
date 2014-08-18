@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-05-28 08:18
 layout: post
 source-link: http://vesperapp.co/blog/vesper-2-0-and-vesper-sync/

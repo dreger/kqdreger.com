@@ -1,5 +1,5 @@
 ---
-category: link
+categories: volume-one link
 date: 2014-05-24 16:57
 layout: post
 source-link: http://blog.agilebits.com/2014/05/23/1password-4-for-android-is-coming/

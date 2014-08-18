@@ -2,7 +2,7 @@
 title: Reeder 2 for Mac Beta
 date: 2014-04-11 12:19
 layout: post
-category: post
+categories: volume-one post
 ---
 I've been a long-time fan of Silvio Rizzi's [Reeder 2 for iOS][reeder-ios]. Reeder is an excellent RSS client, and it remains my preferred way to consume news feeds on the go. 
 
