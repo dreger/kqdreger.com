@@ -3,7 +3,10 @@ title: The Best Places for Desktop Wallpapers
 layout: post
 categories: volume-one post
 date: 2013-09-15
+permalink: "/archives/13258-great-desktop-wallpaper-sources.html"
 ---
+
+
 I keep my Mac's desktop immaculately clean. No icons, hide the Dock, and only the essentials in the Menu Bar. This serves two purposes:
 
 1. My desktop is always available as a "holding place" for files I'm currently working on.

@@ -3,7 +3,10 @@ title: Tapbots and iOS 7
 date: 2013-10-19 16:49
 layout: post
 categories: volume-one post
+permalink: "/archives/13292-tapbots-and-ios-7.html"
 ---
+
+
 When iOS 7 was announced, it instantly made most of the apps in the App Store look old and outdated; apps that had previously made heavy use of graphics and images looked out of place in contrast to iOS 7's flatness.
 
 One of my favorite app developer teams, [Tapbots](http://tapbots.com), was hit particularly hard by the iOS 7 announcement. Over the past several years, the Tapbots team, Mark Jardine (design) and Paul Haddad (code), had built a company by designing highly-customized user interfaces for their applications. I was curious how they'd respond to the changes.

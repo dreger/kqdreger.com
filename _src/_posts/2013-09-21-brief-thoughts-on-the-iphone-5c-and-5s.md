@@ -3,7 +3,10 @@ title: Brief Hands-On with the New iPhones
 date: 2013-09-21 11:56
 layout: post
 categories: volume-one post
+permalink: "/archives/13264-brief-thoughts-on-the-iphone-5c-and-5s.html"
 ---
+
+
 After hitting golfballs for an hour at the range with my brother, I convinced him to swing by our local Verizon Wireless store to check out the iPhone 5C and 5S. Here are some brief thoughts:
 
 ### iPhone 5C

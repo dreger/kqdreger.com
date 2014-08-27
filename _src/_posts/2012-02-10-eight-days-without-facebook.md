@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Eight days without Facebook
+permalink: "/archives/12041-eight-days-without-facebook.html"
 ---
+
 
 It's been eight days since [I deactivated my Facebook account]({% post_url 2012-02-02-byebye-facebook %}). After being truly logged out for more than a week, here are a few of the interesting things I've noticed:
 

@@ -3,7 +3,10 @@ title: Amazon's 30-Minutes-or-Less Delivery by Drone
 date: 2013-12-02 18:43
 layout: post
 categories: volume-one post
+permalink: "/archives/13336-bezos-and-amazons-drones.html"
 ---
+
+
 Yesterday, Amazon CEO Jeff Bezos [sat down with Charlie Rose](http://www.cbsnews.com/news/amazons-jeff-bezos-looks-to-the-future/) and unveiled Amazon's next big step for their fulfillment centers: delivery by drone in under 30 minutes.
 
 > Jeff Bezos: These generations of vehicles, it could be a 10-mile radius from a fulfillment center. So, in urban areas, you could actually cover very significant portions of the population. And so, it won't work for everything; you know, we're not gonna deliver kayaks or table saws this way. [...] This is... this is all an R&D project.

@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Writing simple code
+permalink: "/archives/11337-writing-simple-code.html"
 ---
+
 
 With three different computer science classes this semester, I write a lot of code. However, being a minimalistic type of guy, I try to have my code require as little documentation as possible. I do this by writing my code so that it explains itself *without* the need for an army of comments.
 

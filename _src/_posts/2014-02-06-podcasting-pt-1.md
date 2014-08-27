@@ -3,7 +3,10 @@ title: Podcasting Diaries, Part 1
 date: 2014-02-06 23:28
 layout: post
 categories: volume-one post
+permalink: "/archives/14037-podcasting-pt-1.html"
 ---
+
+
 One of my goals for this semester is to start a small podcast. I have always loved public speaking, and I truly enjoy finding the stories of other people. Hopefully this will give me the chance to do just that. 
 
 After buying an [awesome microphone](http://www.amazon.com/gp/product/B002VA464S/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002VA464S&linkCode=as2&tag=kyldre-20) [referral link], I spent the first few days just playing with various audio settings and was able to get a feel for how the microphone handles different environments. Next, I came up with some topics I wanted to discuss with a guest, and I set up a time to record. Finally, tonight, I recorded the first episode.  

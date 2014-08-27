@@ -4,7 +4,10 @@ link: http://fiftyfootshadows.net/2013/11/06/ios-7-parallax-wallpaper-pack/
 date: 2013-11-06 08:33
 layout: post
 categories: volume-one post
+permalink: "/archives/13310-fiftyfoodshadows-ios-7-prallax-wallpaper-pack.html"
 ---
+
+
 John Carey:
 
 > Well, it took me a little longer than I had expected but here we go. The fiftyfootshadows parallax wallpaper pack for iOS devices running iOS 7. After quite a bit of research and trial and error I have settled on what I believe to be the optimal resolutions for iOS 7. Barring any major changes these images should leave you set for a good long while.

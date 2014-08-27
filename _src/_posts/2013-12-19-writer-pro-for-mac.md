@@ -3,7 +3,10 @@ title: Writer Pro for Mac
 date: 2013-12-19 12:00
 layout: post
 categories: volume-one post
+permalink: "/archives/13353-writer-pro-for-mac.html"
 ---
+
+
 If you had to categorize me with one word, it would be "writer."  As a student of computer science and rhetorical composition (fancy words for writing), I take the tools I use very seriously. The programmer in me wants efficiency and innovation, and the writer in me wants tools that facilitate accurate editing and my personal writing processes.  For a while, it was just me and TextEdit, the default text-editor on the Mac, pounding away. However, as I started writing more sophisticated forms of code and prose, my tools evolved. For coding, I started using Sublime Text. For writing, [I turned to iA Writer]({% post_url 2012-05-30-ia-writer-122 %}). Little has changed until today.
 
 At midnight, Information Architects (iA) released a new version of Writer, dubbed Writer Pro. It's currently available in the iOS and Mac App Store, and costs just $19.99. I don't do much writing on my iPhone, so this post will focus on Writer Pro for Mac. Since last night, I've used Writer Pro to write and edit over 8,000 words, including the ones in this very post. Here are some thoughts on my new favorite writing tool.

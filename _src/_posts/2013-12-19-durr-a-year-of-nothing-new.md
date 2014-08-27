@@ -4,7 +4,10 @@ link: http://lifeloveandwords.wordpress.com/2013/12/19/a-year-of-nothing-new/
 date: 2013-12-19 09:26
 layout: post
 categories: volume-one post
+permalink: "/archives/13353-durr-a-year-of-nothing-new.html"
 ---
+
+
 It seems I wasn’t the only one who wanted to mentally, physically, and spiritually start cleaning out the clutter that seems to accrue with time. Sarah Durr, my good friend and future sister-in-law, writing over on her blog _Life, Love and Words_, says she’s giving up buying anything new for a whole year. This part is my favorite: 
 
 > Then I started asking myself: What is the reason we own anything other than what we need? The answer isn’t even really because "we want" but rather simply because we can. Because we have the resources to have not just a home, but one filled with things. And we live in a society where the ability to have things becomes a right, and we forget anything we claim ownership of isn’t actually ours.. Nothing ever is.

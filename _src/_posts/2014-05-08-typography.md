@@ -3,7 +3,10 @@ title: Whitney
 date: 2014-05-08 17:45
 layout: post
 categories: volume-one post
+permalink: "/archives/14128-typography.html"
 ---
+
+
 [Avenir Next](http://www.linotype.com/2090/avenirnext.html) has long been my typeface of choice for kyledreger.com. However, Avenir Next only comes pre-installed on OS X machines, which means that I had to fallback to system fonts for my Windows readers. 
 
 As I was working on a typographical refresh of the entire site, I decided that it was time to choose a webfont that would appear the same to _all_ readers, as the font family would be served with the webpage itself and agnostic to the operating system. After looking at a variety of webfont hosts, my search inevitably ended with the renowned Hoefler and Co's [cloud.typography.com](http://cloud.typography.com). 

@@ -3,7 +3,9 @@ title: The Week in Review
 date: 2013-12-16 23:18
 layout: post
 categories: volume-one post
+permalink: "/archives/13350-week-in-review.html"
 ---
+
 
 Exams are now over and so [is my hiatus]({% post_url 2013-12-06-exams %}). Although I had limited time to read anything other than my notes from class, I saved several articles that I found particularly interesting and worth mentioning: 
 

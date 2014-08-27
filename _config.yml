@@ -12,7 +12,7 @@ destination:    ./_site
 markdown:       rdiscount
 rdiscount:
   extensions: [footnotes, smart]
-permalink: /archives/:title.html
+permalink: /x/:title
 highlighter:       pygments
 sass:
     style:  compressed  # nested|expanded|compact|compressed

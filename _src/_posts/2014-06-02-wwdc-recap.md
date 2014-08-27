@@ -3,7 +3,10 @@ title: WWDC 2014
 date: 2014-06-02 19:55
 layout: post
 categories: post volume-one
+permalink: "/archives/14153-wwdc-recap.html"
 ---
+
+
 After today's WWDC keynote, I need a week or so to absorb everything I just saw. Apple always puts on a great presentation, but they were in rare form this morning. A lot of the praise has to go to Craig Federighi (SVP of Software Engineering), who did a fantastic job as the unofficial MC. He brought an energy and charisma that was not only commanding, but also sincere. 
 
 It felt like Apple was the underdog again. They joked onstage, they were visibly excited, and they _knew_ what they had would blow people away. And they were right. 

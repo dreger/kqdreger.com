@@ -3,7 +3,9 @@ layout: post
 categories: volume-zero post
 title: Great games - Kingdom Rush
 date: 2012-06-01
+permalink: "/archives/12153-kingdom-rush.html"
 ---
+
 
 Upon returning to the apartment this evening, my roommates and I began talking about some of our favorite online games. Back when I was just starting high school and before HTML5 came along, Flash games were me and my friends past time. We spent hours, literally hours, playing some of the classics like [Bloons](http://dregerkq.wordpress.com/2012/06/01/kingdom-rush/ninjakiwi.com/Games/Bloons-Games/Bloons.html), [Mini Putt](http://www.addictinggames.com/sports-games/miniputt.jsp), and more. My personal favorite, however, were the tower defense games. From the Wikipedia page for Tower defense:
 

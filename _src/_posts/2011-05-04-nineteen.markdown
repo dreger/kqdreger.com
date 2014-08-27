@@ -3,7 +3,9 @@ layout: post
 categories: volume-zero post
 title: 5 things I've learned in 19 years
 starred: true
+permalink: "/archives/11124-nineteen.html"
 ---
+
 
 This past April, I turned 19. Almost two decades worth of time have been given to me and I wanted to take a little time to reflect on five core things I've learned these past 228 months. I write this for my siblings; that they can use it as a roadmap around the pits I fell in.
 

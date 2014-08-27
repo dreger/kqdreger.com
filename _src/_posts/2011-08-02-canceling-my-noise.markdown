@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Canceling my noise
+permalink: "/archives/11214-canceling-my-noise.html"
 ---
+
 
 My brother got some great noise canceling headphones a while back. I was skeptical at how well they would work, how much can earphones really cancel the noise around you, but once I tried them I was impressed. Sliding them over your ears and flipping a switch, all extra noise around me began to filter out, leaving me in silence.
 

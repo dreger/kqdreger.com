@@ -3,7 +3,10 @@ title: "'For Immediate Release'"
 date: 2014-01-18 18:49
 layout: post
 categories: volume-one post
+permalink: "/archives/14018-hoefler-and-co.html"
 ---
+
+
 Yesterday, Hoefler &amp; Co. [issued a public statement](http://typography.com/press/20140117) in regards to Tobias Frere-Jones suing Jonathan Hoefler. The company's General Counsel, Michael Burke:
 
 > Last week, designer Tobias Frere-Jones, a longtime employee of The Hoefler Type Foundry, Inc. (d/b/a "Hoefler & Frere-Jones"), decided to leave the company. With Tobias's departure, the company founded by Jonathan Hoefler in 1989 will become known as Hoefler & Co. ...

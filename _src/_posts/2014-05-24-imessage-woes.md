@@ -3,8 +3,11 @@ categories: volume-one link
 date: 2014-05-24 21:18
 layout: post
 source-link: http://recode.net/2014/05/22/apples-imessage-issue-goes-from-bad-to-worse-with-server-glitch/
-title: "iMessage Woes Continue"
+title: iMessage Woes Continue
+permalink: "/archives/14144-imessage-woes.html"
 ---
+
+
 Over at _Re/code_, Ina Fried sheds some more light on [that nasty bug in iMessage]({% post_url 2014-05-13-imessage %}): 
 
 > iMessage relies on Apple’s messaging system to intercept a text message sent to another iOS device and re-routes it through its servers rather than sending it via the wireless carriers as a standard SMS or MMS message.

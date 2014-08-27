@@ -4,7 +4,10 @@ categories: volume-zero post
 title: Social scoreboards
 date: 2013-06-20
 tags: social, google-analytics, writing
+permalink: "/archives/13171-social-scoreboards.html"
 ---
+
+
 I went on a [small rant about social scoreboards](https://twitter.com/kyledreger/status/346820510526615553) the other day and have been thinking about social analytics ever since.
 
 <!-- more -->

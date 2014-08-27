@@ -3,7 +3,10 @@ title: Facebook Acquires Oculus VR
 date: 2014-03-25 23:10
 layout: post
 categories: volume-one post
+permalink: "/archives/14084-facebook-buys-oculus.html"
 ---
+
+
 To the tune of $2 billion, Facebook has acquired virtual reality and headset maker, Oculus VR. From [the Facebook Newsroom](http://newsroom.fb.com/news/2014/03/facebook-to-acquire-oculus/):
 
 > Facebook today announced that it has reached a definitive agreement to acquire Oculus VR, Inc., the leader in immersive virtual reality technology, for a total of approximately $2 billion. [...]

@@ -3,7 +3,10 @@ layout: post
 categories: volume-zero post
 title: Flashpoint
 date: 2012-06-05
+permalink: "/archives/12157-flashpoint.html"
 ---
+
+
 I loved [24](http://www.imdb.com/title/tt0285331/). I nearly shed tears during the finale when Chloe had to shut off the drone camera on Jack. It was the first TV series I actually watched each week, as it aired. Now, was it, at times, a little out there? Sure. Did Jack Bauer have a complex that always required people to put their weapons on the ground? Absolutely. Did CTU always choose to ignore the fact that the mole was 95% likely to be one of their own agents? Yea, but what are you gonna do.
 
 But, like I said, 24 came to an end. Thankfully, Netflix gave us seasons eight of the seasons to watch on Instant Streaming. This ate up quite a bit of my time, but after a certain point when you know what's going to happen – near real-time TV episode begins to drag a tad. I became preoccupied with other things, primarily a girl, and 24 slipped out of my routine.

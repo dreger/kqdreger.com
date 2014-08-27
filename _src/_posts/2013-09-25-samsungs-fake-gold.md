@@ -4,8 +4,10 @@ link: http://www.theverge.com/2013/9/25/4769086/samsung-counters-iphone-5s-with-
 date: 2013-09-25 11:21
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13268-samsungs-fake-gold.html"
 ---
+
+
 The Verge:
 
 > Two weeks after Apple's September 10th reveal of a champagne-colored iPhone, Samsung is launching its own golden phone in the shape of a new Gold Edition Galaxy S4.

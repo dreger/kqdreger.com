@@ -1,10 +1,11 @@
 ---
 layout: post
-categories: volume-zero post
-title: Interviewing as research
 categories: volume-zero School
+title: Interviewing as research
 tags: learning, writing, english
+permalink: "/archives/12032-interviewing-as-research.html"
 ---
+
 
 For my English 247 class, we are working on writing a profile based on an interview we have conducted with an individual. This is a new form of investigation for me, I'm use to doing my own static research on a subject, curating the good from the bad and then polishing the result into something someone would maybe want to read. It's been the same process since high school.
 

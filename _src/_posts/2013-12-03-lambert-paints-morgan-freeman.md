@@ -4,7 +4,9 @@ link: http://kylelambert.co.uk/gallery/morgan-freeman/
 date: 2013-12-03 09:23
 layout: post
 categories: volume-one post
+permalink: "/archives/13337-lambert-paints-morgan-freeman.html"
 ---
+
 
 Kyle Lambert, a talented visual artist, recently completed, what he's calling, "The world's most realistic finger-painting":
 

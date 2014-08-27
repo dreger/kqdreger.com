@@ -3,7 +3,9 @@ Title: Writing like a hacker
 layout: post
 categories: volume-zero post
 comments: true
+permalink: "/archives/12065-writing-like-a-hacker.html"
 ---
+
 
 *Abstract: From history to English, I write all my school papers like a hacker. Using text editors without support for spell checking or formatting, I create a frictionless creative flow which allows me get my ideas out faster.*
 

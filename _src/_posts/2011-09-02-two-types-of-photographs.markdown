@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Two types of photographs
+permalink: "/archives/11245-two-types-of-photographs.html"
 ---
+
 
 There are typically two types of photographs. The ones where the subjects are staged and ready for the shot, and the other where they are caught in the middle of another activity. I love the latter.
 

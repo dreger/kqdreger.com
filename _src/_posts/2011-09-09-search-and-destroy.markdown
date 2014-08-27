@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Search and destroy
+permalink: "/archives/11252-search-and-destroy.html"
 ---
+
 
 One of the hardest parts of keeping on top of your schedule at college is actually *knowing* what you have to do. Most of us get the work done, but sometimes I find myself wanting to avoid having to see what I need to do for a project. What little motivation I have is further squandered when I have to go out of my way to check on assignments; whether they're online, or the teacher sends them out after class.
 

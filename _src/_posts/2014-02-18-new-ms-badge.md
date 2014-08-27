@@ -3,7 +3,10 @@ title: Microsoft Employee Badge Redesign
 date: 2014-02-18 08:41
 layout: post
 categories: volume-one post
+permalink: "/archives/14049-new-ms-badge.html"
 ---
+
+
 Ahmet Alp Blakan recently posted [his redesign of Microsoft's employee badge](https://ahmetalpbalkan.com/blog/microsoft-employee-badge-redesign/) or "Blue Badge." Blakan: 
 
 > It’s over a year Microsoft has started to rebrand itself, starting from its logo to a brand new looking OS, from campus shuttles to direction signs on the campus and so on. Many employees are wearing this badge on their belts or pockets every day. So why not redesign this good ol’ beast? 

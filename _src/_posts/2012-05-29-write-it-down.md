@@ -4,7 +4,9 @@ date: 2012-05-29
 layout: post
 categories: volume-zero post
 tags: Momento, notes
+permalink: "/archives/12150-write-it-down.html"
 ---
+
 
 Last night, my roommates and I watched Christopher Nolan's 2000 film, [Memento](http://www.imdb.com/title/tt0209144/). If you think that Inception, or Pulp Fiction was confusing the first time through, Memento can definitely be added to the list of movies that will give you brain whiplash.
 

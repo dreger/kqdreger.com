@@ -3,7 +3,9 @@ layout: post
 categories: volume-zero post
 title: Build stuff, tell people
 date: 2012-06-07
+permalink: "/archives/12159-build-stuff-tell-people.html"
 ---
+
 
 Build stuff and tell people. It's a simple mantra. Anyone who makes something (code, designs, gear) should be doing this. You're only going to get better at what you do.
 

@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Swiss Army
+permalink: "/archives/12060-swiss-army.html"
 ---
+
 
 I love Swiss Army knives. When I was a kid, I had a red-handled one that had all the essential things a boy on a small farm needed. I used to spend hours whittling away at sticks, or tightening up the screws on my toys and bike. More than once, the tweezers were brought out to get a microscopic splinter out of my palm. I used the heck out of that thing and it always found a place in my pocket.
 

@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Using the right tools
+permalink: "/archives/11246-the-right-tools.html"
 ---
+
 
 The other day I was trying to open the battery cover on our new electronic-banking Monopoly game set. I was having a problem getting the cover off because it was screwed into the hard plastic casing that made up the banking device. Quickly looking around for a phillips screwdriver proved unsuccessful, so I did what any other man would do; improvised.
 

@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: College take two
+permalink: "/archives/11231-college-take-two.html"
 ---
+
 
 Really excited to be moving back to Mount Union. I'm looking forward to get back into the swing of college life and return to soccer with our team.
 

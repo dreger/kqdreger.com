@@ -3,7 +3,9 @@ layout: post
 categories: volume-zero post
 title: New cleats
 date: 2012-06-12
+permalink: "/archives/12164-new-cleats.html"
 ---
+
 
 Short one today. I got my new soccer cleats today - Adidas Predator Absolions. I use to wear Predators all the time when I was younger, but once I got into my sophomore year of high school, I switched to Pumas. Ever since then, I had bought the same pair of Puma shoes off eBay, or wherever I could find them; they were the perfect size and fit. However, after all these years, it's finally time to return and give adidas another go.
 

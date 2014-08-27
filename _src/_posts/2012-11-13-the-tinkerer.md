@@ -3,7 +3,9 @@ title: The Tinkerer
 date: 2012-11-13
 layout: post
 categories: volume-zero post
+permalink: "/archives/12318-the-tinkerer.html"
 ---
+
 
 I want to tell you about the Tinkerer.
 

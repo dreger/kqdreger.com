@@ -2,8 +2,11 @@
 title: Tim Van Damme on The Great Discontent
 date: 2014-01-28 10:34
 layout: post
-categories: volume-one post 
+categories: volume-one post
+permalink: "/archives/14028-maxvoltar-tgd.html"
 ---
+
+
 Over on [The Great Discontent](http://thegreatdiscontent.com) (TGD), Tina Essmaker just published her [interview with Dropbox designer, Tim Van Damme](http://thegreatdiscontent.com/tim-van-damme).
 
 I have followed the work of Van Damme, _maxvoltar_, for the past five years. I initially heard about Van Damme when I was looking into the faces behind the, now defunct, Gowalla iOS app. Van Damme, originally from Belgium, was one of their designers. After Gowalla was acquired by Facebook, I then followed Van Damme's career as he moved to Instagram. Ironically enough, it was not too long after Facebook had acquired Gowalla that they came knocking to buy Instagram. 

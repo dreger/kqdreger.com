@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Confessions of an appaholic
+permalink: "/archives/11271-appaholic.html"
 ---
+
 
 _(Alternative title: Why I deleted my credit card from iTunes)_
 

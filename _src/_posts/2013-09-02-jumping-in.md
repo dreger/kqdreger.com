@@ -4,7 +4,10 @@ layout: post
 categories: volume-one post
 date: 2013-09-02
 starred: true
+permalink: "/archives/13245-jumping-in.html"
 ---
+
+
 As part of my senior project, I have the unique opportunity to spend the next semester writing for this website. That's correct, I get to work on my own little web column for school credit - how awesome is that?
 
 Stemming from a deep admiration for the [Shawn Blanc's](http://shawnblanc.net) of the world - those who jump in, feet first, to writing full-time for their websites - I'm excited to be doing just that for the next fifteen weeks. I hope to emerge a more consistent, quality writer and I look forward to building a relationship with my readers as well.

@@ -3,7 +3,10 @@ title: Things I Could Have Bought
 date: 2014-01-15 00:33
 layout: post
 categories: volume-one post
+permalink: "/archives/14015-things-i-could-have-bought.html"
 ---
+
+
 As I sat here [debating which RSS syncing service to invest in](https://twitter.com/kyledreger/status/423184317494603776), a familiar tug on my conscience appeared. Do I really need this service? What problem does it solve? Could $18 be better spent?
 
 For the past few weeks, God's been asking me these types of questions, and I've done my best to avoid listening. But tonight, inspired in part by my soon-to-be sister-in-law's [yearlong hiatus from buying anything nonessential](http://lifeloveandwords.wordpress.com/2013/12/19/a-year-of-nothing-new/), I finally stopped avoiding His queries. After some reflection, I've decided to take six months off from buying anything digital. Specifically, "digital" can refer to: apps, online subscriptions, music, and domain names &mdash; I'll add more to this list as I find them.

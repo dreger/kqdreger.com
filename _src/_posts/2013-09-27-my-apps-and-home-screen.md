@@ -3,7 +3,10 @@ title: My Apps and Home Screen
 date: 2013-09-26 21:41
 layout: post
 categories: volume-one post
+permalink: "/archives/13269-my-apps-and-home-screen.html"
 ---
+
+
 You can tell a lot about a person by looking at how they set up their home screen and apps. This is mine as it currently stands on my iPhone 4:
 
 ![my iphone]({{site.domain}}/public/cargo/2013-09-home-screen.jpg)

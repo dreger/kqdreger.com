@@ -3,7 +3,9 @@ layout: post
 categories: volume-zero post
 title: Coffeescript
 date: 2012-05-26 1930 −5
+permalink: "/archives/12147-coffeescript.html"
 ---
+
 
 ![coffeescript](http://dregerkq.files.wordpress.com/2012/05/20120526-012316.jpg?w=640)
 

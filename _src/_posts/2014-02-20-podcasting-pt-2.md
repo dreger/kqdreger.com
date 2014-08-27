@@ -3,7 +3,10 @@ title: Podcasting Diaries, Part 2
 date: 2014-02-20 22:52
 layout: post
 categories: volume-one post
+permalink: "/archives/14051-podcasting-pt-2.html"
 ---
+
+
 Now that [The Log](/log) is officially up and running, I wanted to add another post to [my series]({% post_url 2014-02-06-podcasting-pt-1 %}) on things I have learned behind the mic.
 
 ### The audience

@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Nature's distraction
+permalink: "/archives/11247-natures-distraction.html"
 ---
+
 
 My girlfriend and I were recently sitting in the library doing homework when it began to rain outside. The sound of raindrops hitting the roof sounded like a roar of a jet engine right outside the nearby window. A couple of minutes later she asked me if I wanted to see a poem she had written for one of her literature classes. I liked it so much that I asked her for a copy. She graciously agreed and I would like to share it with you.
 

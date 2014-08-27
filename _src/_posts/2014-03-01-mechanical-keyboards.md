@@ -3,7 +3,10 @@ title: Mechanical Keyboards
 date: 2014-03-01 21:28
 layout: post
 categories: volume-one post
+permalink: "/archives/14060-mechanical-keyboards.html"
 ---
+
+
 Ah, keyboards. They are the most intimate form of connection we have with our computers. However, for the past couple years, I have given little thought to what actually goes into making a _good_ keyboard.
 
 Aside from the built-in keyboard on my laptop, I have only used several other types of external keyboards. The first few were those that were bundled with any PC "package" you could purchase at the local Best Buy. However, after I began to develop a slight repetitive strain injury (RSI) a half-year ago, I decided it was time to put a little time &mdash; and money &mdash; into protecting my wrists and hands.

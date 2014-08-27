@@ -3,8 +3,11 @@ categories: volume-one link
 date: 2014-04-30 16:24
 layout: post
 source-link: http://vimeo.com/91168154
-title: "John Mayer: Someday I'll Fly"
+title: 'John Mayer: Someday I''ll Fly'
+permalink: "/archives/14120-john-mayer-someday-ill-fly.html"
 ---
+
+
 Eastwood Allen:  
 
 > Someday I'll Fly chronicles the musical evolution of one of the most influential solo artists of his generation. Featuring rare demos, interviews and live performances; it is told in it's entirety from Mayer's perspective.

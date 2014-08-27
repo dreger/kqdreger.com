@@ -4,7 +4,9 @@ layout: post
 categories: volume-zero post
 tags:
 - creativity
+permalink: "/archives/12347-creative-cycle.html"
 ---
+
 
 Admidst my finals, I wanted to take a break and share an excerpt from one of my papers. I don't know whether it's the lack of sleep, or overdose of caffeine, but I'm particularly proud of this closing paragraph:
 

@@ -3,7 +3,9 @@ layout: post
 categories: volume-zero post
 title: Drawing with paper
 date: 2012-05-26
+permalink: "/archives/12147-drawing-with-paper.html"
 ---
+
 
 ![paper drawing](http://dregerkq.files.wordpress.com/2012/05/20120527-000319.jpg?w=640)
 

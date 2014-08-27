@@ -3,7 +3,10 @@ title: A Usability Audit on Myself
 date: 2013-11-19 09:19
 layout: post
 categories: volume-one post
+permalink: "/archives/13323-usability-audit.html"
 ---
+
+
 There's nothing quite like tearing apart your own work,<sup>1</sup> and that's exactly what I did after looking at the usability of kyledreger.com.
 
 Most of the changes I made came from the feedback I've gotten from readers and from my own observation of people using the site. Although this design is quite different from the previous version, I feel that I've addressed a number of usability issues that make the site more enjoyable to visit.

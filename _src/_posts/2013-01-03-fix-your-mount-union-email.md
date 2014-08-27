@@ -3,7 +3,10 @@ title: Fix your Mount Union .EDU email
 layout: post
 categories: volume-zero post
 date: 2013-01-03
+permalink: "/archives/13003-fix-your-mount-union-email.html"
 ---
+
+
 **UPDATE #3:** This whole post is pretty much irrelevant now. Besides the slightly vitriolic nature, the entire Outlook Web App was recently updated to match the aesthetics / functionally of [Outlook.com](http://outlook.com) and is incredibly more usable. Post will remain here for posterity.
 
 **UPDATE #2:** I've found the magical URL which only makes you sign in once: [outlook.com/owa/mountunion.edu](http://outlook.com/owa/mountunion.edu). Just bookmark that and you'll be good to go.

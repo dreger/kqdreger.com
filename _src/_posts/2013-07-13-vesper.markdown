@@ -3,7 +3,9 @@ title: A brief review of Vesper
 layout: post
 categories: volume-zero post
 date: 2013-07-13
+permalink: "/archives/13194-vesper.html"
 ---
+
 
 I've tried tens of iOS note-taking applications over the years. Among others, I've tested Simplenote, Elements, iA Writer, and Notesy, but none were able to evoke the feelings I get when writing something into my [Field Notes](http://fieldnotesbrand.com) notebook. I was looking for _delight_.
 

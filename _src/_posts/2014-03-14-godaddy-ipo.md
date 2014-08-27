@@ -3,7 +3,10 @@ title: GoDaddy to File for IPO
 date: 2014-03-14 21:39
 layout: post
 categories: volume-one post
+permalink: "/archives/14073-godaddy-ipo.html"
 ---
+
+
 Telis Demos and Mike Spector for the _Wall Street Journal_, reporting on the possibility of [a GoDaddy IPO coming later](http://online.wsj.com/news/article_email/SB10001424052702304914904579439542130264508-lMyQjAxMTA0MDEwMDExNDAyWj) this year: 
 
 > The Scottsdale, Ariz., company, which provides domain-name registration and website-hosting services to more than 12 million customers world-wide, in the coming weeks plans to interview banks that would lead the underwriting of its IPO, the people said. Based on a typical IPO time frame, the company's shares could begin trading in the second half of the year.

@@ -3,7 +3,9 @@ title: What matters
 layout: post
 categories: volume-zero post
 date: 2013-07-10
+permalink: "/archives/13191-what-matters.html"
 ---
+
 
 Family, friends, and the people around you matter. Helping these people matters too. One of the ways I try to help people is through creating software.
 

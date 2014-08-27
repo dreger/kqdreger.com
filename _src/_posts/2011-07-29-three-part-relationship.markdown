@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Three part relationship
+permalink: "/archives/11210-three-part-relationship.html"
 ---
+
 
 Cue scene. Two people, attracted to the other, enter into a form of friendship that seems to extend beyond the capacity of a friendship. Slowly, as time goes by, those two people begin to build a new sort of relationship; one that is the curation of the experiences they've shared together as a couple. It's an awesome thing to watch others go through, and to have the opportunity to experience yourself.
 

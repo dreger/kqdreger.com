@@ -3,7 +3,10 @@ title: Reeder 2 for Mac Beta
 date: 2014-04-11 12:19
 layout: post
 categories: volume-one post
+permalink: "/archives/14101-reeder-2-beta.html"
 ---
+
+
 I've been a long-time fan of Silvio Rizzi's [Reeder 2 for iOS][reeder-ios]. Reeder is an excellent RSS client, and it remains my preferred way to consume news feeds on the go. 
 
 Earlier today, Rizzi [announced a public beta of Reeder 2 for Mac][reeder-tweet]. Anyone who wants to try the software before it is, presumably, sold on the Mac App Store can [check it out here][reeder-mac]. 

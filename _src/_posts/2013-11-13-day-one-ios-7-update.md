@@ -4,7 +4,10 @@ link: https://itunes.apple.com/us/app/day-one-journal-diary/id421706526
 date: 2013-11-13 22:05
 layout: post
 categories: volume-one post
+permalink: "/archives/13317-day-one-ios-7-update.html"
 ---
+
+
 One of the ways that I chronicle my life is through the action of journaling. However, I don't always have time to sit down and write out long reflections on the day. Back when I was a young boy, I used to carry around little steno notebooks and write about my day _as it was happening_.
 
 I still carry around [little notebooks](http://fieldnotesbrand.com), but I've long since moved all my journaling to the digital realm. My app of choice to help manage the 78,857 words I've written over the past four years has been Day One by [Bloom Built](http://dayoneapp.com).

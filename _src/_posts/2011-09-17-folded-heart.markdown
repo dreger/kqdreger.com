@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Folded heart
+permalink: "/archives/11260-folded-heart.html"
 ---
+
 
 Every day, once I get back from classes, I go through all the loose papers that I accumulated for that day and organize them into spiral notebooks according to their subject. Because I rarely have time to do this in class, I often fold the papers I receive in half so they better fit into the pockets of my bag.
 

@@ -3,7 +3,10 @@ title: De-clutter Your Social Networks, Part One
 date: 2013-12-18 11:54
 layout: post
 categories: volume-one post
+permalink: "/archives/13352-declutter.html"
 ---
+
+
 Most things in life, left unchecked, tend to fall into chaos. I find this particularly true regarding the number and quality of the updates I receive through social networks.  The problem is that we've become desensitized to the value of our own time, and we continue to add new Facebook friends or follow people on Twitter without closing off some of the existing network.
 
 Imagine a pack permanently strapped to your back. For every new connection on Twitter or Facebook, small stones of various sizes get deposited into your pack. Eventually, over time, the pack will reach a point where it becomes too heavy or can't hold all the stones. The stones represent your online connections, with sizes proportional to the amount of information they post. The weight of the pack is the amount of your energy it takes to manage all of those connections. If we were physically laden with the weight of our own social networks, most people would start trimming.

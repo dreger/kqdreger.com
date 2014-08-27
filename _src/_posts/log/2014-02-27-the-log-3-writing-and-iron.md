@@ -3,11 +3,14 @@ layout: post
 category: show
 date: 2014-02-27 20:31
 title: 003 - Sharpening Iron and Pencils
-duration: 11:16
+duration: 676.0
 length: 9471342
 file: 2014-02-27-2031.mp3
 size: 9.5MB
+permalink: "/archives/14058-the-log-3-writing-and-iron.html"
 ---
+
+
 In this episode, we talk about The Log getting submitted to iTunes; my new favorite person on Twitter, J.D. Bentley; and some thoughts and reflections on the first steps to becoming an online writer.
 
 ### Show notes

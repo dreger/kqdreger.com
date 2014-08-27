@@ -3,7 +3,9 @@ layout: post
 categories: volume-zero post
 title: Market share
 date: 2012-06-18
+permalink: "/archives/12170-market-share.html"
 ---
+
 
 I was speaking with my father this morning around 2:00 AM and somehow we got on the topic of WWDC.
 

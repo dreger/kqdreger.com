@@ -4,7 +4,9 @@ categories: volume-zero post
 date: 2012-05-14
 title: Orientation, questions and the CEO
 tags: questions, timken, orientation, ceo
+permalink: "/archives/12135-orientation-questions-and-the-ceo.html"
 ---
+
 
 Today marks the end of Orientation Day at [The Timken Company](http://timken.com). Hats off to the University relations team for putting together a great program for us; I've been to much shorter programs which felt twice as long. Informative, fun and a great way to get our feet wet the first day.
 

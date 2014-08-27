@@ -4,7 +4,10 @@ date: 2012-06-08
 layout: post
 categories: volume-zero post
 tags: Starbucks, writing
+permalink: "/archives/12160-written-in-the-starbucks.html"
 ---
+
+
 I haven't accomplished much writing today. So, in lieu of staying inside and eating more cereal, I put on jeans and and a belt and drove over to my local Starbucks. In a lot of ways, this coffee shop mirrors my writing. There's not much else I could do here, except write. I can't load up the Xbox, make something to eat, or try and socialize with the roommates down the hall; just write. It suits me.
 
 ![starbuckys](https://dl.dropbox.com/u/418570/kyledreger/starbucks.jpg)

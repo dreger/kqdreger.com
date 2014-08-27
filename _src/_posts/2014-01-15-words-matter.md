@@ -3,7 +3,10 @@ title: Words Matter
 date: 2014-01-15 19:38
 layout: post
 categories: volume-one post
+permalink: "/archives/14015-words-matter.html"
 ---
+
+
 _Subtitle: The FCC just stabbed the open internet in the heart._
 
 Yesterday, a DC court ruled against the Federal Communications Commission (FCC), stating that internet service providers (ISPs like Time Warner Cable, Verizon, etc.) no longer have to be regulated under common carrier policies. Without going too deep into what is an incredibly confusing issue, often called "net neutrality" in the news, the term [common carrier](http://en.wikipedia.org/wiki/Common_carrier) essentially labels a service &mdash; like phone lines &mdash; as _dumb pipes_; they can carry data back and forth between destinations, but the companies are not allowed to discriminating against what _type_ of data is being transferred.  

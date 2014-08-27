@@ -2,12 +2,15 @@
 layout: post
 category: show
 date: 2014-02-20 22:05
-title: "002 - My Fiancee's Facebook"
-duration: 26:57
+title: 002 - My Fiancee's Facebook
+duration: 1617.0
 length: 22641402
 file: 2014-02-20-2205.mp3
 size: 22.6MB
+permalink: "/archives/14051-my-fiancees-facebook.html"
 ---
+
+
 I was very pleased to have Emily Mariani, my fiancee, on the show today. Emily and I talk about Facebook Paper, the $19 billion acquisition of WhatsApp, Flappy Bird and my B+ in Geology.
 
 ### Show notes

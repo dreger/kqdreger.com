@@ -1,10 +1,13 @@
 ---
-title: "Foolish Reporting of the Week: Brad Reed"
+title: 'Foolish Reporting of the Week: Brad Reed'
 link: http://bgr.com/2013/10/18/apple-ios-7-lawsuit-filed/
 date: 2013-10-19 18:42
 layout: post
 categories: volume-one post
+permalink: "/archives/13292-foolish-bgr.html"
 ---
+
+
 Brad Reed, writing for _BGR_, wins this week's _Foolish Reporting_ award for his ridiculously misleading headline writing. The headline in question? "iPhone user hates iOS 7 so much that he's suing Apple over it":
 
 > Brighter colors and flat icons just aren't for everybody. That said, it seems that iPhone user Mark Menacher hates them much more than anyone else. CNET reports that Menacher has actually filed a suit against Apple in small claims court and is asking the company to let him remove the iOS 7 install file from his iOS devices.

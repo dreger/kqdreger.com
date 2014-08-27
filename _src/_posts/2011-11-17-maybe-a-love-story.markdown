@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Maybe a love story
+permalink: "/archives/11321-maybe-a-love-story.html"
 ---
+
 
 *(The following is, if you will, unstructured poetry - I have no idea what it means, even though I wrote it.)*
 

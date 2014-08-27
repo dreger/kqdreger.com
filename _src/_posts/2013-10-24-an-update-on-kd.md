@@ -3,7 +3,10 @@ title: Some stats from KDHQ
 date: 2013-10-24 08:04
 layout: post
 categories: volume-one post
+permalink: "/archives/13297-an-update-on-kd.html"
 ---
+
+
 The past few weeks at the KDHQ have been fun, and I want to share some stats and updates.
 
 _Note: all statistics derived from data collected between Sep. 2 and Oct. 24 of 2013._

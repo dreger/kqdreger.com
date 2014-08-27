@@ -4,7 +4,10 @@ date: 2014-05-24 16:57
 layout: post
 source-link: http://blog.agilebits.com/2014/05/23/1password-4-for-android-is-coming/
 title: 1Password 4 for Android Arriving June 10
+permalink: "/archives/14144-1password-android.html"
 ---
+
+
 Good news for Android users. David Chartier: 
 
 > All new features will be unlocked and free for everyone to use through August 1, 2014. After that, 1Password 4 for Android will go into a reader mode, and all features can be unlocked for an in-app purchase.

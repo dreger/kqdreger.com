@@ -3,11 +3,14 @@ layout: post
 category: show
 date: 2014-03-30 19:59
 title: 007 - All These Games Pt. 1
-duration: 28:48
-length: 27,649,702
+duration: 1728.0
+length: 27649702
 file: 2014-03-30-1959.mp3
 size: 27.6 MB
+permalink: "/archives/14089-log-007-video-games-part-one.html"
 ---
+
+
 Since our March Madness brackets got busted after the first round, Chris and I decided to start our own bracket &mdash; about video games.
 
 In the first of a two-part episode, we put together our top 16 video games and work our way through the first round.

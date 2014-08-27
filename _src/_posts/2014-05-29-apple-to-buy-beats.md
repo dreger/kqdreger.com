@@ -2,8 +2,11 @@
 categories: volume-one post
 date: 2014-05-28 18:40
 layout: post
-title: "Synthesis: Apple Acquires Beats Music and Beats Electronics"
+title: 'Synthesis: Apple Acquires Beats Music and Beats Electronics'
+permalink: "/archives/14148-apple-to-buy-beats.html"
 ---
+
+
 _Note: a "synthesis" is a post that is designed to provide the best of multiple perspectives on a given, noteworthy, event. Hopefully this format offers a good synopsis of the news, provides reliables sources for further research, and stimulates further discussion (via the "questions" section below)._
 
 Planning to close the deal later this year, Apple will pay $3 billion to acquire Beats Music and Beats Electronics. Beats co-founders Jimmy Iovine and Dr. Dre will also be joining Apple as employees.

@@ -3,7 +3,10 @@ title: I Don't Need a Popcorn Button
 date: 2014-02-03 10:44
 layout: post
 categories: volume-one post
+permalink: "/archives/14034-shekey-microwave.html"
 ---
+
+
 Aaron Shekey, a designer and developer living in Minneapolis, recently remodeled his kitchen, which gave him the opportunity to [take a look at the current state of design amid various home appliances](http://www.aaronshekey.com/posts/the-hot-dog-button/):
 
 > In my frustration I discovered that all I wanted from a microwave was a single knob. That’s it. I want to open a carefully considered door, close it without waking the neighbors, twist a single knob to the desired time, press it to start, and hear a single chime when it’s done. Press again to cancel, or simply twist counter-clockwise to zero it out.

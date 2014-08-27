@@ -4,7 +4,10 @@ link: https://www.facebook.com/publications
 date: 2013-11-10 17:51
 layout: post
 categories: volume-one post
+permalink: "/archives/13314-research-publications-at-facebook.html"
 ---
+
+
 Facebook:
 > Giving people the power to share and connect requires constant innovation. At Facebook, we solve technical problems no one else has seen because no one else has built a social network of this size.
 

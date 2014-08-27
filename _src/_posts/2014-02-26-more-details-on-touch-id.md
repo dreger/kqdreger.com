@@ -3,7 +3,10 @@ title: Some More Details on Touch ID's Security
 date: 2014-02-26 18:56
 layout: post
 categories: volume-one post
+permalink: "/archives/14057-more-details-on-touch-id.html"
 ---
+
+
 For the typical consumer, Apple has not gone too far in explaining the details behind Touch ID's security. We know that your fingerprint data never leaves the Secure Enclave (a small, physical chip embedded on the processor), and that applications are restricted from ever asking for that data. However, for those of us who want to know more, particularly businesses, Apple has updated the security document that accompanies their [iPhone in Business](http://www.apple.com/iphone/business/) website to include a plethora of information.
 
 From the ["iOS Security" PDF document](http://images.apple.com/iphone/business/docs/iOS_Security_Feb14.pdf):

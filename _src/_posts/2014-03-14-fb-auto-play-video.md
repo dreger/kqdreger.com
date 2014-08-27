@@ -1,9 +1,12 @@
 ---
-title: Facebook Plans to Introduce Auto-Playing Video 
+title: Facebook Plans to Introduce Auto-Playing Video
 date: 2014-03-14 22:02
 layout: post
 categories: volume-one post
+permalink: "/archives/14073-fb-auto-play-video.html"
 ---
+
+
 Emil Protalinski, [writing for _The Next Web_](http://thenextweb.com/facebook/2014/03/13/facebook-introduces-15-second-premium-video-ads-auto-play-without-sound-stop-scroll-past): 
 
 > Facebook today [introduced](https://www.facebook.com/business/news/Premium-Video-Ads-on-Facebook) 15-second video ads, which will start playing without sound as they appear on screen and stop if you scroll past. If you tap the video, it will expand into a full-screen view with sound. The company says users can expect to start seeing these new ads "over the next few months."

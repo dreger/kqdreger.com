@@ -3,7 +3,9 @@ title: I am a remix
 date: 2013-01-10
 layout: post
 categories: volume-zero post
+permalink: "/archives/13010-i-am-a-remix.html"
 ---
+
 
 99% of what you create in life is [a remix](http://www.everythingisaremix.info/watch-the-series/) of someone else's work. Enjoy the fact you didn't have to start from scratch. Isacc Newton put it succinctly, "If I have seen further, it is by standing on the shoulders of giants."
 

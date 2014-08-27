@@ -3,7 +3,9 @@ title: URLs for Email
 date: 2013-02-06
 layout: post
 categories: volume-zero post
+permalink: "/archives/13037-erondu-urls-for-email.html"
 ---
+
 
 This morning I read an interesting article by Jared Erondu titled [If Emails Worked Like URLs](http://blog.jarederondu.com/if-emails-worked-like-urls). His idea revolves around the notion of prematurely assigning subfolders to an email message based on the addressed it was sent to. In his example, sending an email to `john@johndoe.com/hire` would automatically sort the email into a folder/label named "hire."
 

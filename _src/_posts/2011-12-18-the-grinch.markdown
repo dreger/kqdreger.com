@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: The Grinch
+permalink: "/archives/11352-the-grinch.html"
 ---
+
 
 [How the Grinch Stole Christmas](http://www.imdb.com/title/tt0170016/) is one of my favorite movies to watch when December roles around. In fact, it was one of the first movies I remember going to see in theaters as a family. I recall we all went to a matinée showing before heading to a family Christmas party. The Grinch also got my dad to laugh out loud, multiple times, something that few movies can claim to have done.
 

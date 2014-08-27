@@ -3,7 +3,10 @@ title: An Apple a Day
 date: 2014-01-31 22:04
 layout: post
 categories: volume-one post
+permalink: "/archives/14031-apple-meets-with-fda.html"
 ---
+
+
 Last December, [Apple executives met with the FDA to discuss mobile medical applications](http://bits.blogs.nytimes.com/2014/01/31/apple-meets-with-f-d-a-regulators-for-mobile-medical-applications/), perhaps indicative of a growing interest surrounding health-focused devices. Nick Bilton for the _New York Times_ Bits Blog: 
 
 > Among the participants from Apple were Jeff Williams, senior vice president of operations; Bud Tribble, vice president of software technology at Apple; Michael O’Reilly, who joined Apple last year; and an employee from Apple’s government affairs department.

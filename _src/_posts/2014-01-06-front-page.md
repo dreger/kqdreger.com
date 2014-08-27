@@ -3,7 +3,10 @@ title: Thoughts on the Front Page
 date: 2014-01-06 11:52
 layout: post
 categories: volume-one post
+permalink: "/archives/14006-front-page.html"
 ---
+
+
 I've been toying with how best to structure the front page of sites that have a focus on writing. The front page is the first impression, a digital handshake, and ensuring it conveys your content in a way you want is extremely important. 
 
 A number of different conventions exist for listing news-related content. However, most styles are based on one of two ways: 

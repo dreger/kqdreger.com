@@ -3,7 +3,10 @@ title: Lovingly Crafted
 date: 2013-10-02 17:49
 layout: post
 categories: volume-one post
+permalink: "/archives/13275-paying-for-software.html"
 ---
+
+
 You're building a chair.
 
 But this isn't a normal, buy-one-at-the-retail-store kind of chair. Your chair is going to be quality, made of the best materials you can afford, and take months to finish.

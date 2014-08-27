@@ -3,7 +3,10 @@ title: Frank Chimero's New Personal Website
 date: 2014-03-04 12:29
 layout: post
 categories: volume-one post
+permalink: "/archives/14063-fc-new-site.html"
 ---
+
+
 Frank Chimero, one of the veterans of web design and a personal hero of mine, just [took the wraps off his new website](http://frankchimero.com/blog/make-it-homely/): 
 
 > So, here we are: aesthetics, content, and purpose all lined up. Make it colorful, make it boxy, make it a little cluttered. Fill it with things that you love, and for god’s sake, Frank, get all of your stuff in one place so people can find it, and you can feel a bit of pride about the things you’ve made and collected. So, if you go down through the navigation, you could see it as an index of my work and passions. Success!

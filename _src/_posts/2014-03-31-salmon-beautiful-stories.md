@@ -1,9 +1,12 @@
 ---
-title:  Where Every Story Looks the Same
+title: Where Every Story Looks the Same
 date: 2014-03-31 21:50
 layout: post
 categories: volume-one post
+permalink: "/archives/14090-salmon-beautiful-stories.html"
 ---
+
+
 The trend towards big and beautiful online article design is becoming more common. This past year, the _New York Times_ [went through a large redesign](http://www.nytimes.com/redesign/), focusing on bigger type and giving every article a command of the page. Just this last month, Time.com [did the same](http://time.com/13113/time-coms-redesign/), rolling out a new, bigger layout &mdash; following the same large-article trend as the _Times_. 
 
 Although these new layouts bode well for readability, Felix Salmon, writing for _Rueters_, argues that the change in design [removes important visual cues](http://blogs.reuters.com/felix-salmon/2014/03/27/against-beautiful-journalism/) that determine whether an article is important or not: 

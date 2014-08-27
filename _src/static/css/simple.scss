@@ -6,9 +6,9 @@ $color-dark: rgb(38, 43, 46);
 $color: $color-dark; // rgb(114, 175, 191);
 $color-copy: #333;//#1d1f20;
 $color-bg: #fff; //#b1b1b1;
-$color-faded: #ccc;
-$sans:  'Ideal Sans SSm A', 'Ideal Sans SSm B', 'Avenir Next', Helvetica, Arial;
-$max-width: 32rem;
+$color-faded: #bbb;
+$sans:  'Ideal Sans SSm A', 'Ideal Sans SSm B', Helvetica Neue, Arial;
+$max-width: 34rem;
 $h1-size: 1.8rem;
 
 * {
@@ -16,7 +16,7 @@ $h1-size: 1.8rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 body {
     margin: 0;
@@ -26,7 +26,7 @@ body {
     font-family: $sans;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
 
 .wrapper {
@@ -47,10 +47,11 @@ h6 {
 h1 {
   font-weight: bold;
   font-size: $h1-size;
-  line-height: 1.1em;
+  line-height: 1.15em;
   margin-top: 0;
 }
 h2 {
+  margin-top: 2rem;
   font-size: 1.4rem;
   font-weight: normal;
   font-style: italic;
@@ -72,7 +73,7 @@ blockquote {
 .header {
   transition: .14s ease;
   margin: 0;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
   color: #aaa;
   font-size: 1rem;
   opacity: .3;
@@ -113,16 +114,22 @@ a {
     &:active { color: darken($color, 10%); }
 }
 
+ul {
+  li {
+    margin: .5rem 0;
+  }
+}
+
 
 .archives {
   margin: 0;
   padding: 0;
   font-family: $sans;
   li {
-    line-height: 1.1em;
+    line-height: 1.15em;
     list-style: none;
-    font-size: 1.2rem;
-    margin: 2rem 0;
+    font-size: 1rem;
+    margin: 1.5rem 0;
   }
   a {
     text-decoration: none;
@@ -139,10 +146,13 @@ a {
 }
 
 .list-header {
-  font-size: $h1-size;
-  margin: 5rem 0 4rem;
-  padding-top: 1rem;
-  border-top: 2px solid lighten($color-faded, 10%);
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 6rem 0 3rem;
+  // padding-top: 1rem;
+  // border-top: 2px solid lighten($color-faded, 10%);
 }
 
 .faded {
@@ -171,6 +181,7 @@ hr {
   }
   .header {
     opacity: .8;
+    padding: 1rem 1rem;
   }
   .home {
     font-size: 1.5rem;

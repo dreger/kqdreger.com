@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Prepare today
+permalink: "/archives/12037-prepare-today.html"
 ---
+
 
 Walking back to the dorm in the cool air tonight, I came up with a neat way of thinking about work ethic and effort:
 

@@ -2,7 +2,9 @@
 layout: post
 categories: volume-zero post
 title: A less Pro Macbook
+permalink: "/archives/11247-a-less-pro-macbook.html"
 ---
+
 
 _(Update: I ended up sticking with my Macbook Pro. I love it too much.)_
 

@@ -4,7 +4,10 @@ date: 2014-05-24 18:23
 layout: post
 source-link: http://www.wired.com/2014/05/the-hidden-beauty-of-airport-runways-and-how-to-decipher-them/
 title: The Hidden Beauty of Airport Runways
+permalink: "/archives/14144-airport-beauty.html"
 ---
+
+
 Fascinating article on the work of Lauren O’Neil, a Brooklyn-based designer who uses Google Earth to capture images of airport runway layouts. Joseph Flaherty, writing for _WIRED_:
 
 > [O'Neil](http://blog.laurenoneilldesign.com/) turns those strictures [airport runways] into art, with the help of Google Earth. The Brooklyn-based designer has made a meticulous study of airport runways and logged the results on a Tumblr called _[Holding Pattern](http://holding-pattern.tumblr.com)_. These views reveal beautiful compositions at airports that are nothing special at ground level.

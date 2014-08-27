@@ -3,7 +3,10 @@ title: Life is a Game
 date: 2014-02-10 10:39
 layout: post
 categories: volume-one post
+permalink: "/archives/14041-life-is-a-game.html"
 ---
+
+
 Oliver Emberton on his [personal blog](http://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/): 
 
 > You might not realise, but real life is a game of strategy. There are some fun mini-games – like dancing, driving, running, and sex – but the key to winning is simply managing your resources.

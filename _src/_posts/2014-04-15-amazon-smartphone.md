@@ -4,7 +4,10 @@ date: 2014-04-15 18:32
 layout: post
 source-link: http://bgr.com/2014/04/15/amazon-smartphone-photos-specs-kindle-phone-exclusive/
 title: The Amazon Smartphone
+permalink: "/archives/14105-amazon-smartphone.html"
 ---
+
+
 Zach Epstein, writing for BGR (yup, [that BGR]({% post_url 2013-10-19-foolish-bgr %})): 
 
 > The main rear camera is thought to feature a resolution of 13 megapixels, and the phone also includes a standard front-facing camera for video chats as well as Amazon’s Mayday customer service feature.

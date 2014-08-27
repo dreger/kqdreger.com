@@ -3,7 +3,9 @@ title: The Five C
 layout: post
 categories: volume-one post
 date: 2013-09-13
+permalink: "/archives/13256-iphone-five-c.html"
 ---
+
 
 Some thoughts on the new iPhone 5C, and why it's going to be the most popular version Apple's ever sold.
 

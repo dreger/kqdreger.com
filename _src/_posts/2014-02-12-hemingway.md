@@ -1,9 +1,12 @@
 ---
-title: "Hemingway: Write Bold and Clear"
+title: 'Hemingway: Write Bold and Clear'
 date: 2014-02-12 12:41
 layout: post
 categories: volume-one post
+permalink: "/archives/14043-hemingway.html"
 ---
+
+
 [Hemingway](http://www.hemingwayapp.com), developed by Adam and Ben Long, is a small website where you can have your text analyzed against a variety of clarity-focused metrics. From the home page: 
 
 > Hemingway highlights long, complex sentences and common errors; if you see a yellow highlight, shorten the sentence or split it. If you see a red highlight, your sentence is so dense and complicated that your readers will get lost trying to follow its meandering, splitting logic — try editing this sentence to remove the red.
