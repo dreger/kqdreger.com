@@ -4,17 +4,11 @@ title: About
 ---
 # About
 
-My name is Kyle Dreger, and I work as a user experience designer. This site houses my thoughts on the topics of writing, technology, and design.
-
-_I'm currently enjoying life with my new wife, so things are on a small hiatus._
+My name is Kyle Dreger, and I work as a user experience designer. This site houses my thoughts on the topics of writing, technology, and design. _Note: I'm currently enjoying life with my new wife, so things are on a small hiatus._
 
 Please send all correspondence to:
 
 [@kyledreger](http://twitter.com/kyledreger) or <comments@dreger.me>
-
-### Volumes?
-
-On [the homepage](/), I have broken my writing into different volumes, based on the period of life in which I wrote them. I'm currently writing, what I consider, Volume Two. 
 
 ### Colophon
 
