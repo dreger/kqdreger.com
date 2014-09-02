@@ -10,13 +10,14 @@ $sans:  'Ideal Sans SSm A', 'Ideal Sans SSm B', Helvetica Neue, Arial;
 $max-width: 34rem;
 
 $h1-size: 1.65rem;
+$h1-size: 2.3rem;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 16px;
+  font-size: 17px;
 }
 body {
     margin: 0;
@@ -26,7 +27,7 @@ body {
     font-family: $sans;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .wrapper {
@@ -47,13 +48,13 @@ h6 {
 h1 {
   font-weight: bold;
   font-size: $h1-size;
-  line-height: 1.15em;
+  line-height: 1em;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 h2 {
   margin-top: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.85rem;
   font-weight: normal;
   font-style: italic;
 }
