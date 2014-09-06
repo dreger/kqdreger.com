@@ -40,7 +40,7 @@
 # end
 
 
-require "Date"
+# require "Date"
 
 module Jekyll
   class PermalinkRewriter < Generator
