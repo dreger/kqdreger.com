@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Pleasant Font Pairings"
-date: 2014-09-06 08:03	
+date: 2014-09-06 08:03
 categories: post volume-two
 ---
-I've been working with lots of web typography lately. However, although there is no shortage of web fonts available, I sometimes find it difficult identify nice font pairs. 
+I have been working with lots of web typography lately. However, although there is no shortage of web fonts available, I sometimes find it difficult identify nice font pairs. 
 
-Thankfully, the likes of Femmebot, Typekit, and Daniel Eden have helped us all, by doing a lot of legwork for us: 
+Thankfully, the likes of Femmebot, Typekit, and Daniel Eden have helped us all, by doing a lot of legwork for us:
 
 - [Google Type Pairings][google] by Femmebot
 - [Selecting Typefaces for Body Text][typekit] by Typekit
-- [Just My Type][just my type] by Daniel Eden 
+- [Just My Type][just my type] by Daniel Eden
 
 
 [google]:http://femmebot.github.io/google-type/
