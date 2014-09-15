@@ -3,10 +3,10 @@
 
 // Few variables
 $color: #cbcbcb;
-$color-copy: #cccccc;
+$color-copy: #eeeeee;
 $color-bg: #282828;
-$color-faded: #999;
-$sans: "Ideal Sans SSm A", "Ideal Sans SSm B", 'Helvetica Neue', Arial;
+$color-faded: #b3b3b3;
+$sans: "Ideal Sans SSm A", "Ideal Sans SSm B", "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 $max-width: 32rem;
 
 $h1-size: 1.35rem;
@@ -17,7 +17,7 @@ $h2-size: 1.25rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 13px;
+  font-size: 14px;
 }
 body {
     margin: 0;
@@ -163,6 +163,7 @@ ul {
   a {
     text-decoration: none;
     font-weight: bold;
+    border-bottom: solid 1px #585858;
   }
 }
 
