@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Words
+title: Weblog
 ---
+
 <ul class="archives volume-one">
   {% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="faded"><em> &times; {{ post.content | strip_html | truncatewords: 28 }}</em></span></li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="faded"><em> &times; {{ post.content | strip_html | truncatewords: 28 }}</em> [{{ post.date | date: "%b %d, %Y" }}]</span></li>
   {% endfor %}
 </ul>
-
-<p class="faded list-header">END</p>

@@ -39,7 +39,7 @@
 #   end
 # end
 
-
+#
 
 module Jekyll
   class PermalinkRewriter < Generator

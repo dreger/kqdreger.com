@@ -11,26 +11,24 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <body>
 {% include header.html %}
 <section class="wrapper">
-{% if page.category == 'show' %}
-	<article class="article">
-		<h1 class="post_title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-		<audio controls="controls"  src="{{site.domain}}/log/audio/{{ page.file }}">
-		<source src="{{site.domain}}/log/audio/{{ page.file }}" type="audio/mpeg">
-		Your browser does not support the audio element. Please download the audio file above.
-		</audio>
-		<p>Recorded on {{ page.date | date: "%B %d, %Y" }} &mdash; <a href="{{site.domain}}/log/audio/{{ page.file }}">Download here</a> ({{ page.size }})</p>
-		{{ content }}
-	</article>
-
+{% if page.categories contains 'the-show' %}
+<article class="article">
+<h1 class="post_title">
+<a href="{{ page.url }}">{{ page.title }}</a>
+</h1>
+{{ content }}
+<p class="faded">Recorded on {{ page.date | date: "%B %d, %Y" }}</p>
+</article>
 {% else %}
-	<article class="article">
-		<h1 class="post_title">
-			{% if page.categories contains 'post' %}<a href="{{ page.url }}">{{ page.title }}</a>
-			{% elsif page.categories contains 'link' %}<a href="{{ page.source-link }}">{{ page.title }}&nbsp;&rarr;</a>{% endif %}
-		</h1>
-		{{ content }}
-		<p class="faded">{{ page.date | date: "%B %d, %Y" }}</p>
-	</article>
+
+<article class="article">
+<h1 class="post_title">
+<a href="{{ page.url }}">{{ page.title }}</a>
+</h1>
+{{ content }}
+<p class="faded">{{ page.date | date: "%B %d, %Y" }}</p>
+</article>
+
 {% endif %}
 </section>
 </body>

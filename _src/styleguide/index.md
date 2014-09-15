@@ -2,26 +2,29 @@
 layout: default
 title: Styleguide
 ---
-# Styleguide
+# The KD Manual of Style
 
-This document serves as the living styleguide for [kyledreger.com](http://kyledreger.com).
+This document serves as the living styleguide for [kyledreger.com](http://kyledreger.com). I base my stylistic decisions off of the _New York Times Manual of Style_, and then reference this guide. The goal is to bring a consistent voice to all my writing. 
 
-# Level One Heading
+## Names: people
 
-The big guy, the chief counselor: a level one heading. Used to denote page and article titles. Heavy font weight and Ideal Sans.
+- First reference: Firstname Lastname
+- Subsequent references: Mr./Mrs. Lastname
 
-## Level Two Heading
+## Names: publications
 
-Softer now, but still audible: the level two heading. Used to point out the main ideas of a page or article. Set in Ideal Sans italic.
+Basic rule: italicize major publications.
 
-### Level Three Heading
+- _Daring Fireball_
+- [_FiveThirtyEight_](http://fivethirtyeight.com)
+-  _New York Times_, _the Times_
+- _Time_
 
-Subtle, yet svelte: a level three heading. Simplistic, set apart, and soft; this heading will acknowledge small subpoints within a page or article. Increased kerning, a dark gray, and small caps.
+## Punctuation: apostrophes
 
-> But wait! Not all the words on this site are mine; some belong to other people. Pull quotes will be offset to the
+- If the word ends in an [_s_], leave the apostrophe off.
 
-Horizontal rules will be 60% of the page width:
+## Spelling
 
----
-
-Sometimes you want to add connotation to your text with **weight**, _italics_, or ~~strikethrough~~. 
+- Website: a collection of pages on the Internet
+- Weblog: an online blog

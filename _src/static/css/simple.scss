@@ -2,23 +2,22 @@
 ---
 
 // Few variables
-$color:  rgb(71, 132, 150); // rgb(38, 43, 46)
-$color: #222;
-$color-copy: #484848;
-$color-bg: #fff;
-$color-faded: #bbb;
-$sans: 'Ideal Sans SSm A', 'Ideal Sans SSm B', Helvetica Neue, Arial;
-$max-width: 34rem;
+$color: #ddd;
+$color-copy: #cbcbcb;
+$color-bg: #282828;
+$color-faded: #999;
+$sans: "Ideal Sans SSm A", "Ideal Sans SSm B", 'Helvetica Neue', Arial;
+$max-width: 32rem;
 
-$h1-size: 1.65rem;
-$h1-size: 2.3rem;
+$h1-size: 1.35rem;
+$h2-size: 1.25rem;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 15px;
+  font-size: 13px;
 }
 body {
     margin: 0;
@@ -34,7 +33,7 @@ body {
 .wrapper {
   max-width: $max-width;
   margin: 0 auto;
-  padding: 0 1rem 2rem;
+  padding: 0 1rem 4rem;
 }
 
 h1,
@@ -55,13 +54,12 @@ h1 {
 }
 h2 {
   margin-top: 2rem;
-  font-size: 1.85rem;
+  font-size: $h2-size;
   font-weight: normal;
   font-style: italic;
 }
 h3 {
   text-transform: uppercase;
-  color: darken($color-faded, 40%);
   letter-spacing: 1px;
   font-size: 1rem;
   margin: 1.5rem 0 0;
@@ -69,24 +67,39 @@ h3 {
 }
 
 blockquote {
-  font-style: italic;
+  // font-style: italic;
 }
-
 
 .header {
   transition: .14s ease;
-  margin: 0;
-  padding: 2rem 1rem;
+  margin: 0 0 6rem;
+  padding: .5rem 1rem;
+  border-bottom: 1px solid #444;
   color: $color-faded;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 12px;
+  p { margin-bottom: 0; display: inline; }
   a { text-decoration: none; }
-  border-bottom: 1px solid lighten($color-faded, 20%);
-  margin-bottom: 3rem;
+  text-align: center;
 }
-.wrap {
-  max-width:$max-width;
-  margin: 0 auto;
+
+.nav {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    display: inline;
+    margin: 0 1rem;
+  }
+}
+
+.site-title {
+    font-weight: bold;
+}
+
+.page-header {
+  text-align: center;
 }
 
 .post_title {
@@ -113,7 +126,7 @@ img {
 
 a {
     color: $color;
-    &:hover { color: lighten($color, 10%); }
+    &:hover { color: lighten($color, 30%); }
     &:active { color: darken($color, 10%); }
 }
 
@@ -123,13 +136,26 @@ ul {
   }
 }
 
+.article-break {
+  &:last-child { display: none; }
+  border: none;
+  background-color: #282828;
+  margin: 3.5rem 0;
+  display: block;
+}
+
+.archives-link {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.7em;
+}
 
 .archives {
   margin: 0;
   padding: 0;
   font-family: $sans;
   li {
-    line-height: 1.25em;
     list-style: none;
     font-size: 1rem;
     margin: 0 0 2rem 0;
@@ -162,11 +188,11 @@ ul {
 }
 
 hr {
-  height: 1px;
-  background-color: $color-faded;
+  height: 2px;
+  background-color: #444;
   width: 60%;
-  margin: 2rem auto;
-  border: 1px solid $color-faded;
+  margin: 2.5rem auto;
+  border: 1px solid #444;
   border-radius: 10px;
 }
 
