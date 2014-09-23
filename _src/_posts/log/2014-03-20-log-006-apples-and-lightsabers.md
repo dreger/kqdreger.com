@@ -11,7 +11,7 @@ permalink: "/archives/14079-log-006-apples-and-lightsabers.html"
 ---
 
 
-I've had a small cold, but I'm excited to be back with co-host Chris Durr (coming in from "on location" in Columbus). We discuss some follow-up to our [last episode together]({% post_url log/2014-03-08-log-004-beakers-and-bits %}), ethanol power, Star Wars movie order, quantum computing, when our favorite shows "jumped the shark," and more. 
+I've had a small cold, but I'm excited to be back with co-host Chris Durr (coming in from "on location" in Columbus). We discuss some follow-up to our [last episode together]({% post_url /log/2014-03-08-log-004-beakers-and-bits %}), ethanol power, Star Wars movie order, quantum computing, when our favorite shows "jumped the shark," and more. 
 
 ### Show Notes
 - [The West Wing - Toby throwing the ball](http://www.youtube.com/watch?v=5G8VohYIMws)

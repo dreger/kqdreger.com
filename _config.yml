@@ -1,19 +1,27 @@
-
-url:            http://kyledreger.com
-domain:         http://kyledreger.com
-title:          Kyle Dreger
-author:         Kyle Dreger
-email:          comments@dreger.me
-description:    "Well-written Nerdery"
-permalink: /archives/:title.html
-source:         ./_src
-destination:    ./_site
-markdown:       rdiscount
-highlighter:       pygments
+url: http://kyledreger.com
+domain: http://kyledreger.com
+title: Kyle Dreger
+author: Kyle Dreger
+email: comments@dreger.me
+description: "Well-written Nerdery"
+permalink: /:year/:month/:title.html
+source: ./_src
+destination: ./_site
+markdown: rdiscount
+highlighter: pygments
+timezone: "America/New_York"
 
 rdiscount:
   extensions: [footnotes, smart]
 
 sass:
-  style:  compressed
+  style: compressed
   deploy_style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
