@@ -1,10 +1,9 @@
-url: http://kyledreger.com
-domain: http://kyledreger.com
-title: Kyle Dreger
+url: http://audaciousfox.com
+domain: http://audaciousfox.com
+title: Audacious Fox
 author: Kyle Dreger
-email: comments@dreger.me
-description: "Well-written Nerdery"
-permalink: /:year/:month/:title.html
+email: comments@audaciousfox.com
+description: "Something audacious."
 source: ./_src
 destination: ./_site
 markdown: rdiscount

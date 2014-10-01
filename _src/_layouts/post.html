@@ -11,25 +11,18 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 <body>
 {% include header.html %}
 <section class="wrapper">
-{% if page.categories contains 'the-show' %}
-<article class="article">
-<h1 class="post_title">
-<a href="{{ page.url }}">{{ page.title }}</a>
-</h1>
-{{ content }}
-<p class="faded">Recorded on {{ page.date | date: "%B %d, %Y" }}</p>
-</article>
+
+<article>
+{% if page.link %}
+  <a href="{{ page.link }}">{{ page.title }}</a> &mdash; {{ content }}
+  <span class="faded">{{ page.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ page.url }}">&#8251;</a></span>
 {% else %}
-
-<article class="article">
-<h1 class="post_title">
-<a href="{{ page.url }}">{{ page.title }}</a>
-</h1>
-{{ content }}
-<p class="faded">{{ page.date | date: "%B %d, %Y" }}</p>
-</article>
-
+  <h1><a href="{{ page.url }}">{{page.title}}</a></h1>
+  {{ content }}
+  <span class="faded">{{ page.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ page.url }}">&#8251;</a></span>
 {% endif %}
+</article>
+{% include footer.html %}
 </section>
 </body>
 </html>

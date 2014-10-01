@@ -3,8 +3,15 @@ layout: default
 title: Weblog
 ---
 
-<ul class="archives volume-one">
-  {% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="faded"> &times; {{ post.content | strip_html | truncatewords: 28 }} [{{ post.date | date: "%b %d, %Y" }}]</span></li>
-  {% endfor %}
-</ul>
+{% for post in site.posts limit:30 %}
+<article>
+{% if post.link %}
+  <a href="{{ post.link }}">{{ post.title }}</a> &mdash; {{ post.content  }}
+  <span class="faded">{{ post.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ post.url }}">&#8251;</a></span>
+{% else %}
+  <h1><a href="{{ post.url }}">{{post.title}}</a></h1>
+  {{ post.content | strip_html | truncatewords: 50 }}
+  <span class="faded">{{ post.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ post.url }}">&#8251;</a></span>
+{% endif %}
+</article>
+{% endfor %}
