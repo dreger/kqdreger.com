@@ -2,13 +2,13 @@
 layout: default
 title: Styleguide
 ---
-# The KD Manual of Style
+# The AF Manual of Style
 
-This document serves as the living styleguide for [kyledreger.com](http://kyledreger.com). I base my stylistic decisions off of the _New York Times Manual of Style_, and then reference this guide. The goal is to bring a consistent voice to all my writing.
+This document serves as the living styleguide for [audaciousfox.com](http://audaciousfox.com). I base my stylistic decisions off of the _New York Times Manual of Style_, and then reference this guide. The goal is to bring a consistent voice to all my writing.
 
 ## Capitalization
 
-[How to capitalize your titles](http://titlecapitalization.com). 
+[How to capitalize your titles](http://titlecapitalization.com).
 
 ## Names: people
 
@@ -19,11 +19,17 @@ This document serves as the living styleguide for [kyledreger.com](http://kyledr
 
 Basic rule: italicize major publications.
 
+"Major" publications:
+
 - _Daring Fireball_
 - [_FiveThirtyEight_](http://fivethirtyeight.com)
 - _National Geographic_
 -  _New York Times_, _the Times_
 - _Time_
+
+"Minor" publications:
+
+- Pixel Envy 
 
 ## Punctuation: apostrophes
 

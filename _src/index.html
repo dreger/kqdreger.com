@@ -2,16 +2,37 @@
 layout: default
 title: Weblog
 ---
+<section class="frontpage">
 
-{% for post in site.posts limit:30 %}
+<time class="date"><script type="text/javascript">
+var d = new Date();
+var weekday = new Array(7);
+weekday[0]=  "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
+document.write("Happy " + weekday[d.getDay()]);
+</script></time>
+
+{% for post in site.posts limit:30 group_by:"date"  %}
+{% capture currentdate %}{{post.date | date: "%A, %d %B %Y"}}{% endcapture %}
+{% if currentdate != thedate %}
+<time class="date" >{{currentdate}}</time>
+{% capture thedate %}{{currentdate}}{% endcapture %}
+{% endif %}
+
 <article>
 {% if post.link %}
-  <a href="{{ post.link }}">{{ post.title }}</a> &mdash; {{ post.content  }}
-  <span class="faded">{{ post.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ post.url }}">&#8251;</a></span>
+  <a href="{{ post.link }}">{{ post.title }}</a>&nbsp;<a class="permalink" href="{{ post.url }}">&#8251;</a>
+  {{ post.content }}
 {% else %}
   <h1><a href="{{ post.url }}">{{post.title}}</a></h1>
-  {{ post.content | strip_html | truncatewords: 50 }}
-  <span class="faded">{{ post.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ post.url }}">&#8251;</a></span>
+  {{ post.content | strip_html | truncatewords: 30 }}
 {% endif %}
 </article>
+
 {% endfor %}
+</section>

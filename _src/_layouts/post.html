@@ -14,14 +14,15 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 
 <article>
 {% if page.link %}
-  <a href="{{ page.link }}">{{ page.title }}</a> &mdash; {{ content }}
-  <span class="faded">{{ page.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ page.url }}">&#8251;</a></span>
+  <a href="{{ page.link }}">{{ page.title }}</a> <a class="permalink" href="{{ page.url }}">&#8251;</a>
+  {{ content }}
 {% else %}
   <h1><a href="{{ page.url }}">{{page.title}}</a></h1>
   {{ content }}
-  <span class="faded">{{ page.date | date: "%b %d, %Y" }} <a class="permalink" href="{{ page.url }}">&#8251;</a></span>
 {% endif %}
+<p class="faded">{{ page.date | date: "%A, %d %B %Y" }}</p>
 </article>
+
 {% include footer.html %}
 </section>
 </body>
