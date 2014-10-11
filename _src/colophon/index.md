@@ -8,21 +8,21 @@ Audacious Fox is produced by Kyle Dreger. Read the [styleguide](/styleguide).
 
 Please send all correspondence to:
 
-<comments@audaciousfox.com>
+<comments@dreger.me>
 
 ### Feeds and RSS
 
-There are a variety of ways to keep in touch with audaciousfox:
-
-- Site tweets: [@audaciousfox](http://twitter.com/audaciousfoxcom) (one tweet / post)
-- Personal tweets: [@dreger](http://twitter.com/dreger) (pithy updates and nerdery)
 - RSS: The main feed is located at [feedpress.me/audaciousfox](http://feedpress.me/audaciousfox)
+- Site tweets: [@audaciousfeed](http://twitter.com/audaciousfeed) (one tweet / post)
+- Personal tweets: [@kyledreger](http://twitter.com/kyledreger) (pithy updates and nerdery)
 
 ### Mac Apps
 
 - Atom
 - iTerm
-- iTunes
+- Rdio
+- TextEdit
+- Tweetbot
 - Webkit
 
 ### iPhone Apps

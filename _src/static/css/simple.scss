@@ -1,29 +1,29 @@
 ---
 ---
+$color: #ff0050;
+$color-light: lighten($color, 10%);
+$color-dark: darken($color, 10%);
+$color-copy: #eeeeee;
+$color-bg: #2B2D2F;
+$color-faded: #808080;
+$color-hover: #444;
 
-$color: #FF8669;
+
+$color: #ff0050;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
 $color-copy: #383F45;
 $color-bg: #F8F8FA;
 $color-faded: #9ea4aa;
-
-$color: #5DB09D;
-$color-light: lighten($color, 10%);
-$color-dark: darken($color, 10%);
-$color-copy: #eeeeee;
-$color-bg: #282828;
-$color-faded: #808080;
+$color-hover: #dfdfdf;
 
 // Few variables
-
-
 
 
 $sans: 'Whitney SSm A', 'Whitney SSm B', Avenir Next;
 $max-width: 32rem;
 
-$h1-size: 1.4rem;
+$h1-size: 1.5rem;
 $h2-size: 1.2rem;
 
 * {
@@ -31,7 +31,7 @@ $h2-size: 1.2rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 body {
     margin: 0;
@@ -58,7 +58,7 @@ h5,
 h6 {
   font-family: $sans;
   a {
-    color: $color;
+    color: $color-copy;
     border: none;
   }
 }
@@ -154,20 +154,26 @@ footer {
   padding: 0;
   color: $color-faded;
   text-align: right;
-  border-top: 1px solid darken($color-faded, 20%);
+  border-top: 1px solid $color-hover;
 }
 
 .permalink {
   margin-left: .5rem;
+  padding: 0 .25rem;
   color: $color-faded;
-  border: none;
+  border-color: $color-faded;
   &:hover {
     color: $color;
   }
 }
 
+em img {
+  width: 200%;
+  margin: 1.5rem 0 1.5rem -50%;
+}
+
 img {
-  width: 140%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 1.5rem 0 1.5rem;
@@ -179,7 +185,7 @@ a {
   color: $color;
   text-decoration: none;
   border-bottom: 1px dotted $color;
-  &:hover { background-color: #444;  }
+  &:hover { background-color: $color-hover;  }
   &:active { color: $color-dark; }
 }
 
@@ -218,10 +224,10 @@ article + p {
 
 hr {
   height: 2px;
-  background-color: darken($color-faded, 20%);
+  background-color: $color-hover;
   width: 60%;
   margin: 2.5rem auto;
-  border: 1px solid darken($color-faded, 20%);
+  border: 1px solid $color-hover;
   border-radius: 10px;
   + ol {
     font-size: .8rem;
@@ -244,8 +250,8 @@ hr {
   }
 }
 
-@media (max-width: 980px) {
-  img {
+@media (max-width: 1000px) {
+  em img {
     margin-left: 0;
     max-width: 100%;
   }

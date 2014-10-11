@@ -2,7 +2,7 @@ url: http://audaciousfox.com
 domain: http://audaciousfox.com
 title: Audacious Fox
 author: Kyle Dreger
-email: comments@audaciousfox.com
+email: comments@dreger.me
 description: "Something audacious."
 source: ./_src
 destination: ./_site

@@ -25,15 +25,17 @@ Basic rule: italicize major publications.
 - [_FiveThirtyEight_](http://fivethirtyeight.com)
 - _National Geographic_
 -  _New York Times_, _the Times_
+- _The Verge_
 - _Time_
 
 "Minor" publications:
 
-- Pixel Envy 
+- Pixel Envy
+- The Newsprint
 
-## Punctuation: apostrophes
+## Punctuation: possessive plural
 
-- If the word ends in an [_s_], leave the apostrophe off.
+- If the word / name ends in an "s," attach only an apostrophe: _The Moss' house._
 
 ## Spelling
 

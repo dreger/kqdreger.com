@@ -2,8 +2,8 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-<title>kyledreger.com</title>
-<link href="{{ site.domain }}/atom.xml" rel="self"/>
+<title>Audacious Fox</title>
+<link href="{{ site.domain }}/feeds/main.xml" rel="self"/>
 <link href="{{ site.domain }}/"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>{{ site.domain }}/</id>
@@ -14,13 +14,14 @@
 {% for post in site.posts limit:20 %}
 {% if post.date %}
 <entry>
-   <title>{% if post.category == 'log-podcast' %}The Log: {% endif %}{{ post.title }}</title>
-   {% if post.category == 'link' %}
-   <link href="{{ post.source-link }}"/>
+   <title>{{ post.title }}</title>
+   {% if post.link %}
+   <link href="{{ post.link }}"/>
    {% else %}
    <link href="{{site.domain}}{{ post.url }}"/>
    {% endif %}
    <published>{{ post.date | date_to_xmlschema }}</published>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.domain }}{{ post.id }}</id>
    <author>
       <name>{{ site.author }}</name>
@@ -28,7 +29,7 @@
    </author>
   <content type="html">
     {{ post.content | xml_escape }}
-    &lt;a href=&quot;{{site.domain}}{{ post.url }}&quot;&gt;&#10006;&lt;/a&gt;
+    &lt;a href=&quot;{{site.domain}}{{ post.url }}&quot;&gt;&#8251;&lt;/a&gt;
   </content>
 </entry>
 {% endif %}

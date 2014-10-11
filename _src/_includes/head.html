@@ -1,14 +1,13 @@
 <head>
 <title>
-{{site.title}}
+{{ site.title }}{% if page.title %}: {{ page.title }}{% endif %}
 </title>
 <meta charset="utf-8">
 <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
 
-<link rel="alternate" type="application/atom+xml" title="{{ site.author }}" href="http://feedpress.me/kyledreger" />
-
+<link rel="alternate" type="application/atom+xml" title="Audacoius Fox" href="http://feedpress.me/audaciousfox" />
 
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7690092/619704/css/fonts.css" />
 <link rel="stylesheet" type="text/css" href="/static/css/simple.css">
