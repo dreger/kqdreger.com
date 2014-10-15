@@ -8,8 +8,6 @@ $color-bg: #2B2D2F;
 $color-faded: #808080;
 $color-hover: #444;
 
-
-
 $color: #3182EF;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
@@ -17,7 +15,6 @@ $color-copy: #383F45;
 $color-bg: #ffffff;
 $color-faded: #9fa4a8;
 $color-hover: #dfdfdf;
-// Few variables
 
 
 $sans: "Avenir Next", Verdana;
@@ -171,6 +168,10 @@ footer {
   }
 }
 
+.small-caps {
+  font-variant: small-caps;
+}
+
 em img {
   width: 180%;
   margin: 1.5rem 0 1.5rem -40%;
@@ -276,6 +277,9 @@ hr {
 }
 
 @media (max-width: 750px) {
+  html {
+    font-size: 16px;
+  }
   .header {
     margin: 0 0 1rem;
   }

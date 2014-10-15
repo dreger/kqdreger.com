@@ -10,7 +10,7 @@ This web column is produced by Kyle Dreger. Read the [styleguide](/styleguide). 
 
 ### Feeds and RSS
 
-- RSS: The main feed is located at [feedpress.me/kyledreger](http://feedpress.me/kyledreger)
+- <span class="small-caps">rss</span>: The main feed is located at [feedpress.me/kyledreger](http://feedpress.me/kyledreger)
 - Site tweets: [@kyledregerfeed](http://twitter.com/kyledreger) (one tweet / post)
 - Personal tweets: [@kyledreger](http://twitter.com/kyledreger) (pithy updates and nerdery)
 
