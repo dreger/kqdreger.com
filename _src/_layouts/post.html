@@ -9,12 +9,12 @@ Published on: {{ page.date | date: "%b %d, %Y" }}
 -->
 
 <body>
-{% include header.html %}
 <section class="wrapper">
+{% include header.html %}
 
 <article>
 {% if page.link %}
-  <a href="{{ page.link }}">{{ page.title }}</a> <a class="permalink" href="{{ page.url }}">&#8251;</a>
+  <p><a class="post-link" href="{{ page.link }}">{{ page.title }}</a> <a class="permalink" href="{{ page.url }}">&#8251;</a></p>
   {{ content }}
 {% else %}
   <h1><a href="{{ page.url }}">{{page.title}}</a></h1>

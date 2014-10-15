@@ -1,3 +1,10 @@
 <header class="header">
-  <a class="site-title" href="/">Audacious Fox</a>
+  <h1 class="site-title"><a href="/">Kyle Dreger</a></h1>
+  {% unless page.title %}
+    <ul class="nav">
+      <li><a href="/colophon">About</a> </li>
+      <li><a href="/archives">Archives</a> </li>
+      <li><a href="http://feedpress.me/kyledreger">RSS</a></li>
+    </ul>
+  {% endunless %}
 </header>

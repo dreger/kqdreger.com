@@ -1,47 +1,48 @@
 ---
 ---
-$color: #ff0050;
+$color: #3182EF;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
-$color-copy: #eeeeee;
+$color-copy: #e9ebed;
 $color-bg: #2B2D2F;
 $color-faded: #808080;
 $color-hover: #444;
 
 
-$color: #ff0050;
+
+$color: #3182EF;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
 $color-copy: #383F45;
-$color-bg: #F8F8FA;
-$color-faded: #9ea4aa;
+$color-bg: #ffffff;
+$color-faded: #9fa4a8;
 $color-hover: #dfdfdf;
-
 // Few variables
 
 
-$sans: 'Whitney SSm A', 'Whitney SSm B', Avenir Next;
-$max-width: 32rem;
+$sans: "Avenir Next", Verdana;
+$serif: "Hoefler Text", Georgia;
+$max-width: 28rem;
 
 $h1-size: 1.5rem;
-$h2-size: 1.2rem;
+$h2-size: 1.3rem;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 14px;
+  font-size: 20px;
 }
 body {
     margin: 0;
     padding: 0;
     color: $color-copy;
     background-color: $color-bg;
-    font-family: $sans;
-    font-weight: 400;
+    font-family: $serif;
+    font-weight: 500;
     font-style: normal;
-    line-height: 1.6em;
+    line-height: 1.4rem;
 }
 
 .wrapper {
@@ -60,6 +61,7 @@ h6 {
   a {
     color: $color-copy;
     border: none;
+    &:active { color: $color-faded; }
   }
 }
 
@@ -67,7 +69,7 @@ h1 {
   font-weight: normal;
   font-size: $h1-size;
   line-height: 1.3em;
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 h2 {
@@ -80,18 +82,17 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: .9rem;
-  margin: 2rem 0 1rem;
+  margin: 2rem 0 .5rem;
   + p { margin-top: .25rem; }
 }
 
+
 .site-title {
-  font-weight: bold;
+  font-size: 1rem;
   text-transform: uppercase;
-  display: inline-block;
-  padding: 1rem 0;
-  margin-bottom: .5rem;
-  font-size: 1.8rem;
-  border: none;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1rem;
   &:hover {
     text-decoration: none;
     color: $color-light;
@@ -100,13 +101,12 @@ h3 {
 
 .header {
   font-size: 1rem;
-  max-width: $max-width;
-  transition: .14s ease;
-  margin: 0 auto 2rem;
-  padding: 2rem 1rem;
+  margin-top: 5rem;
+  font-weight: normal;
+  font-family: $sans;
   color: $color-faded;
-  p { margin-bottom: 0; display: inline; }
-  a { text-decoration: none; }
+  p { margin: 0; }
+  a { text-decoration: none; border: none; }
 }
 .logo {
   max-width: 150px;
@@ -114,19 +114,21 @@ h3 {
 }
 .icon { font-size: 1.4rem; }
 .nav {
-  text-transform: uppercase;
-  font-weight: normal;
-  margin: 0;
+  font-weight: bold;
+  margin: 1rem 0 0;
   padding: 0;
   li {
     list-style: none;
     display: inline;
-    margin: 0 1.5rem 0 0;
+    margin: 0 1rem 0 0;
   }
 }
 
 article {
-	padding: 1.5rem 0;
+	padding: 0 0 1.5rem;
+  p {
+    margin: 1rem 0;
+  }
   &:first-child {
     margin-top: 0;
   }
@@ -143,18 +145,20 @@ article span {
 
 .date {
   text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 4rem 0 1rem;
+  text-align: right;
+  font-family: $sans;
+  padding: 5rem 0 1rem;
   color: $color-faded;
-  display: block;
+  display: inline-block;
 }
 
 footer {
   margin-top: 4rem;
+  font-family: $sans;
+  border-top: 2px solid $color-hover;
+  text-align: right;
   padding: 0;
   color: $color-faded;
-  text-align: right;
-  border-top: 1px solid $color-hover;
 }
 
 .permalink {
@@ -168,8 +172,8 @@ footer {
 }
 
 em img {
-  width: 200%;
-  margin: 1.5rem 0 1.5rem -50%;
+  width: 180%;
+  margin: 1.5rem 0 1.5rem -40%;
 }
 
 img {
@@ -207,7 +211,7 @@ article + p {
   padding: 0;
   font-family: $sans;
   .date {
-    padding: 3rem 0 1rem;
+    // padding: 3rem 0 1rem;
   }
   li {
     list-style: none;
@@ -223,14 +227,14 @@ article + p {
 }
 
 hr {
-  height: 2px;
-  background-color: $color-hover;
-  width: 60%;
+  background-color: none;
+  width: 40%;
   margin: 2.5rem auto;
-  border: 1px solid $color-hover;
-  border-radius: 10px;
+  border: 1px dashed $color-hover;
+  // border-radius: 10px;
   + ol {
-    font-size: .8rem;
+    font-size: .9rem;
+    line-height: 1.4em;
   }
 }
 .center { text-align: center; }
@@ -250,23 +254,38 @@ hr {
   }
 }
 
+@media (max-width: 1250px) {
+  em img {
+    margin-left: -25%;
+    max-width: 150%;
+  }
+}
+
 @media (max-width: 1000px) {
+  em img {
+    margin-left: -10%;
+    max-width: 120%;
+  }
+}
+
+@media (max-width: 800px) {
   em img {
     margin-left: 0;
     max-width: 100%;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
+  .header {
+    margin: 0 0 1rem;
+  }
+  .date {
+    padding-top: 1rem;
+    font-size: .9rem;
+  }
   .frontpage .date:first-child {
     margin-top: 0;
-    padding-top: 0;
+    padding-top: 2rem;
   }
-  html {
-    font-size: 14px;
-  }
-  .header {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-  }
+
 }
