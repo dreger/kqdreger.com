@@ -21,7 +21,7 @@ $sans: "Avenir Next", Verdana;
 $serif: "Hoefler Text", Georgia;
 $max-width: 28rem;
 
-$h1-size: 1.5rem;
+$h1-size: 1.6rem;
 $h2-size: 1.3rem;
 
 * {
@@ -29,7 +29,7 @@ $h2-size: 1.3rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 20px;
+  font-size: 18px;
 }
 body {
     margin: 0;
@@ -37,7 +37,7 @@ body {
     color: $color-copy;
     background-color: $color-bg;
     font-family: $serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     line-height: 1.4rem;
 }
@@ -65,7 +65,7 @@ h6 {
 h1 {
   font-weight: normal;
   font-size: $h1-size;
-  line-height: 1.3em;
+  line-height: 1.2em;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -143,6 +143,7 @@ article span {
 .date {
   text-transform: uppercase;
   text-align: right;
+  letter-spacing: 1px;
   font-family: $sans;
   padding: 5rem 0 1rem;
   color: $color-faded;
@@ -278,7 +279,7 @@ hr {
 
 @media (max-width: 750px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
   .header {
     margin: 0 0 1rem;
