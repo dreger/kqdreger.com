@@ -2,7 +2,9 @@
 title: AIs Are Re-Writing History
 date: 2014-10-07 22:57
 link: http://www.robertelliottsmith.com/?p=530
+permalink: "/archives/14280-auto-awesome.html"
 ---
+
 
 Rob Smith: 
 

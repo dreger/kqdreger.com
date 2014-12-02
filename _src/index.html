@@ -2,36 +2,16 @@
 layout: default
 ---
 <section class="frontpage">
+  <ul class="archives">
 
-<time class="date"><script type="text/javascript">
-var d = new Date();
-var weekday = new Array(7);
-weekday[0]=  "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
-document.write("Happy " + weekday[d.getDay()]);
-</script></time>
+    {% for post in site.posts %}
+    {% capture currentdate %}{{post.date | date: "%B %Y"}}{% endcapture %}
+    {% if currentdate != thedate %}
+    <li class="date"><time>{{currentdate}}</time></li>
+    {% capture thedate %}{{currentdate}}{% endcapture %}
+    {% endif %}
 
-{% for post in site.posts limit:30 group_by:"date"  %}
-{% capture currentdate %}{{post.date | date: "%A, %d %B %Y"}}{% endcapture %}
-{% if currentdate != thedate %}
-<time class="date" >{{currentdate}}</time>
-{% capture thedate %}{{currentdate}}{% endcapture %}
-{% endif %}
-
-<article>
-{% if post.link %}
-  <a href="{{ post.link }}">{{ post.title }}</a>&nbsp;<a class="permalink" href="{{ post.url }}">&#8251;</a>
-  {{ post.content }}
-{% else %}
-  <h1><a href="{{ post.url }}">{{post.title}}</a></h1>
-  <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-{% endif %}
-</article>
-
-{% endfor %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> <!-- <br><span class="faded"> {{ post.date | date: "%b %d, %Y" }}</span></li> -->
+    {% endfor %}
+  </ul>
 </section>

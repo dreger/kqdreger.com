@@ -1,8 +1,11 @@
 ---
-title: "Reducing Cognitive Friction" 
+title: Reducing Cognitive Friction
 date: 2014-10-02 19:13
 link: http://shawnblanc.net/2014/10/little-things/
+permalink: "/archives/14275-blanc-little-things.html"
 ---
+
+
 Shawn Blanc: 
 
 > Computers are great at doing the boring, automated stuff we don’t like to do. So why not automate common tasks (like performing backups of your computer), pre-make decisions for your computer to carry out on your behalf (such as auto-filing certain email newsletters), and generally just find ways to make yourself more efficient?

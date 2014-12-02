@@ -2,7 +2,10 @@
 title: The Ikea bookbook
 date: 2014-09-22 22:06
 link: https://www.youtube.com/watch?v=MOXQo7nURs0
+permalink: "/archives/14265-ikea-bookbook.html"
 ---
+
+
 Ikea, six days before Apple's September event, released a clever, short video, introducing the Ikea bookbook. From the video description:
 
 > At only 8mm thin, and weighing in at less than 400g, the 2015 IKEA Catalogue comes pre-installed with thousands of home furnishing ideas.

@@ -9,16 +9,17 @@ $color-faded: #808080;
 $color-hover: #444;
 
 $color: #3182EF;
+$color: #ff0050;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
 $color-copy: #383F45;
-$color-bg: #ffffff;
+$color-bg: #fafafa;
 $color-faded: #9fa4a8;
 $color-hover: #dfdfdf;
 
 
-$sans: "San Francisco Text", "Helvetica Neue", Verdana;
-$serif: "Hoefler Text", Georgia;
+$sans: "Helvetica Neue";
+$serif: $sans;
 $max-width: 28rem;
 
 $h1-size: 1.6rem;
@@ -55,11 +56,7 @@ h4,
 h5,
 h6 {
   font-family: $sans;
-  a {
-    color: $color-copy;
-    border: none;
-    &:active { color: $color-faded; }
-  }
+  a { color: $color-copy; }
 }
 
 h1 {
@@ -77,18 +74,22 @@ h2 {
 }
 h3 {
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: .9rem;
-  margin: 2rem 0 .5rem;
-  + p { margin-top: .25rem; }
+  color: $color-faded;
+  font-weight: normal;
+  border-bottom: dotted 1px $color-faded;
+  font-size: 1rem;
+  margin: 1.5rem 0 .5rem;
+  + p {
+    margin-top: 0;
+    padding-top: 0;
+  }
 }
 
 
-.site-title {
+.title {
   font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 0;
+  font-weight: normal;
+  margin: 1rem 0;
   line-height: 1rem;
   &:hover {
     text-decoration: none;
@@ -103,7 +104,6 @@ h3 {
   font-family: $sans;
   color: $color-faded;
   p { margin: 0; }
-  a { text-decoration: none; border: none; }
 }
 .logo {
   max-width: 150px;
@@ -111,8 +111,7 @@ h3 {
 }
 .icon { font-size: 1.4rem; }
 .nav {
-  font-weight: bold;
-  margin: 1rem 0 0;
+  margin: 0;
   padding: 0;
   li {
     list-style: none;
@@ -122,10 +121,6 @@ h3 {
 }
 
 article {
-	padding: 0 0 1.5rem;
-  p {
-    margin: 1rem 0;
-  }
   &:first-child {
     margin-top: 0;
   }
@@ -136,24 +131,19 @@ article span {
 	margin: 0;
 }
 
-.frontpage .date:nth-child(2) {
-  display: none;
-}
-
 .date {
   text-transform: uppercase;
-  text-align: right;
   letter-spacing: 1px;
   font-family: $sans;
-  padding: 5rem 0 1rem;
+  padding: 2rem 0 0;
+  display: block;
   color: $color-faded;
-  display: inline-block;
+  border-bottom: 1px dotted $color-faded;
 }
 
 footer {
   margin-top: 4rem;
   font-family: $sans;
-  border-top: 2px solid $color-hover;
   text-align: right;
   padding: 0;
   color: $color-faded;
@@ -190,9 +180,14 @@ img {
 a {
   color: $color;
   text-decoration: none;
-  border-bottom: 1px dotted $color;
-  &:hover { background-color: $color-hover;  }
-  &:active { color: $color-dark; }
+  &:hover {
+    background-color: $color-hover;
+  }
+  &:active {
+    color: #fff;
+    background-color: $color;
+    text-decoration: none;
+  }
 }
 
 
@@ -212,17 +207,19 @@ article + p {
   margin: 0;
   padding: 0;
   font-family: $sans;
-  .date {
-    // padding: 3rem 0 1rem;
-  }
   li {
     list-style: none;
+    display: block;
     font-size: 1rem;
-    margin: 0 0 2rem 0;
+    margin: .25rem 0;
   }
 }
 
-
+blockquote {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: dotted 1px $color-faded;
+}
 
 .faded {
   color: $color-faded;
@@ -279,18 +276,9 @@ hr {
 
 @media (max-width: 750px) {
   html {
-    font-size: 18px;
+
   }
   .header {
-    margin: 0 0 1rem;
-  }
-  .date {
-    padding-top: 1rem;
-    font-size: .9rem;
-  }
-  .frontpage .date:first-child {
-    margin-top: 0;
-    padding-top: 2rem;
-  }
 
+  }
 }

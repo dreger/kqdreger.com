@@ -8,10 +8,14 @@ source: ./_src
 destination: ./_site
 markdown: rdiscount
 highlighter: pygments
+permalink: /:year/:month/:day/:title.html
 timezone: "America/New_York"
 
 rdiscount:
   extensions: [footnotes, smart]
+
+gems:
+  - jekyll-sitemap
 
 sass:
   style: compressed

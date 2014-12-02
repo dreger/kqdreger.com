@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Styleguide
+permalink: /style-guide/
 ---
 # The KD Manual of Style
 
