@@ -18,8 +18,7 @@ $color-faded: #9fa4a8;
 $color-hover: #dfdfdf;
 
 
-$sans: "Helvetica Neue";
-$serif: $sans;
+$font: Verdana;
 $max-width: 28rem;
 
 $h1-size: 1.6rem;
@@ -37,7 +36,7 @@ body {
     padding: 0;
     color: $color-copy;
     background-color: $color-bg;
-    font-family: $serif;
+    font-family: $font;
     font-weight: 400;
     font-style: normal;
     line-height: 1.4rem;
@@ -55,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $sans;
+  font-family: $font;
   a { color: $color-copy; }
 }
 
@@ -101,7 +100,7 @@ h3 {
   font-size: 1rem;
   margin-top: 5rem;
   font-weight: normal;
-  font-family: $sans;
+  font-family: $font;
   color: $color-faded;
   p { margin: 0; }
 }
@@ -134,7 +133,7 @@ article span {
 .date {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: $sans;
+  font-family: $font;
   padding: 2rem 0 0;
   display: block;
   color: $color-faded;
@@ -143,7 +142,7 @@ article span {
 
 footer {
   margin-top: 4rem;
-  font-family: $sans;
+  font-family: $font;
   text-align: right;
   padding: 0;
   color: $color-faded;
@@ -206,7 +205,7 @@ article + p {
 .archives {
   margin: 0;
   padding: 0;
-  font-family: $sans;
+  font-family: $font;
   li {
     list-style: none;
     display: block;
