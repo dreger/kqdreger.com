@@ -9,7 +9,7 @@ $color-faded: #808080;
 $color-hover: #444;
 
 $color: #3182EF;
-$color: #ff0050;
+$color: #6a00ff;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
 $color-copy: #383F45;
@@ -19,7 +19,7 @@ $color-hover: #dfdfdf;
 
 
 $sans: futura-pt, Futura, "Avenir Next", "Helvetica Neue", Verdana;
-$serif: "Hoefler Text", Times, Georgia;
+$serif: $sans, "Hoefler Text", Times, Georgia;
 $max-width: 28rem;
 
 $h1-size: 1.6rem;
@@ -131,15 +131,6 @@ article span {
 	margin: 0;
 }
 
-.date {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-family: $sans;
-  padding: 2rem 0 0;
-  display: block;
-  color: $color-faded;
-  border-bottom: 1px dotted $color-faded;
-}
 
 footer {
   margin-top: 4rem;
@@ -212,6 +203,16 @@ article + p {
     display: block;
     font-size: 1rem;
     margin: .25rem 0;
+  }
+  .date {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: $sans;
+    font-size: .8rem;
+    padding: 2rem 0 0;
+    display: block;
+    color: $color-faded;
+    border-bottom: 1px dotted $color-faded;
   }
 }
 

@@ -1,27 +1,13 @@
-<!doctype html>
-<html lang="en">
-{% include head.html %}
+---
+layout: default
+---
 
-<!--
-Title: {{ page.title }}
-Author: Kyle Dreger
-Published on: {{ page.date | date: "%b %d, %Y" }}
--->
-
-<body>
-<section class="wrapper">
-{% include header.html %}
-
-<article>
-{% if page.link %}
-  <p><a class="post-link" href="{{ page.link }}">{{ page.title }}</a> <a class="permalink" href="{{ page.url }}">&#8251;</a></p>
-  {{ content }}
-{% else %}
-  <h1><a href="{{ page.url }}">{{page.title}}</a></h1>
-  {{ content }}
-{% endif %}
-<p class="faded">{{ page.date | date: "%A, %d %B %Y" }}</p>
-</article>
-</section>
-</body>
-</html>
+  <article>
+    {% if page.link %}
+    <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+    {% else %}
+    <h1>{{page.title}}</h1>
+    {% endif %}
+    {{ content }}
+    <p class="faded">{{ page.date | date: "Published %d %b %Y" }}</p>
+  </article>
