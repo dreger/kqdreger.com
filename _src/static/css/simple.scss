@@ -193,6 +193,14 @@ article + p {
   display: inline;
 }
 
+.notice {
+  padding: .5rem 1rem;
+  border-radius: 3px;
+  background-color: #fff0b5;
+  font-style: italic;
+  font-size: .8rem;
+  line-height: 1.4em;
+}
 
 .archives {
   margin: 0;
