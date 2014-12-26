@@ -17,10 +17,10 @@ $color-bg: #ffffff;
 $color-faded: #9fa4a8;
 $color-hover: #dfdfdf;
 
-
-$sans: Helvetica Neue, Georgia, Verdana;
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+$sans: "PT Mono", Helvetica Neue, Georgia, Verdana;
 $serif: $sans;
-$max-width: 28rem;
+$max-width: 30rem;
 
 $h1-size: 1.6rem;
 $h2-size: 1.3rem;
@@ -30,7 +30,7 @@ $h2-size: 1.3rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 body {
     margin: 0;
@@ -204,6 +204,7 @@ article + p {
   font-style: italic;
   font-size: .8rem;
   line-height: 1.4em;
+  display: none;
 }
 
 .archives {
@@ -242,7 +243,7 @@ hr {
   background-color: none;
   width: 40%;
   margin: 2.5rem auto;
-  border: none; 
+  border: none;
   border-top: 1px dashed $color-hover;
   // border-radius: 10px;
   + ol {
