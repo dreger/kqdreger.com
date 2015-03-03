@@ -1,5 +1,8 @@
 ---
 ---
+
+
+
 $color: #3182EF;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
@@ -12,25 +15,22 @@ $color: #3182EF;
 $color: #222;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
-$color-copy: #383F45;
-$color-bg: #ffffff;
+$color-copy: #242424;
+$color-bg: #F2F2F2;
 $color-faded: #9fa4a8;
-$color-hover: #dfdfdf;
+$color-hover: #d7d7d7;
 
-@import url(http://fonts.googleapis.com/css?family=PT+Mono);
-$sans: "PT Mono", Helvetica Neue, Georgia, Verdana;
+$sans: Avenir Next, Verdana;
 $serif: $sans;
-$max-width: 30rem;
+$max-width: 32rem;
 
-$h1-size: 1.6rem;
-$h2-size: 1.3rem;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 12px;
+  font-size: 16px;
 }
 body {
     margin: 0;
@@ -43,90 +43,32 @@ body {
     line-height: 1.4rem;
 }
 
-.wrapper {
-  max-width: $max-width;
-  margin: 0 auto;
-  padding: 1rem 1rem 4rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $sans;
-  a { color: $color-copy; }
-}
 
 h1 {
-  font-weight: normal;
-  font-size: $h1-size;
-  line-height: 1.2em;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: $color;
-  color: white;
-  padding: .5rem;
-  & a {
-    color: white;
-  }
+  font-size: 2rem;
 }
 h2 {
-  margin-top: 2rem;
-  font-size: $h2-size;
+  font-size: 1.5rem;
+  margin: 3rem 0 0;
   font-weight: normal;
-  font-style: italic;
 }
 h3 {
-  text-transform: uppercase;
-  color: $color-faded;
-  font-weight: normal;
-  border-bottom: dotted 1px $color-faded;
-  font-size: 1rem;
-  margin: 1.5rem 0 .5rem;
-  + p {
-    margin-top: 0;
-    padding-top: 0;
-  }
-}
-
-
-.title {
-  font-size: 1rem;
-  font-weight: normal;
-  background-color: white;
-  color: $color;
-  margin: 1rem 0;
-  line-height: 1rem;
-  padding: 0;
-  a {
-    color: $color;
-  }
+  margin: 2.5rem 0 0;
+  & + p { margin-top: .5rem; }
 }
 
 .header {
-  font-size: 1rem;
-  margin-top: 5rem;
-  font-weight: normal;
-  font-family: $serif;
-  color: $color-faded;
-  p { margin: 0; }
+  margin-top: 8rem;
 }
-.logo {
-  max-width: 150px;
-  height: auto;
+
+.wrapper {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
 }
-.icon { font-size: 1.4rem; }
-.nav {
-  margin: 0;
-  padding: 0;
-  li {
-    list-style: none;
-    display: inline;
-    margin: 0 1rem 0 0;
-  }
-}
+
+
+
 
 article {
   &:first-child {
@@ -178,10 +120,20 @@ img {
 
 a {
   color: $color;
+  border-bottom: 1px solid $color-hover;
+  text-decoration: none;
+    padding: .05rem .15rem;
+  &:hover {
+    background-color: $color-hover;
+    border-radius: 5px;
+  }
   &:active {
-    color: #fff;
+    /* color: #fff; */
     background-color: $color;
     text-decoration: none;
+  }
+  &:visited {
+    color: #724d80;
   }
 }
 
@@ -286,14 +238,5 @@ hr {
   em img {
     margin-left: 0;
     max-width: 100%;
-  }
-}
-
-@media (max-width: 750px) {
-  html {
-
-  }
-  .header {
-
   }
 }
