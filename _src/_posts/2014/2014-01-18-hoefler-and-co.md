@@ -3,7 +3,7 @@ title: "'For Immediate Release'"
 date: 2014-01-18 18:49
 layout: post
 categories: volume-one post
-permalink: "/archives/14018-hoefler-and-co.html"
+ 
 ---
 
 

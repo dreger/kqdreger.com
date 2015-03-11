@@ -2,7 +2,7 @@
 title: Chromebooks Selling Well in Education
 date: 2014-10-02 19:20
 link: http://9to5google.com/2014/10/01/googles-sundar-pichai-drive-at-240m-active-users-chromebooks-approaching-50-us-edu-market-video/
-permalink: "/archives/14275-chromebooks-and-edu.html"
+ 
 ---
 
 

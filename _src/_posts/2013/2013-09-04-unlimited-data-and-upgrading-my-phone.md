@@ -3,7 +3,7 @@ title: The Curse of Unlimited Data
 date: 2013-09-04
 layout: post
 categories: volume-one post
-permalink: "/archives/13247-unlimited-data-and-upgrading-my-phone.html"
+ 
 ---
 
 

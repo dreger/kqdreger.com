@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Wii Sports
-permalink: "/archives/12003-wii-sports.html"
+ 
 ---
 
 

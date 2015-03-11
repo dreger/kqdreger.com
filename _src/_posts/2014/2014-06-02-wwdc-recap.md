@@ -3,7 +3,7 @@ title: WWDC 2014
 date: 2014-06-02 19:55
 layout: post
 categories: post volume-one
-permalink: "/archives/14153-wwdc-recap.html"
+ 
 ---
 
 

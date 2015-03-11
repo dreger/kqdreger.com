@@ -3,7 +3,7 @@ title: Reporter for iPhone Released
 date: 2014-02-06 14:53
 layout: post
 categories: volume-one post
-permalink: "/archives/14037-reporter-released.html"
+ 
 ---
 
 

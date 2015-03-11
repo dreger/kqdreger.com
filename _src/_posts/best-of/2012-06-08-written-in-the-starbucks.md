@@ -4,7 +4,7 @@ date: 2012-06-08
 layout: post
 categories: volume-zero post
 tags: Starbucks, writing
-permalink: "/archives/12160-written-in-the-starbucks.html"
+ 
 ---
 
 

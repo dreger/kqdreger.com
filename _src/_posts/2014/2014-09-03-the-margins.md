@@ -3,7 +3,7 @@ title: Margins
 layout: post
 categories: post volume-two
 date: 2014-09-03 22:34
-permalink: "/archives/14246-the-margins.html"
+ 
 ---
 Hello, again. Craig Mod, in a [beautifully-written piece](https://medium.com/message/lets-talk-about-margins-14646574c385):
 

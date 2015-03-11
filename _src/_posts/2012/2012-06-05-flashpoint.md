@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Flashpoint
 date: 2012-06-05
-permalink: "/archives/12157-flashpoint.html"
+ 
 ---
 
 

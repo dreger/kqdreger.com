@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Using the right tools
-permalink: "/archives/11246-the-right-tools.html"
+ 
 ---
 
 

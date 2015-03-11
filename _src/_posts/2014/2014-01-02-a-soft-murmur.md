@@ -3,7 +3,7 @@ title: A Soft Murmur
 date: 2014-01-02 13:44
 layout: post
 categories: volume-one post
-permalink: "/archives/14002-a-soft-murmur.html"
+ 
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Clymer on the Apple Watch
 date: 2014-09-11 06:53
 categories: post
-permalink: "/archives/14254-clymer-apple-watch.html"
+ 
 ---
 
 Benjamin Clymer is the founder and editor of Hodinkee, a well-respected voice in the field of wristwatches. I'm new to Hodinkee, but it seems I'm late to the party. _The New York Times_ [called](http://www.nytimes.com/2013/12/22/fashion/Hodinkee-Wristwatches-Benjamin-Clymer.html) Mr. Clymer "the high priest of horology," and after browsing the site, I can see why: his writing style is clearly expressed and enjoyable, and his perspective astute. But enough about my new favorite website.

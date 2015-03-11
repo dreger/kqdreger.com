@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Get FROGED
-permalink: "/archives/12012-get-froged.html"
+ 
 ---
 
 

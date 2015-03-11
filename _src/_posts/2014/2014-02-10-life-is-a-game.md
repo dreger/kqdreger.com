@@ -3,7 +3,7 @@ title: Life is a Game
 date: 2014-02-10 10:39
 layout: post
 categories: volume-one post
-permalink: "/archives/14041-life-is-a-game.html"
+ 
 ---
 
 

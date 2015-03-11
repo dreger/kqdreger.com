@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: I lost my iPhone
-permalink: "/archives/11297-lost-iphone.html"
+ 
 ---
 
 

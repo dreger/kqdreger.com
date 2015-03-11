@@ -4,7 +4,7 @@ link: http://calnewport.com/blog/2013/06/26/the-courage-crutch-a-remarkable-life
 date: 2013-09-30 12:38
 layout: post
 categories: volume-one post
-permalink: "/archives/13273-newport-overcome-mediocrity.html"
+ 
 ---
 
 

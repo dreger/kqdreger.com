@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /archives/
+title: Signals
+---
+<h1>Archives</h1>
+<p>Five years of writing, now continued at <a href="http://audaciousfox.com">Audacious Fox</a>. I'd recommend using CMD+F to find what you're looking for.</p>
+
+<hr>
+
+{% for post in site.posts %}
+<article>
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  <!-- <p>{{ post.content | strip_html | truncate: 140 }}</p> -->
+  <span class="faded"> {{ post.date | date: "%b %d, %Y" }}</span>
+</article>
+<br>
+{% endfor %}

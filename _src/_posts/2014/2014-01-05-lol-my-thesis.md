@@ -3,7 +3,7 @@ title: "'Summing up years of work in one sentence'"
 date: 2014-01-05 16:47
 layout: post
 categories: volume-one post
-permalink: "/archives/14005-lol-my-thesis.html"
+ 
 ---
 
 

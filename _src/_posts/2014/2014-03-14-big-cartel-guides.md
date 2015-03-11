@@ -3,7 +3,7 @@ title: Big Cartel Guides
 date: 2014-03-14 22:34
 layout: post
 categories: volume-one post
-permalink: "/archives/14073-big-cartel-guides.html"
+ 
 ---
 
 

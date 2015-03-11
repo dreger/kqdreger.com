@@ -3,7 +3,7 @@ title: Describing RSS
 date: 2014-01-31 21:53
 layout: post
 categories: volume-one post
-permalink: "/archives/14031-describing-rss.html"
+ 
 ---
 
 

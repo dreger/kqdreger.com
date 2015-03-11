@@ -3,7 +3,7 @@ title: Where Every Story Looks the Same
 date: 2014-03-31 21:50
 layout: post
 categories: volume-one post
-permalink: "/archives/14090-salmon-beautiful-stories.html"
+ 
 ---
 
 

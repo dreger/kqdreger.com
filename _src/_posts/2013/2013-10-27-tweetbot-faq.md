@@ -4,7 +4,7 @@ link: http://tapbots.com/blog/news/tweetbot-3-questions-and-answers
 date: 2013-10-27 22:00
 layout: post
 categories: volume-one post
-permalink: "/archives/13300-tweetbot-faq.html"
+ 
 ---
 
 

@@ -4,7 +4,7 @@ link: https://www.kinsahealth.com/
 date: 2013-11-09 14:22
 layout: post
 categories: volume-one post
-permalink: "/archives/13313-the-kinsa-thermometer.html"
+ 
 ---
 
 

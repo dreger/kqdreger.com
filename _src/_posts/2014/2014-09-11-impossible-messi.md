@@ -3,7 +3,7 @@ layout: post
 title: Lionel Messi's Improbability
 date: 2014-09-11 19:17
 categories: post
-permalink: "/archives/14254-impossible-messi.html"
+ 
 ---
 If you love football, statistics, and graphs, do I have something for you. Benjamin Morris, writing for _FiveThirtyEight_, [analyzes the astonishing career, and numbers, of Lionel Messi](http://fivethirtyeight.com/features/lionel-messi-is-impossible/):
 

@@ -4,7 +4,7 @@ date: 2014-06-19 21:53
 layout: post
 link: https://www.youtube.com/watch?v=L0DsvpE9aOk
 title: My Mom's Motorcycle
-permalink: "/archives/14170-my-moms-motorcycle.html"
+ 
 ---
 
 

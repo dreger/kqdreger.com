@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Habit building
 date: 2012-05-30 1930 −5
-permalink: "/archives/12151-habit-building.html"
+ 
 ---
 
 

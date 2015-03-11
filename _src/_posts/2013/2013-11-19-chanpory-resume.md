@@ -4,7 +4,7 @@ link: http://www.lifeclever.com/give-your-resume-a-face-lift/
 date: 2013-11-19 20:10
 layout: post
 categories: volume-one post
-permalink: "/archives/13323-chanpory-resume.html"
+ 
 ---
 
 

@@ -4,7 +4,7 @@ link: http://www.youtube.com/watch?v=JwntNANJCOE
 date: 2013-12-27 13:45
 layout: post
 categories: volume-one post
-permalink: "/archives/13361-sherlock-mini-episode.html"
+ 
 ---
 
 

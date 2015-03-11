@@ -3,7 +3,7 @@ title: Fix your Mount Union .EDU email
 layout: post
 categories: volume-zero post
 date: 2013-01-03
-permalink: "/archives/13003-fix-your-mount-union-email.html"
+ 
 ---
 
 

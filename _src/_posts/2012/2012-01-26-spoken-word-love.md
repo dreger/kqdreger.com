@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero Spoken word
 title: Spoken word "Love"
 tags: love, poetry, praise
-permalink: "/archives/12026-spoken-word-love.html"
+ 
 ---
 
 

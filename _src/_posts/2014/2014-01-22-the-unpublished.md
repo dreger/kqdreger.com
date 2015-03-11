@@ -3,7 +3,7 @@ title: The Unpublished
 date: 2014-01-22 00:14
 layout: post
 categories: volume-one post
-permalink: "/archives/14022-the-unpublished.html"
+ 
 ---
 
 

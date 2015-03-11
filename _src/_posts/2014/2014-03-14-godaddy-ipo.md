@@ -3,7 +3,7 @@ title: GoDaddy to File for IPO
 date: 2014-03-14 21:39
 layout: post
 categories: volume-one post
-permalink: "/archives/14073-godaddy-ipo.html"
+ 
 ---
 
 

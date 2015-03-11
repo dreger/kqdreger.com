@@ -3,7 +3,7 @@ layout: post
 title: The Wrong Dictionary
 date: 2014-09-11 19:11
 categories: post
-permalink: "/archives/14254-somers-dictionary.html"
+ 
 ---
 [James Somers](http://jsomers.net/blog/dictionary):
 

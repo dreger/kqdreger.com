@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Prepare today
-permalink: "/archives/12037-prepare-today.html"
+ 
 ---
 
 

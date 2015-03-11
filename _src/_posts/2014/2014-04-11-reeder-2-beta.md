@@ -3,7 +3,7 @@ title: Reeder 2 for Mac Beta
 date: 2014-04-11 12:19
 layout: post
 categories: volume-one post
-permalink: "/archives/14101-reeder-2-beta.html"
+ 
 ---
 
 

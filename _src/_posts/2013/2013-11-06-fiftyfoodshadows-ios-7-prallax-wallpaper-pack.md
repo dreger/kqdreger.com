@@ -4,7 +4,7 @@ link: http://fiftyfootshadows.net/2013/11/06/ios-7-parallax-wallpaper-pack/
 date: 2013-11-06 08:33
 layout: post
 categories: volume-one post
-permalink: "/archives/13310-fiftyfoodshadows-ios-7-prallax-wallpaper-pack.html"
+ 
 ---
 
 

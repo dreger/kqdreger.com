@@ -4,7 +4,7 @@ link: http://daringfireball.net/2013/09/the_iphone_5s_and_5c
 date: 2013-09-18
 layout: post
 categories: volume-one post
-permalink: "/archives/13261-gruber-iphone-5c-5s.html"
+ 
 ---
 
 

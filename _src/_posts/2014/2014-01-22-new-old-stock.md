@@ -3,7 +3,7 @@ title: New Old Stock Photography
 date: 2014-01-22 18:46
 layout: post
 categories: volume-one post
-permalink: "/archives/14022-new-old-stock.html"
+ 
 ---
 
 

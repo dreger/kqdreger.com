@@ -4,7 +4,7 @@ link: http://vesperapp.co/blog/support-guidelines/
 date: 2013-11-05 13:24
 layout: post
 categories: volume-one post
-permalink: "/archives/13309-vesper-support-guidelines.html"
+ 
 ---
 
 

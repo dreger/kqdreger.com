@@ -3,7 +3,7 @@ title: A brief review of Vesper
 layout: post
 categories: volume-zero post
 date: 2013-07-13
-permalink: "/archives/13194-vesper.html"
+ 
 ---
 
 

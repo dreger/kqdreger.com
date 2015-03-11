@@ -3,7 +3,7 @@ title: Mechanical Keyboards
 date: 2014-03-01 21:28
 layout: post
 categories: volume-one post
-permalink: "/archives/14060-mechanical-keyboards.html"
+ 
 ---
 
 

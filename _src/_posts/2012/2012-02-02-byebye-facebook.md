@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Goodbye, Facebook
 date: 2012-02-02 19:30 -5
-permalink: "/archives/12033-byebye-facebook.html"
+ 
 ---
 
 

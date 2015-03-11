@@ -4,7 +4,7 @@ link: http://skim-app.sourceforge.net
 date: 2013-10-30 14:41
 layout: post
 categories: volume-one post
-permalink: "/archives/13303-skim-pdf-reader.html"
+ 
 ---
 
 

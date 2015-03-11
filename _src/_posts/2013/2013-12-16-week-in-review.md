@@ -3,7 +3,7 @@ title: The Week in Review
 date: 2013-12-16 23:18
 layout: post
 categories: volume-one post
-permalink: "/archives/13350-week-in-review.html"
+ 
 ---
 
 

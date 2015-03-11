@@ -3,7 +3,7 @@ title: 9 Million iPhones Sold, 200 Million Users on iOS 7
 date: 2013-09-23 17:07
 layout: post
 categories: volume-one post
-permalink: "/archives/13266-nine-million-iphones-200-million-on-ios-7.html"
+ 
 ---
 
 

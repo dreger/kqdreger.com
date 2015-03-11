@@ -4,7 +4,7 @@ date: 2014-05-28 08:18
 layout: post
 link: http://vesperapp.co/blog/vesper-2-0-and-vesper-sync/
 title: Vesper Sync
-permalink: "/archives/14148-vesper-sync.html"
+ 
 ---
 
 

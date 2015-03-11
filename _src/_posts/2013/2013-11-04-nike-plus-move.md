@@ -4,7 +4,7 @@ link: https://itunes.apple.com/us/app/nike+-move/id712498492
 date: 2013-11-04 21:43
 layout: post
 categories: volume-one post
-permalink: "/archives/13308-nike-plus-move.html"
+ 
 ---
 
 

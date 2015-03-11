@@ -4,7 +4,7 @@ date: 2014-05-24 18:23
 layout: post
 link: http://www.wired.com/2014/05/the-hidden-beauty-of-airport-runways-and-how-to-decipher-them/
 title: The Hidden Beauty of Airport Runways
-permalink: "/archives/14144-airport-beauty.html"
+ 
 ---
 
 

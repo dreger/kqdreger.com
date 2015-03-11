@@ -3,7 +3,7 @@ title: Goodbye, Editorially
 date: 2014-02-16 21:03
 layout: post
 categories: volume-one post
-permalink: "/archives/14047-goodbye-editorially.html"
+ 
 ---
 
 

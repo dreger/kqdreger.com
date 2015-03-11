@@ -3,7 +3,7 @@ title: An Apple a Day
 date: 2014-01-31 22:04
 layout: post
 categories: volume-one post
-permalink: "/archives/14031-apple-meets-with-fda.html"
+ 
 ---
 
 

@@ -2,12 +2,13 @@
 layout: default
 ---
 
-  <article>
-    {% if page.link %}
-    <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
-    {% else %}
-    <h1>{{page.title}}</h1>
-    {% endif %}
-    {{ content }}
-    <p class="faded">{{ page.date | date: "Published %d %b %Y" }}</p>
-  </article>
+<article>
+  {% if page.link %}
+  <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+  {% else %}
+  <h1>{{page.title}}</h1>
+  {% endif %}
+  {{ content }}
+  <hr>
+  <p class="faded">Published on {{ page.date | date: "%d %B %Y" }}, by <a href="/">Kyle Dreger</a>.</p>
+</article>

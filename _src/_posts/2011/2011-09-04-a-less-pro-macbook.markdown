@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: A less Pro Macbook
-permalink: "/archives/11247-a-less-pro-macbook.html"
+ 
 ---
 
 

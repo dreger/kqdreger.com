@@ -8,7 +8,7 @@ source: ./_src
 destination: ./_site
 markdown: rdiscount
 highlighter: pygments
-permalink: /:year/:month/:day/:title.html
+permalink: /posts/:title.html
 timezone: "America/New_York"
 
 rdiscount:
@@ -28,3 +28,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink:
+  -
+    scope:
+      path: "best-of"
+      type: "posts"
+    values:
+      category: bestof

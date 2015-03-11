@@ -3,7 +3,7 @@ title: Subscribe by Email
 date: 2013-12-28 16:31
 layout: post
 categories: volume-one post
-permalink: "/archives/13362-sub-by-email.html"
+ 
 ---
 
 
