@@ -2,8 +2,9 @@
 layout: post
 categories: volume-zero post
 title: Text files
- 
+permalink: "/archives/11173-text-files.html"
 ---
+
 
 Text files are one of those things that will never go away. They are organic to the computer world and are supported by every operating system. However, many people don't take advantage of the awesome powers that text files hold. Here is my quick and simple guide to start implementing a little more text into your lifestyle.
 

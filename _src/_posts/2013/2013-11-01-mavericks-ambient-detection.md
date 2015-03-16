@@ -4,7 +4,7 @@ link: http://www.theverge.com/2013/11/1/5054524/is-os-x-mavericks-isight-camera-
 date: 2013-11-01 22:26
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13305-mavericks-ambient-detection.html"
 ---
 
 

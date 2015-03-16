@@ -4,7 +4,7 @@ layout: post
 categories: volume-zero post
 date: 2013-08-01
 starred: true
- 
+permalink: "/archives/13213-arc-touch-mouse-review.html"
 ---
 
 

@@ -4,7 +4,7 @@ date: 2014-05-24 21:18
 layout: post
 link: http://recode.net/2014/05/22/apples-imessage-issue-goes-from-bad-to-worse-with-server-glitch/
 title: iMessage Woes Continue
- 
+permalink: "/archives/14144-imessage-woes.html"
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Assembly language love affair
- 
+permalink: "/archives/12061-assembly-love.html"
 ---
 
 

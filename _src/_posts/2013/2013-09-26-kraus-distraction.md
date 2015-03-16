@@ -4,7 +4,7 @@ link: http://joekraus.com/were-creating-a-culture-of-distraction
 date: 2013-09-26 09:09
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13269-kraus-distraction.html"
 ---
 
 

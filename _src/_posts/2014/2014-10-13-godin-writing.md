@@ -2,7 +2,7 @@
 title: Seth Godin on Writing
 date: 2014-10-13 19:24
 link: http://sethgodin.typepad.com/seths_blog/2014/10/do-the-word.html
- 
+permalink: "/archives/14286-godin-writing.html"
 ---
 
 

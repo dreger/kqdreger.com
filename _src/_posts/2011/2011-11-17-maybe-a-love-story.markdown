@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Maybe a love story
- 
+permalink: "/archives/11321-maybe-a-love-story.html"
 ---
 
 

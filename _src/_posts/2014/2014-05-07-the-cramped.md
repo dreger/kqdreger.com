@@ -4,7 +4,7 @@ date: 2014-05-07 21:40
 layout: post
 link: http://www.thecramped.com/about/
 title: The Cramped
- 
+permalink: "/archives/14127-the-cramped.html"
 ---
 
 

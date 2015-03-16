@@ -3,7 +3,7 @@ title: The Privacy We Give Away
 date: 2014-01-29 20:21
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/14029-the-privacy-we-give-away.html"
 ---
 
 

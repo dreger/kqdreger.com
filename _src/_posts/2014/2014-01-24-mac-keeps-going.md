@@ -3,7 +3,7 @@ title: The Mac Keeps Going
 date: 2014-01-24 14:06
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/14024-mac-keeps-going.html"
 ---
 
 

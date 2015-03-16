@@ -3,7 +3,7 @@ title: The 2013 List of Worst Passwords
 date: 2014-01-20 22:14
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/14020-passwords.html"
 ---
 
 

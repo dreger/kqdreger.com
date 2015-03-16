@@ -4,7 +4,7 @@ date: 2014-04-21 21:47
 layout: post
 link: http://recode.net/2014/04/18/beats-bites-the-bullet-and-starts-selling-subscriptions-from-apples-app/
 title: Giving up 30% to Sell In-App iOS Subscriptions
- 
+permalink: "/archives/14111-beats-in-app.html"
 ---
 
 

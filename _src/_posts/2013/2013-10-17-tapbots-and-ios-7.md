@@ -3,7 +3,7 @@ title: Tapbots and iOS 7
 date: 2013-10-19 16:49
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13292-tapbots-and-ios-7.html"
 ---
 
 

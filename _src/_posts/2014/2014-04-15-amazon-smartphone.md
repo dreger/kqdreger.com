@@ -4,7 +4,7 @@ date: 2014-04-15 18:32
 layout: post
 link: http://bgr.com/2014/04/15/amazon-smartphone-photos-specs-kindle-phone-exclusive/
 title: The Amazon Smartphone
- 
+permalink: "/archives/14105-amazon-smartphone.html"
 ---
 
 

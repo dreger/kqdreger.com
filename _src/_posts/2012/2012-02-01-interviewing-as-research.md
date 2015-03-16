@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero School
 title: Interviewing as research
 tags: learning, writing, english
- 
+permalink: "/archives/12032-interviewing-as-research.html"
 ---
 
 

@@ -4,7 +4,7 @@ link: http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines
 date: 2013-11-05 08:32
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13309-betteridges-law-of-headlines.html"
 ---
 
 

@@ -3,7 +3,7 @@ title: MSNBC Has Bieber Fever
 date: 2014-01-23 22:02
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/14023-msnbc-has-bieber-fever.html"
 ---
 
 

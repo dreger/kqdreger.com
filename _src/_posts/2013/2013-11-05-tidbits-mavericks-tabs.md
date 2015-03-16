@@ -4,7 +4,7 @@ link: http://tidbits.com/article/14260
 date: 2013-11-05 08:59
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13309-tidbits-mavericks-tabs.html"
 ---
 
 

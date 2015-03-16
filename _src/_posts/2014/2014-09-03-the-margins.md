@@ -3,8 +3,10 @@ title: Margins
 layout: post
 categories: post volume-two
 date: 2014-09-03 22:34
- 
+permalink: "/archives/14246-the-margins.html"
 ---
+
+
 Hello, again. Craig Mod, in a [beautifully-written piece](https://medium.com/message/lets-talk-about-margins-14646574c385):
 
 > Reach for a book. The dedication and earnestness of those who made it is revealed immediately in the margins. If the margins feel questionable, be suspicious. Other corners were likely cut. All authors should have a Margin Clause in their contracts. Objection, your honor. Never be fooled by a fancy cover. Always remember: Covers are just there to protect pages with beautiful margins.

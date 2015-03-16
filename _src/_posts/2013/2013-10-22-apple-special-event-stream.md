@@ -4,7 +4,7 @@ link: http://www.apple.com/apple-events/october-2013/
 date: 2013-10-22 12:48
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13295-apple-special-event-stream.html"
 ---
 
 

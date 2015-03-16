@@ -4,7 +4,7 @@ link: http://support.apple.com/kb/DL1703
 date: 2013-11-09 14:19
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13313-mavericks-gmail-update.html"
 ---
 
 

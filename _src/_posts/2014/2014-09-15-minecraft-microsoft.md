@@ -3,8 +3,10 @@ layout: post
 title: Mojosoft
 date: 2014-09-15 12:28
 categories: post
- 
+permalink: "/archives/14258-minecraft-microsoft.html"
 ---
+
+
 Microsoft has [acquired Mojang](http://www.microsoft.com/en-us/news/press/2014/sept14/09-15news.aspx), the company behind Minecraft:
 
 > The Mojang team will join Microsoft Studios, which includes the studios behind global blockbuster franchises “Halo,” “Forza,” “Fable” and more. Microsoft’s investments in cloud and mobile technologies will enable “Minecraft” players to benefit from richer and faster worlds, more powerful development tools, and more opportunities to connect across the “Minecraft” community.

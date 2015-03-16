@@ -4,7 +4,7 @@ link: http://iconicbook.com
 date: 2013-10-07 17:18
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13280-iconic-apple-tribute.html"
 ---
 
 

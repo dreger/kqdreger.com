@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: New cleats
 date: 2012-06-12
- 
+permalink: "/archives/12164-new-cleats.html"
 ---
 
 

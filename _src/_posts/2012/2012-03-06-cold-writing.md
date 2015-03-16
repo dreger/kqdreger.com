@@ -3,7 +3,7 @@ Title: Cold writing
 layout: post
 categories: volume-zero post
 comments: true
- 
+permalink: "/archives/12066-cold-writing.html"
 ---
 
 

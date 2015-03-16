@@ -4,7 +4,7 @@ link: http://vesperapp.co/blog/how-to-make-a-vesper-1-007/
 date: 2013-10-03 21:55
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13276-how-to-make-a-vesper.html"
 ---
 
 

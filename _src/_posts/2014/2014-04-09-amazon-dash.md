@@ -4,7 +4,7 @@ date: 2014-04-09 00:58
 layout: post
 link: https://fresh.amazon.com/dash
 title: Grocery Shopping from Home
- 
+permalink: "/archives/14099-amazon-dash.html"
 ---
 
 

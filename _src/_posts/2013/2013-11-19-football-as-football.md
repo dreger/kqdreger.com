@@ -4,7 +4,7 @@ link: http://www.footballasfootball.com
 date: 2013-11-19 20:49
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13323-football-as-football.html"
 ---
 
 

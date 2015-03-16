@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: College
- 
+permalink: "/archives/10239-hello-college.html"
 ---
 
 

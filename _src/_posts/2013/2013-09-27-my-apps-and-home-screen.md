@@ -3,7 +3,7 @@ title: My Apps and Home Screen
 date: 2013-09-26 21:41
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13269-my-apps-and-home-screen.html"
 ---
 
 

@@ -3,7 +3,7 @@ title: InstantClick.js
 date: 2014-02-10 15:29
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/14041-instantclick-js.html"
 ---
 
 

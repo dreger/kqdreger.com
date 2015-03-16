@@ -4,7 +4,7 @@ link: http://www.theverge.com/2013/10/18/4853956/voice-calling-comes-to-google-h
 date: 2013-10-19 16:54
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13292-google-hangouts-ios-update.html"
 ---
 
 

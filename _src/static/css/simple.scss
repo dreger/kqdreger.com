@@ -11,8 +11,8 @@ $color-bg: #2B2D2F;
 $color-faded: #808080;
 $color-hover: #444;
 
-$color: #977491;
 $color: #222;
+$color: #977491;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
 $color-copy: #242424;
@@ -20,10 +20,9 @@ $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #d7d7d7;
 
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
-$sans: Varela Round, Avenir Next, Verdana;
+$sans: Georgia;
 $serif: $sans;
-$max-width: 32rem;
+$max-width: 30rem;
 
 
 * {
@@ -31,7 +30,7 @@ $max-width: 32rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 body {
     margin: 0;
@@ -126,19 +125,9 @@ img {
 
 
 a {
-  color: $color;
-  border-bottom: 1px solid $color-hover;
-  text-decoration: none;
-    padding: .05rem .15rem;
+    color: $color;
   &:hover {
-    background-color: $color-hover;
-    border-radius: 5px;
-  }
-  &:active {
-    text-decoration: none;
-  }
-  &:visited {
-    color: #724d80;
+  color: $color-copy;
   }
 }
 

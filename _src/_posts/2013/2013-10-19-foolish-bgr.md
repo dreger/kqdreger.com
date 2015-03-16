@@ -4,7 +4,7 @@ link: http://bgr.com/2013/10/18/apple-ios-7-lawsuit-filed/
 date: 2013-10-19 18:42
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13292-foolish-bgr.html"
 ---
 
 

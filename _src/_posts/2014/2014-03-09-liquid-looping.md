@@ -3,7 +3,7 @@ title: Looping with Liquid
 date: 2014-03-09 18:37
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/14068-liquid-looping.html"
 ---
 
 

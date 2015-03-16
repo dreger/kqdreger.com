@@ -4,7 +4,7 @@ link: http://www.teslamotors.com/blog/model-s-fire
 date: 2013-10-06 10:57
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13279-musk-model-s-fire.html"
 ---
 
 

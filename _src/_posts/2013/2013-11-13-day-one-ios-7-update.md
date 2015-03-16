@@ -4,7 +4,7 @@ link: https://itunes.apple.com/us/app/day-one-journal-diary/id421706526
 date: 2013-11-13 22:05
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13317-day-one-ios-7-update.html"
 ---
 
 

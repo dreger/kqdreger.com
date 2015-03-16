@@ -3,7 +3,7 @@ title: On the Shoulders of Giants
 date: 2013-10-29 13:41
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/13302-on-the-shoulders-of-giants.html"
 ---
 
 

@@ -3,8 +3,10 @@ layout: post
 title: Your Porch, Our Street
 date: 2014-09-11 19:09
 categories: post
- 
+permalink: "/archives/14254-chimero-twitter.html"
 ---
+
+
 [Frank Chimero](http://frankchimero.com/blog/from-the-porch-to-the-street/):
 
 > Here’s the frustration: if you’ve been on Twitter a while, it’s changed out from under you. Christopher Alexander made a great diagram, a spectrum of privacy: street to sidewalk to porch to living room to bedroom. I think for many of us Twitter started as the porch—our space, our friends, with the occasional neighborhood passer-by. As the service grew and we gained followers, we slid across the spectrum of privacy into the street.

@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: 5 things I've learned in 19 years
 starred: true
-
+permalink: "/archives/11124-nineteen.html"
 ---
 
 

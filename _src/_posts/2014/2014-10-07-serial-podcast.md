@@ -2,7 +2,7 @@
 title: The Serial Podcast
 date: 2014-10-07 22:59
 link: http://serialpodcast.org
- 
+permalink: "/archives/14280-serial-podcast.html"
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: College take two
- 
+permalink: "/archives/11231-college-take-two.html"
 ---
 
 

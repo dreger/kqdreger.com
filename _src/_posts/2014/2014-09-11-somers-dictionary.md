@@ -3,8 +3,10 @@ layout: post
 title: The Wrong Dictionary
 date: 2014-09-11 19:11
 categories: post
- 
+permalink: "/archives/14254-somers-dictionary.html"
 ---
+
+
 [James Somers](http://jsomers.net/blog/dictionary):
 
 > [In a dictionary], words are boiled to their essence. But that essence is dry, functional, almost bureaucratically sapped of color or pop, like [high modernist architecture](http://upload.wikimedia.org/wikipedia/commons/6/6f/Pruitt-Igoe-overview.jpg). Which trains you to think of the dictionary as a utility, not a quarry of good things, not a place you’d go to explore and savor.

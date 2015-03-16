@@ -3,7 +3,7 @@ title: Google Buys Nest for $3.2 Billion
 date: 2014-01-13 22:34
 layout: post
 categories: volume-one post
- 
+permalink: "/archives/14013-google-buys-nest.html"
 ---
 
 
