@@ -4,8 +4,6 @@ title: kyledreger.com
 author: Kyle Dreger
 email: comments@dreger.me
 description: "Something audacious."
-source: ./_src
-destination: ./_site
 markdown: rdiscount
 highlighter: pygments
 permalink: /posts/:title.html
