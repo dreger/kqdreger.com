@@ -3,7 +3,7 @@ title: The Five C
 layout: post
 categories: volume-one post
 date: 2013-09-13
-permalink: "/archives/13256-iphone-five-c.html"
+  
 ---
 
 

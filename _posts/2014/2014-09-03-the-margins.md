@@ -3,7 +3,7 @@ title: Margins
 layout: post
 categories: post volume-two
 date: 2014-09-03 22:34
-permalink: "/archives/14246-the-margins.html"
+  
 ---
 
 

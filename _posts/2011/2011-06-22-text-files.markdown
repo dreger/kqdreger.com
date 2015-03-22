@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Text files
-permalink: "/archives/11173-text-files.html"
+  
 ---
 
 

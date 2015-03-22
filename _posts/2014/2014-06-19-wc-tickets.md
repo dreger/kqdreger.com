@@ -4,7 +4,7 @@ date: 2014-06-19 21:49
 layout: post
 link: http://www.creativebloq.com/computer-arts/80-years-world-cup-ticket-designs-61411991
 title: The Past 80 Years of World Cup Ticket Design
-permalink: "/archives/14170-wc-tickets.html"
+  
 ---
 
 

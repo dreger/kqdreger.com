@@ -3,7 +3,7 @@ title: Minimizing Brands
 date: 2014-02-03 10:32
 layout: post
 categories: volume-one post
-permalink: "/archives/14034-minimal-brands.html"
+  
 ---
 
 

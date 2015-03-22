@@ -3,7 +3,7 @@ layout: post
 title: Pleasant Font Pairings
 date: 2014-09-06 08:03
 categories: post volume-two
-permalink: "/archives/14249-google-fonts.html"
+  
 ---
 
 

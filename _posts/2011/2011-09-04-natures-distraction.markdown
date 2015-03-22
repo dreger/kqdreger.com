@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Nature's distraction
-permalink: "/archives/11247-natures-distraction.html"
+  
 ---
 
 

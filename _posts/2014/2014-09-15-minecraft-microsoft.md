@@ -3,7 +3,7 @@ layout: post
 title: Mojosoft
 date: 2014-09-15 12:28
 categories: post
-permalink: "/archives/14258-minecraft-microsoft.html"
+  
 ---
 
 

@@ -2,7 +2,7 @@
 title: The Ikea bookbook
 date: 2014-09-22 22:06
 link: https://www.youtube.com/watch?v=MOXQo7nURs0
-permalink: "/archives/14265-ikea-bookbook.html"
+  
 ---
 
 

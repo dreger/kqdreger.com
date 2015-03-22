@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: GORUCK GR1 Delivered
 date: 2012-06-19
-permalink: "/archives/12171-gr1-delivered.html"
+  
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Clymer on the Apple Watch
 date: 2014-09-11 06:53
 categories: post
-permalink: "/archives/14254-clymer-apple-watch.html"
+  
 ---
 
 

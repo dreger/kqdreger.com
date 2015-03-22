@@ -3,7 +3,7 @@ layout: post
 title: Your Porch, Our Street
 date: 2014-09-11 19:09
 categories: post
-permalink: "/archives/14254-chimero-twitter.html"
+  
 ---
 
 

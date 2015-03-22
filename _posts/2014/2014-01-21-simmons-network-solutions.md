@@ -3,7 +3,7 @@ title: That'll Be $1,850
 date: 2014-01-21 20:35
 layout: post
 categories: volume-one post
-permalink: "/archives/14021-simmons-network-solutions.html"
+  
 ---
 
 

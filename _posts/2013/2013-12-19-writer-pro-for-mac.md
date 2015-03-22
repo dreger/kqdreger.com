@@ -3,7 +3,7 @@ title: Writer Pro for Mac
 date: 2013-12-19 12:00
 layout: post
 categories: volume-one post
-permalink: "/archives/13353-writer-pro-for-mac.html"
+  
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Drawing with paper
 date: 2012-05-26
-permalink: "/archives/12147-drawing-with-paper.html"
+  
 ---
 
 

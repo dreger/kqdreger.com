@@ -4,7 +4,7 @@ date: 2014-04-30 16:24
 layout: post
 link: http://vimeo.com/91168154
 title: 'John Mayer: Someday I''ll Fly'
-permalink: "/archives/14120-john-mayer-someday-ill-fly.html"
+  
 ---
 
 

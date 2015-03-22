@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Build stuff, tell people
 date: 2012-06-07
-permalink: "/archives/12159-build-stuff-tell-people.html"
+  
 ---
 
 

@@ -3,7 +3,7 @@ title: When bloggers die
 date: 2011-01-20
 layout: post
 categories: volume-zero post
-permalink: "/archives/11020-when-bloggers-die.html"
+  
 ---
 
 

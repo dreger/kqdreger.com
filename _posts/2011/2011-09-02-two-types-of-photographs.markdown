@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Two types of photographs
-permalink: "/archives/11245-two-types-of-photographs.html"
+  
 ---
 
 

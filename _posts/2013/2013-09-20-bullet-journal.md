@@ -4,7 +4,7 @@ link: http://www.bulletjournal.com
 date: 2013-09-20 10:20
 layout: post
 categories: volume-one post
-permalink: "/archives/13263-bullet-journal.html"
+  
 ---
 
 

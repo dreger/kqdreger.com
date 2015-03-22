@@ -3,7 +3,7 @@ title: I am a remix
 date: 2013-01-10
 layout: post
 categories: volume-zero post
-permalink: "/archives/13010-i-am-a-remix.html"
+  
 ---
 
 

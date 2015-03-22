@@ -3,7 +3,7 @@ title: Podcasting Diaries, Part 2
 date: 2014-02-20 22:52
 layout: post
 categories: volume-one post
-permalink: "/archives/14051-podcasting-pt-2.html"
+  
 ---
 
 

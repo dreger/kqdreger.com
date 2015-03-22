@@ -3,7 +3,7 @@ title: A Change to Linked Items
 date: 2013-12-01 22:08
 layout: post
 categories: volume-one post
-permalink: "/archives/13335-meet-excerpts.html"
+  
 ---
 
 

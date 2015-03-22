@@ -4,7 +4,7 @@ link: http://lifeloveandwords.wordpress.com/2013/12/19/a-year-of-nothing-new/
 date: 2013-12-19 09:26
 layout: post
 categories: volume-one post
-permalink: "/archives/13353-durr-a-year-of-nothing-new.html"
+  
 ---
 
 

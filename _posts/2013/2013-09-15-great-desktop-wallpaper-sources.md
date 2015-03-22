@@ -3,7 +3,7 @@ title: The Best Places for Desktop Wallpapers
 layout: post
 categories: volume-one post
 date: 2013-09-15
-permalink: "/archives/13258-great-desktop-wallpaper-sources.html"
+  
 ---
 
 

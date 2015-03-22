@@ -4,7 +4,7 @@ date: 2012-05-29
 layout: post
 categories: volume-zero post
 tags: Momento, notes
-permalink: "/archives/12150-write-it-down.html"
+  
 ---
 
 

@@ -4,7 +4,7 @@ date: 2014-04-09 12:17
 layout: post
 link: http://www.overthought.org/blog/2014/the-ultimate-guide-to-solving-ios-battery-drain
 title: Solving iOS Battery Drain
-permalink: "/archives/14099-ios-battery-drain.html"
+  
 ---
 
 

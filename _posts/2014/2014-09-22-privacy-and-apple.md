@@ -2,7 +2,7 @@
 title: Apple Information Privacy
 date: 2014-09-22 20:58
 link: http://www.apple.com/privacy/government-information-requests/
-permalink: "/archives/14265-privacy-and-apple.html"
+  
 ---
 
 

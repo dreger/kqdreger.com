@@ -3,7 +3,7 @@ title: Thanksgiving Break
 date: 2013-11-26 09:52
 layout: post
 categories: volume-one post
-permalink: "/archives/13330-thanksgiving-break.html"
+  
 ---
 
 

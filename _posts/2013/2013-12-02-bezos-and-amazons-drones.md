@@ -3,7 +3,7 @@ title: Amazon's 30-Minutes-or-Less Delivery by Drone
 date: 2013-12-02 18:43
 layout: post
 categories: volume-one post
-permalink: "/archives/13336-bezos-and-amazons-drones.html"
+  
 ---
 
 

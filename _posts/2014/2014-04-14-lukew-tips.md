@@ -4,7 +4,7 @@ date: 2014-04-14 11:58
 layout: post
 link: https://storify.com/bombayhustle/lukew-tips-for-mobile-design
 title: Tips for Mobile Design
-permalink: "/archives/14104-lukew-tips.html"
+  
 ---
 
 

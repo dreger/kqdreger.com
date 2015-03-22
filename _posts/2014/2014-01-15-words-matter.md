@@ -3,7 +3,7 @@ title: Words Matter
 date: 2014-01-15 19:38
 layout: post
 categories: volume-one post
-permalink: "/archives/14015-words-matter.html"
+  
 ---
 
 

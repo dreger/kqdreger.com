@@ -3,7 +3,7 @@ title: Tobias Frere-Jones is Suing Jonathan Hoefler
 date: 2014-01-17 12:07
 layout: post
 categories: volume-one post
-permalink: "/archives/14017-frere-jones-sues-hoefler.html"
+  
 ---
 
 

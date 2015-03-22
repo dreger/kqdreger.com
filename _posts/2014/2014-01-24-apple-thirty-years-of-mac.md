@@ -3,7 +3,7 @@ title: 'Apple: Thirty Years of Mac'
 date: 2014-01-24 14:10
 layout: post
 categories: volume-one post
-permalink: "/archives/14024-apple-thirty-years-of-mac.html"
+  
 ---
 
 

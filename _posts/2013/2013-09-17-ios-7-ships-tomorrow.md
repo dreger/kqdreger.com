@@ -3,7 +3,7 @@ title: 'PSA: iOS 7 Ships Tomorrow'
 date: 2013-09-17
 layout: post
 categories: volume-one post
-permalink: "/archives/13260-ios-7-ships-tomorrow.html"
+  
 ---
 
 

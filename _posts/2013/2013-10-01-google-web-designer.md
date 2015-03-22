@@ -4,7 +4,7 @@ link: http://www.google.com/webdesigner/
 date: 2013-10-01 21:05
 layout: post
 categories: volume-one post
-permalink: "/archives/13274-google-web-designer.html"
+  
 ---
 
 

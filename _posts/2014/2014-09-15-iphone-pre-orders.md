@@ -2,7 +2,7 @@
 title: iPhone Pre-Orders Top 4 Million in 24 Hours
 date: 2014-09-15 21:26
 link: http://www.apple.com/pr/library/2014/09/15Apple-Announces-Record-Pre-orders-for-iPhone-6-iPhone-6-Plus-Top-Four-Million-in-First-24-Hours.html
-permalink: "/archives/14258-iphone-pre-orders.html"
+  
 ---
 
 

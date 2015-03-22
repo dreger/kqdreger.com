@@ -4,7 +4,7 @@ date: 2014-05-28 18:17
 layout: post
 link: http://youtu.be/t9cmoT_wb0A
 title: 'Coca-Cola Presents: The Friendly Twist'
-permalink: "/archives/14148-coca-cola-twist.html"
+  
 ---
 
 

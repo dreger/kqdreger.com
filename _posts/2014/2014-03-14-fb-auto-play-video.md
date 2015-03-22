@@ -3,7 +3,7 @@ title: Facebook Plans to Introduce Auto-Playing Video
 date: 2014-03-14 22:02
 layout: post
 categories: volume-one post
-permalink: "/archives/14073-fb-auto-play-video.html"
+  
 ---
 
 

@@ -6,7 +6,7 @@ email: comments@dreger.me
 description: "Something audacious."
 markdown: rdiscount
 highlighter: pygments
-permalink: /posts/:title.html
+permalink: /archives/:short_year:y_day-:title.html
 timezone: "America/New_York"
 
 rdiscount:

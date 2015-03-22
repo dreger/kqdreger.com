@@ -3,7 +3,7 @@ title: The Log Podcast
 date: 2014-02-19 21:09
 layout: post
 categories: volume-one post
-permalink: "/archives/14050-introducing-the-log.html"
+  
 ---
 
 

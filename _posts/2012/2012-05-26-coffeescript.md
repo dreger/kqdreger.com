@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Coffeescript
 date: 2012-05-26 1930 −5
-permalink: "/archives/12147-coffeescript.html"
+  
 ---
 
 

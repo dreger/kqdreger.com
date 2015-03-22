@@ -3,7 +3,7 @@ title: Dear Ms. Tina Brown
 date: 2014-03-12 12:36
 layout: post
 categories: volume-one post
-permalink: "/archives/14071-dear-ms-tina-brown.html"
+  
 ---
 
 

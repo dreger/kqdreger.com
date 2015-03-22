@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: To the point
 date: 2012-06-02
-permalink: "/archives/12154-to-the-point.html"
+  
 ---
 
 

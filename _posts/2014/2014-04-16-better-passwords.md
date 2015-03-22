@@ -4,7 +4,7 @@ date: 2014-04-16 22:46
 layout: post
 link: http://blog.plasticmind.com/users/better-passwords/
 title: Creating Better Passwords
-permalink: "/archives/14106-better-passwords.html"
+  
 ---
 
 

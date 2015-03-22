@@ -3,7 +3,7 @@ title: The World Press Photo Awards
 date: 2014-02-15 17:15
 layout: post
 categories: volume-one post
-permalink: "/archives/14046-world-press-photos.html"
+  
 ---
 
 

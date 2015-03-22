@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: New Year's Habit
-permalink: "/archives/11365-new-years-habit.html"
+  
 ---
 
 

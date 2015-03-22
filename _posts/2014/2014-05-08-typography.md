@@ -3,7 +3,7 @@ title: Whitney
 date: 2014-05-08 17:45
 layout: post
 categories: volume-one post
-permalink: "/archives/14128-typography.html"
+  
 ---
 
 

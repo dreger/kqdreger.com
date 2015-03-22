@@ -3,7 +3,7 @@ title: Microsoft Employee Badge Redesign
 date: 2014-02-18 08:41
 layout: post
 categories: volume-one post
-permalink: "/archives/14049-new-ms-badge.html"
+  
 ---
 
 

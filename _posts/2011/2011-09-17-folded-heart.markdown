@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Folded heart
-permalink: "/archives/11260-folded-heart.html"
+  
 ---
 
 

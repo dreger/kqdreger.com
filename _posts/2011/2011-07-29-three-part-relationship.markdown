@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Three part relationship
-permalink: "/archives/11210-three-part-relationship.html"
+  
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Being present for prayer
-permalink: "/archives/11217-being-present-for-prayer.html"
+  
 ---
 
 

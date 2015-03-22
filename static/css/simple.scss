@@ -1,8 +1,6 @@
 ---
 ---
 
-
-
 $color: #3182EF;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
@@ -12,17 +10,16 @@ $color-faded: #808080;
 $color-hover: #444;
 
 $color: #222;
-$color: #977491;
+$color: #57ad68;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
-$color-copy: #242424;
+$color-copy: #444;
 $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #d7d7d7;
-
-$sans: "Hoefler Text", Georgia;
+$sans: "Avenir Next", "Helvetica Neue", "Helvetica", Arial;
 $serif: $sans;
-$max-width: 30rem;
+$max-width: 32rem;
 
 
 * {
@@ -43,19 +40,20 @@ body {
     line-height: 1.5rem;
 }
 
-
 h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  line-height: 1.3em;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  font-weight: 900;
+  line-height: 1em;
 }
 h2 {
-  font-size: 1.5rem;
-  margin: 3rem 0 0;
+  font-size: 1.75rem;
+  margin: 2rem 0 0;
   font-weight: normal;
 }
 h3 {
-  margin: 2.5rem 0 0;
+  font-weight: bold;
+  margin: 2rem 0 0;
   & + p { margin-top: .5rem; }
 }
 
@@ -125,10 +123,36 @@ img {
 
 
 a {
-    color: $color;
+  color: $color;
+  font-weight: 700;
   &:hover {
   color: $color-copy;
   }
+}
+
+.archive-title {
+  font-size: 1.5rem;
+  margin: .5rem 0;
+}
+
+.author {
+  margin: 0;
+  overflow: auto;
+  display: block;
+  text-decoration: none;
+  color: $color-copy;
+}
+.author-name {
+  font-size: 1.25rem;
+  margin-top: .8rem;
+  font-weight: bold;
+}
+.author-pic {
+  height: auto;
+  float: left;
+  width: 50px;
+  margin: 0 .5rem 0 0;
+  border-radius: 100px;
 }
 
 .signals {
@@ -164,29 +188,28 @@ article + p {
 .archives {
   margin: 0;
   padding: 0;
-  font-family: $serif;
   li {
-    list-style: none;
     display: block;
-    font-size: 1rem;
-    margin: .25rem 0;
+
+    margin: .5rem 0;
+  }
+  a {
+    display: inline-block;
+    margin: 0;
   }
   .date {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: $sans;
     font-size: .8rem;
-    padding: 2rem 0 0;
+    margin: 0;
+    line-height: 1em;
     display: block;
     color: $color-faded;
-    border-bottom: 1px dotted $color-faded;
   }
 }
 
 blockquote {
   margin-left: 1rem;
   padding-left: 1rem;
-  border-left: dotted 1px $color-faded;
+  border-left: solid 1px $color-hover;
 }
 
 .faded {
@@ -196,7 +219,7 @@ blockquote {
 hr {
   background-color: none;
   width: 100%;
-  margin: 2.5rem auto;
+  margin: 1.5rem auto;
   border: none;
   border-top: 1px solid $color-hover;
   + ol {
@@ -204,6 +227,7 @@ hr {
     line-height: 1.4em;
   }
 }
+
 .center { text-align: center; }
 .button {
   text-decoration: none;
@@ -237,7 +261,7 @@ hr {
 
 @media (max-width: 800px) {
   .wrapper {
-    margin-top: 0;
+    margin-top: 1rem;
   }
   em img {
     margin-left: 0;
