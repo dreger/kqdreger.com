@@ -8,6 +8,7 @@ markdown: rdiscount
 highlighter: pygments
 permalink: /archives/:short_year:y_day-:title
 timezone: "America/New_York"
+post_dirs: false
 
 rdiscount:
   extensions: [footnotes, smart]
