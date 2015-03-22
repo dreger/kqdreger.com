@@ -19,7 +19,7 @@ $color-faded: #9fa4a8;
 $color-hover: #d7d7d7;
 $sans: "Avenir Next", "Helvetica Neue", "Helvetica", Arial;
 $serif: $sans;
-$max-width: 32rem;
+$max-width: 34rem;
 
 
 * {
@@ -64,7 +64,7 @@ h3 {
 .wrapper {
   max-width: $max-width;
   margin: 5rem auto 0;
-  padding: 0 1rem 4rem;
+  padding: 0 1rem 1.5rem;
 }
 
 
@@ -136,7 +136,7 @@ a {
 }
 
 .author {
-  margin: 0;
+  margin: 1rem 0 1.25rem;
   overflow: auto;
   display: block;
   text-decoration: none;
