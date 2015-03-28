@@ -1,26 +1,18 @@
 ---
 ---
 
-$color: #3182EF;
+$color: #29A5F4;
+$color: #FFC600;
+$color-danger: #d54242;
+$color-toggle: #28af40;
 $color-light: lighten($color, 10%);
 $color-dark: darken($color, 10%);
-$color-copy: #e9ebed;
-$color-bg: #2B2D2F;
-$color-faded: #808080;
-$color-hover: #444;
-
-$color: #222;
-$color: #57ad68;
-$color-light: lighten($color, 10%);
-$color-dark: darken($color, 10%);
-$color-copy: #444;
+$color-copy: #222;
 $color-bg: #fff;
 $color-faded: #9fa4a8;
-$color-hover: #d7d7d7;
-$sans: "Avenir Next", "Helvetica Neue", "Helvetica", Arial;
-$serif: $sans;
-$max-width: 34rem;
-
+$color-hover: #dfdfdf;
+$font-family:  "Avenir Next", "Helvetica Neue", "Segoe UI", "Helvetica", Arial;
+$max-width: 32rem;
 
 * {
   -moz-box-sizing: content-box;
@@ -30,26 +22,30 @@ html {
   font-size: 16px;
 }
 body {
+    -webkit-font-smoothing: antialiased;
     margin: 0;
+    font-family: $font-family;
     padding: 0;
     color: $color-copy;
     background-color: $color-bg;
-    font-family: $serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
+
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 1rem 0;
-  font-weight: 900;
+  font-weight: normal;
   line-height: 1em;
+  a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.75rem;
-  margin: 2rem 0 0;
-  font-weight: normal;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  line-height: 1.2em;
+  font-weight: 900;
 }
 h3 {
   font-weight: bold;
@@ -68,13 +64,12 @@ h3 {
 }
 
 
-
-
-article {
-  &:first-child {
-    margin-top: 0;
-  }
+article p {
+  margin: 0;
+  text-indent: 1.5em;
+  &:first-child { text-indent: 0; }
 }
+
 
 article span {
 	display: block;
@@ -84,7 +79,6 @@ article span {
 
 footer {
   margin-top: 4rem;
-  font-family: $serif;
   text-align: right;
   padding: 0;
   color: $color-faded;
@@ -108,10 +102,7 @@ footer {
   color: #f2b854;
 }
 
-em img {
-  width: 180%;
-  margin: 1.5rem 0 1.5rem -40%;
-}
+
 
 img {
   width: 100%;
@@ -125,15 +116,16 @@ img {
 a {
   color: $color;
   font-weight: 700;
-  &:hover {
-  color: $color-copy;
-  }
+  &:hover { color: $color-light; }
+  &:active { color: $color-dark; }
 }
 
 .archive-title {
   font-size: 1.5rem;
   margin: .5rem 0;
 }
+
+
 
 .author {
   margin: 1rem 0 1.25rem;
@@ -146,6 +138,7 @@ a {
   font-size: 1.35rem;
   margin-top: .8rem;
   font-weight: bold;
+  display: inline-block;
 }
 .author-pic {
   height: auto;
@@ -207,61 +200,94 @@ article + p {
 }
 
 blockquote {
-  margin-left: 1rem;
-  padding-left: 1rem;
-  border-left: solid 1px $color-hover;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-top: 1px solid $color-hover;
+  border-bottom: 1px solid $color-hover;
+  text-align: left;
+  + p {
+    text-indent: 0;
+  }
 }
 
 .faded {
+  text-indent: 0;
+  margin: 2rem 0;
   color: $color-faded;
 }
 
 hr {
-  background-color: none;
+  background-color: $color-hover;
   width: 100%;
   margin: 1.5rem auto;
   border: none;
-  border-top: 1px solid $color-hover;
-  + ol {
-    font-size: .9rem;
-    line-height: 1.4em;
-  }
+  height: 1px;
 }
+
+.right { text-align: right; }
 
 .center { text-align: center; }
+
+// ===============
+// Admin styles
+// ===============
+
+.post_body,
+.post_title,
+.post_slug {
+  width: 100%;
+  overflow: auto;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid $color-hover;
+  border-radius: 5px;
+  margin: .25rem 0;
+  padding: .5rem;
+  resize: none;
+}
+
+.post_title {
+  font-size: 2rem;
+}
+
 .button {
-  text-decoration: none;
-  padding: .5rem 1rem;
-  border: solid 2px $color;
-  border-radius: 3px;
-  display: block;
+  margin: .25rem 0;
+  border: solid 1px $color-hover;
+  background: white;
   font-weight: bold;
-  text-align: center;
-  max-width: 300px;
-  margin: 1rem auto;
+  padding: .25rem .5rem;
+  border-radius: 5px;
   &:hover {
-    background-color: $color;
-    color: $color-bg;
+    background: $color-hover;
   }
 }
 
-@media (max-width: 1250px) {
-  em img {
-    margin-left: -25%;
-    max-width: 150%;
-  }
-}
-
-@media (max-width: 1000px) {
-  em img {
-    margin-left: -10%;
-    max-width: 120%;
-  }
-}
-
-@media (max-width: 800px) {
+@media (max-width: $max-width + 4rem) {
   .wrapper {
     margin-top: 1rem;
+  }
+  .post-form-actions {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0 .5rem;
+    border: solid 1px $color-hover;
+    border-radius: 5px;
+    li {
+      padding: 0;
+      display: block;
+      padding: 0;
+      margin: 1rem 0;
+    }
+  }
+  .post-form-submit,
+  .post-form-destroy,
+  .post-form-slug {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
   }
   em img {
     margin-left: 0;
