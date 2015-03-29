@@ -1,3 +1,3 @@
 # kyledreger.com
 
-A small webcolumn, edited by Kyle Dreger :)
+Just down the street and around the corner. 
