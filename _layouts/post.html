@@ -2,15 +2,12 @@
 layout: default
 ---
 
-
 <article>
-  {% if page.link %}
-  <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
-  {% else %}
   <h1>{{page.title}}</h1>
-  {% endif %}
-  <section class="hyphenate">
+  <p>By <a href="/">Kyle Quinn Dreger</a></p>
+  <hr class="double">
+
   {{ content }}
-  </section>
-  <p class="faded">Published on {{ page.date | date: "%d %B %Y" }}.</p>
+
+  <p class="faded">Published on {{ page.date | date: "%d %B %Y" }}</p>
 </article>
