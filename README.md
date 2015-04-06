@@ -1,3 +1,1 @@
-# kyledreger.com
-
-Just down the street and around the corner. 
+On hiatus for the moment, while I work on building something new. 
