@@ -18,7 +18,7 @@ $color-copy: #4a4a4a;
 $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #ccc;
-$font-family: "Lucida Grande", "Segoe UI", "Helvetica", Arial;
+$font-family: "Avenir Next", "Segoe UI", "Helvetica", Verdana;
 $max-width: 36rem;
 
 * {
@@ -26,7 +26,7 @@ $max-width: 36rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -64,6 +64,9 @@ h3 {
   & + p { margin-top: .5rem; }
 }
 
+header {
+  border-bottom: double $color-hover;
+}
 
 .wrapper {
   max-width: $max-width;
@@ -82,7 +85,7 @@ img {
 
 a {
   color: $color;
-  font-weight: normal;
+  font-weight: 700;
   &:hover { color: $color-light; }
   &:active { color: $color-dark; }
 }
@@ -122,16 +125,6 @@ hr {
   border: none;
   height: 1px;
 }
-
-hr.double {
-  background: white;
-  margin: 1.25rem auto;
-  border-top: 1px dotted $color-hover;
-  border-bottom: 1px dotted $color-hover;
-  height: 2px;
-}
-
-
 
 @media (max-width: $max-width + 4rem) {
   .wrapper {

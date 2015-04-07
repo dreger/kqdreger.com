@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<article>
+<header>
   <h1>{{page.title}}</h1>
   <p>By <a href="/">Kyle Quinn Dreger</a> on {{ page.date | date: "%b. %Y" }}</p>
-  <hr class="double">
+</header>
 
+<article>
   {{ content }}
 </article>
