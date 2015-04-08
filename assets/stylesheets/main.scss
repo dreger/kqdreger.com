@@ -85,7 +85,7 @@ img {
 
 a {
   color: $color;
-  font-weight: 700;
+  font-weight: normal;
   &:hover { color: $color-light; }
   &:active { color: $color-dark; }
 }
