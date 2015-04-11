@@ -6,19 +6,11 @@
   Feel free to browse, just don't steal :)
 */
 
-@font-face{
-	font-family: 'MyWebFont';
-	src: url('../fonts/clear-sans.eot');
-	src: url('../fonts/clear-sans.eot?iefix') format('eot'),
-	     url('../fonts/clear-sans.woff') format('woff'),
-	     url('../fonts/clear-sans.ttf') format('truetype'),
-	     url('../fonts/clear-sans.svg#webfont') format('svg');
-}
 
 $color: #FFC600;
-$color: #ABB8C2;
 $color: #29A5F4;
 $color: #8bc34a; //8BC34A
+$color: #ABB8C2;
 $color-danger: #d54242;
 $color-toggle: #28af40;
 $color-light: lighten($color, 10%);
@@ -27,15 +19,15 @@ $color-copy: #3a3a3a;
 $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #ccc;
-$font-family: "Clear Sans", San Francisco Text, Verdana, "Avenir Next", "Segoe UI", "Helvetica", Verdana;
-$max-width: 30rem;
+$font-family: Verdana;
+$max-width: 32rem;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -50,14 +42,14 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 1rem 0;
   font-weight: normal;
   line-height: 1em;
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 1rem 0;
   line-height: 1.2em;
   font-weight: 900;
