@@ -30,7 +30,13 @@ defaults:
       permalink:
   -
     scope:
-      path: "best-of"
+      path: "essays"
       type: "posts"
     values:
-      category: bestof
+      category: essays
+  -
+    scope:
+      path: "notes"
+      type: "posts"
+    values:
+      category: notes

@@ -6,10 +6,19 @@
   Feel free to browse, just don't steal :)
 */
 
+@font-face{
+	font-family: 'MyWebFont';
+	src: url('../fonts/clear-sans.eot');
+	src: url('../fonts/clear-sans.eot?iefix') format('eot'),
+	     url('../fonts/clear-sans.woff') format('woff'),
+	     url('../fonts/clear-sans.ttf') format('truetype'),
+	     url('../fonts/clear-sans.svg#webfont') format('svg');
+}
+
 $color: #FFC600;
-$color: #29A5F4;
 $color: #ABB8C2;
-$color: #607D8B; //8BC34A
+$color: #29A5F4;
+$color: #8bc34a; //8BC34A
 $color-danger: #d54242;
 $color-toggle: #28af40;
 $color-light: lighten($color, 10%);
@@ -18,8 +27,8 @@ $color-copy: #3a3a3a;
 $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #ccc;
-$font-family: "Avenir Next", "Segoe UI", "Helvetica", Verdana;
-$max-width: 36rem;
+$font-family: "Clear Sans", San Francisco Text, Verdana, "Avenir Next", "Segoe UI", "Helvetica", Verdana;
+$max-width: 30rem;
 
 * {
   -moz-box-sizing: content-box;
@@ -65,14 +74,13 @@ h3 {
 }
 
 header {
-  border-bottom: double $color-hover;
+  border-bottom: dotted 1px $color-hover;
 }
 
 .wrapper {
   max-width: $max-width;
-  margin: 2rem;
+  margin: 4rem auto;
 }
-
 
 img {
   width: 100%;
@@ -119,11 +127,12 @@ blockquote {
 }
 
 hr {
-  background-color: $color-hover;
+  // background-color: $color-hover;
   width: 100%;
   margin: 1.5rem auto;
   border: none;
-  height: 1px;
+  height: 0px;
+  border-bottom: 1px dotted $color-hover;
 }
 
 @media (max-width: $max-width + 4rem) {

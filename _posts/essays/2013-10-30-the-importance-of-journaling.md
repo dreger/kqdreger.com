@@ -3,7 +3,7 @@ title: The Importance of Journaling
 date: 2013-10-30 13:50
 layout: post
 categories: volume-one post
-  
+
 ---
 
 
@@ -40,5 +40,3 @@ It's for this reason I encourage you to start writing today. Get a 3-subject not
 ---
 
 Mr. Holmes never spoke of a journal, but I secretly hoped I might find something as we cleaned out his house for the last time. I never came across such a memoir, but I take solace in knowing that I've helped preserve at least a few of his stories; if only to aid me as I retell them to my own children. And, I'm sure, every now and again they'll get a little ice cream with story time.
-
-_This article was [originally published](http://stemmings.com/the-importance-of-journaling/) May 23, 2013, on Stemmings.com_

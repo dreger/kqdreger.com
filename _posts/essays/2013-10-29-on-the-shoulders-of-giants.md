@@ -3,7 +3,7 @@ title: On the Shoulders of Giants
 date: 2013-10-29 13:41
 layout: post
 categories: volume-one post
-  
+
 ---
 
 
@@ -44,5 +44,3 @@ The final thing I've noticed about Giants is less a quality of their character, 
 I am not yet a Giant, but that's the beauty about our industry &mdash; anyone can be given enough time and the right attitude. You and I may never create something on the level of [Twitter Bootstrap](http://twitter.github.com/bootstrap/) (a massively-popular web framework), but so long as we never stop chasing the ideals of the Giants and striving to help others around us, our work may one day be the foundation for someone else to build on.
 
 God willing, my work may get to that point one day. But for now, there's still plenty of joy to be had in the journey, and maybe that's the most important part of it all anyway.
-
-_This article was [originally published](http://stemmings.com/on-the-shoulders-of-giants/) March 15, 2013, on Stemmings.com_
