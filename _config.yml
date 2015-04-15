@@ -1,7 +1,7 @@
 url: http://kyledreger.com
 domain: http://kyledreger.com
-title: kyledreger.com
-author: Kyle Dreger
+title: "K.Q. Dreger"
+author: K.Q. Dreger
 email: comments@dreger.me
 description: "Something audacious."
 markdown: rdiscount
@@ -27,16 +27,18 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink:
+      permalink: /archives/:short_year:y_day-:title.html
   -
     scope:
       path: "essays"
       type: "posts"
     values:
       category: essays
+      permalink: /:title.html
   -
     scope:
       path: "notes"
       type: "posts"
     values:
       category: notes
+      permalink: /:title.html
