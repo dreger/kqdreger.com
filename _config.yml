@@ -27,7 +27,6 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /archives/:short_year:y_day-:title.html
   -
     scope:
       path: "published"
@@ -35,7 +34,6 @@ defaults:
     values:
       layout: post
       category: "published"
-      # permalink: /:title.html
   -
     scope:
       path: "ideas"
@@ -43,4 +41,3 @@ defaults:
     values:
       layout: post
       category: "ideas"
-      # permalink: /:title.html
