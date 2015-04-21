@@ -24,21 +24,23 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
       permalink: /archives/:short_year:y_day-:title.html
   -
     scope:
-      path: "essays"
-      type: "posts"
+      path: "published"
+      type: posts
     values:
-      category: essays
+      layout: post
       permalink: /:title.html
+      category: "published"
   -
     scope:
-      path: "notes"
-      type: "posts"
+      path: "ideas"
+      type: posts
     values:
-      category: notes
+      layout: post
       permalink: /:title.html
+      category: "ideas"

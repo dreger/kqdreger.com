@@ -1,9 +1,6 @@
 ---
 title: The Importance of Journaling
 date: 2013-10-30 13:50
-layout: post
-categories: volume-one post
-
 ---
 
 

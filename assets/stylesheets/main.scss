@@ -7,10 +7,10 @@
 */
 
 
-$color: #8bc34a; //8BC34A
-$color: #ABB8C2;
 $color: #FFC600;
 $color: #c5406d;
+$color: #ABB8C2; //8BC34A
+$color: #4990c0;
 $color-danger: #d54242;
 $color-toggle: #28af40;
 $color-light: lighten($color, 10%);
@@ -20,6 +20,7 @@ $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #ccc;
 $font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+$font-family-sans: "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Segoe UI", Arial;
 $max-width: 30rem;
 
 * {
@@ -43,13 +44,10 @@ body {
 
 h1 {
   font-size: 1.5rem;
-  margin: 1rem 0 .5rem;
+  margin: 1rem 0 .25rem;
   font-weight: normal;
   line-height: 1em;
   a { font-weight: normal; }
-  + .meta {
-    margin-top: .5rem;
-  }
 }
 h2 {
   font-size: 1.2rem;
@@ -70,6 +68,15 @@ h3 {
 
 header {
   border-bottom: dotted 1px $color-hover;
+}
+
+.meta {
+  font-size: .75rem;
+  font-family: $font-family-sans;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: .25rem 0 1rem;
+  color: #4a4a4a;
 }
 
 .wrapper {

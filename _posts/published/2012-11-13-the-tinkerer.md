@@ -1,9 +1,6 @@
 ---
 title: The Tinkerer
-date: 2012-11-13
-layout: post
-categories: volume-zero post
-  
+date: 2012-11-13  
 ---
 
 

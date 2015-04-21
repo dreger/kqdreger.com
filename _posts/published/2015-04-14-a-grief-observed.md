@@ -1,6 +1,7 @@
 ---
 title: Notes on A Grief Observed
 date: 2015-04-14 08:41
+published: false
 ---
 
 My first book will be [_A Grief Observed_][1], by C.S. Lewis.

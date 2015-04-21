@@ -1,5 +1,5 @@
 ---
-title: "Budgeting"
+title: Budgeting
 date: 2014-12-12
 ---
 
