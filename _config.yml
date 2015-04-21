@@ -34,13 +34,13 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /:title.html
       category: "published"
+      # permalink: /:title.html
   -
     scope:
       path: "ideas"
       type: posts
     values:
       layout: post
-      permalink: /:title.html
       category: "ideas"
+      # permalink: /:title.html
