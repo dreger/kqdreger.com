@@ -8,20 +8,20 @@
 
 
 $color: #FFC600;
-$color: #c5406d;
 $color: #ABB8C2; //8BC34A
 $color: #4990c0;
+$color: #222;
 $color-danger: #d54242;
 $color-toggle: #28af40;
-$color-light: lighten($color, 10%);
-$color-dark: darken($color, 10%);
+$color-light: lighten($color, 25%);
+$color-dark: darken($color, 25%);
 $color-copy: #3a3a3a;
 $color-bg: #fff;
 $color-faded: #9fa4a8;
 $color-hover: #ccc;
-$font-family: "Montserrat", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+$font-family: "Open Sans", "Input Serif", "Avenir Next";
 $font-family-sans: $font-family, "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Segoe UI", Arial;
-$max-width: 30rem;
+$max-width: 32rem;
 
 * {
   -moz-box-sizing: content-box;
@@ -39,18 +39,18 @@ body {
     background-color: $color-bg;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 }
 
 h1 {
-  font-size: 1.5rem;
-  margin: 1rem 0 .25rem;
-  font-weight: normal;
+  font-size: 1.75rem;
+  margin: 1.25rem 0;
+  font-weight: bold;
   line-height: 1em;
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 1rem 0;
   line-height: 1.2em;
   font-weight: 900;
@@ -66,16 +66,15 @@ h3 {
   & + p { margin-top: .5rem; }
 }
 
-header {
-  border-bottom: dotted 1px $color-hover;
-}
 
 .meta {
   font-family: $font-family-sans;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: .25rem 0 1rem;
-  color: #aaa;
+  margin: 1rem 0 ;
+  color: #bbb;
+  line-height: 1em;
+  a {
+  font-weight: bold;
+    text-decoration: none; }
 }
 
 .wrapper {
@@ -95,7 +94,6 @@ img {
 
 a {
   color: $color;
-  font-weight: normal;
   &:hover { color: $color-light; }
   &:active { color: $color-dark; }
 }
