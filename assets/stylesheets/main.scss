@@ -77,6 +77,11 @@ h3 {
     text-decoration: none; }
 }
 
+.date {
+  display: block; 
+  color: #ccc; 
+}
+
 .wrapper {
   max-width: $max-width;
   margin: 4rem auto;
