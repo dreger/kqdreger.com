@@ -9,19 +9,19 @@
 
 $color: #FFC600;
 $color: #ABB8C2; //8BC34A
+$color: #663366;
 $color: #4990c0;
-$color: #222;
 $color-danger: #d54242;
 $color-toggle: #28af40;
-$color-light: lighten($color, 25%);
-$color-dark: darken($color, 25%);
+$color-light: lighten($color, 15%);
+$color-dark: darken($color, 15%);
 $color-copy: #3a3a3a;
-$color-bg: #fff;
+$color-bg: #E6E6E6;
 $color-faded: #9fa4a8;
 $color-hover: #ccc;
-$font-family: "San Francisco Text", "Avenir Next";
+$font-family: Open Sans, "Helvetica Neue", "Helvetica", "Segoe UI", Arial, Verdana, "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", times, serif;
 $font-family-sans: $font-family, "Helvetica Neue", "Helvetica", "Segoe UI", Arial;
-$max-width: 32rem;
+$max-width: 36rem;
 
 * {
   -moz-box-sizing: content-box;
@@ -39,18 +39,18 @@ body {
     background-color: $color-bg;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
 }
 
 h1 {
   font-size: 1.75rem;
   margin: 1.25rem 0;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1em;
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin: 1rem 0;
   line-height: 1.2em;
   font-weight: 900;
@@ -85,6 +85,10 @@ h3 {
 .wrapper {
   max-width: $max-width;
   margin: 4rem auto;
+  padding: 1rem 2rem; 
+  border-radius: 3px; 
+  background: white; 
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 }
 
 
@@ -94,6 +98,12 @@ img {
   display: block;
   margin: 1.5rem 0 1.5rem;
   border-radius: 3px;
+}
+
+em img {
+  margin-left: -2rem; 
+  width: $max-width + 4rem; 
+  border-radius: 0; 
 }
 
 
@@ -135,7 +145,7 @@ hr {
   // background-color: $color-hover;
   width: 100%;
   margin: 1.5rem auto;
-  border: none;
+  border: none; 
   height: 0px;
   border-bottom: 1px dotted $color-hover;
 }
