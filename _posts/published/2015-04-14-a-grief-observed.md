@@ -8,6 +8,8 @@ My first book will be [_A Grief Observed_][1], by C.S. Lewis.
 
 I haven't even started the book, but I already know that it's going to make me sad. I guess it's unfair to expect anything titled "A Grief Observed" would be happy in nature, but still. I think it makes me nervous to see what C.S. Lewis' clear, honest writing style does to the topic of grief, something that I'm still dealing with. I secretly hope that this text will help enlighten or explain some of the very feelings I continue to observe.
 
+## 1. There was a test
+
 The introduction to "Grief Observed" is written by Douglas H. Gresham, the stepson of Lewis, who Gresham refers to as "Jack." I assume that Jack was the close-friends-and-family name for Lewis, although I wasn't able to find much online to support this. Nevertheless, Greshman sets the context, and we're given a glimpse at how much Lewis loved his wife, Helen Joy Gresham.
 
 Gresham is no slump writer, and I'll pretend that he learned a lot about clarity and style from his stepfather. One passage in particular stuck out (emphasis mine):

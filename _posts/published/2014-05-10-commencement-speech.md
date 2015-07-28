@@ -7,7 +7,7 @@ date: 2014-05-10
 University of Mount Union. [Video
 recording](https://www.youtube.com/watch?v=I78OflS6hWc) is also available.  
  
-WELCOME
+## Welcome
  
 Hello everyone, and thank you for coming today. Before we begin, I want to thank
 Dr. and Mrs. Giese, members of the Board of Trustees, and all those individuals
@@ -37,7 +37,7 @@ interesting pieces of wood in my life. However, at the end of these four years,
 and looking at you all today, I see that we've all found a place in the Mount
 Union pile, building a strong and connected family.
  
-LIFELONG LEARNING 
+## Lifelong learning
  
 However, our educational journey didn't start with Mount Union. For many of us,
 it started in pre-school and kindergarten, around 1995. At that time, we were
@@ -150,7 +150,7 @@ next stage of adulthood is equally as freeing, and we get to start today.
 Reinvent yourselves, pursue the things you love, and do not let this let this
 opportunity to pass quietly by.
  
-CLOSING
+## Closing
  
 So be loud, and as the doors here open up to the next four years of our lives,
 we should happily and joyfully welcome this new responsibility and freedom.
