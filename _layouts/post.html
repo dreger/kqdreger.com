@@ -8,5 +8,6 @@ layout: default
 </header>
 
 <article>
+  {% if page.link %}<p><a href="{{ page.link }}">Reference &rarr;</a></p>{% endif %}
   {{ content }}
 </article>

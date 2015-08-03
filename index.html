@@ -2,18 +2,49 @@
 layout: default
 ---
 
-<p><strong>Hello&mdash;I’m Kyle Quinn Dreger</strong>. I am a Ruby on Rails programmer and user experience designer at Synergy Data Systems. I am an alumni of the University of Mount Union.</p>
+<h1>Kyle Quinn Dreger</h1>
+<p>I am a writer and designer. Below is my personal blog. <span class="toggle"><span class="link">More</span>?</span></p>
 
-<p>Here, I am a writer.</p>
+<section class="more-information" style="display: none;">
+	<p>Well, now that you've asked.</p>
+	<ul>
+			<li>I am currently working as a Ruby on Rails programmer and user experience designer at <a href="http://synergydatasystems.com">Synergy Data Systems</a>. I am an alumni of the <a href="http://mountunion.edu">University of Mount Union</a>, and I've spent my entire life in Northeast Ohio.</li>
+		<li>My work keeps me busy, but I always try to make time for writing. I'm (self-proclaimed) executive editor of <a href="http://audaciousfox.com">Audacious Fox</a>, a column / magazine that I'm writing with my brother-in-law. I've also written for <a href="http://toolsandtoys.net/author/kyledreger/">Tools and Toys</a>, <a href="http://lifehacker.com/5606759/browser-comparison-whats-the-most-pixel-friendly-browser-mac-edition">Lifehacker</a>, and <a href="http://stemmings.com/author/dreger/">Stemmings</a>.</li>
+		<li>In addition to writing, I love public speaking. I've given <a href="https://speakerdeck.com/dreger">a few talks</a> for smaller venues, and I also gave the <a href="https://www.youtube.com/watch?v=I78OflS6hWc">presidential commencement speech</a> for my college graduation.</li>
+	</ul>
 
-<p>I cheerfully receive correspondence at:<br><a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@dreger</a>.</p>
+	<p class="contact-information">Correspondence is cheerfully received at: <a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@dreger</a>. I do my best to return your message within 48 hours. Thanks for reading. </p>
+</section>
+<hr>
 
-<p>A few of my select essays:</p>
-<ul>
-{% for post in site.categories.published %}
-<li><a href="{{ post.url }}">{{ post.title }}</a><!-- <span class="date"> {{    post.date | date: "%b %d, %Y" }}</span> -->
+{% for post in site.posts limit:1 %}
+<header>
+  <p class="meta">{{ post.date | date: "%b %d, %Y" }}</p>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+</header>
+
+<article>
+  {{ post.content }}
+</article>
+<hr>
+{% endfor %}
+
+<ul class="archives">
+{% for post in site.posts offset: 1 %}
+<li>
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  <span class="date"> {{ post.date | date: "%b %d, %Y" }}</span>
 </li>
 {% endfor %}
-<li>There's also a lot of old stuff in <a href="/archives">the archives</a>.</li>
 </ul>
 
+<script type="text/javascript">
+	var toggle = document.querySelector('.toggle');
+	var more = document.querySelector('.more-information');
+	toggle.addEventListener("click", toggleContactInformation);
+	
+	function toggleContactInformation() {
+		more.style.display = 'inline'; 
+		toggle.style.display = 'none'; 
+	}
+</script>
