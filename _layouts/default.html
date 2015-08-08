@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-    {{ site.title }}{% if page.title %}: {{ page.title }}{% endif %}
+    {{ site.title }}{% if page.title %}: {{ page.title }}{% else %}{% endif %}
     </title>
     <meta charset="utf-8">
     <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
@@ -14,9 +14,18 @@
 <script>try{Typekit.load();}catch(e){}</script>
 
   </head>
-  <body>
-    <section class="wrapper tk-proxima-nova">
+  <body class="tk-proxima-nova">
+    <section class="wrapper">
       {{ content }}
     </section>
+    
+    <footer class="footer">
+      <p>Elsewhere at<br><a href="http://audaciousfox.com">Audacious Fox</a> &bull; <a href="http://twitter.com/dreger">@dreger</a></p>
+      <p>&copy 2010-2015 Kyle Quinn Dreger</p>
+      
+      <p>Made in Ohio.</p>
+    </footer>
   </body>
 </html>
+
+

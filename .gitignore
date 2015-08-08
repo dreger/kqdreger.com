@@ -1,9 +1,10 @@
 # Ignore Jekyll generated files
 _site
-_src/_drafts/
-_src/_ideas/
-_src/log/audio/*
-_src/public/*
+_drafts/
+_ideas/
+_data
+/log/audio/*
+/public/*
 portfolio/
 _newsletters
 

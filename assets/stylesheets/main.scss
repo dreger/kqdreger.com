@@ -7,22 +7,25 @@
 */
 
 
-$color: #005ea5;
+$color-blue: #005ea5; // blue
+$color-teal: #79BD9A; // teal
+$color-purple: #4c2c92;
+$color: $color-blue; 
 $color-toggle: #28af40;
 $color-light: lighten($color, 15%);
 $color-dark: darken($color, 15%);
 $color-copy: #3a3a3a;
 $color-faded: #9fa4a8;
-$color-hover: #ccc;
+$color-hover: #aaa;
 $font-family: Verdana;
-$max-width: 32rem;
+$max-width: 30rem;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 17px;
+  font-size: 15px;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -30,23 +33,23 @@ body {
     font-family: $font-family;
     padding: 0;
     color: $color-copy;
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
     line-height: 1.368rem;
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.8rem;
   margin: 1rem 0;
-  font-weight: 700;
+  font-weight: normal;
   line-height: 1em;
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   margin: 1rem 0;
   line-height: 1.2em;
-  font-weight: 500;
+  font-weight: 700;
 }
 h3 {
   font-weight: normal;
@@ -64,9 +67,6 @@ h3 {
   margin: 1rem 0 ;
   color: #bbb;
   line-height: 1em;
-  a {
-  	font-weight: bold;
-	}
 }
 
 .date {
@@ -80,28 +80,32 @@ h3 {
   padding: 1.75rem 3rem; 
   border-radius: 3px; 
   background: white; 
-//   box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 }
 
+.footer {
+  text-align: center; 
+  color: $color-hover; 
+  padding: 1rem; 
+  border-top: 1px solid #ddd; 
+}
 
 img {
   width: 100%;
   height: auto;
   display: block;
   margin: 1.5rem 0 1.5rem;
-  border-radius: 3px;
 }
 
 em img {
-  margin-left: -4rem; 
-  width: $max-width + 8rem; 
+  margin-left: -7rem; 
+  width: $max-width + 14rem; 
   border-radius: 0; 
 }
 
 
 a {
   color: $color;
-  &:visited { color: #4c2c92; }
+  &:visited { color: $color-purple; }
   &:hover { color: $color-light; }
   &:active { color: $color-dark; }
 }
@@ -110,8 +114,7 @@ a {
 ul {
   padding-left: 1.25rem;
   li {
-    list-style: square;
-    margin: .25rem 0;
+    margin: 1rem 0;
   }
 }
 
@@ -156,7 +159,7 @@ hr {
 }
 
 @media (max-width: $max-width + 12rem) {
- 	html { font-size: 16px; }
+ 	html { font-size: 17px; }
   .wrapper {
     margin: 0 auto;
     padding: .5rem 1rem; 
