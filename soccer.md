@@ -5,7 +5,7 @@ layout: simple
 ---
 
 # FC Fusion U11, 2015
-Welcome! Below you will find contact information for your coach, training information, and our match schedule. Please email Coach Kyle with any questions!
+Welcome! Below you will find contact information for your coach, training information, and our most up-to-date match schedule. Please email Coach Kyle with any questions!
 
 <!-- 
 Jump to:<br>
