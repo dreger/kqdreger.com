@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+    {{ page.title }}
+    </title>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+    <link rel="alternate" type="application/atom+xml" title="kyledreger.com" href="/feeds/main.xml" />
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/main.css">
+		<script src="//use.typekit.net/xgs3niv.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+  </head>
+  <body class="tk-proxima-nova">
+    <style scoped>
+      h3 {
+        display: block; 
+        font-weight: bold; 
+      }
+    </style>
+    <section class="wrapper">
+      {{ content }}
+    </section>
+  </body>
+</html>
+
+
