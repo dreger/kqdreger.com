@@ -17,7 +17,8 @@ Cell: 330-931-1086
 Email: [kyle@dreger.me](mailto:kyle+fc@dreger.me)
 
 ### <a name="notes"></a> Notes from Coach
-- Aug. 9 &mdash; Welcome players and parents! I'm excited to get this season underway, and I look forward to meeting you all at our first training session. If you have any questions, feel free to shoot me an email or text message. See you at training on August 11!
+- Week 1 &mdash; We've had a good first week of practice and really focused on the fundamentals. I liked how much we were communicating during the passing drills, and I like the intensity that was shown during our Germany vs Brazil drill. Keep up the hard work!
+- Preseason &mdash; Welcome players and parents! I'm excited to get this season underway, and I look forward to meeting you all at our first training session. If you have any questions, feel free to shoot me an email or text message. See you at training on August 11!
 
 ### <a name="training"></a> Training Schedule
 Beginning August 11, training will be every Tuesday and Thursday from 6pm-7:15. Sessions will be held at Washington Elementary School, which can be found at [5786 Beechwood Avenue, Alliance, OH](https://goo.gl/maps/mbHJS). 
