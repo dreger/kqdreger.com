@@ -33,7 +33,7 @@ Players should bring a water bottle and proper playing equipment. Shinguards are
   2782 Diamond St NE, Canton, OH~~
 
 - _Sunday, August 30, 2015_<br> 
-  3:30pm &mdash; Home vs Tallmadge<br>
+  3:30pm &mdash; Home (Field 3) vs Tallmadge<br>
   [2782 Diamond St NE, Canton, OH][home]
 
 - _Wednesday, September 2, 2015_<br>
@@ -41,11 +41,11 @@ Players should bring a water bottle and proper playing equipment. Shinguards are
   [1806 Copley Road, Copley, OH][copley]
 
 - _Wednesday, September 9, 2015_<br>
-  6:30pm &mdash; Home vs Perry United<br>
+  6:30pm &mdash; Home (Field 1) vs Perry United<br>
   [2782 Diamond St NE, Canton, OH][home]
 
 - _Sunday, September 13, 2015_<br>
-  1:00pm &mdash; Home vs NEO Classic<br>
+  1:00pm &mdash; Home (Field 3) vs NEO Classic<br>
   [2782 Diamond St NE, Canton, OH][home]
 
 - _Sunday, September 27, 2015_<br>
@@ -53,7 +53,7 @@ Players should bring a water bottle and proper playing equipment. Shinguards are
   [1806 Copley Road, Copley, OH][copley]
 
 - _Sunday, October 4, 2015_<br>
-  1:00pm &mdash; Home vs Green<br>
+  1:00pm &mdash; Home (Field 1) vs Green<br>
   [2782 Diamond St NE, Canton, OH][home]
 
 - _Sunday, October 11, 2015_<br>
