@@ -30,7 +30,7 @@ Players should bring a water bottle and proper playing equipment. Shinguards are
 - (0-0 tie)<br>
   ~~_Sunday, August 23, 2015_ <br> 
   1:00pm &mdash; Home vs CAK East<br>
-  [2782 Diamond St NE, Canton, OH][home]~~
+  2782 Diamond St NE, Canton, OH~~
 
 - _Sunday, August 30, 2015_<br> 
   3:30pm &mdash; Home vs Tallmadge<br>
