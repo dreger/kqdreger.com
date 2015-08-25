@@ -17,8 +17,7 @@ gems:
   - jekyll-sitemap
 
 sass:
-  style: compressed
-  deploy_style: compressed
+    style: :compressed
 
 defaults:
   -

@@ -6,18 +6,6 @@
   Feel free to browse, just don't steal :)
 */
 
-
-$color-blue: #005ea5; // blue
-$color-teal: #79BD9A; // teal
-$color-purple: #4c2c92;
-$color: $color-blue; 
-$color-toggle: #28af40;
-$color-light: lighten($color, 15%);
-$color-dark: darken($color, 15%);
-$color-copy: #3a3a3a;
-$color-faded: #9fa4a8;
-$color-hover: #aaa;
-$font-family: Verdana;
 $max-width: 30rem;
 
 * {
@@ -25,17 +13,17 @@ $max-width: 30rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: $font-family;
+    font-family: Georgia, serif;
     padding: 0;
-    color: $color-copy;
+    color: #3a3a3a;
     font-weight: normal;
     font-style: normal;
-    line-height: 1.368rem;
+    line-height: 1.4rem;
 }
 
 h1 {
@@ -47,9 +35,9 @@ h1 {
 }
 h2 {
   font-size: 1.25rem;
-  margin: 1rem 0;
+  margin: 1.5rem 0 1rem;
+  font-weight: normal; 
   line-height: 1.2em;
-  font-weight: 700;
 }
 h3 {
   font-weight: normal;
@@ -57,21 +45,20 @@ h3 {
   font-size: 1rem;
   padding-right: 1rem;
   padding-bottom: .35rem;
-  border-bottom: dotted 1px $color-hover;
+  border-bottom: dotted 1px #aaa;
   margin: 1.5rem 0 0;
   & + p { margin-top: .5rem; }
 }
 
+p {
+  margin: 0 0 1rem 0; 
+}
 
 .meta {
   margin: 1rem 0 ;
   color: #bbb;
   line-height: 1em;
-}
-
-.date {
-  display: block;
-  color: #ccc;
+  display: block; 
 }
 
 .wrapper {
@@ -82,9 +69,16 @@ h3 {
   background: white; 
 }
 
+.more-information {
+  background: #eee; 
+  padding: .5rem; 
+  & p:first-child { margin-top: 0; }
+  & p:last-child { margin-bottom: 0; } 
+}
+
 .footer {
   text-align: center; 
-  color: $color-hover; 
+  color: #aaa; 
   padding: 1rem; 
   border-top: 1px solid #ddd; 
 }
@@ -102,21 +96,12 @@ em img {
   border-radius: 0; 
 }
 
+a { color: #005ea5; }
+a:visited { color: #4c2c92; }
 
-a {
-  color: $color;
-  &:visited { color: $color-purple; }
-  &:hover { color: $color-light; }
-  &:active { color: $color-dark; }
-}
+ul { padding-left: 1.25rem; }
+li { margin: 1rem 0; }
 
-
-ul {
-  padding-left: 1.25rem;
-  li {
-    margin: 1rem 0;
-  }
-}
 
 .notice {
   padding: .5rem 1rem;
@@ -138,27 +123,25 @@ blockquote {
   background: #eee; 
   margin-left: 1.5rem; 
   padding: .5rem; 
-  & p:first-child { margin-top: 0; }
-  & p:last-child { margin-bottom: 0; }
 }
 
+blockquote p:last-child { margin-bottom: 0; }
+
 hr {
-  // background-color: $color-hover;
   width: 100%;
   margin: 1.75rem 0;
   border: none; 
   height: 0px;
-  border-bottom: 1px dotted $color-hover;
+  border-bottom: 1px dotted #aaa;
 }
 
 .link {
-  color: $color; 
+  color: #005ea5; 
   text-decoration: underline; 
   cursor: pointer; 
-  &:hover { color: $color-light; }
 }
 
-@media (max-width: $max-width + 12rem) {
+@media (max-width: $max-width + 16rem) {
  	html { font-size: 17px; }
   .wrapper {
     margin: 0 auto;

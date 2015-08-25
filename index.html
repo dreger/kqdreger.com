@@ -11,7 +11,7 @@ layout: default
 		<p>I've given <a href="https://speakerdeck.com/dreger">a few talks</a> for smaller venues, and I also gave the <a href="https://www.youtube.com/watch?v=I78OflS6hWc">presidential commencement speech</a> for my college graduation.</p>
 
 
-	<p class="contact-information">Correspondence is cheerfully received at <a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@dreger</a>. I do my best to return your message within 48 hours. Thanks for reading. </p>
+	<p class="contact-information">Correspondence is cheerfully received at <a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@Dreger</a>. I do my best to return your message within 48 hours. Thanks for reading. </p>
 </section>
 <hr>
 
@@ -31,7 +31,7 @@ layout: default
 {% for post in site.posts offset: 1 %}
 <li>
   <a href="{{ post.url }}">{{ post.title }}</a>
-  <span class="date"> {{ post.date | date: "%b %d, %Y" }}</span>
+  <span class="meta"> {{ post.date | date: "%b %d, %Y" }}</span>
 </li>
 {% endfor %}
 </ul>
@@ -44,7 +44,7 @@ layout: default
 	function toggleContactInformation() {
 	  var currently = toggle.innerHTML;
 	  if (currently == "More") {
-	    more.style.display = 'inline'; 
+	    more.style.display = 'block'; 
 		  toggle.innerHTML = 'Less'; 
 	  } else {
 	    more.style.display = 'none'; 
