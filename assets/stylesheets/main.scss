@@ -13,17 +13,26 @@ $max-width: 30rem;
   box-sizing: content-box;
 }
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: Georgia, serif;
+    font-family: proxima-nova, 'Helvetica Neue', 'Segoe UI', Verdana;
     padding: 0;
     color: #3a3a3a;
     font-weight: normal;
     font-style: normal;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif; 
 }
 
 h1 {
@@ -34,7 +43,7 @@ h1 {
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   margin: 1.5rem 0 1rem;
   font-weight: normal; 
   line-height: 1.2em;
@@ -42,7 +51,7 @@ h2 {
 h3 {
   font-weight: normal;
   display: inline-block; 
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding-right: 1rem;
   padding-bottom: .35rem;
   border-bottom: dotted 1px #aaa;
@@ -70,8 +79,8 @@ p {
 }
 
 .more-information {
-  background: #eee; 
-  padding: .5rem; 
+  border: double #ccc; 
+  padding: 1rem; 
   & p:first-child { margin-top: 0; }
   & p:last-child { margin-bottom: 0; } 
 }
@@ -132,7 +141,7 @@ hr {
   margin: 1.75rem 0;
   border: none; 
   height: 0px;
-  border-bottom: 1px dotted #aaa;
+  border-bottom: double #ccc;
 }
 
 del, del a {
