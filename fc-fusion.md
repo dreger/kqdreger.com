@@ -30,9 +30,9 @@ Players should bring a water bottle and proper playing equipment. Shinguards are
   1:00pm &mdash; Home vs CAK East<br>
   2782 Diamond St NE, Canton, OH~~
 
-- _Sunday, August 30, 2015_<br> 
+- ~~_Sunday, August 30, 2015_<br> 
   3:30pm &mdash; Home (Field 3) vs Tallmadge<br>
-  [2782 Diamond St NE, Canton, OH][home]
+  2782 Diamond St NE, Canton, OH~~
 
 - _Wednesday, September 2, 2015_<br>
   6:30pm &mdash; Away vs Internationals<br>
