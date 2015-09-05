@@ -7,18 +7,19 @@
 */
 
 $max-width: 30rem;
+$color: #4285f4; 
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 15px;
+  font-size: 18px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: proxima-nova, 'Helvetica Neue', 'Segoe UI', Verdana;
+    font-family: 'Avenir Next', 'Segoe UI', Verdana;
     padding: 0;
     color: #3a3a3a;
     font-weight: normal;
@@ -32,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Georgia, serif; 
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
 
 h1 {
@@ -72,23 +73,33 @@ p {
 
 .wrapper {
   max-width: $max-width;
-  margin: 4rem auto;
-  padding: 1.75rem 3rem; 
+  margin: 0 auto;
+  padding: 2rem 3rem; 
   border-radius: 3px; 
   background: white; 
 }
 
+.site-header-wrapper {
+  border-bottom: solid 1px #ccc; 
+}
+
+.site-header {
+  margin: 0 auto; 
+  max-width: $max-width;
+  padding: 2rem 1rem;
+}
+
 .more-information {
-  border: double #ccc; 
-  padding: 1rem; 
-  & p:first-child { margin-top: 0; }
+  line-height: 1.5em;
+  font-size: .85rem; 
+  p { margin-bottom: 1em; }
   & p:last-child { margin-bottom: 0; } 
 }
 
 .footer {
   text-align: center; 
   color: #aaa; 
-  padding: 1rem; 
+  padding: 2rem 1rem; 
   border-top: 1px solid #ddd; 
 }
 
@@ -105,8 +116,8 @@ em img {
   border-radius: 0; 
 }
 
-a { color: #005ea5; }
-a:visited { color: #4c2c92; }
+a { color: $color; }
+a:visited { color: #7c57cc; }
 
 ul { padding-left: 1.25rem; }
 li { margin: 1rem 0; }
@@ -141,7 +152,7 @@ hr {
   margin: 1.75rem 0;
   border: none; 
   height: 0px;
-  border-bottom: double #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 del, del a {
@@ -149,13 +160,16 @@ del, del a {
 }
 
 .link {
-  color: #005ea5; 
+  color: $color; 
   text-decoration: underline; 
   cursor: pointer; 
 }
 
-@media (max-width: $max-width + 16rem) {
+@media (max-width: $max-width + 22rem) {
  	html { font-size: 17px; }
+ 	.site-header {
+ 	  padding: 1rem;
+ 	}
   .wrapper {
     margin: 0 auto;
     padding: .5rem 1rem; 
