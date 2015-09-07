@@ -4,7 +4,7 @@
 $max-width: 30rem;
 $color: #4285f4;
 $line-height: 1.45rem;
-$sans: Futura, Gill Sans;
+$sans: Futura, "Gill Sans", "Segoe UI", "Tahoma", Verdana;
 
 * {
   -moz-box-sizing: content-box;
@@ -122,6 +122,8 @@ em img {
 ul, ol {
   padding-left: 1.25rem;
 }
+
+li { margin-bottom: .25rem; }
 
 .big {
   max-width: $max-width + 22rem;
