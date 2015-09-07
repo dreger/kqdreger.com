@@ -1,30 +1,27 @@
 ---
 ---
 
-/*
-  Designed by Kyle Quinn Dreger
-  Feel free to browse, just don't steal :)
-*/
-
 $max-width: 30rem;
-$color: #4285f4; 
+$color: #4285f4;
+$line-height: 1.45rem;
+$sans: Futura, Gill Sans;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 18px;
+  font-size: 15px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: 'Avenir Next', 'Segoe UI', Verdana;
+    font-family: Georgia;
     padding: 0;
     color: #3a3a3a;
     font-weight: normal;
     font-style: normal;
-    line-height: 1.5rem;
+    line-height: $line-height;
 }
 
 h1,
@@ -33,116 +30,59 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  margin: 0 0 1rem 0;
+  font-family: $sans;
 }
 
 h1 {
-  font-size: 1.8rem;
-  margin: 1rem 0;
+  font-size: 1.35rem;
   font-weight: normal;
   line-height: 1em;
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.35rem;
-  margin: 1.5rem 0 1rem;
-  font-weight: normal; 
+  font-size: 1.1rem;
+  font-weight: normal;
   line-height: 1.2em;
 }
 h3 {
   font-weight: normal;
-  display: inline-block; 
-  font-size: 1.1rem;
-  padding-right: 1rem;
-  padding-bottom: .35rem;
+  display: inline-block;
+  font-size: 1rem;
   border-bottom: dotted 1px #aaa;
-  margin: 1.5rem 0 0;
-  & + p { margin-top: .5rem; }
+  margin-bottom: .5rem;
 }
 
 p {
-  margin: 0 0 1rem 0; 
-}
-
-.meta {
-  margin: 1rem 0 ;
-  color: #bbb;
-  line-height: 1em;
-  display: block; 
+  margin: 0 0 1rem 0;
 }
 
 .wrapper {
   max-width: $max-width;
-  margin: 0 auto;
-  padding: 2rem 3rem; 
-  border-radius: 3px; 
-  background: white; 
-}
-
-.site-header-wrapper {
-  border-bottom: solid 1px #ccc; 
-}
-
-.site-header {
-  margin: 0 auto; 
-  max-width: $max-width;
-  padding: 2rem 1rem;
-}
-
-.more-information {
-  line-height: 1.5em;
-  font-size: .85rem; 
-  p { margin-bottom: 1em; }
-  & p:last-child { margin-bottom: 0; } 
+  margin: 1rem auto;
 }
 
 .footer {
-  text-align: center; 
-  color: #aaa; 
-  padding: 2rem 1rem; 
-  border-top: 1px solid #ddd; 
+  font-size: .86rem;
+  line-height: $line-height;
+  font-family: $sans;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 1.5rem 0 1.5rem;
+.post-title {
+  margin-bottom: .5rem;
 }
 
-em img {
-  margin-left: -7rem; 
-  width: $max-width + 14rem; 
-  border-radius: 0; 
+.post-meta {
+  color: #aaa;
+  line-height: 1.25em;
+  a {
+    color: #aaa;
+  }
 }
-
-a { color: $color; }
-a:visited { color: #7c57cc; }
-
-ul { padding-left: 1.25rem; }
-li { margin: 1rem 0; }
-
-
-.notice {
-  padding: .5rem 1rem;
-  border-radius: 3px;
-  background-color: #fff0b5;
-  font-style: italic;
-  font-size: .8rem;
-  line-height: 1.4em;
-  display: none;
-}
-
 
 blockquote {
-  margin: 1rem 0;
-  padding-left: 2rem;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: left;
-  background: #eee; 
-  margin-left: 1.5rem; 
-  padding: .5rem; 
+  margin: 0 0 1rem 1rem;
+  font-style: italic;
 }
 
 blockquote p:last-child { margin-bottom: 0; }
@@ -150,31 +90,52 @@ blockquote p:last-child { margin-bottom: 0; }
 hr {
   width: 100%;
   margin: 1.75rem 0;
-  border: none; 
+  border: none;
   height: 0px;
   border-bottom: 1px solid #ccc;
 }
 
 del, del a {
-  color: #aaa; 
+  color: #aaa;
+}
+
+a {
+  color: $color;
+  &:visited { color: #6A1B9A; }
+}
+
+img {
+  max-width: $max-width;
+  border: solid 1px transparent;
+  cursor: pointer;
+  &:hover {
+    border: $color 1px solid;
+  }
+}
+
+em img {
+  max-width: $max-width + 4rem;
+  margin-left: -2rem;
+}
+
+.big {
+  max-width: $max-width + 22rem;
+  margin-left: -11rem;
 }
 
 .link {
-  color: $color; 
-  text-decoration: underline; 
-  cursor: pointer; 
+  color: $color;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (max-width: $max-width + 22rem) {
  	html { font-size: 17px; }
- 	.site-header {
- 	  padding: 1rem;
- 	}
   .wrapper {
     margin: 0 auto;
-    padding: .5rem 1rem; 
+    padding: .5rem 1rem;
   }
-  em img {
+  em img, .big {
     margin-left: 0;
     max-width: 100%;
   }

@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:0 %}
 <header>
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="meta">{{ post.date | date: "%b %d, %Y" }}</p>
@@ -19,7 +19,6 @@ layout: default
 {% for post in site.posts offset: 1 %}
 <li>
   <a href="{{ post.url }}">{{ post.title }}</a>
-  <span class="meta"> {{ post.date | date: "%b %d, %Y" }}</span>
 </li>
 {% endfor %}
 </ul>
@@ -28,15 +27,15 @@ layout: default
 	var toggle = document.querySelector('.toggle');
 	var more = document.querySelector('.more-information');
 	toggle.addEventListener("click", toggleContactInformation);
-	
+
 	function toggleContactInformation() {
 	  var currently = toggle.innerHTML;
 	  if (currently == "More") {
-	    more.style.display = 'block'; 
-		  toggle.innerHTML = 'Less'; 
+	    more.style.display = 'block';
+		  toggle.innerHTML = 'Less';
 	  } else {
-	    more.style.display = 'none'; 
-		  toggle.innerHTML = 'More'; 
-	  } 
+	    more.style.display = 'none';
+		  toggle.innerHTML = 'More';
+	  }
 	}
 </script>
