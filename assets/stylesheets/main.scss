@@ -4,7 +4,7 @@
 $max-width: 30rem;
 $color: #4285f4;
 $line-height: 1.45rem;
-$sans: Futura, "Gill Sans", "Segoe UI", "Tahoma", Verdana;
+$sans: "Montserrat", Futura, "Gill Sans", "Segoe UI", "Tahoma", Verdana;
 
 * {
   -moz-box-sizing: content-box;
@@ -16,7 +16,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: Georgia;
+    font-family: $sans;
     padding: 0;
     color: #3a3a3a;
     font-weight: normal;
@@ -31,19 +31,19 @@ h4,
 h5,
 h6 {
   margin: 0 0 1rem 0;
-  font-family: $sans;
 }
 
 h1 {
-  font-size: 1.35rem;
-  font-weight: normal;
+  font-size: 1.75rem;
   line-height: 1em;
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: normal;
-  line-height: 1.2em;
+  margin-bottom: .25rem; 
+  line-height: 1.1em;
+  a { text-decoration: none; }
 }
 h3 {
   font-weight: normal;
@@ -59,8 +59,17 @@ p {
 
 .wrapper {
   max-width: $max-width;
-  margin: 1rem auto;
-  padding: 0 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.site-header {
+  border-bottom: solid 1px #ccc; 
+  margin-bottom: 1rem;
+}
+
+.site-title {
+  font-family: $sans;
 }
 
 .footer {
@@ -70,7 +79,7 @@ p {
 }
 
 .post-title {
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
 }
 
 .post-meta {
@@ -96,12 +105,19 @@ hr {
   border-bottom: 1px solid #ccc;
 }
 
+.thick {
+  height: 2px; 
+  background: #eee; 
+  border-top: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc; 
+}
+
 del, del a {
   color: #aaa;
 }
 
 a {
-  color: $color;
+  color: blue;
   &:visited { color: #6A1B9A; }
 }
 
@@ -115,8 +131,7 @@ img {
 }
 
 em img {
-  max-width: $max-width + 4rem;
-  margin-left: -2rem;
+  max-width: $max-width + 24rem;
 }
 
 ul, ol {

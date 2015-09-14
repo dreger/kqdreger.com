@@ -9,36 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
     <link rel="alternate" type="application/atom+xml" title="kyledreger.com" href="/feeds/main.xml" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/stylesheets/main.css">
   </head>
   <body>
     <section class="wrapper">
-      {% unless page.title %}
-      <section class="site-header-wrapper">
-        <header class="site-header">
-          <p><strong>Hello</strong>&mdash;I'm Kyle Dreger.</p>
-          <p>I am a writer and designer. Below is my personal column. <span class="toggle link">More</span>?</p>
-
-          <section class="more-information" style="display: none;">
-          <p>I currently work as a Ruby on Rails programmer and user experience designer at <a href="http://patriotsoftware.com">Patriot Software</a> (<a href="https://www.patriotsoftware.com/about/careers/">We're hiring</a>!). I am an alumni of the <a href="http://mountunion.edu">University of Mount Union</a>, and I've spent my entire life in Northeast Ohio.</p>
-              <p>I've written for <a href="http://audaciousfox.com">Audacious Fox</a>, <a href="http://toolsandtoys.net/author/kyledreger/">Tools and Toys</a>, <a href="http://lifehacker.com/5606759/browser-comparison-whats-the-most-pixel-friendly-browser-mac-edition">Lifehacker</a>, and <a href="http://stemmings.com/author/dreger/">Stemmings</a>.</p>
-              <p>I've given <a href="https://speakerdeck.com/dreger">a few talks</a> for smaller venues, and I also gave the <a href="https://www.youtube.com/watch?v=I78OflS6hWc">presidential commencement speech</a> for my college graduation.</p>
-
-
-            <p class="contact-information">Correspondence is cheerfully received at <a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@Dreger</a>. I do my best to return your message within 48 hours. Thanks for reading. </p>
-          </section>
-        </header>
-      </section>
-      {% endunless %}
-
       {{ content }}
-      <footer class="footer">
-        <p>
-          Elsewhere at <a href="http://audaciousfox.com">Audacious Fox</a> &bull; <a href="http://twitter.com/dreger">@Dreger</a>
-          <br>&copy 2010-2015 Kyle Dreger
-          <br>Made in Ohio.
-        </p>
-      </footer>
     </section>
   </body>
 </html>
