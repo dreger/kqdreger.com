@@ -2,9 +2,9 @@
 ---
 
 $max-width: 30rem;
-$color: #4285f4;
+$color: #387ED0;
 $line-height: 1.45rem;
-$sans: "Montserrat", Futura, "Gill Sans", "Segoe UI", "Tahoma", Verdana;
+$sans: "Montserrat", "Avenir Next", "Segoe UI", Verdana;
 
 * {
   -moz-box-sizing: content-box;
@@ -57,19 +57,87 @@ p {
   margin: 0 0 1rem 0;
 }
 
+
+a {
+  color: $color;
+  &:visited { color: #6A1B9A; }
+}
+
+blockquote {
+  margin: 0 0 1rem;
+  border-left: solid 1px #ccc; 
+  padding-left: 1rem; 
+}
+
+blockquote p:last-child { margin-bottom: 0; }
+
+hr {
+  width: 100%;
+  margin: 1.75rem 0;
+  border: none;
+  height: 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+del, del a {
+  color: #aaa;
+}
+
+
+img {
+  max-width: $max-width;
+  border: solid 1px transparent;
+  cursor: pointer;
+  &:hover {
+    border: $color 1px solid;
+  }
+}
+
+em img {
+  max-width: $max-width + 24rem;
+}
+
+ul, ol {
+  padding-left: 1.25rem;
+}
+
+li { margin-bottom: .25rem; }
+
 .wrapper {
   max-width: $max-width;
   margin: 0;
   padding: 1rem;
 }
 
-.site-header {
-  border-bottom: solid 1px #ccc; 
-  margin-bottom: 1rem;
+.site-header-wrapper {
+  background: $color; 
 }
 
-.site-title {
+.site-header {
+  padding: .5rem 1rem; 
+}
+
+.site-header-title {
   font-family: $sans;
+  font-size: 1rem; 
+  margin: 0; 
+  padding: 0; 
+  line-height: 1em; 
+  a { 
+    color: white; 
+    text-decoration: none; 
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.more-information {
+  font-size: .9rem; 
+  line-height: $line-height; 
+  color: #555; 
+  padding-left: 1rem; 
+  border-left: solid 1px #ccc; 
+  p { margin-bottom: .75em; }
 }
 
 .footer {
@@ -90,55 +158,12 @@ p {
   }
 }
 
-blockquote {
-  margin: 0 0 1rem 1rem;
-  font-style: italic;
-}
-
-blockquote p:last-child { margin-bottom: 0; }
-
-hr {
-  width: 100%;
-  margin: 1.75rem 0;
-  border: none;
-  height: 0px;
-  border-bottom: 1px solid #ccc;
-}
-
 .thick {
   height: 2px; 
   background: #eee; 
   border-top: 1px solid #ccc; 
   border-bottom: 1px solid #ccc; 
 }
-
-del, del a {
-  color: #aaa;
-}
-
-a {
-  color: blue;
-  &:visited { color: #6A1B9A; }
-}
-
-img {
-  max-width: $max-width;
-  border: solid 1px transparent;
-  cursor: pointer;
-  &:hover {
-    border: $color 1px solid;
-  }
-}
-
-em img {
-  max-width: $max-width + 24rem;
-}
-
-ul, ol {
-  padding-left: 1.25rem;
-}
-
-li { margin-bottom: .25rem; }
 
 .big {
   max-width: $max-width + 22rem;

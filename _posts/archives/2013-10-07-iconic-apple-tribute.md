@@ -8,7 +8,7 @@ categories: volume-one post
 ---
 
 
-A six-chapter photo book depicting every product Apple has ever made. From the product page:
+A [six-chapter photo book](http://iconicbook.com) depicting every product Apple has ever made. From the product page:
 
 > Iconic uses vivid color and detail to document Apple's journey in design, form and function &mdash; and looks back at over 35 years of Apple innovation. Four years in the making, the author captured over 150,000 photos of nearly every product Apple has made, including rare prototypes and even packaging.
 

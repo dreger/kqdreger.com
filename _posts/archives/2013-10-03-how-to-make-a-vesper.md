@@ -4,11 +4,9 @@ link: http://vesperapp.co/blog/how-to-make-a-vesper-1-007/
 date: 2013-10-03 21:55
 layout: post
 categories: volume-one post
-  
 ---
 
-
-Dave Wiskus put together a fantastic post about the design decisions behind the latest iOS 7 update to, my [personal favorite note-taking app]({% post_url /archives/2013-07-13-vesper %}), Vesper:
+Dave Wiskus put together [a fantastic post](http://vesperapp.co/blog/how-to-make-a-vesper-1-007/) about the design decisions behind the latest iOS 7 update to, my [personal favorite note-taking app]({% post_url /archives/2013-07-13-vesper %}), Vesper:
 
 > Rather than merely slap a fresh coat of paint on things, we wanted to take the same approach we did with 1.0 and really think through the state of iOS. Which decisions did we agree with? What did we think still needed improvement? Here are some notes on how that process worked.
 

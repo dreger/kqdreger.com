@@ -8,7 +8,7 @@ categories: volume-one post
 ---
 
 
-Joe Kraus, writing about the growing cultural acceptance of being "distracted," and our concept of multi-tasking:
+Joe Kraus, writing about the growing cultural acceptance of being "distracted," and [our concept of multi-tasking](http://joekraus.com/were-creating-a-culture-of-distraction):
 
 > It's shown not only that we're dumber when we do this [multi-task] (an average of 10 IQ points dumber &mdash; that's the same as pulling an all-nighter.), but that we're also 40% less efficient at whatever it is we're doing.
 
