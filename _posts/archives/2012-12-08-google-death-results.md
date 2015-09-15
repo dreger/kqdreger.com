@@ -9,9 +9,9 @@ categories: volume-zero post
 
 I was introspective this morning, and found myself Googling about death. I ran across [this comic](http://xkcd.com/369/) by xkcd, got inspired and ended up collecting quite a bit of data about the number of search results Google gives back for any given age of death. I've put those results into a graph for your pleasure, and you can also download the spreadsheet data in [.xls](http://cargo.kyledreger.com.s3.amazonaws.com/2012-12-08-dreger-google-death-results.xls) if you like.
 
-_![Graph image (.png) 115 KB]({{ site.root }}/public/cargo/google-death-results.png)_
+_![Graph image (.png) 115 KB](/public/cargo/google-death-results.png)_
 
-<small>Download <a href="{{ site.root }}/public/cargo/google-death-results.png">the image</a>.</small>
+<small>Download <a href="/public/cargo/google-death-results.png">the image</a>.</small>
 
 ### Details
 
