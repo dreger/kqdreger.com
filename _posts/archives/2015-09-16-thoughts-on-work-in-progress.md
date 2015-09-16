@@ -1,5 +1,5 @@
 ---
-title: Two comments and an idea for Work in Progress
+title: Two thoughts and an idea for Work in Progress
 date: 2015-09-16 15:09
 ---
 I've been watching a lot of Work in Progress (WIP), an informal video series about product design by Jason Fried, of Basecamp, and Nate Kontny, of Highrise. It's been a lot of fun, and I encourage you to [check out their YouTube channel](https://www.youtube.com/channel/UCDvHTqzl1H6j9JKHiQZn4Cw). 
