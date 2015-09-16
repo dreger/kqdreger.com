@@ -14,7 +14,7 @@ At midnight, Information Architects (iA) released a new version of Writer, dubbe
 ## Workflow
 The biggest visual change from Writer to Writer Pro is the new sidebar, which hangs on the right edge of the current document and is able to be hidden / shown at will with a keystroke. The sidebar holds information and options that used to sit in a semi-transparent bar across the bottom of the window. The new layout feels much cleaner.
 
-__![writer pro workflow](/public/cargo/writer-pro-workflow.png)__
+_![writer pro workflow](/public/cargo/writer-pro-workflow.png)_
 
 One of the reasons for this new sidebar is the addition of something iA is calling Workflows. Writer Pro has four different Workflows for each stage of the writing process: Note, Write, Edit, and Read. When you switch from one workflow to another, the typography and accent color changes across the UI as well (except for Edit and Read, which have the same typeface).
 
@@ -25,7 +25,7 @@ _Side note: Because Workflows, when used outside of iCloud, do nothing to change
 ## Syntax Control
 Writer Pro also brings with it something called Syntax Control &mdash; the coloring or highlighting of like words and phrases. Developers have had syntax "highlighting" in their code-editors for years, but Writer Pro's implementation doesn't focus on code-specific paradigms; rather, it allows you to highlight adjectives, nouns, adverbs, verbs, prepositions, conjunctions, and whole sentences throughout your document.
 
-__![writer pro syntax](/public/cargo/writer-pro-syntax.png)__
+_![writer pro syntax](/public/cargo/writer-pro-syntax.png)_
 
 It's a damn clever feature for editing, and arguably one of the best writing-specific innovations added to a text-editor over the last five years.
 

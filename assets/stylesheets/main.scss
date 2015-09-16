@@ -3,7 +3,7 @@
 
 $max-width: 30rem;
 $color: blue;
-$line-height: 1.45rem;
+$line-height: 1.45em;
 $sans: "Montserrat", "Avenir Next", "Segoe UI", Verdana;
 
 * {
@@ -11,7 +11,7 @@ $sans: "Montserrat", "Avenir Next", "Segoe UI", Verdana;
   box-sizing: content-box;
 }
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -39,7 +39,7 @@ h1 {
   a { font-weight: normal; }
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: normal;
   margin-bottom: .25rem; 
   line-height: 1.1em;
@@ -49,7 +49,7 @@ h3 {
   font-weight: normal;
   display: inline-block;
   font-size: 1rem;
-  border-bottom: dotted 1px #aaa;
+  border-bottom: solid 1px #aaa;
   margin-bottom: .5rem;
 }
 
@@ -65,8 +65,12 @@ a {
 
 blockquote {
   margin: 0 0 1rem;
-  border-left: solid 1px #ccc; 
+  border-bottom: solid 3px #ccc; 
   padding-left: 1rem; 
+  font-size: .9rem; 
+  line-height: $line-height; 
+  background: #f2f2f2; 
+  padding: 1rem;
 }
 
 blockquote p:last-child { margin-bottom: 0; }
@@ -76,7 +80,7 @@ hr {
   margin: 1.75rem 0;
   border: none;
   height: 0px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; 
 }
 
 
@@ -95,7 +99,7 @@ img {
 }
 
 em img {
-  max-width: $max-width + 24rem;
+  max-width: $max-width + 18rem;
 }
 
 ul, ol {
@@ -131,15 +135,6 @@ li { margin-bottom: .25rem; }
   }
 }
 
-.more-information {
-  font-size: .9rem; 
-  line-height: $line-height; 
-  color: #555; 
-  padding-left: 1rem; 
-  border-left: solid 1px #ccc; 
-  p { margin-bottom: .75em; }
-}
-
 .footer {
   font-size: .86rem;
   line-height: $line-height;
@@ -165,10 +160,6 @@ li { margin-bottom: .25rem; }
   border-bottom: 1px solid #ccc; 
 }
 
-.big {
-  max-width: $max-width + 22rem;
-  margin-left: -11rem;
-}
 
 .link {
   color: $color;
@@ -176,9 +167,33 @@ li { margin-bottom: .25rem; }
   cursor: pointer;
 }
 
+.post-navigation {
+  margin: 4rem 0; 
+  max-width: 80%;
+}
+
+.post-navigation-row {
+  display: table-row;	
+	font-size: .9rem;
+	line-height: $line-height;
+}
+
+.post-navigation-title {
+  padding-right: 1rem;
+	text-align: right; 
+}
+
+.post-navigation-title,  
+.post-navigation-link {
+  display: table-cell;	
+}
+
 @media (max-width: $max-width + 22rem) {
  	html { font-size: 17px; }
-  em img, .big {
+ 	.site-header {
+ 	  padding: 1rem; 
+ 	}
+  em img, img, .big {
     margin-left: 0;
     max-width: 100%;
   }

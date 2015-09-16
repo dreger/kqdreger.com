@@ -7,3 +7,19 @@ layout: default
   <p class="post-meta">{{ page.date | date: "%B %Y" }}</p>
   {{ content }}
 </article>
+
+<section class="post-navigation">
+  {% if page.previous.url %}
+    <section class="post-navigation-row">
+      <span class="post-navigation-title">Previous:</span>
+      <span class="post-navigation-link"><a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a></span>
+    </section>
+  {% endif %}
+  
+  {% if page.next.url %}
+    <section class="post-navigation-row">
+      <span class="post-navigation-title">Next:</span>
+      <span class="post-navigation-link"><a class="prev" href="{{page.next.url}}">{{page.next.title}}</a></span>
+    </section>
+  {% endif %}
+</section>
