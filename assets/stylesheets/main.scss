@@ -36,7 +36,6 @@ h6 {
 h1 {
   font-size: 1.75rem;
   line-height: 1em;
-  a { font-weight: normal; }
 }
 h2 {
   font-size: 1.4rem;
@@ -126,9 +125,10 @@ li { margin-bottom: .25rem; }
   font-size: 1rem; 
   margin: 0; 
   padding: 0; 
+  font-weight: bold; 
   line-height: 1em; 
   a { 
-    text-decoration: none; 
+//     text-decoration: none; 
     &:hover { text-decoration: underline; }
   }
 }
