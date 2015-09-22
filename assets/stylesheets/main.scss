@@ -2,16 +2,16 @@
 ---
 
 $max-width: 30rem;
-$color: blue;
+$color: #79BD9A;
 $line-height: 1.45em;
-$sans: "Montserrat", "Avenir Next", "Segoe UI", Verdana;
+$sans: "Roboto", "Noto Sans", "Open Sans";
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 16px;
+  font-size: 17px;
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -60,7 +60,7 @@ p {
 
 a {
   color: $color;
-  &:visited { color: #6A1B9A; }
+//   &:visited { color: #6A1B9A; }
 }
 
 blockquote {
@@ -90,16 +90,12 @@ del, del a {
 
 
 img {
-  max-width: $max-width;
-  border: solid 1px transparent;
-  cursor: pointer;
-  &:hover {
-    border: $color 1px solid;
-  }
+  width: 100%; 
 }
 
 em img {
-  max-width: $max-width + 18rem;
+  width: $max-width + 18rem;
+  margin-left: -9rem;
 }
 
 ul, ol {
@@ -110,15 +106,18 @@ li { margin-bottom: .25rem; }
 
 .wrapper {
   max-width: $max-width;
-  margin: 0;
+  margin: 0 auto;
   padding: 1rem;
 }
 
 .site-header-wrapper {
-  background: #242424; 
+  background: #fbfbfb; 
+  border-bottom: solid 1px #f2f2f2; 
 }
 
 .site-header {
+  max-width: $max-width;
+  margin: 0 auto;
   padding: .5rem 1rem; 
 }
 
@@ -129,7 +128,6 @@ li { margin-bottom: .25rem; }
   padding: 0; 
   line-height: 1em; 
   a { 
-    color: white; 
     text-decoration: none; 
     &:hover { text-decoration: underline; }
   }
