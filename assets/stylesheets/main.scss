@@ -2,7 +2,8 @@
 ---
 
 $max-width: 30rem;
-$color: #79BD9A;
+$color: #F7882E;
+$color-copy: #3a3a3a; 
 $line-height: 1.45em;
 $sans: "Roboto", "Noto Sans", "Open Sans";
 
@@ -18,7 +19,7 @@ body {
     margin: 0;
     font-family: $sans;
     padding: 0;
-    color: #3a3a3a;
+    color: $color-copy;
     font-weight: normal;
     font-style: normal;
     line-height: $line-height;
@@ -58,8 +59,10 @@ p {
 
 
 a {
-  color: $color;
-//   &:visited { color: #6A1B9A; }
+  color: $color-copy; 
+  border-bottom: dotted #ccc 1px; 
+  text-decoration: none; 
+  &:hover { color: $color; }
 }
 
 blockquote {
@@ -127,10 +130,6 @@ li { margin-bottom: .25rem; }
   padding: 0; 
   font-weight: bold; 
   line-height: 1em; 
-  a { 
-//     text-decoration: none; 
-    &:hover { text-decoration: underline; }
-  }
 }
 
 .footer {
@@ -160,9 +159,8 @@ li { margin-bottom: .25rem; }
 
 
 .link {
-  color: $color;
-  text-decoration: underline;
-  cursor: pointer;
+  @extend a; 
+  cursor: pointer; 
 }
 
 .post-navigation {
