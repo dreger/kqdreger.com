@@ -14,13 +14,12 @@ layout: default
   <p class="contact-information">Correspondence is cheerfully received at <a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@Dreger</a>. I do my best to return your message within 48 hours. Thanks for reading. </p>
 </blockquote>
 
-<ul class="archives">
 {% for post in site.posts %}
-<li>
-  <a href="{{ post.url }}">{{ post.title }}</a>
-</li>
+<article class="article-home">
+  <h1 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h1>
+  {{ post.content | strip_html | truncate: 250 }}
+</article>
 {% endfor %}
-</ul>
 
 
 <script type="text/javascript">

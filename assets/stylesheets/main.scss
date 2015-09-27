@@ -5,7 +5,8 @@ $max-width: 30rem;
 $color: #F7882E;
 $color-copy: #3a3a3a; 
 $line-height: 1.45em;
-$sans: "Roboto", "Noto Sans", "Open Sans";
+$sans: "Roboto", Verdana;
+$serif: Georgia;
 
 * {
   -moz-box-sizing: content-box;
@@ -17,7 +18,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: $sans;
+    font-family: $serif;
     padding: 0;
     color: $color-copy;
     font-weight: normal;
@@ -31,12 +32,13 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $sans;
   margin: 0 0 1rem 0;
 }
 
 h1 {
   font-size: 1.75rem;
-  line-height: 1em;
+  line-height: 1.15em;
 }
 h2 {
   font-size: 1.4rem;
@@ -60,9 +62,11 @@ p {
 
 a {
   color: $color-copy; 
-  border-bottom: dotted #ccc 1px; 
+  border-bottom: solid 2px #50E3C2; 
   text-decoration: none; 
-  &:hover { color: $color; }
+  &:hover { 
+    background: yellow; 
+  }
 }
 
 blockquote {
@@ -121,6 +125,7 @@ li { margin-bottom: .25rem; }
   max-width: $max-width;
   margin: 0 auto;
   padding: .5rem 1rem; 
+  a { border-bottom-width: 1px; }
 }
 
 .site-header-title {
@@ -128,7 +133,7 @@ li { margin-bottom: .25rem; }
   font-size: 1rem; 
   margin: 0; 
   padding: 0; 
-  font-weight: bold; 
+  font-weight: normal; 
   line-height: 1em; 
 }
 
@@ -136,6 +141,12 @@ li { margin-bottom: .25rem; }
   font-size: .86rem;
   line-height: $line-height;
   font-family: $sans;
+}
+
+
+.article-home {
+  border-top: solid 4px #ddd; 
+  padding: 2rem 0;
 }
 
 .post-title {
