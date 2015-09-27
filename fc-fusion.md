@@ -23,32 +23,7 @@ Keepers: After training, I'll be sticking around for an extra 20 minutes to try 
 
 Players should bring a water bottle and proper playing equipment. Shinguards are required for each training session.
 
-### <a name="schedule"></a> Match Schedule
-
-- (tie)<br>
-  ~~_Sunday, August 23, 2015_ <br>
-  1:00pm &mdash; Home vs CAK East<br>
-  2782 Diamond St NE, Canton, OH~~
-
-- (loss)<br>
-  ~~_Sunday, August 30, 2015_<br>
-  3:30pm &mdash; Home (Field 3) vs Tallmadge<br>
-  2782 Diamond St NE, Canton, OH~~
-
-- (loss)<br>
-  ~~_Wednesday, September 2, 2015_<br>
-  6:30pm &mdash; Away vs Internationals<br>
-  [1806 Copley Road, Copley, OH][copley]~~
-
-- (loss)<br>
-  ~~_Wednesday, September 9, 2015_<br>
-  6:30pm &mdash; Home (Field 1) vs Perry United<br>
-  [2782 Diamond St NE, Canton, OH][home]~~
-
-- (loss)<br>
-  ~~_Sunday, September 13, 2015_<br>
-  1:00pm &mdash; Home (Field 3) vs NEO Classic<br>
-  [2782 Diamond St NE, Canton, OH][home]~~
+### <a name="schedule"></a> Upcoming Schedule
 
 - _Sunday, September 27, 2015_<br>
   3:30pm &mdash; Away vs Akron Inner<br>
@@ -61,6 +36,34 @@ Players should bring a water bottle and proper playing equipment. Shinguards are
 - _Sunday, October 11, 2015_<br>
   1:00pm &mdash; Away vs Norton<br>
   [3090 Wadsworth Road, Norton, OH][oakleaf]
+
+### <a name="schedule"></a> Past Schedule
+
+- (loss)<br>
+  ~~_Sunday, September 13, 2015_<br>
+  1:00pm &mdash; Home (Field 3) vs NEO Classic<br>
+  [2782 Diamond St NE, Canton, OH][home]~~
+  
+- (loss)<br>
+  ~~_Wednesday, September 9, 2015_<br>
+  6:30pm &mdash; Home (Field 1) vs Perry United<br>
+  [2782 Diamond St NE, Canton, OH][home]~~
+
+- (loss)<br>
+  ~~_Wednesday, September 2, 2015_<br>
+  6:30pm &mdash; Away vs Internationals<br>
+  [1806 Copley Road, Copley, OH][copley]~~
+  
+- (loss)<br>
+  ~~_Sunday, August 30, 2015_<br>
+  3:30pm &mdash; Home (Field 3) vs Tallmadge<br>
+  2782 Diamond St NE, Canton, OH~~
+  
+- (tie)<br>
+  ~~_Sunday, August 23, 2015_ <br>
+  1:00pm &mdash; Home vs CAK East<br>
+  2782 Diamond St NE, Canton, OH~~
+
 
   [home]: https://goo.gl/maps/3h3zn
   [copley]: https://goo.gl/maps/IQsKS
