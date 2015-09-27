@@ -40,13 +40,15 @@ Players should bring a water bottle and proper playing equipment. Shinguards are
   6:30pm &mdash; Away vs Internationals<br>
   [1806 Copley Road, Copley, OH][copley]~~
 
-- _Wednesday, September 9, 2015_<br>
+- (loss)<br>
+  ~~_Wednesday, September 9, 2015_<br>
   6:30pm &mdash; Home (Field 1) vs Perry United<br>
-  [2782 Diamond St NE, Canton, OH][home]
+  [2782 Diamond St NE, Canton, OH][home]~~
 
-- _Sunday, September 13, 2015_<br>
+- (loss)<br>
+  ~~_Sunday, September 13, 2015_<br>
   1:00pm &mdash; Home (Field 3) vs NEO Classic<br>
-  [2782 Diamond St NE, Canton, OH][home]
+  [2782 Diamond St NE, Canton, OH][home]~~
 
 - _Sunday, September 27, 2015_<br>
   3:30pm &mdash; Away vs Akron Inner<br>
