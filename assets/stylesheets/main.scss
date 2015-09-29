@@ -1,7 +1,7 @@
 ---
 ---
 
-$max-width: 30rem;
+$max-width: 740px;
 $color: #F7882E;
 $color-copy: #3a3a3a; 
 $line-height: 1.45em;
@@ -37,13 +37,14 @@ h6 {
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-size: 1rem;
   line-height: 1.15em;
+  font-weight: bold; 
 }
 h2 {
-  font-size: 1.4rem;
-  font-weight: normal;
-  margin-bottom: .25rem; 
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem; 
   line-height: 1.1em;
   a { text-decoration: none; }
 }
@@ -86,7 +87,7 @@ hr {
   margin: 1.75rem 0;
   border: none;
   height: 0px;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px dotted #ccc; 
 }
 
 
@@ -100,8 +101,8 @@ img {
 }
 
 em img {
-  width: $max-width + 18rem;
-  margin-left: -9rem;
+  width: 150%;
+  margin-left: -25%; 
 }
 
 ul, ol {
@@ -110,55 +111,56 @@ ul, ol {
 
 li { margin-bottom: .25rem; }
 
+article {
+  position: relative; 
+}
+
 .wrapper {
   max-width: $max-width;
-  margin: 0 auto;
+  margin: 5rem auto;
   padding: 1rem;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row; 
 }
 
-.site-header-wrapper {
-  background: #fbfbfb; 
-  border-bottom: solid 1px #f2f2f2; 
+.header {
+  font-family: $sans; 
+  width: 37.5%; 
 }
 
-.site-header {
-  max-width: $max-width;
-  margin: 0 auto;
-  padding: .5rem 1rem; 
-  a { border-bottom-width: 1px; }
+.content {
+  width: 62.5%; 
+  padding-left: 1.5rem; 
 }
 
-.site-header-title {
-  font-family: $sans;
-  font-size: 1rem; 
-  margin: 0; 
-  padding: 0; 
-  font-weight: normal; 
-  line-height: 1em; 
-}
 
 .footer {
-  font-size: .86rem;
+  font-size: .85rem;
   line-height: $line-height;
   font-family: $sans;
 }
 
 
 .article-home {
-  border-top: solid 4px #ddd; 
-  padding: 2rem 0;
+  border-bottom: solid 2px #ddd; 
+  padding: 1rem 0;
+  &:first-child { padding-top: 0; }
 }
 
+.more-information {
+  font-size: .85rem; 
+  line-height: $line-height; 
+}
 .post-title {
   margin-bottom: .25rem;
+  line-height: $line-height;
 }
 
 .post-meta {
   color: #aaa;
-  line-height: 1.25em;
-  a {
-    color: #aaa;
-  }
+  font-family: $sans; 
 }
 
 .thick {
@@ -195,13 +197,21 @@ li { margin-bottom: .25rem; }
   display: table-cell;	
 }
 
-@media (max-width: $max-width + 22rem) {
- 	html { font-size: 17px; }
- 	.site-header {
- 	  padding: 1rem; 
- 	}
+@media (max-width: 1000px) {
+ 	html { font-size: 18px; }
   em img, img, .big {
     margin-left: 0;
     max-width: 100%;
   }
+ 	.header, .content {
+ 	  float: none; 
+ 	  width: 100%; 
+ 	  padding: 0; 
+ 	  margin: 0; 
+ 	}
+ 	.wrapper { 
+ 	  margin: 0 auto;
+ 	  max-width: 30rem; 
+ 	  display: inherit; 
+ 	}
 }

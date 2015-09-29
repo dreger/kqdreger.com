@@ -1,25 +1,28 @@
 ---
 layout: default
 ---
-<p><strong>Hello</strong>&mdash;My name is Kyle, and I am a writer and designer. Below is my personal column. <span class="toggle link">More</span>?</p>
+<header class="header">
+  <p><strong>Hello</strong>&mdash;My name is Kyle, and I am a writer and designer. This is my personal column. <span class="toggle link">More</span>?</p>
+  <section class="more-information" style="display: none;">
+    <p><strong>More, you say?</strong></p>
+    <ul>
+      <li>Work—Currently a Ruby on Rails programmer and user experience designer at <a href="http://patriotsoftware.com">Patriot Software</a> (<a href="https://www.patriotsoftware.com/about/careers/">We're hiring</a>!). </li>
+      <li>School—The <a href="http://mountunion.edu">University of Mount Union</a>, which is also where I met my wife.</li>
+      <li>Writing—Numerous places: <a href="http://audaciousfox.com">Audacious Fox</a>, <a href="http://toolsandtoys.net/author/kyledreger/">Tools and Toys</a>, <a href="http://lifehacker.com/5606759/browser-comparison-whats-the-most-pixel-friendly-browser-mac-edition">Lifehacker</a>, and <a href="http://stemmings.com/author/dreger/">Stemmings</a>.</li>
+      <li>Speaking—Most recently at the <a href="https://www.youtube.com/watch?v=I78OflS6hWc">commencement address</a> for my college graduation.</li>
+    </ul>
+    <p class="contact-information">Correspondence is cheerfully received at <a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@Dreger</a>. I do my best to return your message within 48 hours. Thanks for reading. </p>
+  </section> 
+</header>
 
-<blockquote class="more-information" style="display: none;">
-  <p><strong>More, you say?</strong></p>
-  <ul>
-    <li>Work—Currently a Ruby on Rails programmer and user experience designer at <a href="http://patriotsoftware.com">Patriot Software</a> (<a href="https://www.patriotsoftware.com/about/careers/">We're hiring</a>!). </li>
-    <li>School—The <a href="http://mountunion.edu">University of Mount Union</a>, which is also where I met my wife.</li>
-    <li>Writing—Numerous places: <a href="http://audaciousfox.com">Audacious Fox</a>, <a href="http://toolsandtoys.net/author/kyledreger/">Tools and Toys</a>, <a href="http://lifehacker.com/5606759/browser-comparison-whats-the-most-pixel-friendly-browser-mac-edition">Lifehacker</a>, and <a href="http://stemmings.com/author/dreger/">Stemmings</a>.</li>
-    <li>Speaking—Most recently at the <a href="https://www.youtube.com/watch?v=I78OflS6hWc">commencement address</a> for my college graduation.</li>
-  </ul>
-  <p class="contact-information">Correspondence is cheerfully received at <a href="mailto:comments@dreger.me">comments@dreger.me</a> or <a href="http://twitter.com/dreger">@Dreger</a>. I do my best to return your message within 48 hours. Thanks for reading. </p>
-</blockquote>
-
-{% for post in site.posts %}
-<article class="article-home">
-  <h1 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h1>
-  {{ post.content | strip_html | truncate: 250 }}
-</article>
-{% endfor %}
+<section class="content">
+  {% for post in site.posts %}
+    <article class="article-home">
+      <h1 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h1>
+      {{ post.content | strip_html | truncate: 250 }}
+    </article>
+    {% endfor %}
+</section>
 
 
 <script type="text/javascript">
