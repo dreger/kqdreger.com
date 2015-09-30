@@ -1,8 +1,8 @@
 ---
-title: Homescreen for September 2015
+title: Homescreen for October 2015
 date: 2015-09-29 22:46
 ---
-![Yay, apps](/assets/images/homescreen-2015-09.png)
+![Yay, apps](/assets/images/homescreen-2015-10.png)
 
 Folders on top. Alphabetize everything. Never have four apps in the dock. 
 
