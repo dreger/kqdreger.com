@@ -1,9 +1,10 @@
 url: http://kyledreger.com
 domain: http://kyledreger.com
 title: "Kyle Dreger"
+name: "Kyle Dreger"
 author: Kyle Dreger
 email: comments@dreger.me
-description: "Something audacious."
+description: "A column about design and writing."
 markdown: rdiscount
 highlighter: pygments
 permalink: /:title.html
