@@ -15,6 +15,7 @@ rdiscount:
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
 
 sass:
     style: :compressed
