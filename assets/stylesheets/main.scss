@@ -2,10 +2,12 @@
 ---
 
 $max-width: 740px;
+$color: blue;
 $color: #F7882E;
+$color: #50E3C2;
 $color-copy: #3a3a3a; 
 $line-height: 1.45em;
-$sans: "Roboto", Verdana;
+$sans: -apple-system, "Helvetica Neue", "Segoe UI", Verdana;
 $serif: Georgia;
 
 * {
@@ -19,6 +21,7 @@ body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
     font-family: $serif;
+//     background: #F6EFE4;
     padding: 0;
     color: $color-copy;
     font-weight: normal;
@@ -63,7 +66,7 @@ p {
 
 a {
   color: $color-copy; 
-  border-bottom: solid 2px #50E3C2; 
+  border-bottom: solid 2px $color; 
   text-decoration: none; 
   &:hover { 
     background: yellow; 
@@ -98,6 +101,7 @@ del, del a {
 
 img {
   width: 100%; 
+  border-radius: 3px; 
 }
 
 em img {
@@ -110,10 +114,6 @@ ul, ol {
 }
 
 li { margin-bottom: .25rem; }
-
-article {
-  position: relative; 
-}
 
 .wrapper {
   max-width: $max-width;
@@ -142,11 +142,14 @@ article {
   font-family: $sans;
 }
 
-
-.article-home {
-  border-bottom: solid 2px #ddd; 
-  padding: 1rem 0;
-  &:first-child { padding-top: 0; }
+.article {
+  background: white; 
+  margin-bottom: 1rem; 
+  padding: 0 1rem 1rem;
+  position: relative; 
+  border-radius: 21px; 
+  box-sizing: border-box;
+  p:last-child { margin-bottom: 0; }
 }
 
 .more-information {
