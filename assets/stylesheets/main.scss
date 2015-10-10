@@ -86,11 +86,11 @@ blockquote {
 blockquote p:last-child { margin-bottom: 0; }
 
 hr {
-  width: 100%;
-  margin: 1.75rem 0;
+  width: 25%;
+  margin: 1.75rem auto;
   border: none;
   height: 0px;
-  border-bottom: 1px dotted #ccc; 
+  border-bottom: 2px solid #eee; 
 }
 
 
@@ -144,8 +144,8 @@ li { margin-bottom: .25rem; }
 
 .article {
   background: white; 
-  margin-bottom: 1rem; 
-  padding: 0 1rem 1rem;
+  margin-bottom: 1.5rem; 
+  padding: 0;
   position: relative; 
   border-radius: 21px; 
   box-sizing: border-box;
