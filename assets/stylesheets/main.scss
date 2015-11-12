@@ -5,7 +5,8 @@ $max-width: 740px;
 $color: blue;
 $color: #F7882E;
 $color: #50E3C2;
-$color-copy: #3a3a3a; 
+$color: rgb(0, 255, 0); 
+$color-copy: #eee; 
 $line-height: 1.45em;
 $sans: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; 
 
@@ -22,7 +23,7 @@ body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
     font-family: $serif;
-//     background: #F6EFE4;
+    background: #222; 
     padding: 0;
     color: $color-copy;
     font-weight: normal;
@@ -66,11 +67,11 @@ p {
 
 
 a {
-  color: $color-copy; 
+  color: $color; 
   border-bottom: solid 2px $color; 
   text-decoration: none; 
   &:hover { 
-    background: yellow; 
+    background: #444; 
   }
 }
 
@@ -144,7 +145,6 @@ li { margin-bottom: .25rem; }
 }
 
 .article {
-  background: white; 
   margin-bottom: 1.5rem; 
   padding: 0;
   position: relative; 
