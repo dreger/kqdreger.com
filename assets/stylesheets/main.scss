@@ -5,12 +5,12 @@ $max-width: 740px;
 $color: blue;
 $color: #F7882E;
 $color: #50E3C2;
-$color: rgb(0, 255, 0); 
-$color-copy: #eee; 
+$color: rgb(0, 0, 255); 
+$color-copy: #222; 
 $line-height: 1.45em;
 $sans: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; 
 
-$serif: Georgia;
+$serif: $sans, Georgia;
 
 * {
   -moz-box-sizing: content-box;
@@ -23,7 +23,7 @@ body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
     font-family: $serif;
-    background: #222; 
+    background: #fefefe; 
     padding: 0;
     color: $color-copy;
     font-weight: normal;
@@ -71,18 +71,17 @@ a {
   border-bottom: solid 2px $color; 
   text-decoration: none; 
   &:hover { 
-    background: #444; 
+    background: #eee; 
   }
 }
 
 blockquote {
   margin: 0 0 1rem;
   border-bottom: solid 3px #ccc; 
-  padding-left: 1rem; 
-  font-size: .9rem; 
+  padding: 1rem; 
+  font-size: .85rem; 
   line-height: $line-height; 
   background: #f2f2f2; 
-  padding: 1rem;
 }
 
 blockquote p:last-child { margin-bottom: 0; }
@@ -113,6 +112,7 @@ em img {
 
 ul, ol {
   padding-left: 1.25rem;
+  margin: 0 0 1rem; 
 }
 
 li { margin-bottom: .25rem; }

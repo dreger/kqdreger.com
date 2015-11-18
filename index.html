@@ -2,7 +2,8 @@
 layout: default
 ---
 <header class="header">
-  <p><strong>Hello</strong>&mdash;My name is Kyle, and I am a writer and designer. This is my personal column. <span class="toggle link">More</span>?</p>
+  <p><strong>Kyle Dreger</strong></p>
+  <p><strong>Hello</strong>&mdash;I am a writer and designer. This is my personal column. <span class="toggle link">More</span>?</p>
   <section class="more-information" style="display: none;">
     <p><strong>More, you say?</strong></p>
     <ul>
@@ -18,12 +19,12 @@ layout: default
 </header>
 
 <section class="content">
-  {% for post in site.posts %}
-    <article class="article-home article">
-      <h1 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h1>
-      {{ post.content | strip_html | truncate: 250 }}
-    </article>
-    {% endfor %}
+{% for post in site.posts %}
+  <article class="article-home article">
+    <h1 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h1>
+    {{ post.content | strip_html | truncate: 250 }}
+  </article>
+  {% endfor %}
 </section>
 
 

@@ -7,7 +7,6 @@ email: comments@dreger.me
 description: "A column about design and writing."
 markdown: rdiscount
 highlighter: pygments
-permalink: /:title.html
 permalink: /archives/:short_year:y_day-:title.html
 timezone: "America/New_York"
 
