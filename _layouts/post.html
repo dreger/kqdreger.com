@@ -1,14 +1,11 @@
 ---
 layout: default
 ---
-
-
-<header class="header">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <p class="post-meta">{{ page.date | date: "%B %Y" }}</p>
-  <p class="post-meta">By <a href="/">Kyle Dreger</a></p>
-</header> 
-<section class="content article">
-  {% if page.link %}<h2><a href="{{ page.link }}">Reference &rarr;</a></h2>{% endif %}
+<article>
+  <header>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %Y" }} &middot; <a href="/">Kyle Dreger</a></p>
+  </header>
+  {% if page.link %}<p><a class="post-reference" href="{{ page.link }}">Reference &rarr;</a></p>{% endif %}
   {{ content }}
-</section> 
+</article>

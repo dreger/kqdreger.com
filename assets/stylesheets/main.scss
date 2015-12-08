@@ -1,29 +1,24 @@
 ---
 ---
-
-$max-width: 740px;
-$color: blue;
-$color: #F7882E;
-$color: #50E3C2;
+$max-width: 30rem;
 $color: rgb(0, 0, 255); 
+$color-bg: #fefefe; 
 $color-copy: #222; 
 $line-height: 1.45em;
 $sans: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; 
-
-$serif: $sans, Georgia;
 
 * {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 html {
-  font-size: 17px;
+  font-size: 16px;
 }
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    font-family: $serif;
-    background: #fefefe; 
+    font-family: $sans;
+    background: $color-bg; 
     padding: 0;
     color: $color-copy;
     font-weight: normal;
@@ -37,7 +32,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $sans;
   margin: 0 0 1rem 0;
 }
 
@@ -45,20 +39,35 @@ h1 {
   font-size: 1rem;
   line-height: 1.15em;
   font-weight: bold; 
+  font-size: 34px;
+    font-weight: 900;
+    min-height: 41px;
+    a { 
+      border: none; 
+      &:hover { border-bottom: solid 3px $color; }
+    }
 }
 h2 {
   font-size: 1rem;
-  font-weight: bold;
   margin-bottom: 1rem; 
   line-height: 1.1em;
+  font-size: 27px;
+    font-weight: 700;
+    min-height: 33px;
+    letter-spacing: -.5px;
+    margin: 0;
   a { text-decoration: none; }
 }
 h3 {
   font-weight: normal;
   display: inline-block;
   font-size: 1rem;
-  border-bottom: solid 1px #aaa;
-  margin-bottom: .5rem;
+  font-weight: 900;
+  line-height: 22px;
+  min-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0; 
 }
 
 p {
@@ -71,17 +80,14 @@ a {
   border-bottom: solid 2px $color; 
   text-decoration: none; 
   &:hover { 
-    background: #eee; 
+    border-color: darken($color, 20%);
   }
 }
 
 blockquote {
   margin: 0 0 1rem;
-  border-bottom: solid 3px #ccc; 
-  padding: 1rem; 
-  font-size: .85rem; 
-  line-height: $line-height; 
-  background: #f2f2f2; 
+  border-left: solid 3px #ccc; 
+  padding: .25rem 1rem; 
 }
 
 blockquote p:last-child { margin-bottom: 0; }
@@ -117,49 +123,36 @@ ul, ol {
 
 li { margin-bottom: .25rem; }
 
+article {
+  margin-bottom: 2rem; 
+  padding-top: 0;
+  position: relative; 
+  border-radius: 21px; 
+  box-sizing: border-box;
+}
+
 .wrapper {
   max-width: $max-width;
   margin: 5rem auto;
   padding: 1rem;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row; 
 }
 
-.header {
-  font-family: $sans; 
-  width: 37.5%; 
+.masthead {
+  font-weight: normal; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  border-top: 2px solid $color-copy; 
+  padding-top: .5rem; 
+  font-weight: bold; 
+  a { 
+    border: none; 
+    color: $color-copy; 
+    &:hover { color: $color; }
+  }
 }
 
-.content {
-  width: 62.5%; 
-  padding-left: 1.5rem; 
-}
-
-
-.footer {
-  font-size: .85rem;
-  line-height: $line-height;
-  font-family: $sans;
-}
-
-.article {
-  margin-bottom: 1.5rem; 
-  padding: 0;
-  position: relative; 
-  border-radius: 21px; 
-  box-sizing: border-box;
-  p:last-child { margin-bottom: 0; }
-}
-
-.more-information {
-  font-size: .85rem; 
-  line-height: $line-height; 
-}
 .post-title {
   margin-bottom: .25rem;
-  line-height: $line-height;
 }
 
 .post-meta {
@@ -167,41 +160,15 @@ li { margin-bottom: .25rem; }
   font-family: $sans; 
 }
 
-.thick {
-  height: 2px; 
-  background: #eee; 
-  border-top: 1px solid #ccc; 
-  border-bottom: 1px solid #ccc; 
+.post-reference {
+  display: inline-block; 
+  border: solid 2px #ccc; 
+  padding: .25rem 1rem; 
+  border-radius: 3px; 
 }
 
 
-.link {
-  @extend a; 
-  cursor: pointer; 
-}
-
-.post-navigation {
-  margin: 4rem 0; 
-  max-width: 80%;
-}
-
-.post-navigation-row {
-  display: table-row;	
-	font-size: .9rem;
-	line-height: $line-height;
-}
-
-.post-navigation-title {
-  padding-right: 1rem;
-	text-align: right; 
-}
-
-.post-navigation-title,  
-.post-navigation-link {
-  display: table-cell;	
-}
-
-@media (max-width: 1000px) {
+@media (max-width: $max-width + 8rem) {
  	html { font-size: 18px; }
   em img, img, .big {
     margin-left: 0;

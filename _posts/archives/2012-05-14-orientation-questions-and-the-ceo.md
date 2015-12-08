@@ -16,7 +16,7 @@ I turned out to be quite a successful at all the activities we had participated 
 
 I don't know how many CEO's of companies as large as Timken make time to come to an intern orientation day, but there can't be many. Seeing President Griffith and being able to spend 45 some minutes listening to him speak and then having our own personal Q&A session was awesome. As much as I respected his position before this morning, I respect him that much more for making time for us.
 
-### Smart people ask questions
+## Smart people ask questions
 
 Something that the session with President Griffith reminded me of was an article by Tommy MacWilliam called [What I've Learned About Smart People](http://blog.tommymacwilliam.com/post/17500383225/what-ive-learned-about-smart-people). MacWilliam is a student at Harvard and has had the chance to be around *a lot* of incredibly intelligent individuals. From this, and the fact he seems to be a pretty bright guy himself, he's noticed that **smart people ask questions**:
 
@@ -31,6 +31,6 @@ That's not to say I wasn't really nervous and scribbled down a draft of my quest
 Asking questions, especially when you are surrounded by people way smarter than yourself is always going to be intimidating. You don't want to sound stupid, or ask something that isn't relevant, but regardless how nervous you feel, just ask. Make it a good question and ask. It's worth it.
 
 
-### Alarm set for 7:10 AM
+## Alarm set for 7:10 AM
 
 Tomorrow will mark my first *actual* day of work for The Timken Company. It seems like a decade has passed since I first submitted my application and resumé. I'm ready to dive in. Here we go.

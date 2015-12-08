@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Styleguide
+title: Manual of Style
 permalink: /style-guide/
 ---
-# The KD Manual of Style
 
 This document serves as the living style guide for my writing, and I consider it a personalized list of rules that are a superset of those found in the New York Times Manual of Style. The goal of this document is to bring a consistent voice to all the writing on this site.
 
