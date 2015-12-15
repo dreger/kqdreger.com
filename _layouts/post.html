@@ -3,9 +3,17 @@ layout: default
 ---
 <article>
   <header>
+    <p class="post-author"><a href="/">Kyle Dreger</a></p>
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %Y" }} &middot; <a href="/">Kyle Dreger</a></p>
+    <p class="post-meta">{{ page.date | date: "%B %Y" }}</p>
   </header>
-  {% if page.link %}<p><a class="post-reference" href="{{ page.link }}">Reference &rarr;</a></p>{% endif %}
+  {% if page.link %}
+    <p><a target="_blank" class="post-reference" href="{{ page.link }}">Visit referenced source &rarr;</a></p>
+  {% endif %}
   {{ content }}
 </article>
+
+<footer>
+  <hr>
+  <p>Comments or response? Tweet <a href="https://twitter.com/dreger">@Dreger</a>.</p>
+</footer>
