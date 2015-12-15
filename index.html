@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<p><a href="/"><img class="logo" src="/assets/images/dreger.png"></a></p>
+
+<p>By <strong>Kyle Dreger</strong></p>
+
+<p>I work for <a href="https://patriotsoftware.com">Patriot Software</a>. I write about design, gadgets I can afford, and whatever interesting things my brother texts me.</p>
+
+<p><a href="https://twitter.com/dreger">@Dreger</a> &ndash; <a href="/feed.xml">RSS</a> &ndash; <a href="mailto:comments@dreger.me">Email</a></p>
+
+<hr>
+
+{% for post in site.posts %}
+
+  <article>
+  {% if post.link %} 
+    <h1 class="link-title"><a href={{ post.link }}">{{ post.title }}</a></h1>&nbsp;&nbsp;&nbsp;<a href="{{ post.url }}">&#9733;</a>
+    {{ post.content }}
+  {% else %} 
+    <h1 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h1>
+    {{ post.content | strip_html | truncate: 250 }}
+  
+  {% endif %}
+  </article>
+{% endfor %}
