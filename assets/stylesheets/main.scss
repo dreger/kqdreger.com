@@ -123,6 +123,11 @@ footer {
   a { color: #aaa; }
 }
 
+hr + ol {
+  @extend footer; 
+  li { margin-bottom: .5em; }
+}
+
 .wrapper {
   max-width: $max-width;
   margin: 5rem auto;
