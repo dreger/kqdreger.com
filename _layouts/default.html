@@ -7,9 +7,14 @@
     <meta charset="utf-8">
     <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
+    <meta property="og:url" content="{{ page.url }}"/>
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+    <link rel="apple-touch-icon" href="/assets/images/icon.png" />
     {% feed_meta %}
-    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
   </head>
   <body>
     <section class="wrapper">
