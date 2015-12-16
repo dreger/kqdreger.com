@@ -1,5 +1,5 @@
 ---
-title: 100 words on design, 003
+title: 100 words on design,&nbsp;003
 date: 2015-10-18 22:05
 ---
 Users like to know that they're using a product correctly. Knowing this, designers will often use small visual cues to help reaffirm the intended use of their product. 
