@@ -1,12 +1,12 @@
 ---
 ---
 $max-width: 30rem;
-$color: rgb(0, 0, 255); 
+$color: #111; 
 $color-bg: #fefefe; 
-$color-copy: #222; 
+$color-copy: #333; 
 $color-faded: #aaa; 
 $line-height: 1.45em;
-$sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+$sans: Seravek, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 
 * {
   -moz-box-sizing: content-box;
@@ -95,10 +95,7 @@ img {
   border-radius: 3px; 
 }
 
-em img {
-  width: 150%;
-  margin-left: -25%; 
-}
+
 
 ul, ol {
   padding-left: 1.25rem;
@@ -131,7 +128,7 @@ hr + ol {
 
 .wrapper {
   max-width: $max-width;
-  margin: 5rem auto;
+  margin: 0 ;
   padding: 1rem;
 }
 
