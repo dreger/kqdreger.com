@@ -3,17 +3,26 @@ layout: default
 ---
 <article>
   <header>
-    <p class="post-author"><a href="/">Kyle Dreger</a></p>
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %Y" }}</p>
+    
+    <span class="header-row">
+      <span class="header-label">Subject:</span>
+      <span class="header-value">{{ page.title }}</span>
+    </span>
+    
+    <span class="header-row">
+      <span class="header-label">From:</span>
+      <span class="header-value">Kyle Dreger</span>
+    </span>
+      
+    <span class="header-row">
+      <span class="header-label">Date:</span>
+      <span class="header-value">{{ page.date | date: "%d %b %Y"}}</span>
+    </span> 
+
   </header>
+  
   {% if page.link %}
     <p><a target="_blank" class="post-reference" href="{{ page.link }}">Visit referenced source &rarr;</a></p>
   {% endif %}
   {{ content }}
 </article>
-
-<footer>
-  <hr>
-  <p>Comments or response? Tweet <a href="https://twitter.com/dreger">@Dreger</a>.</p>
-</footer>
