@@ -2,16 +2,14 @@
 layout: default
 ---
 
-<p><strong>Hello</strong>—I'm Kyle Dreger, and I work for <a href="https://patriotsoftware.com">Patriot Software</a>. Below is a digital archive of {{ site.posts | size  }} articles, ranging from personal anecdotes to commentary on technology. I'm currently doing more writing at <a href="http://audaciousfox.com">Audacious Fox</a>.</p>
+<p><strong>Hello</strong>—I'm Kyle Dreger, and I work for <a href="https://patriotsoftware.com">Patriot Software</a>. This column covers design, gadgets I can afford, and whatever interesting things my brother texts me. <a href="https://twitter.com/dreger">@Dreger</a> &ndash; <a href="/feed.xml">RSS</a> &ndash; <a href="mailto:comments@dreger.me">Email</a></p>
 
-<p><a href="https://twitter.com/dreger">@Dreger</a> &ndash; <a href="/feed.xml">RSS</a> &ndash; <a href="mailto:comments@dreger.me">Email</a></p>
 
-<hr>
-
-<ul>
 {% for post in site.posts %}
-<li>
-  <a href="{{post.url}}">{{ post.title }}</a>
-</li>
+<article>
+<strong><a href="{{post.url}}">{{ post.title }}</a></strong><br>
+{{ post.content | strip_html | truncate: 200 }}
+</article>
+<br>
 {% endfor %}
-</ul>
+

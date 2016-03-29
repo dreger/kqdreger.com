@@ -3,26 +3,14 @@ layout: default
 ---
 <article>
   <header>
-    
-    <span class="header-row">
-      <span class="header-label">Subject:</span>
-      <span class="header-value">{{ page.title }}</span>
-    </span>
-    
-    <span class="header-row">
-      <span class="header-label">From:</span>
-      <span class="header-value">Kyle Dreger</span>
-    </span>
-      
-    <span class="header-row">
-      <span class="header-label">Date:</span>
-      <span class="header-value">{{ page.date | date: "%d %b %Y"}}</span>
-    </span> 
-
+    <h1 class="f1 lh">{{ page.title }}</h1>
+    <p class="f3 lh">Kyle Dreger on {{ page.date | date: "%d %B %Y"}}</p>
   </header>
   
   {% if page.link %}
     <p><a target="_blank" class="post-reference" href="{{ page.link }}">Visit referenced source &rarr;</a></p>
   {% endif %}
-  {{ content }}
+  <div class="f3 lh-copy">
+    {{ content }}
+  </div>
 </article>
