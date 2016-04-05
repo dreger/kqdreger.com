@@ -2,7 +2,7 @@
 title: The Adaptive Tab Bar
 date: 2014-10-03 12:08
 link: https://github.com/Ramotion/adaptive-tab-bar/
-  
+redirect_from: "/archives/14276-adaptive-tab-bar.html"
 ---
 
 

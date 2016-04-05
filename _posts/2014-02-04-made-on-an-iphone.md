@@ -3,7 +3,7 @@ title: Made on an iPhone
 date: 2014-02-04 18:00 -5
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14035-made-on-an-iphone.html"
 ---
 
 

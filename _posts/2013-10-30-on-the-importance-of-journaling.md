@@ -1,6 +1,7 @@
 ---
 title: The Importance of Journaling
 date: 2013-10-30 13:50
+redirect_from: "/archives/13303-on-the-importance-of-journaling.html"
 ---
 
 

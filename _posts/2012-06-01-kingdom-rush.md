@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Great games - Kingdom Rush
 date: 2012-06-01
-  
+redirect_from: "/archives/12153-kingdom-rush.html"
 ---
 
 

@@ -4,7 +4,7 @@ link: http://blog.jaredsinclair.com/post/64880801326/untouchable
 date: 2013-10-27 21:33
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13300-sinclair-ios-buttons.html"
 ---
 
 

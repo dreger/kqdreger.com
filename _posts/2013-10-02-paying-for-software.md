@@ -3,7 +3,7 @@ title: Lovingly Crafted
 date: 2013-10-02 17:49
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13275-paying-for-software.html"
 ---
 
 

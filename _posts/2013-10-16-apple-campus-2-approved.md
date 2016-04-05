@@ -4,7 +4,7 @@ link: http://www.mercurynews.com/business/ci_24319747/cupertino-council-clears-h
 date: 2013-10-16 19:18
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13289-apple-campus-2-approved.html"
 ---
 
 

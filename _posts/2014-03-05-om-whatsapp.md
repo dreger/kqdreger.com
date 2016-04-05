@@ -3,7 +3,7 @@ title: The Age of Mobile
 date: 2014-03-05 21:01
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14064-om-whatsapp.html"
 ---
 
 

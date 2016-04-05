@@ -4,7 +4,7 @@ layout: post
 categories: volume-zero post
 tags:
 - creativity
-  
+redirect_from: "/archives/12347-creative-cycle.html"
 ---
 
 

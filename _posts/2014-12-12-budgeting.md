@@ -1,6 +1,7 @@
 ---
 title: Budgeting
 date: 2014-12-12
+redirect_from: "/archives/14346-budgeting.html"
 ---
 
 

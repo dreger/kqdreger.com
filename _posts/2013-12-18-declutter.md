@@ -3,7 +3,7 @@ title: De-clutter Your Social Networks, Part One
 date: 2013-12-18 11:54
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13352-declutter.html"
 ---
 
 

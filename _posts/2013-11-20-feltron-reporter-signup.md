@@ -4,7 +4,7 @@ link: http://www.reporter-app.com
 date: 2013-11-20 14:38
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13324-feltron-reporter-signup.html"
 ---
 
 

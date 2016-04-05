@@ -3,7 +3,7 @@ title: Frank Chimero's New Personal Website
 date: 2014-03-04 12:29
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14063-fc-new-site.html"
 ---
 
 

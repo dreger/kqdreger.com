@@ -3,7 +3,7 @@ title: Facebook Acquires Oculus VR
 date: 2014-03-25 23:10
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14084-facebook-buys-oculus.html"
 ---
 
 

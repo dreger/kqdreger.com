@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Confessions of an appaholic
-  
+redirect_from: "/archives/11271-appaholic.html"
 ---
 
 

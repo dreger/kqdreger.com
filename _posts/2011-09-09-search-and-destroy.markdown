@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Search and destroy
-  
+redirect_from: "/archives/11252-search-and-destroy.html"
 ---
 
 

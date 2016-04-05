@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Eight days without Facebook
-  
+redirect_from: "/archives/12041-eight-days-without-facebook.html"
 ---
 
 

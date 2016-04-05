@@ -3,7 +3,7 @@ title: 'Hemingway: Write Bold and Clear'
 date: 2014-02-12 12:41
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14043-hemingway.html"
 ---
 
 

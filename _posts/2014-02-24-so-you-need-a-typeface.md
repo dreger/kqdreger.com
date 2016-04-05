@@ -3,7 +3,7 @@ title: So You Need a Typeface
 date: 2014-02-24 16:01
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14055-so-you-need-a-typeface.html"
 ---
 
 

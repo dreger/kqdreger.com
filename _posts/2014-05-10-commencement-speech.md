@@ -1,7 +1,9 @@
 ---
 title: Commencement
 date: 2014-05-10
+redirect_from: "/archives/14130-commencement-speech.html"
 ---
+
 
 "Lifelong Learners," delivered by Kyle Quinn Dreger on May 10, 2014, at the
 University of Mount Union. [Video

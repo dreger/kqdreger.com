@@ -4,7 +4,7 @@ link: https://square.com/cash
 date: 2013-10-16 18:35
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13289-square-cash.html"
 ---
 
 

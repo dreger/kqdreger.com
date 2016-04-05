@@ -3,7 +3,7 @@ title: My Presentation on Mobile Applications
 date: 2014-02-17 17:09
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14048-mobile-presentation.html"
 ---
 
 

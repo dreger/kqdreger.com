@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Canceling my noise
-  
+redirect_from: "/archives/11214-canceling-my-noise.html"
 ---
 
 

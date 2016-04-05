@@ -4,7 +4,7 @@ date: 2014-05-21 19:37
 layout: post
 link: http://stopdesign.com/archive/2014/05/09/a-love-letter-to-twitter.html
 title: Doug Bowman (@stop) to Leave Twitter
-  
+redirect_from: "/archives/14141-stop-twitter.html"
 ---
 
 

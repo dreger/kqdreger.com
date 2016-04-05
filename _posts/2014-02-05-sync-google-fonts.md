@@ -3,7 +3,7 @@ title: Sync Google Fonts to Your Desktop
 date: 2014-02-05 20:47
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14036-sync-google-fonts.html"
 ---
 
 

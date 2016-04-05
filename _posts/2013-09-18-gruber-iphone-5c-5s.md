@@ -2,7 +2,8 @@
 title: John Gruber Reviews the iPhone 5C and 5S
 date: 2013-09-18
 layout: post
-categories: volume-one post  
+categories: volume-one post
+redirect_from: "/archives/13261-gruber-iphone-5c-5s.html"
 ---
 
 

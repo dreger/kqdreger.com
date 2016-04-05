@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: I lost my iPhone
-  
+redirect_from: "/archives/11297-lost-iphone.html"
 ---
 
 

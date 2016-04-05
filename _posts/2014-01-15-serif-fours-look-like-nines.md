@@ -3,7 +3,7 @@ title: Serif Fours Look a Lot Like Nines
 date: 2014-01-15 21:10
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14015-serif-fours-look-like-nines.html"
 ---
 
 

@@ -3,7 +3,7 @@ title: What matters
 layout: post
 categories: volume-zero post
 date: 2013-07-10
-  
+redirect_from: "/archives/13191-what-matters.html"
 ---
 
 

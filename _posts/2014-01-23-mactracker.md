@@ -3,7 +3,7 @@ title: Mactracker.app
 date: 2014-01-23 18:53
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14023-mactracker.html"
 ---
 
 

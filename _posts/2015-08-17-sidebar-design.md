@@ -1,7 +1,9 @@
 ---
 title: Sidebar design
 date: 2015-08-17 11:14
+redirect_from: "/archives/15229-sidebar-design.html"
 ---
+
 
 I'm designing a sidebar for a web application, which has a typical header-sidebar-content layout. The header holds the main navigation, the content area has content, but the sidebar has a lot more: 
 

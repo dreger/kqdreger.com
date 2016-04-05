@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Apple, Nintendo and a TV
 date: 2012-06-04
-  
+redirect_from: "/archives/12156-apple-nintendo-and-tv.html"
 ---
 
 

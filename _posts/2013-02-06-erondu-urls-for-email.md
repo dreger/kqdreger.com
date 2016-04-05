@@ -3,7 +3,7 @@ title: URLs for Email
 date: 2013-02-06
 layout: post
 categories: volume-zero post
-  
+redirect_from: "/archives/13037-erondu-urls-for-email.html"
 ---
 
 

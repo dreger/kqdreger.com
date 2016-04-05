@@ -2,7 +2,7 @@
 title: Design Principles
 date: 2014-10-14 21:04
 link: http://principles.adactio.com
-
+redirect_from: "/archives/14287-adactio-design.html"
 ---
 
 

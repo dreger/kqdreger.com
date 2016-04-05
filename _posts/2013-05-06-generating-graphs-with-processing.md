@@ -3,7 +3,7 @@ title: Generating graphs with Processing
 layout: post
 categories: volume-zero post
 starred: true
-  
+redirect_from: "/archives/13126-generating-graphs-with-processing.html"
 ---
 
 

@@ -3,7 +3,7 @@ title: Things I Could Have Bought
 date: 2014-01-15 00:33
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14015-things-i-could-have-bought.html"
 ---
 
 

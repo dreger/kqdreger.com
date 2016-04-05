@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Get FROGED
-  
+redirect_from: "/archives/12012-get-froged.html"
 ---
 
 

@@ -3,7 +3,7 @@ Title: Writing like a hacker
 layout: post
 categories: volume-zero post
 comments: true
-  
+redirect_from: "/archives/12065-writing-like-a-hacker.html"
 ---
 
 

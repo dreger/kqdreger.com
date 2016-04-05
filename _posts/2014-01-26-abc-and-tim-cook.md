@@ -3,7 +3,7 @@ title: ABC's One-On-One with Tim Cook
 date: 2014-01-26 11:40
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14026-abc-and-tim-cook.html"
 ---
 
 

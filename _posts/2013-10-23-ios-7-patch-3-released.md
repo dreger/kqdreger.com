@@ -4,7 +4,7 @@ link: http://www.macstories.net/news/apple-releases-ios-7-0-3-with-updated-reduc
 date: 2013-10-23 19:15
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13296-ios-7-patch-3-released.html"
 ---
 
 

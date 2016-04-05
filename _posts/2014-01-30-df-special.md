@@ -3,7 +3,7 @@ title: "'Special'"
 date: 2014-01-30 00:21
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14030-df-special.html"
 ---
 
 

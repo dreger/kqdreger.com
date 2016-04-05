@@ -1,7 +1,10 @@
 ---
 title: Two thoughts and an idea for Work in Progress
 date: 2015-09-16 15:09
+redirect_from: "/archives/15259-thoughts-on-work-in-progress.html"
 ---
+
+
 I've been watching a lot of Work in Progress (WIP), an informal video series about product design by Jason Fried, of Basecamp, and Nate Kontny, of Highrise. It's been a lot of fun, and I encourage you to [check out their YouTube channel](https://www.youtube.com/channel/UCDvHTqzl1H6j9JKHiQZn4Cw). 
 
 In [Show #16](https://www.youtube.com/watch?v=HITjjXdbsd4), both Jason and Nate started chatting about ways they could increase viewership. Ideas ranged from email blasts to putting the audio version of WIP on iTunes. Since the show is still young, and I've watched almost every episode, I thought it might help if I wrote up a my thoughts on how it's going so far. 

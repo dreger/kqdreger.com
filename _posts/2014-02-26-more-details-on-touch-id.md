@@ -3,7 +3,7 @@ title: Some More Details on Touch ID's Security
 date: 2014-02-26 18:56
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14057-more-details-on-touch-id.html"
 ---
 
 

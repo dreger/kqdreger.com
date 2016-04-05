@@ -3,7 +3,7 @@ title: Celebrate The Mac
 date: 2014-01-23 18:03
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14023-celebrate-the-mac.html"
 ---
 
 

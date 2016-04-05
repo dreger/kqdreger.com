@@ -3,7 +3,7 @@ title: Threes!
 date: 2014-02-10 11:27
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14041-threes-for-ios.html"
 ---
 
 

@@ -3,7 +3,7 @@ title: A $19 Billion Partnership
 date: 2014-03-18 18:03
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14077-whatsapp-partnership.html"
 ---
 
 

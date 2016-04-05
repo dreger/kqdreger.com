@@ -3,7 +3,7 @@ title: How to Animate a Photo, The 2.5D Effect
 date: 2014-01-22 22:31
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14022-animate-a-photo.html"
 ---
 
 

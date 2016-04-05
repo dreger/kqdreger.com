@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: The Grinch
-  
+redirect_from: "/archives/11352-the-grinch.html"
 ---
 
 

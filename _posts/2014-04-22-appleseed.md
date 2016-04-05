@@ -4,7 +4,7 @@ date: 2014-04-22 23:05
 layout: post
 link: https://appleseed.apple.com/sp/betaprogram/learn
 title: Apple OS X Beta Program
-  
+redirect_from: "/archives/14112-appleseed.html"
 ---
 
 

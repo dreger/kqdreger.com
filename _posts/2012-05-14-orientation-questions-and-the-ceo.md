@@ -4,7 +4,7 @@ categories: volume-zero post
 date: 2012-05-14
 title: Orientation, questions and the CEO
 tags: questions, timken, orientation, ceo
-  
+redirect_from: "/archives/12135-orientation-questions-and-the-ceo.html"
 ---
 
 

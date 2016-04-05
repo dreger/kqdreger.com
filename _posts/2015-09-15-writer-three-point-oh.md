@@ -1,7 +1,9 @@
 ---
 title: iA Writer 3.0
 date: 2015-09-15 12:08
+redirect_from: "/archives/15258-writer-three-point-oh.html"
 ---
+
 
 iA:
 

@@ -2,7 +2,7 @@
 title: Reducing Cognitive Friction
 date: 2014-10-02 19:13
 link: http://shawnblanc.net/2014/10/little-things/
-  
+redirect_from: "/archives/14275-blanc-little-things.html"
 ---
 
 

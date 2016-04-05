@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Wii Sports
-  
+redirect_from: "/archives/12003-wii-sports.html"
 ---
 
 

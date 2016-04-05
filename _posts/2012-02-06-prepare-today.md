@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Prepare today
-  
+redirect_from: "/archives/12037-prepare-today.html"
 ---
 
 

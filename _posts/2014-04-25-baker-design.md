@@ -5,7 +5,7 @@ layout: post
 link: https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table
 title: "'Design is about solving problems that humans have, not problems that products
   have'"
-  
+redirect_from: "/archives/14115-baker-design.html"
 ---
 
 

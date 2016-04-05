@@ -2,7 +2,7 @@
 title: Austin Mann Takes the iPhones 6 to Iceland
 date: 2014-09-23 21:48
 link: http://austinmann.com/trek/iphone-6-plus-camera-review-iceland
-  
+redirect_from: "/archives/14266-mann-iphone-camera.html"
 ---
 
 

@@ -2,7 +2,7 @@
 title: How to Be Right Most of the Time
 date: 2014-10-02 07:06
 link: https://signalvnoise.com/posts/3289-some-advice-from-jeff-bezos
-  
+redirect_from: "/archives/14275-bezos-right.html"
 ---
 
 

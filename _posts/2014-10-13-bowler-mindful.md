@@ -2,7 +2,7 @@
 title: Chris Bowler on Mindfulness and Quality
 date: 2014-10-13 19:30
 link: http://toolsandtoys.net/editorials/on-mindfulness-and-quality/
-  
+redirect_from: "/archives/14286-bowler-mindful.html"
 ---
 
 

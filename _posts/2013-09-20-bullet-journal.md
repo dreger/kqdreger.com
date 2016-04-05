@@ -3,7 +3,7 @@ title: The Bullet Journal Note-Taking System
 date: 2013-09-20 10:20
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13263-bullet-journal.html"
 ---
 
 

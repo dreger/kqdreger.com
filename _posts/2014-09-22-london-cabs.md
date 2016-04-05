@@ -2,7 +2,7 @@
 title: London Cabbies Don't Need GPS
 date: 2014-09-22 21:03
 link: http://news.nationalgeographic.com/news/special-features/2014/08/140808-london-cabbies-knowledge-cabs-hansom-uber-hippocampus-livery/
-  
+redirect_from: "/archives/14265-london-cabs.html"
 ---
 
 

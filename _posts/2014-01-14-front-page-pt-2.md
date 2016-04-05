@@ -3,7 +3,7 @@ title: The Front Page, Part Two
 date: 2014-01-14 16:59
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14014-front-page-pt-2.html"
 ---
 
 

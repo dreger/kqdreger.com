@@ -3,7 +3,7 @@ title: Scratch-Off Media
 date: 2014-03-31 21:46
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14090-bowler-the-lottery.html"
 ---
 
 

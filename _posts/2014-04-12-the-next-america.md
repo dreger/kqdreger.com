@@ -4,7 +4,7 @@ date: 2014-04-12 16:07
 layout: post
 link: http://www.pewresearch.org/next-america/
 title: The Next America
-  
+redirect_from: "/archives/14102-the-next-america.html"
 ---
 
 

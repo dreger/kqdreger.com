@@ -2,7 +2,7 @@
 title: Empire's Definitive History of The West Wing
 date: 2014-10-09 18:28
 link: http://www.empireonline.com/westwing/
-  
+redirect_from: "/archives/14282-the-west-wing.html"
 ---
 
 

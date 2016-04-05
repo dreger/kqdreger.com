@@ -4,7 +4,7 @@ date: 2014-05-22 22:25
 layout: post
 link: http://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html?_r=2
 title: Better to Rent or Buy?
-  
+redirect_from: "/archives/14142-rent-or-buy.html"
 ---
 
 

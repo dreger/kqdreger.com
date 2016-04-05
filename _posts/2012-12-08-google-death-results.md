@@ -3,7 +3,7 @@ title: Google death results
 date: 2012-12-09 13:44
 layout: post
 categories: volume-zero post
-  
+redirect_from: "/archives/12344-google-death-results.html"
 ---
 
 

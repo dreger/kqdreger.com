@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Swiss Army
-  
+redirect_from: "/archives/12060-swiss-army.html"
 ---
 
 

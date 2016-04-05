@@ -4,7 +4,7 @@ layout: post
 categories: volume-one post
 date: 2013-09-02
 starred: true
-  
+redirect_from: "/archives/13245-jumping-in.html"
 ---
 
 

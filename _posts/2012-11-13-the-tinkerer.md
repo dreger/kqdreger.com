@@ -1,6 +1,7 @@
 ---
 title: The Tinkerer
-date: 2012-11-13  
+date: 2012-11-13
+redirect_from: "/archives/12318-the-tinkerer.html"
 ---
 
 

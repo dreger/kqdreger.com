@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: Writing simple code
-  
+redirect_from: "/archives/11337-writing-simple-code.html"
 ---
 
 

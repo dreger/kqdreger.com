@@ -3,7 +3,7 @@ title: Overcome Mediocrity, Not Fear
 date: 2013-09-30 12:38
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13273-newport-overcome-mediocrity.html"
 ---
 
 

@@ -3,7 +3,7 @@ title: The Nifty MiniDrive
 date: 2014-02-18 09:27
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14049-nifty-minidrive.html"
 ---
 
 

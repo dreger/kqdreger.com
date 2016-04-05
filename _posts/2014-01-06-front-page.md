@@ -3,7 +3,7 @@ title: Thoughts on the Front Page
 date: 2014-01-06 11:52
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14006-front-page.html"
 ---
 
 

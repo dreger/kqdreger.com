@@ -3,7 +3,7 @@ title: A Usability Audit on Myself
 date: 2013-11-19 09:19
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13323-usability-audit.html"
 ---
 
 

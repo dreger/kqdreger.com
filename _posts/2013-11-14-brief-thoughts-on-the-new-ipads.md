@@ -3,7 +3,7 @@ title: The New iPads
 date: 2013-11-14 21:25
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13318-brief-thoughts-on-the-new-ipads.html"
 ---
 
 

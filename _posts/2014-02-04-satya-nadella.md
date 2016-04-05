@@ -3,7 +3,7 @@ title: Satya Nadella, Microsoft CEO
 date: 2014-02-04 18:50
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14035-satya-nadella.html"
 ---
 
 

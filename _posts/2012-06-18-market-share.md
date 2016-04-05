@@ -3,7 +3,7 @@ layout: post
 categories: volume-zero post
 title: Market share
 date: 2012-06-18
-  
+redirect_from: "/archives/12170-market-share.html"
 ---
 
 

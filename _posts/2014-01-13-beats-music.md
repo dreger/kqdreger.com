@@ -3,7 +3,7 @@ title: Beats Music
 date: 2014-01-13 11:27
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14013-beats-music.html"
 ---
 
 

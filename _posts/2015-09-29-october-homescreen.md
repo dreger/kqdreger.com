@@ -1,7 +1,10 @@
 ---
 title: Homescreen for October 2015
 date: 2015-09-29 22:46
+redirect_from: "/archives/15272-october-homescreen.html"
 ---
+
+
 ![Yay, apps]({{site.root}}/assets/images/homescreen-2015-10.png)
 
 Folders on top. Alphabetize everything. Never have four apps in the dock. 

@@ -1,6 +1,7 @@
 ---
-title: "My next Three Books"
-date: 2015-01-29T22:00:00+00:00
+title: My next Three Books
+date: 2015-01-29 17:00:00.000000000 -05:00
+redirect_from: "/archives/15029-three-books.html"
 ---
 
 

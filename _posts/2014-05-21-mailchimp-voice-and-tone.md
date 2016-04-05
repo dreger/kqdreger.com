@@ -4,7 +4,7 @@ date: 2014-05-21 19:23
 layout: post
 link: http://voiceandtone.com
 title: Voice and Tone
-  
+redirect_from: "/archives/14141-mailchimp-voice-and-tone.html"
 ---
 
 

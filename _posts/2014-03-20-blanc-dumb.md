@@ -3,7 +3,7 @@ title: "'Dumb'"
 date: 2014-03-20 17:20
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14079-blanc-dumb.html"
 ---
 
 

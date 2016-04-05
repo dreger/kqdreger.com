@@ -3,7 +3,7 @@ title: Better Excerpts in RSS
 date: 2014-05-05 21:44
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/14125-rss-changes.html"
 ---
 
 

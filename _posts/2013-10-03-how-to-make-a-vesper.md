@@ -4,7 +4,9 @@ link: http://vesperapp.co/blog/how-to-make-a-vesper-1-007/
 date: 2013-10-03 21:55
 layout: post
 categories: volume-one post
+redirect_from: "/archives/13276-how-to-make-a-vesper.html"
 ---
+
 
 Dave Wiskus put together [a fantastic post](http://vesperapp.co/blog/how-to-make-a-vesper-1-007/) about the design decisions behind the latest iOS 7 update to, my [personal favorite note-taking app]({% post_url 2013-07-13-vesper %}), Vesper:
 

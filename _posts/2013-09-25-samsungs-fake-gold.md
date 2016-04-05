@@ -3,6 +3,7 @@ title: Samsung's Golden Galaxy S4
 date: 2013-09-25 11:21
 layout: post
 categories: volume-one post
+redirect_from: "/archives/13268-samsungs-fake-gold.html"
 ---
 
 

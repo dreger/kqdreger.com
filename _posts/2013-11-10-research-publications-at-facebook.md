@@ -4,7 +4,7 @@ link: https://www.facebook.com/publications
 date: 2013-11-10 17:51
 layout: post
 categories: volume-one post
-  
+redirect_from: "/archives/13314-research-publications-at-facebook.html"
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 categories: volume-zero post
 title: College
-  
+redirect_from: "/archives/10239-hello-college.html"
 ---
 
 
