@@ -6,7 +6,7 @@ author: Kyle Dreger
 email: comments@dreger.me
 description: "A column about design and writing."
 markdown: rdiscount
-permalink: /:title
+permalink: /:year/:month/:title
 timezone: "America/New_York"
 
 rdiscount:
