@@ -14,11 +14,14 @@ module Jekyll
           day_of_year  = item.date.yday.to_s.rjust(3, '0')
           file_name    = item.date.strftime('%g') + day_of_year + '-' + item.slug + '.html'
           permalink    = '/archives/' + file_name
+          slug = "/" + item.slug
 
-          item.data['redirect_from'] = "[\"" + permalink + "\", \"/" + item.slug + "\"]"
+          item.data['redirect_from'] = [permalink, slug]
 
           # get post's datas
-          post_path    = item.containing_dir(@site.source, "")
+          puts item.data 
+          
+          post_path    = "_posts/" + file_name
           full_path    = File.join(post_path, item.name)
           file_yaml    = item.data.to_yaml
           file_content = item.content
@@ -32,7 +35,7 @@ module Jekyll
             f.puts file_content
           end
 
-          Jekyll.logger.info "Added permalink " + permalink + " to post " + item.name
+          # Jekyll.logger.info "Added permalink " + permalink + " to post " + item.name
         end
       end
     end

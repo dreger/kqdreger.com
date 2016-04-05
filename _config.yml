@@ -11,12 +11,12 @@ timezone: "America/New_York"
 
 rdiscount:
   extensions: [footnotes, smart]
-
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-redirect-from
-
+# 
+# gems:
+#   - jekyll-sitemap
+#   - jekyll-feed
+#   - jekyll-redirect-from
+# 
 sass:
     style: :compressed
 
