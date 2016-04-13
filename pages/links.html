@@ -1,0 +1,18 @@
+---
+layout: page
+title: Links
+permalink: /links/
+---
+<p>The Audacious Fox Briefings are short posts that revolve around an article, video, or image that I think you should check out. Briefings typically include a quote from the original content, and I always include a link to any relevant sources.</p>
+
+{% for link in site.data.links  %}
+<article class="article">
+  <header class="article-header">  
+    <h1 class="headline"><a href="{{ link.url }}">{{ link.new_title }}</a></h1>
+    <p class="headline-date">{{ link.date | date: "%b %e" }}</p>
+  </header>
+  <span class="faded">{{ link.title }}</span>
+  <br>
+  <span class="link-source">{{ link.source }}</span>
+</article>
+{% endfor %}

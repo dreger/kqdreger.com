@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-<article>
-  <header>
-    <h1>{{ page.title }}</h1>
+
+<article class="article">
+  <header class="article_header">  
+    <h1 class="title">{{ page.title }}</h1>
+    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %} 
+    <p class="date">{% if page.categories contains 'briefings' %}<a href="/briefings">Briefing</a> for {% endif %}{{ page.date | date: "%A, %e %B %Y" }}</p>
   </header>
-  
-  {% if page.link %}
-    <p><a target="_blank" class="post-reference" href="{{ page.link }}">Visit referenced source &rarr;</a></p>
-  {% endif %}
-
+  <hr class="almost-break">
+  <section class="article_content">
     {{ content }}
-
-  
-  <p>&mdash; Kyle Dreger, on {{ page.date | date: "%d %B %Y"}}</p>
+  </section> 
 </article>
+

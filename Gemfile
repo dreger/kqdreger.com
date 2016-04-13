@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
-gem 'jekyll', '2.2.0'
-# gem 'github-pages'
+gem 'github-pages'
+# gem 'jekyll-sitemap'
+# gem 'jekyll', '~> 3.0.0'

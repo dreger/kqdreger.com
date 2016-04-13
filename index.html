@@ -2,13 +2,21 @@
 layout: default
 ---
 
-<p><strong>Hello</strong>—I'm Kyle Dreger, and I work for <a href="https://patriotsoftware.com">Patriot Software</a>. This is an index of all my old writing. I now write at <a href="http://audaciousfox.com">Audacious Fox</a>.</p>
-
-<p>I cheerfully receive correspondence on <a href="https://twitter.com/dreger">@Dreger</a> or <a href="mailto:comments@dreger.me">Email</a>. This site has a <a href="/feed.xml">RSS feed</a>.</p>
-
-
-<ul>
-{% for post in site.posts %}
-<li><a href="{{post.url}}">{{ post.title }}</a></li>
+{% for post in site.posts limit:50 %}  
+  <article class="article index_article">
+    {% if post.categories contains 'snippets' %}
+      <section class="index_article_header snippet">  
+        <div class="index_snippet_link">Snippet &middot; <a class="snip" href="{{ post.url }}">{{ post.date | date: "%b %e at %H:%M" }}</a></div>
+        <div class="index_snippet_content">{{ post.content }}</div>
+      </section>
+    {% else %}
+      <header class="index_article_header">  
+        <h1 class="index_article_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="index_article_date">{{ post.date | date: "%b %e" }}</p>
+      </header> 
+    {% endif %}
+  </article>
 {% endfor %}
-</ul>
+
+<article class="article index_article">
+Those are the last 50. Check out the rest in the <a href="/writings">archive</a>.</article>

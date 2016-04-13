@@ -1,42 +1,40 @@
-url: http://kyledreger.com
-domain: http://kyledreger.com
-title: "Kyle Dreger"
-name: "Kyle Dreger"
-author: Kyle Dreger
-email: comments@dreger.me
-description: "A column about design and writing."
-markdown: rdiscount
-permalink: /:year/:month/:title
-timezone: "America/New_York"
+# Site settings
+title: "K.Q. Dreger"
+email: "comments@dreger.me"
+description: "Liberal arts, in your browser."
+url: "http://audaciousfox.com" 
+timezone: '-0600'
+icon: '&#9650;'
 
-rdiscount:
-  extensions: [footnotes, smart]
-# 
-# gems:
-#   - jekyll-sitemap
-#   - jekyll-feed
-#   - jekyll-redirect-from
-# 
+# Build settings
 sass:
-    style: :compressed
+  style: compressed
+markdown: kramdown 
+highlighter: rouge
+excerpt_separator: "<!-- more -->"
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
 defaults:
   -
     scope:
+      path: "_posts/writings"
+    values:
+      category: writings
+      layout: "post"
+      permalink: /writings/:year/:month/:title
+  -
+    scope:
+      path: "_posts/snippets"
+    values:
+      category: snippets
+      layout: "snippet"
+      permalink: /snippets/:short_year:month:day:hour:minute:second
+  - 
+    scope:
       path: ""
-      type: posts
+      type: snippets
     values:
-      layout: post
-  -
-    scope:
-      path: "linked"
-      type: posts
-    values:
-      layout: post
-      category: "linked"
-  -
-    scope:
-      path: "article"
-      type: posts
-    values:
-      layout: post
+      layout: snippet
