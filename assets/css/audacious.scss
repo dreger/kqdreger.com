@@ -293,8 +293,9 @@ a {
 
 .index_snippet_link {
   // display: flex;
-  // font-size: .875rem; 
   @extend .small-caps; 
+  // font-size: .8rem; 
+  // display: inline-block;
   margin: 0 0 .85rem;
   color: $color-faded;
   // font-size: .75rem;
