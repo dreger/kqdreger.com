@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <title>
-    {{ site.title }}{% if page.title %}: {{ page.title }}{% else %}{% endif %}
+      {% if page.categories contains "snippets" %}
+      {{ site.title }}: "{{ page.content | strip_html | truncate: 200 }}"
+      {% else %}
+      {{ site.title }}{% if page.title %}: {{ page.title }}{% else %}{% endif %}
+      {% endif %}
     </title>
     <meta charset="utf-8">
     <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
@@ -20,15 +24,14 @@
   <body>  
     <section class="wrapper">
       <header class="site_header">
-        <img src="/assets/images/me.png" id="avatar" class="site_avatar">
-        <h1 class="site_title"><a href="/">K.Q. Dreger</a></h1>
-        <span class="site_byline">
-          Happy <span id="today"></span>
-        </span>
+        <a href="/"><img src="/assets/images/me.png" id="avatar" class="site_avatar">
+        <h1 class="site_title">K.Q. Dreger</h1>
+        </a>
+        <span id="byline" class="site_byline">?</span>
       </header>
       
       <div id="about" class="about">
-        <p><a href="/">Home</a> &times; <a href="/masthead">About</a> &times; <a href="/writings">Archive</a> &times; <a href="/feeds/main.xml">RSS</a></p>
+        <p><a href="/masthead">About</a> &times; <a href="/writings">Articles</a> &times; <a href="/snippets">Snippets</a> &times; <a href="/feeds/main.xml">RSS</a></p>
         
         This column is an ongoing experiment in design, typography, langauge, and colors.
       </div>
@@ -38,7 +41,7 @@
       </section>
       
       <footer id="footer" class="footer">
-        :)
+        Happy <span id="today"></span>
       </footer>
     </section>
     
@@ -46,7 +49,7 @@
     <script type="text/javascript">
       // Avatar and About
       var about = document.getElementById("about");
-      var avatar = document.getElementById("avatar");
+      var avatar = document.getElementById("byline");
       avatar.onclick = function() {
         about.style.display = 'block';
       }
@@ -68,15 +71,15 @@
       
       // Random Smiley in Footer
       var grins = [ 
-        ":)",
-        "=]",
-        ";)",
+        "Hard things are hard.",
+        "Diction, energy, honesty.",
+        "",
         ":P",
         "<3",
         ":D"
       ];
       var selectedGrin = grins[Math.floor(Math.random()*grins.length)];
-      document.getElementById("footer").innerHTML = selectedGrin;
+      document.getElementById("footer").innerHTML = "Happy " + today;
     </script>
   </body>
 </html>
