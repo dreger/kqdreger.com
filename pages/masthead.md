@@ -6,7 +6,9 @@ permalink: /masthead/
 
 _Energy, diction, honesty._
 
-Welcome, my name is Kyle Dreger, and I write and produce this website. Occasionally, guest editor Dr. Christopher B. Durr will take over. Topics include technology, design, video games, and science. 
+Welcome. My name is Kyle Dreger, and I write and produce this website. I currently work as a user experience designer at the Patriot Software Companies. 
+
+Topics for this column include technology, design, video games, and science. When I'm not available, Dr. Christopher B. Durr will take over as guest editor. 
 
 ## Contact
 
