@@ -208,17 +208,13 @@ a {
   margin-bottom: 0;
   text-align: right; 
   @extend .small-caps;
-  margin-left: auto; 
-  border: solid 2px #ccc; 
-  padding: 5px 9px 4px; 	
-  border-radius: 4px;  
-  font-weight: 700; 
+  margin-left: auto;   
+  font-weight: 600; 
   cursor: pointer; 
   text-align: center; 
   display: inline-block; 
   &:hover {
     color: $color; 
-    border-color: $color; 
   }
 }
 
@@ -235,7 +231,7 @@ a {
 }
 
 #about {
-  background: #f7f7f7;
+  background: $color-bg;
     padding: 0 1rem;
     color: #888;
     display: none; 

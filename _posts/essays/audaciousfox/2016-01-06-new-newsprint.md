@@ -1,5 +1,6 @@
 ---
 title: A Small Makeover for The Newsprint
+published: false
 date: 2016-01-06 09:53
 source: thenewsprint
 ---
