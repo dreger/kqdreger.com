@@ -6,7 +6,7 @@ permalink: /masthead/
 
 _Energy, diction, honesty._
 
-Audacious Fox is written and produced by Kyle Dreger. AF is occasionally guest edited by Dr. Christopher B. Durr. Topics include technology, design, video games, and science. 
+Welcome, my name is Kyle Dreger, and I write and produce this website. Occasionally, guest editor Dr. Christopher B. Durr will take over. Topics include technology, design, video games, and science. 
 
 ## Contact
 
@@ -14,7 +14,7 @@ Correspondence is cheerfully received at <br><comments@dreger.me> or [@Dreger](h
 
 ## Syndication Feeds
 
-You can follow Audacious Fox on [Apple News](https://apple.news/T7mJio790S96lno9kfkfXPA) or subscribe via the following RSS feed: [audaciousfox.com/feeds/main.xml](/feeds/main.xml)
+Subscribe via the following RSS feed: [/feeds/main.xml](/feeds/main.xml)
 
 ## Mac Software
 
@@ -25,7 +25,7 @@ You can follow Audacious Fox on [Apple News](https://apple.news/T7mJio790S96lno9
 
 ## Miscellany  
 
-The AF editorial style follows that of the _New York Times Manual of Style_, with several modifications from our own in-house style guide. 
+Editorial style follows that of the _New York Times Manual of Style_, with several modifications from my own in-house style guide. 
 
 Waffles are the best breakfast food ever. Period. 
 
