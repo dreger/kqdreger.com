@@ -4,6 +4,8 @@ date: 2014-12-12
 redirect_from:
 - "/archives/14346-budgeting.html"
 - "/budgeting.html"
+- 2014/12/12/budgeting.html
+- 2014/12/budgeting.html
 ---
 
 
