@@ -2,6 +2,8 @@
 title: On Deleting Several of my Online Accounts
 subtitle: It's not you, it's me
 date: 2016-03-28 22:07
+redirect_from: 
+- /2016/03/deleting-accounts.html
 ---
 This evening, I [posted a tweet][1]: 
 
