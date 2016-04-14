@@ -3,7 +3,8 @@ title: "Printing San Franscisco"
 date: 2014-11-20
 author: KD
 redirect_from: 
-  - 2014/11/20/printing-san-francisco.html
+- 2014/11/20/printing-san-francisco.html
+- 2014/11/printing-san-francisco.html
 ---
 
 John Gruber [tweeted](https://twitter.com/gruber/status/535298550213906434) that the new Apple typeface, San Francisco, may be unprintable, since the company only wants the font used in Apple Watch products. Indeed, printing from any text editor yields terrible results, but I found a way in the most unlikely of heroes: Google Chrome. 

@@ -1,7 +1,8 @@
 ---
 title: Fitbit HR Review Transcript
 redirect_from:
-  - /2016/01/09/fitbit-hr-review.html
+- /2016/01/09/fitbit-hr-review.html
+- /2016/01/fitbit-hr-review.html
 ---
 
 The Fitbit HR is a good fitness tracker. It's comfortable, has acceptable battery life, and the software is easy to use. Although the Fitbit HR device only shows your information, the accompanying app can show aggregated data from your friends, which provides passive, and surprisingly compelling, encouragement to log a few extra hundred steps. 

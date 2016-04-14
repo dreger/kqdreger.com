@@ -3,7 +3,8 @@ title: "Typed for Mac"
 date: 2014-12-02
 author: KD
 redirect_from: 
-  - 2014/12/02/typed-for-mac.html
+- 2014/12/02/typed-for-mac.html
+- 2014/12/typed-for-mac.html
 ---
 
 
@@ -17,11 +18,11 @@ There isn’t a lot to distinguish Typed from the other minimalistic Markdown ed
 
 **Blank page quotes** &mdash; When opening a blank page in Typed, you are greeted with a quote, from an oft-cited author.
 
-_![typed quotes](https://farm8.staticflickr.com/7547/15315472383_a07390e571_o_d.png)_
+<!-- _![typed quotes](https://farm8.staticflickr.com/7547/15315472383_a07390e571_o_d.png)_ -->
 
 **Soundtrack** &mdash; Typed ships with eight different music tracks. They’re instrumental, simple, and relaxing.; perfect for writing. If I ever stop using Typed, I’d seriously consider keeping the app open just to have these tracks available.
 
-![typed menu](https://farm9.staticflickr.com/8629/15315472363_d83416f192_o_d.png)
+<!-- ![typed menu](https://farm9.staticflickr.com/8629/15315472363_d83416f192_o_d.png) -->
 
 Do either of these things matter though? Since iA Writer perfected the minimalistic Markdown editor, any new feature in Typed must add unadulterated value. I don’t know if the quotes and soundtrack add $20 worth of value, but I think these features hint at the two pillars of effective composition: 1.) a non-distracting environment, and 2.) a well-read, inspired mind.
 

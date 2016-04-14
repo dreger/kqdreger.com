@@ -3,7 +3,8 @@ title: "Freeing Springboard"
 date: 2015-02-02
 author: KD
 redirect_from: 
-  - 2015/02/02/freeing-springboard.html
+- 2015/02/02/freeing-springboard.html
+- 2015/02/freeing-springboard.html
 ---
 Would this work? 
 

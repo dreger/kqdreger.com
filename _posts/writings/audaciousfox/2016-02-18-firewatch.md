@@ -2,6 +2,8 @@
 title: Firewatch Review
 subtitle: This game is short, but very good 
 date: 2016-02-18 19:57
+redirect_from:
+- 2016/02/firewatch.html
 ---
 
 **Spoilers:** I'll be touching on a few details of the plot. 
