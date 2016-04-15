@@ -24,7 +24,7 @@ defaults:
     values:
       category: writings
       layout: "post"
-      permalink: /writings/:title
+      permalink: /:title
   -
     scope:
       path: "_posts/snippets"
