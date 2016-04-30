@@ -1,5 +1,5 @@
 ---
-title: Written in the Star(s)bucks
+title: Starbucks
 date: 2012-06-08
 tags: Starbucks, writing
 redirect_from:
@@ -10,7 +10,7 @@ redirect_from:
 
 I haven't accomplished much writing today. So, in lieu of staying inside and eating more cereal, I put on jeans and and a belt and drove over to my local Starbucks. In a lot of ways, this coffee shop mirrors my writing. There's not much else I could do here, except write. I can't load up the Xbox, make something to eat, or try and socialize with the roommates down the hall; just write. It suits me.
 
-![starbuckys](https://dl.dropbox.com/u/418570/kyledreger/starbucks.jpg)
+<!-- ![starbuckys](https://dl.dropbox.com/u/418570/kyledreger/starbucks.jpg) -->
 
 Which is why I find myself solo tonight in the local Starbucks. I got here and checked-in with Foursqure, something else I've really come to appreciate as time has gone on. Being able to look back at my history of check-ins and see where I've gone has been insightful to my life in general. Dustin Curtis once quipped that Foursquare is the Facebook of the future. I don't know if that is completely true, but the abstracted version of what he's saying is that the future of social lies in what we're really doing. Not just status updates.
 

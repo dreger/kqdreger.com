@@ -1,5 +1,6 @@
 ---
-title: "Kerbal Space Program: To the Moon"
+title: Kerbal Space Program
+subtitle: To the Moon
 date: 2015-07-17 09:15
 author: CD
 redirect_from: 

@@ -1,5 +1,5 @@
 ---
-title: My Presentation on Mobile Applications
+title: "Presentation: Mobile Web and Applications"
 date: 2014-02-17 17:09
 redirect_from:
 - "/archives/14048-mobile-presentation.html"

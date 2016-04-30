@@ -1,6 +1,6 @@
 ---
 date: 2012-05-14
-title: Orientation, questions and the CEO
+title: Smart people ask questions
 tags: questions, timken, orientation, ceo
 redirect_from:
 - "/archives/12135-orientation-questions-and-the-ceo.html"

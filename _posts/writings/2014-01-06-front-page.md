@@ -1,5 +1,5 @@
 ---
-title: Thoughts on the Front Page
+title: Front page design
 date: 2014-01-06 11:52
 redirect_from:
 - "/archives/14006-front-page.html"

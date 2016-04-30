@@ -1,5 +1,6 @@
 ---
-title: Angry, Sad, Wow, Haha, Like and Love
+title: Facebook Reactions
+subtitle: Angry, Sad, Wow, Haha, Like and Love
 date: 2016-01-30 21:00
 source: bloombergbw
 redirect_from: 

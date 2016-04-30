@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 
-For my English 247 class, we are working on writing a profile based on an interview we have conducted with an individual. This is a new form of investigation for me, I'm use to doing my own static research on a subject, curating the good from the bad and then polishing the result into something someone would maybe want to read. It's been the same process since high school.
+For my English class, we are working on writing a profile based on an interview we have conducted with an individual. This is a new form of investigation for me, I'm use to doing my own static research on a subject, curating the good from the bad and then polishing the result into something someone would maybe want to read. It's been the same process since high school.
 
 With writing a profile, it's different. The person you're interviewing is a living, dynamic individual. Even if you go into an interview with thirty of the best, most relevant questions to ask your subject, you are almost guaranteed to never get to all of them and to be sidetracked down a different avenue of their life before you're through. This is one of the most addicting parts of doing this form of research; the type of the information you find depends entirely on where you, and the subject, steer the conversation.
 

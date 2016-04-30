@@ -1,5 +1,5 @@
 ---
-title: The Front Page, Part Two
+title: Front page design 2
 date: 2014-01-14 16:59
 redirect_from:
 - "/archives/14014-front-page-pt-2.html"

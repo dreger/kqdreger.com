@@ -1,5 +1,6 @@
 ---
-title: "Don't Read More, Read Different"
+title: Read Different
+subtitle: Don't Read More
 date: 2015-07-14 20:51
 author: CD
 redirect_from: 

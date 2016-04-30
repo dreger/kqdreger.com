@@ -1,5 +1,5 @@
 ---
-title: Firewatch Review
+title: Firewatch
 subtitle: This game is short, but very good 
 date: 2016-02-18 19:57
 redirect_from:

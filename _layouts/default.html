@@ -23,37 +23,20 @@
   </head>
   <body>  
     <section class="wrapper">
-      <header class="site_header">
-        <a href="/"><img src="/assets/images/me.png" id="avatar" class="site_avatar">
-        <h1 class="site_title">K.Q. Dreger</h1>
-        </a>
-        <span id="byline" class="site_byline">More</span>
-      </header>
-      
-      <div id="about" class="about">
-        <p><a href="/masthead">About</a> &times; <a href="/writings">Articles</a> &times; <a href="/snippets">Snippets</a> &times; <a href="/feeds/main.xml">RSS</a></p>
-        
-        This column is an ongoing experiment in design, typography, langauge, and colors.
-      </div>
-    
-      <section class="site_content">
-        {{ content }}
-      </section>
-      
-      <footer id="footer" class="footer">
-        Happy <span id="today"></span>
-      </footer>
+      <!-- <a class="header-link" href="/">home</a> -->
+        <!-- <header class="header">
+        </header> -->
+        <section class="content">
+          {{ content }}
+        </section>
     </section>
     
+    <footer id="footer" class="footer">
+      Happy <span id="today"></span>
+    </footer>
     
-    <script type="text/javascript">
-      // Avatar and About
-      var about = document.getElementById("about");
-      var avatar = document.getElementById("byline");
-      avatar.onclick = function() {
-        about.style.display = 'block';
-      }
     
+    <script type="text/javascript">    
       // Happy Day!
       var days = [ 
         "Sunday",

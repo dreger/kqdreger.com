@@ -1,5 +1,6 @@
 ---
-title: Microsoft Arc Touch review
+title: Microsoft Arc Touch mouse
+subtitle: Disappointing for Mac users 
 date: 2013-08-01
 starred: true
 redirect_from:

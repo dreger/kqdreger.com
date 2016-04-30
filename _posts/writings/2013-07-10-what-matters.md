@@ -13,6 +13,6 @@ But software is only useful if it helps fix a real problem. As a programmer, it 
 
 I get caught up thinking the problem to be solved is a global one. It would be great if I did find a solution to some world-wide issue, but often my effort spent saving the world comes at the expense of local problems I may have the skills to actually fix.
 
-Stop putting the weight of the world on your shoulders. Make a small _real_ difference in the life of a real person. This is the core of empathetic, impactful software development, but it can be applied to many other discliplines.
+Stop putting the weight of the world on your shoulders. Make a small _real_ difference in the life of a real person. This is the core of empathetic, impactful software development, but it can be applied to many other disciplines.
 
 In summary: 1) help people. 2) be happy.

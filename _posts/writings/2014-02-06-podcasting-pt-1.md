@@ -1,5 +1,5 @@
 ---
-title: Podcasting Diaries, Part 1
+title: Podcasting Diaries
 date: 2014-02-06 23:28
 redirect_from:
 - "/archives/14037-podcasting-pt-1.html"

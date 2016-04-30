@@ -5,6 +5,7 @@ description: "Liberal arts, in your browser."
 url: "http://web.kqdreger.com" 
 timezone: '-0600'
 icon: '&#9650;'
+permalink: /:title
 
 # Build settings
 sass:
@@ -24,7 +25,7 @@ defaults:
     values:
       category: writings
       layout: "post"
-      permalink: /:title
+      hidden: true
   -
     scope:
       path: "_posts/snippets"
@@ -32,9 +33,8 @@ defaults:
       category: snippets
       layout: "snippet"
       permalink: /snippets/:short_year:month:day:hour:minute:second
-  - 
+  -
     scope:
-      path: ""
-      type: snippets
+      path: "_posts/hidden"
     values:
-      layout: snippet
+      category: hidden
