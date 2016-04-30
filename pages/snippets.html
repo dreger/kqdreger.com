@@ -4,13 +4,11 @@ title: Snippets
 permalink: /snippets/
 ---
 <p>Snippets are short excerpts from my train of thought.</p>
-<p>An archive for just my longer articles can <a href="/writings">be found here</a>.</p>
 
-<ul>
 {% for post in site.categories.snippets  %}
-<li>
-  <a class="faded" href="{{ post.url }}">{{ post.date | date: "%Y/%m/%d at %H:%M" }}</a> 
+<hr>
+<article>
   {{ post.content }}
-</li>
+  <a class="small-caps faded" href="{{ post.url }}">{{ post.date | date: "%Y/%m/%d at %H:%M" }}</a> 
+</article>
 {% endfor %}
-</ul>
