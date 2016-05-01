@@ -152,7 +152,7 @@ a {
   font-size: $font-size-small; 
   line-height: 1em; 
   border-bottom: solid 1px $color-bg; 
-  padding: .25rem; 
+  padding: 1rem 2rem;
   a {
     color: $color-faded; 
     @extend .small-caps; 
@@ -161,11 +161,12 @@ a {
 
 .content {
   padding: 1.75rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .footer {
   color: $color-faded; 
-  padding: 0 1rem 1rem;
+  padding: 0;
   margin: 2rem 0;
   text-align: center;
   font-family: $sans; 
@@ -224,9 +225,17 @@ a.faded:hover {
 }
 
 .mb0 { margin-bottom: 0; }
+.mla { margin-left: auto; }
 
-@media screen and (max-width: 38rem) {
+@media screen and (max-width: 40rem) {
   .wrapper {
-    margin-top: 0; 
+    margin-top: 0;
+    max-width: 100%; 
+    box-shadow: none; 
   }  
+  .header { padding: .5rem 1rem; }
+  .content { padding: 1.25rem 1rem; }
+  .footer { margin: 2rem; }
+  .index-date-short { display: initial; }
+  .index-date-long { display: none; }
 }
