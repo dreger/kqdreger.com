@@ -1,5 +1,5 @@
 ---
-title: On deleting several of my online accounts
+title: Deleting several online accounts
 subtitle: It's not you, it's me
 date: 2016-03-28 22:07
 redirect_from: 
