@@ -18,7 +18,7 @@
 
 
 
-$max-width: 34rem;
+$max-width: 33rem;
 $line-height: 1.45em;
 $font-size-small: .9em;
 $sans:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -149,19 +149,17 @@ a {
 
 .header {
   display: flex; 
-  font-size: $font-size-small; 
+  font-size: .875rem; 
   line-height: 1em; 
-  border-bottom: solid 1px $color-bg; 
-  padding: 1rem 2rem;
+  padding: .75rem 2rem;
+  border-bottom: solid 1px $color-really-faded; 
   a {
-    color: $color-faded; 
-    @extend .small-caps; 
+    color: $color-copy; 
   }
 }
 
 .content {
   padding: 1.75rem 2rem;
-  padding: 1rem 2rem;
 }
 
 .footer {
@@ -201,10 +199,6 @@ a.faded:hover {
   color: darken($color-faded, 10%); 
 }
 
-.b {
-  font-weight: bold; 
-}
-
 .index {
   padding: 0; 
   list-style: 0; 
@@ -224,6 +218,7 @@ a.faded:hover {
   flex-shrink: 0;
 }
 
+.b { font-weight: bold; }
 .mb0 { margin-bottom: 0; }
 .mla { margin-left: auto; }
 
@@ -233,7 +228,11 @@ a.faded:hover {
     max-width: 100%; 
     box-shadow: none; 
   }  
-  .header { padding: .5rem 1rem; }
+  .header { 
+    padding: .5rem 1rem; 
+    background: #f2f2f2; 
+    border: 0; 
+  }
   .content { padding: 1.25rem 1rem; }
   .footer { margin: 2rem; }
   .index-date-short { display: initial; }
