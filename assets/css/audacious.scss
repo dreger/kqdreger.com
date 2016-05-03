@@ -226,6 +226,17 @@ a.faded:hover {
 
 .index-date-short { display: none; }
 
+.interview {
+  margin-left: 1.5rem; 
+  h1,
+  h2,
+  h3,
+  .name {
+    margin-left: -1.5rem; 
+  }
+  .name { @extend .small-caps; }
+}
+
 .b { font-weight: bold; }
 .mb0 { margin-bottom: 0; }
 .mla { margin-left: auto; }
