@@ -1,7 +1,7 @@
 ---
 title: Masthead
 subtitle: Energy, diction, honesty 
-layout: page
+layout: post
 permalink: /masthead/
 ---
 

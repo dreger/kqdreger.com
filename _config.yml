@@ -21,7 +21,7 @@ gems:
 defaults:
   -
     scope:
-      path: "_posts/writings"
+      path: "_posts/writing"
     values:
       category: writings
       layout: "post"

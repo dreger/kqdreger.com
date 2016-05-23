@@ -9,33 +9,48 @@
       {% endif %}
     </title>
     <meta charset="utf-8">
-    <meta name="Description" content="{{ content | strip_html | truncatewords: 30 }}">
+    <meta name="Description" content="{{ content | strip_html | truncatewords: 20 }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:site_name" content="{{ site.name }}"/>
     <meta property="og:url" content="{{ page.url }}"/>
-    <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+    <meta property="og:description" content="{{ page.excerpt | strip_html | truncatewords: 150 }}"/>
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
     <link rel="apple-touch-icon" href="/assets/images/icon.png" />
-    <link rel="stylesheet" href="/assets/css/audacious.css?v=1">
     <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
-
+    <style>
+      html { font-size: 17px; }
+      body {
+        font-family:Georgia,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif; 
+        max-width: 28em; 
+        padding: 1rem; 
+        margin: 0;
+        line-height: 1.5em; 
+      }
+      h1,h2,h3 { font-size: 1rem; }
+      h1,h2,h3,p,ol,ul,blockquote,img {
+        margin-top: 0; 
+        margin-bottom: 1.25rem;
+      }
+      h2, strong {
+        font-size: .95em;
+        letter-spacing: .1em; 
+        text-transform: uppercase; 
+        font-weight: normal; 
+      }
+      img { max-width: 100%; }
+      .site-header { margin-bottom: 3rem; }
+    </style>
   </head>
   <body>  
     <section class="wrapper">
-      <header class="header">
-        <a class="b" href="/">K.Q. Dreger</a>
-        <a class="mla" href="/masthead">About</a>
+      <header class="site-header">
+        <p><a href="/">Home</a> &middot; <a href="/masthead">About</a> &middot; Happy <span id="today"></span></p>
+        <p>From the desk of<br>K.Q. Dreger</p>
       </header>
-      <section class="content">
-        {{ content }}
-      </section>
+  
+      {{ content }}
     </section>
-    
-    <footer id="footer" class="footer">
-      Happy <span id="today"></span>
-    </footer>
-    
     
     <script type="text/javascript">    
       // Happy Day!
@@ -52,18 +67,6 @@
       var currentDate = new Date();
       var today = days[currentDate.getDay()]
       document.getElementById("today").innerHTML = today;
-      
-      // Random Smiley in Footer
-      var grins = [ 
-        "Hard things are hard.",
-        "Diction, energy, honesty.",
-        "",
-        ":P",
-        "<3",
-        ":D"
-      ];
-      var selectedGrin = grins[Math.floor(Math.random()*grins.length)];
-      document.getElementById("footer").innerHTML = "Happy " + today;
     </script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 ---
 title: This is a heading
-layout: page
+layout: post
 permalink: /test.html
 ---
 # This is a heading

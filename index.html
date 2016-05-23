@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<p>Hi, I'm K.Q. Dreger. This column is an ongoing experiment in design, typography, langauge, and colors.</p>
-
-<p>Check out my <a href="/snippets">Snippets</a> or <a href="/masthead">say hello</a>.
+<p>Hello! This column is an ongoing experiment in design, typography, langauge, and colors. Check out my <a href="/snippets">Snippets</a> or <a href="/masthead">say hello</a>.
 
 <ul class="index">
 {% for post in site.categories.writings %}  
 <li class="index-item">
   <a href="{{ post.url }}">{{ post.title }}</a>
   <span class="index-date faded">
-    <span class="index-date-long">{{ post.date | date: "%B %Y" }}</span>
-    <span class="index-date-short">{{ post.date | date: "%b. %Y" }}</span>
+    <!-- <span class="index-date-long">{{ post.date | date: "%B %Y" }}</span> -->
+    <!-- <span class="index-date-short">{{ post.date | date: "%b. %Y" }}</span> -->
   </span>
 </li>
 {% endfor %}

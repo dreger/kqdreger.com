@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<article class="article">
-  <header class="article_header">  
-    <h1 class="title">{{ page.title }}</h1>
-    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %} 
-    <span class="faded">{{ page.date | date: "%A, %e %B %Y" }}</span>
+<article>
+  <header>  
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p><em>{{ page.subtitle }}</em></p>{% endif %} 
   </header>
-  <section class="article_content"> 
-    {{ content }}
-  </section> 
+
+  {{ content }}
+  
+  <p>{{ page.date | date: "—%A, %e %B %Y" }}</p>
 </article>
 

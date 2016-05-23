@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: AF Manual of Style
 permalink: /manual-of-style/
 ---
