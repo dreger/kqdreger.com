@@ -1,6 +1,6 @@
 ---
 title: Syndication Feeds
-layout: post
+layout: page
 permalink: /feeds/
 ---
 

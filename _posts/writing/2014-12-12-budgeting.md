@@ -1,5 +1,6 @@
 ---
 title: Budgeting
+subtitle: A Beginner's Guide from a Beginner  
 date: 2014-12-12
 redirect_from:
 - "/archives/14346-budgeting.html"

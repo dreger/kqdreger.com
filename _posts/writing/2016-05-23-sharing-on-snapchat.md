@@ -1,5 +1,6 @@
 ---
 title: Snapchat and Sharing First Drafts
+subtitle: Rough First Drafts
 date: 2016-05-23 12:30:32
 ---
 

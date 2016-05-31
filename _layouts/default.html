@@ -19,39 +19,74 @@
     <link rel="apple-touch-icon" href="/assets/images/icon.png" />
     <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
     <style>
-      html { font-size: 17px; }
+      html { font-size: 20px; }
       body {
-        font-family:Georgia,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif; 
-        max-width: 28em; 
-        padding: 1rem; 
-        margin: 0;
-        line-height: 1.5em; 
+        font-family: "Charter", "Georgia", Times, serif;
+        line-height: 1.5em;  
+        padding: 0; 
+        background: #f2f2f2; 
+        margin: 0;  
       }
-      h1,h2,h3 { font-size: 1rem; }
+      h1,h2,h3 { 
+        font-size: 1rem; 
+      }
       h1,h2,h3,p,ol,ul,blockquote,img {
         margin-top: 0; 
         margin-bottom: 1.25rem;
       }
       h2, strong {
-        font-size: .95em;
+        font-size: .9em;
         letter-spacing: .1em; 
         text-transform: uppercase; 
         font-weight: normal; 
       }
+      ul { padding-left: 1.25rem; }
+      ul li { list-style: square; }
       img { max-width: 100%; }
-      .site-header { margin-bottom: 3rem; }
+      hr { border: 0; height: 1px; background: #ccc; width: 50%; margin: 1.5rem 0; }
+      a { color: #4285F4; }
+      ::selection { background: #4285F4; color: white; }
+      #bookmark { max-width: 200px; fill: #4285F4; }
+      #bookmark:hover { fill: #FF005A; }
+      .title { padding-left: 1rem; }
+      .wrapper {
+        max-width: 28em; 
+        padding: 0; 
+        margin: 0 auto; 
+        background: white; 
+        border-top: solid 16px #4285F4;
+      }
+      .header {
+        display: flex; 
+        padding: .75rem 1.5rem; 
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: .85rem;
+        line-height: 1em; 
+        border-bottom: solid 8px #f2f2f2; 
+      }
+      .content { padding: 1.5rem; }
+      .header a { color: #aaa; text-decoration: none; }
+      .header a:hover { color: #4285F4; }
+      .footer { margin: 3rem 0; text-align: center; color: #ccc; }
+      .mla { margin-left: auto; }
     </style>
   </head>
   <body>  
     <section class="wrapper">
-      <header class="site-header">
-        <p><a href="/">Home</a> &middot; <a href="/masthead">About</a> &middot; Happy <span id="today"></span></p>
-        <p>From the desk of<br>K.Q. Dreger</p>
+      <header class="header">      
+        <a class="homepage" href="/">web.kqdreger.com</a>
+        <a class="byline mla" href="/masthead/">/about</a>
       </header>
-  
-      {{ content }}
+      
+      <section class="content">
+        {{ content }}
+      </section>
+      
     </section>
     
+    <footer class="footer">
+      <p>Happy <span id="today"></span></p>
+    </footer>
     <script type="text/javascript">    
       // Happy Day!
       var days = [ 

@@ -1,5 +1,5 @@
 ---
-title: Fitbit HR
+title: Fitbit HR Test
 redirect_from:
 - /2016/01/09/fitbit-hr-review.html
 - /2016/01/fitbit-hr-review.html
