@@ -3,7 +3,7 @@ layout: default
 ---
 Hello&mdash;I'm your host, K.Q. Dreger.
 
-By day, I lead user experience at the Patriot Software Companies; by night, I write. Below is some of my better writing. Great care was taken to un-design this site, and hopefully what's left is fast and readable. Thanks for reading.
+By day, I lead user experience at the Patriot Software Companies; by night, I write. Below, you can find some of my better writing. Great care was taken to un-design this site, and hopefully what's left is fast and readable. Thanks for reading.
 
 <ul>
 {% for post in site.categories.writings %}  
