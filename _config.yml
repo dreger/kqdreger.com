@@ -21,11 +21,10 @@ gems:
 defaults:
   -
     scope:
-      path: "_posts/writing"
+      path: "_posts/published"
     values:
-      category: writings
+      category: published
       layout: "post"
-      hidden: true
   -
     scope:
       path: "_posts/snippets"

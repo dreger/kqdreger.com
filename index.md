@@ -12,7 +12,7 @@ By day, I lead user experience at the Patriot Software Companies; by night, I wr
 </ul> -->
 
 
-{% for post in site.categories.writings %}  
+{% for post in site.categories.published %}  
 <article>
   <p><a href="{{ post.url }}">{{ post.title }}</a><br>
   <em>{{ post.subtitle }}</em> </p>
