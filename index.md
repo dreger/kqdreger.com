@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-Hello&mdash;I'm K.Q. Dreger. 
+Talk less, write more, publish sparingly. 
 
-By day, I lead user experience at the Patriot Software Companies; by night, I write [Audacious Fox](http://audaciousfox.net). 
-**Correspondence** is cheerfully received at <comments@dreger.me> or [@Dreger](https://twitter.com/dreger). 
+Your host: K.Q. Dreger. Tweeting [@Dreger](https://twitter.com/dreger). 
+
+<ul>
+{% for post in site.posts %}
+ {% unless post.hidden %} 
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+ {% endunless %}
+{% endfor %}
+</ul>
