@@ -1,12 +1,9 @@
 ---
-title: Budgeting
-subtitle: A Beginner's Guide from a Beginner  
+title: "On Budgeting"
 date: 2014-12-12
-redirect_from:
-- "/archives/14346-budgeting.html"
-- "/budgeting.html"
-- 2014/12/12/budgeting.html
-- 2014/12/budgeting.html
+author: KD
+redirect_from: 
+  - 2014/12/12/budgeting.html
 ---
 
 

@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-Talk less, write more, publish sparingly. 
+Talk less, write more, publish sparingly. Follow nuggets of wisdom on Twitter [@Dreger](https://twitter.com/dreger) or subscribe via [RSS](/feeds/main.xml). 
 
-Your host: K.Q. Dreger. Tweeting [@Dreger](https://twitter.com/dreger). 
-
+<h2>Words, lots of them:</h2>
 <ul>
 {% for post in site.posts %}
  {% unless post.hidden %} 
