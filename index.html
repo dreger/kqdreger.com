@@ -8,7 +8,7 @@ layout: page
 <p>More bits of wizardry and insight on Twitter <a href="https://twitter.com/dreger">@Dreger</a> or subscribe to new posts via <a href="/feeds/main.xml">RSS</a>.</p>
 </aside>
 
-{% for post in site.categories.published  %}
+{% for post in site.posts  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
