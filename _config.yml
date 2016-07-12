@@ -23,9 +23,8 @@ gems:
 defaults:
   -
     scope:
-      path: "_posts/published"
+      path: "_posts"
     values:
-      category: published
       layout: "post"
   -
     scope:
