@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 Talk less, write more, publish sparingly. Follow nuggets of wisdom on Twitter [@Dreger](https://twitter.com/dreger) or subscribe via [RSS](/feeds/main.xml). 
 

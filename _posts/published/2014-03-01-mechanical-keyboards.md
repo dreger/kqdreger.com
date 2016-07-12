@@ -31,7 +31,11 @@ The [Wikipedia page for Keyboard technology](http://en.wikipedia.org/wiki/Keyboa
 9. Roll-up
 10. Optical
 
-<aside>If it wasn't already clear, we are only talking about _physical_ keyboards and the mechanisms that are used for the key switches. Although on-screen / software keyboards are far more pervasive than their physical counterparts, the only physical element involved is the glass &mdash; of which there is little difference between devices.[^1]</aside>
+<aside markdown="1">
+
+If it wasn't already clear, we are only talking about _physical_ keyboards and the mechanisms that are used for the key switches. Although on-screen / software keyboards are far more pervasive than their physical counterparts, the only physical element involved is the glass &mdash; of which there is little difference between devices.[^1]
+
+</aside>
 
 Membrane and Dome switches are, for our purposes, the same type of mechanism. These types of keys are typically found in laptop keyboards and could be described as having a "mushy" feeling. This is due to the rubber or silicone membrane that separates the top of the key from the underlying circuit board. Membrane and dome switches are used in the mass market due to their cheap production costs and durability. Some people enjoy the tactile feeling afforded by these types of switches; however, these are by no means the best typing experience you can get.
 

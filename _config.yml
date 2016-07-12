@@ -1,5 +1,7 @@
 # Site settings
 title: "K.Q. Dreger"
+author: "K.Q. Dreger"
+twitter: "@Dreger"
 email: "comments@dreger.me"
 description: "Liberal arts, in your browser."
 url: "http://web.kqdreger.com" 
@@ -21,9 +23,8 @@ gems:
 defaults:
   -
     scope:
-      path: "_posts/published"
+      path: "_posts"
     values:
-      category: published
       layout: "post"
   -
     scope:
