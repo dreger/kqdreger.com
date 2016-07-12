@@ -7,7 +7,7 @@ date: 2016-07-02 13:30
 
 And then a majority of the tech press lost its mind. Not so much about the two-year thing, more about the ditching of a [50 year-old standard][50yo]. It reminds me of when Steve Jobs [put the nail in the coffin][flash] of Flash on iOS. The industry's visceral response has been nothing short of fascinating. 
 
-However, almost two weeks out from the WSJ's report, [we don't know what we don't know][gruber]. But it's summertime, a holiday weekend, and my coffee is strong, so let's try and break this down a bit. 
+However, almost two weeks out from the WSJ's report, [we don't know what we don't know][gruber]. But it's summertime, a holiday weekend, and my coffee is strong, so let's try and break this down a bit.
 
 Losing the headphone jack would hurt. It's everywhere: planes, [clothing][hoodiebuddy], and almost every electronic device that can play audio. To even broach the subject of removing this port has your regular, non-technical person asking "why?" or "are you shitting me?" Literally. I've asked a number of them.
 
