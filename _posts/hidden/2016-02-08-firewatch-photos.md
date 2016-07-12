@@ -1,6 +1,7 @@
 ---
-title: Your Photos from Firewatch
+title: For $15, Firewatch for PC will develop and ship your in-game photos
 date: 2016-02-08 22:40
+link: http://www.polygon.com/2016/2/8/10940370/firewatch-photos-hey-there-delilah
 ---
 John Walker, [writing for Rock Paper Shotgun][rps]: 
 
