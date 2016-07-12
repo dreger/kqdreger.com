@@ -1,6 +1,7 @@
 ---
 title: Mechanical Keyboards
 date: 2014-03-01 21:28
+featured: true
 redirect_from:
 - "/archives/14060-mechanical-keyboards.html"
 - "/mechanical-keyboards.html"

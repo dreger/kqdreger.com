@@ -12,7 +12,7 @@ By "people," Mr. Bowler is referring to other creatives, those who might work in
 
 I spent the afternoon thinking about my answer to that question, and I arrived at this: 
 
-## Sharing honest, rough draft work on most platforms means looking amateur next to the competition. 
+Sharing honest, rough draft work on most platforms means looking amateur next to the competition. 
 
 Snapchat runs the other way. Snapchat-the-platform encourages a "shitty first draft" mentality that creatives struggle to find elsewhere, even on services dedicated to in-progress work. [1] Unlike posts on Facebook, Twitter, Dribbble, and Instagram, Snapchat encourages rough-edged peeks into who we are and what we're doing. Snaps are born into a context that embraces messy. [2] 
 

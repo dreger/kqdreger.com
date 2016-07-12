@@ -2,6 +2,7 @@
 title: Firewatch Review
 subtitle: This game is short, but very good 
 date: 2016-02-18 19:57
+featured: true
 ---
 
 _![firewatch](http://www.camposanto.com/external/wallpapers/keyart/2560x1600.jpg)_

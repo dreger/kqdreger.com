@@ -2,6 +2,7 @@
 title: "On Budgeting"
 date: 2014-12-12
 author: KD
+featured: true
 redirect_from: 
   - 2014/12/12/budgeting.html
 ---

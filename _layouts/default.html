@@ -31,18 +31,161 @@
     <link rel="apple-touch-icon" href="/assets/images/icon.png" />
     <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
     <link rel="canonical" href="{{ page.url | prepend: site.url }}" />    
-    <link rel="stylesheet" href="/assets/css/kqdback.css" type="text/stylesheet">
+    <style>
+    html { font-size: 16px; }
+    body {
+      line-height: 1.45em;  
+      padding: 0; 
+      margin: 0;  
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    h1,h2,h3 { 
+      font-size: 1rem; 	
+      line-height: 1.2em; 
+      margin-top: 0; 
+    }
+
+    h1 { font-weight: 900; }
+    h2 { 
+      margin-top: 2rem; 
+      border-bottom: dotted 1px #ccc; 
+      padding-bottom: .25rem; 
+
+    }
+
+    blockquote {
+      background: #f2f2f2;
+      margin-right: 0;
+      margin-left: 0; 
+      border-radius: 10px 10px 10px 0; 
+      padding: .15rem 1.5rem;
+    }
+
+    code {
+      background: #eee; 
+      font-size: .85rem; 
+      padding: 2px 5px; 
+    }
+
+    aside {
+      font-size: .875rem; 
+      border-top: 1px solid #dadada;
+      color: #555; 
+      line-height: 1.4em; 
+      float: right; 
+      width: 18rem; 
+      margin-right: -20rem; 
+    }
+
+    h2, strong {
+      font-size: .85em; 
+      letter-spacing: .1em; 
+      font-weight: 600; 
+      text-transform: uppercase; 
+    }
+
+    ul, ol { padding-left:1.25rem; }     
+    ul li { list-style: square; }
+
+    article {
+      max-width: 30rem;
+    }
+
+    img { 
+      display: block; 
+      width: 100%;         
+      border-radius: 2px; 
+    }
+    em img { 
+      width: 50rem; 
+    }
+    a { 
+      text-decoration: none; 
+      color: rgb(0,0,255);
+    }
+    a:hover { text-decoration: underline; }
+
+    .wrapper { 
+      max-width: 50rem; 
+      margin: 1.5rem auto;
+      padding: 0 1.5rem; 
+    }    
+    .header {
+      border-bottom: 1px solid #dadada; 
+      padding: 1.5rem 0; 
+      line-height: 1em; 
+      margin-bottom: 1.5rem; 
+    }
+    .footer { color: #aaa; margin: 4rem 0 2rem; }
+    .faded { color: #aaa; }
+
+    .footnotes {
+      font-size: .9rem; 
+      line-height: 1.3em; 
+      color: #5a5a5a;
+      margin-top: 2rem; 
+    }
+
+    .index {
+      display: flex; 
+      border-top: 1px solid #ddd; 
+      flex-wrap: wrap; 
+    }
+    .index-year { 
+      width: 25%; 
+      padding: .25rem 0;  
+      font-weight: 900;
+    }
+    .index-posts { width: 75%; }
+    .index-post {
+      display: flex; 
+      padding: .25rem 0; 
+      align-items: center; 
+      color: #222; 
+      border-top: 1px solid #ddd; 
+    }
+    .index-post:hover { 
+      color: rgb(0,0,255); 
+      text-decoration: none; 
+    }
+    .index-post:first-child { border-top: 0; }
+    .index-post-date {
+      flex-shrink: 0; 
+      padding-left: 1rem; 
+      font-size: .8rem; 
+      color: #aaa; 
+      margin-left: auto; 
+    }
+    .featured {
+      position: absolute; 
+      margin-left: -1.5rem;
+      color: rgb(0,0,255);
+      display: none; 
+    }
+
+    @media (max-width: 52rem) {
+      .header { margin: 0; }
+      .index { display: block; margin-top: 1.5rem;  }
+      .index-year, .index-posts { width: 100%; }
+      article { 
+        margin-left: auto; 
+        margin-right: auto; 
+      }
+      aside {
+        margin: 1.5rem 0 1.5rem 0; 
+        float: none; 
+        width: 100%;
+      }
+      em img { max-width: 100%; margin: initial; }
+    }
+    @media (max-width: 40rem) { html { font-size: 18px; } }
+    </style>
   </head>
   <body>  
-    <header class="header">
-      <section class="wrapper">
-        <a href="/">K.Q. Dreger</a>
-      </section> 
-    </header>
     <section class="wrapper">
       {{ content }}
       <footer class="footer">&copy; K.Q. Dreger</footer>
     </section>
-    
   </body>
 </html>
