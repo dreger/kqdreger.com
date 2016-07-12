@@ -7,7 +7,7 @@ description: "Liberal arts, in your browser."
 url: "http://web.kqdreger.com" 
 timezone: '-0600'
 icon: '&#9650;'
-permalink: /writing/:title.html
+permalink: /:year/:month/:title.html
 
 # Build settings
 sass:
