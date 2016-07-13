@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Simple Map</title>
+              <meta name="viewport" content="initial-scale=1.0">
+                  <meta charset="utf-8">
+                      <style>
+      html, body {
+                height: 100%;
+                          margin: 0;
+                                    padding: 0;
+                                            }
+            #map {
+              /*         height: 100%; */
+                    }
+                </style>
+                  </head>
+                    <body>
+                          <div id="map"></div>
+                              <div id="capture"></div>
+                                  
+                                  Latitude: <span id="latitude">..</span> <br>
+                                      
+                                      
+                                  <script>
+
+
+
+    var watchID;
+             var geoLoc;
+                      
+                      function showLocation(position) {
+                                    var latitude = position.coords.latitude;
+                                                var longitude = position.coords.longitude;
+                                                            console.log("Latitude : " + latitude + " Longitude: " + longitude);
+                                                                        document.getElementById('latitude').innerHTML=position.coords.latitude;
+
+                                                                                 }
+         
+         function errorHandler(err) {
+                       if(err.code == 1) {
+                                        console.log("Error: Access is denied!");
+                                                    }
+                                   
+                                   else if( err.code == 2) {
+                                                    console.log("Error: Position is unavailable!");
+                                                                }
+                                            }
+         
+         
+    function initMap(){
+            if(navigator.geolocation){
+                       // timeout at 60000 milliseconds (60 seconds)
+                       var options = {
+                                   enableHighAccuracy: false,
+                                   timeout: 5000,
+                                             maximumAge: 0
+                                                         };
+                                geoLoc = navigator.geolocation;
+                                         watchID = geoLoc.watchPosition(showLocation, errorHandler, options);
+                                               }
+              
+                  else{
+                             alert("Sorry, browser does not support geolocation!");
+                                   }
+                      }
+
+
+  // if (navigator.geolocation) { 
+  //     navigator.geolocation.getCurrentPosition(function(position) {  
+// 
+//       var point = new google.maps.LatLng(position.coords.latitude, 
+//                                          position.coords.longitude);
+// 
+//       // Initialize the Google Maps API v3
+//       var map = new google.maps.Map(document.getElementById('map'), {
+//         zoom: 19,
+//         center: point,
+//         mapTypeId: google.maps.MapTypeId.ROADMAP
+//       });
+// 
+//       // Place a marker
+//       new google.maps.Marker({
+//         position: point,
+//         map: map
+//       });
+//     }); 
+//   } 
+//   else {
+//     alert('W3C Geolocation API is not available');
+//   } 
+
+
+                                  </script>
+                                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlg_IBD4nIWiXdIWukuaRQTjPuAxYUMwg&callback=initMap" async defer></script>
+                                    </body>
+</html>
