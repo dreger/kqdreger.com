@@ -14,11 +14,10 @@ layout: default
   
 <article>
   <header>  
-    <p><a href="/">K.Q. Dreger</a></p>
-    <h1>{{ titleize }}</h1>
-    <p class="faded">Published {{ page.date | date: "%A, %e %B %Y" }}</p>
-    {% if page.link %}<p><em><a href="{{ page.link }}">Original source &rarr;</a></em></p>{% endif %} 
+    <h1><a href="{{ page.url }}">{{ titleize }}</a></h1>
   </header>
-  {{ content }}
+  
+  {{ page.content }}
+  <p>&mdash;<em>{{ page.date | date: "%A, %e %B %Y" }}</em></p>
 </article>
 

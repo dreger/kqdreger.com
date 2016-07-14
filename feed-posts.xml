@@ -1,24 +1,27 @@
 ---
 layout: null
-permalink: /feeds/posts.xml
+permalink: /feeds/main.xml
 ---
+
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    {% for post in site.posts limit:25 %}
+    <atom:link href="http://web.kqdreger.com/feeds/main.xml" rel="self" type="application/rss+xml"/>
+    {% for post in site.posts limit:11 %}
     <item>
-      <title>{{ site.url_icon }} {{ post.title | xml_escape }}</title>
-      <link>{{ post.url | prepend: site.url }}</link>
-      <guid isPermaLink="false">{{ post.url }}</guid>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ post.url | prepend: site.url }}</link>
+        <guid isPermaLink="false">{{ post.url }}</guid>
+      <dc:creator><![CDATA[K.Q. Dreger]]></dc:creator>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <description>
-          <![CDATA[
-          {{ post.content }}
-          ]]>
-        </description>
+      <description>
+        <![CDATA[
+        {{ post.content }}
+        ]]>
+      </description>
     </item>
     {% endfor %}
   </channel>

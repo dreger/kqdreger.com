@@ -15,6 +15,7 @@ sass:
 markdown: kramdown 
 highlighter: rouge
 excerpt_separator: "<!-- more -->"
+destination: _kqd
 
 gems:
   - jekyll-sitemap

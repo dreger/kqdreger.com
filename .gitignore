@@ -1,5 +1,5 @@
 # Ignore Jekyll generated files
-_site
+_kqd/
 _drafts/
 _ideas/
 _data
@@ -23,3 +23,5 @@ node_modules/
 
 # Environment-dependent files
 _plugins/environment_variables.rb
+
+*.swp

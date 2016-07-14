@@ -61,7 +61,7 @@ $sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Ca
 
 // ===================================
 
-h1,h2,h3,h4,h5,h6,p,img,ol,ul,blockquote,aside,hr,div { margin-bottom: 1.25rem; }
+h1,h2,h3,h4,h5,h6,p,img,ol,ul,blockquote,aside,hr { margin-bottom: 1.25rem; }
 strong { 
 	font-weight: 500; 
 	font-size: .85em; 
@@ -76,7 +76,7 @@ blockquote {
 }
 li { margin-bottom: .75rem; }
 img { display: block; width: 100%; }
-em img { width: 40rem; margin-left: -4rem }
+em img { width: 44rem; }
 
 // ===================================
 
@@ -118,13 +118,17 @@ header,h1,h2,h3 {
 }
 article {
 	padding: 1.5rem 0; 
-	max-width: 32rem;
+	max-width: 30rem;
 	position: relative; 
 }
 
 aside {
+	float: right; 
 	padding-top: .5rem;
 	border-top: solid 1px $light-gray; 
+	margin-top: -2rem; 
+	width: 12rem; 
+	margin-right: -14rem; 
 	color: $gray; 
 	font-size: .85rem; 
 	line-height: $line-height; 
@@ -137,7 +141,7 @@ hr {
 }
 
 .wrapped {
-	max-width: 32rem; 
+	max-width: 44rem; 
 	margin: 0 auto; 
 	padding: 1.25rem;
 }
@@ -163,7 +167,7 @@ hr {
 }
 
 .index {
-  border-top: solid 1px $light-gray; 
+  border-top: solid 1px #ccc; 
   display: flex; 	
 	font-family: $sans; 
 	width: 100%;
@@ -179,7 +183,7 @@ font-weight: 900;
 
 .index-post {
 	display: flex;
-  border-top: solid 1px $light-gray; 
+  border-top: solid 1px #ccc; 
 	text-decoration: none; 
 	padding: .25rem 0; 
 }
@@ -188,15 +192,13 @@ font-weight: 900;
 
 .index-post-date {
 	margin-left: auto; 
-	font-size: .8rem;
-	padding-left: .5rem;
-	flex-shrink: 0;  
-	color: $light-gray; 
+	font-size: .8rem; 
+	color: #ccc; 
 }
 
-@media (max-width: 32rem) { 
+@media (max-width: 44rem) { 
 	.site-header { margin-top: 0; }
-  em img { width: 100%; margin-left: 0; }
+  em img { width: 100%; }
 	aside {
 		float: none; 
 		width: 100%; 
