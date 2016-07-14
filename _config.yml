@@ -23,11 +23,13 @@ gems:
 defaults:
   -
     scope:
-      path: "_posts"
+      path: "_posts/published"
     values:
       layout: "post"
+      category: published
   -
     scope:
       path: "_posts/hidden"
     values:
       hidden: true
+      layout: "post"
