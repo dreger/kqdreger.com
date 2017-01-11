@@ -14,7 +14,7 @@
     <meta name="Description" content="{{ content | strip_html | truncatewords: 20 }}">
     <meta name="author" content="{{ site.author }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -30,22 +30,19 @@
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
     <link rel="apple-touch-icon" href="/assets/images/icon.png" />
     <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
-    <link rel="canonical" href="{{ page.url | prepend: site.url }}" /> 
-    <link rel="stylesheet" href="/assets/css/read.css">   
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+    <link rel="stylesheet" href="/assets/css/read.css">
  </head>
-  <body>  
+  <body>
     <section class="wrapped">
-      <header class="site-header">
-        <h1><a href="/">
-          From the Desk of<br>K.Q. Dreger
-        </a></h1>
-        <span class="smile">Happy <span id="today"></span></span>
-      </header>
+
+
         {{ content }}
-    </section> 
-    <script type="text/javascript">    
+        <!-- <span class="smile">Happy <span id="today"></span></span>
+    </section>
+    <script type="text/javascript">
       // Happy Day!
-      var days = [ 
+      var days = [
         "Sunday",
         "Monday",
         "Tuesday",
@@ -58,6 +55,6 @@
       var currentDate = new Date();
       var today = days[currentDate.getDay()]
       document.getElementById("today").innerHTML = today;
-    </script>
+    </script> -->
   </body>
 </html>

@@ -1,7 +1,7 @@
 ---
 ---
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -15,8 +15,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -27,7 +27,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -52,27 +52,23 @@ table {
 
 // ===================================
 
-$black: #222; 
-$gray: #7a7a7a; 
-$light-gray: #ddd; 
-$accent: #5C96D6;
-$line-height: 1.45em; 
+$black: #222;
+$gray: #7a7a7a;
+$light-gray: #ddd;
+$accent: rgb(0,122,255);
+$accent: #fed464; 
+$line-height: 1.45em;
 $sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 // ===================================
 
 h1,h2,h3,h4,h5,h6,p,img,ol,ul,blockquote,aside,hr,div { margin-bottom: 1.25rem; }
-strong { 
-	font-weight: 500; 
-	font-size: .85em; 
-	letter-spacing: .1em; 
-	text-transform: uppercase; 
-}
+strong { font-weight: 900; }
 em { font-style: italic; }
-blockquote { 
-	margin-left: .5rem; 
-	border-left: 3px solid $accent; 
-	padding-left: 1.5rem; 
+blockquote {
+	margin-left: .5rem;
+	border-left: 3px solid $accent;
+	padding-left: 1.5rem;
 }
 li { margin-bottom: .75rem; }
 img { display: block; width: 100%; }
@@ -81,34 +77,34 @@ em img { width: 40rem; margin-left: -4rem }
 // ===================================
 
 html {
-	font-size: 18px; 
+	font-size: 24px;
 }
 
 body {
-	font-family: Georgia; 
-	color: $black; 
-	line-height: $line-height; 
+	font-family: $sans;
+	color: $black;
+	line-height: $line-height;
 }
 
 a {
-	color: $accent; 
+	color: $accent;
 }
 
 h1,h2,h3 { line-height: 1.2em; }
 
 h1 {
-	font-size: 1.5rem; 
-	font-weight: 700; 
-	a { 
-		color: $black; 
-		text-decoration: none; 
+	font-size: 1.5rem;
+	font-weight: 900;
+	a {
+		color: $black;
+		text-decoration: none;
 		&:hover { color: $gray; }
 	}
 }
 
-h2 { 
-	font-size: 1.25rem; 
-  font-weight: 500; 
+h2 {
+	font-size: 1.25rem;
+  font-weight: 500;
 }
 
 h3 { font-weight: 800; }
@@ -117,93 +113,31 @@ header,h1,h2,h3 {
 	font-family: $sans;
 }
 article {
-	padding: 1.5rem 0; 
+	padding: 1.5rem 0;
 	max-width: 32rem;
-	position: relative; 
+	position: relative;
+}
+
+strong {
+	font-weight: 900;
 }
 
 aside {
 	padding-top: .5rem;
-	border-top: solid 1px $light-gray; 
-	color: $gray; 
-	font-size: .85rem; 
-	line-height: $line-height; 
+	border-top: solid 1px $light-gray;
+	color: $gray;
+	font-size: .85rem;
+	line-height: $line-height;
 }
 
 hr {
-	border: 0; 
-  height: 3px; 
-	background: $light-gray; 
+	border: 0;
+  height: 3px;
+	background: $light-gray;
 }
 
 .wrapped {
-	max-width: 32rem; 
-	margin: 0 auto; 
+	max-width: 30em;
+	margin: 4rem auto;
 	padding: 1.25rem;
 }
-
-.site-header {
-	border-bottom: solid 3px $black; 
-	padding-bottom: .5rem; 
-	margin-top: 4rem; 
-	display: flex; 
-	align-items: center; 
-	h1 {
-		font-weight: 900; 
-		font-size: 1rem; 
-		line-height: 1.25rem; 
-		margin: 0; 
-	}
-}
-
-.smile {
-	margin-left: auto; 
-	color: $light-gray; 
-	line-height: 1em; 
-}
-
-.index {
-  border-top: solid 1px $light-gray; 
-  display: flex; 	
-	font-family: $sans; 
-	width: 100%;
-}
-
-.index-year {
-  width: 20%; 
-  flex-shrink: 0; 
-font-weight: 900; 	
-}
-
-.index-posts { width: 100%; }
-
-.index-post {
-	display: flex;
-  border-top: solid 1px $light-gray; 
-	text-decoration: none; 
-	padding: .25rem 0; 
-}
-.index-post:first-child { border-top: 0; }
-
-
-.index-post-date {
-	margin-left: auto; 
-	font-size: .8rem;
-	padding-left: .5rem;
-	flex-shrink: 0;  
-	color: $light-gray; 
-}
-
-@media (max-width: 32rem) { 
-	.site-header { margin-top: 0; }
-  em img { width: 100%; margin-left: 0; }
-	aside {
-		float: none; 
-		width: 100%; 
-		margin: 1.25rem 0; 
-	}
-}
-
-// ===================================
-
-.flex { display: flex; }

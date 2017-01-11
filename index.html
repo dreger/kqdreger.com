@@ -1,21 +1,112 @@
 ---
 layout: default
 ---
+<style scoped>
+  t {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 
+  d, .skip { display: none; }
+
+  /*.skip { opacity: 0; }*/
+
+  .disabled {
+    text-decoration: none;
+    cursor: initial;
+  }
+
+  .enter {
+    display: inline;
+    animation: fadeIn .8s;
+  }
+
+  .enterSubtly {
+    display: inline; 
+    animation: fadeInSubtly 3s; 
+  }
+
+  .shh {
+    font-size: .875rem;
+    color: #ccc;
+    margin-top: 3rem;
+    line-height: 1.5em; 
+  }
+
+  .revealAll t {
+    text-decoration: none; 
+    cursor: initial;
+  }
+
+  @keyframes fadeIn {
+    from { background: #fed464; }
+      to { background: white; }
+  }
+
+  @keyframes fadeInSubtly {
+    from { opacity: 0; }
+      to { opacity: 1; }
+  }
+</style>
 
 <article>
-  <p>Welcome to my online home, which is, by contrast, a million times more clean and organized than my actual home. This is a space for me to share things I've written.</p>
-  
-  <p>I do a lot of writing at <a href="http://audaciousfox.net">Audacious Fox</a>. Recent topics of interesting include: storytelling through video games, the mechanics of writing, typography, web publishing, and my myriad of Apple devices.</p>
-  
-  
-  <p>You are looking at the latest iteration of many, many designs. This version is engineered to be super lightweight, devoid of analytics and trackers, and typeset for a comfortable reading experience.</p>
-  
-  <p>My day job, Patriot Software's Lead UX Designer, is fun. Since words are the foundation of web design, I get to do a decent bit of writing at work, which makes me happy. Speaking of my employer, opinions on this site are my own.</p>
+<h1>Hi, I'm <t id="intro">K.Q.</t></h1>
 
-  <p>I don't know why you'd follow me on Twitter, but <a href="https://twitter.com/dreger">here you go</a>. Get notified of new articles via <a href="/feeds/main.xml">RSS</a>. I enjoy email, so lets talk at <a href="mailto:comments@dreger.me?subject=Hello!">comments@dreger.me</a>.</p>
-  
-  <p>Thanks for reading.</p>
+<d class="intro">I'm a <t id="writer" onclick="revealSkip();">writer</t> and designer.</d>
+<d class="writer"><t id="writer2">Writer</t> by passion, really.</d>
+<d class="writer2">I do a bit of writing for my own <t id="personal">personal</t> column at <a href="http://audaciousfox.net">Audacious Fox</a>.</d>
+<d class="personal">Other personal interests of mine: webpage weight, orphaned words in headlines, legible typography, and storytelling in <t id="video-games">video games</t>.</d>
+<d class="video-games">I'm currently playing Overwatch, Pro Evolution Soccer, and Rocket League. Play hard, <t id="fun2">work hard</t>.</d>
 
-  <p>Over the years, I've hidden most of my old posts from the homepage. These articles are still available if you know the address, or you can go to <a href="/index2.html">this index of everything</a>.</p>
+<br><br>
+
+<d class="fun2">I work at a company called <t id="patriot">Patriot Software</t>.</d>
+<d class="patriot">We make online software for <t id="team">payroll, accounting, and recruiting</t>.</d>
+<d class="team">That's <t id="lots">a lot</t> of software.</d>
+  <d class="lots">To design it all, I help <t id="lead">lead</t> a talented <t id="team2">team</t> of designers.</d>
+    <d class="team2">We call ourselves Team <t id="dux">DUX</t>.</d>
+      <d class="dux">DUX stands for Design + UX. Plus, we like the idea that, like a duck, we paddle hard below the surface to provide a smooth experience above.</d>
+<d class="lead">Our goal is to design easy to use software that <t id="helps" onclick="hideSkip();">helps you</t> get work done.</d>
+
+<br><br>
+
+<d class="helps">Because design not rooted in humanity is useless.
+<br>
+<br>
+<div class="shh">Thanks for reading. You should follow me <a href="https://twitter.com/Dreger">@Dreger</a>, or check out <a href="https://audaciousfox.net">Audacious&nbsp;Fox</a>, which is where you can find my contact info and most recent writing. Bye! (or <a href="/">restart the show</a>?)</div>
+</d>
+
+<p class="shh skip">(Pst... you can <a href="javascript:;" onclick="revealAll();">skip the story</a>, if that's more your speed.)</p>
 </article>
+
+<script>
+  var revealNextPhrase = function(e) {
+    var toShow = e.target.id;
+    this.removeEventListener('click', revealNextPhrase);
+    e.target.className += "disabled";
+    document.querySelector("." + toShow).className += " enter"; //style.display = "inline"
+  };
+
+  var anchors = document.querySelectorAll('article t');
+
+  for (var i = 0; i < anchors.length; i++) {
+    var current = anchors[i];
+    console.log(current)
+    current.addEventListener('click', revealNextPhrase, false);
+  }
+
+  function revealSkip() { document.querySelector(".skip").className += " enterSubtly"; }
+  function hideSkip() { document.querySelector(".skip").style.display = "none"; }
+
+  function revealAll() {
+    document.querySelector(".skip").style.display = "none";
+
+    var definitions = document.querySelectorAll('article d'); 
+    for (var i = 0; i < definitions.length; i++) {
+      var current = definitions[i];
+      current.className += ' enter';  
+    }
+
+    document.querySelector('article').className += ' revealAll'; 
+  }
+</script>
