@@ -52,7 +52,7 @@ table {
 
 // ===================================
 
-$black: #222;
+$black: #181818;
 $gray: #7a7a7a;
 $light-gray: #ddd;
 $accent: rgb(0,122,255);
@@ -82,7 +82,8 @@ html {
 
 body {
 	font-family: $sans;
-	color: $black;
+	color: #f2f2f2;
+	background: $black;
 	line-height: $line-height;
 }
 
@@ -96,7 +97,7 @@ h1 {
 	font-size: 1.5rem;
 	font-weight: 900;
 	a {
-		color: $black;
+		color: #f2f2f2;
 		text-decoration: none;
 		&:hover { color: $gray; }
 	}

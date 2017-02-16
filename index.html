@@ -18,7 +18,7 @@ layout: default
 
   .enter {
     display: inline;
-    animation: fadeIn .7s;
+    /*animation: fadeIn .3s;*/
   }
 
   .enterSubtly {
@@ -39,8 +39,10 @@ layout: default
   }
 
   @keyframes fadeIn {
-    from { background: #fed464; }
-      to { background: white; }
+    /*from { background: #fed464; }
+      to { background: initial; }*/
+    from { opacity: 0; }
+      to { opacity: 1; }
   }
 
   @keyframes fadeInSubtly {
