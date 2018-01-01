@@ -58,7 +58,7 @@ $light-gray: #ddd;
 $accent: rgb(0,122,255);
 $accent: #fed464; 
 $line-height: 1.45em;
-$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$sans:"Gotham SSm A", "Gotham SSm B",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 // ===================================
 
@@ -84,6 +84,8 @@ body {
 	font-family: $sans;
 	color: $black;
 	line-height: $line-height;
+  font-style: normal;
+  font-weight: 400;
 }
 
 a {
@@ -96,7 +98,6 @@ h1 {
 	font-size: 1.5rem;
 	font-weight: 900;
 	a {
-		color: #f2f2f2;
 		text-decoration: none;
 		&:hover { color: $gray; }
 	}
