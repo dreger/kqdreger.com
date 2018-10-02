@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>K.Q. Dreger</title>
+    <meta name="google-site-verification" content="Ogew-ur2EU69JMUKW0hNSUQgEPXOD6H9-1HjTRtIzUE" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="Description" content="A designer and writer living in Ohio.">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="K.Q. Dreger">
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="article">
+    <meta name="twitter:site" content="{{ site.twitter }}">
+    <meta name="twitter:creator" content="{{ site.twitter }}">
+    <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
+    <meta name="twitter:title" content="K.Q. Dreger">
+    <meta property="og:description" content="A designer and writer living in Ohio.">
+    <meta name="twitter:description" content="A designer and writer living in Ohio.">
+
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+    <link rel="apple-touch-icon" href="/assets/images/icon.png" />
+    <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+    <style>
+      html {
+        font-size: 32px;
+      }
+      body {
+        font-family: "Athelas", "system-ui", -apple-system, Helvetica, Arial, sans-serif;
+        margin: 0; 
+        padding: 10px; 
+        /*background: #f1f2f3;*/
+      }
+      h1 {
+        font-size: 1.25rem; 
+        font-weight: 500; 
+        margin: 0 0 16px; 
+      }
+      .card {
+        margin: 3rem auto; 
+        max-width: 28rem; 
+      }
+      a { color: #FF725C; }
+      
+      @media (max-width: 500px) {
+        html { font-size: 24px; }
+        .card { margin-top: 0; }
+      }
+    </style>
+ </head>
+  <body>
+      <div class="card">
+
+        {{ content }} 
+    </div>
+  </body>
+</html>
