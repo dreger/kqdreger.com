@@ -2,16 +2,11 @@
 layout: minimal
 ---
 
-👋 Hello,
+Hello, welcome to my website. I'm currently designing products at [Patriot Software](https://patriotsoftware.com) and writing a tiny column at [Audacious Fox](https://audaciousfox.net). 
 
-Welcome to my website. I hope you have a great day. 
-  
-
-Cheers,  
-
-K.Q. Dreger  
-
-[Patriot Software](https://patriotsoftware.com), lead designer  
-[Audacious Fox](https://audaciousfox.net), writer  
+I also made a small iOS app for writing, [Edit](https://audaciousfox.net/projects/edit). 
 
 [Say hello](https://audaciousfox.net/masthead) or [follow me on Twitter](https://twitter.com/dreger).
+
+Cheers,  
+K.Q. Dreger
