@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /writing/
-Sitemap: /sitemap.xml
+
+sitemap: https://dreger.me/sitemap.xml
