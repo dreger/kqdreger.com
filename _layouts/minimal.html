@@ -25,23 +25,26 @@
     <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
     <style>
       html {
-        font-size: 16px;
+        font-size: 14px;
       }
       body {
         font-family: Verdana;
-        margin: 0; 
+        margin: 1rem; 
         line-height: 1.3em; 
         color: #222;
         width: 32rem;
       }
       p { margin: 0 0 1rem 0; }
+      a { color: #222; }
+      a:focus {
+        outline: solid 2px #FCCA75;
+        background: #FCCA75;
+      }
     </style>
  </head>
   <body>
     <main>
-      <div class="card">
-        {{ content }} 
-      </div>
+      {{ content }} 
     </main> 
   </body>
 </html>
