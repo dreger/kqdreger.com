@@ -2,7 +2,8 @@
 layout: minimal
 ---
 
-![photo of kyle quinn dreger](https://audaciousfox.net/kq.jpg)
+[![photo of kyle quinn
+dreger](https://audaciousfox.net/kq.jpg)](https://audaciousfox.net/kq.jpg)
 
 Kyle Quinn Dreger is a designer, programmer, and writer. He's currently the lead product designer at [Patriot Software](https://patriotsoftware.com) and writer/editor/publisher at [Audacious Fox](https://audaciousfox.net). Don't be too impressed by that last title amalgamation—it was self appointed. 
 
