@@ -4,11 +4,11 @@ layout: minimal
 
 ![photo of kyle quinn dreger](https://audaciousfox.net/kq.jpg)
 
-Welcome to my website. I'm currently the lead product designer at [Patriot Software](https://patriotsoftware.com) and writer/editor/publisher at [Audacious Fox](https://audaciousfox.net). Don't be too impressed by that last title amalgamation—it was self appointed. 
+Kyle Quinn Dreger is a designer, programmer, and writer. He's currently the lead product designer at [Patriot Software](https://patriotsoftware.com) and writer/editor/publisher at [Audacious Fox](https://audaciousfox.net). Don't be too impressed by that last title amalgamation—it was self appointed. 
 
-I also made a small iOS app for writing, [Edit](https://audaciousfox.net/projects/edit). It's got 4.9 stars on the App Store with over 20 reviews. 
+His most successful side project is Edit—[a small iOS app for writing](https://audaciousfox.net/projects/edit). It's got 4.9 stars on the App Store with over 20 reviews. 
 
-[Say hello](https://audaciousfox.net/masthead) or [follow me on Twitter](https://twitter.com/dreger).
+He lives in Northeast Ohio with his wife, son, and small dog. 
 
-Cheers,  
-K.Q. Dreger
+[Say hello](https://audaciousfox.net/masthead) or [follow him on Twitter](https://twitter.com/dreger).
+

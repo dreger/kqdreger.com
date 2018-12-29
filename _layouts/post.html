@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 ---
 {% capture titleize %}
 {% assign words = page.title | split: ' ' %}
@@ -10,16 +10,20 @@ layout: default
 {% endif %}
 {% endcapture %}
 
-<a href="/index2.html">&larr; Back to index</a>
-
-<p><em>Hi. All my current writing is over at <a href="https://audaciousfox.net">Audacious Fox</a>, and I'd love to show you around. Thanks for reading.</em></p>
+<p><a href="/index2.html">&larr; Back to index</a></p>
+<p>Hi. All my current writing is over at <a href="https://audaciousfox.net">Audacious Fox</a>, and I'd love to show you around. Thanks for reading.</p>
   
+<br>
+
 <article>
   <header>  
-    <h1><a href="{{ page.url }}">{{ titleize }}</a></h1>
+    <h1>{{ titleize }}</h1>
+    <p>{{ page.date | date: "%A, %B %e, %Y" }}</p>
+    {% if page.link %}
+      <p>Link: <a class="external" href="{{ page.link }}">{{ page.link }}</a></p>
+    {% endif %}
   </header>
   
   {{ page.content }}
-  <p>&mdash;<em>{{ page.date | date: "%A, %e %B %Y" }}</em></p>
 </article>
 
