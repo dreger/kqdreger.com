@@ -2,12 +2,17 @@
 layout: minimal
 ---
 
-[![photo of kyle quinn
-dreger](https://audaciousfox.net/kq.jpg)](https://audaciousfox.net/kq.jpg)
+<p>
+    <img src="https://audaciousfox.net/kq.jpg" alt="photo of kyle quinn
+      dreger" />
+    <br>
+    <small><a href="https://audaciousfox.net/kq.jpg">Photo</a> by Emily Dreger</small>
+  </p>
 
-Kyle Quinn Dreger is a designer, programmer, and writer. He's currently the lead product designer at [Patriot Software](https://patriotsoftware.com) and writer/editor/publisher at [Audacious Fox](https://audaciousfox.net). Don't be too impressed by that last title amalgamation—it was self appointed. 
 
-His most successful side project is Edit—[a small iOS app for writing](https://audaciousfox.net/projects/edit). It's got 4.9 stars on the App Store with over 20 reviews. 
+Kyle Quinn Dreger is a designer, programmer, and writer. He leads product designer at [Patriot Software](https://patriotsoftware.com) and writes at [Audacious Fox](https://audaciousfox.net).
+
+His most successful side project is Edit, [a small iOS app for writing](https://audaciousfox.net/projects/edit). People seem to like Edit, and it has a 4.9 star average on the App Store. 
 
 He lives in Northeast Ohio with his wife, son, and small dog. 
 

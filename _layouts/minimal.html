@@ -24,50 +24,78 @@
     <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
     <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
     <style>
-      html {
-        font-size: 14px;
-      }
-      body {
-        font-family: Verdana;
-        margin: 1rem 1rem 3rem; 
-        line-height: 1.3em; 
-        color: #222;
-        max-width: 32rem;
-      }
-      h1 {
-        font-size: 1.5rem;
-        line-height: 1.3em; 
-        font-weight: normal; 
-      }
-      h2 {
-        font-size: 1rem; 
-        font-weight: bold; 
-        margin: 2.5rem 0 1.25rem;
-      }
-      p { margin: 0 0 1.25rem 0; }
-      a:focus {
-        outline: solid 2px #FCCA75;
-        background: #FCCA75;
-      }
-      a.external { word-break: break-all; }
-      ul { 
-        list-style: square; 
-        padding-left: 1.25rem;
-      }
-      img { 
-        max-width: 120px; 
-        height: auto; 
-      }
-      @media (prefers-dark-interface) { 
-        body { 
-          color: #fafafa; 
-          background: #222;
-        }
-        a {
-          color: #fafafa; 
-        }
-      }
-    </style>
+:root {
+    --primary: red;
+    --text: #222;
+    --text-secondary: #979797;
+  }
+  html {
+    font-size: 20px;
+  }
+  body {
+    font-family: Verdana;
+    font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    margin: 16px;
+    line-height: 1.3em;
+    color: var(--text);
+    max-width: 32rem;
+      font-feature-settings: 'ss01' on, 'ss02' on, 'ss07' on, 'tnum' off;
+  }
+  h1,h2,h3,h4,h5,h6,p,blockquote {
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.3em;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2.5rem 0 1.25rem;
+  }
+  p { margin: 0 0 1.25rem 0; }
+  a {
+    color: var(--text);
+    border-bottom: solid 1px var(--primary);
+    text-decoration: none;
+  }
+  a:visited { 
+    border-bottom: dashed 1px var(--text-secondary); 
+    color: var(--text-secondary); 
+  }
+  a:hover { color: var(--primary); }
+  a:focus {
+    outline: solid 2px #FCCA75;
+    background: #FCCA75;
+  }
+  a.external { word-break: break-all; }
+  ul {
+    list-style: square;
+    padding-left: 1.25rem;
+  }
+  img {
+    max-width: 128px;
+    height: auto;
+  }
+  small {
+    font-size: .875rem;
+    color: var(--text-secondary);
+  }
+  small a {
+    color: var(--text-secondary);
+    border-color: #bbb  ;
+  }
+  @media (prefers-dark-interface) {
+    body {
+      color: #fafafa;
+      background: #222;
+    }
+    a {
+      color: #fafafa;
+    }
+  }
+   </style>
  </head>
   <body>
     {{ content }} 
