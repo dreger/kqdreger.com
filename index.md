@@ -10,7 +10,7 @@ layout: minimal
   </p>
 
 
-Kyle Quinn Dreger is a designer, programmer, and writer. He leads product designer at [Patriot Software](https://patriotsoftware.com) and writes at [Audacious Fox](https://audaciousfox.net).
+Kyle Quinn Dreger is a designer, programmer, and writer. He leads product design at [Patriot Software](https://patriotsoftware.com) and writes at [Audacious Fox](https://audaciousfox.net).
 
 His most successful side project is Edit, [a small iOS app for writing](https://audaciousfox.net/projects/edit). People seem to like Edit, and it has a 4.9 star average on the App Store. 
 
