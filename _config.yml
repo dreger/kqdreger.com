@@ -7,7 +7,7 @@ description: "Liberal arts, in your browser."
 url: "https://dreger.me" 
 timezone: '-0600'
 icon: '&#9650;'
-permalink: /writing/:title.html
+permalink: /writing/:title
 
 # Build settings
 sass:
