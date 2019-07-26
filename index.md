@@ -2,7 +2,7 @@
 layout: minimal
 ---
 
-    <main>
+<main>
 
 <!-- <img src="https://audaciousfox.net/kq.jpg" alt="photo of kyle quinn dreger" /> -->
 
