@@ -35,11 +35,10 @@
   }
   body {
     font-family: 'SF Compact Rounded', 'Barlow', -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Segoe UI", "Lucida Grande", "Helvetica Neue", Helvetica, "Fira Sans", Roboto, Noto, "Droid Sans", Cantarell, Oxygen, Ubuntu, "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-    margin: 16px;
     line-height: 1.3em;
     color: var(--text);
-    max-width: 32rem;
-    color: #333;
+    color: #222;
+    /*font-weight: 500;*/
       /*font-feature-settings: 'ss01' on, 'ss02' on, 'ss07' on, 'tnum' off;*/
   }
   h1,h2,h3,h4,h5,h6,p,blockquote {
@@ -88,12 +87,10 @@
     border-color: #bbb  ;
   }
   li { padding-bottom: .25rem; }
-  .smallcaps {
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    font-weight: 600; 
-    color: #888;
-    font-size: .875rem;
+  main {
+    max-width: 32rem;
+    margin: 3rem auto;
+    padding: 16px;
   }
   @media (prefers-dark-interface) {
     body {
