@@ -2,7 +2,6 @@
 layout: minimal
 ---
 
-<main>
 
 <!-- <img src="https://audaciousfox.net/kq.jpg" alt="photo of kyle quinn dreger" /> -->
 
@@ -13,4 +12,3 @@ layout: minimal
 <p>By night, I write about design and tech at <a href="https://audaciousfox.net/">Audacious Fox</a>. By nighter night, I make a small iOS app for writing—<a href="https://audaciousfox.net/projects/edit">Edit</a>. I live in Northeast Ohio with my wife, son, and small dog.</p>
 
 <p>Happy to talk about design, books, or tech. <a href="https://audaciousfox.net/masthead">Email</a> or <a href="https://twitter.com/dreger">Twitter</a>.</p>
-</main>
