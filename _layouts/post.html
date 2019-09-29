@@ -1,29 +1,16 @@
 ---
-layout: minimal
+layout: default
 ---
-{% capture titleize %}
-{% assign words = page.title | split: ' ' %}
-{% if words.size < 2 %}
-{{ page.title }}
-{% else %}
-{% for word in words %}{% if forloop.last %}&nbsp;{{ word }}{% else %} {{ word }}{% endif %}{% endfor %}
-{% endif %}
-{% endcapture %}
 
-<p><a href="/index2.html">&larr; archive</a></p>
-<p>(These are old writings. All my current work is at <a
-  href="https://audaciousfox.net">audaciousfox.net</a>.)</p>
+<p><a href="/">&larr; dreger.me</a></p>
   
 
 <article>
   <header>  
-    <h1>{{ titleize }}</h1>
+    <h1>{{ page.title }}</h1>
     <p>{{ page.date | date: "%A, %B %e, %Y" }}</p>
-    {% if page.link %}
-      <p>Link: <a class="external" href="{{ page.link }}">{{ page.link }}</a></p>
-    {% endif %}
   </header>
   
-  {{ page.content }}
+  {{ content }}
 </article>
 

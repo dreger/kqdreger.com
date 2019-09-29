@@ -3,11 +3,9 @@ title: "K.Q. Dreger"
 author: "K.Q. Dreger"
 twitter: "@Dreger"
 email: "comments@dreger.me"
-description: "Liberal arts, in your browser."
+description: "Director of product by day, writer by night, baker by nighter night."
 url: "https://dreger.me" 
-timezone: '-0600'
-icon: '&#9650;'
-permalink: /writing/:title
+permalink: /:title
 
 # Build settings
 sass:
@@ -15,22 +13,11 @@ sass:
 markdown: kramdown 
 highlighter: rouge
 excerpt_separator: "<!-- more -->"
-destination: _kqd
-
-gems:
-  - jekyll-sitemap
-  - jekyll-redirect-from
+destination: _public
 
 defaults:
   -
     scope:
-      path: "_posts/published"
+      path: "_posts" # an empty string here means all files in the project
     values:
-      layout: "post"
-      category: published
-  -
-    scope:
-      path: "_posts/hidden"
-    values:
-      hidden: true
       layout: "post"

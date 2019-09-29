@@ -1,61 +1,115 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <title>
-      {% if page.categories contains "snippets" %}
-      {{ site.title }}: "{{ page.content | strip_html | truncate: 200 }}"
-      {% else %}
-      {{ site.title }}{% if page.title %}: {{ page.title }}{% else %}{% endif %}
-      {% endif %}
-    </title>
-    <meta name="google-site-verification" content="Ogew-ur2EU69JMUKW0hNSUQgEPXOD6H9-1HjTRtIzUE" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="Description" content="{{ content | strip_html | truncatewords: 20 }}">
-    <meta name="author" content="{{ site.author }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="google-site-verification" content="Ogew-ur2EU69JMUKW0hNSUQgEPXOD6H9-1HjTRtIzUE">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="Description" content="Director of product by day, writer by night, baker by nighter night.">
+  <meta name="author" content="K.Q. Dreger">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:type" content="article">
 
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:url" content="{{ page.url | prepend: site.url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:type" content="article">
-    <meta name="twitter:site" content="{{ site.twitter }}">
-    <meta name="twitter:creator" content="{{ site.twitter }}">
-    <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 25 }}">
-    <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 25 }}">
+  {% if page.url == "/" %}
+  <meta property="og:description" content="{{ site.description }}">
+  {% else %}
+  <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 25 }}">
+  {% endif %}
 
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
-    <link rel="apple-touch-icon" href="/assets/images/icon.png" />
-    <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
-    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7972812/css/fonts.css" />
-    <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
-    <link rel="stylesheet" href="/assets/css/read.css">
- </head>
-  <body>
-    <section class="wrapped">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+  <link rel="apple-touch-icon" href="/assets/images/icon.png" />
+  <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
 
+  <style>
+    @font-face{
+      font-family: 'source-serif-pro';
+      font-weight: 400;
+      font-style: normal;
+      font-stretch: normal;
+      font-display: swap;
+      src: url('/assets/SourceSerifPro-Regular.otf.woff2') format('woff2'),
+      url('/assets/SourceSerifPro-Regular.otf.woff') format('woff');
+    }
 
-        {{ content }}
-        <!-- <span class="smile">Happy <span id="today"></span></span>
-    </section>
-    <script type="text/javascript">
-      // Happy Day!
-      var days = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ];
-      var currentDate = new Date();
-      var today = days[currentDate.getDay()]
-      document.getElementById("today").innerHTML = today;
-    </script> -->
-  </body>
+    @font-face{
+      font-family: 'source-serif-pro';
+      font-weight: 400;
+      font-style: italic;
+      font-stretch: normal;
+      font-display: swap;
+      src: url('/assets/SourceSerifPro-It.otf.woff2') format('woff2'),
+      url('/assets/SourceSerifPro-It.otf.woff') format('woff');
+    }
+
+    @font-face{
+      font-family: 'source-serif-pro';
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      font-display: swap;
+      src: url('/assets/SourceSerifPro-Black.otf.woff2') format('woff2'),
+      url('/assets/SourceSerifPro-Black.otf.woff') format('woff');
+    }
+
+    :root {
+      --accent: #FFC200;
+      --text: #333;
+      --text-secondary: #979797;
+    }
+    html {
+      font-size: 20px;
+    }
+    body {
+      -webkit-font-smoothing: subpixel-antialiased;
+      -webkit-text-size-adjust: 100%;
+      color: var(--text);
+      font-family: "source-serif-pro", -apple-system, BlinkMacSystemFont,sans-serif;
+      font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
+      font-feature-settings: 'liga' 1;
+      font-weight: 400;
+      letter-spacing: -0.011em;
+      line-height: 1.375;
+      text-rendering: optimizeLegibility;
+    }
+    h1,h2,h3,strong {
+      font-size: 900;
+    }
+    h1 { font-size: 2.25rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1rem; }
+    p { margin: 0 0 1.25rem 0; }
+    a {
+      color: var(--copy); 
+      text-decoration-skip-ink: auto;
+    }
+    a:hover { 
+      text-decoration-color: var(--accent); 
+    }
+    img {
+      max-width: 80px;
+      height: auto;
+      display: block;
+      margin-bottom: 1rem;
+      border-radius: 100px;
+    }
+    main {
+      max-width: 40rem;
+      margin: 2rem auto;
+      padding: 16px;
+    }
+
+    @media (max-width: 400px) {
+      main { margin-top: 0; padding-top: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    {{ content }}
+  </main>
+</body>
 </html>
