@@ -1,7 +1,0 @@
-Designed and produced by K.Q. Dreger. 
-
-# TECHNOLOGY
-
-Jekyll + AWS S3
-HTML5, CSS3 (SCSS)
-Pen, Paper
