@@ -1,6 +1,5 @@
 # Ignore Jekyll generated files
 _public/
-_drafts/
 _ideas/
 _data
 /log/audio/*
