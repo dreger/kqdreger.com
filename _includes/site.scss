@@ -1,0 +1,46 @@
+:root {
+  --accent: #FFC200;
+  --text: #242424;
+}
+html { font-size: 20px; }
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+  // font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0;
+  letter-spacing: -0.008em;
+  line-height: 1.375;
+  text-rendering: optimizeLegibility;
+  max-width: 50rem;
+}
+h1,h2,h3,strong { font-size: 900; }
+h1 { font-size: 2.25rem; line-height: 1.25; }
+h2 { font-size: 1.5rem; margin: 2.25rem 0 .5rem; }
+h3 { font-size: 1rem; margin: 2.25rem 0 .25rem; }
+p { margin: 0 0 1.25rem 0; }
+a {
+  color: var(--text); 
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--accent);
+}
+a:hover { text-decoration-color: var(--text); }
+hr { margin: 1.25rem 0; height: 2px; background: #ddd; border: 0; }
+img {
+  max-width: 80px;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 100px;
+}
+main {
+  max-width: 38rem;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+@media (max-width: 800px) { main { margin-top: 1rem; padding-top: 0; } }
