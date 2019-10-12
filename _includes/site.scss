@@ -1,6 +1,6 @@
 :root {
-  --accent: #FFC200;
-  --text: rgba(0, 0, 0, .9);
+  --accent: rgb(255,194,0); // #FFC200
+  --text: rgba(0,0,0,.9);
   --faded: #ddd; 
   --bg: #fff;
 }
@@ -50,8 +50,9 @@ main {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: rgba(255, 255, 255, .9); 
+    --text: rgba(255,255,255,.9); 
     --bg: #1f2023; 
     --faded: #383b40; 
+    --accent: rgba(255,194,0,.9); 
   }
 }

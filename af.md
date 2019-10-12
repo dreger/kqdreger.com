@@ -6,7 +6,7 @@ published: false
 
 # [dreger.me](/)/[af](/af)
 
-Audacious Fox is a tiny column on design, writing, gaming, and technology. Published from Ohio, made on a Mac. Updated multiple times a month, most of the time. Written by [K.Q. Dreger](/). 
+Audacious Fox is a small column on design, product, and writing. Published from Ohio, made on a Mac. Updated multiple times a month, most of the time. Written by [K.Q. Dreger](/). 
 
 
 
