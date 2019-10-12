@@ -11,8 +11,8 @@ I have a deep love of writing. Whether it's code for computers or words for peop
 
 I'm happy to talk about design, product, writing, or tech. Just [email](https://audaciousfox.net/masthead) or [tweet](https://twitter.com/dreger) me. Oh, and "Kyle" is fine—I just sign my name KQ. 
 
-## [AF, my monthly-ish column on design and product &rarr;](https://audaciousfox.net)
+## [AF, my monthly-ish column on design and product&nbsp;&rarr;](https://audaciousfox.net)
 
-## [Edit, the simplest place to write on iOS &rarr;](https://audaciousfox.net/projects/edit)
+## [Edit, the simplest place to write on iOS&nbsp;&rarr;](https://audaciousfox.net/projects/edit)
 
-## [Web Elements of Style, my rules for web copy &rarr;](https://audaciousfox.net/projects/style-guide)
+## [Web Elements of Style, my rules for web copy&nbsp;&rarr;](https://audaciousfox.net/projects/style-guide)
