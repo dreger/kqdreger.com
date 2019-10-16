@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-
-<p><a href="/af">&larr; back to /af</a></p>
   
 
 <article>
   <header>  
     <h1>{{ page.title }}</h1>
-    <p><em>{{ page.date | date: "%A, %B %e, %Y" }}</em></p>
   </header>
   
   {{ content }}
+
+  <p><br>&mdash; Published {{ page.date | date: "%A, %B %e, %Y" }}.</p>
 </article>
 
