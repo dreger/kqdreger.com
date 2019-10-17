@@ -2,6 +2,7 @@
 _public/
 _ideas/
 _data
+_drafts/*
 /log/audio/*
 /public/*
 portfolio/

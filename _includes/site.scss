@@ -1,11 +1,38 @@
+@font-face {
+    font-family: 'CourierPrimeSans';
+    src: url('/assets/fonts/courier_prime_sans_bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/courier_prime_sans_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CourierPrimeSans';
+    src: url('/assets/fonts/courier_prime_sans_italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/courier_prime_sans_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CourierPrimeSans';
+    src: url('/assets/fonts/courier_prime_sans-webfont.woff2') format('woff2'),
+         url('/assets/fonts/courier_prime_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
   --accent: rgb(255,194,0); // #FFC200
-  --text: rgba(0,0,0,.7);
+  --text: rgba(0,0,0,.8);
   --faded: #ddd; 
   --bg: #fff;
-  --font: "Courier Prime Sans", -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+  --font: "CourierPrimeSans", monospace; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
 }
-html { font-size: 16px; }
+html { font-size: 18px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
@@ -45,7 +72,7 @@ img {
   height: auto;
   display: block;
   margin-bottom: 1.25rem;
-  border: solid 4px var(--faded);
+  border: solid 2px var(--faded);
   &:hover { border-color: var(--accent); }
 }
 main {
@@ -63,10 +90,14 @@ input, button {
   font-size: .875rem; 
   padding: .5rem 1rem; 
   background: none; 
+  line-height: 1;
   border-radius: 2px; 
   font-family: var(--font); 
 }
-input:focus { border-color: var(--accent); }
+input:focus { 
+  border-color: var(--accent); 
+  outline: none;
+}
 button {
   background: var(--accent);
   border-color: var(--accent); 

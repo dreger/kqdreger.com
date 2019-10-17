@@ -4,7 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="{{ site.url }}">
-  <title>{{ page.title }}</title>
+  <title>
+    {% if page.layout == "post" %}
+      {{ page.title }} | Dreger Notes
+    {% else %}
+      {{ page.title }}
+    {% endif %}
+  </title>
   <meta name="author" content="K.Q. Dreger">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
@@ -29,7 +35,7 @@
     <a href="/" class="title"></a>
     {{ content }}
     <footer>
-      An eternal copyright &copy; — thanks for reading. 
+      <p>Probably going to start a blog here soon. We'll see. </p>
     </footer>
   </main>
 </body>
