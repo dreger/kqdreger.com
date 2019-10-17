@@ -1,38 +1,38 @@
-// @font-face {
-//     font-family: 'CourierPrimeSans';
-//     src: url('/assets/fonts/courier_prime_sans_bold-webfont.woff2') format('woff2'),
-//          url('/assets/fonts/courier_prime_sans_bold-webfont.woff') format('woff');
-//     font-weight: bold;
-//     font-style: normal;
-//     font-display: swap;
-// }
+@font-face{
+    font-family: 'SourceSerifPro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/fonts/SourceSerifPro-Regular.otf.woff2') format('woff2'),
+         url('/assets/fonts/SourceSerifPro-Regular.otf.woff') format('woff');
+}
 
-// @font-face {
-//     font-family: 'CourierPrimeSans';
-//     src: url('/assets/fonts/courier_prime_sans_italic-webfont.woff2') format('woff2'),
-//          url('/assets/fonts/courier_prime_sans_italic-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: italic;
-//     font-display: swap;
-// }
+@font-face{
+    font-family: 'SourceSerifPro';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/fonts/SourceSerifPro-It.otf.woff2') format('woff2'),
+         url('/assets/fonts/SourceSerifPro-It.otf.woff') format('woff');
+}
 
-// @font-face {
-//     font-family: 'CourierPrimeSans';
-//     src: url('/assets/fonts/courier_prime_sans-webfont.woff2') format('woff2'),
-//          url('/assets/fonts/courier_prime_sans-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-//     font-display: swap;
-// }
+@font-face{
+    font-family: 'SourceSerifPro';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/fonts/SourceSerifPro-Black.otf.woff2') format('woff2'),
+         url('/assets/fonts/SourceSerifPro-Black.otf.woff') format('woff');
+}
 
 :root {
   --accent: rgb(255,194,0); // #FFC200
   --text: rgba(0,0,0,.8);
   --faded: #ddd; 
   --bg: #fff;
-  --font: 'Fira Mono', monospace; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+  --font: 'SourceSerifPro', monospace; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
 }
-html { font-size: 18px; }
+html { font-size: 20px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
@@ -48,13 +48,11 @@ body {
   text-rendering: optimizeLegibility;
   max-width: 50rem;
 }
-h3,strong { font-weight: 700; }
-h1 { font-size: 2.25rem; line-height: 1.25; margin-bottom: 1rem; font-weight: normal; }
+h1,h3,strong { font-weight: 900; }
+h1 { font-size: 2.25rem; line-height: 1.25; margin-bottom: 1rem; }
 h2 { 
   font-size: 1.5rem; 
   margin: 2.25rem 0 .5rem; 
-  text-transform: uppercase;
-  letter-spacing: .02em;
   font-weight: normal;
 }
 h3 { font-size: 1rem; margin: 1.5rem 0 .25rem; }
@@ -83,6 +81,8 @@ main {
 footer {
   margin-top: 6rem;
   font-size: .875rem; 
+  color: var(--faded);
+  &:hover { color: var(--text); }
 }
 form { display: flex; }
 input { width: 70%; margin-right: .5rem; }
@@ -116,14 +116,23 @@ button {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 800px) { 
-  html { font-size: 16px; }
+@media (max-width: 600px) { 
+  html { font-size: 18px; }
   main { margin-top: 1rem; padding-top: 0; } 
   form { 
     flex-direction: column; 
+    width: 100%;
   }
-  input { display: block; width: 100%; margin-right: 0; margin-bottom: .5rem }
-  button { width: 50%; }
+  input { 
+    display: block; 
+    max-width: 320px; 
+    margin-right: 0; 
+    margin-bottom: .5rem 
+  }
+  button { 
+    max-width: 320px; 
+    width: auto; 
+  }
 }
 
 @media (prefers-color-scheme: dark) {
