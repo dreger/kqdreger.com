@@ -1,9 +1,9 @@
 ---
-title: Hierarchy of Product Team Needs
 layout: post
+title: Hierarchy of Product Team Needs
 ---
 
-I was on a run and thinking about Maslow's Hierarchy of Needs and how it could apply to product teams. I looked online, but all existing "product hierarchy of needs" info-graphics weren't what I was looking for, so I made my own: 
+I was on a run and thinking about [Maslow's Hierarchy of Needs](https://www.simplypsychology.org/maslow.html) and how it could apply to product teams. I looked online, but all existing "product hierarchy of needs" info-graphics weren't what I was looking for, so I made my own: 
 
 [![pyramid of needs]({{ site.url }}/assets/images/pyramid.jpg)](/assets/images/pyramid.jpg)
 
