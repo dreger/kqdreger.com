@@ -30,7 +30,7 @@
   --text: rgba(0,0,0,.8);
   --faded: #ddd; 
   --bg: #fff;
-  --font: 'Roboto Mono', monospace; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+  --font: 'Fira Mono', monospace; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
 }
 html { font-size: 18px; }
 body {
@@ -117,6 +117,7 @@ button {
 }
 
 @media (max-width: 800px) { 
+  html { font-size: 16px; }
   main { margin-top: 1rem; padding-top: 0; } 
   form { 
     flex-direction: column; 
