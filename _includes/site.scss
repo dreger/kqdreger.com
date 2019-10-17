@@ -1,36 +1,36 @@
-@font-face {
-    font-family: 'CourierPrimeSans';
-    src: url('/assets/fonts/courier_prime_sans_bold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/courier_prime_sans_bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
+// @font-face {
+//     font-family: 'CourierPrimeSans';
+//     src: url('/assets/fonts/courier_prime_sans_bold-webfont.woff2') format('woff2'),
+//          url('/assets/fonts/courier_prime_sans_bold-webfont.woff') format('woff');
+//     font-weight: bold;
+//     font-style: normal;
+//     font-display: swap;
+// }
 
-@font-face {
-    font-family: 'CourierPrimeSans';
-    src: url('/assets/fonts/courier_prime_sans_italic-webfont.woff2') format('woff2'),
-         url('/assets/fonts/courier_prime_sans_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
+// @font-face {
+//     font-family: 'CourierPrimeSans';
+//     src: url('/assets/fonts/courier_prime_sans_italic-webfont.woff2') format('woff2'),
+//          url('/assets/fonts/courier_prime_sans_italic-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: italic;
+//     font-display: swap;
+// }
 
-@font-face {
-    font-family: 'CourierPrimeSans';
-    src: url('/assets/fonts/courier_prime_sans-webfont.woff2') format('woff2'),
-         url('/assets/fonts/courier_prime_sans-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+// @font-face {
+//     font-family: 'CourierPrimeSans';
+//     src: url('/assets/fonts/courier_prime_sans-webfont.woff2') format('woff2'),
+//          url('/assets/fonts/courier_prime_sans-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
 
 :root {
   --accent: rgb(255,194,0); // #FFC200
   --text: rgba(0,0,0,.8);
   --faded: #ddd; 
   --bg: #fff;
-  --font: "CourierPrimeSans", monospace; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+  --font: 'Roboto Mono', monospace; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
 }
 html { font-size: 18px; }
 body {
@@ -84,7 +84,9 @@ footer {
   margin-top: 6rem;
   font-size: .875rem; 
 }
-
+form { display: flex; }
+input { width: 70%; margin-right: .5rem; }
+button { width: 30%; }
 input, button {
   border: solid 2px var(--faded); 
   font-size: .875rem; 
@@ -114,7 +116,14 @@ button {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 800px) { main { margin-top: 1rem; padding-top: 0; } }
+@media (max-width: 800px) { 
+  main { margin-top: 1rem; padding-top: 0; } 
+  form { 
+    flex-direction: column; 
+  }
+  input { display: block; width: 100%; margin-right: 0; margin-bottom: .5rem }
+  button { width: 50%; }
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -123,8 +132,5 @@ button {
     --faded: #383b40; 
     --accent: rgba(255,194,0,.9); 
   }
-  // img {
-  //   -webkit-filter: invert(1);
-  //   filter: invert(1);
-  // }
+  input { color: var(--text); }
 }
