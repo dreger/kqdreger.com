@@ -32,6 +32,7 @@
   --bg: #fff;
   --font: 'SourceSerifPro', 'Charter', 'Georgia', serif; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
 }
+* { box-sizing: border-box; }
 html { font-size: 20px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
@@ -107,17 +108,19 @@ button {
 }
 .title { 
   display: block;
-  width: 2.5rem;
-  height: 2.5rem;
-  background:  url(/assets/images/bolt.svg) no-repeat 50%;
+  width: 3rem;
+  height: 3rem;
+  background:  url(/assets/images/waves.svg) no-repeat 50%;
   text-indent: -1000em;
-  background-size: 60%;
+  background-size: 100%;
   border-radius: 100%;
   margin-bottom: 2rem;
+  &:hover {
+    opacity: .5; 
+  }
 }
 
 @media (max-width: 600px) { 
-  html { font-size: 18px; }
   main { margin-top: 1rem; padding-top: 0; } 
   form { 
     flex-direction: column; 
@@ -125,12 +128,13 @@ button {
   }
   input { 
     display: block; 
-    max-width: 320px; 
+    max-width: 360px; 
+    width: 100%;
     margin-right: 0; 
     margin-bottom: .5rem 
   }
   button { 
-    max-width: 320px; 
+    max-width: 360px; 
     width: auto; 
   }
 }
