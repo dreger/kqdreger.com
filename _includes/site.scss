@@ -1,10 +1,11 @@
 :root {
   --accent: rgb(255,194,0); // #FFC200
   --text: rgba(0,0,0,.8);
-  --faded: #ddd; 
+  --faded: #aaa; 
   --bg: #fff;
   --font: 'InterFam', -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
 }
+::selection { background-color: var(--accent); }
 * { box-sizing: border-box; }
 html { font-size: 16px; }
 body {
@@ -17,8 +18,8 @@ body {
   padding: 0;
   background: var(--bg);
   letter-spacing: -0.008em;
-  line-height: 1.375; // regular 
   line-height: 1.5; // monospace
+  line-height: 1.375; // regular 
   text-rendering: optimizeLegibility;
   // max-width: 50rem;
 }
