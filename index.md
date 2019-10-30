@@ -7,21 +7,21 @@ Hi, I'm K.Q. Dreger. I work at [Patriot Software](https://patriotsoftware.com/) 
 
 I have a deep love of writing, whether it's code for computers or words for humans. I think good writing is good design—and clarity in writing leads to clarity of thought. 
 
-[Email][] &bull; [Twitter][]
+[More about this site][about-site] &bull; [Email][] &bull; [Twitter][]
 
-[about this site]: /about-site 
+[about-site]: /about-site 
 [email]: https://audaciousfox.net/masthead
 [twitter]: https://twitter.com/dreger
 
 
 
-<!-- ### Blog posts
+## Dispatches
 
-<ul>
+I write occasionally. Observations. Notes. Musings. I call them dispatches. 
+
 {% for post in site.posts  %}
-<li><a href="{{ post.url }}">{{ post.title }}</a> &mdash; <em>{{ post.date | date: "%B %e, %Y" }}</em></li>
+<p><a href="{{ post.url }}">{{ post.title }}&nbsp;&rarr;</a><br><small><em>{{ post.date | date: "%B %e, %Y" }}</em></small></p>
 {% endfor %}
-</ul> -->
 
 {% include contact.html %}
 
