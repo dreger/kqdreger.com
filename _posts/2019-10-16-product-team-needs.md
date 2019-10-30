@@ -18,15 +18,17 @@ You have customer feedback, and now it's time to create solutions for their prob
 
 ## Level three: implement lightweight metrics.
 
-You've built some stuff and now it's time to measure whether it worked. The metrics rabbit hole is rife with products and terms and general misdirection about what you truly need. Do a lot of reading, and then ignore most of it. A maturing product team does need some form of analytics and metrics—because you need some form of quantitative data to shore up what you're hearing from the customers themselves—but you do not, DO NOT, need to spend tens of thousands of dollars and two months integrating with one of the huge product analytics players. Not at the start. 
+You've built some stuff and now it's time to measure whether it worked. The metrics rabbit hole is rife with products and terms and general misdirection about what you truly need. Do a lot of reading, and then ignore most of it. A maturing product team does need some form of analytics and metrics to shore up what you're hearing from customers—but you do not, DO NOT, need to spend tens of thousands of dollars and two months integrating with one of the huge product analytics players. Not yet, at least. 
 
-At this level, you only need to answer two questions: (a) what do we track to tell if the thing is working and (b) how will we report on this data. For (a), basic things like page views, clicks, and lower level database fields can help indicate behavior (Have they turned on feature X? Set a date field with the date they turn it on.) For (b), you'll either need to have direct access to the database and some SQL knowledge (it’s not hard to get the basics) or a web-based tool that simplifies the reporting for you. There are a lot of tools out there, just be extremely judicious about giving database access to a third party.
+At this level, you only need to answer two questions: (a) what do we track to tell if our stuff is working and (b) how will we report on this data. For (a), basic things like page views, clicks, and lower level database fields can help indicate behavior (Have they turned on feature X? Set a date field with the date they turn it on.) For (b), you'll either need to have direct access to the database and some SQL knowledge (it’s not hard to get the basics) or a web-based tool that simplifies the reporting for you. There are a lot of tools out there, just be extremely judicious about giving database access to a third party.
+
 
 ## Level four: have a process for team self-improvement.
 
-Ding. Welcome to level four. At this point, you should be completing enough create->ship->research cycles that  recurring issues become apparent—especially if you're looking at multiple product teams.  Once you've identified these problem areas, you actually have to set aside time for growth or reflection otherwise you’ll never improve. 
+Ding. Welcome to level four. Enlightenment time. At this point, you should be completing enough create &rarr; ship &rarr; research cycles that recurring issues become apparent—especially if you're looking at multiple product teams. Once you've identified these problem areas, you need to set aside time for growth and reflection. If you don't, these small pains will become chronic injuries. 
 
-Companies stuck at this stage will hemorrhage good people. Good product people are used to improving through iteration, and they won't hang around a company that doesn't treat the team as its most important product. Self-improvement at this level can be as simple as design reviews, a book club, or team retrospectives. 
+Companies that get stuck at this stage will hemorrhage good people. This is because good product people are used to improving through iteration, and they won't hang around a company that doesn't treat the team as its most important product. (Side note: your company is your most important product.) Self-improvement at this level can be as simple as design reviews, a book club, or team retrospectives. Just set aside time and do it. 
+
 
 ## Level five: refine delivery, release, and marketing ops.
 
