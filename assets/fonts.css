@@ -1,3 +1,5 @@
+/*
+
 @font-face{
     font-family: 'SourceSerifPro';
     font-weight: 400;
@@ -28,3 +30,31 @@
          url('/assets/fonts/SourceSerifPro-Black.otf.woff') format('woff');
 }
 
+*/
+
+
+
+@font-face {
+  font-family: 'InterFam';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-Medium.woff2?v=3.11") format("woff2"),
+       url("/assets/fonts/Inter-Medium.woff?v=3.11") format("woff");
+}
+@font-face {
+  font-family: 'InterFam';
+  font-style:  italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-MediumItalic.woff2?v=3.11") format("woff2"),
+       url("/assets/fonts/Inter-MediumItalic.woff?v=3.11") format("woff");
+}
+@font-face {
+  font-family: 'InterFam';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/assets/fonts/Inter-Black.woff2?v=3.11") format("woff2"),
+       url("/assets/fonts/Inter-Black.woff?v=3.11") format("woff");
+}

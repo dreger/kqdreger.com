@@ -5,7 +5,7 @@ title: Product Team Hierarchy of Needs
 
 I was on a run and thinking about Maslow's hierarchy of needs and how it could apply to product teams. I looked online, but all existing "product hierarchy of needs" infographics weren't what I was looking for, so I made my own: 
 
-[![pyramid of needs]({{ site.url }}/assets/images/pyramid.jpg)](/assets/images/pyramid.jpg)
+[![pyramid of needs]({{site.url}}/assets/images/pyramid.jpg)](/assets/images/pyramid.jpg)
 
 Let’s walk through the levels.
 

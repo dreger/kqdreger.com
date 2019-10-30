@@ -1,7 +1,6 @@
 ---
-title: Slightly longer bio
+title: About this site
 layout: page
-published: false
 ---
 
 I'm the director of product at Patriot Software where I help empower our product and design teams. We're building some of the fastest, simplest, and most affordable online software for small businesses—so if that sounds like fun, [come join us](https://www.patriotsoftware.com/about/careers/).

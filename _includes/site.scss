@@ -3,16 +3,16 @@
   --text: rgba(0,0,0,.8);
   --faded: #ddd; 
   --bg: #fff;
-  --font: 'SourceSerifPro', 'Charter', 'Georgia', serif; // -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+  --font: 'InterFam', -apple-system, BlinkMacSystemFont, "Avenir Next", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
 }
 * { box-sizing: border-box; }
-html { font-size: 20px; }
+html { font-size: 16px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
   color: var(--text);
   font-family: var(--font); 
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 auto;
   padding: 0;
   background: var(--bg);
@@ -20,8 +20,9 @@ body {
   line-height: 1.375; // regular 
   line-height: 1.5; // monospace
   text-rendering: optimizeLegibility;
-  max-width: 50rem;
+  // max-width: 50rem;
 }
+h1,h2,h3, img, blockquote, p, ul, ol { margin: 0 0 1.25rem 0; }
 h1,h3,strong { font-weight: 900; }
 h1 { font-size: 2.25rem; line-height: 1.25; margin-bottom: 1rem; }
 h2 { 
@@ -29,12 +30,11 @@ h2 {
   margin: 2.25rem 0 .5rem; 
   font-weight: normal;
 }
-h3 { font-size: 1rem; margin: 1.5rem 0 .25rem; }
-p { margin: 0 0 1.25rem 0; }
+h3 { font-size: 1rem; margin: 2.25rem 0 .25rem; }
 a {
   color: var(--text); 
   text-decoration-skip-ink: auto;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
   text-decoration-color: var(--accent);
 }
 a:hover { text-decoration-color: var(--text); }
@@ -49,8 +49,9 @@ img {
 }
 main {
   max-width: 38rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
   padding: 1rem;
+  position: relative;
 }
 footer {
   margin-top: 6rem;
@@ -81,8 +82,8 @@ button {
 }
 .title { 
   display: block;
-  width: 3rem;
-  height: 3rem;
+  width: 2.25rem;
+  height: 2.25rem;
   background:  url(/assets/images/waves.svg) no-repeat 50%;
   text-indent: -1000em;
   background-size: 100%;
