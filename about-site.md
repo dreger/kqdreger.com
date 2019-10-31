@@ -13,6 +13,6 @@ Written on a Mac.
 
 Published from Northeast Ohio. 
 
-No JavaScript used. 
-
 Accent color is my favorite yellow/orange: #FFC200.
+
+Web traffic monitored via [Clicky](https://clicky.com). 
