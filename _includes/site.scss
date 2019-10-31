@@ -7,17 +7,16 @@
 }
 ::selection { background-color: var(--accent); }
 * { box-sizing: border-box; }
-html { font-size: 18px; }
+html { font-size: 16px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
   color: var(--text);
   font-family: var(--font); 
-  font-weight: 500;
+  font-weight: 400;
   margin: 0 auto;
   padding: 0;
   background: var(--bg);
-  letter-spacing: -0.008em;
   line-height: 1.5; // monospace
   line-height: 1.375; // regular 
   text-rendering: optimizeLegibility;
@@ -49,7 +48,7 @@ img {
   &:hover { border-color: var(--accent); }
 }
 main {
-  max-width: 38rem;
+  max-width: 32rem;
   margin: 2rem auto;
   padding: 1rem;
   position: relative;
@@ -96,6 +95,7 @@ button {
 }
 
 @media (max-width: 600px) { 
+  html { font-size: 18px; }
   main { margin-top: 1rem; padding-top: 0; } 
   form { 
     flex-direction: column; 
