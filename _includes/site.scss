@@ -7,7 +7,7 @@
 }
 ::selection { background-color: var(--accent); }
 * { box-sizing: border-box; }
-html { font-size: 16px; }
+html { font-size: 18px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
@@ -20,35 +20,45 @@ body {
   line-height: 1.5; // monospace
   line-height: 1.375; // regular 
   text-rendering: optimizeLegibility;
-  // max-width: 50rem;
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1.25rem 0; }
 h1,h3,strong { font-weight: 900; }
-h1 { font-size: 1.5rem; line-height: 1.25; margin-bottom: 1rem; }
+h1 { font-size: 2rem; line-height: 1.25; margin-bottom: 1rem; }
 h2 { 
   font-size: 1.25rem; 
   margin: 2.25rem 0 .5rem; 
   font-weight: normal;
 }
-h3 { font-size: 1rem; margin: 2.25rem 0 .25rem; }
+h2, h3 { font-weight: 900; font-size: 1rem; margin: 2.25rem 0 .25rem; }
+ul { list-style: square; padding-left: 1rem; }
 a {
   color: var(--text); 
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 1px;
-  text-decoration-color: var(--accent);
+  text-decoration-color: white;
+  transition: all ease-out .1s; 
 }
-a:hover { text-decoration-color: var(--text); }
+a:after {
+  content: "°"; 
+  color: var(--accent); 
+  margin-left: 0.1em; 
+  top: -0.1em; 
+  font-weight: bold; 
+  position: relative; 
+}
+a:hover { color: var(--accent); }
+
 hr { margin: 1.25rem 0; height: 2px; background: var(--faded); border: 0; }
 img {
   width: 100%;
   height: auto;
   display: block;
   margin-bottom: 1.25rem;
-  border: solid 2px var(--faded);
+  border: solid 1px var(--faded);
   &:hover { border-color: var(--accent); }
 }
 main {
-  max-width: 32rem;
+  max-width: 36rem;
   margin: 2rem auto;
   padding: 1rem;
   position: relative;
