@@ -3,14 +3,14 @@ layout: post
 title: Product Team Hierarchy of Needs
 ---
 
-I was on a run and thinking about Maslow's hierarchy of needs and how it could apply to product teams. I looked online, but all existing "product hierarchy of needs" infographics weren't what I was looking for, so I made my own. Let’s walk through the levels: 
+I was on a run and thinking about Maslow's hierarchy of needs and how the force ranked list of needs could apply to product teams. Here's my attempt. Let’s walk through the levels: 
 
 [![pyramid of needs]({{site.url}}/assets/images/pyramid.jpg)](/assets/images/pyramid.jpg)
 
 
-## Level one: talk to your customers daily.
+## Level one: the ability to talk with your customers daily.
 
-There's no way around this one. If you don’t have access to your customers or you’re not reaching out to them daily, I have zero faith that you can build any sort of product that will work.
+If you don’t have access to your customers or you’re not reaching out to them daily, I have zero faith that you can build any sort of product that will work. This is the most basic of product team needs. 
 
 ## Level two: quickly build and share prototypes.
 
