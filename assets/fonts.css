@@ -17,8 +17,8 @@
 @font-face {
   font-family: 'InterFam';
   font-style:  normal;
-  font-weight: 900;
+  font-weight: 500;
   font-display: swap;
-  src: url("/assets/fonts/Inter-Black.woff2?v=3.11") format("woff2"),
-       url("/assets/fonts/Inter-Black.woff?v=3.11") format("woff");
+  src: url("/assets/fonts/Inter-Medium.woff2?v=3.11") format("woff2"),
+       url("/assets/fonts/Inter-Medium.woff?v=3.11") format("woff");
 }
