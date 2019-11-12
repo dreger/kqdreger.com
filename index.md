@@ -3,7 +3,7 @@ layout: default
 title: "K.Q. Dreger"
 ---
 
-**Read this first &darr;**
+**Essays**
 
 
 {% for post in site.posts %}
