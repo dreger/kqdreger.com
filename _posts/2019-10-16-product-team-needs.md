@@ -10,7 +10,7 @@ I was on a run and thinking about Maslow's hierarchy of needs and how a force ra
 
 ## Level one: talk with your customers daily.
 
-If you don’t have access to your customers or you’re not reaching out to them daily, I have zero faith that you can build any sort of product that will work. You simply won’t have enough information to make good decisions.
+You simply won’t have enough information to make good product decisions if you're not talking with your customers every day. Call them. Email them. Ask them what they like, what they don't like, what they wish your product could do, where they're indifferent. Would they recommend your product to someone else? Who? Why not? 
 
 ## Level two: build and share prototypes.
 
