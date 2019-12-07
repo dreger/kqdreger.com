@@ -3,7 +3,7 @@ layout: default
 title: "K.Q. Dreger"
 ---
 
-**Essays**
+**Notes**
 
 
 {% for post in site.posts %}
@@ -18,8 +18,9 @@ Hi, I'm K.Q. Dreger. I work at [Patriot Software](https://patriotsoftware.com/) 
 
 I have a deep love of writing, whether it's code for computers or prose for people. I think good writing is good design—and clarity in writing leads to clarity of thought. 
 
-[About this site][about] &mdash; [Twitter][]
+[About this site][about] &mdash; [Twitter][] &mdash; [RSS][]
 
+[rss]: /feed.xml
 [about]: /about-site
 [email]: https://audaciousfox.net/masthead
 [twitter]: https://twitter.com/dreger
