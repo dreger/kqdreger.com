@@ -3,16 +3,16 @@ layout: post
 title: Product Team Hierarchy of Needs
 ---
 
-I was on a run and thinking about Maslow's hierarchy of needs and how the force ranked list of needs could apply to product teams. Here's my attempt. Let’s walk through the levels: 
+I was on a run and thinking about Maslow's hierarchy of needs and how a force ranked list of needs could apply to product teams. Here's my attempt. Let’s walk through the levels: 
 
 [![pyramid of needs]({{site.url}}/assets/images/pyramid.jpg)](/assets/images/pyramid.jpg)
 
 
-## Level one: the ability to talk with your customers daily.
+## Level one: talk with your customers daily.
 
-If you don’t have access to your customers or you’re not reaching out to them daily, I have zero faith that you can build any sort of product that will work. This is the most basic of product team needs. 
+If you don’t have access to your customers or you’re not reaching out to them daily, I have zero faith that you can build any sort of product that will work. You simply won't have enough information to make good decisions. 
 
-## Level two: quickly build and share prototypes.
+## Level two: build and share prototypes.
 
 You have customer feedback, and now it's time to create solutions for their problems. A good product team should be able to quickly prototype (code, Figma, whatever) ideas that are Just Enough™ to demonstrate the value and begin to unearth usability issues. Prototypes should be lightweight and shareable with a single link. 
 
