@@ -15,9 +15,6 @@ highlighter: rouge
 excerpt_separator: "<!-- more -->"
 destination: _public
 
-plugins:
-  - jekyll-feed
-
 defaults:
   -
     scope:
