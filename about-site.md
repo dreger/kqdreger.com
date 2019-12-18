@@ -3,7 +3,7 @@ title: About this site
 layout: page
 ---
 
-Type set in [Inter by Rasmus Andersson](https://rsms.me/inter/).
+Type set in Gotham by Hoefler and Co.
 
 Hosted on GitHub Pages. 
 

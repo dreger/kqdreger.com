@@ -2,22 +2,20 @@
 layout: default
 title: "K.Q. Dreger"
 ---
+Hi, I'm K.Q. Dreger. By day I work at [Patriot Software](https://patriotsoftware.com/) where I empower our product and design teams as the director of product. By night I write about products, people, and purpose. And by nighter night I bake. Bread, mostly. 
 
+&mdash; [AF, my column](https://audaciousfox.net)
 
+&mdash; [Tweet me][twitter]
 
+&mdash; [This site][about]
 
-Hi, I'm K.Q. Dreger. I work at [Patriot Software](https://patriotsoftware.com/) where I empower our product and design teams as the director of product. 
+<small>
 
-I have a deep love of writing, whether it's code for computers or prose for people. I think good writing is good design—and clarity in writing leads to clarity of thought. 
-
-&mdash; [My column on product, design, and technology](https://audaciousfox.net)
-
-&mdash; [About this site][about]
-
-&mdash; [Twitter][]
 
 
 [about]: /about-site
 [email]: https://audaciousfox.net/masthead
 [twitter]: https://twitter.com/dreger
 
+ 
