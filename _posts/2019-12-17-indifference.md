@@ -1,6 +1,5 @@
 ---
-title: "The opposite of love is indifference"
-published: false
+title: "Indifference"
 ---
 
 Lately I've been thinking about Elie Wiesel's quote on love and hate. "The opposite of love is not hate, it's indifference" he says. 
