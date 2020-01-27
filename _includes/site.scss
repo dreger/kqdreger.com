@@ -2,64 +2,49 @@
   --accent: rgb(255,194,0); // #FFC200
   --text: rgba(0,0,0,.9);
   --faded: #eee; 
+  --faded-text: #888; 
   --bg: #fff;
-  --font-serif:  'Spectral', serif;
-  --font-sans: 'SF Compact Display',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  --font-bold: 700; 
+  --font: "gotham ssm a", "gotham ssm b", verdana; 
+  --font-bold: 500; 
+  --max-width: 36rem; 
 }
 ::selection { background-color: var(--accent); }
 * { box-sizing: border-box; }
-html { font-size: 19px; }
+html { font-size: 18px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
   color: var(--text);
-  font-family: var(--font-serif); 
+  font-family: var(--font); 
   font-weight: 400;
   margin: 0 auto;
   padding: 0;
   background: var(--bg);
-  line-height: 1.375; // regular 
-  line-height: 1.5; // monospace
+  line-height: 1.6; 
+  line-height: 1.375; 
   text-rendering: optimizeLegibility;
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1.25rem 0; }
 strong { font-weight: var(--font-bold); }
 h1, h2, h3 { 
-  font-family: var(--font-sans);
+  font-family: var(--font);
   font-weight: var(--font-bold); 
-  line-height: 1.25; 
+  line-height: 1.2; 
 }
 h1 { 
-  font-size: 2rem; 
-  margin-bottom: .5rem;
+  font-size: 1.5rem; 
+  margin-bottom: 2rem;
 }
-h2 { font-size: 1.25rem; }
-h3 { 
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: .04em; 
+h2 { 
+  font-size: 1rem; 
+  margin-top: 2rem; 
 }
+
 ul { list-style: square; padding-left: 1.1rem; }
 a {
   color: var(--text); 
   text-decoration-skip-ink: auto;
-  text-decoration-thickness: 1px;
-  text-decoration-color: transparent;
-  transition: all ease-out .1s; 
-}
-a:after {
-  content: ""; 
-  color: var(--accent); 
-  margin-left: 0.05em; 
-  top: -0.5em; 
-  font-weight: var(--font-bold); 
-  position: relative; 
-  width: .25em; 
-  height: .25em; 
-  border-radius: 100px; 
-  border: solid 1.5px var(--accent); 
-  display: inline-block; 
+  text-decoration-thickness: 2px;
 }
 a:hover { 
   color: var(--accent); 
@@ -68,21 +53,13 @@ a:hover {
 
 hr { margin: 3rem 0; height: 2px; background: var(--faded); border: 0; }
 img {
-  width: 130%;
-  margin-left: -15%; 
   height: auto;
   display: block;
   margin-bottom: 1.25rem;
   border: solid 2px var(--faded);
   border-radius: 4px; 
+  width: 160%;
   &:hover { border-color: var(--accent); }
-}
-
-main {
-  max-width: 38rem;
-  margin: 3rem auto;
-  padding: 1rem;
-  position: relative;
 }
 form { display: flex; }
 input { width: 70%; margin-right: .5rem; }
@@ -104,17 +81,41 @@ button {
   background: var(--accent);
   border-color: var(--accent); 
 }
-.title { 
-  display: block;
-  width: 2.25rem;
-  height: 2.25rem;
-  background:  url(/assets/images/waves.svg) no-repeat 50%;
+
+
+.meta {
+  color: var(--faded-text);
+  margin-bottom: .5rem;
+  font-size: .875rem;  
+  font-family: var(--font);
+}
+.wrapper {
+  max-width: 55.5rem;
+  max-width: var(--max-width);
+  margin: 0 ;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-gap: 0;
+  min-height: 100vh;
+}
+.column {
+  grid-column: 2;
+  padding: 3rem 1rem;
+}
+.nav {
+  grid-column: 1; 
+  position: relative;
+  background-image:  url(/assets/images/icon.svg);
+  background-repeat: no-repeat;
+  background-color: var(--faded); 
+  background-position: center 3rem; 
+  background-size: 40%;
   text-indent: -1000em;
-  background-size: 100%;
-  border-radius: 100%;
-  margin-bottom: 2rem;
+  transition: background-color .1s ease-in; 
   &:hover {
-    opacity: .5; 
+    background-color: var(--accent)
   }
 }
 
@@ -124,7 +125,7 @@ button {
 
 @media (max-width: 600px) { 
   html { font-size: 18px; }
-  main { margin-top: 1rem; padding-top: 0; } 
+  main {  } 
   form { 
     flex-direction: column; 
     width: 100%;
@@ -142,12 +143,12 @@ button {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: rgba(255,255,255,.9); 
-    --bg: #1f2023; 
-    --faded: #383b40; 
-    --accent: rgba(255,194,0,.9); 
-  }
-  input { color: var(--text); }
-}
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --text: rgba(255,255,255,.9); 
+//     --bg: #1f2023; 
+//     --faded: #383b40; 
+//     --accent: rgba(255,194,0,.9); 
+//   }
+//   input { color: var(--text); }
+// }

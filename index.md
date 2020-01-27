@@ -4,18 +4,21 @@ title: "K.Q. Dreger"
 ---
 Hi, I'm K.Q. Dreger. By day I work at [Patriot Software](https://patriotsoftware.com/) where I empower our product and design teams as the director of product. By night I write about products, people, and purpose. And by nighter night I bake. Bread, mostly. 
 
-&mdash; [AF, my column](https://audaciousfox.net)
-
-&mdash; [Tweet me][twitter]
-
-&mdash; [This site][about]
-
-<small>
+- [AF, my column](https://audaciousfox.net)
+- [Edit for iOS, my app](https://audaciousfox.net/projects/edit/)
+- [@dreger](https://twitter.com/dreger)
+- [This site](/about-site)
 
 
 
-[about]: /about-site
-[email]: https://audaciousfox.net/masthead
-[twitter]: https://twitter.com/dreger
+<!-- ## Essays
 
- 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+ -->
