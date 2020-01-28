@@ -6,19 +6,27 @@
   <base href="">
       <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
   <meta name="author" content="K.Q. Dreger">
-  <meta property="og:title" content="">
-  <meta property="og:url" content="">
-  <meta property="og:type" content="article">
-  <meta name="Description" content="">
-  <meta property="og:description" content="">
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
-  <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
-  <link rel="canonical" href="" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  {{ if .IsHome }}
+  <meta name="Description" content="👋 Hi, I'm K.Q Dreger. By day I work at Patriot Software where I get to empower our product and design teams as the director of product. By night I write about products, people, and purpose. And by nighter night I bake. Bread, mostly.">
+  <meta itemprop="description" content="👋 Hi, I'm K.Q Dreger. By day I work at Patriot Software where I get to empower our product and design teams as the director of product. By night I write about products, people, and purpose. And by nighter night I bake. Bread, mostly.">
+  <!-- <meta property="og:image" content="{{ .Site.BaseURL }}/icon.png" /> -->
+  {{ end }}
+  {{ if .IsPage }}
+  <meta name="Description" content="{{ htmlEscape .Summary | plainify }}...">
+  <meta itemprop="description" content="{{ htmlEscape .Summary | plainify }}...">
+  <meta property="og:title" content="{{ .Title }}"/>
+  <meta property="og:description" content="{{ htmlEscape .Summary | plainify }}..."/>
+  <meta property="og:site_name" content="{{ .Site.Title }}"/>
+  <meta property="og:url" content="{{ strings.TrimSuffix "/" .Permalink }}"/> 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dreger" />
+  {{ end }}
+  <!-- <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" /> -->
   {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
   <script async src="//static.getclicky.com/js"></script>
-  <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
   <main class="wrapper">

@@ -8,12 +8,12 @@
   --bg: #fff;
   --font: verdana; 
   --font-bold: 500; 
-  --max-width: 36rem; 
+  --max-width: 40rem; 
+  --max-width-column: 30rem;
 }
 ::selection { background-color: var(--accent); }
 * { box-sizing: border-box; }
-html { font-size: 28px; }
-html { font-size: 16px; }
+html { font-size: 24px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
@@ -97,16 +97,8 @@ button {
   margin: 0 auto;
   padding: 0 1rem;
 }
-.grid {
-  display: grid;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 40px 1fr 1fr;
-  grid-template-areas: "header header header header" "column column column ." "column column column .";
-  grid-gap: 0;
-}
 .column {
-  grid-area: column;
+  max-width: var(--max-width-column);
   padding: 2rem 0;
 }
 .title { 
