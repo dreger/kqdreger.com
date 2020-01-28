@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="">
+      <title>
+  Sidebar design | K.Q. Dreger
+</title>
+  <meta name="author" content="K.Q. Dreger">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="article">
+  <meta name="Description" content="">
+  <meta property="og:description" content="">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
+  <link rel="canonical" href="" />
+  
+  <link rel="stylesheet" href="https://dreger.me/d.min.925f914cc7bad61bc8ec8302329b752f8c8a2b733d6428eb21ae582b71cba56e.css">
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
+  <script async src="//static.getclicky.com/js"></script>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <main class="wrapper">
+    <a class="title" href="/">K.Q. Dreger</a>    
+    <div class="column">
+      
+  <h1>Sidebar design</h1>
+  <p>I&rsquo;m designing a sidebar for a web application, which has a typical header-sidebar-content layout. The header holds the main navigation, the content area has content, but the sidebar has a lot more:</p>
+<ul>
+<li>Two primary action buttons (think &ldquo;create x&rdquo; type).</li>
+<li>Two collapsible lists of content (you click the header to collapse the list).</li>
+<li>Two lists that are not collapsible.</li>
+</ul>
+<p>We&rsquo;ve put a lot in that sidebar, arguably too much. There are too many competing methods of interacting with the content, and it&rsquo;s not clear what the user can actually click. One possible solution would be to have the sidebar serve a more traditional <em>navigation</em> role, but that would uproot our two buttons, which aren&rsquo;t used for navigating.</p>
+<p>Everything in the sidebar has to stay for now. Sidestepping the buttons / navigation conflict, the biggest design challenge is creating enough visual distinction between a collapsible list and a list that&rsquo;s static. Right now, we have a small chevron floating to the right of the list title that denotes collapsible functionality. That works OK right now, but the collapsible / non-collapsible list titles look so similar that I&rsquo;m concerned the user won&rsquo;t notice the difference.</p>
+<p>Do the lists need the ability to collapse? Yes. The content of each list can get quite long. One possible solution would be to have <em>all</em> lists be collapsible. That would remove the ambiguity, and it would make the interaction with each list header consistent.</p>
+
+
+    </div>
+  </main>
+</body>
+</html>

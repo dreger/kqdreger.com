@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="">
+      <title>
+  Fix your Mount Union .EDU email | K.Q. Dreger
+</title>
+  <meta name="author" content="K.Q. Dreger">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="article">
+  <meta name="Description" content="">
+  <meta property="og:description" content="">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
+  <link rel="canonical" href="" />
+  
+  <link rel="stylesheet" href="https://dreger.me/d.min.925f914cc7bad61bc8ec8302329b752f8c8a2b733d6428eb21ae582b71cba56e.css">
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
+  <script async src="//static.getclicky.com/js"></script>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <main class="wrapper">
+    <a class="title" href="/">K.Q. Dreger</a>    
+    <div class="column">
+      
+  <h1>Fix your Mount Union .EDU email</h1>
+  <p><strong>UPDATE #3:</strong> This whole post is pretty much irrelevant now. Besides the slightly vitriolic nature, the entire Outlook Web App was recently updated to match the aesthetics / functionally of <a href="http://outlook.com">Outlook.com</a> and is incredibly more usable. Post will remain here for posterity.</p>
+<p><strong>UPDATE #2:</strong> I&rsquo;ve found the magical URL which only makes you sign in once: <a href="http://outlook.com/owa/mountunion.edu">outlook.com/owa/mountunion.edu</a>. Just bookmark that and you&rsquo;ll be good to go.</p>
+<p><strong>UPDATE:</strong> I simplified the instructions for those looking to set up your mobile email <em>without</em> the required passcode. More instructions under the &ldquo;IMAP and POP clients&rdquo; section.</p>
+<p>This past week, my iPhone&rsquo;s email just stopped working. It wasn&rsquo;t long before many of my friends began complaining of similar problems. I knew that somewhere, a switch was flipped and the new Mount Union email system was finally set loose.</p>
+<p>Students of Mount Union - our webmail has changed. Unfortunately, it&rsquo;s taken a turn for the worse. While the increase in storage is nice, it&rsquo;s overshadowed by a terrible, terrible, user experience.</p>
+<p><strong>The Good</strong>: An upgrade in space from 30 MB to just under 25 GB and lifelong @mountunion.edu access.</p>
+<p><strong>The Bad</strong>: Being forced to sign in <strong>twice</strong> on webmail.mountunion.edu.</p>
+<p><strong>The Ugly</strong>: Broke existing mobile clients without telling us how to fix them, and the new webmail interface is a complete cluster.</p>
+<p>Though the underlying technology took a step forward, we&rsquo;ve taken five <em>usability</em> steps back. Overrun by a terrible color palette, unnecessary gradients and shadows, and unpredictable rendering - the new interface is a complete user experience failure. The old interface wasn&rsquo;t great, but at least it was simple and usable.</p>
+<p>Adding sprinkles to this cupcake from the netherworld, many of us who had set up Exchange on our smartphones and tablets had the entire system just stop working. <em>Forcing</em> us to the webmail client.</p>
+<blockquote>
+<p>The only good thing about the change is we have more space.</p>
+<ul>
+<li>Anonymous Student</li>
+</ul>
+</blockquote>
+<p>Nearly 2,200 students use Mount&rsquo;s email daily. By the end of this post I hope we can fix your existing setup, give you a way to avoid the webmail interface completely, and start enjoying email again.</p>
+<h3 id="welcome">Welcome</h3>
+<p>To get started, scroll down to the section of instructions that applies to you. If everything else fails, take the Reference Instructions below and head to Google. I&rsquo;ve <a href="https://www.google.com/search?q=imap+setup+for+myclient">already created a search for you</a>, just replace &ldquo;myclient&rdquo; with the name of the application you are trying to set up.</p>
+<p>Good luck, friend.</p>
+<h3 id="reference-instructions">Reference Instructions</h3>
+<p>These settings will be referenced in the sections that follow as we set up new email clients, and fix your existing one.</p>
+<pre><code>POP setting
+Server name: pod51008.outlook.com
+Port: 995
+Encryption method: SSL
+
+IMAP setting
+Server name: pod51008.outlook.com
+Port: 993
+Encryption method: SSL
+
+SMTP setting
+Server name: pod51008.outlook.com
+Port: 587
+Encryption method: TLS
+</code></pre>
+<p>You can also just hand this information to one of your technically-inclined friends, and I&rsquo;m sure they&rsquo;ll know what to do with them.</p>
+<h3 id="fix-your-smartphone-or-tablet">Fix your smartphone or tablet</h3>
+<p><strong>NOTE:</strong> One of the new rules of setting up your mobile device with access to Mount&rsquo;s Exchange email server is that you <strong>must have Passcode Lock on your device</strong>. If you don&rsquo;t have one set (a 4-digit key to unlock your phone / tablet), you will be prompted to create one after finishing the Exchange setup. While I recommend setting one for general security, if you <em>really</em> don&rsquo;t want to be forced to unlock your phone, skip down &ldquo;IMAP and POP clients&rdquo;.</p>
+<h4 id="ios-exchange">iOS Exchange</h4>
+<p>For the iOS devices, it&rsquo;s as simple as removing (then re-adding) your email account.</p>
+<pre><code>Homescreen &gt; Settings.app &gt; Mail, Contacts, Calendars
+</code></pre>
+<p>Select your Mount Union account.</p>
+<pre><code>*Scroll to bottom* &gt; Delete Account
+</code></pre>
+<p><code>Confirm</code> the delete and wait for it to finish removing your account. Once it&rsquo;s done, go back to <code>Mail, Contacts, Calendars</code>.</p>
+<pre><code>Add Account... &gt; Microsoft Exchange
+</code></pre>
+<p>Enter in your full <code>Email</code>, <code>Password</code> and give the <code>Description</code> something like &ldquo;School&rdquo;. Once you&rsquo;re done, click <code>Next</code>.</p>
+<p>If you get a &ldquo;Cannot verify server identity&rdquo; popup, just click <code>Continue</code>. If you&rsquo;ve entered all your credentials in correctly, you should see everything verify with a checkmark. You can then resume using your email as usual.</p>
+<h4 id="android-exchange">Android Exchange</h4>
+<p>Unfortunately, I don&rsquo;t have an Android device to test with. However, I anticipate the course of action being similar to iOS. Simply remove your existing Mount Union email account from the device, then re-add it back. <strong>Note</strong> that with Android Exchange, you may have to set your username in the form of <code>campus\yourusername</code>.</p>
+<p>If you have trouble setting up Exchange, jump down to the &ldquo;IMAP and POP clients&rdquo; section for general instructions which should work for you.</p>
+<h3 id="fix-your-computer">Fix your computer</h3>
+<p>Most of you probably access webmail.mountunion.edu through a web browser like Chrome, Safari, or Internet Explorer. However, having a standalone <em>client</em> to handle your email will be a faster, and overall better, experience.</p>
+<p>There are tens of email clients available for the Mac and PC, but I&rsquo;m just going to walk you through instructions setting up the default clients that come pre-installed on your machine. Macs have Mail.app, and PCs have Windows Mail.</p>
+<h4 id="mac-mailapp">Mac Mail.app</h4>
+<p>Setting up Mail.app is pretty straightforward. I&rsquo;m using OS X 10.8.2, so these instructions are for the latest version of Mail.app, but they should be the same for most cases.</p>
+<pre><code>System Preferences.app &gt; Mail, Contacts &amp; Calendars
+</code></pre>
+<p>Click on <code>Microsoft Exchange</code> and enter in your <code>Name</code>, full <code>Email Address</code> and <code>Password</code>. You may get a &ldquo;Can&rsquo;t verify the identity of the server&rdquo; popup, but just click <code>Continue</code> when it comes up.</p>
+<p>Once it finds your account, click <code>Continue</code> and select the services you want set up. I usually uncheck all the boxes except for Mail and Contacts. Click <code>Add Account</code>. Go open up Mail.app and you should see your mail begin to download. Now whenever you want to check / write an email, just open Mail.app.</p>
+<h4 id="windows-mail">Windows Mail</h4>
+<p>Setting up Windows Mail is slightly less straightforward, you need the Reference Instructions from above, but it&rsquo;s pretty easy nonetheless. If this is your first time opening Windows Mail, I suggest this <a href="https://wiki.sonic.net/wiki/Windows_Mail_IMAP_Settings">excellent tutorial from Sonic.net</a>.</p>
+<pre><code>Windows Mail &gt; Tools menu &gt; Accounts
+</code></pre>
+<p>Click <code>Add</code>, and then select <code>E-mail Account</code> as the type of account you wish to add. Click <code>Next</code>. Use the information from the Reference Instructions above to complete the setup. Make sure to use IMAP server setting for your <code>Incoming mail</code> and the SMTP server settings for <code>Outgoing e-mail</code>.</p>
+<p>I wasn&rsquo;t able to test these instructions, however in addition to the Sonic.net tutorial, I also found the <a href="http://windows.microsoft.com/en-US/windows-vista/Windows-Mail-setting-up-an-account-from-start-to-finish">official Microsoft instructions</a>.</p>
+<h3 id="general-imap-and-pop-clients">General IMAP and POP clients</h3>
+<p>Enter the Reference instruction information from above. For specific instructions, I recommend that you head to Google. I&rsquo;ve <a href="https://www.google.com/search?q=imap+setup+for+myclient">already created a search for you</a>, just replace &ldquo;myclient&rdquo; with the name of the application you are trying to set up.</p>
+<h4 id="ios-passcode-less-email">iOS Passcode-less email</h4>
+<p><strong>NOTE:</strong> Make sure you have your Wi-Fi turned OFF before doing the following steps. You can turn off Wi-Fi by going to Settings.app.</p>
+<pre><code>Mail, Contacts, Calendars &gt; Add Account...
+</code></pre>
+<p>Select <code>Other</code> from the bottom of the list, then choose to <code>Add Mail Account</code>. Here, enter you <code>Name</code>, <code>Email</code> and <code>Password</code> - just choose something like &ldquo;School&rdquo; for the <code>Description</code>.</p>
+<p>Under &ldquo;Incoming Mail Server&rdquo;, enter <code>pod51008.outlook.com</code> as the <code>Host Name</code>, and enter your <strong>full</strong> @mountunion.edu email address under <code>User Name</code>. Do the exact same thing for &ldquo;Outgoing Mail Server&rdquo; as well.</p>
+<p>Your mail should now work. Remove the old Mount Union account, and feel free to turn OFF your Passcode lock.</p>
+<h4 id="android-passcode-less-email">Android Passcode-less email</h4>
+<p>I haven&rsquo;t tested the Android set up, but <a href="http://blink.ucsd.edu/technology/email/mobile/android-imap.html">this tutorial from UCSanDiego</a> has great pictures and instructions for setting up IMAP on Android.</p>
+<h3 id="wrap-up">Wrap-up</h3>
+<p>Hopefully one of the above instructions worked for you. If not, I&rsquo;d recommend taking your email client and laptop / phone / tablet down to Mount&rsquo;s IT department and having them set it up for you. If you have any comments, corrections or questions, feel free to <a href="/colophon">shoot me an email</a>. Cheers, everyone.</p>
+<p>You should follow me on twitter <a href="http://twitter.com/dreger">here</a>.</p>
+
+
+    </div>
+  </main>
+</body>
+</html>

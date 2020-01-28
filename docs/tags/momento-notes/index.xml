@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Momento, notes on K.Q. Dreger</title>
+    <link>https://dreger.me/tags/momento-notes.html</link>
+    <description>Recent content in Momento, notes on K.Q. Dreger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 May 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dreger.me/tags/momento-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Write it down</title>
+      <link>https://dreger.me/_posts_archive/ok/2012-05-29-write-it-down.html</link>
+      <pubDate>Tue, 29 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/_posts_archive/ok/2012-05-29-write-it-down.html</guid>
+      <description>Last night, my roommates and I watched Christopher Nolan&amp;rsquo;s 2000 film, Memento. If you think that Inception, or Pulp Fiction was confusing the first time through, Memento can definitely be added to the list of movies that will give you brain whiplash.
+Without going into the actual story, Memento follows Lenard, a man who cannot create new memories. He remembers everything in his past, just cannot create new memories. “Everything just fades” he says.</description>
+    </item>
+    
+  </channel>
+</rss>

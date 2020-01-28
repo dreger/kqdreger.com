@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /blog/
+Disallow: /index2.html
+Disallow: /index3.html
+
+User-agent: ia_archiver
+Disallow: /
+
+sitemap: https://dreger.me/sitemap.xml

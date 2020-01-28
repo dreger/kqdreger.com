@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="">
+      <title>
+  InstantClick.js | K.Q. Dreger
+</title>
+  <meta name="author" content="K.Q. Dreger">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="article">
+  <meta name="Description" content="">
+  <meta property="og:description" content="">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
+  <link rel="canonical" href="" />
+  
+  <link rel="stylesheet" href="https://dreger.me/d.min.925f914cc7bad61bc8ec8302329b752f8c8a2b733d6428eb21ae582b71cba56e.css">
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
+  <script async src="//static.getclicky.com/js"></script>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <main class="wrapper">
+    <a class="title" href="/">K.Q. Dreger</a>    
+    <div class="column">
+      
+  <h1>InstantClick.js</h1>
+  <p>Incredibly smart JavaScript library from <a href="https://github.com/dieulot">Alex Dieulot</a> that uses the <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history">HTML5 pushState() spec</a> to pre-load whichever link a user is currently hovering over. From the <a href="http://instantclick.io">InstantClick homepage</a>:</p>
+<blockquote>
+<p>Latency is inevitable with today’s internet architecture so InstantClick cheats by preloading links you are likely to click on.</p>
+</blockquote>
+<blockquote>
+<p>Before a visitor clicks on a link, he hovers over that link. Between these two events, 200 ms to 300 ms usually pass by (<a href="http://instantclick.io/click-test.html">test yourself here</a>). InstantClick makes use of that time to preload the page, so that the page is already there when you click.</p>
+</blockquote>
+<p>Dieulot references the Nielsen Norman Group&rsquo;s <a href="http://www.nngroup.com/articles/response-times-3-important-limits/">3 Important Limits</a> article, which lists the optimal response times for human-computer interaction. From the study:</p>
+<blockquote>
+<p>A delay of 0.2–1.0 seconds does mean that users notice the delay and thus feel the computer is &ldquo;working&rdquo; on the command, as opposed to having the command be a direct effect of the users&rsquo; actions. Example: If sorting a table according to the selected column can&rsquo;t be done in 0.1 seconds, it certainly has to be done in 1 second, or users will feel that the UI is sluggish and will lose the sense of &ldquo;flow&rdquo; in performing their task.</p>
+</blockquote>
+<p><em>Note: If you care about usability, the <a href="http://www.nngroup.com/articles/response-times-3-important-limits/">whole article</a> is a really great read.</em></p>
+<p>Ideas like InstantClick are not new, Ruby on Rails has <a href="https://github.com/rails/turbolinks">Turbolinks</a> that accomplishes the same goal, but I have yet to see an implementation that is so simple to install for non-Rails projects. Include two lines of code (one of which calls the minified script), and you&rsquo;ll be off and running.</p>
+<p>If you are reading this, then the script should be running on my site now, albeit for desktop browsers only (Dieulot has mobile support via touchDown coming soon). To test it out, feel free to click through some of the articles in <a href="/archives">the archives</a> or any of the stories on the front page; you should notice that pages seem to load near instantly.</p>
+<p>Even though static sites are fast by nature, I have been really impressed with the increase in speed that InstantClick has afforded me. I look forward to watching it develop.</p>
+
+
+    </div>
+  </main>
+</body>
+</html>
