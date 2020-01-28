@@ -6,15 +6,12 @@ Hi, I'm K.Q. Dreger. By day I work at [Patriot Software](https://patriotsoftware
 - [@dreger](https://twitter.com/dreger)
 
 
-<!-- 
+
 ## Essays
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
- -->
+{{ range .Pages }}
+<article>
+  <h2>{{ .Title }}</h2>
+  {{ .Content }}
+</article>
+{{ end }}

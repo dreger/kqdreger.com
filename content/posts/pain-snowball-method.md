@@ -1,5 +1,6 @@
 ---
 title: Treat pain points as debt
+date: 2019-12-14
 ---
 
 Dave Ramsey has this great method for paying off debt where you start with your highest interest loan, focus all of your extra income on that payment, and then once you’ve paid it off you snowball that payment into the minimum payment of your next highest interest debt.

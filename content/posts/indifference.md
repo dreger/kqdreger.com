@@ -1,5 +1,6 @@
 ---
 title: "Indifference"
+date: 2019-12-17
 ---
 
 Lately I've been thinking about Elie Wiesel's quote on love and hate. "The opposite of love is not hate, it's indifference" he says. 
