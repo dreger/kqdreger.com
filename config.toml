@@ -3,4 +3,5 @@ languageCode = "en-us"
 title = "K.Q. Dreger"
 uglyurls = true
 publishDir = "docs"
-# [permalinks]
+[permalinks]
+	posts = "/:title/"

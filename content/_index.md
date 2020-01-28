@@ -7,11 +7,4 @@ Hi, I'm K.Q. Dreger. By day I work at [Patriot Software](https://patriotsoftware
 
 
 
-## Essays
 
-{{ range .Pages }}
-<article>
-  <h2>{{ .Title }}</h2>
-  {{ .Content }}
-</article>
-{{ end }}
