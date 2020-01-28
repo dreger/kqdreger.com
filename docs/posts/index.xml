@@ -13,10 +13,10 @@
     
     <item>
       <title>Indifference</title>
-      <link>https://dreger.me/posts/indifference.html</link>
+      <link>https://dreger.me/indifference.html</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/posts/indifference.html</guid>
+      <guid>https://dreger.me/indifference.html</guid>
       <description>Lately I&amp;rsquo;ve been thinking about Elie Wiesel&amp;rsquo;s quote on love and hate. &amp;ldquo;The opposite of love is not hate, it&amp;rsquo;s indifference&amp;rdquo; he says.
 In software circles, we talk a lot about trying to create products people love. Like, really love. Love to the point you can&amp;rsquo;t wait to tell your friends. You&amp;rsquo;ve likely experienced this—an app so good you were excited to bring it into someone&amp;rsquo;s life.
 Logically then, if the goal is Love, a product team might try hard to avoid making changes or additions that people hate.</description>
@@ -24,10 +24,10 @@ Logically then, if the goal is Love, a product team might try hard to avoid maki
     
     <item>
       <title>Treat pain points as debt</title>
-      <link>https://dreger.me/posts/pain-snowball-method.html</link>
+      <link>https://dreger.me/treat-pain-points-as-debt.html</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/posts/pain-snowball-method.html</guid>
+      <guid>https://dreger.me/treat-pain-points-as-debt.html</guid>
       <description>Dave Ramsey has this great method for paying off debt where you start with your highest interest loan, focus all of your extra income on that payment, and then once you’ve paid it off you snowball that payment into the minimum payment of your next highest interest debt.
 I think you can do something similar for products and user experience. Let’s call it The Pain Snowball Method.
 Start by taking inventory of all the customer pain that’s been reported over the past month.</description>
@@ -35,12 +35,11 @@ Start by taking inventory of all the customer pain that’s been reported over t
     
     <item>
       <title>Hierarchy of product team needs</title>
-      <link>https://dreger.me/posts/product-team-needs.html</link>
+      <link>https://dreger.me/hierarchy-of-product-team-needs.html</link>
       <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/posts/product-team-needs.html</guid>
+      <guid>https://dreger.me/hierarchy-of-product-team-needs.html</guid>
       <description>I was on a run and thinking about Maslow’s hierarchy of needs and how a force ranked list of needs could apply to product teams. Here’s my attempt. Let’s walk through the levels:
-
 Level one: talk with your customers daily. You simply won’t have enough information to make good product decisions if you’re not talking with your customers every day. Call them. Email them. Ask them what they like, what they don’t like, what they wish your product could do, where they’re indifferent.</description>
     </item>
     
