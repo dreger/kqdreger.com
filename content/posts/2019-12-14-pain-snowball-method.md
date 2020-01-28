@@ -1,5 +1,4 @@
 ---
-published: false
 title: Treat pain points as debt
 ---
 

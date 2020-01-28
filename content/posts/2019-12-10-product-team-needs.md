@@ -1,6 +1,5 @@
 ---
 title: Hierarchy of product team needs
-published: false
 ---
 
 I was on a run and thinking about Maslow’s hierarchy of needs and how a force ranked list of needs could apply to product teams. Here’s my attempt. Let’s walk through the levels:

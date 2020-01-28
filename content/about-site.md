@@ -1,9 +1,8 @@
 ---
 title: About this site
-layout: page
 ---
 
-Type set in Gotham by Hoefler and Co.
+Type set in [Verdana by Matthew Carter](https://en.wikipedia.org/wiki/Verdana). 
 
 Hosted on GitHub Pages. 
 

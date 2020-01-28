@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="">
+      <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  <meta name="author" content="K.Q. Dreger">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="article">
+  <meta name="Description" content="">
+  <meta property="og:description" content="">
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+  <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" />
+  <link rel="canonical" href="" />
+  {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
+  <script async src="//static.getclicky.com/js"></script>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <main class="wrapper">
+    <a class="title" href="/">K.Q. Dreger</a>    
+    <div class="column">
+      {{ block "main" . }}{{ end }}
+    </div>
+  </main>
+</body>
+</html>
