@@ -6,14 +6,14 @@
   --faded: #eee; 
   --faded-text: #888; 
   --bg: #fff;
-  --font: verdana; 
+  --font: Inter, Verdana; 
   --font-bold: 500; 
   --max-width: 40rem; 
   --max-width-column: 30rem;
 }
 ::selection { background-color: var(--accent); }
 * { box-sizing: border-box; }
-html { font-size: 24px; }
+html { font-size: 13px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
@@ -27,7 +27,7 @@ body {
   line-height: 1.4; 
   text-rendering: optimizeLegibility;
 }
-h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1.25rem 0; }
+h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1rem 0; }
 strong { font-weight: var(--font-bold); }
 h1, h2, h3 { 
   font-family: var(--font);
@@ -35,11 +35,13 @@ h1, h2, h3 {
   line-height: 1.2; 
 }
 h1 { 
-  font-size: 1.5rem; 
+  font-size: 2rem; 
+  letter-spacing: -.02em;
   margin-bottom: 2rem;
 }
 h2 { 
   font-size: 1rem; 
+  font-weight: bold;
   margin-top: 2rem; 
 }
 
@@ -89,8 +91,6 @@ button {
 .meta {
   color: var(--faded-text);
   margin-bottom: .5rem;
-  font-size: .875rem;  
-  font-family: var(--font);
 }
 .wrapper {
   max-width: var(--max-width);
@@ -107,14 +107,11 @@ button {
   background-color: var(--accent); 
   height: 2.5rem;
   width: 2.5rem; 
+  border-radius: 0 0 4px 4px; 
   background-position: center;
-  background-size: 50% 50%;
+  background-size: 1rem 1rem;
   text-indent: -1000em;
   display: block;
-  transition: background-color .1s ease-in; 
-  &:hover {
-    background-color: var(--accent)
-  }
 }
 
 @media (max-width: 920px) {

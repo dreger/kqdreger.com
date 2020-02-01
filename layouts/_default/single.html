@@ -3,6 +3,9 @@
 {{ end }}
 
 {{ define "main" }}
+	{{ if .PublishDate }}
+  	<p class="meta">{{ .PublishDate.Format "January 2, 2006" }}</p>
+	{{ end }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 {{ end }}

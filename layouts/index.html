@@ -1,10 +1,12 @@
 {{ define "main" }}
   {{ .Content }}
-<!-- 	<ul>
-	{{ range .Site.RegularPages }}
+	<h2>Essays</h2>
+	<ul>
+	{{ range where .Site.RegularPages "Section" "essays" }}
 		<li>
 		  <a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a>
 		</li>
 	{{ end }}
-	</ul> -->
+	</ul>
+
 {{ end }} 
