@@ -1,11 +1,17 @@
 {{ define "title" }}
-  {{ .Title }} | {{ .Site.Title }}
+  {{ .Title }}
 {{ end }}
 
 {{ define "main" }}
+	<style scoped>
+		/*.title { background-color: #ff677d; }*/
+	</style>
+
 	{{ if .PublishDate }}
-  	<p class="meta">{{ .PublishDate.Format "January 2, 2006" }}</p>
+  	<p class="meta">{{ .PublishDate.Format "January 2006" }}</p>
 	{{ end }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  	<h1>{{ .Title }}</h1>
+
+  	{{ .Content }}
+
 {{ end }}
