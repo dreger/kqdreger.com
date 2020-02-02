@@ -46,6 +46,7 @@ h2 {
 }
 
 ul { list-style: square; padding-left: 1.1rem; }
+li { margin-bottom: .25rem; }
 a {
   color: var(--text); 
   text-decoration-skip-ink: auto;
@@ -127,6 +128,7 @@ button {
     flex-direction: column; 
     width: 100%;
   }
+  li { margin-bottom: .5rem; }
   input { 
     display: block; 
     max-width: 360px; 
