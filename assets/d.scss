@@ -4,16 +4,16 @@
   --accent: rgb(255,194,0); // #FFC200
   --text: rgba(0,0,0,.9);
   --faded: #eee; 
-  --faded-text: #888; 
+  --faded-text: #757575; 
   --bg: #fff;
-  --font: Inter, Verdana; 
+  --font: Verdana; 
   --font-bold: 500; 
   --max-width: 40rem; 
   --max-width-column: 30rem;
 }
 ::selection { background-color: var(--accent); }
 * { box-sizing: border-box; }
-html { font-size: 13px; }
+html { font-size: 20px; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
