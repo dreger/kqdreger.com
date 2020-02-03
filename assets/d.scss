@@ -34,6 +34,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1rem 0; }
+code { font-family: var(--font); }
 strong { font-weight: bold; }
 h1, h2, h3 { 
   font-family: var(--font);
