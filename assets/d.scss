@@ -10,7 +10,7 @@
   --faded: #eee; 
   --faded-text: #757575; 
   --bg: #fff;
-  --font: menlo, 'ibm plex mono', verdana;
+  --font: 'IBM Plex Mono', monospace;
   --font-bold: bold; 
   --max-width: 60rem; 
   --max-width-column: 32rem;
@@ -29,8 +29,8 @@ body {
   margin: 0 auto;
   padding: 0;
   background: var(--bg);
-  line-height: 1.5; 
   line-height: 1.4; 
+  line-height: 1.5; 
   text-rendering: optimizeLegibility;
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1rem 0; }
@@ -45,7 +45,7 @@ h1 {
   margin-bottom: 2rem;
 }
 h2 { 
-  font-size: 1rem; 
+  font-size: 1.25rem; 
   font-weight: bold; 
 }
 
@@ -132,7 +132,7 @@ button {
 }
 
 @media (max-width: 600px) { 
-  html { font-size: 17px; }
+  html { font-size: 14px; }
   form { 
     flex-direction: column; 
     width: 100%;
