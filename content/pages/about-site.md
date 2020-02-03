@@ -3,7 +3,7 @@ title: About this site
 slug: about
 ---
  
-Type set in [Verdana by Matthew Carter](https://en.wikipedia.org/wiki/Verdana). 
+Type set in [IBM Plex Mono](https://en.wikipedia.org/wiki/IBM_Plex) by Mike Abbink and Bold Monday. 
 
 Hosted on GitHub Pages, generated with Hugo. 
 

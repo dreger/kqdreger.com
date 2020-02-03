@@ -45,7 +45,8 @@ h1 {
   margin-bottom: 2rem;
 }
 h2 { 
-  font-size: 1.25rem; 
+  margin-top: 2.5rem;
+  font-size: 1rem; 
   font-weight: bold; 
 }
 
@@ -117,10 +118,9 @@ button {
   background-image:  url(/images/icon.svg);
   background-repeat: no-repeat;
   background-color: var(--accent); 
-  height: 6rem;
+  height: 4rem;
   width: 3rem; 
-  margin-bottom: 1rem;
-  margin-top: -1rem;
+  margin-bottom: .5rem;
   background-position: center bottom 1rem;
   background-size: 1.25rem 1.25rem;
   text-indent: -1000em;
@@ -132,12 +132,11 @@ button {
 }
 
 @media (max-width: 600px) { 
-  html { font-size: 14px; }
+  html { font-size: 16px; }
   form { 
     flex-direction: column; 
     width: 100%;
   }
-  li { margin-bottom: .5rem; }
   input { 
     display: block; 
     max-width: 360px; 
