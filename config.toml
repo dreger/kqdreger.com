@@ -1,7 +1,7 @@
 baseURL = "https://dreger.me/"
 languageCode = "en-us"
 title = "K.Q. Dreger"
-uglyurls = true
+uglyurls = false 
 publishDir = "docs"
 [permalinks]
 	essays = "/:filename"

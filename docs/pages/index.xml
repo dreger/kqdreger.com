@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on K.Q. Dreger</title>
-    <link>https://dreger.me/pages.html</link>
+    <link>https://dreger.me/pages/</link>
     <description>Recent content in Pages on K.Q. Dreger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>About this site</title>
-      <link>https://dreger.me/about-site.html</link>
+      <link>https://dreger.me/about-site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/about-site.html</guid>
+      <guid>https://dreger.me/about-site/</guid>
       <description>Type set in IBM Plex Mono by Mike Abbink and Bold Monday.
 Hosted on GitHub Pages, generated with Hugo.
 Written on a Macbook Air or iPhone 11 Pro.
