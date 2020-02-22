@@ -1,10 +1,11 @@
 ---
 title: "Practical Productivity"
+summary: Get things done and remember every commitment. 
 date: 2020-02-01T18:45:10-05:00
 in_review: true
 ---
 
-Productivity is a combination of your ability to (a) get things done and (b) remember commitments. If you create and follow a system that helps you do these two things, you will likely be more productive than most of the people you know. 
+Productivity is a combination of your ability to get things done and remember every commitment. If you create a system that helps you do these two things, you will likely be more productive than most of the people you know. 
 
 My approach was largely shaped by a combination of the following: 
 

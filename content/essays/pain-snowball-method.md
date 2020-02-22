@@ -1,5 +1,6 @@
 ---
 title: Treat pain points as debt
+summary: Pay them off.
 date: 2019-12-14
 ---
 

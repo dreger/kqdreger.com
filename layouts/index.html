@@ -5,7 +5,10 @@
 	{{ range where .Site.RegularPages "Section" "essays" }}
 		{{ if (isset .Params "in_review") }}		
 		{{ else }}
-			<li><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+			<li>
+				<a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a>
+				<br><em>{{ .Summary }}</em>
+			</li>
 		{{ end }}
 	{{ end }}
 	</ul>

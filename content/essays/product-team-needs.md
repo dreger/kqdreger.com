@@ -1,5 +1,6 @@
 ---
 title: Hierarchy of product team needs
+summary: Like Maslow's pyramid, but for product teams.
 date: 2019-12-10
 ---
 

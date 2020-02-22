@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root {
-  --accent: #6f5a7e;
-  --accent: #fd5e53;
   --accent: #21bf73;
-  --accent: rgb(255,194,0); // #FFC200
+  --accent: #fd5e53;
+  --accent: blue;
+  --accent: #FFC200; // rgb(255,194,0)
   --accent-teal: #40e0d0; 
   --text: rgba(0,0,0,.9);
   --faded: #eee; 
@@ -12,9 +12,8 @@
   --bg: #fff;
   --font: 'IBM Plex Mono', monospace;
   --font-bold: bold; 
-  --max-width: 60rem; 
-  --max-width-column: 32rem;
-  --max-width-column: 44rem;
+  --max-width: 51rem; 
+  --max-width-column:34rem;
 }
 
 ::selection { background-color: var(--accent); }
@@ -30,8 +29,10 @@ body {
   padding: 0;
   background: var(--bg);
   line-height: 1.4; 
-  line-height: 1.5; 
+  // border: solid .5rem var(--faded);
+  min-height: 100vh;
   text-rendering: optimizeLegibility;
+  font-feature-settings: "liga","case","calt","zero","ss01","locl";
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1rem 0; }
 code { font-family: var(--font); }
@@ -52,10 +53,11 @@ h2 {
 }
 
 ul { list-style: square; padding-left: 1.1rem; }
-li { margin-bottom: .25rem; }
+li { margin-bottom: .5rem; }
 a {
   color: var(--text); 
   text-decoration-skip-ink: auto;
+  text-decoration-thickness: 1px;
   text-decoration-color: var(--accent); 
 }
 a:hover { 
@@ -138,6 +140,7 @@ button {
     flex-direction: column; 
     width: 100%;
   }
+  li { margin-bottom: .75rem; }
   input { 
     display: block; 
     max-width: 360px; 
