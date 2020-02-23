@@ -11,6 +11,6 @@ Hosted on GitHub Pages, generated with Hugo.
 
 Published from Northeast Ohio. 
 
-Accent color is my favorite yellow/orange: `#FFC200`.
+<!-- Accent color is my favorite yellow/orange: `#FFC200`. -->
 
 Web traffic monitored via [Clicky](https://clicky.com). 
