@@ -4,8 +4,6 @@ summary: "Good ideas register some form of emotion."
 date: 2019-12-17
 ---
 
-I'll sometimes let through a sentence that seems clumsy, if I can't think of a way to rephrase it, but I will never knowingly let through one that doesn't seem correct. You never have to. If a sentence doesn't seem right, all you have to do is ask why it doesn't, and you've usually got the replacement right there in your head.
-
 Lately I've been thinking about Elie Wiesel's quote on love and hate. "The opposite of love is not hate, it's indifference" he says. 
 
 In software circles, we talk a lot about trying to create products people love. Like, really love. Love to the point you can't wait to tell your friends. You've likely experienced this—an app so good you were excited to bring it into someone's life. 

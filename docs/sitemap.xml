@@ -34,10 +34,6 @@
   </url>
   
   <url>
-    <loc>https://dreger.me/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://dreger.me/categories/</loc>
   </url>
   
@@ -47,6 +43,10 @@
   
   <url>
     <loc>https://dreger.me/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/about/</loc>
   </url>
   
 </urlset>
