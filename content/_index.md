@@ -6,6 +6,7 @@ I'm [K.Q. Dreger](/about/). By day I work at [Patriot](https://patriotsoftware.c
 
 Elsewhere: 
 
+- [My experimental newsletter](https://docs.google.com/forms/d/e/1FAIpQLSdGrd4Jff8LAF6FbRAar1lY9-QIQc_qQEqJ_amgNiZx5ZAAkQ/viewform)
 - [AF, my column](https://audaciousfox.net)
 - [Edit for iOS, my app](https://audaciousfox.net/projects/edit/)
 - [twitter/dreger](https://twitter.com/dreger)
