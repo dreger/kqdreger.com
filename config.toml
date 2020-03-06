@@ -4,5 +4,5 @@ title = "K.Q. Dreger"
 uglyurls = false 
 publishDir = "docs"
 [permalinks]
-	essays = "/:filename"
+	notes = "/notes/:filename"
 	pages = "/:filename"

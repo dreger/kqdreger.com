@@ -11,17 +11,16 @@
     
     
     <item>
-      <title>About this site</title>
-      <link>https://dreger.me/about-site/</link>
+      <title>About this site and guy.</title>
+      <link>https://dreger.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/about-site/</guid>
-      <description>Type set in IBM Plex Sans by Mike Abbink and Bold Monday.
-Written on a MacBook Air or iPhone 11 Pro.
-Hosted on GitHub Pages, generated with Hugo.
-Published from Northeast Ohio.
-Accent color is my favorite yellow/orange: #FFC200.
-Web traffic monitored via Clicky.</description>
+      <guid>https://dreger.me/about/</guid>
+      <description>Hi, I&amp;rsquo;m K.Q. Dreger. By day I work at Patriot where I get to empower our product and design teams as the director of product. By night I write about products, people, and purpose. And by nighter night I bake. Bread, mostly.
+I look like this:
+
+Type set in IBM Plex Serif by Mike Abbink and Bold Monday and San Francisco by Apple.
+Written on a MacBook Air or iPhone 11 Pro.</description>
     </item>
     
   </channel>

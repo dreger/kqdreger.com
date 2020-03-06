@@ -3,11 +3,10 @@
 {{ end }}
 
 {{ define "main" }}
-	<!-- <p><a href="/">K.Q. Dreger</a></p> -->
 	{{ if .PublishDate }}
-  	<p class="meta">{{ .PublishDate.Format "January 2006" }}</p>
+  	<h3 class="article__meta">{{ .PublishDate.Format "January 2006" }}</h3>
 	{{ end }}
-  	<h1>{{ .Title }}</h1>
+  	<h1 class="article__title">{{ .Title }}</h1>
 
   	{{ .Content }}
 

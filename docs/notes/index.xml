@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>K.Q. Dreger</title>
-    <link>https://dreger.me/</link>
-    <description>Recent content on K.Q. Dreger</description>
+    <title>Notes on K.Q. Dreger</title>
+    <link>https://dreger.me/notes/</link>
+    <description>Recent content in Notes on K.Q. Dreger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Feb 2020 18:45:10 -0500</lastBuildDate>
     
-	<atom:link href="https://dreger.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dreger.me/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -45,19 +45,6 @@
       
       <guid>https://dreger.me/notes/product-team-needs/</guid>
       <description>Like Maslow&amp;rsquo;s pyramid, but for product teams.</description>
-    </item>
-    
-    <item>
-      <title>About this site and guy.</title>
-      <link>https://dreger.me/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dreger.me/about/</guid>
-      <description>Hi, I&amp;rsquo;m K.Q. Dreger. By day I work at Patriot where I get to empower our product and design teams as the director of product. By night I write about products, people, and purpose. And by nighter night I bake. Bread, mostly.
-I look like this:
-
-Type set in IBM Plex Serif by Mike Abbink and Bold Monday and San Francisco by Apple.
-Written on a MacBook Air or iPhone 11 Pro.</description>
     </item>
     
   </channel>

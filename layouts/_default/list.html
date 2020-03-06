@@ -1,10 +1,15 @@
 
 {{ define "main" }}
-  <h1>Posts</h1>
+  
+  <h1>Notes on product, people, and process.</h1>
+
   {{ range .Pages }}
-    <article>
-      <h2>{{ .Title }}</h2>
-      {{ .Content }}
-    </article>
+    {{ if (isset .Params "in_review") }}		
+		{{ else }}
+		<article>
+			<strong><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></strong>
+			<br><em>{{ .Summary }}</em>
+		</article><br>
+		{{ end }}
   {{ end }}
 {{ end }}

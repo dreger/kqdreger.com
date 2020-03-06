@@ -1,15 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
-	<h2>Essays</h2>
-	<ul>
-	{{ range where .Site.RegularPages "Section" "essays" }}
-		{{ if (isset .Params "in_review") }}		
-		{{ else }}
-			<li>
-				<a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a>
-				<br><em>{{ .Summary }}</em>
-			</li>
-		{{ end }}
-	{{ end }}
-	</ul>
+  <!-- 
+  	to filter by section: 
+  	range where .Site.RegularPages "Section" "notes"
+  -->
 {{ end }} 
