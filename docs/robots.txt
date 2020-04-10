@@ -1,6 +1,6 @@
-User-agent: *
-
 User-agent: ia_archiver
 Disallow: /
+User-agent: *
+Disallow: 
 
 sitemap: https://dreger.me/sitemap.xml
