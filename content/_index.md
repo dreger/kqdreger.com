@@ -1,8 +1,8 @@
 
 
-# Hello, and welcome to my website. 👋 
+# Hi, welcome to my website. 👋 
 
-I'm [K.Q. Dreger](/about/). By day I work at [Patriot](https://patriotsoftware.com/), where I get to empower our product and design teams as the director of product. By night I [write](/notes/) about products, people, and punctuation. And by nighter night I bake. Bread, mostly. 
+I'm [K.Q. Dreger](/about/). By day I work at [Patriot](https://patriotsoftware.com/), where I get to empower our product and design teams as the director of product. By night I [write](/notes.html) about products, people, and punctuation. And by nighter night I bake. Bread, mostly. 
 
 Elsewhere: 
 

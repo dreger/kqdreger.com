@@ -31,20 +31,14 @@
   <script async src="//static.getclicky.com/js"></script>
 </head>
 <body>
-  <main class="wrapper">
-    <header class="header">
-      <!-- <a class="header__title" href="/">
-        <img src="/images/kqd.jpg" class="header__link__avatar">
-        <span class="header__link__byline">K.Q. Dreger</span>
-      </a> -->    
-
-      <a class="header__logo" href="/">K.Q. Dreger</a>
+  <main>
+    
+    <!-- <header class="header">
       
-      <nav class="nav">
-        <a class='{{ if hasPrefix .RelPermalink "/notes" }}active{{ end }}' href="/notes/">Notes</a>
-        <a class='{{ if eq .RelPermalink "/about/" }}active{{ end }}' href="/about/">About</a>
-      </nav>
-    </header>
+      <a class="header__logo" href="/">K.Q. Dreger</a>
+      <a class='{{ if hasPrefix .RelPermalink "/notes" }}active{{ end }}' href="/notes/">Blog</a>
+      <a class='{{ if eq .RelPermalink "/about/" }}active{{ end }}' href="/about/">About</a>
+      </header> -->
     
     <div class="column">
       {{ block "main" . }}{{ end }}

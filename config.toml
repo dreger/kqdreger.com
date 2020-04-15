@@ -1,8 +1,8 @@
 baseURL = "https://dreger.me/"
 languageCode = "en-us"
 title = "K.Q. Dreger"
-uglyurls = false 
+uglyurls = true
 publishDir = "docs"
 [permalinks]
-	notes = "/notes/:filename"
+	notes = "/:filename"
 	pages = "/:filename"
