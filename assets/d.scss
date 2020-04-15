@@ -13,7 +13,7 @@
   --font-sans: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
   --font-serif: "IBM Plex Serif", Charter, Georgia, serif;  
   --font-mono: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  --font-bold: bold; 
+  --font-bold: 600; 
   --max-width-column:30rem;
   --max-width-nav: 240px; 
   --max-width: 36rem; 
@@ -21,8 +21,11 @@
 }
 
 ::selection { background-color: var(--faded); }
-* { box-sizing: border-box; }
-html { font-size: 24px; }
+* { box-sizing: border-box; } 
+html { 
+  font-size: 24px; 
+}
+a, a:hover, html { cursor: url(/images/cursor.png),auto; }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
@@ -47,13 +50,13 @@ h1, h2, h3 {
 }
 h1 { 
   font-size: 2rem; 
-  font-weight: 900; 
+  font-weight: var(--font-bold); 
 }
 h2 { 
   margin-top: 1.5rem;
   margin-bottom: .5rem;
   font-size: 1.25rem; 
-  font-weight: bold;
+  font-weight: var(--font-bold);
 }
 
 ul { list-style: square; padding-left: 1.1rem; }
@@ -103,41 +106,40 @@ main {
 }
 
 .post__title {
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 .post__meta {
   margin-bottom: 2rem; 
-  font-size: .875rem;
+  font-size: 1rem;
   color: var(--faded-text); 
-  font-family: var(--font-mono); 
+  // font-family: var(--font-mono); 
 }
 .post__author {
-  margin: 0 0 .5rem; 
+  margin: 0 0 2rem; 
   font-family: var(--font-sans); 
-  font-weight: 900;
+  font-weight: var(--font-bold);
   border: 0; 
   letter-spacing: .02em;
+  max-width: 320px;
   display: flex; 
   text-transform: uppercase;
   align-items: center; 
   border-radius: 100px; 
   &:hover {
-    .post__author__image {
-      background-color: var(--accent-yellow); 
-    }
+  	background-color: var(--faded); 
   }
 }
 .post__author__image {
   // filter: grayscale(100%);
-  background-image: url(/images/icon.svg);
-  background-size: 48% 48%; 
+  background-image: url(/images/kqd.png);
+  background-size: 100% 100%; 
   background-repeat: no-repeat;
   background-position: center; 
-  width: 48px; 
-  height: 48px; 
+  width: 2.5rem; 
+  height: 2.5rem; 
+  border: solid 2px var(--faded); 
   margin: 0 .5rem 0 0; 
   background-color: var(--faded); 
-  // border: solid 4px var(--faded);
   border-radius: 100px; 
 }
 .post_author__byline {

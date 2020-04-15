@@ -10,7 +10,7 @@ The sparse design is intentional. I'm prone to tinker with the layout, grids, co
 
 I look like this: 
 
-*![my face](/images/kqd.jpg)*
+![my face](/images/kqd.png)
 
 Some other random tidbits: 
 
