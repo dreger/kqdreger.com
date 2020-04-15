@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on K.Q. Dreger</title>
-    <link>https://dreger.me/notes/</link>
+    <link>https://dreger.me/notes.html</link>
     <description>Recent content in Notes on K.Q. Dreger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,37 +13,37 @@
     
     <item>
       <title>Practical Productivity</title>
-      <link>https://dreger.me/notes/practical-productivity/</link>
+      <link>https://dreger.me/practical-productivity.html</link>
       <pubDate>Sat, 01 Feb 2020 18:45:10 -0500</pubDate>
       
-      <guid>https://dreger.me/notes/practical-productivity/</guid>
+      <guid>https://dreger.me/practical-productivity.html</guid>
       <description>Get things done and remember every commitment.</description>
     </item>
     
     <item>
       <title>Indifference</title>
-      <link>https://dreger.me/notes/indifference/</link>
+      <link>https://dreger.me/indifference.html</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/indifference/</guid>
+      <guid>https://dreger.me/indifference.html</guid>
       <description>Good ideas register some form of emotion.</description>
     </item>
     
     <item>
       <title>Treat pain points as debt</title>
-      <link>https://dreger.me/notes/pain-snowball-method/</link>
+      <link>https://dreger.me/pain-snowball-method.html</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/pain-snowball-method/</guid>
+      <guid>https://dreger.me/pain-snowball-method.html</guid>
       <description>Pay them off.</description>
     </item>
     
     <item>
       <title>Hierarchy of product team needs</title>
-      <link>https://dreger.me/notes/product-team-needs/</link>
+      <link>https://dreger.me/product-team-needs.html</link>
       <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/product-team-needs/</guid>
+      <guid>https://dreger.me/product-team-needs.html</guid>
       <description>Like Maslow&amp;rsquo;s pyramid, but for product teams.</description>
     </item>
     
