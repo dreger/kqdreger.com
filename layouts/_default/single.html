@@ -13,7 +13,7 @@
   	<h1 class="post__title">{{ .Title }}</h1>
 
   {{ if .PublishDate }}
-  	<h3 class="post__meta">{{ .PublishDate.Format "January 2006" }} &mdash; {{ .Content | countwords }} words</h3>
+  	<h3 class="post__meta">{{ .PublishDate.Format "January 2, 2006" }} &mdash; {{ .Content | countwords }} words</h3>
     {{ end }}
 
   	{{ .Content }}

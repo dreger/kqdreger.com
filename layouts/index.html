@@ -1,7 +1,24 @@
 {{ define "main" }}
+
+	<figure class="headshot">
+	  <img src="/images/kqd.png"  />
+	  <figcaption>My face. #vscogirl</figcaption>
+	</figure>
+
   {{ .Content }}
-  <!-- 
-  	to filter by section: 
-  	range where .Site.RegularPages "Section" "notes"
-  -->
+
+  <hr>
+
+	<h2>Notes on products, people, and punctuation.</h2>
+
+	<p>Interested in a newsletter on this stuff? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGrd4Jff8LAF6FbRAar1lY9-QIQc_qQEqJ_amgNiZx5ZAAkQ/viewform">Join here</a>.</p>
+
+
+	{{ range where .Site.RegularPages "Section" "notes" }}
+	<article>
+		<h3><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+		{{ .Summary }}
+	</article>
+	{{ end }}
+
 {{ end }} 

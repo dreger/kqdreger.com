@@ -5,7 +5,7 @@
   --accent: #FF1C52;
   --accent-yellow: #FFC200; // rgb(255,194,0)
   --accent: #222; 
-  --text: rgba(0,0,0,.9);
+  --text: rgba(0,0,0,.8);
   --faded: #f1f1f1; 
   --faded-text: #757575; 
   --bg: #F4F0EB; 
@@ -13,7 +13,7 @@
   --font-sans: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
   --font-serif: "IBM Plex Serif", Charter, Georgia, serif;  
   --font-mono: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  --font-bold: 600; 
+  --font-bold: 700; 
   --max-width-column:30rem;
   --max-width-nav: 240px; 
   --max-width: 36rem; 
@@ -37,7 +37,7 @@ body {
   // background: var(--faded);
   line-height: 1.4; 
   text-rendering: optimizeLegibility;
-  // font-feature-settings: "liga","case","calt","ss01","locl";
+  font-feature-settings: "liga","case","calt","ss01","locl";
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1rem 0; }
 code { font-family: var(--font); }
@@ -58,13 +58,18 @@ h2 {
   font-size: 1.25rem; 
   font-weight: var(--font-bold);
 }
+h3 {
+  font-size: 1rem; 
+  font-weight: var(--font-bold); 
+  margin: 1.5rem 0 .25rem; 
+}
 
 ul { list-style: square; padding-left: 1.1rem; }
 li { margin-bottom: .5rem; }
 a {
   color: var(--text); 
   text-decoration: none; 
-  border-bottom: 2px solid rgba(0,0,0,0.1);
+  border-bottom: 2px solid var(--accent-yellow);
 }
 a:hover { 
   border-color: var(--accent); 
@@ -72,7 +77,8 @@ a:hover {
 }
 
 
-hr { margin: 3rem 0; height: 2px; background: var(--faded); border: 0; }
+
+hr { margin: 2rem 0; height: 2px; background: var(--faded); border: 0; }
 
 img {
   height: auto;
@@ -102,6 +108,22 @@ main {
   margin-bottom: 4rem;
 }
 
+.headshot {
+  max-width: 240px; 
+  float: right; 
+  margin: 2.5rem 0 1.5rem 1.5rem;
+  transform: rotate(-4deg);
+  img { 
+    margin: 0 0 .25rem; 
+    border-radius: 8px;
+  }
+  figcaption { 
+    font-size: .75rem; 
+    color: var(--faded-text);
+    font-family: var(--font-sans); 
+  }
+}
+
 .column {
 }
 
@@ -112,7 +134,7 @@ main {
   margin-bottom: 2rem; 
   font-size: 1rem;
   color: var(--faded-text); 
-  // font-family: var(--font-mono); 
+  margin-top: 0;
 }
 .post__author {
   margin: 0 0 2rem; 
@@ -126,21 +148,20 @@ main {
   align-items: center; 
   border-radius: 100px; 
   &:hover {
-  	background-color: var(--faded); 
+  	opacity: .5;
   }
 }
 .post__author__image {
-  // filter: grayscale(100%);
   background-image: url(/images/kqd.png);
   background-size: 100% 100%; 
   background-repeat: no-repeat;
   background-position: center; 
   width: 2.5rem; 
   height: 2.5rem; 
-  border: solid 2px var(--faded); 
   margin: 0 .5rem 0 0; 
   background-color: var(--faded); 
-  border-radius: 100px; 
+  border-radius: 10px;
+  transform: rotate(-4deg);
 }
 .post_author__byline {
 
@@ -149,5 +170,10 @@ main {
 @media (max-width: 36rem) {
   main {
     margin: 0;
+  }
+  .headshot {
+    width: 25%;
+    margin: 1rem;
+    figcaption { display: none; }
   }
 }

@@ -1,19 +1,19 @@
 
 {{ define "main" }}
 
-<a href="/" class="post__author">
-      <span class="post__author__image"></span>
-      <span class="post__author__byline">K.Q. Dreger</span>
-    </a>
-<h1>Notes on products, people, and punctuation.</h1>
+	<a href="/" class="post__author">
+	      <span class="post__author__image"></span>
+	      <span class="post__author__byline">K.Q. Dreger</span>
+	    </a>
+	<h1>Notes on products, people, and punctuation.</h1>
 
-<p>Interested in a newsletter on this stuff? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGrd4Jff8LAF6FbRAar1lY9-QIQc_qQEqJ_amgNiZx5ZAAkQ/viewform">Join here</a>.</p>
+	<p>Interested in a newsletter on this stuff? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGrd4Jff8LAF6FbRAar1lY9-QIQc_qQEqJ_amgNiZx5ZAAkQ/viewform">Join here</a>.</p>
 
 
-{{ range .Pages }}
-<article>
-	<h2><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-	{{ .Summary }}
-</article>
-{{ end }}
+	{{ range .Pages }}
+	<article>
+		<h2><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+		{{ .Summary }}
+	</article>
+	{{ end }}
 {{ end }}
