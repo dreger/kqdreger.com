@@ -115,7 +115,7 @@ main {
   transform: rotate(-4deg);
   img { 
     margin: 0 0 .25rem; 
-    border-radius: 8px;
+    border-radius: 8px; 
   }
   figcaption { 
     font-size: .75rem; 
@@ -132,9 +132,9 @@ main {
 
 .icon {
   display: flex;
-  width: 260px; 
+  width: 280px; 
   margin-right: .5rem; 
-  font-family: var(--font-sans);
+  // font-family: var(--font-sans);
   border: 0; 
   // border: solid 2px var(--faded); 
   border-radius: 20px; 
@@ -153,11 +153,10 @@ main {
   background-repeat: no-repeat;
   background-position: center; 
   border-radius: 12px; 
-  box-shadow: 0 2px 4px rgba(100,100,100,.5); 
   transform: rotate(-4deg);
-  margin-right: .5rem;
-  width: 2.5rem; 
-  height: 2.5rem; 
+  margin-right: .75rem;
+  width: 3rem; 
+  height: 3rem; 
 }
 .icon__image--af {
   background-image: url(/images/af.svg);
@@ -207,12 +206,21 @@ main {
   border-radius: 10px;
   transform: rotate(-4deg);
 }
-.post_author__byline {
-
+.shadow {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
 }
 
-@media (max-width: 36rem) {
-  .icons { display: block; }
+@media (max-width: 640px) {
+  html {
+    font-size: 20px; 
+  }
+  .icons { 
+    flex-direction: column; 
+  }
   .icon { margin-bottom: .5rem; }
   main {
     margin: 0;
