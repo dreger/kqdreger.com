@@ -7,12 +7,24 @@
 
   {{ .Content }}
 
-  <hr>
 
+  <div class="icons">
+	<a class="icon" href="https://audaciousfox.net">
+		<span class="icon__image icon__image--af"></span>
+		<span class="icon__text">AF, my blog</span>
+	</a>
+
+	<a class="icon" href="https://itunes.apple.com/us/app/id1231744746">
+		<span class="icon__image icon__image--edit"></span>
+		<span class="icon__text">Edit, my app</span>
+	</a>
+</div>
+
+
+  <hr>
 	<h2>Notes on products, people, and punctuation.</h2>
 
 	<p>Interested in a newsletter on this stuff? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGrd4Jff8LAF6FbRAar1lY9-QIQc_qQEqJ_amgNiZx5ZAAkQ/viewform">Join here</a>.</p>
-
 
 	{{ range where .Site.RegularPages "Section" "notes" }}
 	<article>
