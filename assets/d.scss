@@ -13,7 +13,7 @@
   --font-sans: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
   --font-serif: "IBM Plex Serif", Charter, Georgia, serif;  
   --font-mono: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  --font-bold: 700; 
+  --font-bold: 600; 
   --max-width-column:30rem;
   --max-width-nav: 240px; 
   --max-width: 36rem; 
@@ -50,7 +50,6 @@ h1, h2, h3 {
 }
 h1 { 
   font-size: 2rem; 
-  font-weight: var(--font-bold); 
 }
 h2 { 
   margin-top: 1.5rem;
@@ -60,7 +59,6 @@ h2 {
 }
 h3 {
   font-size: 1rem; 
-  font-weight: var(--font-bold); 
   margin: 1.5rem 0 .25rem; 
 }
 
