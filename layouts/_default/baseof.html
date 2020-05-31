@@ -26,7 +26,6 @@
   {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
   <script async src="//static.getclicky.com/js"></script>
 </head>
