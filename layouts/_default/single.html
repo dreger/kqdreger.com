@@ -9,7 +9,7 @@
       <span class="post__author__byline">K.Q. Dreger</span>
     </a> -->
   	<header class="header">
-      <a href="/">dreger.me/</a>
+      <a href="/">dreger.me</a>
     </header>
 	{{ end }}
 
@@ -22,7 +22,7 @@
 
   	{{ .Content }}
 {{ if .PublishDate }}
-    <p class="post__meta"><br>✌️ {{ .PublishDate.Format "January 2, 2006" }}</p>
+    <p class="post__meta"><br>&mdash; {{ .PublishDate.Format "January 2, 2006" }}</p>
     {{ end }}
 
 {{ end }}
