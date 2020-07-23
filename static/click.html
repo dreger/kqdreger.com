@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+  <style type="text/css">
+    html { font-size: 60px; }
+    body {
+      text-align: center; 
+      font-family: 'Montserrat', sans-serif;
+      color: #444; 
+    }
+    .clicks, .label {
+      display: block; 
+      margin: 0; 
+      line-height: 1;
+    }
+    .clicks {
+      font-size: 6rem;
+      font-weight: bold; 
+      color: #222; 
+    }
+    .label {
+      font-size: 1rem; 
+      text-transform: uppercase; 
+      letter-spacing: .02em; 
+      margin-bottom: 1rem; 
+    }
+    .button {
+      outline: 0; 
+      background: white; 
+      font-size: .875rem; 
+      font-family: 'Montserrat', sans-serif;
+      padding: .5rem 2rem; 
+      border-radius: .25rem; 
+      border: solid 4px #ddd;
+      transition: box-shadow ease-out .3s;
+      cursor: pointer;
+      box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06);
+    }
+    .button:hover {
+     box-shadow:
+     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+     0 12.5px 10px rgba(0, 0, 0, 0.06),
+     0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+   }
+   .button:active {
+    margin-top: 4px;
+  }
+  @media (max-width: 720px) {
+    html { font-size: 36px;  }
+  }
+</style>
+</head>
+<body>
+
+  <div><span class="clicks"></span> <span class="label">acts of kindness</span></div>
+  <button class="button" onclick="beKind()">Be kind!</button>
+
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+ <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDbomVDQKPfU8Sfoyo87fHQffiXY_r2Txo",
+    authDomain: "fcc-acts-of-kindness.firebaseapp.com",
+    databaseURL: "https://fcc-acts-of-kindness.firebaseio.com",
+    projectId: "fcc-acts-of-kindness",
+    storageBucket: "fcc-acts-of-kindness.appspot.com",
+    messagingSenderId: "452040117480",
+    appId: "1:452040117480:web:d6ecd7c428527c53d44d5d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const db = firebase.firestore();
+  var docRef = db.collection("acts of kindness").doc("RMiL96XPfUTphCcQH8al");
+  const increment = firebase.firestore.FieldValue.increment(1);
+  var currentClicks; 
+
+  var getOptions = {
+    source: 'default'
+  };
+
+  function refreshFromFirebase() {
+    docRef.get(getOptions).then(function(doc) {
+      console.log("Cached document data:", doc.data());
+      currentClicks = doc.data().clicks; 
+      updateTotalClicks(); 
+    }).catch(function(error) {
+      console.log("Error getting cached document:", error);
+    });
+  }
+
+  function updateTotalClicks() {
+    document.querySelector('.clicks').innerHTML = currentClicks; 
+  }
+
+  function beKind() {
+    const storyRef = db.collection('acts of kindness').doc('RMiL96XPfUTphCcQH8al');
+    storyRef.update({ clicks: increment });
+    currentClicks++; 
+    updateTotalClicks(); 
+  }
+
+  refreshFromFirebase(); 
+  // setInterval(function(){ refreshFromFirebase(); }, 1000);
+</script>
+
+</body>
+</html>
