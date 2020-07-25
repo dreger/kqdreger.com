@@ -32,11 +32,12 @@
       background: linear-gradient(to left,#53d6ff,#02a8e0);
     background: -webkit-linear-gradient(to left,#02a8e0,#414042);
     color: white; 
-      font-size: 1rem; 
+      font-size: .875rem; 
       font-family: 'Montserrat', sans-serif;
-      padding: .25rem 2rem; 
+      padding: .5rem 1.25rem; 
+      font-weight: bold; 
       border-radius: 100px; 
-      border: solid 4px #02a8e0; 
+      border: solid .16rem #02a8e0; 
       transition: box-shadow ease-out .3s;
       cursor: pointer;
       box-shadow:
@@ -54,15 +55,19 @@
    .button:active {
     margin-top: 4px;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 800px) {
     html { font-size: 36px;  }
+  }
+
+  @media (max-width: 500px) {
+    html { font-size: 20px;  }
   }
 </style>
 </head>
 <body>
 
   <div><span class="clicks"></span> <span class="label">acts of kindness</span></div>
-  <button class="button" onclick="beKind()">Be kind!</button>
+  <button class="button" onclick="beKind()">I Made a Difference</button>
 
   <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
