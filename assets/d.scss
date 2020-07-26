@@ -13,7 +13,7 @@
   --bg: #fafafa; 
   --font-sans: 'Space Mono', SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   --font-serif: 'Space Mono', SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  --font-mono: 'Space Mono', SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  --font-mono: 'Recursive', SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   --font-bold: 400; 
   --max-width-column: 30rem;
   --max-width-nav: 240px; 
@@ -24,7 +24,7 @@
 ::selection { background-color: var(--faded); }
 * { box-sizing: border-box; } 
 html { 
-  font-size: 16px; 
+  font-size: 18px; 
 }
 a, a:hover, html { cursor: url(/images/cursor.png),auto; }
 body {
@@ -52,6 +52,7 @@ h1 {
   font-size: 1.563rem; 
   margin-bottom: .5rem;
   letter-spacing: -.01em;
+  font-weight: bold;
   line-height: 1.4em;
 }
 h2 { 
