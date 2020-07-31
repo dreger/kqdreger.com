@@ -28,8 +28,7 @@
 
 	{{ range where .Site.RegularPages "Section" "notes" }}
 	<article>
-		<h3><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></h3>
-		{{ .Summary }}
+		<p><strong><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></strong> &mdash; {{ .Summary }}</p>
 	</article>
 	{{ end }}
 

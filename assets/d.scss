@@ -6,15 +6,14 @@
   --accent-yellow: #FFC200; // rgb(255,194,0)
   --accent: #222; 
   --text-heading: rgba(0,0,0,.9);
-  --text: rgba(0,0,0,.75);
+  --text: rgba(0,0,0,.8);
   --faded: #f1f1f1; 
   --faded-text: #757575; 
   --bg: #EBE7DD;
   --bg: #fafafa; 
-  --font-sans: 'Space Mono', SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  --font-serif: 'Space Mono', SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  --font-mono: 'Recursive', SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  --font-bold: 400; 
+  --font: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, serif; 
+  --font-weight-bold: 700; 
+  --font-weight-regular: 400; 
   --max-width-column: 30rem;
   --max-width-nav: 240px; 
   --max-width: 44rem; 
@@ -32,35 +31,31 @@ body {
   -webkit-text-size-adjust: 100%;
   color: var(--text);
   background: var(--bg); 
-  font-family: var(--font-mono); 
-  font-weight: 400;
+  font-family: var(--font); 
+  font-weight: var(--font-weight-regular);
   margin: 0 auto;
   padding: 0;
-  // background: var(--faded);
-  line-height: 1.4; 
+  line-height: 1.5; 
   text-rendering: optimizeLegibility;
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1.5rem 0; }
 code { font-family: var(--font); }
-strong { font-weight: bold; }
+strong { font-weight: var(--font-weight-bold); }
 h1, h2, h3 { 
-  line-height: 1.2; 
-  font-weight: var(--font-bold);
+  line-height: 1.25em; 
+  font-weight: var(--font-weight-bold);
   color: var(--text-heading); 
 }
 h1 { 
   font-size: 1.563rem; 
   margin-bottom: .5rem;
   letter-spacing: -.01em;
-  font-weight: bold;
-  line-height: 1.4em;
 }
 h2 { 
-  line-height: 1.4em;
   margin-top: 1.25rem;
   margin-bottom: .5rem;
   font-size: 1.25rem; 
-  font-weight: var(--font-bold);
+  font-weight: var(--font-weight-regular);
 }
 h3 {
   line-height: 1.4em;
@@ -183,7 +178,6 @@ main {
   font-size: 1rem;
   color: var(--faded-text); 
   margin-top: 0;
-  font-weight: normal; 
 }
 
 .post__title {
@@ -193,7 +187,7 @@ main {
   // letter-spacing: .02em;
   // font-weight: 500; 
   // font-size: 1rem; 
-  font-style: italic; 
+  // font-style: italic; 
   margin: 0 0 2rem;
   // text-transform: uppercase; 
   color: var(--faded-text); 

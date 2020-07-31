@@ -23,7 +23,8 @@
   <meta name="twitter:site" content="@dreger" />
   {{ end }}
   <!-- <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" /> -->
- <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@400;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
 
   {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
