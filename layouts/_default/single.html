@@ -4,25 +4,18 @@
 
 {{ define "main" }}
 	{{ if .PublishDate }}
-       <!--  <a href="/" class="post__author">
+    <a href="/" class="post__author">
       <span class="post__author__image"></span>
-      <span class="post__author__byline">K.Q. Dreger</span>
-    </a> -->
-  	<header class="header">
-      By <a href="/">K.Q. Dreger</a>
-    </header>
+      <span class="post__author__byline">K.Q. Dreger</span> 
+    </a>
+  	
 	{{ end }}
 
   	<h1 class="post__title">{{ .Title }}</h1>
     <h2 class="post__summary">{{ .Summary }}</h2>
 
-    
-
-  
-
   	{{ .Content }}
-{{ if .PublishDate }}
-    <p class="post__meta"><br>{{ .PublishDate.Format "January 2006" }}</p>
+    {{ if .PublishDate }}
+      <p class="post__meta">{{ .PublishDate.Format "January 2006" }}</p>
     {{ end }}
-
 {{ end }}

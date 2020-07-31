@@ -5,25 +5,26 @@
   --accent: #FF1C52;
   --accent-yellow: #FFC200; // rgb(255,194,0)
   --accent: #222; 
-  --text-heading: rgba(0,0,0,.9);
-  --text: rgba(0,0,0,.8);
+  --text-heading: rgba(0,0,0,.85);
+  --text: rgba(0,0,0,.75);
   --faded: #f1f1f1; 
   --faded-text: #757575; 
   --bg: #EBE7DD;
   --bg: #fafafa; 
   --font: "Whitney SSm A", "Whitney SSm B", -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, serif; 
   --font-weight-bold: 700; 
-  --font-weight-regular: 400; 
+  --font-weight-regular: 500; 
   --max-width-column: 30rem;
   --max-width-nav: 240px; 
   --max-width: 44rem; 
   --padding: 4rem; 
+  --font-size: 18px; 
 }
 
 ::selection { background-color: var(--faded); }
 * { box-sizing: border-box; } 
 html { 
-  font-size: 18px; 
+  font-size: var(--font-size); 
 }
 a, a:hover, html { cursor: url(/images/cursor.png),auto; }
 body {
@@ -101,7 +102,7 @@ main {
   margin: 3rem auto;
   padding: var(--padding); 
   background: white; 
-  box-shadow: 0 2px 4px 0 rgba(100,100,100,.3); 
+  // box-shadow: 0 2px 4px 0 rgba(100,100,100,.3); 
   border-radius: 4px; 
 }
 .header {
@@ -184,21 +185,16 @@ main {
 }
 
 .post__summary {
-  // letter-spacing: .02em;
-  // font-weight: 500; 
-  // font-size: 1rem; 
-  // font-style: italic; 
   margin: 0 0 2rem;
-  // text-transform: uppercase; 
   color: var(--faded-text); 
 }
 
 .post__author {
-  margin: 0 0 2rem; 
-  font-weight: 500;
+  margin: 0 0 4rem; 
+  font-weight: var(--font-weight-normal);
   border: 0; 
   letter-spacing: .02em;
-  max-width: 320px;
+  color: var(--text-heading); 
   display: flex; 
   text-transform: uppercase;
   align-items: center; 
@@ -208,16 +204,14 @@ main {
   }
 }
 .post__author__image {
-  background-image: url(/images/kqd.png);
+  background-image: url(/images/file-text.svg);
   background-size: 100% 100%; 
   background-repeat: no-repeat;
   background-position: center; 
-  width: 2.5rem; 
-  height: 2.5rem; 
+  width: 1.5rem; 
+  height: 1.5rem; 
+  // border: solid 2px var(--text-heading); 
   margin: 0 .5rem 0 0; 
-  background-color: var(--faded); 
-  border-radius: 10px;
-  transform: rotate(-4deg);
 }
 .shadow {
   box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
@@ -227,12 +221,17 @@ main {
               0 8px 16px rgba(0,0,0,0.11);
 }
 
-@media (max-width: 52rem) {
+@media (max-width: 900px) {
+  :root {
+    --max-width: 32rem; 
+    --font-size: 16px; 
+  }
+}
+
+@media (max-width: 700px) {
   :root {
     --padding: 1rem; 
-  }
-  html {
-    font-size: 20px; 
+    --max-width: 100%; 
   }
   .icons { 
     flex-direction: column; 
@@ -240,7 +239,6 @@ main {
   .icon { margin-bottom: .5rem; }
   main {
     margin: 0;
-    // padding: 1rem; 
   }
   .headshot {
     width: 25%;
