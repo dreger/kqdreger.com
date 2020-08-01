@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="">
+  <title>
+  Fixing Extremely Poor or Muffled Call Quality When Using AirPods and MacOS
+</title>
+  <meta name="author" content="K.Q. Dreger">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  
+  
+  <meta name="Description" content="The Fix: You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to &amp;amp;ldquo;Internal Microphone&amp;amp;rdquo; — if you use the AirPods for both input and output, the audio quality takes a noticeable hit.
+A few months ago, the voice and video call audio on my Mac took a nosedive. Call participants sounded hollow and fuzzy, and I sounded the same to them....">
+  <meta itemprop="description" content="The Fix: You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to &amp;amp;ldquo;Internal Microphone&amp;amp;rdquo; — if you use the AirPods for both input and output, the audio quality takes a noticeable hit.
+A few months ago, the voice and video call audio on my Mac took a nosedive. Call participants sounded hollow and fuzzy, and I sounded the same to them....">
+  <meta property="og:title" content="Fixing Extremely Poor or Muffled Call Quality When Using AirPods and MacOS"/>
+  <meta property="og:description" content="The Fix: You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to &amp;amp;ldquo;Internal Microphone&amp;amp;rdquo; — if you use the AirPods for both input and output, the audio quality takes a noticeable hit.
+A few months ago, the voice and video call audio on my Mac took a nosedive. Call participants sounded hollow and fuzzy, and I sounded the same to them...."/>
+  <meta property="og:site_name" content="K.Q. Dreger"/>
+  <meta property="og:url" content="https://dreger.me/notes/airpods-macos-call-quality-fix"/> 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dreger" />
+  
+  
+
+  <link rel="canonical" href="https://dreger.me/notes/airpods-macos-call-quality-fix" />
+
+
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
+
+  
+  <link rel="stylesheet" href="https://dreger.me/d.min.963f947225d4fc3c8d655ebb20eb8abb3e502c7652013c2e2dcacabf5860e688.css">
+
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
+  <script async src="//static.getclicky.com/js"></script>
+</head>
+<body>
+  <main>
+    <a href="/" class="post__author">
+      <span class="post__author__image"></span>
+      
+    </a>
+    
+    
+    <div class="column">
+      
+
+    
+
+  	
+    <h1 class="post__title">Fixing Extremely Poor or Muffled Call Quality When Using AirPods and MacOS</h1>
+    
+
+
+    
+
+  	<p><strong>The Fix:</strong> You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to &ldquo;Internal Microphone&rdquo; — if you use the AirPods for both input and output, the audio quality takes a noticeable hit.</p>
+<p>A few months ago, the voice and video call audio on my Mac took a nosedive. Call participants sounded hollow and fuzzy, and I sounded the same to them. I blamed network connectivity issues, but my problem persisted regardless of location. One day, forgetting <a href="https://dreger.me/notes/airpods/">my much loved AirPods</a> at home, audio calls sounded fine again. The AirPods were to blame.</p>
+<p>Turns out, I wasn&rsquo;t alone. There are <a href="https://origin-discussions-us.apple.com/thread/7842000">numerous</a> <a href="https://productforums.google.com/forum/#!topic/hangouts/qpzl6ar_-qI;context-place=topicsearchin/hangouts/category$3Ai-found-a-bug%7Csort:relevance%7Cspell:false">complaints</a> <a href="https://twitter.com/chrismaddern/status/850464518962413568">online</a> about the &ldquo;terrible&rdquo; AirPods&rsquo; audio quality when both connected to a Mac and conducting a voice or video call. After an hour of troubleshooting, I finally found an answer <a href="https://apple.stackexchange.com/questions/282705/airpods-extremely-poor-mic-quality-on-mac">by way of the Ask Different Q&amp;A site</a>:</p>
+<blockquote>
+<p>Ever since I purchased the AirPods a month ago, they demonstrate extremely poor quality while activating the AirPod Mic, whilst they are connected to a Mac. When activating the Mic to record audio, it seems that both the <em>recording quality</em> AND <em>audio playback</em> quality severely drops to a substandard level (Mono 8.0 kHz). [&hellip;]</p>
+</blockquote>
+<blockquote>
+<p>Current best practice is to use the Internal Microphone for Recording, and the AirPods for playback when conducting calls. Input and Output devices can be selected in System Settings &gt; Sound or by ⌥-clicking the Volume icon in the macOS Menu Bar, and selecting devices there.</p>
+</blockquote>
+<p>Essentially, the crux of this issue is that when you&rsquo;re using AirPods for a voice or video call on MacOS, AirPods switch over to Bluetooth&rsquo;s SCO (Synchronous Connection-Oriented) codec to handle the audio input and output, which tanks the overall audio quality. However, by manually selecting your Mac&rsquo;s internal microphone as the primary input device, you allow AirPods to switch off SCO, and the quality improves.</p>
+<p>According to <a href="https://discussions.apple.com/message/31255072#31255072">this user on the Apple Discussion boards</a>, Apple is aware of the issue, and they recommend the aforementioned mic-swapping method as a temporary workaround. Having tried it myself, I can confirm it works. Calls sound appreciably better, which is worth the manual tinkering.</p>
+<p>I&rsquo;m not familiar enough with Bluetooth codecs (shocker) and wireless audio to know whether this issue could be addressed in a  future firmware update, but it&rsquo;d be great if it was. Regardless, I would like to believe Apple wants to fix this, if only because AirPods&rsquo; call quality on my iPhone is perfect, and that experience should be one shared with the Mac. Put another way: there should be no scenario where a FaceTime call coming through Apple headphones sounds like a landline in 1990; but there is, and it does.</p>
+
+
+    
+      <p><a class="post__meta" href='https://dreger.me/notes/airpods-macos-call-quality-fix'>Monday, 23 October 2017</a></p>
+
+      <hr>
+  
+      <p><strong>Older</strong><br><a href='https://dreger.me/links/darbian-super-mario-bros-speedrun-wr'>Darbian Sets New ‘The Super Mario Bros.’ Speedrun World Record</a></p>
+
+      <div><strong>Newer</strong><br><a href='https://dreger.me/links/padnick-jekyll-and-hyde'>‘What Everybody Gets Wrong About Jekyll and Hyde’</a></div>
+    
+
+    <hr>
+
+    <ul>
+	<li><a href="#">Twitter</a> and <a href="#">LinkedIn</a></li>
+
+<li><a href="https://dreger.me/masthead/">Masthead</a></li>
+
+<li><a href="https://dreger.me/projects/">Projects</a></li>
+
+<li><a href="https://dreger.me/privacy/">Terms &amp; Privacy Policy</a></li>
+
+</ul>
+
+
+    </div>
+  </main>
+</body>
+</html>

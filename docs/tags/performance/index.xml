@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance on K.Q. Dreger</title>
+    <link>https://dreger.me/tags/performance/</link>
+    <description>Recent content in Performance on K.Q. Dreger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jun 2018 12:57:31 -0400</lastBuildDate>
+    
+	<atom:link href="https://dreger.me/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iOS 12 Will Support All iOS 11 Compatible Devices</title>
+      <link>https://dreger.me/links/ios-12-device-compatibility/</link>
+      <pubDate>Wed, 20 Jun 2018 12:57:31 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/ios-12-device-compatibility/</guid>
+      <description>One of the more thrilling announcements at WWDC 2018 is that iOS 12 will focus heavily on performance and longevity of older iOS devices. This means not only will iOS 12 support anything that currently runs iOS 11, but also those older devices should see noticeable performance increases. Apple PR:
+ Camera launches up to 70 percent faster, the keyboard appears up to 50 percent faster and typing is more responsive.</description>
+    </item>
+    
+  </channel>
+</rss>

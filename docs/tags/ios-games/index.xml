@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOS Games on K.Q. Dreger</title>
+    <link>https://dreger.me/tags/ios-games/</link>
+    <description>Recent content in iOS Games on K.Q. Dreger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jun 2018 12:38:10 -0400</lastBuildDate>
+    
+	<atom:link href="https://dreger.me/tags/ios-games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>‘Pocket-Run Pool’</title>
+      <link>https://dreger.me/links/godin-on-zach-gage-games/</link>
+      <pubDate>Fri, 22 Jun 2018 12:38:10 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/godin-on-zach-gage-games/</guid>
+      <description>Derek Godin, writing about iOS developer/designer Zach Gage and his newest game, Pocket-Run Pool:
+ Gage specializes in taking well-worn casual game mainstays (word puzzles, chess, solitaire) and twisting them in small, clever ways. Often these are simple mechanical tweaks; Really Bad Chess gives players one king and 15 other random pieces to duke it out with, while Sage Solitaire elegantly splits the difference between classic Klondike and poker. His latest game Pocket-Run Pool is his version of an arcade-style billiards game, with rotating pocket multipliers and three lives (i.</description>
+    </item>
+    
+  </channel>
+</rss>

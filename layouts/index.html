@@ -1,13 +1,17 @@
 {{ define "main" }}
 
-	<figure class="headshot">
+<!-- 	<figure class="headshot">
 	  <img class="shadow" alt="my face #vscogirl" src="/images/kqd.png"  />
 	  <figcaption>My face.</figcaption>
-	</figure>
-
-  {{ .Content }}
+	</figure> -->
 
 
+
+  	{{ .Content }}
+
+    {{ partial "navigation.html" . }}
+
+<!-- 
   <div class="icons">
 	<a class="icon" href="https://audaciousfox.net">
 		<span class="shadow icon__image icon__image--af"></span>
@@ -18,18 +22,24 @@
 		<span class="shadow icon__image icon__image--edit"></span>
 		<span class="icon__text">Edit, my app</span>
 	</a>
-</div>
+</div> -->
 
 
   <hr>
-	<h2>Notes on products, people, and punctuation.</h2>
+	<h2>Notes and links on products, people, and punctuation.</h2>
 
-	<p>Interested in a newsletter on this stuff? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGrd4Jff8LAF6FbRAar1lY9-QIQc_qQEqJ_amgNiZx5ZAAkQ/viewform">Join here</a>.</p>
+	<!-- <p>(Interested in a newsletter on this stuff? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGrd4Jff8LAF6FbRAar1lY9-QIQc_qQEqJ_amgNiZx5ZAAkQ/viewform">Join here</a>.)</p> -->
 
-	{{ range where .Site.RegularPages "Section" "notes" }}
-	<article>
-		<p><strong><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></strong><br>{{ .Summary }}</p>
-	</article>
-	{{ end }}
+
+ {{ range (where .Site.RegularPages "Section" "in" "notes links").GroupByDate "2006" }}
+
+	<!-- <h2>{{ .Key }}</h2>  -->
+
+    {{ range .Pages }}
+    	<article class="index__item">
+			<a class='index__item__title{{ if eq .Section "links" }}--link{{ else }}--note{{ end }}' title="{{ .Title }}" href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ if eq .Section "notes" }}{{ end }}{{ .Title }}</a>
+		</article>
+    {{ end }}
+{{ end }}
 
 {{ end }} 

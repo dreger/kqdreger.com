@@ -3,19 +3,32 @@
 {{ end }}
 
 {{ define "main" }}
-	{{ if .PublishDate }}
-    <a href="/" class="post__author">
-      <span class="post__author__image"></span>
-      <span class="post__author__byline">K.Q. Dreger</span> 
-    </a>
-  	
-	{{ end }}
 
-  	<h1 class="post__title">{{ .Title }}</h1>
-    <h2 class="post__summary">{{ .Summary }}</h2>
+    
+
+  	{{ if in "notes pages" .Section }}
+    <h1 class="post__title">{{ .Title }}</h1>
+    {{ else }}
+    <h2><a href='{{ .Params.link }}'>{{ .Title }}</a></h2>
+    {{ end }}
+
+
+    <!-- {{ .Summary }} -->
 
   	{{ .Content }}
+
     {{ if .PublishDate }}
-      <p class="post__meta">{{ .PublishDate.Format "January 2006" }}</p>
+      <p><a class="post__meta" href='{{ strings.TrimSuffix "/" .Permalink }}'>{{ .PublishDate.Format "Monday, 2 January 2006" }}</a></p>
+
+      <hr>
+  
+      {{ if .PrevPage }}<p><strong>Older</strong><br><a href='{{ strings.TrimSuffix "/" .PrevPage.Permalink }}'>{{.PrevPage.Title}}</a></p>{{ end }}
+
+      {{ if .NextPage }}<div><strong>Newer</strong><br><a href='{{ strings.TrimSuffix "/" .NextPage.Permalink }}'>{{.NextPage.Title}}</a></div>{{ end }}
     {{ end }}
+
+    <hr>
+
+    {{ partial "navigation.html" . }}
+
 {{ end }}

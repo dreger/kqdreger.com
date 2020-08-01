@@ -1,0 +1,6 @@
+<ul>
+	<li><a href="#">Twitter</a> and <a href="#">LinkedIn</a></li>
+{{ range where .Site.RegularPages "Section" "in" "pages" }}
+<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>

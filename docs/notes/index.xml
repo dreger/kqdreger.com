@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on K.Q. Dreger</title>
-    <link>https://dreger.me/notes.html</link>
+    <link>https://dreger.me/notes/</link>
     <description>Recent content in Notes on K.Q. Dreger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,29 +13,410 @@
     
     <item>
       <title>Indifference</title>
-      <link>https://dreger.me/notes/indifference.html</link>
+      <link>https://dreger.me/notes/indifference/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/indifference.html</guid>
+      <guid>https://dreger.me/notes/indifference/</guid>
       <description>Good ideas register some form of emotion.</description>
     </item>
     
     <item>
+      <title>Weekend Tweaks</title>
+      <link>https://dreger.me/notes/forgive-the-tests/</link>
+      <pubDate>Sat, 14 Dec 2019 20:44:22 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/forgive-the-tests/</guid>
+      <description>I&amp;rsquo;m making a handful of changes to the site today, so please forgive any RSS oddities. Thanks.</description>
+    </item>
+    
+    <item>
+      <title>Don’t Hide the Date</title>
+      <link>https://dreger.me/notes/dont-hide-the-date/</link>
+      <pubDate>Sat, 14 Dec 2019 08:30:46 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/dont-hide-the-date/</guid>
+      <description>I&amp;rsquo;ve noticed an interesting (growing?) trend over the past few years. Some bloggers (or their designers) choose to hide when a post was written. I usually see this via dates excluded from the URL and/or the page itself. Why they&amp;rsquo;re doing this, I&amp;rsquo;m not sure.
+For URLs, I think dates are useful. Take this URL for example:
+/2019/dont-hide-the-date
+Just looking at it, you have a sense of when it was written and what it might be about.</description>
+    </item>
+    
+    <item>
       <title>Treat pain points as debt</title>
-      <link>https://dreger.me/notes/pain-snowball-method.html</link>
+      <link>https://dreger.me/notes/pain-snowball-method/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/pain-snowball-method.html</guid>
+      <guid>https://dreger.me/notes/pain-snowball-method/</guid>
       <description>Pay them off.</description>
     </item>
     
     <item>
       <title>Hierarchy of product team needs</title>
-      <link>https://dreger.me/notes/product-team-needs.html</link>
+      <link>https://dreger.me/notes/product-team-needs/</link>
       <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/product-team-needs.html</guid>
+      <guid>https://dreger.me/notes/product-team-needs/</guid>
       <description>Like Maslow&amp;rsquo;s pyramid, but for product teams.</description>
+    </item>
+    
+    <item>
+      <title>‘Nobody Reads’</title>
+      <link>https://dreger.me/notes/nobody-reads/</link>
+      <pubDate>Thu, 27 Dec 2018 12:35:36 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/nobody-reads/</guid>
+      <description>This is the excuse I hear when product people are disappointed that customers missed some important piece of information conveyed through UI copy. The more important the information missed, the stronger the sentiment that Nobody Reads.
+But this is like when someone truncates Winston Churchill&amp;rsquo;s quote on democracy. It&amp;rsquo;s more likely you&amp;rsquo;ve heard this bit:
+ democracy is the worst form of Government
+ Than how it finishes:
+ except all those other forms that have been tried from time to time.</description>
+    </item>
+    
+    <item>
+      <title>Customers, Not Users</title>
+      <link>https://dreger.me/notes/customers-vs-users/</link>
+      <pubDate>Sun, 07 Oct 2018 10:20:44 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/customers-vs-users/</guid>
+      <description>A lot of software isn&amp;rsquo;t free. Plenty of people pay to use products. Yet, we call these people users in most of our copy and internal communications. Should we?
+What if we tried calling them what they actually are: customers.
+ User story becomes customer story. User review becomes customer review. User issue becomes customer issue.  I think the difference is important. Facebook has users. We have customers. By referring to your customers as customers, you&amp;rsquo;re respecting the fact that someone is paying you for your work.</description>
+    </item>
+    
+    <item>
+      <title>A Very Brief Explanation of How I Choose Between Buying a Physical Book or the Kindle Edition</title>
+      <link>https://dreger.me/notes/physical-or-kindle/</link>
+      <pubDate>Mon, 01 Oct 2018 21:56:13 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/physical-or-kindle/</guid>
+      <description>I don&amp;rsquo;t. It&amp;rsquo;s impossible. Sisyphus spends less energy pushing his boulder than I do when debating paperback or Paperwhite. The only compromise is to buy both. My budget hates me, my wife shakes her head in disapproval, but my bookshelves have never looked better nor been more portable.</description>
+    </item>
+    
+    <item>
+      <title>Behavioral Biometrics Are a Cookie You Can’t Clear</title>
+      <link>https://dreger.me/notes/behavioral-biometrics/</link>
+      <pubDate>Fri, 24 Aug 2018 20:42:23 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/behavioral-biometrics/</guid>
+      <description>Stacy Cowley, the New York Times, on how banks and retailers are using your taps, swipes, and other device sensor data to verify you&amp;rsquo;re you:
+ The way you press, scroll and type on a phone screen or keyboard can be as unique as your fingerprints or facial features. To fight fraud, a growing number of banks and merchants are tracking visitors’ physical movements as they use websites and apps.</description>
+    </item>
+    
+    <item>
+      <title>Contentedness</title>
+      <link>https://dreger.me/notes/contentedness/</link>
+      <pubDate>Wed, 04 Jul 2018 03:11:25 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/contentedness/</guid>
+      <description>Leaning against our headboard awake far later than I wish to be, my little guy nuzzles deeper into the crook of my arm he’s chosen to fall asleep in and I can’t help but feel it’s all so very much worth it; the fatigue, frustration, fear—they all melt away in these moments, and for a minute my heart knows nothing but the contentedness of a man who truly has everything, and for whom nothing else could replace this feeling.</description>
+    </item>
+    
+    <item>
+      <title>HTTPS and the Secure Web</title>
+      <link>https://dreger.me/notes/https/</link>
+      <pubDate>Sun, 11 Mar 2018 19:50:10 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/https/</guid>
+      <description>Should every page you visit on the Internet be served over HTTPS? For banks and online stores, the answer is an obvious yes. But what about blogs, decades old web archives, and other bland online data? Do these documents deserve secured connections?
+Yes.
+However, for the past few weeks, spurred on by Google’s move to mark HTTP-only sites as “Not Secure” in Chrome, Dave Winer has asked a similar question, and argued — among other things — that this is a move by Google to seize control of the web:</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Lite’ App Should Be Your Only App</title>
+      <link>https://dreger.me/notes/lite/</link>
+      <pubDate>Tue, 20 Feb 2018 12:10:32 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/lite/</guid>
+      <description>I&amp;rsquo;ve noticed a trend:
+Twitter Lite:
+ Today, we are rolling out Twitter Lite, a new mobile web experience which minimizes data usage, loads quickly on slower connections, is resilient on unreliable mobile networks, and takes up less than 1MB on your device. We also optimized it for speed, with up to 30% faster launch times as well as quicker navigation throughout Twitter.
+ YouTube Go:
+ the app is designed to be offline first and improve the experience of watching videos on a slower network; it gives you more control over data usage, by providing choice and transparency into the amount of data spent on streaming or saving videos.</description>
+    </item>
+    
+    <item>
+      <title>The Privacy We Give Away</title>
+      <link>https://dreger.me/notes/the-privacy-we-give-away/</link>
+      <pubDate>Tue, 30 Jan 2018 12:34:59 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/the-privacy-we-give-away/</guid>
+      <description>Last November, Strava — the &amp;ldquo;social network for athletes&amp;rdquo; — released their annual global heatmap of user activity or &amp;ldquo;a direct visualization of Strava’s global network of athletes.&amp;rdquo; The report consists of 1 billion activities, 3 trillion latitude/longitude points, and over 10 terabytes of raw data. In short, it&amp;rsquo;s a staggering amount of personal data, anonymized and aggregated, and overlaid on a map.
+For two months, the report made little fanfare.</description>
+    </item>
+    
+    <item>
+      <title>Start With Words</title>
+      <link>https://dreger.me/notes/start-with-words/</link>
+      <pubDate>Thu, 04 Jan 2018 18:41:59 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/start-with-words/</guid>
+      <description>I start most of my interface designs in TextEdit. Why? Because it forces me to focus on the words. Words are like stock in a delicious stew. If you don&amp;rsquo;t have good stock, the whole meal feels off.
+TextEdit-the-design-tool is surprisingly robust. Let me give you an example.
+Say we&amp;rsquo;ve got to design a rather standard looking confirmation modal with two options for the user. Open TextEdit and start writing:</description>
+    </item>
+    
+    <item>
+      <title>PR to English Translation for Selected Portions of EA’s Response to Backlash Over ‘Star Wars Battlefront II’ Microtransactions</title>
+      <link>https://dreger.me/notes/translation-ea-battlefront-microtransactions/</link>
+      <pubDate>Thu, 16 Nov 2017 22:31:59 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/translation-ea-battlefront-microtransactions/</guid>
+      <description>&amp;ldquo;An Update on Star Wars Battlefront II&amp;quot;, from the desk of Oskar Gabrielson, GM, DICE.
+ Thank you to everyone in our community for being the passionate fans that you are.
+ And a special thank you to Twitter, who last week decided to let you dweebs have twice the number of characters to yell at us with.
+ Our goal has always been to create the best possible game for all of you – devoted Star Wars fans and game players alike.</description>
+    </item>
+    
+    <item>
+      <title>Fixing Extremely Poor or Muffled Call Quality When Using AirPods and MacOS</title>
+      <link>https://dreger.me/notes/airpods-macos-call-quality-fix/</link>
+      <pubDate>Mon, 23 Oct 2017 21:38:00 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/airpods-macos-call-quality-fix/</guid>
+      <description>The Fix: You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to &amp;ldquo;Internal Microphone&amp;rdquo; — if you use the AirPods for both input and output, the audio quality takes a noticeable hit.
+A few months ago, the voice and video call audio on my Mac took a nosedive. Call participants sounded hollow and fuzzy, and I sounded the same to them.</description>
+    </item>
+    
+    <item>
+      <title>Springboard Gridlock</title>
+      <link>https://dreger.me/notes/springboard-gridlock/</link>
+      <pubDate>Sat, 07 Oct 2017 12:08:23 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/springboard-gridlock/</guid>
+      <description>I like my iPhone 7, but big screens pose a reachability problem. Apple even has a mechanism within iOS called Reachability, where lightly tapping the home button twice slides the entire UI down, so the oft-on-top navigation elements are easier to hit. After several years of large iPhones, designers like Max Rudberg are starting to explore moving key UI elements to the bottom of the screen. This is good, because I like making common UI elements easier to reach, and I&amp;rsquo;m pro- anything that stops me from tempting fate and gravity whenever I&amp;rsquo;m trying to walk and tap the top-left of my iPhone&amp;rsquo;s screen.</description>
+    </item>
+    
+    <item>
+      <title>All Ads Are Equal, but Some Ads Are More Equal Than Others</title>
+      <link>https://dreger.me/notes/advertisement-farm/</link>
+      <pubDate>Sun, 11 Jun 2017 07:40:38 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/advertisement-farm/</guid>
+      <description>This past quarter, Alphabet Inc., Google’s parent company, reported revenue of over $24 billion, with nearly all of that money coming from Google search, display, and video advertising. This month, Google has announced it intends to bring native ad filtering to Chrome, the most popular browser on the planet.
+Here’s Google SVP of Ads and Commerce, Sridhar Ramaswamy, in a blog post titled, “Building a better web for everyone”:
+ We believe online ads should be better.</description>
+    </item>
+    
+    <item>
+      <title>AirPods</title>
+      <link>https://dreger.me/notes/airpods/</link>
+      <pubDate>Sat, 03 Jun 2017 15:40:11 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/airpods/</guid>
+      <description>These are my first Bluetooth headphones. There are things I like about AirPods that are probably true for any wireless headphones. That said, I think AirPods distinguish themselves in two important ways: a convenient and slim charging case for when you’re on-the-go, and the best wireless pairing process I’ve ever experienced, hands-down, bar none.
+Case &amp;amp; Charging The case is made of smooth, white plastic, reminiscent of the plastic MacBooks or Magic Mouse.</description>
+    </item>
+    
+    <item>
+      <title>Unroll.me, Unravelled</title>
+      <link>https://dreger.me/notes/unrollme-unravelled/</link>
+      <pubDate>Mon, 24 Apr 2017 22:40:44 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/unrollme-unravelled/</guid>
+      <description>Yesterday, Mike Isaac of The New York Times wrote a profile on Uber C.E.O. Travis Kalanick and his drive to turn Uber into a winning machine, regardless the cost. It&amp;rsquo;s a fascinating piece, and you should make time to read it.
+But in Mr. Isaac’s digging, he unearthed some unsettling information about another company, Unroll.me. Owned by Slice Intelligence, Unroll.me labels itself as a way to “clean up your inbox”, by intercepting and archiving your email, and then sending you a simple summary of all your receipts and newsletters.</description>
+    </item>
+    
+    <item>
+      <title>Before You Ship</title>
+      <link>https://dreger.me/notes/before-you-ship/</link>
+      <pubDate>Tue, 18 Apr 2017 19:38:40 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/before-you-ship/</guid>
+      <description>These are the questions our designers ask one another before any user-facing design goes live. Think of this as a checklist, like the ones they use at NASA before a takeoff. It&amp;rsquo;s a simple tool that helps ensure all designs meet the same requirements, and it&amp;rsquo;s easily understood by new and seasoned designers.
+Checklist Why are you building this? What&amp;rsquo;s the value for the customer? How does this benefit our company?</description>
+    </item>
+    
+    <item>
+      <title>iPhone 7</title>
+      <link>https://dreger.me/notes/iphone-7/</link>
+      <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/iphone-7/</guid>
+      <description>I imagine one of the most difficult parts of writing an iPhone review is that you have to carefully tease apart the capabilities of new hardware from nuances of new software. Inevitably, one always influences the other. For the past ten years, Apple has been iterating on the narrative that hardware and software should provide a seamless experience. The iPhone 7 is the most tightly edited, polished version of this idea yet.</description>
+    </item>
+    
+    <item>
+      <title>Having Only Missed My Target Publish Date by a Year, Here Are Some Brief Thoughts and Observations on Apple Watch</title>
+      <link>https://dreger.me/notes/apple-watch/</link>
+      <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/apple-watch/</guid>
+      <description>Editor&amp;rsquo;s note: Just over a year ago, I purchased an Apple Watch and intended to write up some thoughts and observations. That draft then made its way into a soup of other text files, and I eventually forgot about it. However, this past week, I stumbled back across my old notes, and given the recent launch of Apple Watch Series Two, I thought it would be fun to publish my thoughts on the previous model.</description>
+    </item>
+    
+    <item>
+      <title>No Man’s Sky Is Not the New Destiny</title>
+      <link>https://dreger.me/notes/no-mans-sky-is-not-destiny/</link>
+      <pubDate>Wed, 31 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/no-mans-sky-is-not-destiny/</guid>
+      <description>I have a few problems with Ben Kuchera&amp;rsquo;s recent piece for Polygon titled, No Man’s Sky is the new Destiny. I don&amp;rsquo;t believe the comparison is fair or offers a realistic insight into the future of NMS.
+Mr. Kuchera starts with:
+ We gave it [No Man&amp;rsquo;s Sky] a six. Here is our original review of Destiny. We gave it a six as well. The version of Destiny that exists now, around two years after its original release, is barely recognizable to vanilla Destiny players.</description>
+    </item>
+    
+    <item>
+      <title>No Man’s Sky Review</title>
+      <link>https://dreger.me/notes/no-mans-sky/</link>
+      <pubDate>Sat, 13 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/no-mans-sky/</guid>
+      <description>In 1969, the world followed Apollo 11 as it ascended into our atmosphere and transcended our perceived notions of American achievement.
+Despite the eventual success of that mission, President Nixon was not aloof to the potential for tragedy. In a speech titled, “In the Event of a Moon Disaster,” Nixon&amp;rsquo;s speechwriter Bill Safire penned the following lines:
+ In ancient days, men looked at stars and saw their heroes in the constellations.</description>
+    </item>
+    
+    <item>
+      <title>On Removing the Headphone Jack</title>
+      <link>https://dreger.me/notes/headphone-jack/</link>
+      <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/headphone-jack/</guid>
+      <description>The Wall Street Journal reported two things: 1.) Apple will be moving to a two-year cycle for major iPhone hardware updates, and 2.) the next iPhone won&amp;rsquo;t have a headphone jack.
+And then a majority of the tech press lost its mind. Not so much about the two-year thing, more about the ditching of a 50 year-old standard. It reminds me of when Steve Jobs put the nail in the coffin of Flash on iOS.</description>
+    </item>
+    
+    <item>
+      <title>A Small Exchange With Solebon LLC</title>
+      <link>https://dreger.me/notes/solebon-interview/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/solebon-interview/</guid>
+      <description>A couple of months ago, I noticed that iOS word game Letterpress appeared to have changed owners from Loren Brichter&amp;rsquo;s Atebits to Solebon LLC. After some time had passed, I reached out to Solebon to get a little more information about the acquisition. We had a short exchange of emails, and that conversation is below.
+ K.Q. Dreger: What can you tell me about the acquisition of Letterpress?
+Solebon LLC: Solebon acquired Letterpress from Atebits in December 2015.</description>
+    </item>
+    
+    <item>
+      <title>Interview: Loren Brichter</title>
+      <link>https://dreger.me/notes/brichter-letterpress-interview/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/brichter-letterpress-interview/</guid>
+      <description>After noticing that Letterpress had been sold to Solebon LLC, I reached out to Atebit&amp;rsquo;s founder and sole proprietor, Loren Brichter. After we waited a few weeks to let things settle down, Mr. Brichter agreed to do a small interview over email. What follows is our conversation about selling Letterpress, iOS, and developing on the web.
+ K.Q. Dreger: Hello, Loren. Thanks for agreeing to do this interview. I&amp;rsquo;ll cut right to the chase: Why decide to sell Letterpress?</description>
+    </item>
+    
+    <item>
+      <title>Not Yet</title>
+      <link>https://dreger.me/notes/not-yet/</link>
+      <pubDate>Sun, 26 Jun 2016 15:16:10 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/not-yet/</guid>
+      <description>Ben Brooks and Michael Rockwell both brought up the topic of going iOS only, and the maintenance that goes into tuning and running MacOS (née OS X). Brooks:
+ I lost 30 minutes to just managing my Mac that morning.
+  Yet my iPad was just there, did it’s job and stayed the hell out of my way, and never once demanded I do housekeeping on it. The apps update in the background.</description>
+    </item>
+    
+    <item>
+      <title>Firewatch Review</title>
+      <link>https://dreger.me/notes/firewatch/</link>
+      <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/firewatch/</guid>
+      <description>Via Campo Santo.   
+Firewatch is a short game. It only takes a couple of hours to play through, and there isn&amp;rsquo;t a lot of replayability. Over the course of three days, an hour or two a night, my wife and I played Firewatch to completion.
+We purchased and played Firewatch on our PS4. At times, I noticed small performance dips, particularly in areas with an overabundance of trees (sigh, foliage), but those moments were few and far between, and I&amp;rsquo;ve read that a future patch will address performance issues.</description>
+    </item>
+    
+    <item>
+      <title>Obama Pledges $4 Billion in Funding for Computer Science Education in Schools</title>
+      <link>https://dreger.me/notes/computer-science-in-education/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/computer-science-in-education/</guid>
+      <description>Davey Alba, reporting for Wired:
+ Under the president’s plan, the Department of Education will divide the $4 billion over three years to states that propose well-designed five-year plans to increase computer science access in classrooms. Along with billions in federal funding, the initiative also includes commitments from philanthropists and some of the country’s largest tech companies to help increase opportunities for computer science training, especially for underrepresented groups.
+ The medium is the message, and almost all of today&amp;rsquo;s messages are delivered through the medium of computational devices.</description>
+    </item>
+    
+    <item>
+      <title>Fitbit HR Review Transcript</title>
+      <link>https://dreger.me/notes/fitbit-hr-review/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/fitbit-hr-review/</guid>
+      <description>The Fitbit HR is a good fitness tracker. It&amp;rsquo;s comfortable, has acceptable battery life, and the software is easy to use. Although the Fitbit HR device only shows your information, the accompanying app can show aggregated data from your friends, which provides passive, and surprisingly compelling, encouragement to log a few extra hundred steps.
+Dr. Christopher B. Durr and I wanted to record a review of our Fitbit HRs, but we couldn&amp;rsquo;t find time to do so.</description>
+    </item>
+    
+    <item>
+      <title>TextEdit</title>
+      <link>https://dreger.me/notes/textedit/</link>
+      <pubDate>Mon, 14 Dec 2015 12:44:48 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/textedit/</guid>
+      <description>Can we take a moment to thank the folks at Apple for TextEdit? I’m serious. There is no shortage of text editors for OS X, yet I find myself continually coming back to TextEdit. It’s fast, simple, open source 1, and every Mac has a copy preinstalled. Pick out a nice monospaced font, and I think you have a challenger for even the most minimalistic of writing interfaces.
+Apple’s OS X apps tend get a lot of criticism, but after 10 years and tens of thousands of words, I have yet to have a major issue with TextEdit.</description>
+    </item>
+    
+    <item>
+      <title>Kerbal Space Program: To the Moon</title>
+      <link>https://dreger.me/notes/kerbal-space-program/</link>
+      <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/kerbal-space-program/</guid>
+      <description>&lt;p&gt;&lt;em&gt;By guest editor, Christopher B. Durr.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard —John F. Kennedy&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This famous quote by Jack is one of my favorites and one that I think we often forget to remember. President Kennedy, of course, was talking about what would become the U.S. space program. A program that involved strapping human beings to giant stacks of fuel and launching them 230,000+ miles away from home, in a time when computers were the size of rooms. Hard – I might have picked a different word.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Don’t Read More, Read Different</title>
+      <link>https://dreger.me/notes/start/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/start/</guid>
+      <description>&lt;p&gt;&lt;em&gt;By guest editor, Christopher B. Durr.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do you want to be a better scientist? Study architecture, cooking, economics, mechanics. Go outside your field and ask questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That&amp;rsquo;s some of the best advice I have ever been given. Too often we view the same sites on the Internet over and over again &lt;em&gt;ad nauseam&lt;/em&gt;. Facebook, news, e-mail, rinse and repeat. The news is great for information but short on inspiration. Here are some of my favorite sites to get you thinking (about something else).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>On Budgeting</title>
+      <link>https://dreger.me/notes/budgeting/</link>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/budgeting/</guid>
+      <description>At its core, budgeting is setting aside money from each paycheck to go towards a specific goal or category of expenses. That&amp;rsquo;s it. You get paid, you give those dollars a job, and then you only spend whatever you have saved for a particular category. To give you an idea of what this looks like, here are some of the categories that my wife and I have set up for our budget:</description>
+    </item>
+    
+    <item>
+      <title>Something Audacious</title>
+      <link>https://dreger.me/notes/something-audacious/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/something-audacious/</guid>
+      <description>For a while now, I have wanted to stop writing at kyledreger.com.
+I love writing, and I think it helps me work through my own thoughts. However, I have always wanted to write in a place that didn&amp;rsquo;t scream &amp;ldquo;me.&amp;rdquo; I wanted a place where I could grow the brand beyond myself.
+Some thoughts:
+ This is the web column I want to read. It will feature articles and musings at the intersection of art and technology.</description>
+    </item>
+    
+    <item>
+      <title>Front Page Design, Part Two</title>
+      <link>https://dreger.me/notes/front-page-design-part-two/</link>
+      <pubDate>Tue, 14 Jan 2014 16:59:43 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/front-page-design-part-two/</guid>
+      <description>Editor&amp;rsquo;s note (2018): Since the original publishing, I&amp;rsquo;ve changed my mind a few times on what makes a good front page. Ultimately, I&amp;rsquo;ve settled on the staggeringly simple opinion of &amp;ldquo;it depends&amp;rdquo; and &amp;ldquo;know your audience&amp;rdquo;. Shocking.
+Following my post on The Front Page, I had a good email conversation with my buddy, Nick Heer. Our conversation brought up some more ideas regarding page design, and I wanted to expand on them here.</description>
+    </item>
+    
+    <item>
+      <title>Front Page Design</title>
+      <link>https://dreger.me/notes/front-page-design/</link>
+      <pubDate>Mon, 06 Jan 2014 11:52:55 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/front-page-design/</guid>
+      <description>Editor&amp;rsquo;s note (2018): Since the original publishing, I&amp;rsquo;ve changed my mind a few times on what makes a good front page. Ultimately, I&amp;rsquo;ve settled on the staggeringly simple opinion of &amp;ldquo;it depends&amp;rdquo; and &amp;ldquo;know your audience&amp;rdquo;. Shocking.
+I&amp;rsquo;ve been toying with how best to structure the front page of sites that have a focus on writing. The front page is the first impression — a digital handshake — and ensuring it conveys your content in a way you want is extremely important.</description>
     </item>
     
   </channel>

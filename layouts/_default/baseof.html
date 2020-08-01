@@ -24,6 +24,9 @@
   {{ end }}
   <!-- <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" /> -->
 
+  <link rel="canonical" href="{{ strings.TrimSuffix "/" .Permalink }}" />
+
+
   <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
 
   {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
@@ -34,7 +37,10 @@
 </head>
 <body>
   <main>
-    
+    <a href="/" class="post__author">
+      <span class="post__author__image"></span>
+      <!-- <span class="post__author__byline">KQD</span>  -->
+    </a>
     <!-- <header class="header">
       
       <a class="header__logo" href="/">K.Q. Dreger</a>

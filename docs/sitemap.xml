@@ -4,44 +4,1313 @@
   
   <url>
     <loc>https://dreger.me/</loc>
-    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-15T20:18:33-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dreger.me/notes/indifference.html</loc>
+    <loc>https://dreger.me/links/</loc>
+    <lastmod>2020-04-15T20:18:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/full-rss-feeds/</loc>
+    <lastmod>2020-04-15T20:18:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/google-rebrands-hangouts/</loc>
+    <lastmod>2020-04-09T20:19:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/mary-dash-plain-language/</loc>
+    <lastmod>2020-03-18T11:12:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/fowler-year-in-review/</loc>
+    <lastmod>2019-12-16T20:00:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/indifference/</loc>
     <lastmod>2019-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dreger.me/notes.html</loc>
+    <loc>https://dreger.me/notes/</loc>
     <lastmod>2019-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dreger.me/notes/pain-snowball-method.html</loc>
+    <loc>https://dreger.me/notes/forgive-the-tests/</loc>
+    <lastmod>2019-12-14T20:44:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/dont-hide-the-date/</loc>
+    <lastmod>2019-12-14T08:30:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/pain-snowball-method/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dreger.me/notes/product-team-needs.html</loc>
+    <loc>https://dreger.me/notes/product-team-needs/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dreger.me/categories.html</loc>
+    <loc>https://dreger.me/links/netnewswire-5/</loc>
+    <lastmod>2019-09-02T12:58:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dreger.me/pages.html</loc>
+    <loc>https://dreger.me/links/email-like-a-ceo/</loc>
+    <lastmod>2019-08-31T21:14:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dreger.me/tags.html</loc>
+    <loc>https://dreger.me/links/genius-google-lyrics/</loc>
+    <lastmod>2019-06-17T21:33:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dreger.me/about.html</loc>
+    <loc>https://dreger.me/links/ceglowski-securing-congressional-campaigns/</loc>
+    <lastmod>2019-06-05T22:43:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/updated-app-store-guidelines-to-protect-kids/</loc>
+    <lastmod>2019-06-04T21:25:43-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/panic-announces-playdate/</loc>
+    <lastmod>2019-05-23T21:06:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/triggering-alexa-on-accident/</loc>
+    <lastmod>2019-05-20T21:00:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/jumbo-privacy-assistant/</loc>
+    <lastmod>2019-05-19T13:54:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/butterick-typography-2020/</loc>
+    <lastmod>2019-04-19T15:00:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/notre-dame-assassins-creed/</loc>
+    <lastmod>2019-04-19T12:59:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/butterick-on-mediums-history/</loc>
+    <lastmod>2019-04-13T12:09:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/the-frustrating-history-of-medium/</loc>
+    <lastmod>2019-04-13T12:02:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nyt-letter-boxed/</loc>
+    <lastmod>2019-02-09T15:20:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/espn-jones-everton/</loc>
+    <lastmod>2019-02-09T14:31:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/chrome-ad-blockers/</loc>
+    <lastmod>2019-01-26T09:11:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/twitter-lite-rolls-out-to-everyone/</loc>
+    <lastmod>2019-01-23T19:50:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/netflix-vs-fortnite/</loc>
+    <lastmod>2019-01-22T22:51:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/svn-exits-medium/</loc>
+    <lastmod>2019-01-17T21:34:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/doist-leaves-medium-for-wordpress/</loc>
+    <lastmod>2019-01-13T11:51:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/yubico-lightning/</loc>
+    <lastmod>2019-01-12T09:46:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/github-unlimited-private-repos/</loc>
+    <lastmod>2019-01-10T19:29:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/tiktok-lite/</loc>
+    <lastmod>2019-01-05T13:03:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/nobody-reads/</loc>
+    <lastmod>2018-12-27T12:35:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/edge-coming-to-macos/</loc>
+    <lastmod>2018-12-06T22:20:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/christant-state-of-web-browsers/</loc>
+    <lastmod>2018-12-06T21:57:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/phishing-sites-use-https/</loc>
+    <lastmod>2018-12-04T21:34:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/marvin-visions-variable-font/</loc>
+    <lastmod>2018-12-04T20:51:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/medium-raising-more-money/</loc>
+    <lastmod>2018-11-28T19:15:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ohio-bitcoin/</loc>
+    <lastmod>2018-11-27T19:48:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/hawkeye-access/</loc>
+    <lastmod>2018-10-30T22:02:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/wikitribune-lays-offs/</loc>
+    <lastmod>2018-10-30T21:12:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/kindle-custom-fonts/</loc>
+    <lastmod>2018-10-17T20:08:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/project-stream/</loc>
+    <lastmod>2018-10-09T13:30:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/customers-vs-users/</loc>
+    <lastmod>2018-10-07T10:20:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/miller-columns/</loc>
+    <lastmod>2018-10-03T22:01:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/wifi-version-numbers/</loc>
+    <lastmod>2018-10-03T21:51:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/physical-or-kindle/</loc>
+    <lastmod>2018-10-01T21:56:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/how-to-write-a-sentence/</loc>
+    <lastmod>2018-09-25T21:33:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/path-discontinued/</loc>
+    <lastmod>2018-09-22T07:14:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/telltale-closure/</loc>
+    <lastmod>2018-09-21T19:14:08-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/disable-smart-zoom-to-remove-menu-lag/</loc>
+    <lastmod>2018-09-13T21:16:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/google-inbox-shutting-down/</loc>
+    <lastmod>2018-09-13T20:50:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/signal-v-noise-leaving-medium/</loc>
+    <lastmod>2018-09-06T22:12:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/polygon-ditches-review-scores/</loc>
+    <lastmod>2018-09-04T19:47:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/behavioral-biometrics/</loc>
+    <lastmod>2018-08-24T20:42:23-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/liverpool-rebuilt/</loc>
+    <lastmod>2018-08-22T20:04:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/slack-leaves-medium/</loc>
+    <lastmod>2018-08-21T18:23:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/1password-digital-will/</loc>
+    <lastmod>2018-08-16T12:03:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/the-sweet-setup-best-markdown-editor/</loc>
+    <lastmod>2018-08-08T20:48:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/xbox-adaptive-controller-packaging/</loc>
+    <lastmod>2018-07-26T20:11:23-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/who-owns-an-idea/</loc>
+    <lastmod>2018-07-25T22:52:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/fortnite-success/</loc>
+    <lastmod>2018-07-24T20:20:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/cjr-tech-media-watchdog/</loc>
+    <lastmod>2018-07-24T19:28:24-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/rigetti-to-nyt/</loc>
+    <lastmod>2018-07-23T20:58:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ginter-homepod/</loc>
+    <lastmod>2018-07-22T12:01:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nyt-nike-vaporflys/</loc>
+    <lastmod>2018-07-21T12:02:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/messi-walks/</loc>
+    <lastmod>2018-07-06T12:21:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/contentedness/</loc>
+    <lastmod>2018-07-04T03:11:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/quinn/</loc>
+    <lastmod>2018-07-04T03:11:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/</loc>
+    <lastmod>2018-07-04T03:11:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/instagram-lite/</loc>
+    <lastmod>2018-06-28T20:46:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/ios/</loc>
+    <lastmod>2018-06-22T12:38:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/ios-games/</loc>
+    <lastmod>2018-06-22T12:38:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/zach-gage/</loc>
+    <lastmod>2018-06-22T12:38:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/godin-on-zach-gage-games/</loc>
+    <lastmod>2018-06-22T12:38:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ios-12-device-compatibility/</loc>
+    <lastmod>2018-06-20T12:57:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/longevity/</loc>
+    <lastmod>2018-06-20T12:57:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/performance/</loc>
+    <lastmod>2018-06-20T12:57:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/heer-edit-description/</loc>
+    <lastmod>2018-06-19T20:33:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/rockwell-edit-review/</loc>
+    <lastmod>2018-06-19T20:11:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/tags/edit/</loc>
+    <lastmod>2018-06-05T19:04:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/edit-for-ios/</loc>
+    <lastmod>2018-06-05T19:04:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/google-recaptcha/</loc>
+    <lastmod>2018-06-01T21:41:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/hidden-game-mechanics/</loc>
+    <lastmod>2018-05-24T21:15:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/xbox-adaptive-controller/</loc>
+    <lastmod>2018-05-17T19:17:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/medium-kills-off-custom-domains/</loc>
+    <lastmod>2018-05-15T21:12:06-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/roeder-vs-magnus-carlsen/</loc>
+    <lastmod>2018-05-15T18:15:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/regional-esports/</loc>
+    <lastmod>2018-05-03T20:37:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/billion-dollar-red/</loc>
+    <lastmod>2018-04-29T14:45:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/the-best-text-editor-for-macos/</loc>
+    <lastmod>2018-04-12T14:59:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/cloudflare-dns/</loc>
+    <lastmod>2018-04-02T23:14:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/macos-egpu/</loc>
+    <lastmod>2018-03-31T12:08:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/eff-facebook-opt-out/</loc>
+    <lastmod>2018-03-28T19:50:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/idea-instructions/</loc>
+    <lastmod>2018-03-28T19:32:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/facebook-full-page-apology/</loc>
+    <lastmod>2018-03-28T19:16:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/a-better-path/</loc>
+    <lastmod>2018-03-22T21:51:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ford-digital-protection-agency/</loc>
+    <lastmod>2018-03-21T23:30:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/toxic-telltale/</loc>
+    <lastmod>2018-03-20T22:46:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/https/</loc>
+    <lastmod>2018-03-11T19:50:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/strava-heatmap-opt-out/</loc>
+    <lastmod>2018-03-05T22:07:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/altos-odyssey-now-available/</loc>
+    <lastmod>2018-02-21T23:30:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/signal-foundation-brian-acton/</loc>
+    <lastmod>2018-02-21T22:50:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/lite/</loc>
+    <lastmod>2018-02-20T12:10:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/chrome-ad-filtering-goes-live/</loc>
+    <lastmod>2018-02-17T10:16:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/amp-in-email/</loc>
+    <lastmod>2018-02-17T09:48:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/computer-science-ethics/</loc>
+    <lastmod>2018-02-13T20:55:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/designing-apples-emoji/</loc>
+    <lastmod>2018-02-12T20:20:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/walden-and-primitive-technology/</loc>
+    <lastmod>2018-02-12T12:23:15-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/the-privacy-we-give-away/</loc>
+    <lastmod>2018-01-30T12:34:59-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ddg-privacy-essentials/</loc>
+    <lastmod>2018-01-26T23:41:10-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/baremetrics-leaves-medium-for-blog/</loc>
+    <lastmod>2018-01-26T23:01:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/minecraft-chemistry-update/</loc>
+    <lastmod>2018-01-22T23:45:30-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/hawaii-missile-alert-ui/</loc>
+    <lastmod>2018-01-16T20:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/who-serves-whom/</loc>
+    <lastmod>2018-01-15T21:22:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/em-dash/</loc>
+    <lastmod>2018-01-08T20:46:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/start-with-words/</loc>
+    <lastmod>2018-01-04T18:41:59-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/alphazero-checkmates-stockfish/</loc>
+    <lastmod>2017-12-17T17:18:19-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/firefox-photon-voice-and-tone/</loc>
+    <lastmod>2017-12-06T21:51:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/every-frame-a-painting-ends/</loc>
+    <lastmod>2017-12-03T17:40:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/translation-ea-battlefront-microtransactions/</loc>
+    <lastmod>2017-11-16T22:31:59-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/akron-polymer-film/</loc>
+    <lastmod>2017-11-15T22:47:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/firefox-quantum/</loc>
+    <lastmod>2017-11-14T21:51:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/apples-best-product-is-privacy/</loc>
+    <lastmod>2017-11-14T21:41:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/airplane-mode-animoji/</loc>
+    <lastmod>2017-11-03T20:50:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/a-tale-of-trons/</loc>
+    <lastmod>2017-10-30T22:39:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nyt-onion-service/</loc>
+    <lastmod>2017-10-30T21:36:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/microsoft-stops-making-kinects/</loc>
+    <lastmod>2017-10-25T18:48:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/fbi-director-wray-and-encrypted-devices/</loc>
+    <lastmod>2017-10-24T22:18:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/padnick-jekyll-and-hyde/</loc>
+    <lastmod>2017-10-24T21:04:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/airpods-macos-call-quality-fix/</loc>
+    <lastmod>2017-10-23T21:38:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/darbian-super-mario-bros-speedrun-wr/</loc>
+    <lastmod>2017-10-23T20:43:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/activision-matchmaking-and-microtransactions-patent/</loc>
+    <lastmod>2017-10-18T23:01:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/fifa-18-vs-pes-2018/</loc>
+    <lastmod>2017-10-18T21:25:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/google-advanced-protection/</loc>
+    <lastmod>2017-10-17T22:17:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/usmnt-out-of-2018-world-cup/</loc>
+    <lastmod>2017-10-11T22:21:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/triay-on-marvin-visions/</loc>
+    <lastmod>2017-10-11T21:46:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nasa-cozmic-qwest/</loc>
+    <lastmod>2017-10-11T21:23:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/krause-ios-password-phishing/</loc>
+    <lastmod>2017-10-11T20:44:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/springboard-gridlock/</loc>
+    <lastmod>2017-10-07T12:08:23-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/yoshi-has-a-concussion/</loc>
+    <lastmod>2017-10-07T11:44:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/twitter-280/</loc>
+    <lastmod>2017-09-26T22:19:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/visions-magazine/</loc>
+    <lastmod>2017-09-22T22:36:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/heer-ios-11-review/</loc>
+    <lastmod>2017-09-21T21:41:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/jkr-talent-and-ink/</loc>
+    <lastmod>2017-09-21T21:34:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/eff-safari-privacy/</loc>
+    <lastmod>2017-09-21T21:30:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/wikitribune-peter-bale/</loc>
+    <lastmod>2017-08-09T21:16:06-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/deets-nintendo-switch-ui/</loc>
+    <lastmod>2017-06-27T12:03:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/advertisement-farm/</loc>
+    <lastmod>2017-06-11T07:40:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/swiss-alp-watch-zzzz/</loc>
+    <lastmod>2017-06-09T23:29:08-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ios-11-location-privacy/</loc>
+    <lastmod>2017-06-08T23:31:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/heer-boutique-smartphones/</loc>
+    <lastmod>2017-06-04T23:30:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/mandzukic-champions-league-final-goal/</loc>
+    <lastmod>2017-06-04T21:58:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/airpods/</loc>
+    <lastmod>2017-06-03T15:40:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/wsj-media-media/</loc>
+    <lastmod>2017-05-28T20:39:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/atlassian-design-guidelines/</loc>
+    <lastmod>2017-05-16T22:02:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/senate-approves-signal/</loc>
+    <lastmod>2017-05-16T21:22:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/apple-dubai-mall/</loc>
+    <lastmod>2017-04-27T23:44:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/amazon-echo-look/</loc>
+    <lastmod>2017-04-26T23:21:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/what-happened-to-who/</loc>
+    <lastmod>2017-04-25T21:13:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/unrollme-unravelled/</loc>
+    <lastmod>2017-04-24T22:40:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nintendo-sold-a-switchton-of-zelda/</loc>
+    <lastmod>2017-04-23T14:06:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/facebook-journalism-certification/</loc>
+    <lastmod>2017-04-20T21:06:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/before-you-ship/</loc>
+    <lastmod>2017-04-18T19:38:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/princeton-stanford-ad-blocking/</loc>
+    <lastmod>2017-04-18T17:45:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ap-esports/</loc>
+    <lastmod>2017-03-30T21:16:06-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/sketch-json/</loc>
+    <lastmod>2017-03-14T21:34:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/typeshift-trailer/</loc>
+    <lastmod>2017-03-09T21:54:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/wikileaks-cia-encryption/</loc>
+    <lastmod>2017-03-08T23:13:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/breath-of-the-wild-reviews/</loc>
+    <lastmod>2017-03-07T22:30:19-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/tweaked-trending-topics/</loc>
+    <lastmod>2017-01-26T20:40:09-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/facebook-journalism-project/</loc>
+    <lastmod>2017-01-19T23:13:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/google-interstitial-ads/</loc>
+    <lastmod>2017-01-19T21:10:09-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/rhyne-on-trucks/</loc>
+    <lastmod>2017-01-09T21:55:15-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/courier-prime-code/</loc>
+    <lastmod>2017-01-09T21:44:09-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/white-house-year-in-photos/</loc>
+    <lastmod>2017-01-07T13:20:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/reading-the-game/</loc>
+    <lastmod>2016-12-13T19:45:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/toasted/</loc>
+    <lastmod>2016-12-13T18:55:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/tiny-wings-apple-tv/</loc>
+    <lastmod>2016-12-13T18:28:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/no-mans-sky-foundation/</loc>
+    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/silicon-valley-empathy/</loc>
+    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/pre-review/</loc>
+    <lastmod>2016-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/keep-angry/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/iphone-7/</loc>
+    <lastmod>2016-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/more-than-a-game/</loc>
+    <lastmod>2016-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nintendo-switch/</loc>
+    <lastmod>2016-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/pandoras-new-logo/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/usable-security/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ginter-iphone-7-plus/</loc>
+    <lastmod>2016-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nyt-playstation-vr/</loc>
+    <lastmod>2016-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/the-verge-playstation-vr/</loc>
+    <lastmod>2016-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/twitch-prime/</loc>
+    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/altos-haptic-feedback/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/dropping-battlenet/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/designer-news-resumes/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/firewatch-film/</loc>
+    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/apple-watch/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/variable-fonts/</loc>
+    <lastmod>2016-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/hudson-variable-fonts/</loc>
+    <lastmod>2016-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/microsoft-variable-fonts/</loc>
+    <lastmod>2016-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/kennedy-preorders/</loc>
+    <lastmod>2016-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/this-page-is-not-secure/</loc>
+    <lastmod>2016-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/dont-blink/</loc>
+    <lastmod>2016-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/playstation-meeting/</loc>
+    <lastmod>2016-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/economist-quotes/</loc>
+    <lastmod>2016-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/headliner/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/no-mans-sky-is-not-destiny/</loc>
+    <lastmod>2016-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ps-plus/</loc>
+    <lastmod>2016-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/npr-comments/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/nytnow-no-more/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/vesper/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/no-mans-sky/</loc>
+    <lastmod>2016-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/us-broadband-gets-better/</loc>
+    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/pes-vs-fifa/</loc>
+    <lastmod>2016-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/xbox-one-s-controller/</loc>
+    <lastmod>2016-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/thomas-web-design/</loc>
+    <lastmod>2016-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/history-of-the-url/</loc>
+    <lastmod>2016-07-18T22:19:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/rocket-league-vinyl/</loc>
+    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/no-mans-sky-is-finished/</loc>
+    <lastmod>2016-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/tech-war/</loc>
+    <lastmod>2016-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/elie-wiesel/</loc>
+    <lastmod>2016-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/headphone-jack/</loc>
+    <lastmod>2016-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/ddg/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/paper-doll/</loc>
+    <lastmod>2016-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/solebon-interview/</loc>
+    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/brichter-letterpress-interview/</loc>
+    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/not-yet/</loc>
+    <lastmod>2016-06-26T15:16:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/pixar-piper/</loc>
+    <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/zelda-open-world/</loc>
+    <lastmod>2016-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/thin-npr/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/superfeedr-medium-rss/</loc>
+    <lastmod>2016-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/billionaires-typewriter/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/firewatch/</loc>
+    <lastmod>2016-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/firewatch/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/firewatch-photos/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/letterpress-solebon/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/firewatch-reviews/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/polygon-firewatch/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/guardian-firewatch-review/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/martiancraft-san-francisco/</loc>
+    <lastmod>2016-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/computer-science-in-education/</loc>
+    <lastmod>2016-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/kindle-update/</loc>
+    <lastmod>2016-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/facebook/</loc>
+    <lastmod>2016-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/alphago-masters-go/</loc>
+    <lastmod>2016-01-26T16:41:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/10-years-of-web-inspector/</loc>
+    <lastmod>2016-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/alan-rickman-dies/</loc>
+    <lastmod>2016-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/jelly/</loc>
+    <lastmod>2016-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/fitbit-hr-review/</loc>
+    <lastmod>2016-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/filmaking-roundtable/</loc>
+    <lastmod>2016-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/textedit/</loc>
+    <lastmod>2015-12-14T12:44:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/kerbal-space-program/</loc>
+    <lastmod>2015-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/start/</loc>
+    <lastmod>2015-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/budgeting/</loc>
+    <lastmod>2014-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/something-audacious/</loc>
+    <lastmod>2014-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/links/facebook-acquires-whatsapp/</loc>
+    <lastmod>2014-03-18T20:26:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/front-page-design-part-two/</loc>
+    <lastmod>2014-01-14T16:59:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/notes/front-page-design/</loc>
+    <lastmod>2014-01-06T11:52:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/masthead/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/pages/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/privacy/</loc>
   </url>
   
 </urlset>

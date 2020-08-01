@@ -6,47 +6,2570 @@
     <description>Recent content on K.Q. Dreger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 20:18:33 -0400</lastBuildDate>
     
 	<atom:link href="https://dreger.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>On Having Full RSS Feeds</title>
+      <link>https://dreger.me/links/full-rss-feeds/</link>
+      <pubDate>Wed, 15 Apr 2020 20:18:33 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/full-rss-feeds/</guid>
+      <description>Kev Quirk thinks having a non-truncated RSS feed is a good idea. I agree. So does Zac Szewczyk
+ Whenever I find a new writer, I go through everything they have ever written — turns out, good writers write good things often; this helps me find great works from their past. RSS feeds with, say, the site’s ten most recent posts make this much harder than ones with every article in them, so when I restarted this site, I took the latter route.</description>
+    </item>
+    
+    <item>
+      <title>Google Spins the Wheel on What to Call Hangouts, Again</title>
+      <link>https://dreger.me/links/google-rebrands-hangouts/</link>
+      <pubDate>Thu, 09 Apr 2020 20:19:13 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/google-rebrands-hangouts/</guid>
+      <description>Nick Stat, The Verge:
+ Google has officially removed the Hangouts brand from its enterprise G Suite offering with the rebranding of Hangouts Chat as Google Chat, the company confirmed to The Verge on Thursday. The rebranding follows a similar name change, confirmed yesterday, from the companion videoconferencing app Hangouts Meet to Google Meet.
+  This latest modification was first hinted at by an updated G Suite support document listing the Google Chat name alongside Google Meet.</description>
+    </item>
+    
+    <item>
+      <title>Mary Dash&#39;s Guide to Plain Language</title>
+      <link>https://dreger.me/links/mary-dash-plain-language/</link>
+      <pubDate>Wed, 18 Mar 2020 11:12:48 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/mary-dash-plain-language/</guid>
+      <description>Mary Dash, Chief of the Congressional Correspondence and Quality Review Branch of the Internal Revenue Service, with some excellent tips:
+ Avoid passive voice Don&amp;rsquo;t use jargon Write and speak aloud  Lots more in there.</description>
+    </item>
+    
+    <item>
+      <title>Susan Fowler’s Year in Review</title>
+      <link>https://dreger.me/links/fowler-year-in-review/</link>
+      <pubDate>Mon, 16 Dec 2019 20:00:47 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/fowler-year-in-review/</guid>
+      <description>A wonderful writeup from one of my favorite editors. I particularly enjoyed this bit on the craft:
+ This year was transformative for me as far as my writing skills are concerned. I got to the point where I can now sit down and knock out 3000-5000 good words in one sitting, even when completely exhausted at the end of a long workday. My day job as an editor made all the difference here: since I’m so used to thinking of writing and editing as work, I no longer get writer’s block and writing has lost most of its mythical quality (which is a good thing, as far as I’m concerned).</description>
+    </item>
+    
+    <item>
       <title>Indifference</title>
-      <link>https://dreger.me/notes/indifference.html</link>
+      <link>https://dreger.me/notes/indifference/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/indifference.html</guid>
+      <guid>https://dreger.me/notes/indifference/</guid>
       <description>Good ideas register some form of emotion.</description>
     </item>
     
     <item>
+      <title>Weekend Tweaks</title>
+      <link>https://dreger.me/notes/forgive-the-tests/</link>
+      <pubDate>Sat, 14 Dec 2019 20:44:22 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/forgive-the-tests/</guid>
+      <description>I&amp;rsquo;m making a handful of changes to the site today, so please forgive any RSS oddities. Thanks.</description>
+    </item>
+    
+    <item>
+      <title>Don’t Hide the Date</title>
+      <link>https://dreger.me/notes/dont-hide-the-date/</link>
+      <pubDate>Sat, 14 Dec 2019 08:30:46 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/dont-hide-the-date/</guid>
+      <description>I&amp;rsquo;ve noticed an interesting (growing?) trend over the past few years. Some bloggers (or their designers) choose to hide when a post was written. I usually see this via dates excluded from the URL and/or the page itself. Why they&amp;rsquo;re doing this, I&amp;rsquo;m not sure.
+For URLs, I think dates are useful. Take this URL for example:
+/2019/dont-hide-the-date
+Just looking at it, you have a sense of when it was written and what it might be about.</description>
+    </item>
+    
+    <item>
       <title>Treat pain points as debt</title>
-      <link>https://dreger.me/notes/pain-snowball-method.html</link>
+      <link>https://dreger.me/notes/pain-snowball-method/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/pain-snowball-method.html</guid>
+      <guid>https://dreger.me/notes/pain-snowball-method/</guid>
       <description>Pay them off.</description>
     </item>
     
     <item>
       <title>Hierarchy of product team needs</title>
-      <link>https://dreger.me/notes/product-team-needs.html</link>
+      <link>https://dreger.me/notes/product-team-needs/</link>
       <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/notes/product-team-needs.html</guid>
+      <guid>https://dreger.me/notes/product-team-needs/</guid>
       <description>Like Maslow&amp;rsquo;s pyramid, but for product teams.</description>
     </item>
     
     <item>
-      <title>There are many websites, but this one is mine.</title>
-      <link>https://dreger.me/about.html</link>
+      <title>NetNewsWire 5.0 Released</title>
+      <link>https://dreger.me/links/netnewswire-5/</link>
+      <pubDate>Mon, 02 Sep 2019 12:58:18 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/netnewswire-5/</guid>
+      <description>If I could only teach my non-technical friends two things about technology, I would encourage them to (a) learn the keyboard shortcuts for their most-used apps and (b) use RSS to read the news.
+Speaking of RSS, Brent Simmons has finally finished rewriting NetNewsWire—the storied RSS reader for the Mac. You can pick it up for free, and even if you&amp;rsquo;re not sure what RSS is, check out the link because, again, it&amp;rsquo;s one of only two things I wish more people knew about.</description>
+    </item>
+    
+    <item>
+      <title>Replying to Emails Like a CEO Takes the Pain out of Writing Email</title>
+      <link>https://dreger.me/links/email-like-a-ceo/</link>
+      <pubDate>Sat, 31 Aug 2019 21:14:06 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/email-like-a-ceo/</guid>
+      <description>Katie Notopoulos, Buzzfeed:
+ Let’s call this “boss email.” It’s defined by nearly immediate — but short and terse — replies. The classic two-word email.
+ I used to have a &amp;ldquo;Sent from my iPhone&amp;rdquo; signature, regardless of whether I was on my phone or laptop. Helped to keep things terse.</description>
+    </item>
+    
+    <item>
+      <title>Genius Claims to Have Proof That Google Is Lifting Lyrics for Its Search Results</title>
+      <link>https://dreger.me/links/genius-google-lyrics/</link>
+      <pubDate>Mon, 17 Jun 2019 21:33:15 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/genius-google-lyrics/</guid>
+      <description>Robert McMillan, The Wall Street Journal:
+ “Over the last two years, we’ve shown Google irrefutable evidence again and again that they are displaying lyrics copied from Genius,” said Ben Gross, Genius’s chief strategy officer, in an email message. The company said it used a watermarking system in its lyrics that embedded patterns in the formatting of apostrophes. Genius said it found more than 100 examples of songs on Google that came from its site.</description>
+    </item>
+    
+    <item>
+      <title>‘What I Learned Trying To Secure Congressional Campaigns’</title>
+      <link>https://dreger.me/links/ceglowski-securing-congressional-campaigns/</link>
+      <pubDate>Wed, 05 Jun 2019 22:43:27 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/ceglowski-securing-congressional-campaigns/</guid>
+      <description>Maciej Cegłowski:
+ Practical campaign security is a wood chipper for your hopes and dreams. It sits at the intersection of 19 kinds of status quo, each more odious than the last. You have to accept the fact that computers are broken, software is terrible, campaign finance is evil, the political parties are inept, the DCCC exists, politics is full of parasites, tech companies are run by arrogant man-children, and so on.</description>
+    </item>
+    
+    <item>
+      <title>Updated App Store Review Guidelines Prohibit Apps in Kids Category From Including Third-Party Ads or Analytics</title>
+      <link>https://dreger.me/links/updated-app-store-guidelines-to-protect-kids/</link>
+      <pubDate>Tue, 04 Jun 2019 21:25:43 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/updated-app-store-guidelines-to-protect-kids/</guid>
+      <description>Apple Developer newsroom:
+ In order to help keep kids’ data private, apps in the kids category and apps intended for kids cannot include third-party advertising or analytics software and may not transmit data to third parties. This guideline is now enforced for new apps. Existing apps must follow this guideline by September 3, 2019.
+ Apple is not messing around on privacy—and not just in their own apps anymore.</description>
+    </item>
+    
+    <item>
+      <title>Panic Announces Playdate, Their First Video Game System Set to Launch in 2020 for $149 With 12 Games That Automatically Release on a Weekly Basis</title>
+      <link>https://dreger.me/links/panic-announces-playdate/</link>
+      <pubDate>Thu, 23 May 2019 21:06:48 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/panic-announces-playdate/</guid>
+      <description>From Panic&amp;rsquo;s press release:
+ Today, after more than four years of work by a small and talented team, Panic is extremely excited to introduce Playdate, a brand new handheld gaming system.
+  Playdate is both very familiar, and totally new. It’s yellow, and fits perfectly in a pocket. It has a black-and-white screen with high reflectivity, a crystal-clear image, and no backlight. And of course, it has Wi-Fi, Bluetooth, USB-C, and a headphone jack.</description>
+    </item>
+    
+    <item>
+      <title>You’re Triggering Alexa More Often Than You Think</title>
+      <link>https://dreger.me/links/triggering-alexa-on-accident/</link>
+      <pubDate>Mon, 20 May 2019 21:00:15 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/triggering-alexa-on-accident/</guid>
+      <description>Geoffrey A. Fowler, Washington Post:
+ I listened to four years of my Alexa archive and found thousands of fragments of my life: spaghetti-timer requests, joking houseguests and random snippets of “Downton Abbey.” There were even sensitive conversations that somehow triggered Alexa’s “wake word” to start recording, including my family discussing medication and a friend conducting a business deal. [&amp;hellip;]
+  What can you do to stop Alexa from recording?</description>
+    </item>
+    
+    <item>
+      <title>Jumbo Is Your Digital Privacy Assistant</title>
+      <link>https://dreger.me/links/jumbo-privacy-assistant/</link>
+      <pubDate>Sun, 19 May 2019 13:54:51 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/jumbo-privacy-assistant/</guid>
+      <description>Pierre Valade (previously CEO of Sunrise Calendar, which was acquired by Microsoft) has launched Jumbo, a &amp;ldquo;privacy assistant&amp;rdquo; for iOS. Curious, I thought, because most other digital assistants are hellbent on collecting as much information about me as possible. In reality, Jumbo is less of an assistant and more of a user-friendly way for you to delete old tweets, Alexa voice recordings, and Google searches. One tap and everything gets erased.</description>
+    </item>
+    
+    <item>
+      <title>‘Typography 2020: A Special Listicle for America’</title>
+      <link>https://dreger.me/links/butterick-typography-2020/</link>
+      <pubDate>Fri, 19 Apr 2019 15:00:40 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/butterick-typography-2020/</guid>
+      <description>Typographer, writer, and lawyer Matthew Butterick:
+ For those who think it trivializes our political process to judge candidates by their typography—what would you prefer we scrutinize? Qualifications? Ground into dust during the last election. Issues? Be my guest. Whether a candidate will ever fulfill a certain campaign promise about a certain issue is conjectural.
+  But typography—that’s a real decision candidates have to make today, with real money and real consequences.</description>
+    </item>
+    
+    <item>
+      <title>The 3D Models That Will Help Rebuild Notre-Dame</title>
+      <link>https://dreger.me/links/notre-dame-assassins-creed/</link>
+      <pubDate>Fri, 19 Apr 2019 12:59:14 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/notre-dame-assassins-creed/</guid>
+      <description>Between art historian Andrew Tallon&amp;rsquo;s laser scanning of the entire cathedral in 2015 and the incredibly detailed models created for Ubisoft&amp;rsquo;s mega-franchise Assassin&amp;rsquo;s Creed: Unity, the French people have not only centimeter-level measurements, but also an entire interactive, atmospheric representation of Notre-Dame to reference as they rebuild.
+ I had the luck to visit Notre-Dame several years ago, and it was simply awe inspiring. To see it in flames last week evoked what can only be described as a deep sense of mourning.</description>
+    </item>
+    
+    <item>
+      <title>Medium, Seven Years Later</title>
+      <link>https://dreger.me/links/butterick-on-mediums-history/</link>
+      <pubDate>Sat, 13 Apr 2019 12:09:19 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/butterick-on-mediums-history/</guid>
+      <description>Matthew Butterick, with some additional analysis on Laura Owen&amp;rsquo;s deep dive into Medium&amp;rsquo;s history:
+ What stands out the most? Though Medium’s value to online publishing has remained abstract, the harm it has inflicted—especially upon the authors and publications who have been lured onto the platform (by one pivot) and then stranded (by the next)—is concrete. As writer Jaya Saxena put it, “every writer/cartoonist I know has had their life ruined by Medium at some point”.</description>
+    </item>
+    
+    <item>
+      <title>The Long, Complicated, and Extremely Frustrating History of Medium</title>
+      <link>https://dreger.me/links/the-frustrating-history-of-medium/</link>
+      <pubDate>Sat, 13 Apr 2019 12:02:12 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/the-frustrating-history-of-medium/</guid>
+      <description>I&amp;rsquo;ve secretly been wishing for someone to create a complete compendium of Medium&amp;rsquo;s trials and tribulations because the task, had I taken it on myself, would have simply driven me into a deep, dark, depressing place from which I may not have emerged. Thankfully Laura Hazard Owen, writing for the Nieman Journalism Lab, was more than up to the task:
+ Why spend so much time worrying about what Medium is?</description>
+    </item>
+    
+    <item>
+      <title>‘Letter Boxed’ by The New York Times</title>
+      <link>https://dreger.me/links/nyt-letter-boxed/</link>
+      <pubDate>Sat, 09 Feb 2019 15:20:21 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/nyt-letter-boxed/</guid>
+      <description>Samit Sarkar, Polygon, writing about the newest word game from the Times’ Games Expansion Team (which I didn&amp;rsquo;t know was a thing):
+ Letter Boxed takes place around, well, a box. There are three letters on each side, and players must connect them to make words at least three letters long. Letters on the same side cannot be used consecutively, and the final letter of each word becomes the first letter of the next word.</description>
+    </item>
+    
+    <item>
+      <title>‘Can a 44-Year-Old Man Cut It in the Premier League?’</title>
+      <link>https://dreger.me/links/espn-jones-everton/</link>
+      <pubDate>Sat, 09 Feb 2019 14:31:37 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/espn-jones-everton/</guid>
+      <description>Chris Jones, ESPN, attempted to complete the medical and fitness review required of all Everton F.C. players. It did not go well.
+ Let&amp;rsquo;s get this out of the way. I&amp;rsquo;m supposed to say that my greatest source of pride is my children, but they haven&amp;rsquo;t really done anything that special. They&amp;rsquo;re regular kids, and there are billions of those. My greatest source of pride is that I still play competitive football at age 44.</description>
+    </item>
+    
+    <item>
+      <title>Proposed Changes to Chrome Would Hamper Ad Blockers</title>
+      <link>https://dreger.me/links/chrome-ad-blockers/</link>
+      <pubDate>Sat, 26 Jan 2019 09:11:05 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/chrome-ad-blockers/</guid>
+      <description>Klint Finley, Wired:
+ Google says the proposal is just, well, a proposal. &amp;ldquo;These changes are in the design process,&amp;rdquo; a Google spokesperson said in a statement. The company is &amp;ldquo;working with extension developers to make sure their extensions continue to work,&amp;rdquo; the spokesperson said.
+  Ostensibly, the changes are designed to improve the security and performance of Chrome and Chromium. For example, Chrome extensions now can access your browsing history.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Begins Rolling out ‘Lite’ Version of Website to Everyone</title>
+      <link>https://dreger.me/links/twitter-lite-rolls-out-to-everyone/</link>
+      <pubDate>Wed, 23 Jan 2019 19:50:55 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/twitter-lite-rolls-out-to-everyone/</guid>
+      <description>Twitter&amp;rsquo;s calling it the &amp;ldquo;new twitter.com&amp;rdquo;, but this update is clearly the lite variant of their website that mobile users have been using for over a year. Good on them for pushing this out to everyone—I&amp;rsquo;ve found it to be significantly faster and nicer to use than the normal site. It&amp;rsquo;s also (sadly) the best official way to use Twitter on your Mac.
+If you&amp;rsquo;re still seeing the old/current version, you can check out what&amp;rsquo;s coming by going directly to mobile.</description>
+    </item>
+    
+    <item>
+      <title>Netflix Says ‘Fortnite’ is a Bigger Competitor Than HBO or Hulu</title>
+      <link>https://dreger.me/links/netflix-vs-fortnite/</link>
+      <pubDate>Tue, 22 Jan 2019 22:51:32 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/netflix-vs-fortnite/</guid>
+      <description>Matt Patches, Polygon, reporting on Netflix&amp;rsquo;s latest quarterly earnings report:
+ [&amp;hellip;] Netflix estimated that it commands 10 percent of television screen time in the U.S., and slightly less than that for total mobile screen time. In other countries, the percentages are lower due to &amp;ldquo;lower penetration of our service.&amp;rdquo; The reason, Netflix said, isn&amp;rsquo;t because of obvious streaming competition, but of online platforms and video games.
+  &amp;ldquo;We compete with (and lose to) Fortnite more than HBO,&amp;rdquo; the report indicated.</description>
+    </item>
+    
+    <item>
+      <title>‘Signal v Noise’ Officially Exits Medium</title>
+      <link>https://dreger.me/links/svn-exits-medium/</link>
+      <pubDate>Thu, 17 Jan 2019 21:34:37 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/svn-exits-medium/</guid>
+      <description>Final nail, meet coffin.
+Here with the follow-up to their announcement last September is CTO and co-founder of Basecamp, David Heinemeier Hansson:
+ These days Medium is focused on their membership offering, though. Trying to aggregate writing from many sources and sell a broad subscription on top of that. And it’s a neat model, and it’s wonderful to see Medium try something different. But it’s not for us, and it’s not for Signal v Noise.</description>
+    </item>
+    
+    <item>
+      <title>Doist Switches From Medium to WordPress</title>
+      <link>https://dreger.me/links/doist-leaves-medium-for-wordpress/</link>
+      <pubDate>Sun, 13 Jan 2019 11:51:32 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/doist-leaves-medium-for-wordpress/</guid>
+      <description>Looks like Doist started with Medium in 2017, and then switched to WP Engine—a WordPress hosting service—earlier this month.
+(You might not recognize Doist-the-company, but you&amp;rsquo;ve probably heard of their most popular product: Todoist, the much loved cross-platform task manager.)</description>
+    </item>
+    
+    <item>
+      <title>Yuibco Releases Lightning Compatible Security Key for iPhone</title>
+      <link>https://dreger.me/links/yubico-lightning/</link>
+      <pubDate>Sat, 12 Jan 2019 09:46:42 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/yubico-lightning/</guid>
+      <description>Russell Brandom, The Verge:
+ Yubico has announced a new version of its popular Security Key for use in Lightning ports, the first such device to enable physical token authentication for iPhones. The device also supports a USB-C connection.
+  Previously, the only way to connect a security key to an iPhone was over Bluetooth, which suffered Bluetooth’s normal usability issues as well as potential security concerns around mistaken pairings.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Now Allows Free Accounts to Have Unlimited Private Repositories</title>
+      <link>https://dreger.me/links/github-unlimited-private-repos/</link>
+      <pubDate>Thu, 10 Jan 2019 19:29:34 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/github-unlimited-private-repos/</guid>
+      <description>I&amp;rsquo;ve recommended the code sharing/developer social network GitHub to many people (students and writers primarily), but the recommendation always came with the giant asterisk that everything you published would be public. It&amp;rsquo;s nice that&amp;rsquo;s no longer the case. GitHub becomes a far more attractive service—and stronger social network—when you can host all your work there.
+This also makes a lot of sense for where Microsoft might want to take GitHub. The majority of GitHub&amp;rsquo;s future revenue is likely to come in the form of lucrative Enterprise accounts at large companies—something Microsoft is well positioned to push—rather than free (née personal) accounts that upgrade to paid tiers.</description>
+    </item>
+    
+    <item>
+      <title>TikTok’s ‘Lite’ App Downloaded 12 Million Times Since August</title>
+      <link>https://dreger.me/links/tiktok-lite/</link>
+      <pubDate>Sat, 05 Jan 2019 13:03:00 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/tiktok-lite/</guid>
+      <description>Rings the your &amp;lsquo;lite&amp;rsquo; app should be your only app bell for the millionth time.</description>
+    </item>
+    
+    <item>
+      <title>‘Nobody Reads’</title>
+      <link>https://dreger.me/notes/nobody-reads/</link>
+      <pubDate>Thu, 27 Dec 2018 12:35:36 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/nobody-reads/</guid>
+      <description>This is the excuse I hear when product people are disappointed that customers missed some important piece of information conveyed through UI copy. The more important the information missed, the stronger the sentiment that Nobody Reads.
+But this is like when someone truncates Winston Churchill&amp;rsquo;s quote on democracy. It&amp;rsquo;s more likely you&amp;rsquo;ve heard this bit:
+ democracy is the worst form of Government
+ Than how it finishes:
+ except all those other forms that have been tried from time to time.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Edge is Coming to MacOS</title>
+      <link>https://dreger.me/links/edge-coming-to-macos/</link>
+      <pubDate>Thu, 06 Dec 2018 22:20:31 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/edge-coming-to-macos/</guid>
+      <description>Tom Warren, The Verge, on the news that not only is Microsoft rebuilding Edge on Chromium, but they&amp;rsquo;re also bringing it to the Mac:
+ A lot of web developers use a Mac to develop and test sites, but Edge doesn’t exist there, and it’s currently difficult to test Microsoft’s web rendering engine on a Mac without dual booting Windows. Microsoft is now bringing Edge to the Mac. We understand it’s not a move designed to grab more market share specifically; it’s more about making it easier for developers to test Edge.</description>
+    </item>
+    
+    <item>
+      <title>The Dominance of Google Chrome</title>
+      <link>https://dreger.me/links/christant-state-of-web-browsers/</link>
+      <pubDate>Thu, 06 Dec 2018 21:57:31 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/christant-state-of-web-browsers/</guid>
+      <description>Microsoft is exiting the browser engine market, and the next version of their Edge browser will be powered by Chromium; the Google-led open source web engine that powers Chrome. Ferdy Christant:
+ The web now runs on a single engine. There is not a single browser with a non-Chromium engine on mobile of any significance other than Safari. Which runs webkit, kind of the same engine as Chromium, which is based on webkit.</description>
+    </item>
+    
+    <item>
+      <title>Half of All Phishing Sites Now Use HTTPs</title>
+      <link>https://dreger.me/links/phishing-sites-use-https/</link>
+      <pubDate>Tue, 04 Dec 2018 21:34:53 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/phishing-sites-use-https/</guid>
+      <description>Brian Krebs:
+ Recent data from anti-phishing company PhishLabs shows that 49 percent of all phishing sites in the third quarter of 2018 bore the padlock security icon next to the phishing site domain name as displayed in a browser address bar. [&amp;hellip;]
+  This alarming shift is notable because a majority of Internet users have taken the age-old “look for the lock” advice to heart, and still associate the lock icon with legitimate sites.</description>
+    </item>
+    
+    <item>
+      <title>Marvin Visions, the Variable Font</title>
+      <link>https://dreger.me/links/marvin-visions-variable-font/</link>
+      <pubDate>Tue, 04 Dec 2018 20:51:53 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/marvin-visions-variable-font/</guid>
+      <description>I&amp;rsquo;ve linked to Marvin Visions before, but I simply can&amp;rsquo;t get over how great this font looks. The latest update makes Marvin Visions available as a variable font, which means you have granular control over both weight and optical size without a dramatic increase in file size. There&amp;rsquo;s a two-dimensional slider about a quarter of the way down the page if you want to see what I mean.</description>
+    </item>
+    
+    <item>
+      <title>$130 Million Later, Medium CEO Ev Williams Looking to Raise More Money for Still Unprofitable Medium</title>
+      <link>https://dreger.me/links/medium-raising-more-money/</link>
+      <pubDate>Wed, 28 Nov 2018 19:15:08 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/medium-raising-more-money/</guid>
+      <description>Companies that aren&amp;rsquo;t tracking towards profitability either die or raise more cash—that&amp;rsquo;s obvious and not why I&amp;rsquo;m linking to this story. What makes this piece by Jim Edwards, Business Insider, interesting are the readership stats and hint towards future product direction for Medium:
+ The site currently has 90 million unique users each month, and publishes 20,000 articles per day, mostly from writers creating one-off articles. It recently moved away from selling advertising as a revenue model to a subscription paywall, in which readers are asked for money if they see more than three stories per month.</description>
+    </item>
+    
+    <item>
+      <title>Ohio First State to Accept Bitcoin for Tax Payments</title>
+      <link>https://dreger.me/links/ohio-bitcoin/</link>
+      <pubDate>Tue, 27 Nov 2018 19:48:24 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/ohio-bitcoin/</guid>
+      <description>When paying your taxes leads to a taxable event that you have to pay taxes on.
+It&amp;rsquo;s important to note that the Ohio government won&amp;rsquo;t actually be holding any Bitcoin; rather they&amp;rsquo;re using BitPay, a cryptocurrency payment company, to convert received Bitcoin to USD.</description>
+    </item>
+    
+    <item>
+      <title>Access by Hawkeye Labs Uses TrueDepth Camera to Navigate Webpages Via Facial Expressions</title>
+      <link>https://dreger.me/links/hawkeye-access/</link>
+      <pubDate>Tue, 30 Oct 2018 22:02:17 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/hawkeye-access/</guid>
+      <description>Quite the clever utility from iOS developer (and WWDC scholarship winner) Matt Moss. Nice to see developers trying to make iOS even more accessible than what comes in the box, too.</description>
+    </item>
+    
+    <item>
+      <title>WikiTribune Lays Off Editorial Staffers, Shifts Focus to Community Contributors</title>
+      <link>https://dreger.me/links/wikitribune-lays-offs/</link>
+      <pubDate>Tue, 30 Oct 2018 21:12:41 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/wikitribune-lays-offs/</guid>
+      <description>Nick Statt, The Verge:
+ Wikipedia founder Jimmy Wales&amp;rsquo; digital media company, the WikiTribune, is shifting its focus away from traditional news-gathering and moving to a &amp;ldquo;community oriented&amp;rdquo; strategy that prioritizes working with contributors.   In the process, the company has laid off its 12 original editorial staffers, reports The Drum, following the April departure of CNN and Reuters journalist Peter Bale, who initially assembled the team. The WikiTribune began in August of last year, and Wales and his co-founder Orit Kopel posted a note to the site earlier this week first mentioning the &amp;ldquo;major personnel changes&amp;rdquo; and the reframing of its focus on the community.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Updates Kindle to Support Custom Fonts</title>
+      <link>https://dreger.me/links/kindle-custom-fonts/</link>
+      <pubDate>Wed, 17 Oct 2018 20:08:42 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/kindle-custom-fonts/</guid>
+      <description>Good eye from Marius Masalar. I doubt I&amp;rsquo;ll use this feature, though—especially since it requires physically connecting your Kindle to a computer and dragging font files around. For most texts (and most people), I think Amazon&amp;rsquo;s custom-made Bookerly is good enough.</description>
+    </item>
+    
+    <item>
+      <title>First Impressions of Project Stream, Google’s Video Game Streaming Service</title>
+      <link>https://dreger.me/links/project-stream/</link>
+      <pubDate>Tue, 09 Oct 2018 13:30:45 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/project-stream/</guid>
+      <description>Earlier this month, Google announced their intentions to publicly test a video game streaming technology called Project Stream. Beta testers would have the opportunity to stream Ubisoft&amp;rsquo;s latest blockbuster Assassin&amp;rsquo;s Creed in Google Chrome, so long as they had a 25 Mbps Internet connection and relatively low ping.
+A week later, several outlets have had the chance to test Project Stream, and the results are positive:
+Jason Schreier, Kotaku:
+ There’s something a little funky about playing a game like Assassin’s Creed Odyssey in your internet browser.</description>
+    </item>
+    
+    <item>
+      <title>Customers, Not Users</title>
+      <link>https://dreger.me/notes/customers-vs-users/</link>
+      <pubDate>Sun, 07 Oct 2018 10:20:44 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/customers-vs-users/</guid>
+      <description>A lot of software isn&amp;rsquo;t free. Plenty of people pay to use products. Yet, we call these people users in most of our copy and internal communications. Should we?
+What if we tried calling them what they actually are: customers.
+ User story becomes customer story. User review becomes customer review. User issue becomes customer issue.  I think the difference is important. Facebook has users. We have customers. By referring to your customers as customers, you&amp;rsquo;re respecting the fact that someone is paying you for your work.</description>
+    </item>
+    
+    <item>
+      <title>Miller Columns</title>
+      <link>https://dreger.me/links/miller-columns/</link>
+      <pubDate>Wed, 03 Oct 2018 22:01:18 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/miller-columns/</guid>
+      <description>One of my favorite features of the MacOS Finder is that I can display my folders and files in &amp;ldquo;column view,&amp;rdquo; where clicking on a folder in one column will reveal its contents in a column directly to the right. It&amp;rsquo;s a wonderfully efficient way to dig through your files, and up until today I had no idea this interface paradigm had a name.</description>
+    </item>
+    
+    <item>
+      <title>Wi-Fi Transitions to Version Numbers, With Wi-Fi 6 Coming Next Year</title>
+      <link>https://dreger.me/links/wifi-version-numbers/</link>
+      <pubDate>Wed, 03 Oct 2018 21:51:18 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/wifi-version-numbers/</guid>
+      <description>Jacob Kastrenakes, The Verge:
+ In the past, Wi-Fi versions were identified by a letter or a pair of letters that referred to a wireless standard. The current version is 802.11ac, but before that, we had 802.11n, 802.11g, 802.11a, and 802.11b. It was not comprehensible, so the Wi-Fi Alliance — the group that stewards the implementation of Wi-Fi — is changing it.
+  All of those convoluted codenames are being changed.</description>
+    </item>
+    
+    <item>
+      <title>A Very Brief Explanation of How I Choose Between Buying a Physical Book or the Kindle Edition</title>
+      <link>https://dreger.me/notes/physical-or-kindle/</link>
+      <pubDate>Mon, 01 Oct 2018 21:56:13 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/physical-or-kindle/</guid>
+      <description>I don&amp;rsquo;t. It&amp;rsquo;s impossible. Sisyphus spends less energy pushing his boulder than I do when debating paperback or Paperwhite. The only compromise is to buy both. My budget hates me, my wife shakes her head in disapproval, but my bookshelves have never looked better nor been more portable.</description>
+    </item>
+    
+    <item>
+      <title>How to Write a Sentence</title>
+      <link>https://dreger.me/links/how-to-write-a-sentence/</link>
+      <pubDate>Tue, 25 Sep 2018 21:33:51 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/how-to-write-a-sentence/</guid>
+      <description>Author Joe Moran had quite a long-winded piece in The Guardian about writing, but this bit is worth saving:
+ A sentence is much more than its literal meaning. It is a living line of words where logic and lyric meet &amp;ndash; a piece of both sense and sound, albeit the sound is only heard in the reader&amp;rsquo;s head. Rookie sentence-writers are often too busy worrying about the something they are trying to say and don&amp;rsquo;t worry enough about how that something looks and sounds.</description>
+    </item>
+    
+    <item>
+      <title>Path, the ‘Personal’ Social Network, to Shut Down Next Month</title>
+      <link>https://dreger.me/links/path-discontinued/</link>
+      <pubDate>Sat, 22 Sep 2018 07:14:28 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/path-discontinued/</guid>
+      <description>According to Dunbar&amp;rsquo;s Number, &amp;ldquo;humans can comfortably maintain only 150 stable relationships.&amp;rdquo; Path, at its core, was a social network built around this idea. When the service launched, you could only have 50 friends. They later expanded that number to 150 (and then 500), but in those early years the network limitation forced you to only connect with people who really mattered to you. No old high school acquaintances, no business fan pages.</description>
+    </item>
+    
+    <item>
+      <title>Telltale Games Hit With Massive Layoffs, Begins ‘Majority Studio Closure’</title>
+      <link>https://dreger.me/links/telltale-closure/</link>
+      <pubDate>Fri, 21 Sep 2018 19:14:08 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/telltale-closure/</guid>
+      <description>Megan Farokhmanesh, The Verge:
+ Telltale Games, creators of episodic adventure games like The Walking Dead, The Wolf Among Us, and Batman: The Enemy Within, laid off a large number of its staff today. The company will retain a small team of 25. According to multiple sources The Verge spoke with, employees were let go with no severance.
+  &amp;ldquo;Today Telltale Games made the difficult decision to begin a majority studio closure following a year marked by insurmountable challenges,&amp;rdquo; the company said in a statement.</description>
+    </item>
+    
+    <item>
+      <title>MacOS Tip: Disable Smart Zoom to Remove Menu Delay When Clicking or Tapping With Two Fingers</title>
+      <link>https://dreger.me/links/disable-smart-zoom-to-remove-menu-lag/</link>
+      <pubDate>Thu, 13 Sep 2018 21:16:58 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/disable-smart-zoom-to-remove-menu-lag/</guid>
+      <description>When you perform a right-click in MacOS via the trackpad — by clicking or tapping with two fingers — there&amp;rsquo;s a small delay before you see the contextual menu appear. Apparently, to my delight, this lag can be removed by disabling the &amp;ldquo;Smart zoom&amp;rdquo; gesture, relieving MacOS from waiting a few milliseconds to see if another two-finger tap/click was on the way, which would indicate you wanted to zoom the current content.</description>
+    </item>
+    
+    <item>
+      <title>Google to Shut Down ‘Inbox by Gmail’ App and Website</title>
+      <link>https://dreger.me/links/google-inbox-shutting-down/</link>
+      <pubDate>Thu, 13 Sep 2018 20:50:22 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/google-inbox-shutting-down/</guid>
+      <description>Google Inbox, the gesture-driven email experiment that turned your inbox into an actionable list of tasks, is going away at the end of March 2019. I get why they&amp;rsquo;re shutting it down — Google wants to focus their efforts on Gmail, which recently received a brand new UI — but I&amp;rsquo;m still disappointed. Inbox made it easy to keep your, uh, inbox tidy because the app grouped related types of messages; allowing you to send an entire category to the archive with a single swipe.</description>
+    </item>
+    
+    <item>
+      <title>Basecamp to Move Popular ‘Signal v Noise’ Blog Off Medium</title>
+      <link>https://dreger.me/links/signal-v-noise-leaving-medium/</link>
+      <pubDate>Thu, 06 Sep 2018 22:12:50 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/signal-v-noise-leaving-medium/</guid>
+      <description>The Medium Exodus of 2018 continues. This week, it&amp;rsquo;s a tweet from CTO and co-founder of Basecamp, David Heinemeier Hansson (DHH):
+ After further review, we&amp;rsquo;re going to be leaving Medium at some point in the near-to-mid-term future. Thanks for all the fish,@ev! You built a beautiful typewriter, the early community was awesome, and I respect trying something different. Shame about the VC pressures. Adieu!
+ If you&amp;rsquo;re not familiar with Signal v.</description>
+    </item>
+    
+    <item>
+      <title>Polygon Ditches Review Scores In Favor of ‘Recommends’ Labeling and Curated ‘Essentials’</title>
+      <link>https://dreger.me/links/polygon-ditches-review-scores/</link>
+      <pubDate>Tue, 04 Sep 2018 19:47:47 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/polygon-ditches-review-scores/</guid>
+      <description>Executive Editor and co-founder at Polygon, Chris Plante:
+ Games have changed since we launched Polygon. We&amp;rsquo;re changing with them.   We believe that a new strategy, focusing on criticism and curation, will better serve our readers than the serviceable but ultimately limited reviews rubric that, for decades, has functioned as a load-bearing pillar of most game publications.
+  As part of this evolution, Polygon will no longer score reviews.</description>
+    </item>
+    
+    <item>
+      <title>Behavioral Biometrics Are a Cookie You Can’t Clear</title>
+      <link>https://dreger.me/notes/behavioral-biometrics/</link>
+      <pubDate>Fri, 24 Aug 2018 20:42:23 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/behavioral-biometrics/</guid>
+      <description>Stacy Cowley, the New York Times, on how banks and retailers are using your taps, swipes, and other device sensor data to verify you&amp;rsquo;re you:
+ The way you press, scroll and type on a phone screen or keyboard can be as unique as your fingerprints or facial features. To fight fraud, a growing number of banks and merchants are tracking visitors’ physical movements as they use websites and apps.</description>
+    </item>
+    
+    <item>
+      <title>Jürgen Klopp’s Liverpool</title>
+      <link>https://dreger.me/links/liverpool-rebuilt/</link>
+      <pubDate>Wed, 22 Aug 2018 20:04:41 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/liverpool-rebuilt/</guid>
+      <description>Nice overview of Liverpool F.C. by Kevin Draper for the New York Times, in which he correctly identifies the club&amp;rsquo;s primary advantage — its manager:
+ The birth of the new Liverpool may have been Oct. 8, 2015, the day F.S.G. announced the hiring of [Jürgen] Klopp, the former Borussia Dortmund manager. In less than three years, Klopp has become the exuberant, backslapping and hugging face of the club. His aggressive gegenpressing, or counterpressing, system is the key to Liverpool&amp;rsquo;s ruthless attack, and it can be a pleasure to watch &amp;mdash; provided you&amp;rsquo;re not supporting the team being subjected to it</description>
+    </item>
+    
+    <item>
+      <title>Slack Leaves Medium for WordPress</title>
+      <link>https://dreger.me/links/slack-leaves-medium/</link>
+      <pubDate>Tue, 21 Aug 2018 18:23:18 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/slack-leaves-medium/</guid>
+      <description>No post-move announcement like when Baremetrics did the same thing, but it&amp;rsquo;s still curious to see a hot tech company leave what&amp;rsquo;s supposed to be the panacea for digital publishing. As best I can tell, the move happened sometime within the last month or so.</description>
+    </item>
+    
+    <item>
+      <title>1Password as a Digital Will</title>
+      <link>https://dreger.me/links/1password-digital-will/</link>
+      <pubDate>Thu, 16 Aug 2018 12:03:33 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/1password-digital-will/</guid>
+      <description>The Sweet Setup Staff (via Michael Rockwell), on using the password manager 1Password as a digital will:
+ Unlike a conventional will, this document (or database) is not as much about who gets your stuff, but more about helping your family member unwind the countless online accounts and collections of media and digital property that you have.
+ When my mother passed away a number of years ago, handling all of the online bills, email accounts, and digital subscriptions for my family would have been a nightmare if not for 1Password.</description>
+    </item>
+    
+    <item>
+      <title>The Best Markdown Editor for iOS</title>
+      <link>https://dreger.me/links/the-sweet-setup-best-markdown-editor/</link>
+      <pubDate>Wed, 08 Aug 2018 20:48:09 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/the-sweet-setup-best-markdown-editor/</guid>
+      <description>Over at the Sweet Setup, I wrote down some brief thoughts on a few of the best Markdown editors for iOS. My pick — for most people — is the excellent iA Writer, which has been a staple of my writing kit for years. This was a fun piece to work on, and I think it turned out well.</description>
+    </item>
+    
+    <item>
+      <title>Designing the Xbox Adaptive Controller‘s Accessible Packaging</title>
+      <link>https://dreger.me/links/xbox-adaptive-controller-packaging/</link>
+      <pubDate>Thu, 26 Jul 2018 20:11:23 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/xbox-adaptive-controller-packaging/</guid>
+      <description>Deborah Bach for the Microsoft company blog:
+ Packaging can be annoying for any consumer (see: wrap rage). But for people with disabilities, it often creates yet another challenge in a world riddled with them, an unnecessary obstacle that leads to frustration and a delay getting to the object inside.
+  Recognizing that reality, Microsoft&amp;rsquo;s Packaging Design team faced a unique challenge in creating a box for the new Xbox Adaptive Controller, designed to accommodate gamers with limited mobility.</description>
+    </item>
+    
+    <item>
+      <title>Who Owns a Scientist‘s Mind?</title>
+      <link>https://dreger.me/links/who-owns-an-idea/</link>
+      <pubDate>Wed, 25 Jul 2018 22:52:20 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/who-owns-an-idea/</guid>
+      <description>MIT postdoctoral fellow Douglas O’Reagan, writing for Physics Today:
+ Over the course of centuries, a struggle has been playing out about who gets to own ideas. Is it the person who comes up with them? The employer who funds the research? Or should the ideas be somehow shared between them? [&amp;hellip;]
+  By the 1990s teams of MBAs and business-school scholars joined forces to see if advances in information technology, management techniques, law, and sociology could allow them to extract workers’ know-how so that the company could store and own it indefinitely.</description>
+    </item>
+    
+    <item>
+      <title>‘Fortnite’ Is a Runaway Success</title>
+      <link>https://dreger.me/links/fortnite-success/</link>
+      <pubDate>Tue, 24 Jul 2018 20:20:02 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/fortnite-success/</guid>
+      <description>Brian Feldman for New York Magazine, in a piece titled, &amp;ldquo;The Most Important Video Game on the Planet&amp;rdquo;:
+ Analysts estimate that Fortnite is currently raking in more than $300 million a month, and has made its maker, Epic Games, more than $1.2 billion since its battle royale mode launched in late September. That’s all from a game that’s free to download and play unrestricted.
+ To clarify: anything you can buy in Fortnite is purely cosmetic and doesn&amp;rsquo;t give you a better chance at winning.</description>
+    </item>
+    
+    <item>
+      <title>‘Let Companies Do Their Own PR, Even if This Comes at The Cost of Clicks’</title>
+      <link>https://dreger.me/links/cjr-tech-media-watchdog/</link>
+      <pubDate>Tue, 24 Jul 2018 19:28:24 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/cjr-tech-media-watchdog/</guid>
+      <description>James Ball, Columbia Journalism Review, on the effects that years of a &amp;ldquo;compliant and often cheerleading media&amp;rdquo; have left on the technology press&amp;rsquo; ability to be a watchdog in the industry:
+ The result is the big four tech giants have a head start of 25 or more years in building their business models and laying their groundwork ahead of receiving serious scrutiny—and today, detailed scrutiny could hardly be more important.</description>
+    </item>
+    
+    <item>
+      <title>Susan Fowler Rigetti Joins NYT Opinion as Technology Editor</title>
+      <link>https://dreger.me/links/rigetti-to-nyt/</link>
+      <pubDate>Mon, 23 Jul 2018 20:58:27 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/rigetti-to-nyt/</guid>
+      <description>The New York Times Company:
+ The title of the 2017 blog post was innocuous enough: “Reflecting on One Very, Very Strange Year at Uber.” The author, a young developer named Susan Fowler, described how she was sexually harassed by a manager within days of starting work, how her efforts to report the problem went ignored, and how she eventually learned that other women at Uber had faced similar harassment, only to be similarly ignored.</description>
+    </item>
+    
+    <item>
+      <title>Josh Ginter’s Visual HomePod Review</title>
+      <link>https://dreger.me/links/ginter-homepod/</link>
+      <pubDate>Sun, 22 Jul 2018 12:01:40 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/ginter-homepod/</guid>
+      <description>As usual with his hardware reviews, Mr. Ginter&amp;rsquo;s written impressions are interspersed between some gorgeous product shots. On the HomePod itself, Mr. Ginter reaffirmed what most other reviewers noted (excellent speaker, okay digital assistant), but I like the way he put it here:
+ HomePod is a speaker. And a really, really good speaker at that. She plays music unlike any other device on Planet Earth, and her ground-breaking bass has ushered in new sounds to songs I&amp;rsquo;ve heard since I was five years old.</description>
+    </item>
+    
+    <item>
+      <title>Nike’s $250 Running Shoes Might Actually Make You Faster</title>
+      <link>https://dreger.me/links/nyt-nike-vaporflys/</link>
+      <pubDate>Sat, 21 Jul 2018 12:02:41 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/nyt-nike-vaporflys/</guid>
+      <description>Kevin Quealy and Josh Katz, New York Times:
+ Nike says the shoes are about 4 percent better than some of its best racing shoes, as measured by how much energy runners spend when running in them. That is an astonishing claim, an efficiency improvement worth almost six minutes to a three-hour marathoner, or about eight minutes to a four-hour marathoner.
+  And it may be an accurate one, according to a new analysis by The New York Times of race data from about 500,000 marathon and half marathon running times since 2014.</description>
+    </item>
+    
+    <item>
+      <title>Messi Walks Better Than Most Players Run</title>
+      <link>https://dreger.me/links/messi-walks/</link>
+      <pubDate>Fri, 06 Jul 2018 12:21:25 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/messi-walks/</guid>
+      <description>Despite Argentina&amp;rsquo;s unceremonious departure from this year&amp;rsquo;s World Cup — following an embarrassing group stage performance — their star player Lionel Messi is still a wonder to watch on the field — particularly when he doesn&amp;rsquo;t have the ball. Bobby Gardiner for FiveThirtyEight:
+ Throughout his career, Messi has been criticized for walking. After an El Clasico match between Barcelona and Real Madrid in December 2017, there was widespread coverage of the fact that Messi walked 83 percent of the roughly 5 miles he covered that game.</description>
+    </item>
+    
+    <item>
+      <title>Contentedness</title>
+      <link>https://dreger.me/notes/contentedness/</link>
+      <pubDate>Wed, 04 Jul 2018 03:11:25 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/contentedness/</guid>
+      <description>Leaning against our headboard awake far later than I wish to be, my little guy nuzzles deeper into the crook of my arm he’s chosen to fall asleep in and I can’t help but feel it’s all so very much worth it; the fatigue, frustration, fear—they all melt away in these moments, and for a minute my heart knows nothing but the contentedness of a man who truly has everything, and for whom nothing else could replace this feeling.</description>
+    </item>
+    
+    <item>
+      <title>Instagram Lite</title>
+      <link>https://dreger.me/links/instagram-lite/</link>
+      <pubDate>Thu, 28 Jun 2018 20:46:55 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/instagram-lite/</guid>
+      <description>Josh Constine, TechCrunch:
+ At just 573 kilobytes, Instagram Lite is 1/55th the size of Instagram’s 32 megabyte main app. It lets you filter and post photos to the feed or Stories, watch Stories, and browse the Explore page, but currently lacks the options to share videos or Direct message friends.
+ First, the photo-only version of Instagram was the best version. Second, what in the sweet heavens is in the current Instagram app that makes it 55x larger than Instagram Lite?</description>
+    </item>
+    
+    <item>
+      <title>‘Pocket-Run Pool’</title>
+      <link>https://dreger.me/links/godin-on-zach-gage-games/</link>
+      <pubDate>Fri, 22 Jun 2018 12:38:10 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/godin-on-zach-gage-games/</guid>
+      <description>Derek Godin, writing about iOS developer/designer Zach Gage and his newest game, Pocket-Run Pool:
+ Gage specializes in taking well-worn casual game mainstays (word puzzles, chess, solitaire) and twisting them in small, clever ways. Often these are simple mechanical tweaks; Really Bad Chess gives players one king and 15 other random pieces to duke it out with, while Sage Solitaire elegantly splits the difference between classic Klondike and poker. His latest game Pocket-Run Pool is his version of an arcade-style billiards game, with rotating pocket multipliers and three lives (i.</description>
+    </item>
+    
+    <item>
+      <title>iOS 12 Will Support All iOS 11 Compatible Devices</title>
+      <link>https://dreger.me/links/ios-12-device-compatibility/</link>
+      <pubDate>Wed, 20 Jun 2018 12:57:31 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/ios-12-device-compatibility/</guid>
+      <description>One of the more thrilling announcements at WWDC 2018 is that iOS 12 will focus heavily on performance and longevity of older iOS devices. This means not only will iOS 12 support anything that currently runs iOS 11, but also those older devices should see noticeable performance increases. Apple PR:
+ Camera launches up to 70 percent faster, the keyboard appears up to 50 percent faster and typing is more responsive.</description>
+    </item>
+    
+    <item>
+      <title>‘The Back of an Envelope’</title>
+      <link>https://dreger.me/links/heer-edit-description/</link>
+      <pubDate>Tue, 19 Jun 2018 20:33:41 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/heer-edit-description/</guid>
+      <description>Nick Heer, Pixel Envy:
+ You know how you sometimes just need a quick place to jot something down — a single scrap of paper, the back of an envelope, or whatever you have laying around — and you know you won’t need to save it? Edit is like the digital version of that. It’s fast, it’s simple, and I use it all the time.
+ I hate how he explained Edit better in 58 words than I could in 200+.</description>
+    </item>
+    
+    <item>
+      <title>‘This Is the Kind of App That Just About Anyone Could Benefit From Using’</title>
+      <link>https://dreger.me/links/rockwell-edit-review/</link>
+      <pubDate>Tue, 19 Jun 2018 20:11:27 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/rockwell-edit-review/</guid>
+      <description>Michael Rockwell, Initial Charge, in his review of Edit:
+ Overall, I think K.Q. Dreger made all the right decisions with Edit’s initial offering. Utilizing the share sheet and the select-all shortcut to eliminate the need for storing multiple documents is such a brilliant idea. I still think its a few small features away from becoming an absolute must-have. But despite that, Edit has become an important part of my writing workflow because it’s core set of features are rock-solid and the application is such a delight to use.</description>
+    </item>
+    
+    <item>
+      <title>Edit</title>
+      <link>https://dreger.me/links/edit-for-ios/</link>
+      <pubDate>Tue, 05 Jun 2018 19:04:48 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/edit-for-ios/</guid>
+      <description>Just over a year ago, I started working on a small iOS app for writers. I was tired of not having a focused, single-purpose place for drafting and editing important messages, emails, and text. I hated doing those things in Messages or Mail, and I avoided Notes because what I was writing didn&amp;rsquo;t need to be stored anywhere. All I wanted was a tasteful place to write.
+Well, I&amp;rsquo;ve finished, and next week I&amp;rsquo;m excited to ship Edit for iOS.</description>
+    </item>
+    
+    <item>
+      <title>Google ReCAPTCHAs Will Occasionally Accept Incorrect Answers Because Real Humans Make Mistakes</title>
+      <link>https://dreger.me/links/google-recaptcha/</link>
+      <pubDate>Fri, 01 Jun 2018 21:41:38 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/google-recaptcha/</guid>
+      <description>Fun bit of trivia regarding those &amp;ldquo;click on all the squares with street signs in them&amp;rdquo; prompts you tend to see on a login or sign up page:
+ reCAPTCHA’s verification uses several factors to determine the chances that a user is a human, not just the answer provided. We allow true humans to make mistakes in solving the challenge, while punishing bad bots even if they submit a correct answer.</description>
+    </item>
+    
+    <item>
+      <title>The UX of Hidden Game Mechanics</title>
+      <link>https://dreger.me/links/hidden-game-mechanics/</link>
+      <pubDate>Thu, 24 May 2018 21:15:51 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/hidden-game-mechanics/</guid>
+      <description>As game designer Jennifer Scheurle was prepared to speak at the 2018 Game Develoeprs Conference, she asked her Twitter followers for examples of &amp;ldquo;brilliant mechanics in games that are hidden from the player to get across a certain feeling.&amp;rdquo; There were hundreds of replies, many from the game developers themselves, and the insight was fascinating. The original thread is a lot of fun to read through, but here are some of my favorites:</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Unveils Xbox Adaptive Controller</title>
+      <link>https://dreger.me/links/xbox-adaptive-controller/</link>
+      <pubDate>Thu, 17 May 2018 19:17:44 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/xbox-adaptive-controller/</guid>
+      <description>Jessica Conditt, Engadget:
+ The Xbox Adaptive Controller is the first of its kind. It&amp;rsquo;s a plug-and-play option for people with disabilities &amp;ndash; it connects to the Xbox One or Windows 10 PC via Bluetooth and powers on just like the Elite. The controller itself is a clean white rectangle, about 11 inches long and 6 inches wide, with two large black buttons on its face. The buttons aren&amp;rsquo;t touchpads, but they are light-touch enabled, clicking down with the softest of taps so players can roll their palm between the two or otherwise click them without exerting much force.</description>
+    </item>
+    
+    <item>
+      <title>Medium Kills Off Custom Domains</title>
+      <link>https://dreger.me/links/medium-kills-off-custom-domains/</link>
+      <pubDate>Tue, 15 May 2018 21:12:06 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/medium-kills-off-custom-domains/</guid>
+      <description>From the Medium Help Center:
+ Medium is no longer offering new custom domains as a feature. If you already have a custom domain on Medium, nothing will change for you for the foreseeable future, and your domain will continue to work as expected.
+ As best I can tell, this decision is a change from January (courtesy of the Internet Archive), when the help page for custom domains read that Medium was &amp;ldquo;pausing&amp;rdquo; offering the service.</description>
+    </item>
+    
+    <item>
+      <title>Playing Chess Against Magnus Carlsen Leads to Predictable Outcome</title>
+      <link>https://dreger.me/links/roeder-vs-magnus-carlsen/</link>
+      <pubDate>Tue, 15 May 2018 18:15:14 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/roeder-vs-magnus-carlsen/</guid>
+      <description>Oliver Roeder, FiveThirtyEight, was one of 15 people who were recently invited to the United Nations for the chance to play chess against Norwegian chess grandmaster—and currently the world&amp;rsquo;s number 1 ranked player—Magnus Carlsen. The result, while unsurprising, was nonetheless entertaining to read. Mr. Roeder (slight language warning):
+ The event was a “clock simul,” short for “simultaneous exhibition with clocks,” in which each of us “challengers” sat at our own boards while Carlsen, the “exhibitor,” darted around the room, rarely taking more than a few seconds to make any move before moving on to his next victim.</description>
+    </item>
+    
+    <item>
+      <title>Esports Are Giving America’s Malls An Extra Life</title>
+      <link>https://dreger.me/links/regional-esports/</link>
+      <pubDate>Thu, 03 May 2018 20:37:09 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/regional-esports/</guid>
+      <description>Nellie Bowles, New York Times, reporting on the increasing popularity of esports, and the businesses springing up to capitalize on the fervor:
+ Across North America this year, companies are turning malls, movie theaters, storefronts and parking garages into neighborhood esports arenas. [&amp;hellip;]
+  “The movie theater!” said Ann Hand, the C.E.O. of Super League Gaming, which converts movie theaters into esports arenas, and has raised $32 million from investors.</description>
+    </item>
+    
+    <item>
+      <title>Designing the Next Billion-Dollar Color</title>
+      <link>https://dreger.me/links/billion-dollar-red/</link>
+      <pubDate>Sun, 29 Apr 2018 14:45:07 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/billion-dollar-red/</guid>
+      <description>Zach Schonbrun, Bloomberg, has written a fascinating profile about the pigment research of Mas Subramanian, a materials science professor at Oregon State University. Mr. Subramanian is best known for his accidental creation of YInMn—a striking blue pigment with the ability to generate many other hues. However, although YInMn is widely lauded, Mr. Subramanian has yet to find a way to coax his pigment into a resilient, radiant red; a color that could be worth hundred of millions of dollars.</description>
+    </item>
+    
+    <item>
+      <title>The Best Text Editor for MacOS</title>
+      <link>https://dreger.me/links/the-best-text-editor-for-macos/</link>
+      <pubDate>Thu, 12 Apr 2018 14:59:58 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/the-best-text-editor-for-macos/</guid>
+      <description>Over at The Sweet Setup, I spent a few thousand words exploring some of the best text editors available for MacOS. Few topics start such heated debates as those about why one text editor might be better than another, but I don&amp;rsquo;t think you can go wrong with any of the apps on our list.
+Also, if you&amp;rsquo;re not reading The Sweet Setup or Tools and Toys already, you really should—they&amp;rsquo;re great publications, backed by a fantastic team.</description>
+    </item>
+    
+    <item>
+      <title>Cloudflare Launches Privacy-First Consumer DNS Service</title>
+      <link>https://dreger.me/links/cloudflare-dns/</link>
+      <pubDate>Mon, 02 Apr 2018 23:14:40 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/cloudflare-dns/</guid>
+      <description>&amp;ldquo;Whenever you click on a link, send an email, open a mobile app, often one of the first things that has to happen is your device needs to look up the address of a domain.&amp;rdquo; That&amp;rsquo;s Matthew Prince, CEO and co-founder of Cloudflare, in his company&amp;rsquo;s blog post announcing their new public DNS service, 1.1.1.1.
+What is this? 1.1.1.1 is a DNS service. A DNS service lets you visit websites by entering word-based domain names like audaciousfox.</description>
+    </item>
+    
+    <item>
+      <title>MacOS Gains External GPU Support</title>
+      <link>https://dreger.me/links/macos-egpu/</link>
+      <pubDate>Sat, 31 Mar 2018 12:08:31 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/macos-egpu/</guid>
+      <description>If you have a few hundred dollars, a recent MacBook, and a desire to play modern video games at a decent frame rate, you can now buy an external graphics card to give your laptop a performance boost. There are, however, some asterisks. Jacob Kastrenakes, The Verge:
+ For one, only select models are officially supported. And, surprise, Apple is only supporting some of AMD&amp;rsquo;s Radeon cards, which it already includes in select Macs.</description>
+    </item>
+    
+    <item>
+      <title>Instructions for Disabling Facebook’s Platform API Sharing</title>
+      <link>https://dreger.me/links/eff-facebook-opt-out/</link>
+      <pubDate>Wed, 28 Mar 2018 19:50:50 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/eff-facebook-opt-out/</guid>
+      <description>Gennie Gebhart for the Electronic Frontier Foundation:
+ You shouldn&amp;rsquo;t have to do this. You shouldn&amp;rsquo;t have to wade through complicated privacy settings in order to ensure that the companies with which you&amp;rsquo;ve entrusted your personal information are making reasonable, legal efforts to protect it. But Facebook has allowed third parties to violate user privacy on an unprecedented scale, and, while legislators and regulators scramble to understand the implications and put limits in place, users are left with the responsibility to make sure their profiles are properly configured.</description>
+    </item>
+    
+    <item>
+      <title>IKEA-Style Explanations of Popular Algorithms</title>
+      <link>https://dreger.me/links/idea-instructions/</link>
+      <pubDate>Wed, 28 Mar 2018 19:32:58 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/idea-instructions/</guid>
+      <description>Do you hear that? It&amp;rsquo;s the sound of these posters being printed out and hung up in every computer science lab across the country.</description>
+    </item>
+    
+    <item>
+      <title>Facebook’s Apology Tour Continues as Full Page Ads Appear in Major Newspapers</title>
+      <link>https://dreger.me/links/facebook-full-page-apology/</link>
+      <pubDate>Wed, 28 Mar 2018 19:16:17 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/facebook-full-page-apology/</guid>
+      <description>&amp;ldquo;We have a responsibility to protect your information. If we can&amp;rsquo;t, we don&amp;rsquo;t deserve it.&amp;rdquo; Signed by Mark Zuckerberg.
+This reminds me of when Slack took out a full page ad ahead of Microsoft&amp;rsquo;s announcement of their new team-based chat platform. There&amp;rsquo;s something ironic about these digital companies feeling compelled to go to print when the stakes are high, no?</description>
+    </item>
+    
+    <item>
+      <title>Dave Morin Kicks Around Creating a New, ‘Better’ Path</title>
+      <link>https://dreger.me/links/a-better-path/</link>
+      <pubDate>Thu, 22 Mar 2018 21:51:53 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/a-better-path/</guid>
+      <description>Dave Morin, former CEO and co-founder of private social networking app, Path:
+ Overwhelmed by requests to rebuild a better @Path. Considering doing it. If you are interested in working on such an idea, DM me. Let&amp;rsquo;s see if a passionate team forms. If so, we&amp;rsquo;ll do it.
+ Path, if you&amp;rsquo;ve never heard of it, was one of the many social networks launched in the late 2000&amp;rsquo;s, but it had a unique twist: a 50-person network limit.</description>
+    </item>
+    
+    <item>
+      <title>A Digital Protection Agency for the United States</title>
+      <link>https://dreger.me/links/ford-digital-protection-agency/</link>
+      <pubDate>Wed, 21 Mar 2018 23:30:35 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/ford-digital-protection-agency/</guid>
+      <description>Paul Ford, for Bloomberg Businessweek, on the United States&amp;rsquo; need for an agency dedicated to regulating companies that handle large amounts of personal, sensitive data:
+ The activist and internet entrepreneur Maciej Ceglowski once described big data as &amp;ldquo;a bunch of radioactive, toxic sludge that we don’t know how to handle.&amp;rdquo; Maybe we should think about Google and Facebook as the new polluters. Their imperative is to grow! They create jobs!</description>
+    </item>
+    
+    <item>
+      <title>Telltale Games Lived Long Enough to Become the Villain</title>
+      <link>https://dreger.me/links/toxic-telltale/</link>
+      <pubDate>Tue, 20 Mar 2018 22:46:01 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/toxic-telltale/</guid>
+      <description>Megan Farokhmanesh, The Verge, with an excellent feature on the rapid rise and subsequent crash of Telltale Games:
+ When Telltale released the first episode of The Walking Dead in April 2012, even some of the people who worked on the game were surprised by how positive the audience reaction was. By January 2013, the game had sold more than 8.5 million copies — or episodes — raking in more than $40 million in sales.</description>
+    </item>
+    
+    <item>
+      <title>HTTPS and the Secure Web</title>
+      <link>https://dreger.me/notes/https/</link>
+      <pubDate>Sun, 11 Mar 2018 19:50:10 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/https/</guid>
+      <description>Should every page you visit on the Internet be served over HTTPS? For banks and online stores, the answer is an obvious yes. But what about blogs, decades old web archives, and other bland online data? Do these documents deserve secured connections?
+Yes.
+However, for the past few weeks, spurred on by Google’s move to mark HTTP-only sites as “Not Secure” in Chrome, Dave Winer has asked a similar question, and argued — among other things — that this is a move by Google to seize control of the web:</description>
+    </item>
+    
+    <item>
+      <title>Strava Update Makes it Easier to Opt-Out of Aggregated Heatmaps</title>
+      <link>https://dreger.me/links/strava-heatmap-opt-out/</link>
+      <pubDate>Mon, 05 Mar 2018 22:07:47 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/strava-heatmap-opt-out/</guid>
+      <description>Remember how Strava&amp;rsquo;s anonymized heatmap accidentally revealed the locations and layouts of U.S. military bases? Well, they&amp;rsquo;ve pushed an update that makes your data&amp;rsquo;s inclusion in their visualizations more apparent and easier to disable. Good.
+Yet, these sorts of programs should really be opt-in, not opt-out. I&amp;rsquo;m not against using data to do novel and interesting things, but if your company wants to display my data in some extraneous endeavor, it&amp;rsquo;s on you to convince me why it&amp;rsquo;s worthwhile, not me to remember to tell you to stop.</description>
+    </item>
+    
+    <item>
+      <title>‘Alto’s Odyssey’ Now Available on iOS</title>
+      <link>https://dreger.me/links/altos-odyssey-now-available/</link>
+      <pubDate>Wed, 21 Feb 2018 23:30:21 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/altos-odyssey-now-available/</guid>
+      <description>Indie studio Snowman and the brilliant artist/developer Harry Nesbitt have created a simple, yet stunning, sequel to the sublime, endless snowboarding game Alto&amp;rsquo;s Adventure. It&amp;rsquo;s the type of game that feels larger than your phone screen, which is fitting, because you&amp;rsquo;ll be wishing for something bigger to fully appreciate the visuals and art direction.
+I&amp;rsquo;d recommend Odyssey at twice the price. For $5, it&amp;rsquo;s a steal.</description>
+    </item>
+    
+    <item>
+      <title>Secure Messaging App Signal Launches ‘The Signal Foundation’ With $50 Million Investment From WhatsApp Co-Founder Brian Acton</title>
+      <link>https://dreger.me/links/signal-foundation-brian-acton/</link>
+      <pubDate>Wed, 21 Feb 2018 22:50:00 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/signal-foundation-brian-acton/</guid>
+      <description>Andy Greenberg, Wired:
+ In the four or so years since it launched, end-to-end encrypted messaging app Signal has become the security community&amp;rsquo;s gold standard for surveillance-resistant communications. Its creators have built an encryption protocol that companies from WhatsApp to Facebook Messenger to Skypehave all added to their own products to offer truly private conversations to billions of people. And it&amp;rsquo;s done so as a non-profit with, at any given moment, a tiny staff that includes just two or three full-time coders.</description>
+    </item>
+    
+    <item>
+      <title>Your ‘Lite’ App Should Be Your Only App</title>
+      <link>https://dreger.me/notes/lite/</link>
+      <pubDate>Tue, 20 Feb 2018 12:10:32 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/lite/</guid>
+      <description>I&amp;rsquo;ve noticed a trend:
+Twitter Lite:
+ Today, we are rolling out Twitter Lite, a new mobile web experience which minimizes data usage, loads quickly on slower connections, is resilient on unreliable mobile networks, and takes up less than 1MB on your device. We also optimized it for speed, with up to 30% faster launch times as well as quicker navigation throughout Twitter.
+ YouTube Go:
+ the app is designed to be offline first and improve the experience of watching videos on a slower network; it gives you more control over data usage, by providing choice and transparency into the amount of data spent on streaming or saving videos.</description>
+    </item>
+    
+    <item>
+      <title>Chrome Enables Automatic Ad Filtering</title>
+      <link>https://dreger.me/links/chrome-ad-filtering-goes-live/</link>
+      <pubDate>Sat, 17 Feb 2018 10:16:37 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/chrome-ad-filtering-goes-live/</guid>
+      <description>I remain highly skeptical of Google — who made $27.2 billion in ad revenue last quarter — having any say in what ads Chrome will or won&amp;rsquo;t display. That said, the initial launch and implementation of Chrome&amp;rsquo;s native ad filtering seems honest enough, for now.
+If, however, the whole thing leaves you feeling a bit icky, Firefox Quantum is a great alternative to Chrome. I&amp;rsquo;ve been using it for the past few months and have yet to find a reason to switch back.</description>
+    </item>
+    
+    <item>
+      <title>Google Introduces AMP in Email Preview</title>
+      <link>https://dreger.me/links/amp-in-email/</link>
+      <pubDate>Sat, 17 Feb 2018 09:48:58 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/amp-in-email/</guid>
+      <description>Raymond Wainman for the G Suite Developers Blog:
+ Today, we&amp;rsquo;re announcing AMP for Email so that emails can be formatted and sent as AMP documents. As a part of this, we&amp;rsquo;re also kicking off the Gmail Developer Preview of AMP for Email-so once you&amp;rsquo;ve built your emails, you&amp;rsquo;ll be able to test them in Gmail.
+  AMP for Email opens up several new possibilities:
+   Design interactive components for email using a large library of supported AMP components like amp-carousel, amp-form, amp-bind, amp-list and more Help your content stay up-to-date and interactive for your users.</description>
+    </item>
+    
+    <item>
+      <title>Universities Create New Courses to Address the Ethics of Technology</title>
+      <link>https://dreger.me/links/computer-science-ethics/</link>
+      <pubDate>Tue, 13 Feb 2018 20:55:44 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/computer-science-ethics/</guid>
+      <description>Natasha Singer, New York Times:
+ The courses are emerging at a moment when big tech companies have been struggling to handle the side effects — fake news on Facebook, fake followers on Twitter, lewd children’s videos on YouTube — of the industry’s build-it-first mind-set. They amount to an open challenge to a common Silicon Valley attitude that has generally dismissed ethics as a hindrance.
+  “We need to at least teach people that there’s a dark side to the idea that you should move fast and break things,” said Laura Norén, a postdoctoral fellow at the Center for Data Science at New York University who began teaching a new data science ethics course this semester.</description>
+    </item>
+    
+    <item>
+      <title>Designing Apple’s Emoji</title>
+      <link>https://dreger.me/links/designing-apples-emoji/</link>
+      <pubDate>Mon, 12 Feb 2018 20:20:27 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/designing-apples-emoji/</guid>
+      <description>Angela Guzman, retelling the story of her 2008 summer in Cupertino, where she and fellow designer Raymond created several hundred of Apple&amp;rsquo;s original emojis:
+ My first emoji was the engagement ring, and I chose it because it had challenging textures like metal and a faceted gem, tricky to render for a beginner. The metal ring alone took me an entire day. Pretty soon, however, I could do two a day, then three, and so forth.</description>
+    </item>
+    
+    <item>
+      <title>A ‘Walden’ for the YouTube Age</title>
+      <link>https://dreger.me/links/walden-and-primitive-technology/</link>
+      <pubDate>Mon, 12 Feb 2018 12:23:15 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/walden-and-primitive-technology/</guid>
+      <description>Marissa Grunes, The Paris Review:
+ Primitive Technology was created two years ago by a man in Queensland, Australia, who builds huts, weapons, and tools using only naturally occurring materials. In all of his five- to ten-minute videos, the man wears only navy blue shorts, rarely looks at the camera, and never speaks.
+  It’s a niche concept, to be sure. The channel does not focus on historically accurate building techniques.</description>
+    </item>
+    
+    <item>
+      <title>The Privacy We Give Away</title>
+      <link>https://dreger.me/notes/the-privacy-we-give-away/</link>
+      <pubDate>Tue, 30 Jan 2018 12:34:59 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/the-privacy-we-give-away/</guid>
+      <description>Last November, Strava — the &amp;ldquo;social network for athletes&amp;rdquo; — released their annual global heatmap of user activity or &amp;ldquo;a direct visualization of Strava’s global network of athletes.&amp;rdquo; The report consists of 1 billion activities, 3 trillion latitude/longitude points, and over 10 terabytes of raw data. In short, it&amp;rsquo;s a staggering amount of personal data, anonymized and aggregated, and overlaid on a map.
+For two months, the report made little fanfare.</description>
+    </item>
+    
+    <item>
+      <title>DuckDuckGo Privacy Essentials</title>
+      <link>https://dreger.me/links/ddg-privacy-essentials/</link>
+      <pubDate>Fri, 26 Jan 2018 23:41:10 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/ddg-privacy-essentials/</guid>
+      <description>DuckDuckGo Founder and CEO, Gabriel Weinberg:
+ Today we’re taking a major step to simplify online privacy with the launch of fully revamped versions of our browser extension and mobile app, now with built-in tracker network blocking, smarter encryption, and, of course, private search – all designed to operate seamlessly together while you search and browse the web.
+  The DuckDuckGo browser extension and mobile app will also now show you a Privacy Grade rating (A-F) when you visit a website.</description>
+    </item>
+    
+    <item>
+      <title>Baremetrics Leaves Medium and Returns to Self-Published Blog</title>
+      <link>https://dreger.me/links/baremetrics-leaves-medium-for-blog/</link>
+      <pubDate>Fri, 26 Jan 2018 23:01:55 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/baremetrics-leaves-medium-for-blog/</guid>
+      <description>Founder of Baremetrics, Josh Pigford:
+ I realized Medium is really great about surfacing content, but it removes the face of it. It neutralizes all content to basically be author-agnostic. It’s like Walmart or Amazon in that you can buy from thousands of different brands, but you rarely actually know what brand you’re buying…you just know “I got it from Amazon.”
+  Same with content on Medium. Sure, you can see who the author is or what publication it’s on, but ultimately your takeaway is “I read this article on Medium”, and that’s not what I wanted.</description>
+    </item>
+    
+    <item>
+      <title>Chemistry Lessons Come to ‘Minecraft’</title>
+      <link>https://dreger.me/links/minecraft-chemistry-update/</link>
+      <pubDate>Mon, 22 Jan 2018 23:45:30 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/minecraft-chemistry-update/</guid>
+      <description>From the Minecraft: Education Edition product blog:
+ We are thrilled to bring chemistry into Minecraft with a new update for Minecraft: Education Edition. With input from chemistry teachers, students and Minecraft Global Mentors, the Chemistry Update offers educators and learners a fun, accessible way to explore chemistry within the immersive world of Minecraft. [&amp;hellip;]
+  Science education is driven by hands-on learning, but only half of fourth graders in the U.</description>
+    </item>
+    
+    <item>
+      <title>Image of Screen That Led to Hawaii’s Mistaken Ballistic Missile Alert</title>
+      <link>https://dreger.me/links/hawaii-missile-alert-ui/</link>
+      <pubDate>Tue, 16 Jan 2018 20:52:38 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/hawaii-missile-alert-ui/</guid>
+      <description>I&amp;rsquo;m not going to mock an interface that was obviously done by someone who might have a few other important things on their plate, but this is an incredibly misleading design. Thank God you can only send mobile alerts from here and not, you know, actual missiles.
+A practical, real example for why you should start your interface designs by focusing on the words.
+Aside: Although the correction took too long to get out, I thought the message on Hawaii&amp;rsquo;s digital highway signs, &amp;ldquo;missile alert / in error / there is no threat&amp;rdquo; was particularly terse and efficient.</description>
+    </item>
+    
+    <item>
+      <title>The Ethical Ambiguities and Legal Complexities of a World Run by Machines We Know Little About</title>
+      <link>https://dreger.me/links/who-serves-whom/</link>
+      <pubDate>Mon, 15 Jan 2018 21:22:35 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/who-serves-whom/</guid>
+      <description>iA, a design and consulting agency, in a ruminative entry on their company website where they hypothesize about a future where A.I. is left unchecked:
+ As crazy as this may sound, all of this is not Science Fiction. It is happening right now. Machines already filter, sort and choose the information we base our decisions upon. They count our votes. They sort the tasks we spend our time on, they choose the people we talk to and meet.</description>
+    </item>
+    
+    <item>
+      <title>‘Regarding the Em Dash’</title>
+      <link>https://dreger.me/links/em-dash/</link>
+      <pubDate>Mon, 08 Jan 2018 20:46:51 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/em-dash/</guid>
+      <description>Adam O’Fallon Price:
+ Periods, commas, colons, semi-colons: in their use or non-use and in their order and placement, can represent elaboration, conjecture, doubt, finality. And in aggregate, over the course of a text, the rhythms of punctuation advance an author’s worldview and personality as surely as any plot or theme. Patterns of punctuation usage are the writerly equivalent of an athlete’s go-to moves, or a singer’s peculiar timbre and range—those little dots and squiggles, in a sense, encode your voice.</description>
+    </item>
+    
+    <item>
+      <title>Start With Words</title>
+      <link>https://dreger.me/notes/start-with-words/</link>
+      <pubDate>Thu, 04 Jan 2018 18:41:59 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/start-with-words/</guid>
+      <description>I start most of my interface designs in TextEdit. Why? Because it forces me to focus on the words. Words are like stock in a delicious stew. If you don&amp;rsquo;t have good stock, the whole meal feels off.
+TextEdit-the-design-tool is surprisingly robust. Let me give you an example.
+Say we&amp;rsquo;ve got to design a rather standard looking confirmation modal with two options for the user. Open TextEdit and start writing:</description>
+    </item>
+    
+    <item>
+      <title>AlphaZero Crushes the Game of Chess</title>
+      <link>https://dreger.me/links/alphazero-checkmates-stockfish/</link>
+      <pubDate>Sun, 17 Dec 2017 17:18:19 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/alphazero-checkmates-stockfish/</guid>
+      <description>Remember how AlphaGo — Google&amp;rsquo;s Go-playing AI — went 5-0 against the reigning, 3-time European Go champion? Well, Google&amp;rsquo;s DeepMind team is back with AlphaZero, and it&amp;rsquo;s just crushed the game of chess. Mike Klein, writing for the Chess.com company blog:
+ A little more than a year after AlphaGo sensationally won against the top Go player, the artificial-intelligence program AlphaZero has obliterated the highest-rated chess engine.
+  Stockfish, which for most top players is their go-to preparation tool, and which won the 2016 TCEC Championship and the 2017 Chess.</description>
+    </item>
+    
+    <item>
+      <title>Firefox UI Guidelines for Voice and Tone</title>
+      <link>https://dreger.me/links/firefox-photon-voice-and-tone/</link>
+      <pubDate>Wed, 06 Dec 2017 21:51:01 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/firefox-photon-voice-and-tone/</guid>
+      <description>The style guide itself is good, but what drew my attention was the visual representation of tone ranges. Personally, I find the visual a far more clear example of what the Firefox UI copy should read like than a bullet list of examples would have conveyed. I also appreciate how a range implies flexibility for the writer to approach the language from a few different angles. A good reminder that product design writing isn&amp;rsquo;t about how it&amp;rsquo;s written, it&amp;rsquo;s about how it reads.</description>
+    </item>
+    
+    <item>
+      <title>‘Every Frame a Painting’ Ends</title>
+      <link>https://dreger.me/links/every-frame-a-painting-ends/</link>
+      <pubDate>Sun, 03 Dec 2017 17:40:30 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/every-frame-a-painting-ends/</guid>
+      <description>This announcement will make two groups of people sad. One group will be the millions who’ve devoured every single one of Tony and Taylor’s brilliantly done video essays, and the other group will be those who’ve just discover them today.</description>
+    </item>
+    
+    <item>
+      <title>PR to English Translation for Selected Portions of EA’s Response to Backlash Over ‘Star Wars Battlefront II’ Microtransactions</title>
+      <link>https://dreger.me/notes/translation-ea-battlefront-microtransactions/</link>
+      <pubDate>Thu, 16 Nov 2017 22:31:59 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/translation-ea-battlefront-microtransactions/</guid>
+      <description>&amp;ldquo;An Update on Star Wars Battlefront II&amp;quot;, from the desk of Oskar Gabrielson, GM, DICE.
+ Thank you to everyone in our community for being the passionate fans that you are.
+ And a special thank you to Twitter, who last week decided to let you dweebs have twice the number of characters to yell at us with.
+ Our goal has always been to create the best possible game for all of you – devoted Star Wars fans and game players alike.</description>
+    </item>
+    
+    <item>
+      <title>Dissolvable Pain Reliever Film From University of Akron Could Help Fight Opioid Epidemic</title>
+      <link>https://dreger.me/links/akron-polymer-film/</link>
+      <pubDate>Wed, 15 Nov 2017 22:47:54 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/akron-polymer-film/</guid>
+      <description>Exciting bit of local news. For this story, we turn it over to Bob Jones at News 5 Cleveland to tell us about some pioneering research from the Polymer Science group at the University of Akron. Take it away, Bob:
+ Scientists, led by Polymer Science Professor Dr. Matt Becker, have developed a polymer film that could be implanted after knee, hip, shoulder and hernia surgeries.
+  A non-opiate pain reliever on the film would dissolve over a few days into the body and the polymer would degrade in the body over a few weeks.</description>
+    </item>
+    
+    <item>
+      <title>Firefox Quantum</title>
+      <link>https://dreger.me/links/firefox-quantum/</link>
+      <pubDate>Tue, 14 Nov 2017 21:51:34 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/firefox-quantum/</guid>
+      <description>Firefox—you know, that web browser you used to use—is fast again. Mark Mayo for the Mozilla Blog:
+ The first thing you&amp;rsquo;ll notice is the speed. Go on, open some tabs and have some fun. The second thing you&amp;rsquo;ll notice is the new User Interface (UI). We call this initiative Photon, and its goal is to modernize and unify anything that we call Firefox while taking advantage of the speedy new engine.</description>
+    </item>
+    
+    <item>
+      <title>Apple’s Best Product is Privacy</title>
+      <link>https://dreger.me/links/apples-best-product-is-privacy/</link>
+      <pubDate>Tue, 14 Nov 2017 21:41:17 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/apples-best-product-is-privacy/</guid>
+      <description>John Patrick Pullen, Time:
+ There&amp;rsquo;s this photo of my kids in the bath that, well, I&amp;rsquo;d rather not tell you about. I mean, it&amp;rsquo;s incredibly cute and I&amp;rsquo;d love to show it to you, but I&amp;rsquo;m also a private person, so it wouldn&amp;rsquo;t be right to go into details. But I will say this: though it&amp;rsquo;s one of my favorite possessions, this picture doesn&amp;rsquo;t physically exist. [&amp;hellip;]
+  As precious as this image is, I don&amp;rsquo;t have it stored on a flash drive attached to my keychain, or in some other ultra-safe place.</description>
+    </item>
+    
+    <item>
+      <title>Airplane Mode’s ‘Dance Like You Mean It’, the World’s First Animoji Music Video</title>
+      <link>https://dreger.me/links/airplane-mode-animoji/</link>
+      <pubDate>Fri, 03 Nov 2017 20:50:41 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/airplane-mode-animoji/</guid>
+      <description>The iPhone X has been out for less than a day, and Animoji are already a sensation.
+Update: My favorite, so far.</description>
+    </item>
+    
+    <item>
+      <title>‘The Suffix That Tells the Story of Modern Science’</title>
+      <link>https://dreger.me/links/a-tale-of-trons/</link>
+      <pubDate>Mon, 30 Oct 2017 22:39:15 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/a-tale-of-trons/</guid>
+      <description>David Munns, in an excellent piece for Aeon:
+ As a teenager, I was witness to the last gasps of a 20th-century lexical leitmotif. The suffix ‘-tron’, along with ‘-matic’ and ‘-stat’, are what the historian Robert Proctor at Stanford University calls embodied symbols. Like the heraldic shields of ancient knights, these morphemes were painted onto the names of scientific technologies to proclaim one’s history and achievements to friends and enemies alike.</description>
+    </item>
+    
+    <item>
+      <title>The NYT is Now Available as a Tor Onion Service</title>
+      <link>https://dreger.me/links/nyt-onion-service/</link>
+      <pubDate>Mon, 30 Oct 2017 21:36:54 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/nyt-onion-service/</guid>
+      <description>Runa Sandvik, Director of Information Security at The New York Times:
+ The New York Times’ Onion Service is both experimental and under development. This means that certain features, such as logins and comments, are disabled until the next phase of our implementation. We will be fine-tuning site performance, so there may be occasional outages while we make improvements to the service. Our goal is to match the features currently available on the main New York Times website.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Stops Making Kinects, but the Tech Lives On</title>
+      <link>https://dreger.me/links/microsoft-stops-making-kinects/</link>
+      <pubDate>Wed, 25 Oct 2017 18:48:17 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/microsoft-stops-making-kinects/</guid>
+      <description>Mark Wilson, Fast Company:
+ &amp;ldquo;When we introduced Xbox One, we designed it to have the best experience with the Kinect. That was our goal with the Xbox One launch,&amp;rdquo; says [Matthew Lapsen, GM of Xbox Devices Marketing]. &amp;ldquo;And like all product launches, you monitor that over time, you learn and adjust.&amp;rdquo; In practice, the Xbox&amp;rsquo;s target demo cared more about a few extra polygons than some new paradigm in human-computer interaction.</description>
+    </item>
+    
+    <item>
+      <title>The FBI’s Fight With Encryption Continues</title>
+      <link>https://dreger.me/links/fbi-director-wray-and-encrypted-devices/</link>
+      <pubDate>Tue, 24 Oct 2017 22:18:31 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/fbi-director-wray-and-encrypted-devices/</guid>
+      <description>Michael Balsamo, Associated Press:
+ In the first 11 months of the fiscal year, federal agents were unable to access the content of more than 6,900 mobile devices, [FBI Director Christopher] said in a speech at the International Association of Chiefs of Police conference in Philadelphia.
+  “To put it mildly, this is a huge, huge problem,” Wray said. “It impacts investigations across the board — narcotics, human trafficking, counterterrorism, counterintelligence, gangs, organized crime, child exploitation.</description>
+    </item>
+    
+    <item>
+      <title>‘What Everybody Gets Wrong About Jekyll and Hyde’</title>
+      <link>https://dreger.me/links/padnick-jekyll-and-hyde/</link>
+      <pubDate>Tue, 24 Oct 2017 21:04:40 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/padnick-jekyll-and-hyde/</guid>
+      <description>Steven Padnick:
+ And when I say everybody, I mean everybody. Not just most people today don’t understand the original story—though that’s true—but every retelling of the story, from the earliest stage plays to Steven Moffat’s otherwise brilliant miniseries Jekyll, misses a key point of Robert Louis Stevenson’s original story:
+  There is no Mr. Hyde.
+ Spoilers, obviously. Does that even need said, if the title is more than 100 years old?</description>
+    </item>
+    
+    <item>
+      <title>Fixing Extremely Poor or Muffled Call Quality When Using AirPods and MacOS</title>
+      <link>https://dreger.me/notes/airpods-macos-call-quality-fix/</link>
+      <pubDate>Mon, 23 Oct 2017 21:38:00 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/airpods-macos-call-quality-fix/</guid>
+      <description>The Fix: You need to change your MacOS sound settings so that your output goes to the AirPods and your input is set to &amp;ldquo;Internal Microphone&amp;rdquo; — if you use the AirPods for both input and output, the audio quality takes a noticeable hit.
+A few months ago, the voice and video call audio on my Mac took a nosedive. Call participants sounded hollow and fuzzy, and I sounded the same to them.</description>
+    </item>
+    
+    <item>
+      <title>Darbian Sets New ‘The Super Mario Bros.’ Speedrun World Record</title>
+      <link>https://dreger.me/links/darbian-super-mario-bros-speedrun-wr/</link>
+      <pubDate>Mon, 23 Oct 2017 20:43:20 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/darbian-super-mario-bros-speedrun-wr/</guid>
+      <description>Darbian, a video game speedrunner from Virginia, recently set a new world record for The Super Mario Bros., by shaving off .35 seconds from the previous title. Watch the video; it&amp;rsquo;s an impressive bit of skill, requiring near instant reaction time and over 20,000 practice attempts. One neat visual I hadn&amp;rsquo;t seen before was a real time display of Darbian&amp;rsquo;s heart rate. I bet we see more of that from speedrunners in the future.</description>
+    </item>
+    
+    <item>
+      <title>Activision Patents Using Unbalanced Matchmaking to Promote In-Game Purchases</title>
+      <link>https://dreger.me/links/activision-matchmaking-and-microtransactions-patent/</link>
+      <pubDate>Wed, 18 Oct 2017 23:01:39 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/activision-matchmaking-and-microtransactions-patent/</guid>
+      <description>Brian Crecente, Glixel, covering a devious-sounding patent application from 2015, which was recently granted to video game publisher Activision:
+ &amp;ldquo;For instance, the microtransaction engine may match a more expert/marquee player with a junior player to encourage the junior player to make game-related purchases of items possessed/used by the marquee player. A junior player may wish to emulate the marquee player by obtaining weapons or other items used by the marquee player.</description>
+    </item>
+    
+    <item>
+      <title>FIFA 18 vs. PES 2018</title>
+      <link>https://dreger.me/links/fifa-18-vs-pes-2018/</link>
+      <pubDate>Wed, 18 Oct 2017 21:25:37 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/fifa-18-vs-pes-2018/</guid>
+      <description>Luke Plunkett, Kotaku:
+ So while it’s tempting to spend pages here banging on about the specific ways in which PES 2018&amp;rsquo;s mastery of the actual sport of football (as it’s played) is unmatched, or just what it is about FIFA that makes it irresistible every year in spite of its glaring flaws, I’m just going to cut to the chase.
+  PES 2018 is the better game this year because it plays a better game of football.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Protection by Google Helps Protect Users at Elevated Risk of Online Attack</title>
+      <link>https://dreger.me/links/google-advanced-protection/</link>
+      <pubDate>Tue, 17 Oct 2017 22:17:22 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/google-advanced-protection/</guid>
+      <description>Advanced Protection works by focusing on, what Google calls, three core defenses:
+ Requiring a physical, USB Security Key to log in to your account. Only allowing specific apps to access to your Google data. For now, the only apps that can access your data will be Google&amp;rsquo;s own. Having additional reviews and procedures for any account changes or recovery requests.  This program isn&amp;rsquo;t for everyone—Google&amp;rsquo;s clear on that—but for journalists, campaign staffers, or anyone who might be at a higher risk for hacking or phishing, this appears to be an obvious preventive step.</description>
+    </item>
+    
+    <item>
+      <title>‘How the United States Missed the World Cup, Minute by Minute’</title>
+      <link>https://dreger.me/links/usmnt-out-of-2018-world-cup/</link>
+      <pubDate>Wed, 11 Oct 2017 22:21:56 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/usmnt-out-of-2018-world-cup/</guid>
+      <description>Yesterday, the United States Men&amp;rsquo;s National Team—with a 2-1 loss to Trinidad and Tobago—failed to qualify for next year&amp;rsquo;s World Cup. The last time this happened was 1986.
+A lot of things went wrong to get us here, but I&amp;rsquo;m still upset. A few brief, emotional, and irrational thoughts:
+ Missing the World Cup will take a lot of wind out of the sails for United States soccer. It really felt like we were building up some good momentum, too.</description>
+    </item>
+    
+    <item>
+      <title>Making Marvin Visions</title>
+      <link>https://dreger.me/links/triay-on-marvin-visions/</link>
+      <pubDate>Wed, 11 Oct 2017 21:46:51 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/triay-on-marvin-visions/</guid>
+      <description>Mathieu Triay, creator of that lovely Marvin Visions typeface I pointed out a few weeks ago, wrote a small guide on getting started with typeface design. Fun read and plenty of visuals.</description>
+    </item>
+    
+    <item>
+      <title>NASA’s Cozmic Qwest</title>
+      <link>https://dreger.me/links/nasa-cozmic-qwest/</link>
+      <pubDate>Wed, 11 Oct 2017 21:23:42 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/nasa-cozmic-qwest/</guid>
+      <description>The Verge&amp;rsquo;s Brian Patrick Byrne with a bizarre story on Cosmic Quest, a video game in NASA’s Kennedy Space Center Visitor Complex:
+ Cosmic Quest, developed by a gaming company called Creative Kingdoms, officially opened at the visitor complex in March 2016. The game costs $19.95, and allows players to “launch a rocket, redirect an asteroid, build a Martian habitat, and perform scientific experiments aboard the International Space Station.” But it doesn’t seem to have been properly vetted.</description>
+    </item>
+    
+    <item>
+      <title>Fake iTunes Password Dialogs Look Exactly Like the Real Thing</title>
+      <link>https://dreger.me/links/krause-ios-password-phishing/</link>
+      <pubDate>Wed, 11 Oct 2017 20:44:37 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/krause-ios-password-phishing/</guid>
+      <description>Everyone&amp;rsquo;s seen the &amp;ldquo;Sign In to iTunes Store&amp;rdquo; dialog, where we&amp;rsquo;re asked to enter our passwords to confirm purchases or view certain iCloud settings. The problem, as pointed out by Felix Krause, is that the system dialog UI is available to all app developers, meaning a malicious app could present a fake password prompt. Considering how conditioned we are to quickly fill out and submit these dialogs, this particular phishing attack is potent.</description>
+    </item>
+    
+    <item>
+      <title>Springboard Gridlock</title>
+      <link>https://dreger.me/notes/springboard-gridlock/</link>
+      <pubDate>Sat, 07 Oct 2017 12:08:23 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/springboard-gridlock/</guid>
+      <description>I like my iPhone 7, but big screens pose a reachability problem. Apple even has a mechanism within iOS called Reachability, where lightly tapping the home button twice slides the entire UI down, so the oft-on-top navigation elements are easier to hit. After several years of large iPhones, designers like Max Rudberg are starting to explore moving key UI elements to the bottom of the screen. This is good, because I like making common UI elements easier to reach, and I&amp;rsquo;m pro- anything that stops me from tempting fate and gravity whenever I&amp;rsquo;m trying to walk and tap the top-left of my iPhone&amp;rsquo;s screen.</description>
+    </item>
+    
+    <item>
+      <title>Mario Was Punching Yoshi the Whole Time</title>
+      <link>https://dreger.me/links/yoshi-has-a-concussion/</link>
+      <pubDate>Sat, 07 Oct 2017 11:44:57 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/yoshi-has-a-concussion/</guid>
+      <description>Well, you know, childlike innocence doesn&amp;rsquo;t last forever.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Tries 280</title>
+      <link>https://dreger.me/links/twitter-280/</link>
+      <pubDate>Tue, 26 Sep 2017 22:19:41 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/twitter-280/</guid>
+      <description>Aliza Rosen and Ikuhiro Ihara, writing for the Twitter blog:
+ We want every person around the world to easily express themselves on Twitter, so we&amp;rsquo;re doing something new: we&amp;rsquo;re going to try out a longer limit, 280 characters, in languages impacted by cramming (which is all except Japanese, Chinese, and Korean). [&amp;hellip;]
+  We understand since many of you have been Tweeting for years, there may be an emotional attachment to 140 characters – we felt it, too.</description>
+    </item>
+    
+    <item>
+      <title>Visions, a Literary Science Fiction Magazine</title>
+      <link>https://dreger.me/links/visions-magazine/</link>
+      <pubDate>Fri, 22 Sep 2017 22:36:35 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/visions-magazine/</guid>
+      <description>Visions is a new quarterly publication that aims to introduce science fiction to a wider audience. Mixing classic texts and new writing, it focuses on short stories to reflect the breadth of style and ideas within the genre.
+ No word on pricing, but everything about this intrigues me. They’re also using a typeface called Marvin Visions, which, to my eyes, is a perfect pairing of font to content.</description>
+    </item>
+    
+    <item>
+      <title>iOS 11: The Pixel Envy Review</title>
+      <link>https://dreger.me/links/heer-ios-11-review/</link>
+      <pubDate>Thu, 21 Sep 2017 21:41:51 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/heer-ios-11-review/</guid>
+      <description>Here&amp;rsquo;s the thing about Nick Heer&amp;rsquo;s yearly iOS reviews: They&amp;rsquo;re my favorite iOS pieces to read. Aside from the great writing and photos, Mr. Heer crafts some of the most cogent, contextual conversations about iOS that I get to read on the web. These aren&amp;rsquo;t short reviews, but they&amp;rsquo;re edited well.
+This year, Mr. Heer changed up his format to be less about the details and more about the holistic impact of iOS 11 on you and your devices.</description>
+    </item>
+    
+    <item>
+      <title>‘All a writer needs is talent &amp; ink.’</title>
+      <link>https://dreger.me/links/jkr-talent-and-ink/</link>
+      <pubDate>Thu, 21 Sep 2017 21:34:48 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/jkr-talent-and-ink/</guid>
+      <description>Sage writing advice from J.K. Rowling.
+Also, how great would &amp;ldquo;Talent and Ink&amp;rdquo; be for a blog name? Sure, there&amp;rsquo;s a small whiff of hubris, but I still like it.</description>
+    </item>
+    
+    <item>
+      <title>The ‘Economic Model’ Is Corrupt</title>
+      <link>https://dreger.me/links/eff-safari-privacy/</link>
+      <pubDate>Thu, 21 Sep 2017 21:30:04 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/eff-safari-privacy/</guid>
+      <description>Andrés Arrieta and Alan Toner, writing for the Electronic Frontier Foundation:
+ With the new Safari 11 update, Apple takes an important step to protect your privacy, specifically how your browsing habits are tracked and shared with parties other than the sites you visit. In response, Apple is getting criticized by the advertising industry for &amp;ldquo;destroying the Internet&amp;rsquo;s economic model.&amp;rdquo; While the advertising industry is trying to shift the conversation to what they call the economic model of the Internet, the conversation must instead focus on the indiscriminate tracking of users and the violation of their privacy.</description>
+    </item>
+    
+    <item>
+      <title>Meet Peter Bale, the Launch Editor of WikiTribune</title>
+      <link>https://dreger.me/links/wikitribune-peter-bale/</link>
+      <pubDate>Wed, 09 Aug 2017 21:16:06 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/wikitribune-peter-bale/</guid>
+      <description>Benjamin Mullin, Poynter:
+ There&amp;rsquo;s still much to be determined about WikiTribune, the as-yet unlaunched community news platform dreamed up by Wikipedia co-founder Jimmy Wales. How many stories will it publish per day? How will it decide what&amp;rsquo;s news? How will volunteers work alongside professional journalists?
+  But as of this morning, WikiTribune has settled on the person responsible for answering those questions. Peter Bale, who was previously chief executive officer of the Center for Public Integrity and vice president of CNN International, has been named WikiTribune&amp;rsquo;s launch editor, in charge of turning Wales&amp;rsquo; vision for a community-driven news organization into a reality.</description>
+    </item>
+    
+    <item>
+      <title>‘Thoughts on the Nintendo Switch User Interface’</title>
+      <link>https://dreger.me/links/deets-nintendo-switch-ui/</link>
+      <pubDate>Tue, 27 Jun 2017 12:03:17 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/deets-nintendo-switch-ui/</guid>
+      <description>Charlie Deets:
+ I wish I could rip into this system more and let you know how they could have done things better, but Nintendo really nailed so much of this interface out the gate. My main concern is what feature creep will do to this experience over time. I’ve seen the PS4 start as a fairly clean interface and become noisy and less reliable for the sake of added engagement.</description>
+    </item>
+    
+    <item>
+      <title>All Ads Are Equal, but Some Ads Are More Equal Than Others</title>
+      <link>https://dreger.me/notes/advertisement-farm/</link>
+      <pubDate>Sun, 11 Jun 2017 07:40:38 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/advertisement-farm/</guid>
+      <description>This past quarter, Alphabet Inc., Google’s parent company, reported revenue of over $24 billion, with nearly all of that money coming from Google search, display, and video advertising. This month, Google has announced it intends to bring native ad filtering to Chrome, the most popular browser on the planet.
+Here’s Google SVP of Ads and Commerce, Sridhar Ramaswamy, in a blog post titled, “Building a better web for everyone”:
+ We believe online ads should be better.</description>
+    </item>
+    
+    <item>
+      <title>H. Moser &amp; Cie&#39;s Swiss Alp Watch Zzzz</title>
+      <link>https://dreger.me/links/swiss-alp-watch-zzzz/</link>
+      <pubDate>Fri, 09 Jun 2017 23:29:08 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/swiss-alp-watch-zzzz/</guid>
+      <description>H. Moser &amp;amp; Cie:
+ Looking like a smartwatch which is powered off or on standby, the Swiss Alp Watch Zzzz from H. Moser &amp;amp; Cie. cultivates this ambiguity in irreverent fashion. Behind its contemporary design lies a 100% mechanical watch. The black dial — stripped not just of any signature, but also of its indices — is strictly minimalist. On this model, there is no interface: the Swiss Alp Watch Zzzz is designed to display the time, something it does beautifully.</description>
+    </item>
+    
+    <item>
+      <title>iOS 11 Tightens Location Privacy, Displays Banner When Location Is Being Accessed in the Background</title>
+      <link>https://dreger.me/links/ios-11-location-privacy/</link>
+      <pubDate>Thu, 08 Jun 2017 23:31:36 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/ios-11-location-privacy/</guid>
+      <description>In iOS 10, there are three options a user can select from when prompted for location access:
+ Only While Using the App Always Allow Don&amp;rsquo;t Allow  Most apps should only ever need the first option, and even for ride sharing or locally aware services, some users would prefer to only reveal their location at explicit times, not constantly.
+Unfortunately, users currently have little choice in the matter, as any app can remove the &amp;ldquo;Only While Using the App&amp;rdquo; option from the location prompt.</description>
+    </item>
+    
+    <item>
+      <title>Boutique Smartphones</title>
+      <link>https://dreger.me/links/heer-boutique-smartphones/</link>
+      <pubDate>Sun, 04 Jun 2017 23:30:39 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/heer-boutique-smartphones/</guid>
+      <description>Nick Heer, writing about the lack of an experimental, boutique market for smartphones and how Andy Rubin&amp;rsquo;s new company, Essential, and their Essential Phone might be the first to carve out a niche:
+ So why isn’t there a boutique manufacturer of smartphones, like there is in many other industries? Why isn’t there a company doing interesting things with the basic smartphone formula of a screen, a battery, and a cellular radio?</description>
+    </item>
+    
+    <item>
+      <title>Mario Mandžukić’s Stunning Goal in the Champions League Final</title>
+      <link>https://dreger.me/links/mandzukic-champions-league-final-goal/</link>
+      <pubDate>Sun, 04 Jun 2017 21:58:54 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/mandzukic-champions-league-final-goal/</guid>
+      <description>Juventus&amp;rsquo; Mario Mandžukić had one of the best goals you will ever see in soccer, let alone in a Champions League Final. Two passes, six touches, all in the air, ending with an overhead bicycle.
+Real Madrid may have handily won the match 4–1, but Mandžukić&amp;rsquo;s goal is all anyone&amp;rsquo;s talking about. Incredible.
+Update: Here&amp;rsquo;s an unofficial video of the goal that includes the commentators&amp;rsquo; reaction.</description>
+    </item>
+    
+    <item>
+      <title>AirPods</title>
+      <link>https://dreger.me/notes/airpods/</link>
+      <pubDate>Sat, 03 Jun 2017 15:40:11 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/airpods/</guid>
+      <description>These are my first Bluetooth headphones. There are things I like about AirPods that are probably true for any wireless headphones. That said, I think AirPods distinguish themselves in two important ways: a convenient and slim charging case for when you’re on-the-go, and the best wireless pairing process I’ve ever experienced, hands-down, bar none.
+Case &amp;amp; Charging The case is made of smooth, white plastic, reminiscent of the plastic MacBooks or Magic Mouse.</description>
+    </item>
+    
+    <item>
+      <title>The Wall Street Journal Login (Almost) Every Journalist Knew</title>
+      <link>https://dreger.me/links/wsj-media-media/</link>
+      <pubDate>Sun, 28 May 2017 20:39:47 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/wsj-media-media/</guid>
+      <description>Matthew Zeitlin, Buzzfeed:
+ For years, one of the best/worst kept secrets in media circles was a login that unlocked the Wall Street Journal&amp;rsquo;s formidable paywall. Username: media. Password: media. [&amp;hellip;]
+  For an industry filled with insatiable loudmouths and gossips, media-media was kept impressively quiet, shared among reporters, but not so widely that it became public knowledge. Reporters outside of the Journal’s Midtown headquarters were so tight-lipped that many WSJ reporters had no idea that media-media even existed.</description>
+    </item>
+    
+    <item>
+      <title>Atlassian Design Guidelines</title>
+      <link>https://dreger.me/links/atlassian-design-guidelines/</link>
+      <pubDate>Tue, 16 May 2017 22:02:46 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/atlassian-design-guidelines/</guid>
+      <description>Always fun to peruse how other companies approach design, and I appreciate seeing sections that acknowledge the importance of good writing in product design.</description>
+    </item>
+    
+    <item>
+      <title>United States Senate Approves Secure Messaging App Signal for Staffer Use, Moves All Sites to HTTPS</title>
+      <link>https://dreger.me/links/senate-approves-signal/</link>
+      <pubDate>Tue, 16 May 2017 21:22:03 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/senate-approves-signal/</guid>
+      <description>Zach Whittaker, ZDNet, reporting on a recent letter by Sen. Ron Wyden (D-OR), relayed to Senate staffers by the Sergeant at Arms. From the letter itself:
+ I [Senator Wyden] have long argued that strong, backdoor-free encryption is an important cybersecurity technology that the government should be embracing, not seeking to regulate or outlaw. My own Senate website, which has used HTTPS by default since 2015, was the first Senate website to do so.</description>
+    </item>
+    
+    <item>
+      <title>Apple Dubai Mall Opens With Unique ‘Solar Wings’ Design</title>
+      <link>https://dreger.me/links/apple-dubai-mall/</link>
+      <pubDate>Thu, 27 Apr 2017 23:44:33 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/apple-dubai-mall/</guid>
+      <description>Apple PR:
+ To mitigate Dubai’s climate, Foster + Partners designed eighteen 37.5-foot-high motorized “Solar Wings” that respond to the ever-changing environmental conditions. When the sun is at its hottest they cool the store, and in the evenings they open to welcome everyone to the public terrace. Inspired by the the traditional Arabic Mashrabiya, each “Solar Wing” is locally fabricated from 340 carbon fiber reinforced polymer rods, and at 180 feet wide, the 18 panels make up one of the world’s largest kinetic art installations.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Launches Echo Look, a $200 Camera That Uses Machine Learning to Help You Choose an Outfit</title>
+      <link>https://dreger.me/links/amazon-echo-look/</link>
+      <pubDate>Wed, 26 Apr 2017 23:21:03 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/amazon-echo-look/</guid>
+      <description>Mike Murphy, Quartz:
+ The online retailer is pitching the Echo Look as a fashion-forward device, meant to help you figure out what from your wardrobe suits you best every day. The device’s app ships with software called “Style Check,” which Amazon describes as “a new service that combines machine learning algorithms with advice from fashion specialists,” that lets users compare two photos taken through the Look to decide which outfit is better.</description>
+    </item>
+    
+    <item>
+      <title>‘What Happened to Who?’</title>
+      <link>https://dreger.me/links/what-happened-to-who/</link>
+      <pubDate>Tue, 25 Apr 2017 21:13:39 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/what-happened-to-who/</guid>
+      <description>Frank Bruni, in an op-ed for The New York Times:
+ Instead of saying “people who,” Donald Trump said “people that.” Marco Rubio followed suit. Even Jeb Bush, putatively the brainy one, was “that”-ing when he should have been “who”-ing, so I was cringing when I should have been oohing.
+  It’s always a dangerous thing when politicians get near the English language: Run for the exits and cover the children’s ears.</description>
+    </item>
+    
+    <item>
+      <title>Unroll.me, Unravelled</title>
+      <link>https://dreger.me/notes/unrollme-unravelled/</link>
+      <pubDate>Mon, 24 Apr 2017 22:40:44 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/unrollme-unravelled/</guid>
+      <description>Yesterday, Mike Isaac of The New York Times wrote a profile on Uber C.E.O. Travis Kalanick and his drive to turn Uber into a winning machine, regardless the cost. It&amp;rsquo;s a fascinating piece, and you should make time to read it.
+But in Mr. Isaac’s digging, he unearthed some unsettling information about another company, Unroll.me. Owned by Slice Intelligence, Unroll.me labels itself as a way to “clean up your inbox”, by intercepting and archiving your email, and then sending you a simple summary of all your receipts and newsletters.</description>
+    </item>
+    
+    <item>
+      <title>‘Breath of the Wild’ for Nintendo Switch Outsells Actual Switch Consoles</title>
+      <link>https://dreger.me/links/nintendo-sold-a-switchton-of-zelda/</link>
+      <pubDate>Sun, 23 Apr 2017 14:06:00 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/nintendo-sold-a-switchton-of-zelda/</guid>
+      <description>Nintendo: 906,000 Nintendo Switch consoles and over 1.3 million copies of The Legend of Zelda: Breath of the Wild (925,000 for Nintendo Switch + 460,000 for Wii U) were sold in the U.S. this March. According to Nintendo, this makes the Nintendo Switch and Breath of the Wild two of the fastest selling systems and games of all time.
+Impressive numbers, and all during a month not traditionally known for console launches.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Journalism Certification Is Nothing More Than a Guide to Using Facebook</title>
+      <link>https://dreger.me/links/facebook-journalism-certification/</link>
+      <pubDate>Thu, 20 Apr 2017 21:06:25 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/facebook-journalism-certification/</guid>
+      <description>Natt Garun, the Verge:
+ Let’s take a step back: this is not a Facebook guide to how to be a journalist. It’s the Facebook guide to how to use Facebook. There were no questions about journalistic integrity, such as verifying your sources, fact-checking, or how to develop your interview skills. Instead, the final assessment questions ranged from technical (“Why might a journalist tag the location of a Facebook Live video broadcast?</description>
+    </item>
+    
+    <item>
+      <title>Before You Ship</title>
+      <link>https://dreger.me/notes/before-you-ship/</link>
+      <pubDate>Tue, 18 Apr 2017 19:38:40 -0400</pubDate>
+      
+      <guid>https://dreger.me/notes/before-you-ship/</guid>
+      <description>These are the questions our designers ask one another before any user-facing design goes live. Think of this as a checklist, like the ones they use at NASA before a takeoff. It&amp;rsquo;s a simple tool that helps ensure all designs meet the same requirements, and it&amp;rsquo;s easily understood by new and seasoned designers.
+Checklist Why are you building this? What&amp;rsquo;s the value for the customer? How does this benefit our company?</description>
+    </item>
+    
+    <item>
+      <title>Princeton, Stanford Develop Perceptual Ad-Blocking, Which Uses Computer Vision to Block Ads</title>
+      <link>https://dreger.me/links/princeton-stanford-ad-blocking/</link>
+      <pubDate>Tue, 18 Apr 2017 17:45:52 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/princeton-stanford-ad-blocking/</guid>
+      <description>Researches Grant Storey, Dillon Reisman, Arvind Narayanan, and Jonathan Mayer, in a draft of an upcoming paper titled &amp;ldquo;The Future of Ad Blocking: An Analytical Framework and New Techniques&amp;rdquo; (PDF):
+ Thus we propose perceptual ad blocking which works radically differently from current ad blockers. It deliberately ignores useful information in markup and limits itself to visually salient information, mimicking how a human user would recognize ads. We use lightweight computer vision techniques to implement such a tool and show that it defeats attempts to obfuscate the presence of ads.</description>
+    </item>
+    
+    <item>
+      <title>Next AP Stylebook Drops the Hypen, Capital ‘S’ From ‘Esports’</title>
+      <link>https://dreger.me/links/ap-esports/</link>
+      <pubDate>Thu, 30 Mar 2017 21:16:06 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/ap-esports/</guid>
+      <description>Announced at last weekend&amp;rsquo;s American Copy Editors Society meeting, the Associated Press now recommends referring to competitive video games as &amp;lsquo;esports&amp;rsquo;, not &amp;lsquo;eSports&amp;rsquo; or &amp;lsquo;e-sports&amp;rsquo;.
+I consider the AP Stylebook one of the more liberal style guide, but giving esports the same treatment as email, both lowercased and hyphen-less, is indicative of a significant trend in public perception and usage. According to the AP, esports are now mainstream.
+(I count 12 colleges that offer varsity esports programs (with a surprisingly strong showing from my home state), and in 2014, video game &amp;lsquo;League of Legends&amp;rsquo; drew 27 million viewers for its final match, which was more than that year&amp;rsquo;s final games of the World Series (23.</description>
+    </item>
+    
+    <item>
+      <title>Sketch’s New, Open File Format</title>
+      <link>https://dreger.me/links/sketch-json/</link>
+      <pubDate>Tue, 14 Mar 2017 21:34:26 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/sketch-json/</guid>
+      <description>Bohemian Coding&amp;rsquo;s Sketch is a powerful design tool for MacOS, and a number of folks at my company, including me, use it daily. In the next version (43), Sketch will be switching to a JSON-based file format, which, among other things, means that Sketch files will become openly scriptable. Jasim A. Basheer captures how exciting this is:
+ Can you imagine what kind of new things will now be possible? One word: design automation (okay, two words!</description>
+    </item>
+    
+    <item>
+      <title>TypeShift, a New Word-Based Puzzle Game by Zach Gage, Launches March 18th</title>
+      <link>https://dreger.me/links/typeshift-trailer/</link>
+      <pubDate>Thu, 09 Mar 2017 21:54:21 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/typeshift-trailer/</guid>
+      <description>Zach Gage has an uncanny ability to design games that strike a near-perfect blend of challenge and fun. In my opinion, Mr. Gage is responsible for some of the best iOS games ever made, and his latest entry — TypeShift — looks ready to continue that reputation.
+Announced on Twitter and accompanied by a short trailer, TypeShift appears to be an anagram-like word puzzle, where the player must rearrange multiple columns of letters to form words across the center row.</description>
+    </item>
+    
+    <item>
+      <title>The C.I.A. Didn’t Break Encryption, but They Might Not Need To</title>
+      <link>https://dreger.me/links/wikileaks-cia-encryption/</link>
+      <pubDate>Wed, 08 Mar 2017 23:13:07 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/wikileaks-cia-encryption/</guid>
+      <description>Yesterday, WikiLeaks’ Twitter account posted the following:
+ WikiLeaks #Vault7 confirms CIA can effectively bypass Signal + Telegram + WhatsApp + Confide encryption https://wikileaks.org/ciav7p1
+ The link in that tweet takes you to a WikiLeaks’ press release, where the organization details their latest leak, “Vault 7”: 8,761 documents supposedly outlining a vast number of secret C.I.A. hacking tools and methods. The data dump covers 2013 to 2016, and WikiLeaks is calling it, “the largest ever publication of confidential documents on the agency.</description>
+    </item>
+    
+    <item>
+      <title>‘Breath of the Wild’ Reviews Roundup</title>
+      <link>https://dreger.me/links/breath-of-the-wild-reviews/</link>
+      <pubDate>Tue, 07 Mar 2017 22:30:19 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/breath-of-the-wild-reviews/</guid>
+      <description>Released last week, The Legend of Zelda: Breath of the Wild is not only Nintendo’s debut title for the Switch, but also now one of Metacritic’s highest rated video games. Breath of the Wild currently holds the #4 spot, with a score of 98, based on 71 critical reviews. Here’s what some of those reviewers are saying:
+Arthur Gies, Polygon:
+ I guess, in the end, it’s not just that Breath of the Wild signals that Zelda has finally evolved and moved beyond the structure it’s leaned on for so long.</description>
+    </item>
+    
+    <item>
+      <title>Tweaked Trending Topics Now Show Stories by Region</title>
+      <link>https://dreger.me/links/tweaked-trending-topics/</link>
+      <pubDate>Thu, 26 Jan 2017 20:40:09 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/tweaked-trending-topics/</guid>
+      <description>Laura Sydell, NPR, reporting on Facebook’s recent change to its Trending topics algorithm:
+ As of Wednesday, the company has once again changed its trending algorithms. Personal preferences are now out of the equation. &amp;ldquo;Facebook will no longer be personalized based on someone&amp;rsquo;s interests,&amp;rdquo; Facebook says in a press release. &amp;ldquo;Everyone in the same region will see the same topics.&amp;rdquo; For now, a region is considered a country, so everyone in the U.</description>
+    </item>
+    
+    <item>
+      <title>The Facebook Journalism Project</title>
+      <link>https://dreger.me/links/facebook-journalism-project/</link>
+      <pubDate>Thu, 19 Jan 2017 23:13:16 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/facebook-journalism-project/</guid>
+      <description>Fidji Simo, Director of Product at Facebook, recently announcing a large, coordinated effort to bolster Facebook&amp;rsquo;s ability to collect, verify, and distribute online news. They&amp;rsquo;re calling it the Facebook Journalism Project, and Mr. Simo categorized the various efforts of the project into three areas: collaborative development of news products, training and tools for journalists, and training and tools for everyone.
+Predictably, a number of the efforts deal with helping journalists better understand and use Facebook products.</description>
+    </item>
+    
+    <item>
+      <title>Google Goes After Interstitial Ads</title>
+      <link>https://dreger.me/links/google-interstitial-ads/</link>
+      <pubDate>Thu, 19 Jan 2017 21:10:09 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/google-interstitial-ads/</guid>
+      <description>Eric Brantner, on the recent update to Google&amp;rsquo;s page rank algorithm, which targets overly obnoxious interstitial ads on mobile:
+ Google is targeting what they call “problematic transitions,” and gave three specific examples of pages that would be affected. The first is pages that show a pop up that opens right after a user clicks a link or as they scroll through a page, hiding the page’s content. Also affected are pages that show an interstitial ad that must be closed out before the user gets to their desired content and pages that keep content “under the fold” with an interstitial on the top of the page.</description>
+    </item>
+    
+    <item>
+      <title>Malleable, Modifiable, MacOS</title>
+      <link>https://dreger.me/links/rhyne-on-trucks/</link>
+      <pubDate>Mon, 09 Jan 2017 21:55:15 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/rhyne-on-trucks/</guid>
+      <description>Rob Rhyne, in his aforementioned essay:
+ My thinking goes like this: I can borrow someone else’s phone if I need to make a call, but I want my Mac if I need to do any sort of deep thinking. This feeling of personalization runs deep in a desktop operating system. It’s much more than wallpaper, or color schemes. My Mac is loaded with software and utilities that I have written custom for my specific use.</description>
+    </item>
+    
+    <item>
+      <title>Courier Prime Code</title>
+      <link>https://dreger.me/links/courier-prime-code/</link>
+      <pubDate>Mon, 09 Jan 2017 21:44:09 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/courier-prime-code/</guid>
+      <description>I&amp;rsquo;m a sucker for a monospaced font with decent italics, and Courier Prime Code hits the sweet spot. Available for free, which is, well, much cheaper than that other typeface I&amp;rsquo;d like to own.
+(Found near the end of Rob Rhyne&amp;rsquo;s excellent essay on the virtues of MacOS.)</description>
+    </item>
+    
+    <item>
+      <title>Obama’s Final Year in Photographs</title>
+      <link>https://dreger.me/links/white-house-year-in-photos/</link>
+      <pubDate>Sat, 07 Jan 2017 13:20:02 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/white-house-year-in-photos/</guid>
+      <description>Pete Souza, Chief White House Photographer, presents his eighth and final collection of photographs from this year at the White House. Mr. Souza:
+ As always, the editing for this project is both subjective and personal. Yes, there are some historic moments included but mostly I was looking for behind-the-scenes moments that give people a more personal look at the President and First Lady. And I’ve included a few that I thought were just cool photos.</description>
+    </item>
+    
+    <item>
+      <title>A Literary Look at Video Games</title>
+      <link>https://dreger.me/links/reading-the-game/</link>
+      <pubDate>Tue, 13 Dec 2016 19:45:55 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/reading-the-game/</guid>
+      <description>Jason Sheehan, writing for NPR&amp;rsquo;s new &amp;ldquo;Reading The Game&amp;rdquo; series, which looks to cover &amp;ldquo;some of the best, wildest, most moving or revealing stories&amp;rdquo; in video games. To kick things off, Mr. Sheehan starts with No Man&amp;rsquo;s Sky:
+ On the one side, there&amp;rsquo;s the built-in story of the game, which is just terrible. At worst, it is incomprehensible spacey-spaceman gibberish about ancient civilizations and lost artifacts. And at it&amp;rsquo;s best, it ain&amp;rsquo;t much better — failing on many basic levels to tell a meta-story about the in-game universe being a simulation (which, you know, it is) where the player (also called &amp;ldquo;the Traveler&amp;rdquo;) is tasked by its creator to explore his way to the center of everything, essentially making the player a kind of galactic-level landlord checking in on all the tenants.</description>
+    </item>
+    
+    <item>
+      <title>Human Computer Interaction</title>
+      <link>https://dreger.me/links/toasted/</link>
+      <pubDate>Tue, 13 Dec 2016 18:55:34 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/toasted/</guid>
+      <description>Mark Wilson, Fast Company, writing about cooking with the $1,500 June smart oven:
+ This salmon had become more distracting to babysit than if I’d just cooked it on my own. This salmon had become a metaphor for Silicon Valley itself. Automated yet distracting. Boastful yet mediocre. Confident yet wrong. Most of all, the June is a product built less for you, the user, and more for its own ever-impending perfection as a platform.</description>
+    </item>
+    
+    <item>
+      <title>Tiny Wings for Apple TV Teaser</title>
+      <link>https://dreger.me/links/tiny-wings-apple-tv/</link>
+      <pubDate>Tue, 13 Dec 2016 18:28:36 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/tiny-wings-apple-tv/</guid>
+      <description>No one does creative and quirky video game trailers like Andreas Illiger. Be sure to check out the videos he did for Tiny Wings&amp;rsquo; original launch in 2011 and 2.0 update a year later.</description>
+    </item>
+    
+    <item>
+      <title>No Man&#39;s Sky 1.1: The Foundation Update</title>
+      <link>https://dreger.me/links/no-mans-sky-foundation/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/no-mans-sky-foundation/</guid>
+      <description>A massive update to No Man&amp;rsquo;s Sky, after several months of radio silence from developer Hello Games. Philippa Warr, Rock Paper Shotgun:
+ No Man’s Sky&amp;rsquo;s [official site] Foundation update was released over the weekend bringing base-building, different game modes, farming, freighters (kind of mobile resource warehouses), new resources, UI tweaks and so on. It’s a massive update, both in terms of what it brings and also in the sense that it feels like it changes the nature of the game.</description>
+    </item>
+    
+    <item>
+      <title>Silicon Valley’s Empathy Vacuum</title>
+      <link>https://dreger.me/links/silicon-valley-empathy/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/silicon-valley-empathy/</guid>
+      <description>Om Malik, The New Yorker:
+ Whether self-driving cars and trucks, drones, privatization of civic services like transportation, or dynamic pricing, all these developments embrace automation and efficiency, and abhor friction and waste. As Erik Brynjolfsson, a professor at the M.I.T. Sloan School of Management, told MIT Technology Review, “Productivity is at record levels, innovation has never been faster, and yet at the same time, we have a falling median income and we have fewer jobs.</description>
+    </item>
+    
+    <item>
+      <title>Reviewing Games You Haven’t Played</title>
+      <link>https://dreger.me/links/pre-review/</link>
+      <pubDate>Tue, 22 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/pre-review/</guid>
+      <description>Stephen Totilo, writing for Kotaku:
+ People who pre-order games digitally on Xbox One and PlayStation 4 have been earning themselves an unadvertised and easily abused perk: the ability to rate, and sometimes review, video games that they have yet to play and aren’t even out yet. As a result, both online stores are full of star-ratings for games that haven’t been released. The Xbox One, which supports user reviews, displays dozens of user reviews written by people who haven’t played the games.</description>
+    </item>
+    
+    <item>
+      <title>Keep Angry, Stay Frosty</title>
+      <link>https://dreger.me/links/keep-angry/</link>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/keep-angry/</guid>
+      <description>Leyla Acaroglu, in a piece for Quartz:
+ Our actions or inaction help determine the direction the world takes. If we quickly accept a new normalized state of being in order to avoid the discomfort of being frustrated or angry, we put ourselves in a dangerous position of inaction. If you let your mind say that everything will be okay, tune out, and coast back to a relaxed state of mind, no change is ever going to come of the world.</description>
+    </item>
+    
+    <item>
+      <title>iPhone 7</title>
+      <link>https://dreger.me/notes/iphone-7/</link>
+      <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/iphone-7/</guid>
+      <description>I imagine one of the most difficult parts of writing an iPhone review is that you have to carefully tease apart the capabilities of new hardware from nuances of new software. Inevitably, one always influences the other. For the past ten years, Apple has been iterating on the narrative that hardware and software should provide a seamless experience. The iPhone 7 is the most tightly edited, polished version of this idea yet.</description>
+    </item>
+    
+    <item>
+      <title>How Video Games Are Changing the Way Soccer Is Played</title>
+      <link>https://dreger.me/links/more-than-a-game/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/more-than-a-game/</guid>
+      <description>Rory Smith for the New York Times:
+ Before his first few appearances as a teenage striker for Arsenal, Alex Iwobi used to cast his eye over the names of the opposition team, trying to identify his direct opponent.
+  In most cases, he would find himself up against a player he had never faced. His manager, Arsène Wenger, and Arsenal’s coaching staff would offer counsel, but in lieu of experience Iwobi also would turn to another trusted resource.</description>
+    </item>
+    
+    <item>
+      <title>The Nintendo Switch</title>
+      <link>https://dreger.me/links/nintendo-switch/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/nintendo-switch/</guid>
+      <description>Nintendo&amp;rsquo;s doubling down on the gamepad + screen combination, and their successor to the Wii U looks like they&amp;rsquo;ve finally got it right. Well, maybe not right — we don&amp;rsquo;t even know the specs or price yet — but the Switch seems far more functionally fascinating than it&amp;rsquo;s predecessor. I&amp;rsquo;m particularly intrigued with the two wireless slide-out controllers, which mirror button layouts to allow for two-player play.
+My main concern relates to build quality, and whether the constant attaching / detaching of controllers and screen will feel like a premium experience.</description>
+    </item>
+    
+    <item>
+      <title>New Logo and Identity for Pandora</title>
+      <link>https://dreger.me/links/pandoras-new-logo/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/pandoras-new-logo/</guid>
+      <description>Who&amp;rsquo;s had a worse 2016: Donald Trump, the Samsung Galaxy Note 7, or company logos that use serif wordmarks?</description>
+    </item>
+    
+    <item>
+      <title>When it Comes to Security Design, Stop Trying to Fix the User</title>
+      <link>https://dreger.me/links/usable-security/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/usable-security/</guid>
+      <description>Bruce Schneier, cybersecurity expert and fellow at the Berkman Center for Internet and Society at Harvard:
+ The problem isn&amp;rsquo;t the users: it&amp;rsquo;s that we&amp;rsquo;ve designed our computer systems&amp;rsquo; security so badly that we demand the user do all of these counterintuitive things. Why can&amp;rsquo;t users choose easy-to-remember passwords? Why can&amp;rsquo;t they click on links in emails with wild abandon? Why can&amp;rsquo;t they plug a USB stick into a computer without facing a myriad of viruses?</description>
+    </item>
+    
+    <item>
+      <title>Tools and Toys’ Joshua Ginter Reviews the iPhone 7 Plus</title>
+      <link>https://dreger.me/links/ginter-iphone-7-plus/</link>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/ginter-iphone-7-plus/</guid>
+      <description>I&amp;rsquo;m curious which you find more enjoyable: Mr. Ginter&amp;rsquo;s writing or his product photography. I appreciate his skill in both.
+Regarding the review, I was somewhat relieved to see Mr. Ginter reference something I&amp;rsquo;ve noticed on my own iPhone 7:
+ On occasion, I’ve found the iPhone 7 Plus’ A10 Fusion chip to be too fast for the new home button. iOS will begin to return to the home screen before I can double press the button to bring up the multi-tasking app switcher.</description>
+    </item>
+    
+    <item>
+      <title>Sony PlayStation VR Has Comfortable Fit, Palatable Price, but Lacks Compelling Games</title>
+      <link>https://dreger.me/links/nyt-playstation-vr/</link>
+      <pubDate>Wed, 05 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/nyt-playstation-vr/</guid>
+      <description>Brian X. Chen, writing for the NYT:
+ But for the average consumer, the thrill of virtual-reality gaming with PlayStation VR may be fleeting. Initially, virtual reality will probably mesmerize you because it’s so unlike any gaming experience you have ever had. But the scarce number of good games available today, combined with the fatigue you will experience after 30 minutes of game play, may drive you back to gaming on your smartphone or television screen.</description>
+    </item>
+    
+    <item>
+      <title>‘When good enough is great’</title>
+      <link>https://dreger.me/links/the-verge-playstation-vr/</link>
+      <pubDate>Wed, 05 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/the-verge-playstation-vr/</guid>
+      <description>Adi Robertson, reviewing the Sony PlayStation VR for The Verge:
+ All this adds up to a system that is, more than anything else, good enough. There’s no one game that justifies buying PlayStation VR, and no technical breakthrough that will revolutionize how you experience the medium. But it offers a balanced, interesting launch catalog and a headset that’s a joy to wear, with weak points that hurt the system but don’t cripple it.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Launches Twitch Prime</title>
+      <link>https://dreger.me/links/twitch-prime/</link>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/twitch-prime/</guid>
+      <description>Alice O&amp;rsquo;Connor, reporting for Rock Paper Shotgun:
+ Twitch Prime is an expansion of, and eventual replacement for, Twitch’s Turbo scheme. Twitch Prime includes Turbo benefits like storing broadcasts for 60 days, exclusive emotes, and removing ads, then throws in extras. Twitch Prime members will get a new freebie every month, like free games or cosmetic guff for free-to-play games. They also get a free month’s subscription to one channel every month (which means access to things like subs-only streams) and the channel still gets paid for it, which is nice.</description>
+    </item>
+    
+    <item>
+      <title>Alto’s Adventure Adds Haptic Feedback</title>
+      <link>https://dreger.me/links/altos-haptic-feedback/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/altos-haptic-feedback/</guid>
+      <description>Mobile game developer and creator of popular Alto&amp;rsquo;s Adventure, Snowman:
+ Thanks to the expanded Taptic Engine, we’ve been able to pinpoint exciting moments in a run and tie them to more precise vibrational feedback. Now, you’ll feel a nice jolt of satisfaction upon collecting a wayward llama or sliding over an ice boost. The golden burst of a super coin or powdery landing of a huge combo will hopefully be a little more thrilling.</description>
+    </item>
+    
+    <item>
+      <title>Blizzard to Transition Away From Battle.net Name</title>
+      <link>https://dreger.me/links/dropping-battlenet/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/dropping-battlenet/</guid>
+      <description>Blizzard Entertainment, regarding the deprecation and diversification of what was once collectively called Battle.net:
+ Battle.net technology will continue to serve as the central nervous system for Blizzard games—nothing is changing in that regard. We&amp;rsquo;ll just be referring to our various products and services using the Blizzard name instead. You&amp;rsquo;ve already seen this recently with things like &amp;ldquo;Blizzard Streaming&amp;rdquo; and &amp;ldquo;Blizzard Voice,&amp;rdquo; and more changes are on the way.
+ I always thought Battle.</description>
+    </item>
+    
+    <item>
+      <title>The Résumés of Designer News</title>
+      <link>https://dreger.me/links/designer-news-resumes/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/designer-news-resumes/</guid>
+      <description>If you’ve ever wanted to see how designers approach their résumés, there are a number of good examples in this thread.</description>
+    </item>
+    
+    <item>
+      <title>Campo Santo Teams Up With Good Universe to Create ‘Firewatch’ Film</title>
+      <link>https://dreger.me/links/firewatch-film/</link>
+      <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/firewatch-film/</guid>
+      <description>Details are sparse, but here&amp;rsquo;s Rebecca Ford for The Hollywood Reporter:
+ Good Universe is teaming with independent video game developer and publishing company Campo Santo to develop content for both video games and feature films. The companies will create a home for talent to develop projects that can bridge both the video game and feature film worlds. Their first project with be a film adaptation of Campo Santo’s first video game, Firewatch.</description>
+    </item>
+    
+    <item>
+      <title>Having Only Missed My Target Publish Date by a Year, Here Are Some Brief Thoughts and Observations on Apple Watch</title>
+      <link>https://dreger.me/notes/apple-watch/</link>
+      <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/apple-watch/</guid>
+      <description>Editor&amp;rsquo;s note: Just over a year ago, I purchased an Apple Watch and intended to write up some thoughts and observations. That draft then made its way into a soup of other text files, and I eventually forgot about it. However, this past week, I stumbled back across my old notes, and given the recent launch of Apple Watch Series Two, I thought it would be fun to publish my thoughts on the previous model.</description>
+    </item>
+    
+    <item>
+      <title>Adobe: ‘A New Kind of Font: A Variable Font’</title>
+      <link>https://dreger.me/links/variable-fonts/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/variable-fonts/</guid>
+      <description>Tim Brown, Head of Typography for Adobe Tyepkit and Adobe Type:
+ Just minutes ago, at the ATypI conference in Warsaw, the world was introduced to a new kind of font: a variable font. Jointly developed by Apple, Google, Microsoft, and Adobe, a variable font is, as John Hudson put it, “a single font file that behaves like multiple fonts”. Imagine a single font file gaining an infinite flexibility of weight, width, and other attributes without also gaining file size — and imagine what this means for design.</description>
+    </item>
+    
+    <item>
+      <title>Introducing OpenType and Variable Fonts</title>
+      <link>https://dreger.me/links/hudson-variable-fonts/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/hudson-variable-fonts/</guid>
+      <description>John Hudson penned a joint announcement for Microsoft, Google, Apple, and Adobe, introducing the variable font format, which is set to be introduced with OpenType 1.8. Medium tells me the whole piece takes about 23 minutes to read, so I&amp;rsquo;ve gone ahead and picked out some of the better bits:
+   The technology behind variable fonts is officially called OpenType Font Variations. It has been jointly developed by Microsoft, Google, Apple, and Adobe, in an unprecedented collaborative effort also involving technical experts from font foundries and font tool developers.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft: Introducing OpenType Font Variations</title>
+      <link>https://dreger.me/links/microsoft-variable-fonts/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/microsoft-variable-fonts/</guid>
+      <description>To close us out for the night, here&amp;rsquo;s co-creator of OpenType itself, Microsoft:
+ Today, we are announcing the biggest enhancement to OpenType since the OpenType specification was first released nineteen years ago: OpenType Font Variations. [&amp;hellip;]
+Variable fonts will also give document creators a broad palette of typographic features without having to manage hundreds of font files. Variable fonts are all about doing more with less. [&amp;hellip;]
+The Windows engineering team at Microsoft is actively engaged in implementing platform support for OpenType Font Variations for release in an update to Windows in 2017.</description>
+    </item>
+    
+    <item>
+      <title>‘What it’s like to be lost inside developing a game’</title>
+      <link>https://dreger.me/links/kennedy-preorders/</link>
+      <pubDate>Sun, 11 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/kennedy-preorders/</guid>
+      <description>Alexis Kennedy, founder of Failbetter Games, wrote a great piece on the psychology of indie studios as they develop then launch their games. He interweaves his own experience with the presumed mindset at Hello Games, which results in a sound and empathetic take on No Man&amp;rsquo;s Sky&amp;rsquo;s launch.
+The whole piece is worth a read, but this bit about buying games stuck out to me:
+ IT HAS NEVER BEEN EASIER TO FIND OUT EXACTLY WHAT A GAME IS LIKE ON LAUNCH DAY, AND IF YOU HAVE ANY DOUBTS, YOU CAN WAIT A WEEK AND YOU CAN BE ABSOLUTELY SURE.</description>
+    </item>
+    
+    <item>
+      <title>Warning: This Page Is Not Secure</title>
+      <link>https://dreger.me/links/this-page-is-not-secure/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/this-page-is-not-secure/</guid>
+      <description>Somewhat buried by all the news surrounding Apple&amp;rsquo;s recent product event, Google announced that it will be using Chrome&amp;rsquo;s strength in the browser market to push for HTTPS everywhere. This will come in the form of, eventually, all HTTP pages being labeled with red Not secure messages in the address bar. Emily Schechter, for the Chrome Security Team:
+ Studies show that users do not perceive the lack of a “secure” icon as a warning, but also that users become blind to warnings that occur too frequently.</description>
+    </item>
+    
+    <item>
+      <title>Apple – Don’t Blink</title>
+      <link>https://dreger.me/links/dont-blink/</link>
+      <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/dont-blink/</guid>
+      <description>Fun, thumping supercut of all the announcements from today&amp;rsquo;s Apple event. The tight editing, upbeat tiempo, and typography are similar to Apple&amp;rsquo;s 40 Years in 40 Seconds video, released earlier this year, but this new one feels more youthful. My favorite bit: &amp;ldquo;Oh yeah and the headphone jack from over 100 years ago has been removed (shocker)&amp;quot;.
+(The heavier San Francisco weight looks great too.)
+Update: This spot was done by NYC-based creative studio Gretel.</description>
+    </item>
+    
+    <item>
+      <title>What to Expect at Tomorrow’s PlayStation Meeting</title>
+      <link>https://dreger.me/links/playstation-meeting/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/playstation-meeting/</guid>
+      <description>Polygon&amp;rsquo;s Allegra Frank has a good roundup of all the rumors and expectations for tomorrow&amp;rsquo;s PlayStation event.</description>
+    </item>
+    
+    <item>
+      <title>The Economist Style Guide: Commas</title>
+      <link>https://dreger.me/links/economist-quotes/</link>
+      <pubDate>Sun, 04 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/economist-quotes/</guid>
+      <description>A well-reasoned and concise policy, although I disagree with leniency on the serial comma.</description>
+    </item>
+    
+    <item>
+      <title>Orphaned Words in Headlines</title>
+      <link>https://dreger.me/links/headliner/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/headliner/</guid>
+      <description>I find headlines with orphaned words visually unappealing, so AF headlines are pre-processed to add a non-breaking space between the last two words. Now instead of this:
+U.S Broadband Speeds Reach New High  I get:
+U.S Broadband Speeds Reach New High  I have both a Liquid implementation (for pre-processing in Jekyll) and a JavaScript version (for post-processing in any webpage). Check them out, and let me know if you have any ideas for improvements or other languages.</description>
+    </item>
+    
+    <item>
+      <title>No Man’s Sky Is Not the New Destiny</title>
+      <link>https://dreger.me/notes/no-mans-sky-is-not-destiny/</link>
+      <pubDate>Wed, 31 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/no-mans-sky-is-not-destiny/</guid>
+      <description>I have a few problems with Ben Kuchera&amp;rsquo;s recent piece for Polygon titled, No Man’s Sky is the new Destiny. I don&amp;rsquo;t believe the comparison is fair or offers a realistic insight into the future of NMS.
+Mr. Kuchera starts with:
+ We gave it [No Man&amp;rsquo;s Sky] a six. Here is our original review of Destiny. We gave it a six as well. The version of Destiny that exists now, around two years after its original release, is barely recognizable to vanilla Destiny players.</description>
+    </item>
+    
+    <item>
+      <title>PlayStation Plus&#43;&#43;</title>
+      <link>https://dreger.me/links/ps-plus/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/ps-plus/</guid>
+      <description>PlayStation Plus (PS+) fees now matches that of Xbox Live Gold. Starting September 22, PS+ will cost $59.99 for a year (up $10) and $24.99 for three months (up $5). The monthly plan will stay the same at $9.99.
+Here&amp;rsquo;s Greg Lewickyj, writing for the PlayStation Blog, in not a new post, but an update to an article from last month:
+ This marks the first time that PS Plus membership prices will increase in the U.</description>
+    </item>
+    
+    <item>
+      <title>NPR.org Ditches Comments</title>
+      <link>https://dreger.me/links/npr-comments/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/npr-comments/</guid>
+      <description>Elizabeth Jenson, NPR:
+ More than half of all comments in May, June and July combined came from a mere 2,600 users. The conclusion: NPR&amp;rsquo;s commenting system — which gets more expensive the more comments that are posted, and in some months has cost NPR twice what was budgeted — is serving a very, very small slice of its overall audience. [&amp;hellip;]
+  Other organizations such as The New York Times manage to keep their comments relatively civil.</description>
+    </item>
+    
+    <item>
+      <title>NYT Now Is No More</title>
+      <link>https://dreger.me/links/nytnow-no-more/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/nytnow-no-more/</guid>
+      <description>Sydney Ember, reporting for the New York Times, on the shuttering of NYT Now:
+ But the app never quite took off as The Times had hoped, and last year, it transitioned from subscription to free in the hopes that the new model might give The Times more of an opportunity to expand its audience. [..]
+  At its peak, in May 2015, NYT Now had 334,000 total unique users.</description>
+    </item>
+    
+    <item>
+      <title>Pour One Out for Vesper</title>
+      <link>https://dreger.me/links/vesper/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/vesper/</guid>
+      <description>Speaking of apps that are going away, next up is Vesper, an iOS note taking app from Q Branch. Reading through the release notes, it seems Q Branch itself — comprised of well-known writer John Gruber, developer Brent Simmons, and designer Dave Wiskus — will also be shutting down within the next month.
+I stopped using Vesper about a year ago, but it was a well-designed little app. I really dug the typography, and it&amp;rsquo;s syncing engine was fast and superbly thought out.</description>
+    </item>
+    
+    <item>
+      <title>No Man’s Sky Review</title>
+      <link>https://dreger.me/notes/no-mans-sky/</link>
+      <pubDate>Sat, 13 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/no-mans-sky/</guid>
+      <description>In 1969, the world followed Apollo 11 as it ascended into our atmosphere and transcended our perceived notions of American achievement.
+Despite the eventual success of that mission, President Nixon was not aloof to the potential for tragedy. In a speech titled, “In the Event of a Moon Disaster,” Nixon&amp;rsquo;s speechwriter Bill Safire penned the following lines:
+ In ancient days, men looked at stars and saw their heroes in the constellations.</description>
+    </item>
+    
+    <item>
+      <title>Average U.S. Broadband Download Speeds Pass 50 Mbps for First Time</title>
+      <link>https://dreger.me/links/us-broadband-gets-better/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/us-broadband-gets-better/</guid>
+      <description>This year&amp;rsquo;s Ookla Speedtest Market Report:
+ The data from the first six months of 2016 is in; the internet in the United States has gotten faster. Fixed broadband customers have seen the biggest jump in performance with download speeds achieving an average of over 50 Mbps for the first time ever. This improvement is more than a 40% increase since July 2015.
+ Any progress is good news, particularly for the U.</description>
+    </item>
+    
+    <item>
+      <title>Pro Evolution Soccer Looks to Steal FIFA’s Crown</title>
+      <link>https://dreger.me/links/pes-vs-fifa/</link>
+      <pubDate>Fri, 05 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/pes-vs-fifa/</guid>
+      <description>Sean Clever, GameSpot:
+ With the FIFA series moving to a new engine, EA&amp;rsquo;s franchise is in a transitional year. This means PES has the first chance since its PS2 heyday to become the most popular football game. The decision not mess with what works means PES 2017 has a strong foundation, and the new minor adjustments look to be strengthening it. This could be the year.
+ Maybe, but I doubt it.</description>
+    </item>
+    
+    <item>
+      <title>The Next Web’s Review of the Xbox One S Controller</title>
+      <link>https://dreger.me/links/xbox-one-s-controller/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/xbox-one-s-controller/</guid>
+      <description>New design, better connectivity, built-in Bluetooth. Looks nice. For an extra $20, you can order a color-customized version, but the default colors look perfectly acceptable to my eyes.
+The original Xbox One may have been an ugly black box, but Microsoft&amp;rsquo;s controller designs have repeatedly outdistanced Sony&amp;rsquo;s own attempts. This latest iteration continues the trend.</description>
+    </item>
+    
+    <item>
+      <title>Web Design in 4 Minutes</title>
+      <link>https://dreger.me/links/thomas-web-design/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/thomas-web-design/</guid>
+      <description>Most &amp;ldquo;Learn X thing in Y minutes&amp;rdquo; articles are crap, but this one from Jeremy Thomas is well done. I like how the page design evolves as you move from topic to topic.</description>
+    </item>
+    
+    <item>
+      <title>The History of the URL</title>
+      <link>https://dreger.me/links/history-of-the-url/</link>
+      <pubDate>Mon, 18 Jul 2016 22:19:20 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/history-of-the-url/</guid>
+      <description>Contextual, in-depth look at the URL and its failed alternatives. Zack Bloom, writing for the Eager company blog:
+ In the world of web applications, it can be a little odd to think of the basis for the web being the hyperlink. It is a method of linking one document to another, which was gradually augmented with styling, code execution, sessions, authentication, and ultimately became the social shared computing experience so many 70s researchers were trying (and failing) to create.</description>
+    </item>
+    
+    <item>
+      <title>Rocket League: The Vinyl Collection</title>
+      <link>https://dreger.me/links/rocket-league-vinyl/</link>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/rocket-league-vinyl/</guid>
+      <description>Creative agency iam8bit put together some very clever graphic designs for Rocket League&amp;rsquo;s vinyl debut. I&amp;rsquo;m not crazy about the actual music, but that album art is tempting.
+Still has nothing on their Monument Valley vinyl, though.</description>
+    </item>
+    
+    <item>
+      <title>No Man’s Sky Just Went Gold</title>
+      <link>https://dreger.me/links/no-mans-sky-is-finished/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/no-mans-sky-is-finished/</guid>
+      <description>Big news from a tiny game studio, and a welcome announcement after hearing the June launch was delayed until August.</description>
+    </item>
+    
+    <item>
+      <title>World War Tech</title>
+      <link>https://dreger.me/links/tech-war/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/tech-war/</guid>
+      <description>Nick Bilton, for Vanity Fair:
+ It doesn’t take a political scientist to see that the world is on edge. And technology, we often forget, undergirds this political reality. The Internet and innovation have made cultures around the globe collide with historically unprecedented force. With the exception of perhaps a handful of rogue states, like North Korea, we all now eat at the same McDonald’s, use the same iPhones and discuss the same hot-button topics on the same social networks.</description>
+    </item>
+    
+    <item>
+      <title>Elie Wiesel Dies at 87</title>
+      <link>https://dreger.me/links/elie-wiesel/</link>
+      <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/elie-wiesel/</guid>
+      <description>Joseph Berger for the New York Times:
+ Elie Wiesel, the Auschwitz survivor who became an eloquent witness for the six million Jews slaughtered in World War II and who, more than anyone else, seared the memory of the Holocaust on the world’s conscience, died on Saturday at his home in Manhattan. [&amp;hellip;]
+  “He raised his voice, not just against anti-Semitism, but against hatred, bigotry and intolerance in all its forms,” [President Obama] said Saturday in a statement.</description>
+    </item>
+    
+    <item>
+      <title>On Removing the Headphone Jack</title>
+      <link>https://dreger.me/notes/headphone-jack/</link>
+      <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/headphone-jack/</guid>
+      <description>The Wall Street Journal reported two things: 1.) Apple will be moving to a two-year cycle for major iPhone hardware updates, and 2.) the next iPhone won&amp;rsquo;t have a headphone jack.
+And then a majority of the tech press lost its mind. Not so much about the two-year thing, more about the ditching of a 50 year-old standard. It reminds me of when Steve Jobs put the nail in the coffin of Flash on iOS.</description>
+    </item>
+    
+    <item>
+      <title>DuckDuckGo!</title>
+      <link>https://dreger.me/links/ddg/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/ddg/</guid>
+      <description>DuckDuckGo, the privacy-focused search engine, just announced a new partnership with Yahoo. This partnership isn&amp;rsquo;t necessarily new, perhaps more renewed, as DuckDuckGo has utilized Yahoo&amp;rsquo;s BOSS (Build Your Own Search Service) API for years. That said, I wasn&amp;rsquo;t sure what DuckDuckGo was going to do when Yahoo announced it was discontinuing the BOSS API earlier this year.
+Now we know.
+DuckDuckGo will continue to get results, and a few extra features like date filtering on results, from Yahoo by way of a custom integrations between each service.</description>
+    </item>
+    
+    <item>
+      <title>Shutting Down Facebook Paper</title>
+      <link>https://dreger.me/links/paper-doll/</link>
+      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/paper-doll/</guid>
+      <description>A year ago, Facebook announced a new News Feed that was completely redesigned to focus on content–it had large photos, big user icons, better integration with Facebook messenger, and it brought Facebook’s website into closer alignment with its mobile apps. It was beautiful. During the few months I was able to use the new design, my Facebook experience was significantly better. Here’s what it looked like:
+ That&amp;rsquo;s Dustin Curtis, back in 2014, in a post titled &amp;ldquo;Whatever goes up, that&amp;rsquo;s what we do.</description>
+    </item>
+    
+    <item>
+      <title>A Small Exchange With Solebon LLC</title>
+      <link>https://dreger.me/notes/solebon-interview/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/solebon-interview/</guid>
+      <description>A couple of months ago, I noticed that iOS word game Letterpress appeared to have changed owners from Loren Brichter&amp;rsquo;s Atebits to Solebon LLC. After some time had passed, I reached out to Solebon to get a little more information about the acquisition. We had a short exchange of emails, and that conversation is below.
+ K.Q. Dreger: What can you tell me about the acquisition of Letterpress?
+Solebon LLC: Solebon acquired Letterpress from Atebits in December 2015.</description>
+    </item>
+    
+    <item>
+      <title>Interview: Loren Brichter</title>
+      <link>https://dreger.me/notes/brichter-letterpress-interview/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/brichter-letterpress-interview/</guid>
+      <description>After noticing that Letterpress had been sold to Solebon LLC, I reached out to Atebit&amp;rsquo;s founder and sole proprietor, Loren Brichter. After we waited a few weeks to let things settle down, Mr. Brichter agreed to do a small interview over email. What follows is our conversation about selling Letterpress, iOS, and developing on the web.
+ K.Q. Dreger: Hello, Loren. Thanks for agreeing to do this interview. I&amp;rsquo;ll cut right to the chase: Why decide to sell Letterpress?</description>
+    </item>
+    
+    <item>
+      <title>Not Yet</title>
+      <link>https://dreger.me/notes/not-yet/</link>
+      <pubDate>Sun, 26 Jun 2016 15:16:10 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/not-yet/</guid>
+      <description>Ben Brooks and Michael Rockwell both brought up the topic of going iOS only, and the maintenance that goes into tuning and running MacOS (née OS X). Brooks:
+ I lost 30 minutes to just managing my Mac that morning.
+  Yet my iPad was just there, did it’s job and stayed the hell out of my way, and never once demanded I do housekeeping on it. The apps update in the background.</description>
+    </item>
+    
+    <item>
+      <title>A Look at Pixar’s New Short Film ‘Piper’</title>
+      <link>https://dreger.me/links/pixar-piper/</link>
+      <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/pixar-piper/</guid>
+      <description>Sabrina Imbler, writing for Audubon:
+ To create Piper, Barillaro and his entire team entered the Sanderlings’ world. They spent weekends on beaches all over the Bay Area, meeting at 5 a.m. on a dusty road under a bridge in search of the birds. “Half of us were chasing around different beaches and calling each other on cell phones until we found a flock we could get close to,” Barillaro says.</description>
+    </item>
+    
+    <item>
+      <title>The Legend of ‘Open’</title>
+      <link>https://dreger.me/links/zelda-open-world/</link>
+      <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/zelda-open-world/</guid>
+      <description>&amp;ldquo;I prefer not to use the generally used term &amp;lsquo;open world&amp;rsquo; when developing software, but we used this term [at E3] in order to make it easier for consumers to understand. This term means that there is a large world in which players can do numerous things daily.&amp;rdquo;
+ That&amp;rsquo;s Shigeru Miyamoto at Nintendo&amp;rsquo;s latest shareholders meeting, reported on by Lucy O&amp;rsquo;Brien, for IGN.
+ With this said, Miyamoto does not hesitate to call Zelda&amp;rsquo;s new world &amp;ldquo;vast.</description>
+    </item>
+    
+    <item>
+      <title>NPR’s Text-Only Website</title>
+      <link>https://dreger.me/links/thin-npr/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/thin-npr/</guid>
+      <description>An alternative to the main, graphical version of NPR.org, and about 625x lighter (three separate, cache cleared refreshes have 1.3 Kb vs 813 Kb). More sites should offer something like this.</description>
+    </item>
+    
+    <item>
+      <title>Medium Now Supports RSS</title>
+      <link>https://dreger.me/links/superfeedr-medium-rss/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/superfeedr-medium-rss/</guid>
+      <description>Julien Genestoux, founder of recently-acquired-by-Medium Superfeedr, on enabling full-content RSS for Medium publications and users:
+ As we want the open web to remain strong, we were delighted to find that the folks at Medium share the same values. And we think that Superfeedr&amp;rsquo;s acquisition is a powerful indicator of Medium&amp;rsquo;s support for open protocols. As an example of this, my first commit at Medium was to enable full content RSS feeds both for publications and users (available in your settings).</description>
+    </item>
+    
+    <item>
+      <title>The Billionaire’s Typewriter</title>
+      <link>https://dreger.me/links/billionaires-typewriter/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/billionaires-typewriter/</guid>
+      <description>Matthew Butterick:
+ But by the end, I re­al­ized I dis­agree deeply with Medium about the ethics of de­sign. And by ethics, I mean some­thing sim­ple: though Medium and I are both mak­ing tools for writ­ers, what I want for writ­ers and what Medium wants couldn’t be more dif­fer­ent.
+ And later:
+ In truth, Medium’s main prod­uct is not a pub­lish­ing plat­form, but the pro­mo­tion of a pub­lish­ing plat­form. This pro­mo­tion brings read­ers and writ­ers onto the site.</description>
+    </item>
+    
+    <item>
+      <title>Firewatch Review</title>
+      <link>https://dreger.me/notes/firewatch/</link>
+      <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/firewatch/</guid>
+      <description>Via Campo Santo.   
+Firewatch is a short game. It only takes a couple of hours to play through, and there isn&amp;rsquo;t a lot of replayability. Over the course of three days, an hour or two a night, my wife and I played Firewatch to completion.
+We purchased and played Firewatch on our PS4. At times, I noticed small performance dips, particularly in areas with an overabundance of trees (sigh, foliage), but those moments were few and far between, and I&amp;rsquo;ve read that a future patch will address performance issues.</description>
+    </item>
+    
+    <item>
+      <title>Firewatch Launches Tomorrow on PS4, Windows, Mac, and Linux for $19.99</title>
+      <link>https://dreger.me/links/firewatch/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/firewatch/</guid>
+      <description>I&amp;rsquo;ve been looking forward to this game for two years, and it&amp;rsquo;s almost here. I&amp;rsquo;ll be covering the reviews that get released today, but I&amp;rsquo;ll omit anything from my commentary or the pull-quotes that might spoil unreleased details about the game.
+For the unaware, Firewatch is the first game from Panic-backed game studio, Campo Santo. Aside from the art style, which looks incredible, I&amp;rsquo;m most excited to work my way through the story.</description>
+    </item>
+    
+    <item>
+      <title>For $15, Firewatch for PC Will Develop and Ship Your In-Game Photos</title>
+      <link>https://dreger.me/links/firewatch-photos/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/firewatch-photos/</guid>
+      <description>John Walker, writing for Rock Paper Shotgun:
+ At a certain point you find a disposable cardboard camera with most of its film still available, and are encouraged by Delilah to take some snaps of anything you find interesting. And it’s worth doing so, because as well as a nice little surprise toward the end, once you’ve filled your film a menu option becomes available to have them processed and delivered to your real-world house as glossy photographs.</description>
+    </item>
+    
+    <item>
+      <title>Letterpress Now Owned by Solebon LLC</title>
+      <link>https://dreger.me/links/letterpress-solebon/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/letterpress-solebon/</guid>
+      <description>In non-Firewatch related news, it appears that Letterpress, a critically-acclaimed iOS word game from Loren Brichter&amp;rsquo;s Atebits, is now under the ownership of Solebon LLC.
+Letterpress, which got updated to version 1.6 today, now lists Solebon LLC as the seller, and the official Letterpress website has been updated to reflect this change in ownership:
+ Letterpress® is now part of the Solebon family!
+  The Solebon team will be working on many fronts over the next few months to evolve Letterpress.</description>
+    </item>
+    
+    <item>
+      <title>PCWorld’s Review of Firewatch: 3/5</title>
+      <link>https://dreger.me/links/firewatch-reviews/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/firewatch-reviews/</guid>
+      <description>Last one for the night. Hayden Dingman, covering the game for PCWorld:
+ Firewatch is beautiful. Firewatch is intriguing. But ultimately I don&amp;rsquo;t think Firewatch is very good. At its best, this is a quiet game about two characters struggling with real-life insecurities. But when that&amp;rsquo;s sidelined to make room for a main plot, Firewatch suffers. It&amp;rsquo;s a game perfect for trailers, a game full of excellent dialogue and breathtaking moments and stunning vistas that ultimately amounts to nothing much at all.</description>
+    </item>
+    
+    <item>
+      <title>Polygon’s Review of Firewatch: 8.5/10</title>
+      <link>https://dreger.me/links/polygon-firewatch/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/polygon-firewatch/</guid>
+      <description>Colin Campbell, reporting for Polygon:
+ Delilah and Henry represent an emerging trend in games, of paired characters who are individually and collectively simpatico but who struggle with their own anxieties and with one another&amp;rsquo;s perceived shortcomings. Their relationship has form and shape, though it shimmers and shifts as the story progresses.
+  These two characters are written with a conviction and authenticity rarely seen in video games. Neither of them is idealized, not even for a second.</description>
+    </item>
+    
+    <item>
+      <title>The Guardian’s Review of Firewatch: 4/5</title>
+      <link>https://dreger.me/links/guardian-firewatch-review/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/guardian-firewatch-review/</guid>
+      <description>Notes on spoilers: Although my comments and pull-quotes below are spolier-free, the Guardian&amp;rsquo;s review reveals a number of plot details for Firewatch. If you want to go into the game completely fresh, save the full piece for later this week.
+The Guardian&amp;rsquo;s Nathan Ditum, in his review of Firewatch:
+ The writing is not just believable, it is likeable and funny. Henry and Delilah’s exchanges are full of the familiar tug and tarry of people getting to know each other, of playing and of flirting, and of reaching out to feel less alone.</description>
+    </item>
+    
+    <item>
+      <title>‘So is San Francisco really the perfect system font for Apple’s products? It’s complicated.’</title>
+      <link>https://dreger.me/links/martiancraft-san-francisco/</link>
+      <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/martiancraft-san-francisco/</guid>
+      <description>MartianCraft&amp;rsquo;s Nick Keppol wrote two incredibly detailed posts on the typographic strengths and weaknesses of Apple&amp;rsquo;s new sans-serif typeface. Part one looks at San Francisco in contrast with Lucida Grande, Helvetica Neue, and DIN. Part two focuses on San Francisco&amp;rsquo;s various weights, with particular interest paid to the nuances between San Francisco UI, Text, and Compact.
+I have a non-Retina Macbook Pro, and the general legibility of OS X was dramatically increased after I upgraded to El Capitan.</description>
+    </item>
+    
+    <item>
+      <title>Obama Pledges $4 Billion in Funding for Computer Science Education in Schools</title>
+      <link>https://dreger.me/notes/computer-science-in-education/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/computer-science-in-education/</guid>
+      <description>Davey Alba, reporting for Wired:
+ Under the president’s plan, the Department of Education will divide the $4 billion over three years to states that propose well-designed five-year plans to increase computer science access in classrooms. Along with billions in federal funding, the initiative also includes commitments from philanthropists and some of the country’s largest tech companies to help increase opportunities for computer science training, especially for underrepresented groups.
+ The medium is the message, and almost all of today&amp;rsquo;s messages are delivered through the medium of computational devices.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Kindle Update</title>
+      <link>https://dreger.me/links/kindle-update/</link>
+      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/kindle-update/</guid>
+      <description>Looks like a solid improvement, particularly when it comes to navigating the UI via touch. However, the increased focus on social media and &amp;ldquo;Sharing Made Easy&amp;rdquo; is concerning. My Kindle is one of few devices where I can consume media without distraction. In this regard, I&amp;rsquo;m OK with new social channels through which to send content, but if the Kindle ever starts receiving notifications, I&amp;rsquo;ll be in a personal hell.</description>
+    </item>
+    
+    <item>
+      <title>Angry, Sad, Wow, Haha, Like and Love</title>
+      <link>https://dreger.me/links/facebook/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/facebook/</guid>
+      <description>Sarah Frier, reporting for Bloomberg Businessweek, wrote an excellent profile on Facebook&amp;rsquo;s Chief Product Officer Chris Cox and upcoming Facebook Reactions. In addition to profiling Cox, Frier also underscores the whole story with Cox&amp;rsquo;s latest project: Facebook Reactions—an attempt to extend the ubiquitous and iconic blue thumbs-up:
+ The like button is the engine of Facebook and its most recognized symbol. A giant version of it adorns the entrance to the company’s campus in Menlo Park, Calif.</description>
+    </item>
+    
+    <item>
+      <title>Google’s AlphaGo AI Defeats Reigning European Go Champion</title>
+      <link>https://dreger.me/links/alphago-masters-go/</link>
+      <pubDate>Tue, 26 Jan 2016 16:41:23 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/alphago-masters-go/</guid>
+      <description>First off, this has nothing to do with Go, Google’s programming language (also referred to as Golang to prevent confusion). Rather, Google has developed a Go-playing AI that went 5-0 against reigning 3-time European champion, Fan Hui. Google’s David Silver and Demis Hassabis, writing for the Google Research Blog:
+ We first trained the policy network on 30 million moves from games played by human experts, until it could predict the human move 57% of the time (the previous record before AlphaGo was 44%).</description>
+    </item>
+    
+    <item>
+      <title>Web Inspector Turns 10</title>
+      <link>https://dreger.me/links/10-years-of-web-inspector/</link>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/10-years-of-web-inspector/</guid>
+      <description>Safari&amp;rsquo;s Web Inspector turned every website into an interactive blueprint, and I spent hours exploring all the code that powered my favorite websites. Having access to that information was instrumental in me getting started with web design.</description>
+    </item>
+    
+    <item>
+      <title>Alan Rickman Dies at 69</title>
+      <link>https://dreger.me/links/alan-rickman-dies/</link>
+      <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/alan-rickman-dies/</guid>
+      <description>After &amp;ldquo;Harry Potter&amp;rdquo; hit theaters, my imaginary, book-based version of Severus Snape was replaced with Alan Rickman. As I read, and reread, my way through Harry Potter, I remember Snape&amp;rsquo;s dialogue taking on Rickman&amp;rsquo;s permeating, apathetic tone. For me, Rickman made the books better.
+Many people will remember Rickman for his role in Die Hard or his stage performances, but I, and I suspect many of my peers, will remember him as one of the &amp;ldquo;best damn antagonists&amp;rdquo; our generation could ask for.</description>
+    </item>
+    
+    <item>
+      <title>Outsource Your Googling</title>
+      <link>https://dreger.me/links/jelly/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/jelly/</guid>
+      <description>Biz Stone, on the &amp;ldquo;un-pivot&amp;rdquo; relaunch of Jelly, his Q&amp;amp;A social network:
+ Back in the day, folks would turn to friends with questions. Then came the web and search engines. These days most of us go straight to a search engine. Increasingly, people are asking on social media (which can sometimes be awkward). We think there is another way to get high quality answers without sifting through an ocean of “results.</description>
+    </item>
+    
+    <item>
+      <title>Fitbit HR Review Transcript</title>
+      <link>https://dreger.me/notes/fitbit-hr-review/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/fitbit-hr-review/</guid>
+      <description>The Fitbit HR is a good fitness tracker. It&amp;rsquo;s comfortable, has acceptable battery life, and the software is easy to use. Although the Fitbit HR device only shows your information, the accompanying app can show aggregated data from your friends, which provides passive, and surprisingly compelling, encouragement to log a few extra hundred steps.
+Dr. Christopher B. Durr and I wanted to record a review of our Fitbit HRs, but we couldn&amp;rsquo;t find time to do so.</description>
+    </item>
+    
+    <item>
+      <title>The Hollywood Reporter’s Hour With Ridley Scott, Tarantino, and More</title>
+      <link>https://dreger.me/links/filmaking-roundtable/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/links/filmaking-roundtable/</guid>
+      <description>A roundtable on filmmaking, with the filmmakers. Scott is incredibly measured, Tarantino is quintessentially eccentric, and I enjoyed whenever the discussion turned to them talking about their own writing.</description>
+    </item>
+    
+    <item>
+      <title>TextEdit</title>
+      <link>https://dreger.me/notes/textedit/</link>
+      <pubDate>Mon, 14 Dec 2015 12:44:48 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/textedit/</guid>
+      <description>Can we take a moment to thank the folks at Apple for TextEdit? I’m serious. There is no shortage of text editors for OS X, yet I find myself continually coming back to TextEdit. It’s fast, simple, open source 1, and every Mac has a copy preinstalled. Pick out a nice monospaced font, and I think you have a challenger for even the most minimalistic of writing interfaces.
+Apple’s OS X apps tend get a lot of criticism, but after 10 years and tens of thousands of words, I have yet to have a major issue with TextEdit.</description>
+    </item>
+    
+    <item>
+      <title>Kerbal Space Program: To the Moon</title>
+      <link>https://dreger.me/notes/kerbal-space-program/</link>
+      <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/kerbal-space-program/</guid>
+      <description>&lt;p&gt;&lt;em&gt;By guest editor, Christopher B. Durr.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard —John F. Kennedy&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This famous quote by Jack is one of my favorites and one that I think we often forget to remember. President Kennedy, of course, was talking about what would become the U.S. space program. A program that involved strapping human beings to giant stacks of fuel and launching them 230,000+ miles away from home, in a time when computers were the size of rooms. Hard – I might have picked a different word.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Don’t Read More, Read Different</title>
+      <link>https://dreger.me/notes/start/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/start/</guid>
+      <description>&lt;p&gt;&lt;em&gt;By guest editor, Christopher B. Durr.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do you want to be a better scientist? Study architecture, cooking, economics, mechanics. Go outside your field and ask questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That&amp;rsquo;s some of the best advice I have ever been given. Too often we view the same sites on the Internet over and over again &lt;em&gt;ad nauseam&lt;/em&gt;. Facebook, news, e-mail, rinse and repeat. The news is great for information but short on inspiration. Here are some of my favorite sites to get you thinking (about something else).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>On Budgeting</title>
+      <link>https://dreger.me/notes/budgeting/</link>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/budgeting/</guid>
+      <description>At its core, budgeting is setting aside money from each paycheck to go towards a specific goal or category of expenses. That&amp;rsquo;s it. You get paid, you give those dollars a job, and then you only spend whatever you have saved for a particular category. To give you an idea of what this looks like, here are some of the categories that my wife and I have set up for our budget:</description>
+    </item>
+    
+    <item>
+      <title>Something Audacious</title>
+      <link>https://dreger.me/notes/something-audacious/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/notes/something-audacious/</guid>
+      <description>For a while now, I have wanted to stop writing at kyledreger.com.
+I love writing, and I think it helps me work through my own thoughts. However, I have always wanted to write in a place that didn&amp;rsquo;t scream &amp;ldquo;me.&amp;rdquo; I wanted a place where I could grow the brand beyond myself.
+Some thoughts:
+ This is the web column I want to read. It will feature articles and musings at the intersection of art and technology.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Acquires WhatsApp</title>
+      <link>https://dreger.me/links/facebook-acquires-whatsapp/</link>
+      <pubDate>Tue, 18 Mar 2014 20:26:03 -0500</pubDate>
+      
+      <guid>https://dreger.me/links/facebook-acquires-whatsapp/</guid>
+      <description>Interesting choice of words from WhatsApp founder Jan Koum on the company&amp;rsquo;s blog:
+ If partnering with Facebook meant that we had to change our values, we wouldn&amp;rsquo;t have done it. Instead, we are forming a partnership that would allow us to continue operating independently and autonomously. Our fundamental values and beliefs will not change. Our principles will not change. Everything that has made WhatsApp the leader in personal messaging will still be in place.</description>
+    </item>
+    
+    <item>
+      <title>Front Page Design, Part Two</title>
+      <link>https://dreger.me/notes/front-page-design-part-two/</link>
+      <pubDate>Tue, 14 Jan 2014 16:59:43 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/front-page-design-part-two/</guid>
+      <description>Editor&amp;rsquo;s note (2018): Since the original publishing, I&amp;rsquo;ve changed my mind a few times on what makes a good front page. Ultimately, I&amp;rsquo;ve settled on the staggeringly simple opinion of &amp;ldquo;it depends&amp;rdquo; and &amp;ldquo;know your audience&amp;rdquo;. Shocking.
+Following my post on The Front Page, I had a good email conversation with my buddy, Nick Heer. Our conversation brought up some more ideas regarding page design, and I wanted to expand on them here.</description>
+    </item>
+    
+    <item>
+      <title>Front Page Design</title>
+      <link>https://dreger.me/notes/front-page-design/</link>
+      <pubDate>Mon, 06 Jan 2014 11:52:55 -0500</pubDate>
+      
+      <guid>https://dreger.me/notes/front-page-design/</guid>
+      <description>Editor&amp;rsquo;s note (2018): Since the original publishing, I&amp;rsquo;ve changed my mind a few times on what makes a good front page. Ultimately, I&amp;rsquo;ve settled on the staggeringly simple opinion of &amp;ldquo;it depends&amp;rdquo; and &amp;ldquo;know your audience&amp;rdquo;. Shocking.
+I&amp;rsquo;ve been toying with how best to structure the front page of sites that have a focus on writing. The front page is the first impression — a digital handshake — and ensuring it conveys your content in a way you want is extremely important.</description>
+    </item>
+    
+    <item>
+      <title>Masthead</title>
+      <link>https://dreger.me/masthead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dreger.me/about.html</guid>
-      <description>These pages are run out of my own pocket and in my spare time. What it lacks in regularity is hopefully made up for in quality.
+      <guid>https://dreger.me/masthead/</guid>
+      <description>Hi. I&amp;rsquo;m K.Q. Dreger. These pages are run out of my own pocket and in my spare time. What it lacks in regularity is hopefully made up for in quality.
 The sparse design is intentional. I&amp;rsquo;m prone to tinker with the layout, grids, colors, typography. But by keeping things simple, I&amp;rsquo;m more likely to actually write.
 (Also, “Kyle” is fine—I just sign my name KQ. My favorite authors all went by first-initial-middle-initial-last-name, and I really like that style.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://dreger.me/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/projects/</guid>
+      <description>Edit for iOS Edit is a tasteful place to write. Think of it as a single page of paper, not a notebook. You get a single note, and whatever you leave in the app will be there when you get back. Once you’re done writing, you can send or save your text to anywhere in iOS via the Share Sheet.
+Style Guide Audacious Fox follows the New York Times Manual of Style in most cases, and our own in-house version in all others.</description>
+    </item>
+    
+    <item>
+      <title>Terms &amp; Privacy Policy</title>
+      <link>https://dreger.me/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dreger.me/privacy/</guid>
+      <description>Short and sweet:
+ You use this website and everything hosted here at your own risk. Anything you download to your computer is also done so at your own risk. All linked to websites are thoroughly vetted; however, if you visit anything not hosted at audaciousfox.net, the liability changes to adhere to those listed in the privacy policy and terms of that website.  Ads I do not run any third-party advertisements.</description>
     </item>
     
   </channel>

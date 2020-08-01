@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="">
+  <title>
+  The C.I.A. Didn’t Break Encryption, but They Might Not Need To
+</title>
+  <meta name="author" content="K.Q. Dreger">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  
+  
+  <meta name="Description" content="Yesterday, WikiLeaks’ Twitter account posted the following:
+ WikiLeaks #Vault7 confirms CIA can effectively bypass Signal &#43; Telegram &#43; WhatsApp &#43; Confide encryption https://wikileaks.org/ciav7p1
+ The link in that tweet takes you to a WikiLeaks’ press release, where the organization details their latest leak, “Vault 7”: 8,761 documents supposedly outlining a vast number of secret C.I.A. hacking tools and methods. The data dump covers 2013 to 2016, and WikiLeaks is calling it, “the largest ever publication of confidential documents on the agency....">
+  <meta itemprop="description" content="Yesterday, WikiLeaks’ Twitter account posted the following:
+ WikiLeaks #Vault7 confirms CIA can effectively bypass Signal &#43; Telegram &#43; WhatsApp &#43; Confide encryption https://wikileaks.org/ciav7p1
+ The link in that tweet takes you to a WikiLeaks’ press release, where the organization details their latest leak, “Vault 7”: 8,761 documents supposedly outlining a vast number of secret C.I.A. hacking tools and methods. The data dump covers 2013 to 2016, and WikiLeaks is calling it, “the largest ever publication of confidential documents on the agency....">
+  <meta property="og:title" content="The C.I.A. Didn’t Break Encryption, but They Might Not Need To"/>
+  <meta property="og:description" content="Yesterday, WikiLeaks’ Twitter account posted the following:
+ WikiLeaks #Vault7 confirms CIA can effectively bypass Signal &#43; Telegram &#43; WhatsApp &#43; Confide encryption https://wikileaks.org/ciav7p1
+ The link in that tweet takes you to a WikiLeaks’ press release, where the organization details their latest leak, “Vault 7”: 8,761 documents supposedly outlining a vast number of secret C.I.A. hacking tools and methods. The data dump covers 2013 to 2016, and WikiLeaks is calling it, “the largest ever publication of confidential documents on the agency...."/>
+  <meta property="og:site_name" content="K.Q. Dreger"/>
+  <meta property="og:url" content="https://dreger.me/links/wikileaks-cia-encryption"/> 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dreger" />
+  
+  
+
+  <link rel="canonical" href="https://dreger.me/links/wikileaks-cia-encryption" />
+
+
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
+
+  
+  <link rel="stylesheet" href="https://dreger.me/d.min.963f947225d4fc3c8d655ebb20eb8abb3e502c7652013c2e2dcacabf5860e688.css">
+
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
+  <script async src="//static.getclicky.com/js"></script>
+</head>
+<body>
+  <main>
+    <a href="/" class="post__author">
+      <span class="post__author__image"></span>
+      
+    </a>
+    
+    
+    <div class="column">
+      
+
+    
+
+  	
+    <h2><a href='https://www.washingtonpost.com/world/national-security/wikileaks-says-it-has-obtained-trove-of-cia-hacking-tools/2017/03/07/c8c50c5c-0345-11e7-b1e9-a05d3c21f7cf_story.html'>The C.I.A. Didn’t Break Encryption, but They Might Not Need To</a></h2>
+    
+
+
+    
+
+  	<p>Yesterday, WikiLeaks’ Twitter account <a href="https://twitter.com/wikileaks/status/839120909625606152">posted the following</a>:</p>
+<blockquote>
+<p>WikiLeaks #Vault7 confirms CIA can effectively bypass Signal + Telegram + WhatsApp + Confide encryption
+<a href="https://wikileaks.org/ciav7p1">https://wikileaks.org/ciav7p1</a></p>
+</blockquote>
+<p>The link in that tweet takes you to a WikiLeaks’ press release, where the organization details their latest leak, “Vault 7”:  8,761 documents supposedly outlining a vast number of secret C.I.A. hacking tools and methods. The data dump covers 2013 to 2016, and WikiLeaks is calling it, “the largest ever publication of confidential documents on the agency.”</p>
+<p>From this dump, the most reported bits are related to dozens of exploits and malware the C.I.A. is claimed to have used in targeting smart devices and operating systems. To start, there’s “Weeping Angel”, an attack aimed at Samsung smart TVs:</p>
+<blockquote>
+<p>After infestation, Weeping Angel places the target TV in a &lsquo;Fake-Off&rsquo; mode, so that the owner falsely believes the TV is off when it is on. In &lsquo;Fake-Off&rsquo; mode the TV operates as a bug, recording conversations in the room and sending them over the Internet to a covert CIA server.</p>
+</blockquote>
+<p>That’s another hard hit against smart TVs, which only seem to get press for creepy privacy violations. Last month, <a href="https://www.consumer.ftc.gov/blog/vizio-settlement-smart-tvs-should-not-track-your-shows-without-your-ok">VIZIO agreed to settle charges</a> that unauthorized tracking of user’s watching habits violated the law. Next month, I can only assume we’ll read about smart TVs that secretly analyze the best times for telemarketers to robocall you.</p>
+<p>Also heavily reported in the leak were details about C.I.A.-created malware that was used to infect iOS and Android devices:</p>
+<blockquote>
+<p>These techniques permit the CIA to bypass the encryption of WhatsApp, Signal, Telegram, Wiebo, Confide and Cloackman by hacking the &ldquo;smart&rdquo; phones that they run on and collecting audio and message traffic before encryption is applied.</p>
+</blockquote>
+<p>The above pull quote, coupled with the aforementioned @WikiLeaks’ tweet, are where I want to focus for the moment.</p>
+<p>There’s nothing insignificant about the information WikiLeaks released, but it’s deceiving to say the C.I.A. “can effectively bypass Signal + Telegram + WhatsApp + Confide encryption”. The named apps, and their underlying encryption, were not compromised; the device itself was. Encrypted messaging app Telegram <a href="http://telegra.ph/Wikileaks-Vault7-NEWS">detailed the difference</a> in a blog post, emphasis theirs:</p>
+<blockquote>
+<p>This is not an app issue. It is relevant on the level of <strong>devices</strong> and <strong>operating systems</strong> like iOS and Android. For this reason, naming any particular app in this context is <strong>misleading</strong>.</p>
+</blockquote>
+<p>Even the <em>New York Times</em> failed to clarify this distinction, and <a href="https://twitter.com/nytimes/status/839161021369573378">deleted the original tweet to their story</a>, in order to “provide more context”. The deleted tweet:</p>
+<blockquote>
+<p>WikiLeaks release said CIA managed to bypass encryption on popular services such as Signal, WhatsApp, and Telegram</p>
+</blockquote>
+<p>The <a href="https://twitter.com/nytimes/status/839160771674255360">new one</a>, emphasis mine:</p>
+<blockquote>
+<p>WikiLeaks release said CIA managed to bypass encryption in mobile apps <em>by compromising the entire phone</em></p>
+</blockquote>
+<p><a href="https://www.washingtonpost.com/world/national-security/wikileaks-says-it-has-obtained-trove-of-cia-hacking-tools/2017/03/07/c8c50c5c-0345-11e7-b1e9-a05d3c21f7cf_story.html">Greg Miller and Ellen Nakashima</a>, of the <em>Washington Post</em>, got it right:</p>
+<blockquote>
+<p>In a statement, WikiLeaks said the files enable the agency to bypass popular encryption-enabled applications — including <a href="https://www.washingtonpost.com/world/national-security/whatsapp-the-messaging-service-announces-full-encryption-on-all-platforms/2016/04/05/80f071f6-fb3e-11e5-9140-e61d062438bb_story.html">WhatsApp</a>, Signal and Telegram — used by millions of people to safeguard their communications.</p>
+</blockquote>
+<blockquote>
+<p>But experts said that rather than defeating the encryption of those applications, the CIA’s methods rely on exploiting vulnerabilities in the devices on which they are installed, a method referred to as “hacking the endpoint.”</p>
+</blockquote>
+<p>This distinction might appear to be an issue of semantics. If my “phone” is compromised, what does it matter if it’s the OS or the apps? However, understanding the difference between a <em>compromised device</em> and <em>broken encryption</em> is important. Encryption is hard, if not impossible, to break. The fact that the C.I.A. is now resorting to and focusing on device-level attacks only indicates the strength of our current encryption methods.</p>
+<p>That said, a phone running malware-infested iOS or Android offers the same protection as letting a stranger use your device unlocked; encryption matters little if the attacker can see every keypress before it’s been encrypted. WikiLeaks noted multiple of these device-level exploits, 14 for iOS alone, classifying them as undisclosed vulnerabilities or “zero days”.</p>
+<!-- raw HTML omitted -->
+<p>This all seems incredibly serious, but how authentic are these documents? Yesterday, the <em>New York Times</em> <a href="https://www.nytimes.com/2017/03/07/world/europe/wikileaks-cia-hacking.html">asked the C.I.A.</a>, but a spokesman, Dean Boyd, said, “We do not comment on the authenticity or content of purported intelligence documents.” However, also yesterday, when asked about the leak, Apple provided a statement to <a href="http://www.recode.net/2017/3/8/14854726/apple-security-wikileaks-cia-documents">April Glaser</a> at <em>Recode</em>, indicating that some of the noted iOS vulnerabilities did exist:</p>
+<blockquote>
+<p>While our initial analysis indicates that many of the issues leaked today were already patched in the latest iOS, we will continue work to rapidly address any identified vulnerabilities. We always urge customers to download the latest iOS to make sure they have the most recent security updates.</p>
+</blockquote>
+<p>8,761 documents is a lot of data to dig through, so expect the reverberations of this leak to continue for a while. However, if the documents are genuine, it appears the C.I.A. has been slowly strengthening its ability to gain unauthorized access to any number of smartphones and devices, with intent to capture private data before it’s been encrypted. Unless you’re a journalist, work in government, or are simply unlucky, there’s a chance you haven’t been targeted. At this point though, it’s hard to say with any certainty to what extent or how often these tools have been used.</p>
+<p>In the meantime, basic security advice still stands: update all your software and operating systems to the latest versions, enable <a href="https://twofactorauth.org">two-factor authentication</a> for your primary email address and important online accounts, and continue to rely on encrypted messaging apps for communicating sensitive information. These steps might not stop the C.I.A., but taking simple security seriously makes it harder on anyone without the resources of the United States government.</p>
+
+
+    
+      <p><a class="post__meta" href='https://dreger.me/links/wikileaks-cia-encryption'>Wednesday, 8 March 2017</a></p>
+
+      <hr>
+  
+      <p><strong>Older</strong><br><a href='https://dreger.me/links/breath-of-the-wild-reviews'>‘Breath of the Wild’ Reviews Roundup</a></p>
+
+      <div><strong>Newer</strong><br><a href='https://dreger.me/links/typeshift-trailer'>TypeShift, a New Word-Based Puzzle Game by Zach Gage, Launches March 18th</a></div>
+    
+
+    <hr>
+
+    <ul>
+	<li><a href="#">Twitter</a> and <a href="#">LinkedIn</a></li>
+
+<li><a href="https://dreger.me/masthead/">Masthead</a></li>
+
+<li><a href="https://dreger.me/projects/">Projects</a></li>
+
+<li><a href="https://dreger.me/privacy/">Terms &amp; Privacy Policy</a></li>
+
+</ul>
+
+
+    </div>
+  </main>
+</body>
+</html>

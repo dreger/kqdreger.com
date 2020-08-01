@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edit on K.Q. Dreger</title>
+    <link>https://dreger.me/tags/edit/</link>
+    <description>Recent content in Edit on K.Q. Dreger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jun 2018 19:04:48 -0400</lastBuildDate>
+    
+	<atom:link href="https://dreger.me/tags/edit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Edit</title>
+      <link>https://dreger.me/links/edit-for-ios/</link>
+      <pubDate>Tue, 05 Jun 2018 19:04:48 -0400</pubDate>
+      
+      <guid>https://dreger.me/links/edit-for-ios/</guid>
+      <description>Just over a year ago, I started working on a small iOS app for writers. I was tired of not having a focused, single-purpose place for drafting and editing important messages, emails, and text. I hated doing those things in Messages or Mail, and I avoided Notes because what I was writing didn&amp;rsquo;t need to be stored anywhere. All I wanted was a tasteful place to write.
+Well, I&amp;rsquo;ve finished, and next week I&amp;rsquo;m excited to ship Edit for iOS.</description>
+    </item>
+    
+  </channel>
+</rss>
