@@ -85,10 +85,11 @@ img {
   display: block;
   margin: 1.5rem 0;
   border-radius: 2px; 
-  width: 100%;
+  max-width: 100%;
 }
 
 em img {
+  width: 100%; 
   // width: var(--max-width); 
   // margin-left: calc(-1 * var(--padding));
   border-radius: 0; 

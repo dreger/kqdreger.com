@@ -8,19 +8,23 @@
   </url>
   
   <url>
-    <loc>https://dreger.me/categories.html</loc>
+    <loc>https://dreger.me/categories/</loc>
   </url>
   
   <url>
-    <loc>https://dreger.me/pages.html</loc>
+    <loc>https://dreger.me/edit/</loc>
   </url>
   
   <url>
-    <loc>https://dreger.me/tags.html</loc>
+    <loc>https://dreger.me/pages/</loc>
   </url>
   
   <url>
-    <loc>https://dreger.me/about.html</loc>
+    <loc>https://dreger.me/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dreger.me/about/</loc>
   </url>
   
 </urlset>
