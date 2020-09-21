@@ -22,10 +22,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@dreger" />
   {{ end }}
-  <!-- <link rel="alternate" type="application/rss+xml" href="/feeds/main.xml" /> -->
-
-  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7792012/css/fonts.css" />
-
+  
   {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
@@ -33,15 +30,7 @@
   <script async src="//static.getclicky.com/js"></script>
 </head>
 <body>
-  <main>
-    
-    <!-- <header class="header">
-      
-      <a class="header__logo" href="/">K.Q. Dreger</a>
-      <a class='{{ if hasPrefix .RelPermalink "/notes" }}active{{ end }}' href="/notes/">Blog</a>
-      <a class='{{ if eq .RelPermalink "/about/" }}active{{ end }}' href="/about/">About</a>
-      </header> -->
-    
+  <main>    
     <div class="column">
       {{ block "main" . }}{{ end }}
     </div>

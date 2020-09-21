@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "K.Q. Dreger"
 uglyurls = false
 publishDir = "docs"
+disableKinds = ["RSS", "taxonomy", "section"]
+ignoreErrors = ["error-disable-taxonomy"]
+
 [permalinks]
 	notes = "/:filename"
 	pages = "/:filename"
