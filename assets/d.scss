@@ -23,7 +23,7 @@
 ::selection { background-color: var(--faded); }
 * { box-sizing: border-box; } 
 html { 
-  font-size: 22px; 
+  font-size: 28px; 
 }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
@@ -80,6 +80,7 @@ main {
   :root {
     --padding: 1rem; 
   }
+  html { font-size: 18px; }
   main {
     margin: 0;
   }
