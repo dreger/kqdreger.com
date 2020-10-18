@@ -23,6 +23,9 @@
   <meta name="twitter:site" content="@dreger" />
   {{ end }}
   
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7600612/css/fonts.css" />
+
+
   {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
