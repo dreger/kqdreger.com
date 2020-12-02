@@ -5,6 +5,10 @@ uglyurls = false
 publishDir = "docs"
 disableKinds = ["RSS", "taxonomy", "section"]
 ignoreErrors = ["error-disable-taxonomy"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [permalinks]
 	notes = "/:filename"

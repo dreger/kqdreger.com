@@ -10,8 +10,8 @@
   --faded: #f1f1f1; 
   --faded-text: #757575; 
   --bg: #EBE7DD;
-  --bg: #fafafa; 
-  --font: "Decimal A", "Decimal B", Verdana, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, serif; 
+  --bg: #fff; 
+  --font: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, serif; 
   --font-weight-bold: 700; 
   --font-weight-regular: 400; 
   --max-width-column: 30rem;
@@ -23,7 +23,7 @@
 ::selection { background-color: var(--faded); }
 * { box-sizing: border-box; } 
 html { 
-  font-size: 28px; 
+  font-size: 20px; 
 }
 body {
   -webkit-font-smoothing: subpixel-antialiased;
@@ -36,18 +36,19 @@ body {
   padding: 0;
   line-height: 1.5; 
   text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+  letter-spacing: .02em;
 }
 h1,h2,h3,img,blockquote,ul,ol,p { margin: 0 0 1.5rem 0; }
 code { font-family: var(--font); }
 strong { font-weight: var(--font-weight-bold); }
 h1, h2, h3 { 
   line-height: 1.25em; 
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-regular);
   color: var(--text-heading); 
 }
 h1 { 
-  font-size: 1.563rem; 
-  margin-bottom: .5rem;
+  font-size: 2rem; 
   letter-spacing: -.01em;
 }
 
@@ -75,6 +76,12 @@ main {
   padding: var(--padding); 
 }
 
+.ppp {
+  max-width: 280px; 
+  padding-left: 1rem;
+  opacity: .8; 
+  float: right; 
+}
 
 @media (max-width: 52rem) {
   :root {
@@ -83,5 +90,8 @@ main {
   html { font-size: 18px; }
   main {
     margin: 0;
+  }
+  .ppp {
+    display: none;
   }
 }

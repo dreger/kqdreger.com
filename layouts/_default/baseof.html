@@ -23,14 +23,9 @@
   <meta name="twitter:site" content="@dreger" />
   {{ end }}
   
-  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7009134/7600612/css/fonts.css" />
-
-
   {{ $style := resources.Get "d.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101218772);</script>
-  <script async src="//static.getclicky.com/js"></script>
 </head>
 <body>
   <main>    
